@@ -1,0 +1,468 @@
+{
+  "vol": "VOL.01  NO.003",
+  "editor": "HUEY",
+  "counts": {
+    "total": 20,
+    "intl": 15,
+    "kr": 5
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "designboom",
+    "Architectural Record",
+    "ENR",
+    "KCTV5",
+    "KCUR",
+    "Hoodline",
+    "Archinect",
+    "국토교통부",
+    "서울신문",
+    "경인일보",
+    "이투데이",
+    "파이낸셜뉴스",
+    "뉴스핌",
+    "월간 SPACE"
+  ],
+  "teasers": [
+    {
+      "title": "캔자스시티, 역사보존 건물 지키고 데이터센터 계획 전원 부결",
+      "desc": "국가사적 건물 철거 막아낸 주민 반대편지 475통.",
+      "label": "PRESERVATION"
+    },
+    {
+      "title": "인천 쿠팡 물류센터 화재 한 달",
+      "desc": "피해신고 300건 넘어, 보상 협의 진행 중.",
+      "label": "DISASTER"
+    },
+    {
+      "title": "빌드너 '홈 오브 섀도스' 4회 수상작 발표",
+      "desc": "빛과 그림자를 주제로 한 국제 아이디어 공모전.",
+      "label": "AWARDS"
+    },
+    {
+      "title": "포항시립박물관 국제설계공모, 9월 접수 마감",
+      "desc": "대지면적 1만5천㎡, 결과는 9월 23일 발표.",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 초고층 주거",
+    "lede": "스튜디오 리베스킨드, 강남 대치동에 49층 6개 동 '셀레스티얼' 공개… 삼성물산 시공",
+    "lede_em": "49층 6개 동 '셀레스티얼'",
+    "image_label": "DEZEEN",
+    "body": [
+      "미국 건축사무소 **스튜디오 리베스킨드**가 국내 삼우설계·HJ디자인파트너스와 함께 서울 강남구 대치동 '대치쌍용 재건축'의 새 설계를 공개했다. 최고 **49층**, 총 6개 동으로 구성되며 기존 5개 동·**630세대** 규모 단지를 철거하고 약 **1,000세대** 규모로 새로 짓는다. 시공은 삼성물산이 맡는다.",
+      "설계 콘셉트는 '셀레스티얼(Celestial)'. 밝은 톤의 수직 파사드 요소들이 타워 외피를 감싸며 곡선 띠 패턴을 그리는데, 해가 움직이고 보는 사람의 위치가 바뀔 때마다 무늬가 회전하며 상승하는 듯한 인상을 주도록 설계했다. 스튜디오 리베스킨드 측은 입주민이 주변 경관과 연결되도록 하는 데 초점을 맞췄다고 밝혔다.",
+      "대치쌍용 재건축은 강남 한복판 노후 단지를 초고층 랜드마크로 탈바꿈시키는 사업으로, 공사는 **2027년 초** 착공해 **2030년** 준공을 목표로 한다. 해외 건축가와 국내 설계사가 공동으로 참여하는 강남권 재건축 사례가 이어지는 가운데, 스튜디오 리베스킨드의 서울 첫 대규모 주거 프로젝트로 주목받는다.",
+      "다니엘 리베스킨드가 이끄는 스튜디오 리베스킨드는 베를린 유대인박물관, 세계무역센터 마스터플랜 등으로 잘 알려진 해체주의 건축의 대표주자다. 날카로운 각과 파격적 매스로 대표되던 기존 작업과 달리, 이번 프로젝트는 곡선형 파사드 패턴을 전면에 내세운 점에서 사무소의 새로운 시도로 평가된다."
+    ],
+    "source": [
+      {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "Studio Libeskind designs Seoul skyscrapers as \"a living work of art\"",
+            "url": "https://www.dezeen.com/2026/07/15/daechi-ssangyong-studio-libeskind-seoul/"
+          }
+        ]
+      },
+      {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Studio Libeskind Designs New High-Density Residential Towers in Seoul",
+            "url": "https://www.archdaily.com/1148691/studio-libeskind-designs-new-high-density-residential-towers-in-seoul"
+          }
+        ]
+      }
+    ],
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image_label": "국토교통부",
+    "title": "국토부, 물류시설 화재안전 제도개선 TF 가동… 설계 단계부터 전면 재점검",
+    "body": [
+      "지난달 **7월 18일** 인천 서구 석남동 쿠팡 제32물류센터에서 발생한 대형 화재를 계기로 국토교통부가 **7월 20일** '물류시설 화재안전 제도개선 태스크포스(TF)'를 발족했다. 진화까지 **109시간 40분**이 걸린 이 화재는 6층 복층 메자닌 구조 선반에서 시작돼 소방관 진입이 어려웠던 것으로 파악됐다."
+    ],
+    "facts": [
+      "검토 범위: 물류시설 설계부터 운영·관리까지 전 과정 화재안전체계",
+      "핵심 쟁점: **메자닌**(복층 구조) 및 적층식 랙 전수조사",
+      "참여 기관: 행정안전부·소방청·건설기술연구원 + 건축·소방·방재 민간전문가",
+      "기존 기준: 창고시설 화재안전기준(NFTC 609, 2024년 시행) — 랙 높이 **3m**마다 스프링클러 헤드 추가 의무화"
+    ],
+    "body_after": [
+      "TF는 물류시설 특성을 반영한 건축구조·화재안전 기준 개선과 피난 동선을 고려한 소방시설 설치 방안을 검토할 방침이다. 대형 물류센터·창고 설계를 다루는 건축사·구조기술사는 향후 메자닌 구조와 스프링클러 배치 기준 변경 여부를 주시할 필요가 있다."
+    ],
+    "source": [
+      {
+        "outlet": "국토교통부",
+        "links": [
+          {
+            "text": "물류시설 화재안전 제도개선 TF 착수",
+            "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092239"
+          }
+        ]
+      },
+      {
+        "outlet": "파이낸셜뉴스",
+        "links": [
+          {
+            "text": "반복되는 물류센터 화재…강화된 기준에도 기존시설은 사각지대",
+            "url": "https://www.fnnews.com/news/202607201229505639"
+          }
+        ]
+      }
+    ],
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "보존 논쟁 · 데이터센터",
+      "title": "캔자스시티, 역사보존 건물 철거 막았다… 20층 데이터센터 계획 전원 부결",
+      "image_label": "KCTV5",
+      "body": [
+        "미국 캔자스시티 도시계획위원회가 다운타운 퀄리티힐 지구의 국가사적 등재 건물 '웨스턴 뉴스페이퍼 유니언 빌딩'을 철거하고 그 자리에 **384피트**(약 117m), **20층** 규모 데이터센터를 짓겠다는 개발 계획을 만장일치로 부결했다. 마이애미 소재 개발사가 제출한 이 계획은 소매 공간을 1층에만 남기고 나머지 전 층을 기계실로 채우는 사실상 순수 데이터센터 건물이었다.",
+        "**2007년** 국가사적지에 등재되고 10년이 채 안 돼 역사보존 세제 혜택으로 리모델링된 이 건물의 철거 계획에 주민들이 강하게 반발했다. 시 위원회에는 계획에 반대하는 편지 **475통**이 접수된 반면 찬성 서한은 단 한 통도 없었고, 공청회에는 주민 80여 명이 참석해 약 2시간 동안 반대 의견을 쏟아냈다.",
+        "보존 전문가들은 캔자스시티 다운타운 부활의 핵심 전략이었던 '오래된 건물의 적응적 재사용'이 데이터센터 붐에 밀려 흔들릴 수 있다고 경고해왔다. 이번 결정은 최근 미국 곳곳에서 벌어지는 '데이터센터 vs 역사보존' 갈등에서 보존 쪽이 승리한 사례로 주목받는다."
+      ],
+      "source": [
+        {
+          "outlet": "KCTV5",
+          "links": [
+            {
+              "text": "Kansas City Plan Commission blocks data center plan for historic Quality Hill site",
+              "url": "https://www.kctv5.com/2026/08/05/kansas-city-plan-commission-blocks-data-center-plan-historic-quality-hill-site/"
+            }
+          ]
+        },
+        {
+          "outlet": "KCUR",
+          "links": [
+            {
+              "text": "Kansas City officials denied a plan for downtown data center. Some residents vow to keep fighting",
+              "url": "https://www.kcur.org/housing-development-section/2026-08-10/kansas-city-officials-denied-a-plan-for-downtown-data-center-some-residents-vow-to-keep-fighting"
+            }
+          ]
+        },
+        {
+          "outlet": "Hoodline",
+          "links": [
+            {
+              "text": "20-Story Data Center Proposed At 934 Central Threatens Historic KC Building",
+              "url": "https://hoodline.com/2026/07/downtown-kc-landmark-on-chopping-block-for-20-story-data-tower/"
+            }
+          ]
+        }
+      ],
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "도시재생 · 공공공간",
+      "title": "MIAS 아키텍츠, 스페인 바뇰레스 옛 시가지 전역을 트래버틴으로 다시 깔다",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "스페인 MIAS 아키텍츠가 카탈루냐 바뇰레스 구시가지 정비 사업의 최신 단계를 완료했다. 지역에서 채석한 호수성 트래버틴을 도로 포장재부터 벤치·화단까지 전 영역에 일관되게 적용해, 중세 골목과 광장을 매끈한 판석과 거친 절단면이 번갈아 나타나는 하나의 연속된 보행 경관으로 재구성했다.",
+        "포장을 걷어내는 과정에서 드러난 옛 수로를 그대로 노출시켜 도시의 물길 흔적을 경관 요소로 살렸다. 돌의 결과 절단 방식은 바뇰레스의 건물 파사드·수로·지질을 참조해 설계됐으며, 식재·가구·포장이 하나의 연속된 공공 경관을 이루도록 계획했다.",
+        "이번 정비는 약 **30년 전** 최초 스케치에서 출발해 20년 전 1단계 공사를 거친 장기 프로젝트의 연장선이다. 도심 전체를 하나의 재료 언어로 통합하려는 시도가 여러 단계에 걸쳐 꾸준히 이어지고 있어, 유럽 소도시 도시재생의 장기 프로젝트 사례로 꼽힌다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "carved travertine transforms paving, furniture, and planting across spanish historic old town",
+            "url": "https://www.designboom.com/architecture/carved-travertine-transforms-paving-furniture-and-planting-across-spanish-historic-old-town/"
+          }
+        ]
+      },
+      "topic": "도시재생"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "완공 · 문화시설",
+      "title": "미국 대통령기념관 두 곳 동시 개관… 시카고와 노스다코타 배드랜즈",
+      "body": [
+        "톰 윌리엄스 빌리 치엔 아키텍츠가 설계한 **오바마 대통령센터**가 시카고 사우스사이드 잭슨파크 부지에 문을 열었다. **19.3에이커** 캠퍼스에 박물관·공공도서관 분관·체육시설·정원을 담았고 아카이브 기능은 두지 않았으며, **225피트** 높이 박물관 타워가 랜드마크를 이룬다. 노스다코타 메도라의 시어도어 루스벨트 대통령도서관은 스뇌헤타가 설계했으며, 다짐토(러밍 어스)와 매스팀버로 지어 배드랜즈 지형에 스며들도록 계획했다."
+      ],
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [
+          {
+            "text": "RECORD's Primer on U.S. Presidential Libraries",
+            "url": "https://www.architecturalrecord.com/articles/18328-records-primer-on-us-presidential-libraries"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "교육시설 · 포용적 디자인",
+      "title": "퍼킨스&윌, 중증 장애 학생 위한 보스턴 카터스쿨 설계 조명",
+      "body": [
+        "퍼킨스&윌이 설계한 보스턴 '윌리엄 E. 카터 스쿨'이 미국건축전문지 아키텍추럴 레코드의 지속교육 코너에 소개됐다. **3세부터 22세**까지 중증 인지·신체 장애와 복합 의료 요구를 가진 학생을 위한 학교로, 설계 과정에서 대면 워크숍이 어려워지자 학부모·교직원·학생이 **8일간** 매일 아침 2시간씩 화상회의로 요구사항을 조율했다."
+      ],
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [
+          {
+            "text": "Continuing Education: William E. Carter School",
+            "url": "https://www.architecturalrecord.com/articles/18333-continuing-education-william-e-carter-school"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "인프라 · 내진보강",
+      "title": "미 캘리포니아 앤더슨댐, 28억 달러 규모 7년 내진 재건축 착공 준비",
+      "body": [
+        "산타클라라밸리수자원국이 앤더슨댐 내진 재건축 공사 계약(**18억 8,000만 달러**)을 발주했다. **235피트** 높이 댐은 지진 시 액상화로 제방이 붕괴할 위험이 있다는 판단에 따라 **2020년**부터 저수량을 약 **3%** 수준으로 제한해왔다. **2027년** 초 착공해 약 **7년간** 진행되며, 총사업비는 **28억 달러** 규모로 미국 최대 댐 안전 프로젝트 중 하나로 꼽힌다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "California's $2.8B Anderson Dam Seismic Rebuild Moves Into Construction",
+            "url": "https://www.enr.com/articles/63390-californias-28b-anderson-dam-seismic-rebuild-moves-into-construction"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "시공 기술 · 교량",
+      "title": "피츠버그, 1만 톤 교량을 스키드 시스템으로 102피트 슬라이딩 이설",
+      "body": [
+        "피츠버그 커머셜스트리트 교량 신설 공사에서 시공사가 **42개** 독립 제어 스키드 슈로 구성된 유압 시스템을 이용해 **2,200만 파운드**(약 1만 톤) 규모 교량 구조체를 임시 지지대에서 영구 위치까지 **102피트** 슬라이딩 이설했다. 하루 **10만 대** 이상이 통행하는 도로 위 작업으로, **10시간이 채 안 되는 시간**에 마무리돼 시공사 마모트(Mammoet)의 역대 최중량 이설 사례로 기록됐다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "Crews Pull Off One of the Heaviest, Longest Bridge Slides in the US",
+            "url": "https://www.enr.com/articles/63427-crews-pull-off-one-of-the-heaviest-longest-bridge-slides-in-the-us"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "재난 복구 · 인천",
+      "title": "인천 쿠팡 물류센터 화재 한 달… 피해신고 300건 넘어, 보상 협의 진행 중",
+      "body": [
+        "지난달 **7월 18일** 오전 인천 서구 석남동 쿠팡 제32물류센터에서 발생한 화재가 진화까지 **109시간 40분**이 걸리며 국가소방동원령까지 발령됐던 가운데, 발생 한 달을 맞은 지금도 피해 수습이 이어지고 있다. 피해 영업체는 **44곳**, 피해 권역 거주 주민은 약 **6만 명**에 달하며 주민 피해 신고는 **300건**을 넘어섰다.",
+        "물류센터 운영사 쿠팡풀필먼트서비스(CFS)는 대피소 3곳에서 설명회를 열어 보상안을 안내했고(**250여 명 참석**), 신현초에 '쿠팡케어센터'를 마련해 무료 건강검진과 진료비·숙박비·청소비를 지원하고 있다. 화재 원인은 5층 리튬배터리 로봇·6층 메자닌 랙에 보관된 배터리류로 추정되며, 당국은 합동 감식을 이어가고 있다."
+      ],
+      "source": [
+        {
+          "outlet": "서울신문",
+          "links": [
+            {
+              "text": "'쿠팡 화재' 피해 사업체 44곳·주민 6만명…\"보상 협의\"",
+              "url": "https://www.seoul.co.kr/news/society/2026/07/23/20260723500188"
+            }
+          ]
+        },
+        {
+          "outlet": "경인일보",
+          "links": [
+            {
+              "text": "쿠팡, 물류센터 화재 피해 주민에 보상안 설명… 250명 참석",
+              "url": "https://www.kyeongin.com/article/1768273"
+            }
+          ]
+        }
+      ],
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "제도 · 중앙-지방 협력",
+      "title": "국토부·전국 16개 시·도, '건축정책 공감 협의회' 첫 가동… 규제개선 과제 논의",
+      "body": [
+        "국토교통부가 정부세종청사에서 전국 16개 시·도 및 관계기관과 '중앙·지방 건축정책 공감 협의회'를 열었다. 민선 9기 지방정부 출범 이후 중앙·지방이 건축정책을 함께 논의하는 첫 공식 협의체로, 지역 현장의 건축 현안을 정책·제도 개선으로 연결하는 상시 협력체계를 목표로 한다.",
+        "국토부는 협의회에 앞서 지난달 **18일부터 이달 4일**까지 전국 지방정부로부터 **60여 건**의 제도개선·정책 건의를 접수했다. 예비 임차인의 건축물대장 직접 발급 허용, 소규모 건축물 해체 절차 간소화, 특정건축물 정리, 화재안전 관련 규제 개선 등이 논의 안건으로 다뤄졌다."
+      ],
+      "source": [
+        {
+          "outlet": "이투데이",
+          "links": [
+            {
+              "text": "국토부·16개 시도, 건축정책 협의체 가동…규제 개선 과제 논의",
+              "url": "https://www.etoday.co.kr/news/view/2605875"
+            }
+          ]
+        },
+        {
+          "outlet": "파이낸셜뉴스",
+          "links": [
+            {
+              "text": "국토부·16개 시도, 지역 건축현안 함께 푼다",
+              "url": "https://www.fnnews.com/news/202607211518561635"
+            }
+          ]
+        }
+      ],
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "정책 · 투기 방지",
+      "title": "정부, 서울·수도권 그린벨트 503㎢ 토지거래허가구역 지정… 신규택지 발표 앞두고 투기 차단",
+      "body": [
+        "정부가 **8월 18일**부터 서울·수도권 그린벨트(개발제한구역) **503.82㎢**를 토지거래허가구역으로 지정했다. 연내 신규택지 발표를 앞두고 투기수요 유입을 사전 차단하려는 조치로, 남양주 와부읍 도곡·월문·덕소리, 광주 장지·양벌·역동 등 **49.41㎢**가 이번 지정에 포함됐다.",
+        "지정 기간은 **2031년 8월 17일**까지 5년이며, 도시지역 기준 주거지역 **60㎡**, 상업·공업지역 **150㎡**, 녹지지역 **200㎡**를 넘는 토지를 거래하려면 관할 지자체장 허가를 받아야 한다."
+      ],
+      "source": {
+        "outlet": "뉴스핌",
+        "links": [
+          {
+            "text": "서울 그린벨트 전역 토허구역으로…신규택지 발표 전 '투기 차단'",
+            "url": "https://www.newspim.com/news/view/20260818000911"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 국제",
+      "title": "포항시립박물관 건립 국제설계공모, 9월 작품 접수 앞두고 심사 절차 진행",
+      "body": [
+        "경북 포항시가 남구 동해면 임곡리 부지(대지면적 **15,142㎡**, 연면적 **7,640㎡**)에 들어설 포항시립박물관 건립을 위한 국제설계공모를 진행 중이다. 참가등록은 지난 **7월 20일** 마감됐으며, 작품 제출 마감은 **9월 7일**, 심사는 9월 22일, 결과 발표는 **9월 23일**로 예정돼 있다.",
+        "지역 유물의 수집·보존·전시와 함께 교육·관광 기능까지 아우르는 복합 문화공간을 목표로 하며, 8월 들어서도 표지 서식 안내, 심사위원 기피 신청, 해외 참가자를 위한 인쇄·제출 대행 안내 등 세부 공지가 이어지고 있다."
+      ],
+      "source": [
+        {
+          "outlet": "월간 SPACE",
+          "links": [
+            {
+              "text": "포항시, '포항시립박물관 건립 국제설계공모' 개최",
+              "url": "https://vmspace.com/news/news_view.html?base_seq=Mzg4MA%3D%3D"
+            }
+          ]
+        }
+      ],
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "건설경기 · 통계",
+      "title": "6월 건설수주 21.7%↓… 공공은 늘고 민간은 41.5% 급감",
+      "body": [
+        "한국건설산업연구원에 따르면 지난 **6월** 건설수주는 **18조 7,000억원**으로 전년 동월 대비 **21.7%** 감소했다. 공공 수주는 제천~영월고속도로, 제주 청정에너지 복합발전소 등 대형 사업에 힘입어 **29.2%** 늘어난 **8조 6,000억원**을 기록했지만, 민간 수주는 토목(-22.0%)·주택(-52.8%)·비주택(-34.5%) 전 부문에서 위축되며 **41.5%** 급감한 **10조 1,000억원**에 그쳤다.",
+        "전체 수주에서 공공이 차지하는 비중은 지난해 6월 **28%**에서 올해 **46%**로 뛰었다. 공공 발주에 의존하는 '제한적 회복' 흐름이 이어지면서, 설계·시공 업계의 민간 발주 위축 체감은 당분간 계속될 전망이다."
+      ],
+      "source": {
+        "outlet": "파이낸셜뉴스",
+        "links": [
+          {
+            "text": "6월 건설수주 21.7%↓…민간은 41.5% 급감",
+            "url": "https://www.fnnews.com/news/202608120912533354"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "UIA-HYP컵 2026 국제학생설계공모, 9월 등록 마감",
+      "body": "국제건축가연맹(UIA) 공인 국제학생건축설계공모 'UIA-HYP컵 2026'이 참가 등록을 받고 있다. 주제는 '빌리저스: 도시·교외·농촌', 등록 마감은 9월 20일, 작품 제출은 10월 10일까지다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Call for Entries: UIA-HYP CUP 2026",
+            "url": "https://www.archdaily.com/1042566/call-for-entries-uia-hyp-cup-2026-international-student-competition-in-architectural-design"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "빌드너 '홈 오브 섀도스' 4회 공모 수상작 발표",
+      "body": "빛과 그림자의 상호작용을 주제로 한 국제 건축 아이디어 공모전 '홈 오브 섀도스' 4회 대회 결과가 발표됐다. 1등상은 '빌로우 섀도스(Below Shadows)'가 차지했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Buildner Reveals the Results of Its 4th Home of Shadows Competition",
+            "url": "https://www.archdaily.com/1181814/designing-with-light-and-shadow-buildner-reveals-the-results-of-its-4th-home-of-shadows-competition"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "빌드너 '아키텍츠 스테어' 3회 공모 수상작 발표",
+      "body": "계단을 건축적 스토리텔링의 매개로 다룬 국제 아이디어 공모전 '아키텍츠 스테어' 3회 대회 수상작이 공개됐다. 동선·서사·형태로서의 계단을 탐구한 작품들이 이름을 올렸다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Buildner's 3rd Architect's Stair Competition Winners",
+            "url": "https://www.archdaily.com/1181786/buildners-3rd-architects-stair-competition-winners-explore-the-stair-as-a-form-of-architectural-expression"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "그레이엄재단, 기관 대상 2026년 그랜트 45건 추가 선정",
+      "body": "그레이엄재단이 건축 담론 확장을 위한 2026년 기관 대상 그랜트 45건을 추가로 선정해 발표했다. 개인 대상 1차 그랜트(54개 프로젝트, 총 50만 6,000달러)에 이은 2차 지원이다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Graham Foundation Announces 45 New Grants for Projects Expanding Architectural Discourse in 2026",
+            "url": "https://www.archdaily.com/1183472/graham-foundation-announces-45-new-grants-for-projects-expanding-architectural-discourse-in-2026"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "아키텍추럴 레코드, 2026 '레코드 어워즈' 심사위원단 공개",
+      "body": "아키텍추럴 레코드가 그해 최고의 건축·비건축 프로젝트와 신진·중진 건축가를 조명하는 연례 프로그램 '레코드 어워즈' 2회 차 심사위원단을 발표했다.",
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [
+          {
+            "text": "Meet the Jury of the 2026 Record Awards",
+            "url": "https://www.architecturalrecord.com/articles/18358-meet-the-jury-of-the-2026-record-awards"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "미 아칸소대 페이존스건축대학, 신임 학장에 제임스 스티븐스",
+      "body": "아칸소대 페이존스 건축·디자인대학이 클렘슨대 교수 출신 제임스 C. 스티븐스를 신임 학장으로 임명했다. 8월 15일부터 임기를 시작하며, 12년간 학장을 지낸 피터 매키스의 뒤를 잇는다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "Fay Jones School of Architecture and Design appoints James C. Stevens as dean",
+            "url": "https://archinect.com/news/article/150549176/fay-jones-school-of-architecture-and-design-appoints-james-c-stevens-as-dean"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "'2026 디진 어워즈' 파티, 11월 런던 로열오페라하우스에서",
+      "body": "디자인 매체 디진이 주관하는 '2026 디진 어워즈' 시상 파티가 11월 16일 런던 로열오페라하우스에서 열린다. 파티 티켓은 8월 18일부터 판매를 시작했다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "Dezeen Awards",
+            "url": "https://www.dezeen.com/dezeen-awards/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ]
+}
