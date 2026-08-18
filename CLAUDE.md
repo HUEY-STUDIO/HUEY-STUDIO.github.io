@@ -50,10 +50,21 @@ python3 render.py --all        # 전체 재생성 (CSS·구조 수정 후)
 - **국내 비중을 적극적으로 키운다.** 국토교통부·조달청 보도자료, 대한건축사협회(kira.or.kr),
   한국건축가협회(kia.or.kr), 대한건축학회, 건축공간연구원(auri.re.kr), 서울시 도시공간본부,
   국내 건축전문지 + 건설업 전반은 대한건설협회(cak.or.kr), 건설경제, 국토일보.
+- **설계공모(topic="설계공모") 전용 출처.** 국내 비중을 우선적으로 채운다:
+  - 국내: **서울시 설계공모 홈페이지**(project.seoul.go.kr), **나라장터**(조달청) 건축 설계공모
+    공고 — 매일 우선 확인
+  - 해외 공모 플랫폼: Bustler, Buildner, ArchDaily Competitions, Young Architects
+    Competitions(YAC), eVolo Magazine
+  - 국제기구·유럽: UIA(국제건축가연맹) Competitions, TED(Tenders Electronic Daily, EU 조달
+    시스템), Competitions.archi
+  - 일본: 建築（Kenchiku）공모전 섹션, JETRO 정부조달 정보(영문/일문)
 - 분량 목표
   - `top` 1건 (그날 가장 큰 뉴스)
   - `side` 1건 — **설계 실무에 영향을 주는 제도·규제·기술 이슈를 반드시 배치**
   - `intl_feature` 2건, `intl_grid` 4건, **`korea` 3~5건**, `briefs` 6~9건
+  - **설계공모 최소 2건** (국내 우선 확보 — 가능하면 국내 2건 이상 + 해외 1건 이상).
+    `korea`/`intl_feature`/`intl_grid` 중 알맞은 배열에 넣고 `topic: "설계공모"`만 붙이면
+    된다 — 렌더링 시 자동으로 별도 섹션에 모인다 (아래 참조)
   - `teasers` 4건 (단신·수상 등에서 뽑아 상단 스트립에 배치)
   - 국내 기사가 목표치에 못 미치면 국내 매체를 추가로 검색해서라도 채운다
 
@@ -109,7 +120,7 @@ GitHub Pages가 1~2분 뒤 반영한다.
 
 | 탭 라벨 | 슬러그 | 성격 |
 |---|---|---|
-| 메인 | (index.html) | 오늘자 지면 — TOP STORY·해외·국내·단신 구조 |
+| 메인 | (index.html) | 오늘자 지면 — TOP STORY·해외·국내·설계공모·단신 순서 |
 | 제도규제 | `regulation` | topic="제도규제" 전체 발행일 아카이브 |
 | 프로젝트 | `projects` | topic="프로젝트" |
 | 도시재생 | `urban-regen` | topic="도시재생" |
@@ -121,6 +132,13 @@ GitHub Pages가 1~2분 뒤 반영한다.
 **메인을 제외한 7개 탭은 `render.py`가 `data/*.json` 전체를 다시 스캔해 매 빌드마다
 자동 재생성**한다(`categories/<slug>.html`). 손으로 만들 필요 없다 — `data/<날짜>.json`에
 기사와 `topic`만 정확히 넣으면 알아서 해당 탭에 실린다.
+
+**메인 페이지에서도 `topic: "설계공모"`인 기사는 자동으로 분리된다.** `korea`/`intl_feature`/
+`intl_grid` 어디에 넣었든, 렌더링 시 `render.py`가 그 안에서 골라내 "국내" 섹션 뒤 별도
+"설계공모" 섹션으로 옮겨 보여준다(중복 노출 없음 — 원래 섹션에는 안 나온다). 그러니 그냥
+알맞은 배열에 넣고 `topic`만 정확히 채우면 된다. 카테고리 아카이브(`categories/korea.html`
+등)는 이 분리와 무관하게 원본 배열 그대로 집계하므로, `korea[]`에 넣은 설계공모 기사는
+"국내" 탭과 "설계공모" 탭 양쪽에 정상적으로 실린다.
 
 `topic` 값 6개와 판정 규칙:
 

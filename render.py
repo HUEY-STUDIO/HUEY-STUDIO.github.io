@@ -281,6 +281,27 @@ def render_row(articles, cols, fn):
     return f'  <div class="row c{cols}">\n{inner}\n  </div>'
 
 
+def split_competitions(d):
+    """topic="설계공모" 기사를 해외/국내 배열에서 분리한다.
+    (분리는 메인/발행일 페이지 렌더링 시점에만 적용 — 카테고리 아카이브는
+    원본 배열을 그대로 스캔하므로 국내·설계공모 탭 양쪽에 정상적으로 실린다.)"""
+    comps = [(a, False)
+              for a in (d.get("intl_feature") or []) + (d.get("intl_grid") or [])
+              if a.get("topic") == "설계공모"] + \
+             [(a, True) for a in d.get("korea") or [] if a.get("topic") == "설계공모"]
+    feature = [a for a in d.get("intl_feature") or [] if a.get("topic") != "설계공모"]
+    grid = [a for a in d.get("intl_grid") or [] if a.get("topic") != "설계공모"]
+    korea = [a for a in d.get("korea") or [] if a.get("topic") != "설계공모"]
+    return comps, feature, grid, korea
+
+
+def render_competitions_section(pairs):
+    if not pairs:
+        return ""
+    inner = "\n".join(render_card(a, kr=is_kr) for a, is_kr in pairs)
+    return render_sechead("설계공모", "COMPETITIONS") + f'\n  <div class="row c3">\n{inner}\n  </div>'
+
+
 def render_briefs(items):
     if not items:
         return ""
@@ -307,6 +328,7 @@ def render_foot(d):
 
 
 def render_issue(d, root, current):
+    comps, feature, grid, korea = split_competitions(d)
     body = "\n".join(x for x in [
         nav(root, current),
         '<div class="sheet">',
@@ -315,10 +337,11 @@ def render_issue(d, root, current):
         render_masthead(d, root),
         render_top(d),
         render_sechead("해외", "INTERNATIONAL"),
-        render_row(d.get("intl_feature", []), 2, render_feature),
-        render_row(d.get("intl_grid", []), 4, render_card),
+        render_row(feature, 2, render_feature),
+        render_row(grid, 4, render_card),
         render_sechead("국내", "KOREA"),
-        render_row(d.get("korea", []), 3, lambda a: render_card(a, kr=True)),
+        render_row(korea, 3, lambda a: render_card(a, kr=True)),
+        render_competitions_section(comps),
         render_sechead("단신", "IN BRIEF"),
         render_briefs(d.get("briefs", [])),
         render_foot(d),
