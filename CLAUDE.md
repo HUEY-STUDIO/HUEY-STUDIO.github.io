@@ -3,7 +3,7 @@
 건축·건축설계 데일리 브리핑 **「HEUY.ARCHI — DAILY ARCHITECTURE BRIEFING」**을
 매일 아침 발행하는 GitHub Pages 사이트입니다. 편집·제작: HUEY.
 
-공개 주소: <https://ks683527-gif.github.io/>
+공개 주소: <https://huey-studio.github.io/>
 
 ---
 

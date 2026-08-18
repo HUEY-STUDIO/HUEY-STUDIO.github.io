@@ -3,7 +3,7 @@
 **DAILY ARCHITECTURE BRIEFING** — 건축·건축설계 데일리 브리핑
 편집·제작 HUEY · 매일 오전 9시(KST) 발행
 
-🔗 <https://ks683527-gif.github.io/>
+🔗 <https://huey-studio.github.io/>
 
 국내외 건축 전문 매체를 매일 조사해 신문 1면 형식으로 편집합니다.
 해외(Dezeen, ArchDaily, designboom, Architectural Record 등) 비중을 높게 두고,
