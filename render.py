@@ -395,8 +395,9 @@ def render_category_page(slug, label, entries):
         if isinstance(body, list):
             body = body[0] if body else ""
         rows.append(f"""      <li class="cat-row">
-        <span class="cat-date">{y}.{m}.{dd}</span>
+        {thumb(a.get("image"), a.get("image_label"), "cat-thumb")}
         <div class="cat-main">
+          <span class="cat-date">{y}.{m}.{dd}</span>
           <div class="kicker{' kr' if section == 'korea' else ''}">{esc(a.get("kicker") or topic)}</div>
           <h3>{link_title(a.get("title") or a.get("lede"), a.get("source"))}</h3>
           <p>{rich(body)}</p>

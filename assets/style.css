@@ -224,13 +224,14 @@ article .src{margin-top:auto}
 
 /* ---- 카테고리 아카이브 ---- */
 .cat-list{list-style:none; margin:0; padding:0}
-.cat-row{display:grid; grid-template-columns:96px 1fr; gap:18px; padding:18px 0; border-bottom:1px solid var(--rule)}
-.cat-date{font-size:12px; font-weight:800; letter-spacing:.04em; color:var(--red); padding-top:2px}
+.cat-row{display:grid; grid-template-columns:150px 1fr; gap:20px; padding:18px 0; border-bottom:1px solid var(--rule)}
+.cat-thumb{aspect-ratio:4/3; align-self:start}
+.cat-date{display:block; font-size:12px; font-weight:800; letter-spacing:.04em; color:var(--red); margin-bottom:4px}
 .cat-main h3{font-size:16.5px; margin:0 0 8px}
 .cat-main p{margin:0 0 8px; font-size:12.8px; line-height:1.75; color:var(--ink-2)}
 .cat-empty{padding:40px 0; text-align:center; color:var(--ink-3); font-size:13px}
 @media (max-width:680px){
-  .cat-row{grid-template-columns:1fr; gap:6px}
+  .cat-row{grid-template-columns:92px 1fr; gap:12px}
 }
 
 /* ================= 반응형 ================= */
