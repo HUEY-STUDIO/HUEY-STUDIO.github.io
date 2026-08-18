@@ -96,9 +96,10 @@ b{font-weight:800; color:var(--ink)}
   gap:4px 0; padding:7px 0; border-bottom:1px solid var(--ink);
   font-size:11.5px; font-weight:600; color:var(--ink-2);
 }
-.catbar span{padding:0 11px; border-right:1px solid var(--rule)}
-.catbar span:last-child{border-right:0}
-.catbar .hi{color:var(--red); font-weight:800}
+.catbar a{padding:0 11px; border-right:1px solid var(--rule); color:var(--ink-2); text-decoration:none}
+.catbar a:last-child{border-right:0}
+.catbar a:hover{color:var(--hot)}
+.catbar a.hi{color:var(--red); font-weight:800}
 .infobar{
   display:flex; flex-wrap:wrap; justify-content:space-between; gap:6px 18px;
   padding:7px 2px; border-bottom:1px solid var(--rule);
@@ -107,6 +108,8 @@ b{font-weight:800; color:var(--ink)}
 .infobar b{color:var(--ink); font-weight:800}
 
 /* ---- 공통 ---- */
+.hl{color:inherit; text-decoration:none}
+.hl:hover{color:var(--red); text-decoration:underline}
 .kicker{font-size:10px; font-weight:800; letter-spacing:.16em; color:var(--red); margin-bottom:6px}
 .kicker.kr{color:var(--hot)}
 .kicker::before{content:"● "; font-size:7px; vertical-align:2px; color:var(--hot)}
@@ -218,6 +221,17 @@ article .src{margin-top:auto}
 .ar-go{font-size:11px; font-weight:700; letter-spacing:.12em; color:var(--ink-3); white-space:nowrap}
 .ar-row a:hover .ar-go{color:var(--hot)}
 .ar-foot{margin-top:44px; padding-top:18px; border-top:3px double var(--ink); text-align:center; font-size:11px; color:var(--ink-3)}
+
+/* ---- 카테고리 아카이브 ---- */
+.cat-list{list-style:none; margin:0; padding:0}
+.cat-row{display:grid; grid-template-columns:96px 1fr; gap:18px; padding:18px 0; border-bottom:1px solid var(--rule)}
+.cat-date{font-size:12px; font-weight:800; letter-spacing:.04em; color:var(--red); padding-top:2px}
+.cat-main h3{font-size:16.5px; margin:0 0 8px}
+.cat-main p{margin:0 0 8px; font-size:12.8px; line-height:1.75; color:var(--ink-2)}
+.cat-empty{padding:40px 0; text-align:center; color:var(--ink-3); font-size:13px}
+@media (max-width:680px){
+  .cat-row{grid-template-columns:1fr; gap:6px}
+}
 
 /* ================= 반응형 ================= */
 @media (max-width:980px){

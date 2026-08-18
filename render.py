@@ -23,10 +23,22 @@ from datetime import date
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
 ISSUES = os.path.join(ROOT, "issues")
+CATEGORIES_DIR = os.path.join(ROOT, "categories")
 WEEK = ["월", "화", "수", "목", "금", "토", "일"]
 
-CATEGORIES = ["톱기사", "제도·규제", "프로젝트", "도시재생",
-              "비엔날레", "재난·유산", "국내", "수상", "단신"]
+# 상단 탭. "main"은 홈(index.html), 나머지는 categories/<slug>.html 아카이브.
+# "korea"는 topic이 아니라 korea[] 섹션 소속 여부로 채워진다.
+TOPIC_TABS = [
+    ("main", "메인"),
+    ("regulation", "제도규제"),
+    ("projects", "프로젝트"),
+    ("urban-regen", "도시재생"),
+    ("disaster-heritage", "재난유산"),
+    ("korea", "국내"),
+    ("competitions", "설계공모"),
+    ("awards", "수상"),
+]
+SECTION_KEYS = ["intl_feature", "intl_grid", "korea", "briefs"]
 
 
 # ------------------------------------------------------------------ helpers
@@ -63,6 +75,27 @@ def thumb(img, label, extra_cls=""):
         f'<img src="{esc(img)}" alt="" loading="lazy" '
         f'onerror="this.parentNode.classList.add(\'noimg\')"></div>'
     )
+
+
+def first_url(src):
+    """source에서 첫 링크 URL을 찾는다. {"outlet":..,"links":[...]} 또는 그 목록."""
+    if not src:
+        return None
+    groups = src if isinstance(src, list) else [src]
+    for g in groups:
+        for l in (g.get("links") or []):
+            if l.get("url"):
+                return l["url"]
+    return None
+
+
+def link_title(title, src):
+    """헤드라인을 원문 출처 링크로 감싼다. 출처가 없으면 텍스트만 반환."""
+    text = rich(title)
+    url = first_url(src)
+    if not url:
+        return text
+    return f'<a class="hl" href="{esc(url)}" target="_blank" rel="noopener">{text}</a>'
 
 
 def source(src):
@@ -115,6 +148,20 @@ def nav(root, current):
 </div>"""
 
 
+def cat_href(root, slug):
+    return f"{root}index.html" if slug == "main" else f"{root}categories/{slug}.html"
+
+
+def render_catbar(root, current):
+    cells = "".join(
+        f'<a class="hi" href="{cat_href(root, slug)}">{esc(label)}</a>'
+        if slug == current else
+        f'<a href="{cat_href(root, slug)}">{esc(label)}</a>'
+        for slug, label in TOPIC_TABS
+    )
+    return f'<div class="catbar">{cells}</div>'
+
+
 # ------------------------------------------------------------------ sections
 def render_teasers(items):
     cells = "\n".join(
@@ -128,20 +175,16 @@ def render_teasers(items):
     return f'  <div class="topstrip">\n{cells}\n  </div>'
 
 
-def render_masthead(d):
+def render_masthead(d, root):
     day = d["date"]
     y, m, dd = day.split("-")
     c = d.get("counts", {})
-    cats = "".join(
-        f'<span class="hi">{esc(x)}</span>' if i == 0 else f"<span>{esc(x)}</span>"
-        for i, x in enumerate(d.get("categories") or CATEGORIES)
-    )
     return f"""  <header class="masthead">
     <h1 class="logo">HEUY<span class="d">.</span>ARCHI</h1>
     <div class="logo-rule"></div>
     <div class="tagline">DAILY ARCHITECTURE BRIEFING</div>
     <div class="rule-thick"></div>
-    <div class="catbar">{cats}</div>
+    {render_catbar(root, "main")}
     <div class="infobar">
       <span>제1면 · 종합</span>
       <span><b>{int(y)}년 {int(m)}월 {int(dd)}일</b> {weekday(day)}요일</span>
@@ -158,6 +201,9 @@ def render_top(d):
     if t.get("lede_em"):
         em = rich(t["lede_em"])
         lede = lede.replace(em, f'<span class="em">{em}</span>', 1)
+    top_url = first_url(t.get("source"))
+    if top_url:
+        lede = f'<a class="hl" href="{esc(top_url)}" target="_blank" rel="noopener">{lede}</a>'
 
     cap = f'      <figcaption>{rich(t.get("caption"))}</figcaption>' if t.get("caption") else ""
     main = f"""  <div class="topblock">
@@ -186,7 +232,7 @@ def render_top(d):
     <aside class="topside">
       <div class="sidehead">{esc(s.get("label", "실무 직결 · 제도/규제"))}</div>
       {thumb(s.get("image"), s.get("image_label"))}
-      <h3>{rich(s.get("title"))}</h3>
+      <h3>{link_title(s.get("title"), s.get("source"))}</h3>
 {paras(s.get("body"))}
 {facts}
 {paras(s.get("body_after"))}
@@ -204,7 +250,7 @@ def render_feature(a):
     """헤드라인 아래 이미지 좌 / 본문 우."""
     return f"""    <article>
       <div class="kicker">{esc(a.get("kicker"))}</div>
-      <h3>{rich(a.get("title"))}</h3>
+      <h3>{link_title(a.get("title"), a.get("source"))}</h3>
       <div class="feature">
         {thumb(a.get("image"), a.get("image_label"))}
         <div>
@@ -222,7 +268,7 @@ def render_card(a, kr=False):
     img = f"      {thumb(a.get('image'), a.get('image_label'))}\n" if has_img else ""
     return f"""    <article{cls}>
 {img}      <div class="kicker{' kr' if kr else ''}">{esc(a.get("kicker"))}</div>
-      <h3>{rich(a.get("title"))}</h3>
+      <h3>{link_title(a.get("title"), a.get("source"))}</h3>
 {paras(a.get("body"))}
       {source(a.get("source"))}
     </article>"""
@@ -240,7 +286,7 @@ def render_briefs(items):
         return ""
     cells = "\n".join(
         f"""    <div class="brief">
-      <h4>{rich(b.get("title"))}</h4>
+      <h4>{link_title(b.get("title"), b.get("source"))}</h4>
       <p>{rich(b.get("body"))}</p>
       {source(b.get("source"))}
     </div>"""
@@ -266,7 +312,7 @@ def render_issue(d, root, current):
         '<div class="sheet">',
         render_brandbar(d),
         render_teasers(d.get("teasers", [])),
-        render_masthead(d),
+        render_masthead(d, root),
         render_top(d),
         render_sechead("해외", "INTERNATIONAL"),
         render_row(d.get("intl_feature", []), 2, render_feature),
@@ -309,6 +355,7 @@ def render_archive(items):
   <header class="ar-head">
     <h1>HEUY<span>.</span>ARCHI</h1>
     <div class="tag">DAILY ARCHITECTURE BRIEFING</div>
+    {render_catbar("", "main")}
     <div class="sub">ARCHIVE · 지난호 {len(items)}개</div>
   </header>
   <ul class="ar-list">
@@ -317,6 +364,75 @@ def render_archive(items):
   <div class="ar-foot">편집·제작 HUEY · 매일 오전 9시 발행</div>
 </div>"""
     return shell("지난호 — HEUY.ARCHI", body)
+
+
+# ------------------------------------------------------------------ categories
+def collect_articles():
+    """data/*.json 전체를 훑어 (date, section, topic, article) 튜플로 평탄화."""
+    out = []
+    for fn in sorted(os.listdir(DATA)):
+        if not fn.endswith(".json"):
+            continue
+        day = fn[:-5]
+        d = load(day)
+        top = d.get("top")
+        if top:
+            out.append((day, "top", top.get("topic") or "프로젝트", top))
+        side = d.get("side")
+        if side:
+            out.append((day, "side", side.get("topic") or "제도규제", side))
+        for key in SECTION_KEYS:
+            for a in d.get(key) or []:
+                out.append((day, key, a.get("topic") or "프로젝트", a))
+    return out
+
+
+def render_category_page(slug, label, entries):
+    rows = []
+    for day, section, topic, a in entries:
+        y, m, dd = day.split("-")
+        body = a.get("body")
+        if isinstance(body, list):
+            body = body[0] if body else ""
+        rows.append(f"""      <li class="cat-row">
+        <span class="cat-date">{y}.{m}.{dd}</span>
+        <div class="cat-main">
+          <div class="kicker{' kr' if section == 'korea' else ''}">{esc(a.get("kicker") or topic)}</div>
+          <h3>{link_title(a.get("title") or a.get("lede"), a.get("source"))}</h3>
+          <p>{rich(body)}</p>
+          {source(a.get("source"))}
+        </div>
+      </li>""")
+    empty = '      <li class="cat-empty">아직 등록된 기사가 없습니다.</li>'
+    body = f"""{nav("../", "")}
+<div class="ar-wrap">
+  <header class="ar-head">
+    <h1>HEUY<span>.</span>ARCHI</h1>
+    <div class="tag">DAILY ARCHITECTURE BRIEFING</div>
+    {render_catbar("../", slug)}
+    <div class="sub">{esc(label)} · 전체 {len(entries)}건</div>
+  </header>
+  <ul class="cat-list">
+{chr(10).join(rows) if rows else empty}
+  </ul>
+  <div class="ar-foot">편집·제작 HUEY · 매일 오전 8시 발행</div>
+</div>"""
+    return shell(f"{label} — HEUY.ARCHI", body, css_prefix="../")
+
+
+def build_categories():
+    os.makedirs(CATEGORIES_DIR, exist_ok=True)
+    all_articles = sorted(collect_articles(), key=lambda x: x[0], reverse=True)
+    for slug, label in TOPIC_TABS:
+        if slug == "main":
+            continue
+        if slug == "korea":
+            entries = [e for e in all_articles if e[1] == "korea"]
+        else:
+            entries = [e for e in all_articles if e[2] == label]
+        with open(os.path.join(CATEGORIES_DIR, f"{slug}.html"), "w", encoding="utf-8") as f:
+            f.write(render_category_page(slug, label, entries))
+        print(f"  categories/{slug}.html → {len(entries)}건")
 
 
 # ------------------------------------------------------------------ main
@@ -355,6 +471,8 @@ def build(days):
 
     print(f"  index.html      → 최신호 {index[0]['date']}")
     print(f"  archive.html    → {len(index)}개")
+
+    build_categories()
 
 
 if __name__ == "__main__":

@@ -1,16 +1,41 @@
 {
   "vol": "VOL.01  NO.002",
   "editor": "HUEY",
-  "counts": { "total": 16, "intl": 13, "kr": 3 },
-  "outlets": ["Dezeen", "ArchDaily", "The Architect's Newspaper", "AIA", "Archinect", "한국건축가협회"],
-
-  "teasers": [
-    { "title": "세자르 펠리 유작 '로라모라 문화센터' 완공", "desc": "아르헨티나 후후이, 100년 만에 조각상 실내 전시.", "label": "CULTURE" },
-    { "title": "미 역사보존 심사 완화 추진", "desc": "ACHP 표결 통과, AIA는 의회 감독 요구.", "label": "POLICY" },
-    { "title": "브라질 아마조니아 극장 2곳 세계유산 등재", "desc": "고무붐 시대 벨렝·마나우스 오페라하우스.", "label": "HERITAGE" },
-    { "title": "AIA 2026 주거건축상 10선 발표", "desc": "노숙인 지원주택부터 집합주거까지.", "label": "AWARDS" }
+  "counts": {
+    "total": 16,
+    "intl": 13,
+    "kr": 3
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "The Architect's Newspaper",
+    "AIA",
+    "Archinect",
+    "한국건축가협회"
   ],
-
+  "teasers": [
+    {
+      "title": "세자르 펠리 유작 '로라모라 문화센터' 완공",
+      "desc": "아르헨티나 후후이, 100년 만에 조각상 실내 전시.",
+      "label": "CULTURE"
+    },
+    {
+      "title": "미 역사보존 심사 완화 추진",
+      "desc": "ACHP 표결 통과, AIA는 의회 감독 요구.",
+      "label": "POLICY"
+    },
+    {
+      "title": "브라질 아마조니아 극장 2곳 세계유산 등재",
+      "desc": "고무붐 시대 벨렝·마나우스 오페라하우스.",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "AIA 2026 주거건축상 10선 발표",
+      "desc": "노숙인 지원주택부터 집합주거까지.",
+      "label": "AWARDS"
+    }
+  ],
   "top": {
     "kicker": "TOP STORY · 목조건축",
     "lede": "월 티슬턴+미슌, 55m 매스팀버 오피스 ‘베벨’ 설계… 미국 목조 오피스 최고층 기록 새로 쓴다",
@@ -24,28 +49,56 @@
       "미슌 파트너 크레이그 커티스는 “좁은 대지에서 콘크리트 구조는 중앙 코어로 인해 임대면적이 좁고 단절된 평면이 나왔지만, 매스팀버는 측면 코어를 적용해 개방적인 평면과 강한 임대 경쟁력을 확보했다”며 “설계 초기 검토 결과 공사기간 단축 효과까지 더해져 콘크리트와 비용도 동등한 수준이었다”고 밝혔다.",
       "월 티슬턴 공동창립자 앤드루 워는 “이 규모의 건물을 통해 목재가 미국 건축의 최전선에 설 준비가 됐음을 보여준다”고 말했다. 상업용 사례가 희소한 미국 고층 목조건축 시장에서, 베벨은 오피스 부문 매스팀버 활용 가능성을 시험하는 이정표로 주목받는다."
     ],
-    "source": { "outlet": "Dezeen", "links": [{ "text": "Waugh Thistleton Architects set to build \"tallest mass timber office building in the US\"", "url": "https://www.dezeen.com/2026/08/17/us-tallest-mass-timber-office-building-waugh-thistleton-architects/" }] }
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "Waugh Thistleton Architects set to build \"tallest mass timber office building in the US\"",
+          "url": "https://www.dezeen.com/2026/08/17/us-tallest-mass-timber-office-building-waugh-thistleton-architects/"
+        }
+      ]
+    },
+    "topic": "프로젝트"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "image": "https://www.archpaper.com/wp-content/uploads/2026/07/P20260519JB-0158_President_Donald_Trump_visits_Ballroom_and_East_Wing_construction-1280x854.jpg",
     "image_label": "THE ARCHITECT'S NEWSPAPER",
     "title": "미국, 역사보존 심사(Section 106) 완화 추진… 공공 의견수렴 의무 폐지",
-    "body": ["미국 역사보존자문위원회(ACHP)가 **7월 24일** 국가역사보존법(1966) **제106조** 개정안을 공공 의견수렴 절차로 넘기는 안건을 표결·통과시켰다. 개정안은 **약 140만 개소**에 이르는 국가사적지 등재·등재대상 부지의 심사 절차를 손질하는 내용이다."],
+    "body": [
+      "미국 역사보존자문위원회(ACHP)가 **7월 24일** 국가역사보존법(1966) **제106조** 개정안을 공공 의견수렴 절차로 넘기는 안건을 표결·통과시켰다. 개정안은 **약 140만 개소**에 이르는 국가사적지 등재·등재대상 부지의 심사 절차를 손질하는 내용이다."
+    ],
     "facts": [
       "핵심 변경: 공공 의견수렴을 의무 → **선택** 사항으로 전환",
       "정의 축소: ‘역사적 장소’를 ‘유형적 인간 개조’가 있는 곳으로 한정",
       "절차 변화: 연방기관 단독 판단 허용, 주·부족 보존관 권한 축소",
       "적용 대상: **140만 개소** 국가사적지 등재·등재대상 부지"
     ],
-    "body_after": ["미국건축가협회(AIA)는 **7월 27일** 성명을 내고 표결에 반대하며 의회 차원의 감독을 요구했다. 연방 프로젝트에 관여하는 설계사무소는 인허가 협의 절차 변화를 주시할 필요가 있다."],
+    "body_after": [
+      "미국건축가협회(AIA)는 **7월 27일** 성명을 내고 표결에 반대하며 의회 차원의 감독을 요구했다. 연방 프로젝트에 관여하는 설계사무소는 인허가 협의 절차 변화를 주시할 필요가 있다."
+    ],
     "source": [
-      { "outlet": "The Architect's Newspaper", "links": [{ "text": "Proposed Section 106 revisions draw pushback", "url": "https://www.archpaper.com/2026/07/section-106-revisions/" }] },
-      { "outlet": "AIA", "links": [{ "text": "AIA Responds to ACHP Vote to Revise Section 106", "url": "https://www.aia.org/about-aia/press/aia-responds-achp-vote-revise-section-106-calls-congressional-oversight-and-legal" }] }
-    ]
+      {
+        "outlet": "The Architect's Newspaper",
+        "links": [
+          {
+            "text": "Proposed Section 106 revisions draw pushback",
+            "url": "https://www.archpaper.com/2026/07/section-106-revisions/"
+          }
+        ]
+      },
+      {
+        "outlet": "AIA",
+        "links": [
+          {
+            "text": "AIA Responds to ACHP Vote to Revise Section 106",
+            "url": "https://www.aia.org/about-aia/press/aia-responds-achp-vote-revise-section-106-calls-congressional-oversight-and-legal"
+          }
+        ]
+      }
+    ],
+    "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "완공 · 문화시설",
@@ -57,7 +110,16 @@
         "안데스산맥 기슭 아열대 융가 숲에 둘러싸인 언덕에 자리하며, 대지 지형을 따라 곡선을 그리는 매스가 기존 수목을 비켜 배치됐다. 협곡을 가로지르는 다리로 진입하는 구성이며, 넷제로 시설로 설계됐다.",
         "1906년 부에노스아이레스 국회의사당 준공을 기념해 제작된 카라라 대리석 조각 **6점** — ‘사자’, ‘자유’, ‘진보’, ‘노동’, ‘평화’, ‘정의’ — 을 100년 넘게 야외에 노출됐던 상태에서 처음으로 실내 전용 공간에 들인다. 조경은 다이애나 발모리가 설립한 발모리어소시에이츠가 맡았다."
       ],
-      "source": { "outlet": "ArchDaily", "links": [{ "text": "Pelli Clarke & Partners Completes Lola Mora Cultural Center", "url": "https://www.archdaily.com/1183307/pelli-clarke-and-partners-completes-lola-mora-cultural-center-in-san-salvador-de-jujuy-argentina" }] }
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Pelli Clarke & Partners Completes Lola Mora Cultural Center",
+            "url": "https://www.archdaily.com/1183307/pelli-clarke-and-partners-completes-lola-mora-cultural-center-in-san-salvador-de-jujuy-argentina"
+          }
+        ]
+      },
+      "topic": "프로젝트"
     },
     {
       "kicker": "전시 · 건축가 조명",
@@ -68,72 +130,233 @@
         "OPEN건축이 상하이 파워스테이션오브아트(PSA)에서 열리는 브라질 건축가 **리나 보 바르디**의 중국 첫 개인전 ‘생존의 시학(The Poetics of Survival)’의 전시 공간을 설계했다. 레나토 아넬리가 큐레이팅했으며, **2,300㎡** 규모 전시장에서 **7월 25일부터 10월 25일까지** 열린다.",
         "회고전이 아니라 ‘거장의 생존의 시학과의 마주침’으로 규정한 전시는, 리나 보 바르디 당대 브라질의 일상을 관람객이 체험하도록 구성됐다. 직사각형 1층 전시장을 가로지르는 하나의 연속된 곡선을 따라 천연 리넨으로 아홉 개 구역을 나눠 드로잉·스케치·모형·사진·영상을 배치했다."
       ],
-      "source": { "outlet": "ArchDaily", "links": [{ "text": "\"The Poetics of Survival\": OPEN Architecture Designs Lina Bo Bardi's First Exhibition in China", "url": "https://www.archdaily.com/1183400/the-poetics-of-survival-open-architecture-designs-lina-bo-bardis-first-exhibition-in-china" }] }
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "\"The Poetics of Survival\": OPEN Architecture Designs Lina Bo Bardi's First Exhibition in China",
+            "url": "https://www.archdaily.com/1183400/the-poetics-of-survival-open-architecture-designs-lina-bo-bardis-first-exhibition-in-china"
+          }
+        ]
+      },
+      "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "휴양건축 · 목구조",
       "title": "쿠바 보즈니치카, 폴란드 스토워봐 산맥에 흑색 목조 캐빈 4채",
       "image": "https://static.dezeen.com/uploads/2026/08/kuba-wozniczka-studzienno-27-black-timber-holiday-cabins-poland-hero_dezeen_2364_col_1-852x479.jpg",
       "image_label": "DEZEEN",
-      "body": ["폴란드 건축가 쿠바 보즈니치카가 스토워봐산맥 국립공원 인근 숲에 **CLT(직교집성판)** 구조 휴양캐빈 4채 ‘스투지엔노 27’을 완공했다. 각 **85㎡** 2층 캐빈에는 TV 대신 벽난로와 서재를 두어 ‘느린 생활’을 위한 공간으로 설계했다."],
-      "source": { "outlet": "Dezeen", "links": [{ "text": "기사 보기", "url": "https://www.dezeen.com/2026/08/17/kuba-wozniczka-studzienno-27/" }] }
+      "body": [
+        "폴란드 건축가 쿠바 보즈니치카가 스토워봐산맥 국립공원 인근 숲에 **CLT(직교집성판)** 구조 휴양캐빈 4채 ‘스투지엔노 27’을 완공했다. 각 **85㎡** 2층 캐빈에는 TV 대신 벽난로와 서재를 두어 ‘느린 생활’을 위한 공간으로 설계했다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 보기",
+            "url": "https://www.dezeen.com/2026/08/17/kuba-wozniczka-studzienno-27/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
     },
     {
       "kicker": "적응적 재사용 · 산업건축",
       "title": "NUA 아르키텍투라스, 카탈루냐 섬유공장을 목구조 오피스로",
       "image": "https://static.dezeen.com/uploads/2026/08/tuvatextil-nua-arquitectures-architecture-barcelona-warehouse-office_dezeen_2364_hero-852x479.jpg",
       "image_label": "DEZEEN",
-      "body": ["스페인 NUA 아르키텍투라스가 바르셀로나 인근 폰다르멘테라의 옛 섬유공장을 목재 파티션 오피스로 개조했다. 한때 공장 **12곳**이 몰려있던 카탈루냐 남부 섬유산업 중심지에 남은 마지막 업체 투바텍실을 위한 프로젝트로, 콘크리트·벽돌 구조체는 보강해 살리고 목구조 오피스 블록만 새로 끼워 넣었다."],
-      "source": { "outlet": "Dezeen", "links": [{ "text": "기사 보기", "url": "https://www.dezeen.com/2026/08/16/nua-arquitectures-tuvatextil-office/" }] }
+      "body": [
+        "스페인 NUA 아르키텍투라스가 바르셀로나 인근 폰다르멘테라의 옛 섬유공장을 목재 파티션 오피스로 개조했다. 한때 공장 **12곳**이 몰려있던 카탈루냐 남부 섬유산업 중심지에 남은 마지막 업체 투바텍실을 위한 프로젝트로, 콘크리트·벽돌 구조체는 보강해 살리고 목구조 오피스 블록만 새로 끼워 넣었다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 보기",
+            "url": "https://www.dezeen.com/2026/08/16/nua-arquitectures-tuvatextil-office/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
     },
     {
       "kicker": "산림 건축 · 목구조",
       "title": "이라구엔 비뉴엘라, 칠레 안데스 산기슭에 집성목 별장",
       "image": "https://images.adsttc.com/media/images/69ce/528a/a301/fc7d/04b5/d33e/large_jpg/casa-en-el-rio-fuy-iraguen-vinuela-arquitectos_4.jpg?1775129247",
       "image_label": "ARCHDAILY",
-      "body": ["칠레 이라구엔 비뉴엘라 아르키텍토스가 안데스 산기슭 푸이강 인근 숲 속에 집성목(글루램) 구조 별장을 완성했다. 숲의 캐노피 층위를 따라가듯 수직으로 조직된 매스가 특징이며, 볕에 바랜 목재 널판 마감은 인근 축사 외피와 나무껍질의 회색조를 차용했다."],
-      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사 보기", "url": "https://www.archdaily.com/1040310/house-on-the-fuy-river-iraguen-vinuela-arquitectos" }] }
+      "body": [
+        "칠레 이라구엔 비뉴엘라 아르키텍토스가 안데스 산기슭 푸이강 인근 숲 속에 집성목(글루램) 구조 별장을 완성했다. 숲의 캐노피 층위를 따라가듯 수직으로 조직된 매스가 특징이며, 볕에 바랜 목재 널판 마감은 인근 축사 외피와 나무껍질의 회색조를 차용했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 보기",
+            "url": "https://www.archdaily.com/1040310/house-on-the-fuy-river-iraguen-vinuela-arquitectos"
+          }
+        ]
+      },
+      "topic": "프로젝트"
     },
     {
       "kicker": "목구조 · 리노베이션",
       "title": "헬렌&하드, 뿌리째 뽑힌 가문비나무로 노르웨이 캐빈 ‘캐빈 산데’ 구조",
       "image": "https://static.dezeen.com/uploads/2026/07/cabin-sande-helen-hard-architects-norway-timber-hero_dezeen_2364_col_3-852x479.jpg",
       "image_label": "DEZEEN",
-      "body": ["노르웨이 헬렌&하드가 대서양 연안 란다베르그 암반 곶에 **112㎡** 규모 캐빈 ‘캐빈 산데’를 완공했다. 뿌리째 캐낸 가문비나무 **18그루**를 세척·8개월 건조·3D 스캔한 뒤 로봇으로 가공해 가지처럼 뻗은 기둥으로 세웠다. 바이킹 시대 조선술의 곡재 이음 방식에서 착안했으며, 무주 9.5m 통유리창이 대서양을 향해 열린다."],
-      "source": { "outlet": "Dezeen", "links": [{ "text": "기사 보기", "url": "https://www.dezeen.com/2026/08/15/cabin-sande-spruce-trees-norway-atlanic-ocean-helen-hard-architects/" }] }
+      "body": [
+        "노르웨이 헬렌&하드가 대서양 연안 란다베르그 암반 곶에 **112㎡** 규모 캐빈 ‘캐빈 산데’를 완공했다. 뿌리째 캐낸 가문비나무 **18그루**를 세척·8개월 건조·3D 스캔한 뒤 로봇으로 가공해 가지처럼 뻗은 기둥으로 세웠다. 바이킹 시대 조선술의 곡재 이음 방식에서 착안했으며, 무주 9.5m 통유리창이 대서양을 향해 열린다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 보기",
+            "url": "https://www.dezeen.com/2026/08/15/cabin-sande-spruce-trees-norway-atlanic-ocean-helen-hard-architects/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
     }
   ],
-
   "korea": [
     {
       "kicker": "공모전 · 문화체육관광부",
       "title": "문체부·한국건축가협회, 제21회 대한민국 공간문화대상 공모",
-      "body": ["문화체육관광부와 한국건축가협회가 지역사회 공간문화 개선에 기여한 개인·단체·지자체를 시상하는 ‘제21회 대한민국 공간문화대상’ 공모를 시행한다. **8월 3일부터 9월 4일**까지 접수하며, 대상(대통령상)에는 상금 **300만원**이 주어진다. 수상작은 10월 27일 부산 벡스코 대한민국건축문화제에서 발표된다."],
-      "source": { "outlet": "한국건축가협회", "links": [{ "text": "공지사항 보기", "url": "https://kia.or.kr/news/notice.php?ptype=view&idx=20664&page=&code=notice" }] }
+      "body": [
+        "문화체육관광부와 한국건축가협회가 지역사회 공간문화 개선에 기여한 개인·단체·지자체를 시상하는 ‘제21회 대한민국 공간문화대상’ 공모를 시행한다. **8월 3일부터 9월 4일**까지 접수하며, 대상(대통령상)에는 상금 **300만원**이 주어진다. 수상작은 10월 27일 부산 벡스코 대한민국건축문화제에서 발표된다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회",
+        "links": [
+          {
+            "text": "공지사항 보기",
+            "url": "https://kia.or.kr/news/notice.php?ptype=view&idx=20664&page=&code=notice"
+          }
+        ]
+      },
+      "topic": "설계공모"
     },
     {
       "kicker": "설계공모 · 발주",
       "title": "「제주 보건환경연구원 증축사업」 건축 설계공모 참가등록 마감",
-      "body": ["한국건축가협회가 공고한 「제주특별자치도 보건환경연구원 증축사업」 건축 설계공모의 참가등록이 **8월 17일** 마감됐다. 작품 제출은 **9월 30일**, 1·2차 심사는 각각 10월 22일과 29일 진행된다."],
-      "source": { "outlet": "한국건축가협회", "links": [{ "text": "공지사항 보기", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&idx=20679&page=1&code=notice&category=9" }] }
+      "body": [
+        "한국건축가협회가 공고한 「제주특별자치도 보건환경연구원 증축사업」 건축 설계공모의 참가등록이 **8월 17일** 마감됐다. 작품 제출은 **9월 30일**, 1·2차 심사는 각각 10월 22일과 29일 진행된다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회",
+        "links": [
+          {
+            "text": "공지사항 보기",
+            "url": "https://www.kia.or.kr/news/notice.php?ptype=view&idx=20679&page=1&code=notice&category=9"
+          }
+        ]
+      },
+      "topic": "설계공모"
     },
     {
       "kicker": "재난 복구 · 공공건축",
       "title": "경북 산불피해지역 복합커뮤니티센터 4개소 조성 공고",
-      "body": ["재단법인 환경재단이 산불 피해를 입은 경상북도 **의성군·청송군·영덕군** 등 4개소에 복합커뮤니티센터를 조성하는 사업을 나라장터에 공고했다. 한국건축가협회는 소속 회원과 회원사에 공모 참여를 안내했다."],
-      "source": { "outlet": "한국건축가협회", "links": [{ "text": "공지사항 보기", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&idx=20680&page=1&code=notice&category=9" }] }
+      "body": [
+        "재단법인 환경재단이 산불 피해를 입은 경상북도 **의성군·청송군·영덕군** 등 4개소에 복합커뮤니티센터를 조성하는 사업을 나라장터에 공고했다. 한국건축가협회는 소속 회원과 회원사에 공모 참여를 안내했다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회",
+        "links": [
+          {
+            "text": "공지사항 보기",
+            "url": "https://www.kia.or.kr/news/notice.php?ptype=view&idx=20680&page=1&code=notice&category=9"
+          }
+        ]
+      },
+      "topic": "재난유산"
     }
   ],
-
   "briefs": [
-    { "title": "네덜란드 ‘테트리스’ 결합주택, 코트헨에 완공", "body": "반포니어스가 위트레흐트 인근 코트헨에 두 가족을 위한 결합형 단독주택 ‘코하우스’를 완공했다. 지자체 요구로 한 매스 안에 담아낸 두 채가 상층부에서 맞물린다.", "source": { "outlet": "Dezeen", "links": [{ "text": "기사", "url": "https://www.dezeen.com/2026/08/16/woonpioniers-cohouse-in-cothen/" }] } },
-    { "title": "AIA 2026 주거건축상 10선 발표", "body": "미국건축가협회가 노숙인 지원주택부터 집합주거까지 아우르는 2026년 주거건축상(Housing Award) 수상작 10건을 발표했다.", "source": { "outlet": "Archinect", "links": [{ "text": "기사", "url": "https://archinect.com/news/bustler/11018/best-residential-architecture-of-2026-honored-at-aia-housing-award" }] } },
-    { "title": "AIA 2026 소규모 프로젝트상 7선 발표", "body": "미국건축가협회가 규모·예산에 구애받지 않는 설계 역량을 조명하는 2026 소규모 프로젝트상 수상작 7건을 발표했다. 옛 대리석 채석장을 공공 수영장으로 되살린 테네시 녹스빌 프로젝트 등이 포함됐다.", "source": { "outlet": "Archinect", "links": [{ "text": "기사", "url": "https://archinect.com/news/bustler/11020/best-small-projects-chosen-at-aia-small-project-award-2026" }] } },
-    { "title": "필라델피아 퍼니스홀, 예술가 영구임대주택 45세대로", "body": "개발사 스카우트와 설계사 ISA가 건축가 프랭크 퍼니스가 설계한 옛 기숙사 건물을 예술가 대상 영구 저렴주택 45세대로 전환한다. 나이트재단이 250만 달러를 지원한다.", "source": { "outlet": "The Architect's Newspaper", "links": [{ "text": "기사", "url": "https://www.archpaper.com/2026/08/furness-residence-hall-isa-scout/" }] } },
-    { "title": "브라질 아마조니아 극장 2곳, 유네스코 세계유산 등재", "body": "벨렝의 테아트로 다 파스와 마나우스의 테아트로 아마조나스가 고무붐 시대(19세기 말~20세기 초) 건축유산으로 유네스코 세계유산에 등재됐다. 두 곳 모두 이탈리아산 대리석 등 유럽 자재로 지어졌다.", "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1183412/brazil-in-focus-this-month-in-architecture-heritage-and-cultural-debate" }] } },
-    { "title": "건축과 ‘지우기’의 정치학을 다룬 신간 「Erasure by Design」", "body": "프린스턴대 건축학과 미치 맥이완 교수의 신간이 도시 재개발 과정에서 반복되는 철거·이주·자원 채굴의 패턴을 추적한다. 컬럼비아대 건축·도시 출판부 발행.", "source": { "outlet": "The Architect's Newspaper", "links": [{ "text": "기사", "url": "https://www.archpaper.com/2026/08/erasure-by-design-review/" }] } }
+    {
+      "title": "네덜란드 ‘테트리스’ 결합주택, 코트헨에 완공",
+      "body": "반포니어스가 위트레흐트 인근 코트헨에 두 가족을 위한 결합형 단독주택 ‘코하우스’를 완공했다. 지자체 요구로 한 매스 안에 담아낸 두 채가 상층부에서 맞물린다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/08/16/woonpioniers-cohouse-in-cothen/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "AIA 2026 주거건축상 10선 발표",
+      "body": "미국건축가협회가 노숙인 지원주택부터 집합주거까지 아우르는 2026년 주거건축상(Housing Award) 수상작 10건을 발표했다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11018/best-residential-architecture-of-2026-honored-at-aia-housing-award"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "AIA 2026 소규모 프로젝트상 7선 발표",
+      "body": "미국건축가협회가 규모·예산에 구애받지 않는 설계 역량을 조명하는 2026 소규모 프로젝트상 수상작 7건을 발표했다. 옛 대리석 채석장을 공공 수영장으로 되살린 테네시 녹스빌 프로젝트 등이 포함됐다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11020/best-small-projects-chosen-at-aia-small-project-award-2026"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "필라델피아 퍼니스홀, 예술가 영구임대주택 45세대로",
+      "body": "개발사 스카우트와 설계사 ISA가 건축가 프랭크 퍼니스가 설계한 옛 기숙사 건물을 예술가 대상 영구 저렴주택 45세대로 전환한다. 나이트재단이 250만 달러를 지원한다.",
+      "source": {
+        "outlet": "The Architect's Newspaper",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archpaper.com/2026/08/furness-residence-hall-isa-scout/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "브라질 아마조니아 극장 2곳, 유네스코 세계유산 등재",
+      "body": "벨렝의 테아트로 다 파스와 마나우스의 테아트로 아마조나스가 고무붐 시대(19세기 말~20세기 초) 건축유산으로 유네스코 세계유산에 등재됐다. 두 곳 모두 이탈리아산 대리석 등 유럽 자재로 지어졌다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1183412/brazil-in-focus-this-month-in-architecture-heritage-and-cultural-debate"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "title": "건축과 ‘지우기’의 정치학을 다룬 신간 「Erasure by Design」",
+      "body": "프린스턴대 건축학과 미치 맥이완 교수의 신간이 도시 재개발 과정에서 반복되는 철거·이주·자원 채굴의 패턴을 추적한다. 컬럼비아대 건축·도시 출판부 발행.",
+      "source": {
+        "outlet": "The Architect's Newspaper",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archpaper.com/2026/08/erasure-by-design-review/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
   ]
 }
