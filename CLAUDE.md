@@ -10,14 +10,17 @@
 ## 구조
 
 ```
-data/<YYYY-MM-DD>.json   ← 그날의 기사 내용     (매일 새로 추가하는 유일한 파일)
+data/<YYYY-MM-DD>.json   ← 그날의 기사 내용     (매일 새로 추가하는 유일한 파일 — cardnews 포함)
 assets/style.css         ← 디자인               (모양을 바꾸려면 여기)
-render.py                ← 마크업 생성기        (구조를 바꾸려면 여기)
+render.py                ← 마크업 생성기        (구조를 바꾸려면 여기, 표준 라이브러리만 사용)
+cardnews.py              ← 카드뉴스 PNG 렌더러  (Playwright, render.py보다 먼저 실행)
 ─────────────────────────── 아래는 전부 자동 생성물, 직접 수정 금지 ───────
 index.html               ← 최신호 (= "메인" 탭)
 archive.html             ← 지난호 목록
 issues/<YYYY-MM-DD>.html ← 날짜별 보관본
 categories/<slug>.html   ← 카테고리 탭 아카이브 (전체 발행일 통틀어 topic별로 모음)
+cardnews/<날짜>/<slug>/  ← 카드뉴스 PNG (1080×1350, cardnews.py 산출물)
+cardnews/<날짜>/<slug>.html ← 카드뉴스 상세 페이지 (render.py 산출물)
 issues.json              ← 발행 이력
 ```
 
@@ -28,11 +31,13 @@ issues.json              ← 발행 이력
 빌드:
 
 ```bash
-python3 render.py 2026-08-17   # 특정 날짜
-python3 render.py --all        # 전체 재생성 (CSS·구조 수정 후)
+python3 cardnews.py 2026-08-17   # 그날 cardnews[]를 PNG로 렌더 (render.py보다 먼저)
+python3 render.py 2026-08-17     # 특정 날짜
+python3 render.py --all          # 전체 재생성 (CSS·구조 수정 후)
 ```
 
-표준 라이브러리만 사용합니다. 의존성 설치 불필요.
+`render.py`는 표준 라이브러리만 사용합니다(의존성 설치 불필요). `cardnews.py`만 Playwright가
+필요합니다(`pip install playwright`) — 카드뉴스가 없는 날은 건너뛰어도 됩니다.
 
 ---
 
@@ -220,6 +225,53 @@ GitHub Pages가 1~2분 뒤 반영한다.
 
 ---
 
+## 카드뉴스 (HUEY ARCHI MAGAZINE)
+
+인스타그램 카드뉴스 형식(1080×1350, 4:5 세로형)으로 그날 가장 비중 있는 뉴스 최대 3건을
+카드뉴스로 만든다. 메인 페이지 TOP STORY 바로 위에 3개 타일로 나열되고, 클릭하면
+`cardnews/<날짜>/<slug>.html` 상세 페이지에서 캐러셀로 크게 볼 수 있다.
+
+**파이프라인**: `data/<날짜>.json`의 `cardnews[]`를 채운 뒤, `render.py`보다 **먼저**
+`cardnews.py`를 돌려 PNG를 만들어야 한다.
+
+```bash
+python3 cardnews.py <날짜>   # cardnews[] → cardnews/<날짜>/<slug>/01.png..0N.png
+python3 render.py <날짜>     # 웹페이지(타일·상세페이지) 생성
+```
+
+### data JSON의 `cardnews[]` 스키마
+
+```jsonc
+"cardnews": [
+  {
+    "slug": "libeskind-daechi-celestial",       // URL-safe, 영문 소문자-하이픈
+    "tag": "PROJECT",                            // 표지·타일에 보이는 짧은 라벨
+    "title": "강남 한복판에 뜨는 49층 '셀레스티얼'", // 타일/상세페이지 제목(웹 UI용)
+    "ref": { "section": "top" },                 // 원본 기사 위치 — 출처·원문 링크를 여기서 가져온다
+    // ref.section: "top" | "side" | "intl_feature" | "intl_grid" | "korea" | "briefs"
+    // top/side가 아니면 "index"(0-based)도 같이 적는다: { "section": "korea", "index": 0 }
+    "bg": 0,                                      // 배경 그래픽 0~2 (cardnews.py BACKGROUNDS 참조)
+    "slides": [
+      // 슬라이드[0] = 표지. heading은 큰 제목(\n으로 줄바꿈), body는 부제 한 줄.
+      { "heading": "강남 한복판에\n뜨는 49층 타워", "body": "스튜디오 리베스킨드가 그린 대치쌍용의 새 얼굴" },
+      // 슬라이드[1..] = 본문. heading은 소제목(WHAT/SCALE류 짧은 라벨), body는 2~3문장.
+      { "heading": "WHAT", "body": "..." }
+    ]
+  }
+]
+```
+
+- 슬라이드는 3~8장. 기사 본문을 그대로 옮기지 말고 다시 읽고 슬라이드 단위로 재구성할 것
+  (표지 1장 + 핵심 포인트별 3~6장 권장).
+- `ref`가 가리키는 기사는 `data/<날짜>.json` 안에 **이미 존재해야** 한다 — 카드뉴스는 새 취재가
+  아니라 그날 지면 기사 중 하나를 다시 편집한 것.
+- 배경은 사진이 아니라 `cardnews.py`가 생성하는 브랜드 그래픽(블랙·딥레드·포인트레드 추상
+  패턴)이다 — 매체 사진을 카드뉴스 배경으로 캡처해 쓰지 않는다(핫링크가 아니라 이미지를
+  그대로 복제해 재배포하는 셈이라 저작권 리스크가 사이트 임베딩보다 훨씬 크다).
+- 카드뉴스가 없는 날은 `cardnews` 필드를 아예 생략하면 된다 — 섹션 자체가 안 보인다.
+
+---
+
 ## 브랜드 규칙
 
 - 제호는 **HEUY.ARCHI** — 가운데 점(`.`)만 포인트 레드 `#FF4D1A`, 나머지는 블랙
@@ -244,8 +296,11 @@ GitHub Pages가 1~2분 뒤 반영한다.
 
 ## 하지 말 것
 
-- `index.html` · `archive.html` · `issues/*.html` · `issues.json` · `categories/*.html` 직접 수정
-  (다음 빌드에서 덮어써진다. 반드시 `data/*.json`이나 `assets/style.css`를 고칠 것)
+- `index.html` · `archive.html` · `issues/*.html` · `issues.json` · `categories/*.html` ·
+  `cardnews/*.html` 직접 수정 (다음 빌드에서 덮어써진다. 반드시 `data/*.json`이나
+  `assets/style.css`를 고칠 것)
 - 확인되지 않은 기사 URL·이미지 URL 사용
-- 이미지 파일을 저장소에 복사 (각 매체 URL을 그대로 링크한다)
+- 이미지 파일을 저장소에 복사 (각 매체 URL을 그대로 링크한다) — 단, 카드뉴스 PNG(`cardnews/**/*.png`)는
+  `cardnews.py`가 만드는 우리 자체 그래픽이라 예외. 매체 사진을 카드뉴스 배경으로 쓰지 않는다.
 - 기사에 `topic` 필드를 빠뜨리는 것 (카테고리 탭 아카이브에서 누락된다)
+- 카드뉴스의 `ref`가 그날 `data/<날짜>.json`에 실제로 없는 기사를 가리키게 두는 것

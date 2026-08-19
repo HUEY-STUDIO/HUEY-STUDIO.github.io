@@ -212,7 +212,7 @@ def render_top(d):
 
     cap = f'      <figcaption>{rich(t.get("caption"))}</figcaption>' if t.get("caption") else ""
     main = f"""  <div class="topblock">
-    <div class="topmain">
+    <div class="topmain" id="art-top">
       <div class="kicker">{esc(t.get("kicker"))}</div>
       <p class="toplede">{lede}</p>
       <figure class="topfig">
@@ -234,7 +234,7 @@ def render_top(d):
         facts = f'      <ul class="facts">\n{li}\n      </ul>'
 
     side = f"""
-    <aside class="topside">
+    <aside class="topside" id="art-side">
       <div class="sidehead">{esc(s.get("label", "실무 직결 · 제도/규제"))}</div>
       {thumb(s.get("image"), s.get("image_label"))}
       <h3>{link_title(s.get("title"), s.get("source"))}</h3>
@@ -251,9 +251,10 @@ def render_sechead(ko, en):
     return f'  <div class="sechead"><h2>{esc(ko)}</h2><span class="en">{esc(en)}</span><span class="line"></span></div>'
 
 
-def render_feature(a):
+def render_feature(a, aid=None):
     """헤드라인 아래 이미지 좌 / 본문 우."""
-    return f"""    <article>
+    idattr = f' id="{esc(aid)}"' if aid else ""
+    return f"""    <article{idattr}>
       <div class="kicker">{esc(a.get("kicker"))}</div>
       <h3>{link_title(a.get("title"), a.get("source"))}</h3>
       <div class="feature">
@@ -266,12 +267,14 @@ def render_feature(a):
     </article>"""
 
 
-def render_card(a, kr=False):
+def render_card(a, aid=None, kr=False):
     """이미지 위 / 본문 아래. 이미지가 없으면 좌측 보더 텍스트 카드."""
     has_img = bool(a.get("image"))
-    cls = "" if has_img else ' class="kr-side"' if kr else ""
+    cls = "kr-side" if (not has_img and kr) else ""
+    classattr = f' class="{cls}"' if cls else ""
+    idattr = f' id="{esc(aid)}"' if aid else ""
     img = f"      {thumb(a.get('image'), a.get('image_label'))}\n" if has_img else ""
-    return f"""    <article{cls}>
+    return f"""    <article{classattr}{idattr}>
 {img}      <div class="kicker{' kr' if kr else ''}">{esc(a.get("kicker"))}</div>
       <h3>{link_title(a.get("title"), a.get("source"))}</h3>
 {paras(a.get("body"))}
@@ -279,31 +282,44 @@ def render_card(a, kr=False):
     </article>"""
 
 
-def render_row(articles, cols, fn):
+def render_row(articles, cols, fn, section=None, indices=None):
     if not articles:
         return ""
-    inner = "\n".join(fn(a) for a in articles)
+    idxs = indices if indices is not None else range(len(articles))
+    inner = "\n".join(
+        fn(a, aid=f"art-{section}-{i}") if section else fn(a)
+        for a, i in zip(articles, idxs)
+    )
     return f'  <div class="row c{cols}">\n{inner}\n  </div>'
 
 
 def split_competitions(d):
     """topic="설계공모" 기사를 해외/국내 배열에서 분리한다.
     (분리는 메인/발행일 페이지 렌더링 시점에만 적용 — 카테고리 아카이브는
-    원본 배열을 그대로 스캔하므로 국내·설계공모 탭 양쪽에 정상적으로 실린다.)"""
-    comps = [(a, False)
-              for a in (d.get("intl_feature") or []) + (d.get("intl_grid") or [])
-              if a.get("topic") == "설계공모"] + \
-             [(a, True) for a in d.get("korea") or [] if a.get("topic") == "설계공모"]
-    feature = [a for a in d.get("intl_feature") or [] if a.get("topic") != "설계공모"]
-    grid = [a for a in d.get("intl_grid") or [] if a.get("topic") != "설계공모"]
-    korea = [a for a in d.get("korea") or [] if a.get("topic") != "설계공모"]
-    return comps, feature, grid, korea
+    원본 배열을 그대로 스캔하므로 국내·설계공모 탭 양쪽에 정상적으로 실린다.)
+    각 항목의 원본 section/index를 aid로 함께 들고 다녀 앵커 id가 필터링·이동 후에도 유지되게 한다."""
+    feature_items = list(enumerate(d.get("intl_feature") or []))
+    grid_items = list(enumerate(d.get("intl_grid") or []))
+    korea_items = list(enumerate(d.get("korea") or []))
+
+    comps = [(a, False, f"art-intl_feature-{i}") for i, a in feature_items if a.get("topic") == "설계공모"] + \
+            [(a, False, f"art-intl_grid-{i}") for i, a in grid_items if a.get("topic") == "설계공모"] + \
+            [(a, True, f"art-korea-{i}") for i, a in korea_items if a.get("topic") == "설계공모"]
+
+    feature = [a for i, a in feature_items if a.get("topic") != "설계공모"]
+    feature_idx = [i for i, a in feature_items if a.get("topic") != "설계공모"]
+    grid = [a for i, a in grid_items if a.get("topic") != "설계공모"]
+    grid_idx = [i for i, a in grid_items if a.get("topic") != "설계공모"]
+    korea = [a for i, a in korea_items if a.get("topic") != "설계공모"]
+    korea_idx = [i for i, a in korea_items if a.get("topic") != "설계공모"]
+
+    return comps, feature, grid, korea, feature_idx, grid_idx, korea_idx
 
 
-def render_competitions_section(pairs):
-    if not pairs:
+def render_competitions_section(triples):
+    if not triples:
         return ""
-    inner = "\n".join(render_card(a, kr=is_kr) for a, is_kr in pairs)
+    inner = "\n".join(render_card(a, aid=aid, kr=is_kr) for a, is_kr, aid in triples)
     return render_sechead("설계공모", "COMPETITIONS") + f'\n  <div class="row c3">\n{inner}\n  </div>'
 
 
@@ -311,12 +327,12 @@ def render_briefs(items):
     if not items:
         return ""
     cells = "\n".join(
-        f"""    <div class="brief">
+        f"""    <div class="brief" id="art-briefs-{i}">
       <h4>{link_title(b.get("title"), b.get("source"))}</h4>
       <p>{rich(b.get("body"))}</p>
       {source(b.get("source"))}
     </div>"""
-        for b in items
+        for i, b in enumerate(items)
     )
     return f'  <div class="briefs">\n{cells}\n  </div>'
 
@@ -333,19 +349,20 @@ def render_foot(d):
 
 
 def render_issue(d, root, current):
-    comps, feature, grid, korea = split_competitions(d)
+    comps, feature, grid, korea, feature_idx, grid_idx, korea_idx = split_competitions(d)
     body = "\n".join(x for x in [
         nav(root, current),
         '<div class="sheet">',
         render_brandbar(d),
         render_teasers(d.get("teasers", [])),
         render_masthead(d, root),
+        render_cardnews_strip(d, root),
         render_top(d),
         render_sechead("해외", "INTERNATIONAL"),
-        render_row(feature, 2, render_feature),
-        render_row(grid, 4, render_card),
+        render_row(feature, 2, render_feature, section="intl_feature", indices=feature_idx),
+        render_row(grid, 4, render_card, section="intl_grid", indices=grid_idx),
         render_sechead("국내", "KOREA"),
-        render_row(korea, 3, lambda a: render_card(a, kr=True)),
+        render_row(korea, 3, lambda a, aid=None: render_card(a, aid=aid, kr=True), section="korea", indices=korea_idx),
         render_competitions_section(comps),
         render_sechead("단신", "IN BRIEF"),
         render_briefs(d.get("briefs", [])),
@@ -354,6 +371,121 @@ def render_issue(d, root, current):
     ] if x)
     title = f'HEUY.ARCHI — Daily Architecture Briefing · {d["date"].replace("-", ".")}'
     return shell(title, body, css_prefix=root)
+
+
+def resolve_ref(d, ref):
+    """카드뉴스 ref({"section":..,"index":..})가 가리키는 원본 기사를 찾는다."""
+    section = (ref or {}).get("section")
+    if section in ("top", "side"):
+        return d.get(section) or {}
+    idx = (ref or {}).get("index")
+    arr = d.get(section) or []
+    if idx is not None and 0 <= idx < len(arr):
+        return arr[idx]
+    return {}
+
+
+def ref_anchor(ref):
+    section = (ref or {}).get("section")
+    if section in ("top", "side"):
+        return f"art-{section}"
+    return f"art-{section}-{(ref or {}).get('index')}"
+
+
+def render_cardnews_strip(d, root):
+    """TOP STORY 위에 얹는 카드뉴스 3개 스트립. cardnews 필드가 없으면 아무것도 렌더링하지 않는다."""
+    items = d.get("cardnews") or []
+    if not items:
+        return ""
+    day = d["date"]
+    cells = []
+    for it in items:
+        slug = it["slug"]
+        cover = f"{root}cardnews/{day}/{slug}/01.png"
+        href = f"{root}cardnews/{day}/{slug}.html"
+        cells.append(f"""      <a class="cn-tile" href="{esc(href)}">
+        <div class="cn-thumb"><img src="{esc(cover)}" alt="" loading="lazy"></div>
+        <div class="cn-tag">{esc(it.get("tag") or "MAGAZINE")}</div>
+        <h4>{esc(it.get("title"))}</h4>
+      </a>""")
+    inner = "\n".join(cells)
+    return f"""  <div class="cardnews-strip">
+    <div class="cn-strip-head"><span class="cn-brand">HUEY ARCHI MAGAZINE</span><span class="cn-sub">오늘의 카드뉴스</span></div>
+    <div class="cn-row">
+{inner}
+    </div>
+  </div>"""
+
+
+def render_cardnews_detail(d, item, root):
+    day = d["date"]
+    slug = item["slug"]
+    ref = item.get("ref") or {}
+    article = resolve_ref(d, ref)
+    aid = ref_anchor(ref)
+
+    n = len(item.get("slides") or [])
+    slides_html = "\n".join(
+        f'      <div class="cn-slide"><img src="{esc(root)}cardnews/{esc(day)}/{esc(slug)}/{i + 1:02d}.png" alt="" loading="lazy"></div>'
+        for i in range(n)
+    )
+
+    orig_title = article.get("title") or article.get("lede") or item.get("title") or ""
+    heuy_link = f"{root}issues/{day}.html#{aid}"
+
+    body = f"""{nav(root, "")}
+<div class="cn-wrap">
+  <div class="cn-detail-head">
+    <span class="cn-brand">HUEY ARCHI MAGAZINE</span>
+    <span class="cn-editor">Editor {esc(d.get("editor", "HUEY"))}</span>
+  </div>
+  <h1 class="cn-detail-title">{esc(item.get("title"))}</h1>
+  <div class="cn-carousel" id="cnCarousel">
+{slides_html}
+  </div>
+  <div class="cn-dots" id="cnDots"></div>
+  <div class="cn-infobar">
+    <div class="cn-info-row">
+      <span class="cn-info-label">원문 출처</span>
+      {source(article.get("source"))}
+    </div>
+    <div class="cn-info-row">
+      <span class="cn-info-label">HUEY.ARCHI 기사</span>
+      <a href="{esc(heuy_link)}">{esc(orig_title)} →</a>
+    </div>
+  </div>
+</div>
+<script>
+(function () {{
+  var car = document.getElementById('cnCarousel');
+  var dotsWrap = document.getElementById('cnDots');
+  var slides = car.querySelectorAll('.cn-slide');
+  slides.forEach(function (_, i) {{
+    var dot = document.createElement('span');
+    dot.className = 'cn-dot' + (i === 0 ? ' on' : '');
+    dotsWrap.appendChild(dot);
+  }});
+  var dotEls = dotsWrap.querySelectorAll('.cn-dot');
+  car.addEventListener('scroll', function () {{
+    var idx = Math.round(car.scrollLeft / car.clientWidth);
+    dotEls.forEach(function (el, i) {{ el.classList.toggle('on', i === idx); }});
+  }}, {{ passive: true }});
+}})();
+</script>"""
+    return shell(f'{item.get("title")} — HUEY ARCHI MAGAZINE', body, css_prefix=root)
+
+
+def build_cardnews_pages(d):
+    day = d["date"]
+    items = d.get("cardnews") or []
+    if not items:
+        return 0
+    out_dir = os.path.join(ROOT, "cardnews", day)
+    os.makedirs(out_dir, exist_ok=True)
+    for it in items:
+        with open(os.path.join(out_dir, f'{it["slug"]}.html'), "w", encoding="utf-8") as f:
+            f.write(render_cardnews_detail(d, it, "../../"))
+    return len(items)
 
 
 def render_brandbar(d):
@@ -482,10 +614,11 @@ def build(days):
         d["date"] = day
         with open(os.path.join(ISSUES, f"{day}.html"), "w", encoding="utf-8") as f:
             f.write(render_issue(d, "../", "index"))
+        n_cn = build_cardnews_pages(d)
         lede = re.sub(r"<[^>]+>", "", rich((d.get("top") or {}).get("lede", "")))
         index = [i for i in index if i["date"] != day]
         index.append({"date": day, "lede": html.unescape(lede).strip()})
-        print(f"  issues/{day}.html")
+        print(f"  issues/{day}.html" + (f"  (+ 카드뉴스 {n_cn}건)" if n_cn else ""))
 
     index.sort(key=lambda i: i["date"], reverse=True)
 

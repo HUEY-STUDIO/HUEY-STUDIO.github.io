@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>역사보존이 데이터센터를 이겼다 — HUEY ARCHI MAGAZINE</title>
+<link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../../assets/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../assets/apple-touch-icon.png">
+<link rel="stylesheet" as="style" crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="site-nav">
+  <a class="site-nav__brand" href="../../index.html">HEUY<span>.</span>ARCHI</a>
+  <nav>
+    <a href="../../index.html">최신호</a>
+    <a href="../../archive.html">지난호</a>
+  </nav>
+</div>
+<div class="cn-wrap">
+  <div class="cn-detail-head">
+    <span class="cn-brand">HUEY ARCHI MAGAZINE</span>
+    <span class="cn-editor">Editor HUEY</span>
+  </div>
+  <h1 class="cn-detail-title">역사보존이 데이터센터를 이겼다</h1>
+  <div class="cn-carousel" id="cnCarousel">
+      <div class="cn-slide"><img src="../../cardnews/2026-08-19/kansas-city-data-center-blocked/01.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-19/kansas-city-data-center-blocked/02.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-19/kansas-city-data-center-blocked/03.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-19/kansas-city-data-center-blocked/04.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-19/kansas-city-data-center-blocked/05.png" alt="" loading="lazy"></div>
+  </div>
+  <div class="cn-dots" id="cnDots"></div>
+  <div class="cn-infobar">
+    <div class="cn-info-row">
+      <span class="cn-info-label">원문 출처</span>
+      <div class="src"><span class="o">KCTV5</span> · <a href="https://www.kctv5.com/2026/08/05/kansas-city-plan-commission-blocks-data-center-plan-historic-quality-hill-site/" target="_blank" rel="noopener">Kansas City Plan Commission blocks data center plan for historic Quality Hill site</a> &nbsp;|&nbsp; <span class="o">KCUR</span> · <a href="https://www.kcur.org/housing-development-section/2026-08-10/kansas-city-officials-denied-a-plan-for-downtown-data-center-some-residents-vow-to-keep-fighting" target="_blank" rel="noopener">Kansas City officials denied a plan for downtown data center. Some residents vow to keep fighting</a> &nbsp;|&nbsp; <span class="o">Hoodline</span> · <a href="https://hoodline.com/2026/07/downtown-kc-landmark-on-chopping-block-for-20-story-data-tower/" target="_blank" rel="noopener">20-Story Data Center Proposed At 934 Central Threatens Historic KC Building</a></div>
+    </div>
+    <div class="cn-info-row">
+      <span class="cn-info-label">HUEY.ARCHI 기사</span>
+      <a href="../../issues/2026-08-19.html#art-intl_feature-0">캔자스시티, 역사보존 건물 철거 막았다… 20층 데이터센터 계획 전원 부결 →</a>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var car = document.getElementById('cnCarousel');
+  var dotsWrap = document.getElementById('cnDots');
+  var slides = car.querySelectorAll('.cn-slide');
+  slides.forEach(function (_, i) {
+    var dot = document.createElement('span');
+    dot.className = 'cn-dot' + (i === 0 ? ' on' : '');
+    dotsWrap.appendChild(dot);
+  });
+  var dotEls = dotsWrap.querySelectorAll('.cn-dot');
+  car.addEventListener('scroll', function () {
+    var idx = Math.round(car.scrollLeft / car.clientWidth);
+    dotEls.forEach(function (el, i) { el.classList.toggle('on', i === idx); });
+  }, { passive: true });
+})();
+</script>
+</body>
+</html>
