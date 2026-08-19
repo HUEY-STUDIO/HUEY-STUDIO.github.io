@@ -78,13 +78,31 @@ def esc(s):
     return _html.escape(str(s or ""))
 
 
+def stage_bg_style(item):
+    """item에 "photo"(Unsplash 이미지 URL)가 있으면 실사 배경, 없으면 기존 브랜드 그래픽."""
+    photo = item.get("photo")
+    if photo:
+        url = str(photo).replace("'", "%27")
+        return f"background-color:{INK};background-image:url('{url}');" \
+               "background-size:cover;background-position:center;"
+    return BACKGROUNDS[item.get("bg", 1) % len(BACKGROUNDS)]
+
+
+def credit_html(item):
+    credit = item.get("photo_credit")
+    if not (item.get("photo") and credit):
+        return ""
+    return f'<div class="credit">Photo: {esc(credit)} / Unsplash</div>'
+
+
 def cover_slide_html(item, day, total):
-    bg = BACKGROUNDS[item.get("bg", 1) % len(BACKGROUNDS)]
+    bg = stage_bg_style(item)
     slide = (item.get("slides") or [{}])[0]
     heading = esc(slide.get("heading") or item.get("title") or "").replace("\n", "<br>")
     sub = esc(slide.get("body") or "")
     tag = esc(item.get("tag") or "MAGAZINE")
     sub_html = f'<div class="sub">{sub}</div>' if sub else ""
+    credit = credit_html(item)
     return f"""<!doctype html><html><head><meta charset="utf-8">{FONT_LINK}
 <style>
   *{{margin:0;padding:0;box-sizing:border-box}}
@@ -114,6 +132,10 @@ def cover_slide_html(item, day, total):
     display:flex;justify-content:space-between;align-items:center;
     font-size:15px;color:rgba(255,255,255,.6);font-weight:700;letter-spacing:.06em;
   }}
+  .credit{{
+    position:absolute;right:24px;bottom:16px;
+    font-size:12px;color:rgba(255,255,255,.55);font-weight:600;letter-spacing:.02em;
+  }}
 </style></head><body>
   <div class="stage">
     <div class="vign"></div>
@@ -126,15 +148,17 @@ def cover_slide_html(item, day, total):
       <h1>{heading}</h1>
       {sub_html}
     </div>
+    {credit}
   </div>
 </body></html>"""
 
 
 def content_slide_html(item, slide, idx, total):
-    bg = BACKGROUNDS[item.get("bg", 1) % len(BACKGROUNDS)]
+    bg = stage_bg_style(item)
     heading = esc(slide.get("heading") or "")
     body = esc(slide.get("body") or "").replace("\n", "<br><br>")
     heading_html = f'<div class="head">{heading}</div>' if heading else ""
+    credit = credit_html(item)
     return f"""<!doctype html><html><head><meta charset="utf-8">{FONT_LINK}
 <style>
   *{{margin:0;padding:0;box-sizing:border-box}}
@@ -153,6 +177,10 @@ def content_slide_html(item, slide, idx, total):
   .head{{font-size:30px;font-weight:800;letter-spacing:.02em;color:{HOT};margin-bottom:16px}}
   .body{{font-size:34px;font-weight:700;line-height:1.56;letter-spacing:-.015em;
     text-shadow:0 2px 16px rgba(0,0,0,.3);}}
+  .credit{{
+    position:absolute;right:24px;bottom:16px;
+    font-size:12px;color:rgba(255,255,255,.55);font-weight:600;letter-spacing:.02em;
+  }}
 </style></head><body>
   <div class="stage">
     <div class="vign"></div>
@@ -165,6 +193,7 @@ def content_slide_html(item, slide, idx, total):
       {heading_html}
       <div class="body">{body}</div>
     </div>
+    {credit}
   </div>
 </body></html>"""
 
