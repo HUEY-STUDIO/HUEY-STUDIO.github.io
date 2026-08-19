@@ -125,6 +125,11 @@ def shell(title, body, css_prefix=""):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
+<link rel="icon" type="image/png" sizes="16x16" href="{css_prefix}assets/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{css_prefix}assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="{css_prefix}assets/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{css_prefix}assets/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{css_prefix}assets/apple-touch-icon.png">
 <link rel="stylesheet" as="style" crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
 <link rel="stylesheet" href="{css_prefix}assets/style.css">
