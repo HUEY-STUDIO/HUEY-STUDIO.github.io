@@ -50,7 +50,7 @@
     "kicker": "TOP STORY · 초고층 주거",
     "lede": "스튜디오 리베스킨드, 강남 대치동에 49층 6개 동 '셀레스티얼' 공개… 삼성물산 시공",
     "lede_em": "49층 6개 동 '셀레스티얼'",
-    "image_label": "DEZEEN",
+    "image_label": "ARCHDAILY",
     "body": [
       "미국 건축사무소 **스튜디오 리베스킨드**가 국내 삼우설계·HJ디자인파트너스와 함께 서울 강남구 대치동 '대치쌍용 재건축'의 새 설계를 공개했다. 최고 **49층**, 총 6개 동으로 구성되며 기존 5개 동·**630세대** 규모 단지를 철거하고 약 **1,000세대** 규모로 새로 짓는다. 시공은 삼성물산이 맡는다.",
       "설계 콘셉트는 '셀레스티얼(Celestial)'. 밝은 톤의 수직 파사드 요소들이 타워 외피를 감싸며 곡선 띠 패턴을 그리는데, 해가 움직이고 보는 사람의 위치가 바뀔 때마다 무늬가 회전하며 상승하는 듯한 인상을 주도록 설계했다. 스튜디오 리베스킨드 측은 입주민이 주변 경관과 연결되도록 하는 데 초점을 맞췄다고 밝혔다.",
@@ -77,11 +77,12 @@
         ]
       }
     ],
-    "topic": "프로젝트"
+    "topic": "프로젝트",
+    "image": "https://images.adsttc.com/media/images/6a56/e528/93aa/2d01/8c25/4532/large_jpg/studio-libeskind-designs-new-residential-development-in-seoul_5.jpg?1784079800"
   },
   "side": {
     "label": "실무 직결 · 제도/규제",
-    "image_label": "국토교통부",
+    "image_label": "파이낸셜뉴스",
     "title": "국토부, 물류시설 화재안전 제도개선 TF 가동… 설계 단계부터 전면 재점검",
     "body": [
       "지난달 **7월 18일** 인천 서구 석남동 쿠팡 제32물류센터에서 발생한 대형 화재를 계기로 국토교통부가 **7월 20일** '물류시설 화재안전 제도개선 태스크포스(TF)'를 발족했다. 진화까지 **109시간 40분**이 걸린 이 화재는 6층 복층 메자닌 구조 선반에서 시작돼 소방관 진입이 어려웠던 것으로 파악됐다."
@@ -115,7 +116,8 @@
         ]
       }
     ],
-    "topic": "제도규제"
+    "topic": "제도규제",
+    "image": "https://image.fnnews.com/resource/media/image/2026/07/20/202607201625496482_l.jpg"
   },
   "intl_feature": [
     {
@@ -156,7 +158,8 @@
           ]
         }
       ],
-      "topic": "재난유산"
+      "topic": "재난유산",
+      "image": "https://gray-kctv-prod.gtv-cdn.com/resizer/v2/GVRB3GIYW5E5LIGNC6247YWMVI.png?auth=c8e1057eb90ae7a4be24ac40e47afd19773d2342211d6f4ead6cf2be5b2a7ec0&width=1200&height=600&smart=true"
     },
     {
       "kicker": "도시재생 · 공공공간",
@@ -176,7 +179,8 @@
           }
         ]
       },
-      "topic": "도시재생"
+      "topic": "도시재생",
+      "image": "https://www.designboom.com/twitterimages/uploads/2026/08/banyoles-spain-mias-architects-historic-center-travertine-stone-designboom-1200-1.jpg"
     }
   ],
   "intl_grid": [
@@ -195,7 +199,9 @@
           }
         ]
       },
-      "topic": "프로젝트"
+      "topic": "프로젝트",
+      "image": "https://www.architecturalrecord.com/ext/resources/Issues/2026/08-August/2608-Presidential-Libraries-13.jpg?height=635&t=1785810433&width=1200",
+      "image_label": "ARCHITECTURAL RECORD"
     },
     {
       "kicker": "교육시설 · 포용적 디자인",
@@ -212,7 +218,9 @@
           }
         ]
       },
-      "topic": "프로젝트"
+      "topic": "프로젝트",
+      "image": "https://www.architecturalrecord.com/ext/resources/Issues/2026/08-August/2608-CEU-William-E-Carter-School-F.jpg?height=635&t=1785688851&width=1200",
+      "image_label": "ARCHITECTURAL RECORD"
     },
     {
       "kicker": "인프라 · 내진보강",
@@ -229,7 +237,9 @@
           }
         ]
       },
-      "topic": "프로젝트"
+      "topic": "프로젝트",
+      "image": "https://www.enr.com/ext/resources/2026/07/29/Anderson-Dam.jpg?height=635&t=1785604062&width=1200",
+      "image_label": "ENR"
     },
     {
       "kicker": "시공 기술 · 교량",
@@ -246,7 +256,9 @@
           }
         ]
       },
-      "topic": "프로젝트"
+      "topic": "프로젝트",
+      "image": "https://www.enr.com/ext/resources/2026/08/04/Heaviest-Longest-Bridge-Slides.jpg?height=635&t=1785920834&width=1200",
+      "image_label": "ENR"
     }
   ],
   "korea": [
@@ -277,7 +289,9 @@
           ]
         }
       ],
-      "topic": "재난유산"
+      "topic": "재난유산",
+      "image": "https://img.seoul.co.kr//img/upload/2026/07/23/SSC_20260723155336_O2.jpg",
+      "image_label": "서울신문"
     },
     {
       "kicker": "제도 · 중앙-지방 협력",
@@ -324,7 +338,9 @@
           }
         ]
       },
-      "topic": "제도규제"
+      "topic": "제도규제",
+      "image": "https://img.newspim.com/news/2026/08/18/2608181407154130_565_tc.jpg",
+      "image_label": "뉴스핌"
     },
     {
       "kicker": "설계공모 · 국제",
@@ -344,7 +360,9 @@
           ]
         }
       ],
-      "topic": "설계공모"
+      "topic": "설계공모",
+      "image": "https://vmspace.com/ActiveFile/spacem.org/news/thum/%C6%F7%C7%D7%BD%C3%B8%B3%B9%DA%B9%B0%B0%FC%20%C6%F7%BD%BA%C5%CD%20%C3%D6%C1%BE%200602%20%BA%B9%BB%E722.jpg",
+      "image_label": "월간 SPACE"
     },
     {
       "kicker": "건설경기 · 통계",
