@@ -1,0 +1,418 @@
+{
+  "vol": "VOL.01  NO.004",
+  "editor": "HUEY",
+  "counts": {
+    "total": 18,
+    "intl": 12,
+    "kr": 6
+  },
+  "outlets": [
+    "designboom",
+    "ArchDaily",
+    "Construction Dive",
+    "머니투데이",
+    "파이낸셜뉴스",
+    "이데일리",
+    "부산일보",
+    "한국부동산원"
+  ],
+  "teasers": [
+    {
+      "title": "거제 아파트 산사태, 3명 사상",
+      "desc": "폭우 700mm 몰아쳐… 전문가 \"정밀안전진단 필요\".",
+      "label": "DISASTER"
+    },
+    {
+      "title": "NCARB 2026 보고서, 지원자 다양성 역대 최다",
+      "desc": "유색인종 49%·여성 47%, 그러나 면허취득 격차는 여전.",
+      "label": "REPORT"
+    },
+    {
+      "title": "COP31 국제 지속가능건축 공모전 접수 시작",
+      "desc": "에너지효율·저탄소 기준으로 심사, 10월 16일 마감.",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "그레이엄재단, 2026년 그랜트 45건 추가 선정",
+      "desc": "전시·출판·리서치 등 건축 담론 확장 프로젝트 지원.",
+      "label": "GRANT"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 도시 마스터플랜",
+    "lede": "자하 하디드 아키텍츠, 소나무 숲 관통하는 198헥타르 '바쿠 엑스포 시티' 공개",
+    "lede_em": "198헥타르 '바쿠 엑스포 시티'",
+    "image_label": "DESIGNBOOM",
+    "caption": "바쿠 엑스포 시티 마스터플랜 조감도 ⓒ Zaha Hadid Architects",
+    "body": [
+      "자하 하디드 아키텍츠(ZHA)가 아제르바이잔 바쿠에 **198헥타르** 규모 신도시 지구 '바쿠 엑스포 시티(Baku Expo City)' 마스터플랜을 공개했다. 소나무 숲을 관통하며 도심과 자연이 맞물리는 대형 복합 개발 계획이다.",
+      "기존 소나무 **1만 8,000그루** 중 **92%**를 그대로 보존해 숲이 새 도시 구역의 골격을 이루도록 설계했다. 도로와 건물을 숲 사이로 끼워 넣는 방식으로 개발과 생태 보전을 동시에 노렸다.",
+      "카자리·길라바르 등 바쿠 특유의 계절풍 방향에 맞춰 건물 배치를 정하고, 전 동에 녹색 지붕과 재생에너지 시스템을 통합해 기후 대응 설계를 전면에 내세웠다.",
+      "스타 건축사무소가 기후·생태를 마스터플랜의 핵심 논리로 삼았다는 점에서 업계 주목도가 높다. 중동·중앙아시아권에서 잇따라 대형 도시개발을 수주해온 최근 흐름과도 맞닿아 있다."
+    ],
+    "source": {
+      "outlet": "designboom",
+      "links": [
+        {
+          "text": "ZHA to thread sprawling 'Baku Expo City' through pine forest in Azerbaijan",
+          "url": "https://www.designboom.com/architecture/zha-baku-expo-city-pine-forest-azerbaijan-zaha-hadid/"
+        }
+      ]
+    },
+    "topic": "프로젝트",
+    "image": "https://static.designboom.com/wp-content/uploads/2026/08/ZHA-zaha-hadid-architects-baku-masterplan-azerbaijan-designboom-600.jpg"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image_label": "머니투데이",
+    "title": "공급 넘어 '속도전'…국토부, 도시·건축규제 근본 개편 착수",
+    "body": [
+      "정부가 수도권 주택공급 확대 대책에 이어, AI 시대 산업구조 변화에 대응하는 근본적인 도시·건축규제 개편에 나섰다. 단기적으로는 주상복합 기준 완화, 준공업지역 복합개발 촉진, 민간 미활용 부지의 주거용도 전환, 모듈러 공법 확대 등을 통해 공급 속도를 끌어올리고 있다."
+    ],
+    "facts": [
+      "대상: 용도지역 세부 분류 **20개 이상**, 건축물 종류 약 **30개**",
+      "단기 과제: 주상복합 기준완화·준공업지역 복합개발·모듈러 공법 확대",
+      "장기 과제: 복합용도 건축물 확대, 경직된 용도지역 체계 전면 개편"
+    ],
+    "body_after": [
+      "국토부는 재택근무 확산과 산업구조 고도화 등 빠른 사회 변화에 탄력적으로 대응하기 위해 복합용도 건축물 확대, 주거·업무시설 균형 방안, 용도지역 체계 전면 개편까지 장기 과제로 함께 추진한다는 방침이다. 실무 현장에서는 주상복합·복합용도 기준 변경 폭을 주시할 필요가 있다."
+    ],
+    "source": {
+      "outlet": "머니투데이",
+      "links": [
+        {
+          "text": "공급 넘어 '속도전'…국토부, 도시·건축규제 뜯어고친다",
+          "url": "https://www.mt.co.kr/estate/2026/08/17/2026081414215956185"
+        }
+      ]
+    },
+    "topic": "제도규제",
+    "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/08/2026081414215956185_2.jpg"
+  },
+  "intl_feature": [
+    {
+      "kicker": "완공 · 저렴주택",
+      "title": "OMA, 미국 첫 100% 저렴주택 프로젝트 샌프란시스코에 완공",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "OMA와 Y.A. 스튜디오가 샌프란시스코 헤이트-애슈버리 지구에 **19만 4,000제곱피트** 규모 '730 스태니언'을 완공했다. OMA가 미국에서 처음 선보이는 **100% 저렴주택** 프로젝트다.",
+        "저소득 가정·노숙 경험자·청소년을 위한 **160세대**를 제공하며, 모듈형 GFRC 패널 파사드와 3개 중정을 통해 골든게이트 파크와의 시각적 연결을 강조했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "OMA/Jason Long and Y.A. Studio Complete 730 Stanyan Affordable Housing Development in San Francisco",
+            "url": "https://www.archdaily.com/1183489/oma-jason-long-and-ya-studio-complete-730-stanyan-affordable-housing-development-in-san-francisco"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "image": "https://images.adsttc.com/media/images/6a84/1f77/ac8b/af01/892c/d142/large_jpg/oma-jason-long-and-ya-studio-complete-730-stanyan-affordable-housing-development-in-san-francisco_1.jpg?1787043799"
+    },
+    {
+      "kicker": "베니스 비엔날레 · 파빌리온",
+      "title": "2027 베니스 비엔날레 우크라이나관, '질문의 수영장'으로 실향을 묻다",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "내부 실향민을 위한 건물 재생 활동을 이어온 자원단체 CO-HATY가 2027 베니스 비엔날레 우크라이나관 '질문의 수영장(Pool of Questions)'을 설계한다.",
+        "이바노프란키우스크주 칼루시의 버려진 유치원을 실향민 100여 명의 주거지로 바꾼 실제 프로젝트를 토대로, '전쟁 중에도 언제 그냥 살아갈 수 있는가'라는 질문을 던진다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "The Ukrainian Pavilion Examines Displacement Through \"Pool of Questions\" at 2027 Venice Biennale",
+            "url": "https://www.archdaily.com/1183552/the-ukrainian-pavilion-examines-displacement-and-shared-space-through-pool-of-questions-at-the-2027-venice-architecture-biennale"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "image": "https://images.adsttc.com/media/images/6a84/c527/ac8b/af01/892c/d438/large_jpg/ukraine-pavilion-at-the-2027-venice-biennale_9.jpg?1787086123"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "건설 · 스타디움",
+      "title": "AECOM 컨소시엄, 23억 달러 규모 탬파베이 레이스 새 야구장 수주",
+      "body": [
+        "AECOM 헌트·터너·호루스 컨소시엄이 **23억 달러** 규모 탬파베이 레이스 새 야구장 공사를 수주했다. **3만 1,000석** 규모로 지어지며, 야구 경기뿐 아니라 콘서트 등 복합 이벤트 개최가 가능하도록 설계된다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "AECOM Hunt-Turner-Horus JV selected for $2.3B Tampa Bay Rays stadium",
+            "url": "https://www.constructiondive.com/news/tampa-bay-rays-aecom-hunt-turner-horus-construction/828204/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "image": "https://imgproxy.divecdn.com/SAPNFhs9WoA51TrRWK57uFrheJhC_D7IsETdVG71bzE/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9SQVlTTkVXQkFMTFBBUksuanBlZw==.webp",
+      "image_label": "CONSTRUCTION DIVE"
+    },
+    {
+      "kicker": "건설테크 · 로보틱스",
+      "title": "베드록 로보틱스, 완전 자율주행 굴착기 미국 현장에 실전 투입",
+      "body": [
+        "샌프란시스코 스타트업 베드록 로보틱스가 완전 자율주행 굴착기를 미국 건설 현장에 실전 투입했다. 선트·재크리 컨스트럭션 등 인프라 프로젝트에서 운영자 없이 가동 중이다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "Bedrock Robotics deploys fully autonomous excavators on jobsites",
+            "url": "https://www.constructiondive.com/news/bedrock-robotics-fully-autonomous-excavators-jobsites/828267/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "image": "https://imgproxy.divecdn.com/R7ljEBLi8Fxy-t_RNxwcYG2lZ6rBx-4kD2S6tCRlmA0/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9GdWxseV9BdXRvbm9tb3VzX0NhYl9WaWV3LmpwZw==.webp",
+      "image_label": "CONSTRUCTION DIVE"
+    },
+    {
+      "kicker": "유산 · 메타볼리즘",
+      "title": "나카긴 캡슐타워, 사라진 '교체 가능한 집'의 꿈",
+      "body": [
+        "1972년 완공된 쿠로카와 기쇼의 나카긴 캡슐타워를 되짚는 기획 기사다. **140개** 조립식 캡슐을 코어에 붙여 '교체 가능한 주거'를 실현했지만 **2022년** 결국 철거됐고, **23개** 캡슐은 각지 뮤지엄에 보존돼 적응형 주택 실험의 교훈을 남겼다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "The Nakagin Capsule Tower and the Dream of a Home That Could Change",
+            "url": "https://www.designboom.com/architecture/nakagin-capsule-tower-dream-home-change-kisho-kurokawa-tokyo/"
+          }
+        ]
+      },
+      "topic": "재난유산",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/nakagin-capsule-tower-home-change-stuck-time-kisho-kurokawa-tokyo-designboom-500.jpg",
+      "image_label": "DESIGNBOOM"
+    },
+    {
+      "kicker": "기후적응 · 수상건축",
+      "title": "물이 차오르면 함께 뜬다… 세계 곳곳의 수륙양용 주택",
+      "body": [
+        "베트남·에콰도르·네덜란드·템스강 등 세계 각지 사례를 통해 홍수에 맞서 뜨거나 상시 부유하는 수상주택 설계 흐름을 정리했다. '땅이 더 이상 땅처럼 움직이지 않을 때' 건축이 어떻게 대응하는지를 다룬다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "When the water rises, these amphibious homes rise and float with it",
+            "url": "https://www.designboom.com/architecture/water-rises-amphibious-homes-float/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/amphibious-houses-modes-habitation-designboom-600.jpg",
+      "image_label": "DESIGNBOOM"
+    },
+    {
+      "kicker": "설계공모 · 국제",
+      "title": "COP31 국제 지속가능건축 공모전, 10월 접수 마감",
+      "body": [
+        "UN환경계획(UNEP) 산하 GlobalABC와 튀르키예 환경도시기후변화부가 'COP31 국제 지속가능건축 공모전'을 열었다. 전 세계 완공·설계 단계 건축물을 대상으로 에너지 효율·저탄소·기후탄력성 기준에 따라 심사하며, 접수 마감은 **2026년 10월 16일** 자정이다. 수상작은 튀르키예 안탈리아에서 열리는 COP31 기간 중 발표된다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "International Sustainable Building Competition",
+            "url": "https://www.archdaily.com/1182263/international-sustainable-building-competition"
+          }
+        ]
+      },
+      "topic": "설계공모",
+      "image": "https://images.adsttc.com/media/images/6a73/31a1/5b21/b900/0199/2eda/large_jpg/COP31-Sustainable_Building_Competition.jpg?1785934249",
+      "image_label": "ARCHDAILY"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "산업동향 · 모듈러",
+      "title": "물량 늘리고 공기 반년 줄인다…정부, 모듈러 공공주택 발주 2만가구로 확대",
+      "body": [
+        "국토교통부가 **2027~2030년** 모듈러 공공주택 발주 물량을 기존 **1만 2,000가구**에서 **2만 가구**로 늘려 연평균 발주를 **3,000가구**에서 **5,000가구**로 확대한다. 공장 제작과 현장 시공을 병행해 통상 2년 걸리는 공사 기간을 **1년 6개월**로 단축한다는 구상이다.",
+        "다만 일반 공법 대비 가구당 **약 7,000만원** 높은 공사비가 관건이며, 정부는 **2030년**까지 초과 공사비의 **약 50%**를 재정 지원할 계획이다."
+      ],
+      "source": {
+        "outlet": "파이낸셜뉴스",
+        "links": [
+          {
+            "text": "\"물량 늘리고 공기 반년 줄인다\"…정부, 모듈러 공공주택 발주 2만가구로 확대",
+            "url": "https://www.fnnews.com/news/202608191817132935"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "프로젝트 · 전시",
+      "title": "'학교'를 건축으로 풀다…광화문광장서 청년 건축가 25개 작품 전시",
+      "body": [
+        "UAUS(전국건축대학생연합) 주최로 전국 25개 건축대학 학생들이 참여한 제15회 파빌리온 기획전시가 광화문광장 놀이마당에서 **8월 28일**까지 열린다. 'U&US: Re-membering in School'을 주제로 학교 공간 속 관계 형성을 건축 언어로 재해석했다.",
+        "수상작은 **9월** 서울건축문화제에서 다시 전시된다."
+      ],
+      "source": {
+        "outlet": "이데일리",
+        "links": [
+          {
+            "text": "'학교'를 건축으로 풀다…광화문광장서 청년 건축가 25개 작품 전시",
+            "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03630966645548960"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "image": "https://image.edaily.co.kr/images/photo/files/NP/S/2026/08/PS26081900786.jpg",
+      "image_label": "이데일리"
+    },
+    {
+      "kicker": "재난유산 · 안전",
+      "title": "거제 아파트 산사태로 3명 사상…전문가 \"정밀안전진단 필요\"",
+      "body": [
+        "경남 거제시 옥포동 아파트에서 **8월 17~18일** 사흘간 **700mm**가 넘는 폭우로 산사태가 발생, 20대 남성이 숨지고 2명이 크게 다쳤다.",
+        "토질기술사는 추가 붕괴 가능성을 경고하며 전 동에 대한 정밀안전진단을 요구했고, 진단에는 통상 **3주 이상**이 걸릴 전망이다."
+      ],
+      "source": {
+        "outlet": "부산일보",
+        "links": [
+          {
+            "text": "거제 아파트 산사태로 3명 사상…전문가 \"정밀안전진단 필요\"",
+            "url": "https://www.busan.com/view/busan/view.php?code=2026081820382273542"
+          }
+        ]
+      },
+      "topic": "재난유산",
+      "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/08/18/2026081816103984502_l.jpg",
+      "image_label": "부산일보"
+    },
+    {
+      "kicker": "설계공모 · 대구",
+      "title": "팔공산국립공원 동부사무소 신축설계공모 공고",
+      "body": [
+        "한국부동산원이 대구광역시 팔공산국립공원 동부사무소 신축사업 설계공모를 **8월 18일** 공고했다. 참가등록은 **8월 25일**까지, 작품 접수는 **10월 2일**까지다.",
+        "국립공원공단 산하 지역사무소 신축 프로젝트로, 조달청 건축HUB를 통해 참가등록·접수가 진행된다."
+      ],
+      "source": {
+        "outlet": "한국부동산원",
+        "links": [
+          {
+            "text": "팔공산국립공원 동부사무소 신축설계공모 공고",
+            "url": "https://www.hub.go.kr/portal/dps/dsr/idx-dsr-selectDesignPbpPbancList.do"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 제주",
+      "title": "협재권역 복합평생교육센터 제안공모 접수 중",
+      "body": [
+        "한국부동산원이 제주특별자치도 협재권역 행복한삶터조성사업의 일환으로 복합평생교육센터 건립 제안공모를 **8월 18일** 공고했다. 참가등록은 **8월 24일**, 작품 접수는 **9월 17일**까지다.",
+        "지역 주민 평생교육 인프라 확충을 위한 공공건축 프로젝트다."
+      ],
+      "source": {
+        "outlet": "한국부동산원",
+        "links": [
+          {
+            "text": "협재권역 복합평생교육센터 제안공모",
+            "url": "https://www.hub.go.kr/portal/dps/dsr/idx-dsr-selectDesignPbpPbancList.do"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "NCARB 2026 보고서, 지원자 다양성 늘었지만 기성 건축사 격차는 여전",
+      "body": "지원자 중 유색인종 49%·여성 47%로 역대 최다지만, 실제 면허 취득 건축사는 유색인종 21%·여성 28%에 그친다. 평균 면허취득 기간은 12.3년으로 단축됐다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "NCARB 2026 Report Shows a More Diverse Candidate Pool Amid Persistent Gaps in Architecture Licensure",
+            "url": "https://www.archdaily.com/1183568/ncarb-2026-report-shows-a-more-diverse-candidate-pool-amid-persistent-gaps-in-architecture-licensure"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "터너-월슨 JV, 1억달러 규모 브랜다인 미술관 확장 수주",
+      "body": "와이어스 가문 화가들로 유명한 펜실베이니아 브랜다인 미술관에 4만제곱피트 신관을 짓고 325에이커 보존지·10마일 트레일을 조성한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "Turner-Wohlsen JV wins $100M Brandywine Museum expansion",
+            "url": "https://www.constructiondive.com/news/turner-wohlsen-construction-brandywine-museum-wyeths/828327/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "DP6, 네덜란드 델프트 주택에 목재 화가 스튜디오 증축",
+      "body": "운하 쪽 입구는 그대로 두고 생활 동선을 정원 쪽으로 돌려, 양끝 전면 유리 파사드로 정원을 매개공간화했다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "Timber painter's studio extends garden in DP6's home renovation in the Netherlands",
+            "url": "https://www.designboom.com/architecture/timber-painters-studio-garden-dp6s-home-renovation-netherlands/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "그레이엄재단, 2026년 건축 담론 확장 프로젝트에 45건 지원",
+      "body": "전시·영화·출판·리서치 등 건축 담론을 넓히는 단체·프로젝트 45곳에 지원금을 배분했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Graham Foundation Announces 45 New Grants for Projects Expanding Architectural Discourse in 2026",
+            "url": "https://www.archdaily.com/1183472/graham-foundation-announces-45-new-grants-for-projects-expanding-architectural-discourse-in-2026"
+          }
+        ]
+      },
+      "topic": "수상"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "zha-baku-expo-city",
+      "tag": "PROJECT",
+      "title": "소나무 숲을 관통하는 198헥타르 신도시",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "slides": [
+        {
+          "heading": "소나무 숲을 뚫고\n서는 신도시",
+          "body": "자하 하디드 아키텍츠가 그린 '바쿠 엑스포 시티'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "ZHA가 아제르바이잔 바쿠에 198헥타르 규모 신도시 지구 '바쿠 엑스포 시티' 마스터플랜을 공개했다."
+        },
+        {
+          "heading": "FOREST",
+          "body": "기존 소나무 1만 8,000그루 중 92%를 그대로 보존한다. 숲이 새 도시 구역의 골격이 된다."
+        },
+        {
+          "heading": "CLIMATE",
+          "body": "바쿠의 계절풍 방향에 맞춰 건물을 배치하고, 전 동에 녹색 지붕과 재생에너지 시스템을 통합했다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "스타 건축사무소가 기후·생태를 마스터플랜의 핵심 논리로 삼은 사례 — 중동·중앙아시아 대형 개발의 새 흐름을 보여준다."
+        }
+      ]
+    }
+  ]
+}
