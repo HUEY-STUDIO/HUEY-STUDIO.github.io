@@ -1,0 +1,387 @@
+{
+  "vol": "VOL.01  NO.005",
+  "editor": "HUEY",
+  "counts": {
+    "total": 19,
+    "intl": 13,
+    "kr": 6
+  },
+  "outlets": [
+    "ArchDaily",
+    "designboom",
+    "Dezeen",
+    "에너지데일리",
+    "아시아투데이",
+    "inews24",
+    "대한건축사협회 건축사신문",
+    "한국건축가협회",
+    "M+ Museum"
+  ],
+  "teasers": [
+    {
+      "title": "NCARB '2026 By the Numbers' 리포트 발표",
+      "desc": "미국 건축사 자격시험 응시자 중 유색인종 49%, 여성 47%…역대 최고 다양성 기록",
+      "label": "단신"
+    },
+    {
+      "title": "한국건축가협회, '2026 대한민국 공간문화대상' 공모",
+      "desc": "제21회 공간문화대상 접수 진행 중, 국내 우수 공간환경 발굴",
+      "label": "국내"
+    },
+    {
+      "title": "제1회 한국학생건축비엔날레, 노들섬서 폐막",
+      "desc": "전국학생건축포럼 '생각지대' 주최로 8월 6일부터 2주간 진행된 첫 학생 비엔날레 종료",
+      "label": "비엔날레"
+    },
+    {
+      "title": "대한건축사협회-한국건축설계학회 업무협약",
+      "desc": "건축설계 분야 발전과 건축문화 진흥 위해 손잡아",
+      "label": "국내"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 국제 도시계획",
+    "lede": "자하 하디드 건축, 바쿠 엑스포시티 198헥타르 마스터플랜 설계",
+    "lede_em": "소나무숲 92% 보존하며 '제2의 헤이다르 알리예프 센터' 짓는다",
+    "image": "https://images.adsttc.com/media/images/6a86/3763/ac8b/af01/892c/da99/newsletter/zha-has-been-selected-to-design-the-baku-expo-city-masterplan_3.jpg?1787180910",
+    "image_label": "ARCHDAILY",
+    "caption": "바쿠 엑스포센터를 둘러싼 198헥타르 부지에 조성되는 신규 도시구역 조감도 ⓒ Zaha Hadid Architects",
+    "topic": "프로젝트",
+    "body": [
+      "자하 하디드 건축사무소(ZHA)가 아제르바이잔 바쿠의 엑스포센터를 둘러싼 **198헥타르** 규모 신규 도시구역 마스터플랜 설계사로 선정됐다. **2013년** 완공한 헤이다르 알리예프 센터 이후 ZHA가 바쿠에서 맡는 두 번째 대형 프로젝트로, 기존 엑스포센터와 새 콩그레스홀을 중심으로 주거·상업·문화 기능이 결합된 복합 도시를 조성하는 것이 목표다.",
+      "가장 눈에 띄는 원칙은 숲 보존이다. 부지에 있는 소나무 **1만8000그루** 중 **92%**(약 1만6560그루)를 남기고, 이를 활용해 자연 냉각과 미기후 조절, 바람막이 효과를 얻는다는 구상이다. 바쿠 특유의 계절풍—겨울의 차가운 '하즈리(Khazri)'와 여름의 온화한 '길라바르(Gilavar)'—을 건물 배치의 설계 변수로 삼아, 보행자 풍환경 분석을 통해 지상 풍속을 낮추는 방풍벽 역할을 건축물이 대신하도록 했다.",
+      "주거 유형은 1인 가구용 원룸형부터 다가구 단독주택까지 다양하게 구성되며, 유치원과 학교, 상점, 의료시설, 공공공원과 스포츠시설이 도보권 내에 배치된다. 모든 건물 지붕에는 녹화 시스템을 적용해 단열과 우수 관리를 동시에 해결하고, 보행로와 자전거도로로 연결된 가로망은 확장되는 바쿠 대중교통망, 특히 개량되는 바키하노프-비나-갈라 철도 노선과 접속된다.",
+      "카스피해 연안 국가들이 국가 이미지를 건 대형 마스터플랜에 스타 건축사무소를 잇따라 기용하는 흐름 속에서, 이번 프로젝트는 ZHA가 2013년 이후 10여 년 만에 바쿠에 남기는 두 번째 유산이자 숲 보존형 대규모 도시개발의 시험대라는 점에서 국제 도시계획 업계의 주목을 받고 있다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "ZHA Designs 198-Hectare Urban District Around Baku Expo Center",
+          "url": "https://www.archdaily.com/1183649/zha-designs-198-hectare-urban-district-around-baku-expo-center-in-azerbaijan"
+        },
+        {
+          "text": "designboom: ZHA to thread 'baku expo city' through pine forest",
+          "url": "https://www.designboom.com/architecture/zha-baku-expo-city-pine-forest-azerbaijan-zaha-hadid/"
+        }
+      ]
+    }
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "국토교통부",
+    "title": "녹색건축인증(G-SEED), 7개 분야 → 4개로 전면 개편…2027년 7월 시행",
+    "topic": "제도규제",
+    "body": [
+      "국토교통부가 **2026년 8월 13일** '녹색건축 인증에 관한 규칙 일부개정령안'을 입법예고했다. 2035 국가온실가스감축목표(NDC)와 2050 탄소중립 실현에 맞춰 녹색건축인증(G-SEED) 제도를 전면 개편하는 내용으로, 설계 실무에서 인증 취득 전략을 짜는 방식 자체가 바뀔 전망이다."
+    ],
+    "facts": [
+      "개편: 기존 7개 전문분야를 '탄소중립과 자원활용', '생활공간과 건강', '생태공간과 그린인프라', '친환경 계획과 관리' **4개 분야**로 통합",
+      "신설: 특정 분야에서 고득점한 건축물에 부여하는 '특성화 등급' 도입",
+      "간소화: 그린리모델링 사업에만 적용되던 인증심의 생략을 일반 리모델링 건축물까지 확대, 군사시설도 신청 시 인증 가능"
+    ],
+    "body_after": [
+      "개정규칙은 **2027년 7월 1일**부터 시행되며, 의견이 있는 기관·단체·개인은 **9월 22일**까지 국민참여입법센터를 통해 의견을 제출할 수 있다. 인증 유효기간·명판 디자인 등 세부 시행지침은 향후 하위 고시로 구체화될 예정이어서, 설계사무소는 진행 중인 프로젝트의 인증 취득 시점을 신구 기준 중 어느 쪽에 맞출지 미리 검토할 필요가 있다."
+    ],
+    "source": {
+      "outlet": "에너지데일리",
+      "links": [
+        {
+          "text": "녹색건축 인증 7개→4개 분야로 개편…탄소중립 중심 인증체계 전면 개편",
+          "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=202237"
+        }
+      ]
+    }
+  },
+  "intl_feature": [
+    {
+      "kicker": "국제 · 주거재생",
+      "title": "1960년대 노동자 기숙사, 507가구 도시주택으로…슬로바키아 코슈마우 리노베이션",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/atrium-architekti-transforms-1960s-workers-dormitory-into-507-homes-in-slovakia.jpeg",
+      "image_label": "DESIGNBOOM",
+      "topic": "도시재생",
+      "body": [
+        "슬로바키아 스튜디오 아트리움 아르히텍티(Atrium Architekti)가 코시체의 옛 VSŽ 제철소 노동자 기숙사 '코스말트(KOSMALT)'를 **507세대** 규모 주거단지로 탈바꿈시켰다. 1960년대 라디슬라프 그레치와 로베르트 칸드리크가 설계한 13층 건물로, 이름은 이 지역 제철소가 생산하던 법랑강판 브랜드에서 따왔다.",
+        "동일한 형태의 기숙사 방들을 재편성해 약 **21제곱미터** 크기의 콤팩트한 XS 유닛을 중심으로 1인 가구와 커플 모두에 대응하도록 설계했다. 테라초와 트래버틴 등 원래 마감재를 공용부에 복원하는 한편, 익스팬디드 메탈과 골강판 등 새로운 재료와 살몬·아이보리·옐로 색상의 색채 안내체계를 더해 소셜하우징의 역사성과 동시대 주거 기준을 함께 담아냈다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "atrium architekti transforms 1960s workers' dormitory into 507 homes in slovakia",
+            "url": "https://www.designboom.com/architecture/atrium-architekti-workers-dormitory-homes-slovakia/"
+          }
+        ]
+      }
+    },
+    {
+      "kicker": "국제 · 파빌리온",
+      "title": "2026 서펜타인 파빌리온, 멕시코시티 스튜디오가 그려낸 '구불구불한 벽'",
+      "image": "https://images.adsttc.com/media/images/6a83/1a53/ac8b/af01/892c/ce0c/newsletter/serpentine-pavillion-lanza-atelier_13.jpg",
+      "image_label": "ARCHDAILY",
+      "topic": "프로젝트",
+      "body": [
+        "런던 서펜타인 갤러리의 연례 파빌리온 커미션 **25번째** 에디션을 멕시코시티 기반 스튜디오 란자 아틀리에(LANZA atelier)의 이사벨 아바스칼과 알레산드로 아리엔조가 맡았다. **279제곱미터** 규모로, 서퍽 지방의 전통 담장 형식인 '크링클-크랭클 월(crinkle-crankle wall)'에서 출발한 곡선형 구조가 순환 동선을 조직하고 시야를 프레이밍한다.",
+        "2000년 자하 하디드의 첫 파빌리온으로 시작된 이 프로그램은 매년 여름 켄싱턴 가든에서 건축의 실험적 가능성을 시험하는 무대로 자리잡았다. 이번 파빌리온은 **10월 25일**까지 운영되며 서펜타인의 연례 공공 프로그램과 함께 진행된다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Serpentine Pavillion 2026 / LANZA Atelier",
+            "url": "https://www.archdaily.com/1183428/serpentine-pavillion-lanza-atelier"
+          }
+        ]
+      }
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "국제 · 생태건축",
+      "title": "우한 습지 위 철새 관측탑, 오르는 행위 자체를 풍경으로",
+      "image": "https://images.adsttc.com/media/images/6a85/29e9/ab59/ca01/8994/5e85/newsletter/chenhu-migratory-bird-observation-tower-xiang-architects_5.jpg",
+      "image_label": "ARCHDAILY",
+      "topic": "프로젝트",
+      "body": [
+        "샹 아키텍츠(Xiang Architects)가 중국 우한 인근 친후 습지 보호구역에 **303제곱미터** 규모 철새 관측탑을 완공했다. 계절마다 **10만 마리** 이상의 철새가 찾는 퉁후·퉁순강 습지를 조망하도록 강철 구조와 커튼월로 세운 다층 계단형 전망대로, 정상까지 오르는 동선 자체를 풍경 체험의 일부로 설계했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Chenhu Migratory Bird Observation Tower / Xiang Architects",
+            "url": "https://www.archdaily.com/1183561/chenhu-migratory-bird-observation-tower-xiang-architects"
+          }
+        ]
+      }
+    },
+    {
+      "kicker": "국제 · 파빌리온",
+      "title": "마요르카 아울레츠, 재활용 팔레트 지붕 아래 돌기둥을 쌓다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/aulets-architectes-futur-habitable-pavilion-mallorca-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "topic": "프로젝트",
+      "body": [
+        "스페인 마요르카 스튜디오 아울레츠 아르키텍테스(Aulets Arquitectes)가 지역 축제 '푸투르 아비타블레' 마지막 회차로 폴렌사에 파빌리온을 세웠다. 거친 절단면과 색조 차이를 그대로 드러낸 자연석 블록을 두꺼운 지지대로 쌓아올리고, 그 위로 재활용 나무 팔레트로 짠 지붕을 얹어 '이미 곁에 있는 것에서 미래를 시작할 수 있다'는 메시지를 담았다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "aulets stacks natural stone beneath a recycled pallet roof in mallorca",
+            "url": "https://www.designboom.com/architecture/aulets-architectes-natural-stone-recycled-pallet-roof-mallorca-futur-habitable-pavilion-pollenca/"
+          }
+        ]
+      }
+    },
+    {
+      "kicker": "국제 · 전시",
+      "title": "OPEN 아키텍처, 리나 보 바르디 중국 첫 개인전 설계…SESC 폼페이아 연못을 상하이로",
+      "image": "https://images.adsttc.com/media/images/6a82/2c90/ac8b/af01/892c/cbec/newsletter/the-poetics-of-survival-open-designs-lina-bo-bardis-first-exhibition-in-china_15.jpg?1786916001",
+      "image_label": "ARCHDAILY",
+      "topic": "프로젝트",
+      "body": [
+        "상하이 파워스테이션오브아트(PSA)가 브라질 건축가 리나 보 바르디를 다루는 중국 최초의 전시 '생존의 시학(The Poetics of Survival)'을 **7월 25일**부터 **10월 25일**까지 연다. OPEN 아키텍처가 설계한 **2300제곱미터** 전시공간은 야마 천으로 구획된 9개 존으로 구성되며, 보 바르디의 대표작 SESC 폼페이아의 실내 연못을 실물 크기로 재현해 로비에 배치한 것이 특히 눈길을 끈다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "The Poetics of Survival: OPEN Architecture Designs Lina Bo Bardi's First Exhibition in China",
+            "url": "https://www.archdaily.com/1183400/the-poetics-of-survival-open-architecture-designs-lina-bo-bardis-first-exhibition-in-china"
+          }
+        ]
+      }
+    },
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "슬로베니아 옛 방앗간 농가, 지하 스파로 되살아나다",
+      "image": "https://images.adsttc.com/media/images/6a7d/9111/3cf9/6c00/0178/251c/medium_jpg/traktor_resized.jpg",
+      "image_label": "ARCHDAILY",
+      "topic": "프로젝트",
+      "body": [
+        "KIP 아르히텍티(KIP arhitekti)가 옛 방앗간을 중심으로 다섯 채의 건물이 숲 속 공터에 모인 슬로베니아 관광 농가 단지에 **110제곱미터** 규모 지하 웰니스 공간을 조성했다. 목재 계단과 마감을 활용해 목가적인 기존 경관을 해치지 않으면서도, 땅 밑에 별도의 온천·사우나 동선을 새로 짜 넣었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Underground Spa / KIP arhitekti",
+            "url": "https://www.archdaily.com/1183234/underground-spa-kip-arhitekti"
+          }
+        ]
+      }
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 교육시설",
+      "title": "교육부, 학교복합시설 9곳 선정…총사업비 2131억원",
+      "topic": "제도규제",
+      "body": [
+        "교육부가 **8월 20일** '2026년 제2차 학교복합시설 공모사업' 심사 결과 전국 **6개 지역 9개 사업**을 선정했다. 총사업비 **2131억원** 중 **52.7%**인 **1123억원**을 교육부가 지원하며, 인천 서해구 천마초등학교에는 다문화 이음센터와 지하주차장이, 경기 수원 매탄초등학교에는 수영장과 체육관이 들어선다. 올해 1차 공모 5건을 더하면 올해만 14건, 2023년 이후 누적 **107건**이 선정됐다."
+      ],
+      "source": {
+        "outlet": "아시아투데이",
+        "links": [
+          {
+            "text": "폐교에 수영장·돌봄시설이…'학교복합시설' 9곳 선정, 1123억 투입",
+            "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260820010006661"
+          }
+        ]
+      }
+    },
+    {
+      "kicker": "국내 · 공모",
+      "title": "한국건축가협회, '2026 대한민국 공간문화대상' 접수 중",
+      "topic": "설계공모",
+      "body": [
+        "한국건축가협회가 제21회 '2026 대한민국 공간문화대상' 공모를 진행하고 있다. 공간환경 개선에 기여한 국내 우수 건축·공공공간을 발굴하는 상으로, 접수는 **9월 초**까지다. 협회는 이와 별도로 제45회 대한민국건축대전 국제 일반공모전 주제도 함께 공고했다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회(KIA)",
+        "links": [
+          {
+            "text": "2026 대한민국 공간문화대상 공고",
+            "url": "https://www.kia.or.kr/"
+          }
+        ]
+      }
+    },
+    {
+      "kicker": "국내 · 학생행사",
+      "title": "제1회 한국학생건축비엔날레, 노들섬에서 폐막",
+      "topic": "프로젝트",
+      "body": [
+        "전국학생건축포럼 '생각지대'가 주최한 '제1회 한국학생건축비엔날레'가 **8월 6일**부터 **8월 19일**까지 서울 노들섬 노들갤러리 1관에서 열렸다. 전국 건축학과 학생들의 작품전과 오픈콜로 구성된 국내 첫 학생 주도 건축비엔날레로, 학생들이 그리는 건축의 미래를 조명했다는 평가를 받는다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "학생들이 설계하는 건축의 미래, '제1회 한국학생건축비엔날레' 개최",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20829"
+          }
+        ]
+      }
+    },
+    {
+      "kicker": "국내 · 유휴부지",
+      "title": "4000억원대 여의도 노른자 땅, LH 부지 6년째 공회전",
+      "topic": "도시재생",
+      "body": [
+        "서울 영등포구 여의도동 61-2번지, 63스퀘어와 가톨릭대 여의도성모병원 사이 **8264제곱미터** LH 유보지가 여전히 활용 방안을 찾지 못하고 있다. 2020년 공공임대 **300가구** 공급 계획이 주민 반대로 무산된 뒤 매각도 시도했으나 **2024년** 감정가 **4024억원**에도 매수자를 찾지 못했다. 용산 등 다른 도심 유휴부지 활용 논의가 이어지는 가운데, 이번 8·13 주택공급대책에도 이 부지는 포함되지 않아 향후 개발 방향에 관심이 쏠린다."
+      ],
+      "source": {
+        "outlet": "inews24",
+        "links": [
+          {
+            "text": "4000억 여의도 땅 놀리면서 용산까지?⋯LH부지 '6년째 공회전'",
+            "url": "http://inews24.com/view/1995719"
+          }
+        ]
+      }
+    }
+  ],
+  "briefs": [
+    {
+      "title": "NCARB '2026 By the Numbers' 리포트 발표",
+      "topic": "제도규제",
+      "body": "미국 건축사 자격시험 응시자 중 유색인종 **49%**, 여성 **47%**로 역대 최고 다양성을 기록했다. 다만 전체 기존 건축사 중 유색인종 비중은 **21%**, 여성은 **28%**에 그쳐 격차는 여전하다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "NCARB 2026 Report Shows a More Diverse Candidate Pool",
+            "url": "https://www.archdaily.com/1183568/ncarb-2026-report-shows-a-more-diverse-candidate-pool-amid-persistent-gaps-in-architecture-licensure"
+          }
+        ]
+      }
+    },
+    {
+      "title": "브라질 상파울루, '작은 건물' 다시 쓰다",
+      "topic": "프로젝트",
+      "body": "GRUPOSP가 상파울루의 저층 아파트 유형 '프레지뉴(predinho)'를 재해석한 **1195제곱미터** 규모 프라디케 빌딩을 완공했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Fradique Building / GRUPOSP",
+            "url": "https://www.archdaily.com/1183638/fradique-building-gruposp"
+          }
+        ]
+      }
+    },
+    {
+      "title": "멕시코 메리다, 콘크리트 주택 '카사 인술라'",
+      "topic": "프로젝트",
+      "body": "TANAT, PEMO, 카를로스 가르시아 노리에가가 협업해 메리다에 **198제곱미터** 규모 콘크리트 주택을 완공했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Casa Ínsula / TANAT + PEMO + Carlos García Noriega",
+            "url": "https://www.archdaily.com/1183721/casa-insula-tanat-plus-pemo-plus-carlos-garcia-noriega"
+          }
+        ]
+      }
+    },
+    {
+      "title": "브라질 요시 하우스, 벽돌 위 목구조 주택",
+      "topic": "프로젝트",
+      "body": "AR 아르키테토스가 설계한 **407제곱미터** 요시 하우스가 숲을 향해 단을 낮추며 내려앉는 형태로 완공됐다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "Yoshi House / AR Arquitetos",
+            "url": "https://www.archdaily.com/1183686/yoshi-house-ar-arquitetos"
+          }
+        ]
+      }
+    },
+    {
+      "title": "네덜란드 코헨, '테트리스처럼' 맞물린 두 집",
+      "topic": "프로젝트",
+      "body": "네덜란드 스튜디오 운피오니어스(Woonpioniers)가 코헨 마을 강변 부지에 **237제곱미터** 코하우스를 완공했다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "Woonpioniers models CoHouse in Cothen on \"a game of Tetris\"",
+            "url": "https://www.dezeen.com/2026/08/16/woonpioniers-cohouse-in-cothen/"
+          }
+        ]
+      }
+    },
+    {
+      "title": "헤르초크 & 드 뫼롱, 홍콩 M+에서 중국 프로젝트 20년 회고",
+      "topic": "프로젝트",
+      "body": "M+ 뮤지엄이 **9월 12일**부터 헤르초크 & 드 뫼롱의 중국 내 프로젝트 10곳(2002~2021년)을 조명하는 'In Focus' 전시를 연다.",
+      "source": {
+        "outlet": "M+ Museum",
+        "links": [
+          {
+            "text": "Herzog & de Meuron: In Focus",
+            "url": "https://www.mplus.org.hk/en/exhibitions/herzog-de-meuron-in-focus/"
+          }
+        ]
+      }
+    },
+    {
+      "title": "대한건축사협회-한국건축설계학회 업무협약",
+      "topic": "프로젝트",
+      "body": "대한건축사협회와 한국건축설계학회가 **8월 7일** 서울 건축사회관에서 건축설계 분야 발전과 건축문화 진흥을 위한 업무협약(MOU)을 체결했다.",
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "건축설계 분야 발전과 건축문화 진흥 위한 업무협약 체결",
+            "url": "https://www.ancnews.kr/"
+          }
+        ]
+      }
+    }
+  ]
+}
