@@ -1,0 +1,431 @@
+{
+  "vol": "VOL.01  NO.007",
+  "editor": "HUEY",
+  "counts": {
+    "total": 19,
+    "intl": 12,
+    "kr": 7
+  },
+  "outlets": [
+    "ArchDaily",
+    "Dezeen",
+    "designboom",
+    "대한건축사협회 건축사신문",
+    "브리크매거진",
+    "한국AI부동산신문",
+    "서울특별시"
+  ],
+  "teasers": [
+    {
+      "title": "아프리카 첫 범대륙 건축 비엔날레",
+      "desc": "9월 7일 나이로비 개막, 30개국 40여 팀 참여",
+      "label": "BIENNALE"
+    },
+    {
+      "title": "국민 92.1%가 도시에 산다",
+      "desc": "국토의 16.7%인 도시지역에 4706만 명 거주",
+      "label": "DATA"
+    },
+    {
+      "title": "줌토르 다큐, 14년 만에 베니스로",
+      "desc": "빔 벤더스 연출·브래드 피트 총괄제작, 3D 상영",
+      "label": "FILM"
+    },
+    {
+      "title": "서울시 건축상 대상은 서서울미술관",
+      "desc": "제44회 수상작 20점, 9월 건축문화제서 시상",
+      "label": "AWARDS"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 비엔날레",
+    "lede": "아프리카가 스스로 쓰는 건축 담론…첫 범아프리카 비엔날레, 9월 나이로비 개막",
+    "lede_em": "아프리카가 스스로 쓰는 건축 담론",
+    "image": "https://images.adsttc.com/media/images/6a17/6852/fd52/9207/909d/2e16/newsletter/pan-african-biennale-unveils-participants-for-its-inaugural-edition-in-nairobi_7.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "제1회 범아프리카 비엔날레가 나이로비 케냐타국제컨벤션센터에서 열린다 ⓒ Pan-African Biennale",
+    "body": [
+      "아프리카 대륙 전체를 아우르는 첫 건축 비엔날레인 **범아프리카 비엔날레(Pan-African Biennale, PAB)**가 **9월 7일부터 11일까지** 케냐 나이로비의 **케냐타국제컨벤션센터(KICC)**에서 열린다. 소말리아계 이탈리아 건축가 **오마르 데간(Omar Degan)**이 창설자 겸 예술감독을 맡았다.",
+      "첫 회 주제는 **'중심 옮기기: 취약함에서 회복력으로(Shifting the Center: From Fragility to Resilience)'**다. 아프리카를 주변부에 묶어두던 논리를 뒤집겠다는 선언으로, 대륙을 '취약함'의 서사가 아니라 '회복력'의 서사로 다시 읽자는 제안이다. 주최 측은 이 비엔날레를 **\"아프리카가 자신의 공간적 지식과 건축 담론의 저자가 되는\"** 플랫폼으로 규정한다.",
+      "현재까지 **30개국 이상에서 40여 개 팀**이 참여를 확정했다. 알제리·앙골라·베냉·모로코 등 대륙 전역의 실무자들이 이름을 올렸다. 전시는 **'압박받는 땅(기후변화)'**, **'물려받은 지식(토착적 지혜)'**, **'다가올 세계(아프리카의 미래)'** 세 갈래로 구성된다.",
+      "개최지 자체가 메시지다. KICC는 케냐 독립 10년 뒤인 **1973년** 문을 연 건물로, 카를 헨리크 뇌스트비크와 데이비드 무티소가 케냐 토착 디자인과 브루탈리즘을 결합해 설계했다. 원뿔형 초가집에서 따온 원형 강당과 차양 디스크를 얹은 탑이 특징이다. 비엔날레는 **2년마다 아프리카 도시를 옮겨가며** 전시·출판·공공 프로그램·아카이브 작업을 병행하는 모델로 운영될 예정이다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        { "text": "Pan-African Biennale Unveils Participants for Its Inaugural Edition in Nairobi", "url": "https://www.archdaily.com/1041933/pan-african-biennale-unveils-participants-for-its-inaugural-edition-in-nairobi" }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "국토의 16.7%에 국민 92.1%가 산다…2025년 도시계획현황 통계",
+    "body": [
+      "국토교통부와 한국국토정보공사(LX)가 **2025년 도시계획현황 통계**를 발표했다. 용도지역·개발행위허가 등 도시계획 제도의 운용 실태를 담은 국가승인통계로, 설계 실무에서 대지 조건과 인허가 흐름을 읽는 기준선이 된다."
+    ],
+    "facts": [
+      "거주: 도시지역 인구 **4,706만 명** — 전체 5,112만 명의 **92.1%**",
+      "면적: 용도지역 총 **10만 6,563㎢** 중 도시지역 **1만 7,740㎢** — 국토의 **16.7%**",
+      "구성: 녹지 **1만 2,555㎢(70.8%)** · 주거 2,791㎢(15.7%) · 공업 1,292㎢(7.3%) · 상업 349㎢(2.0%) · 미세분 753㎢(4.2%)",
+      "허가: 2025년 개발행위허가 **16만 9,319건** — 이 중 **건축물 건축이 50.0%**"
+    ],
+    "body_after": [
+      "2021년과 비교하면 주거·상업·공업지역은 늘고 **녹지지역은 37㎢ 줄었다**. 도시로 지정된 땅은 국토의 6분의 1에 불과한데 인구의 열에 아홉이 그 위에 몰려 있는 구조가 굳어지는 중이다. 개발행위허가의 절반이 건축물 건축이라는 점은 도시계획 제도가 사실상 건축 인허가의 앞단으로 작동하고 있음을 보여준다."
+    ],
+    "source": {
+      "outlet": "한국AI부동산신문",
+      "links": [
+        { "text": "국토 16.7퍼센트 도시지역에 국민 92.1퍼센트 거주한다", "url": "https://www.kairnews.com/news/514265" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 건축영화",
+      "title": "14년을 찍었다…빔 벤더스의 줌토르 다큐, 다음 달 베니스 프리미어",
+      "image": "",
+      "image_label": "DEZEEN",
+      "body": [
+        "독일 감독 **빔 벤더스**가 스위스 건축가 **페터 줌토르**의 작업을 담은 다큐멘터리 **《프롬 인사이드 아웃 — 페터 줌토르의 건축(From Inside Out – The Architecture of Peter Zumthor)》**을 완성했다. 줌토르와 협업하며 **14년**에 걸쳐 촬영한 **3D** 영화로, 다음 달 **베니스영화제**에서 처음 공개된다.",
+        "배우 **브래드 피트**가 총괄 제작자로 합류했다. 피트는 지난해 완공된 LACMA 데이비드 게펜 갤러리의 설계 협의 과정에서 줌토르를 **\"빛과 그림자의 대가\"**라고 평한 바 있다. 벤더스는 \"우리는 모두 집에서 살고 일하지만 건축에 대해서는 거의 아무것도 모른다\"며, 이 영화가 **\"순전한 몰입과 거의 물리적인 경험\"**을 통해 그것을 바꾸려 한다고 말했다. 관객은 '장소의 비밀'을 아는 안내자를 따라 접근하기 어려운 장소들로 이동하게 된다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Brad Pitt brought on as executive producer for Peter Zumthor documentary", "url": "https://www.dezeen.com/2026/08/20/brad-pitt-from-inside-out-peter-zumthor-documentary/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 전시설계",
+      "title": "바벨성의 250㎡ 고대 전시실, 역사 건축 안에 놓인 현대적 장치",
+      "image": "https://images.adsttc.com/media/images/6a85/7e56/4253/0500/01c9/f216/newsletter/004_2.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "폴란드 스튜디오 **나르히텍투라(NArchitekTURA)**가 크라쿠프 바벨성에 **250제곱미터** 규모 상설 전시공간을 완성했다. 전시 제목은 **《란츠코론스키 컬렉션의 걸작들: 고대 이야기》**이며, 바르토시 하두흐가 설계를 이끌고 마그달레나 마라시크가 팀에 참여했다.",
+        "설계 의도는 **역사적 건축물 안에 비관습적이고 현대적인 전시 방식을 들여놓는 것**이었다. 방들의 배치는 하나의 형식으로 통일하되 색과 재료를 방마다 달리해, 관람객이 이동하면서 놀라움과 점진적인 시각적 변화를 겪도록 짰다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Antiquity exhibition at Wawel castle / NArchitekTURA", "url": "https://www.archdaily.com/1183570/antiquity-exhibition-at-wawel-castle-narchitektura" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "헬무트 얀의 포스트모던 아이콘, 구글 사옥으로 새 외피를 입다",
+      "image": "",
+      "image_label": "DEZEEN",
+      "body": [
+        "시카고 도심의 **톰프슨 센터**가 구글 사옥으로 바뀌는 전면 개보수 과정에서 새 파사드를 거의 다 입었다. 1980년대 **헬무트 얀**이 설계해 미국 포스트모던 건축의 대표작으로 꼽히던 건물로, 개보수 설계도 그가 세운 스튜디오 **얀(Jahn)**이 맡았다. **2022년** 구글 모회사 알파벳이 매입한 뒤 외피를 **삼중 유리**로 교체하고 기계설비를 전면 교체하는 중이다. 상층부는 사무공간, 저층부는 상점과 식당으로 쓰이며 완공 목표는 **2027년**이다. 이름도 '제임스 R 톰프슨 센터'에서 '톰프슨 센터'로 줄었다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Photos reveal new facade of Google's Thompson Center", "url": "https://www.dezeen.com/2026/08/18/thompson-center-google-jahn-chicago-new-facade/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 주택",
+      "title": "마드리드 '브리즈 하우스', 자연과 빛으로 짜인 1200㎡",
+      "image": "https://images.adsttc.com/media/images/6a58/9bef/d425/1a00/01c4/b91c/newsletter/EXTERIOR_P_DE_LOS_LAGOS-_3.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스페인 스튜디오 **아바톤(Ábaton)**이 마드리드에 **1,200제곱미터** 규모 주택을 완공했다(2024년). 자연과 빛 속에 놓인 현대 주택이라는 사무소의 지향을 압축한 작업으로, 대지의 잠재력을 끌어내 실내가 바깥과 섞이도록 짰다. 목재와 유리를 주된 재료로 썼다. 사진은 벨렌 이마스가 찍었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Breeze House / Ábaton", "url": "https://www.archdaily.com/1148787/breeze-house-abaton" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 공모",
+      "title": "아키테락스 포트폴리오 공모, 학업과 실무 사이를 겨눈다",
+      "image": "https://images.adsttc.com/media/images/6a67/4757/d865/3d00/014d/06d4/newsletter/poster_16x9__1_.jpg?1785153392",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "**아키테락스(Architerrax)**가 **2026 건축 포트폴리오 공모(Architecture Portfolio Competition 2026)** 참가작을 받고 있다. 전 세계 건축 학생과 졸업생이 대상이며, 심사는 **학문적 엄밀성과 설계 완성도**를 기준으로 한다. 학생들이 동료들 사이에서 자기 작업을 드러내고 학계와 실무의 간극을 좁히도록 돕는 것이 취지다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Call for Entries: Architecture Portfolio Competition 2026", "url": "https://www.archdaily.com/1181661/call-for-entries-architecture-portfolio-competition-2026" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국제 · 공모",
+      "title": "'킨더스페이스 #4', 내일의 유치원을 묻는다…등록 10월 28일까지",
+      "image": "",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "빌드너(Buildner)가 주관하는 **킨더스페이스: 어린이 발달을 위한 건축 4회(Kinderspace #4)**가 참가 등록을 받고 있다. 다음 세대의 성장과 창의성, 안녕을 북돋우는 유치원 공간을 제안하는 공모다. 마지막 등록 마감은 **10월 28일**, 작품 제출은 **11월 30일**, 수상자 발표는 **2027년 1월 19일**이다. 총상금은 **1만 유로**로 1등 5,000유로, 2등 2,500유로, 3등 1,000유로에 빌드너 학생상 1,000유로와 지속가능성상 500유로가 더해진다. 수상작 3점과 특별상 2점, 가작 6점을 뽑는다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "Kinderspace: Architecture for Children's Development competition / Edition #4", "url": "https://www.designboom.com/competition/kinderspace-architecture-for-childrens-development-competition-edition-4/" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 수상",
+      "title": "제44회 서울시 건축상 대상에 서서울미술관…수상작 20점 선정",
+      "image": "https://media.brique.co/2026/07/seoul-architecture-awards-5-scaled.jpg",
+      "image_label": "브리크매거진",
+      "body": [
+        "제44회 **서울특별시 건축상** 수상작 **20점**이 선정됐다. 주제는 **'Assembling Seoul : 서울의 발견'**으로, 완공 부문과 올해 신설된 학생 아이디어 부문에 각각 10점씩을 뽑았다.",
+        "완공 부문 대상은 금천구 독산동 **서울시립 서서울미술관**(더시스템랩건축사사무소 김찬중 소장)이 받았다. 심사에서는 \"투명한 유리와 열린 전시실이 산책하는 일상과 미술관을 자연스럽게 겹쳐 놓았다\"는 평가를 받았다. 학생 아이디어 부문 대상은 한양대 조겸의 **'두 경계 사이_한양도성의 복원과 활용'**이다. 시상식은 **9월** 제18회 서울건축문화제 개막식에서 열리며, 수상작은 서울도시건축전시관에서 한 달간 전시된다. 7월 23일부터 8월 6일까지 진행된 시민 온라인 투표 상위 2개작에는 별도로 **시민공감특별상**이 주어진다."
+      ],
+      "source": {
+        "outlet": "브리크매거진",
+        "links": [
+          { "text": "제44회 서울특별시 건축상 수상작 20점 선정", "url": "https://magazine.brique.co/brq-news/seoul-architecture-award-44th-winners-2026/" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "kicker": "국내 · 입법",
+      "title": "건축사협회, 국회 국토위원 4명과 릴레이 정책 간담회",
+      "body": [
+        "대한건축사협회 **김재록 회장**이 **8월 20일** 국회를 찾아 국토교통위원회와 국토법안심사소위원회 위원 **4명**과 연달아 정책 간담회를 가졌다. 전용기 최고위원, 정동만 국토위 간사, 모경종·허영 국토법안심사소위 위원이 참석했다.",
+        "협회는 건축 현장에서 체감하는 어려움과 구조적 문제, 제도개선 방안을 함께 전달하고 향후 법안 심사에서 건축계 의견이 반영되도록 협조를 요청했다. 여야를 아우르는 위원회 지도부와 법안심사 실무진을 한꺼번에 접촉해 정책 영향력을 넓히려는 행보다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          { "text": "국회 국토교통위원회 위원들과 릴레이 정책 간담회", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20978" }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 공공건축",
+      "title": "2026 서울시 공공건축가 158명 위촉…2년 임기 시작",
+      "body": [
+        "서울시가 **2026 서울시 공공건축가** 공개모집 결과 **158명**을 선정했다. 연임 **67명**, 신규 **91명**이며 임기는 **2026년 7월 20일부터 2028년 7월 19일까지 2년**이다. 선정위원회는 6월 19일 열렸고 공고는 7월 1일 났다. 공공건축가 제도는 서울시 공공건축의 기획·설계 단계에 민간 건축가를 참여시켜 질을 관리하는 장치다."
+      ],
+      "source": {
+        "outlet": "서울특별시",
+        "links": [
+          { "text": "2026 서울시 공공건축가 공개모집 결과", "url": "https://news.seoul.go.kr/citybuild/archives/540349" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "kicker": "국내 · 담론",
+      "title": "\"아파트는 건축비평의 대상인가\"…25일 서울건축포럼",
+      "body": [
+        "서울건축포럼이 **8월 25일 오후 6시 30분** 정림건축 9층 김정철홀에서 **'아파트, 건축비평의 대상인가'**를 주제로 열린다. 아파트를 단순한 주거 상품이 아니라 한국 사회의 공공성과 계급 구조, 건축 생산 체계를 드러내는 건축적 대상으로 놓고 따져보는 자리다.",
+        "박인석이 주제발표를 맡고 함인선과 이민아가 각각 민간·공공 아파트를 비평한다. 아파트 단지의 공공성 부재에 대한 비판은 이미 광범위한 합의를 이뤘지만 건축이 무엇으로 답할 수 있는지, 하이엔드 아파트의 입면 차별화가 어떻게 **계급의 기표**로 작동하는지 등을 다룬다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          { "text": "'아파트'도 건축적일까?…아파트 통해 한국 사회·건축구조 다뤄", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20964" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 교육",
+      "title": "한옥건축설계교육 수강생 31명, 추사고택에서 외암마을까지",
+      "body": [
+        "대한건축사협회 건축사교육원의 **2026 한옥건축설계교육** 현장답사가 **8월 14~15일** 1박 2일로 진행됐다. 수강생 **31명**을 포함해 약 40명이 충남 예산 추사고택, 아산 외암마을(건재고택), 공주한옥마을과 경기 화성 용주사, 그리고 설계 대상지인 화성태안3지구를 돌았다. 이론 교육을 받은 수강생들이 도면으로만 보던 한옥을 직접 겪고 **10월 완성될 최종 설계안**의 기초를 다지는 과정이다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          { "text": "추사고택에서 외암마을까지…한옥을 '보고, 걷고, 읽다'", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20974" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "에콰도르 초코 숲에 앉은 탄화목 은신처",
+      "body": "밍카 아틀리에(Minqa Atelier)가 에콰도르 초코 숲의 가파른 경사지를 따라 단을 내리며 앉는 **탄화목** 구조의 은신처를 완공했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Chocó Pambil Refuge / Minqa Atelier", "url": "https://www.archdaily.com/1183631/choco-pambil-refuge-minqa-atelier" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "호주 캘리포니안 방갈로의 증축, 빛을 끌어들이다",
+      "body": "스튜디오 체라볼로가 멜버른 매리버넝의 **캘리포니안 방갈로**를 개조·증축했다. 자연광을 넉넉히 들이는 것이 핵심이었다. 2024년 완공, 사진은 션 페네시.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Maribyrnong I House / Studio Ceravolo", "url": "https://www.archdaily.com/1183578/maribyrnong-i-house-studio-ceravolo" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "웩터 아키텍처의 '트릴로지 하우스'",
+      "body": "웩터 아키텍처(Waechter Architecture)가 설계한 트릴로지 하우스가 공개됐다. 세 부분으로 나뉜 구성이 이름의 유래다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Trilogy House / Waechter Architecture", "url": "https://www.archdaily.com/1183670/trilogy-house-waechter-architecture" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "네덜란드 헤인블리트의 단독주택",
+      "body": "스튜디오 브란드프리스(Studio Brandvries)가 네덜란드 헤인블리트에 단독주택 '보온하위스'를 완공했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Woonhuis Heenvliet / Studio Brandvries", "url": "https://www.archdaily.com/1183423/woonhuis-heenvliet-studio-brandvries" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "ODA의 로테르담 'POST 타워', 아치의 격자로 감싸다",
+      "body": "뉴욕 스튜디오 **ODA**가 로테르담에 완공한 POST 타워가 아치를 격자로 반복한 외피로 마감됐다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "grid of arches wraps ODA's newly completed POST tower in rotterdam", "url": "https://www.designboom.com/architecture/arches-oda-completed-post-tower-rotterdam-netherlands/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "강무길 부산시의원 \"정책과 건축이 만나 시너지 내도록\"",
+      "body": "건축사 출신 강무길 부산시의원이 건축사신문 인터뷰에서 **정책과 건축의 접점**을 넓히겠다는 구상을 밝혔다.",
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          { "text": "【인터뷰】 강무길 부산시의원", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20977" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "pan-african-biennale-nairobi",
+      "tag": "BIENNALE",
+      "title": "아프리카가 스스로 쓰는 건축 담론",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "slides": [
+        {
+          "heading": "아프리카가\n중심을 옮긴다",
+          "body": "첫 범아프리카 건축 비엔날레가 9월 나이로비에서 열린다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "대륙 전체를 아우르는 첫 건축 비엔날레인 범아프리카 비엔날레(PAB)가 9월 7일부터 11일까지 나이로비 케냐타국제컨벤션센터에서 열린다."
+        },
+        {
+          "heading": "THEME",
+          "body": "주제는 '중심 옮기기: 취약함에서 회복력으로'. 아프리카를 주변부에 묶어두던 논리를 뒤집고, 취약함이 아닌 회복력의 서사로 다시 읽자는 선언이다."
+        },
+        {
+          "heading": "WHO",
+          "body": "소말리아계 이탈리아 건축가 오마르 데간이 창설자 겸 예술감독이다. 30개국 이상에서 40여 개 팀이 참여를 확정했다."
+        },
+        {
+          "heading": "THREE STRANDS",
+          "body": "전시는 '압박받는 땅(기후변화)', '물려받은 지식(토착적 지혜)', '다가올 세계(아프리카의 미래)' 세 갈래로 짜인다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "개최지 KICC는 독립 10년 뒤인 1973년 지어진 탈식민 건축의 상징이다. 비엔날레는 2년마다 아프리카 도시를 옮겨가며 이어질 예정이다."
+        }
+      ]
+    },
+    {
+      "slug": "korea-urban-planning-2025",
+      "tag": "DATA",
+      "title": "국토의 16.7%에 국민 92.1%가 산다",
+      "ref": { "section": "side" },
+      "bg": 1,
+      "slides": [
+        {
+          "heading": "국토의 16.7%에\n국민 92.1%가 산다",
+          "body": "2025년 도시계획현황 통계가 보여주는 대한민국"
+        },
+        {
+          "heading": "PEOPLE",
+          "body": "도시지역에 사는 인구는 4,706만 명. 전체 5,112만 명의 92.1%다. 열에 아홉이 도시에 몰려 있다."
+        },
+        {
+          "heading": "LAND",
+          "body": "용도지역으로 지정된 국토 10만 6,563㎢ 가운데 도시지역은 1만 7,740㎢. 국토의 16.7%에 불과하다."
+        },
+        {
+          "heading": "INSIDE THE CITY",
+          "body": "도시지역의 70.8%는 녹지지역이다. 주거는 15.7%, 공업 7.3%, 상업은 2.0%에 그친다. 2021년보다 녹지는 37㎢ 줄었다."
+        },
+        {
+          "heading": "PERMITS",
+          "body": "2025년 개발행위허가는 16만 9,319건. 이 중 절반이 건축물 건축이다. 도시계획 제도가 사실상 건축 인허가의 앞단으로 작동한다는 뜻이다."
+        }
+      ]
+    },
+    {
+      "slug": "zumthor-from-inside-out",
+      "tag": "FILM",
+      "title": "14년을 찍은 줌토르 다큐, 베니스로",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 2,
+      "slides": [
+        {
+          "heading": "14년을 찍었다\n줌토르, 베니스로",
+          "body": "빔 벤더스가 완성한 페터 줌토르 다큐멘터리"
+        },
+        {
+          "heading": "THE FILM",
+          "body": "《프롬 인사이드 아웃 — 페터 줌토르의 건축》. 빔 벤더스가 줌토르와 협업하며 14년에 걸쳐 찍은 3D 다큐멘터리다."
+        },
+        {
+          "heading": "PREMIERE",
+          "body": "다음 달 베니스영화제에서 처음 공개된다. 관객은 '장소의 비밀'을 아는 안내자를 따라 접근하기 어려운 장소들로 이동하게 된다."
+        },
+        {
+          "heading": "BRAD PITT",
+          "body": "배우 브래드 피트가 총괄 제작자로 합류했다. 그는 LACMA 데이비드 게펜 갤러리 설계 협의 때 줌토르를 '빛과 그림자의 대가'라고 불렀다."
+        },
+        {
+          "heading": "WHY",
+          "body": "벤더스는 말한다. \"우리는 모두 집에서 살고 일하지만 건축에 대해서는 거의 아무것도 모른다.\" 순전한 몰입과 거의 물리적인 경험으로 그것을 바꾸겠다는 것이다."
+        }
+      ]
+    }
+  ]
+}
