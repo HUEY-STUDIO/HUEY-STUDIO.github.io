@@ -250,7 +250,8 @@ python3 render.py <날짜>     # 웹페이지(타일·상세페이지) 생성
     "ref": { "section": "top" },                 // 원본 기사 위치 — 출처·원문 링크를 여기서 가져온다
     // ref.section: "top" | "side" | "intl_feature" | "intl_grid" | "korea" | "briefs"
     // top/side가 아니면 "index"(0-based)도 같이 적는다: { "section": "korea", "index": 0 }
-    "bg": 0,                                      // 배경 그래픽 0~2 (cardnews.py BACKGROUNDS 참조)
+    "bg": 0,                                      // 배경 그래픽 0~2 (photo_query 없을 때 폴백, cardnews.py BACKGROUNDS 참조)
+    "photo_query": "temple wood restoration",     // 선택. 영문 검색어 — Unsplash에서 사진 검색해 배경으로 씀
     "slides": [
       // 슬라이드[0] = 표지. heading은 큰 제목(\n으로 줄바꿈), body는 부제 한 줄.
       { "heading": "강남 한복판에\n뜨는 49층 타워", "body": "스튜디오 리베스킨드가 그린 대치쌍용의 새 얼굴" },
@@ -265,9 +266,14 @@ python3 render.py <날짜>     # 웹페이지(타일·상세페이지) 생성
   (표지 1장 + 핵심 포인트별 3~6장 권장).
 - `ref`가 가리키는 기사는 `data/<날짜>.json` 안에 **이미 존재해야** 한다 — 카드뉴스는 새 취재가
   아니라 그날 지면 기사 중 하나를 다시 편집한 것.
-- 배경은 사진이 아니라 `cardnews.py`가 생성하는 브랜드 그래픽(블랙·딥레드·포인트레드 추상
-  패턴)이다 — 매체 사진을 카드뉴스 배경으로 캡처해 쓰지 않는다(핫링크가 아니라 이미지를
-  그대로 복제해 재배포하는 셈이라 저작권 리스크가 사이트 임베딩보다 훨씬 크다).
+- 배경 사진은 **Unsplash**에서만 가져온다. 각 항목에 영문 검색어를 `photo_query`로 채우면
+  `cardnews.py`가 Unsplash API로 검색해 배경으로 쓰고, 표지 하단에 촬영자 크레딧
+  ("ⓒ 이름 / Unsplash")을 자동으로 남긴다. `UNSPLASH_ACCESS_KEY` 환경변수가 필요하며,
+  키가 없거나 검색 결과가 없으면 `bg`로 지정한 브랜드 그래픽(블랙·딥레드·포인트레드 추상
+  패턴)으로 자동 폴백한다. **매체(Dezeen·ArchDaily 등) 사진은 여전히 카드뉴스 배경으로 쓰지
+  않는다** — 핫링크가 아니라 이미지를 그대로 복제해 재배포하는 셈이라 저작권 리스크가
+  사이트 임베딩보다 훨씬 크다. Unsplash는 라이선스상 출처 표기 없이도 재배포·상업적 이용이
+  자유로워 이 리스크가 없다.
 - 카드뉴스가 없는 날은 `cardnews` 필드를 아예 생략하면 된다 — 섹션 자체가 안 보인다.
 
 ---

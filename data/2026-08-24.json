@@ -324,6 +324,7 @@
     {
       "slug": "daeseongjeon-restoration-2026",
       "tag": "HERITAGE",
+      "photo_query": "korean traditional wooden temple roof",
       "title": "35개월, 성균관 대성전이 돌아왔다",
       "ref": { "section": "top" },
       "bg": 0,
@@ -353,6 +354,7 @@
     {
       "slug": "park-seobo-museum-yeonhui",
       "tag": "OPENING",
+      "photo_query": "minimalist concrete art gallery interior",
       "title": "연희동에 박서보미술관 열리다",
       "ref": { "section": "korea", "index": 0 },
       "bg": 1,
@@ -382,6 +384,7 @@
     {
       "slug": "al-maktoum-people-mover",
       "tag": "INFRA",
+      "photo_query": "modern airport train station interior",
       "title": "두바이, 세계 최장 무인철도를 놓는다",
       "ref": { "section": "intl_feature", "index": 1 },
       "bg": 2,

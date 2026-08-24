@@ -9,6 +9,10 @@ HEUY ARCHI MAGAZINE — 카드뉴스 렌더러
 입력  : data/<날짜>.json 의 "cardnews" 배열
 출력  : cardnews/<날짜>/<slug>/01.png ... 0N.png   (1080x1350, 인스타그램 카드뉴스 규격)
 
+cardnews[] 항목에 "photo_query"(영문 검색어, 예: "temple wood restoration")를 넣으면
+Unsplash에서 사진을 검색해 배경으로 쓴다. UNSPLASH_ACCESS_KEY 환경변수가 필요하며,
+없거나 검색이 실패하면 기존 브랜드 그래픽 배경으로 자동 폴백한다.
+
 render.py(웹페이지 생성)와 분리된 스크립트입니다 — render.py는 표준 라이브러리만
 쓰는 게 원칙이라, Playwright가 필요한 이미지 렌더링은 여기서 따로 합니다.
 PNG를 먼저 만든 다음 render.py를 돌려야 웹페이지에서 이미지가 보입니다.
@@ -17,9 +21,12 @@ PNG를 먼저 만든 다음 render.py를 돌려야 웹페이지에서 이미지�
   python3 render.py <날짜>
 """
 
+import base64
 import json
 import os
 import sys
+import urllib.parse
+import urllib.request
 
 from playwright.sync_api import sync_playwright
 
@@ -43,7 +50,51 @@ FONT_LINK = (
 )
 FONT_FAMILY = "'Pretendard Variable', Pretendard, 'Apple SD Gothic Neo', sans-serif"
 
-# ------------------------------------------------------------------ 배경 3종
+# ------------------------------------------------------------------ Unsplash 배경 사진
+# cardnews[] 항목에 "photo_query"(영문 검색어)가 있으면 Unsplash에서 사진을 검색해
+# 배경으로 쓴다. 키 없음/검색 실패/photo_query 없음이면 아래 브랜드 그래픽으로 폴백한다.
+# Unsplash License는 출처 표기 없이도 상업적 이용을 허용하지만, 예의상 표지 하단에
+# 촬영자 크레딧을 작게 남긴다.
+UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+
+
+def search_unsplash(query):
+    # Playwright의 크로미움은 이 환경의 HTTPS 프록시(커스텀 CA)를 신뢰하지 않아
+    # 원격 url()을 직접 불러오지 못한다. 그래서 여기서 파이썬으로 사진을 미리
+    # 내려받아 base64 data URI로 만들고, HTML에는 그 데이터를 그대로 박아 넣는다.
+    if not UNSPLASH_KEY or not query:
+        return None
+    params = urllib.parse.urlencode({
+        "query": query, "orientation": "portrait", "per_page": 1,
+        "client_id": UNSPLASH_KEY,
+    })
+    search_url = f"https://api.unsplash.com/search/photos?{params}"
+    try:
+        with urllib.request.urlopen(search_url, timeout=15) as resp:
+            data = json.load(resp)
+        results = data.get("results") or []
+        if not results:
+            return None
+        r = results[0]
+        with urllib.request.urlopen(r["urls"]["regular"], timeout=20) as resp:
+            img_bytes = resp.read()
+            content_type = resp.headers.get_content_type() or "image/jpeg"
+        data_uri = f"data:{content_type};base64,{base64.b64encode(img_bytes).decode()}"
+    except Exception as e:
+        print(f"    [unsplash] 검색/다운로드 실패({query!r}): {e}", file=sys.stderr)
+        return None
+    return {"data_uri": data_uri, "credit_name": r["user"]["name"]}
+
+
+def photo_bg(photo):
+    return f"""background-color:{INK};
+    background-image:
+      linear-gradient(160deg, rgba(159,15,31,.22) 0%, rgba(11,11,12,0) 45%),
+      url('{photo["data_uri"]}');
+    background-size:cover;background-position:center;"""
+
+
+# ------------------------------------------------------------------ 배경 3종 (폴백)
 # 사진 대신 브랜드 톤(블랙 · 딥레드 · 포인트레드)으로 만든 추상 건축 그래픽.
 # 매체 사진을 쓰지 않아 저작권 문제 없이 카드뉴스 전용으로 반복 사용한다.
 BACKGROUNDS = [
@@ -71,6 +122,11 @@ VIGNETTE = (
     "background-image:linear-gradient(180deg, rgba(11,11,12,0) 38%, rgba(11,11,12,.55) 62%, "
     "rgba(11,11,12,.96) 100%);"
 )
+# 사진 배경은 위쪽이 밝을 수 있어(하늘 등) 상단 브랜드바 가독성을 위해 위도 함께 어둡게 깐다.
+PHOTO_VIGNETTE = (
+    "background-image:linear-gradient(180deg, rgba(11,11,12,.6) 0%, rgba(11,11,12,0) 20%, "
+    "rgba(11,11,12,0) 38%, rgba(11,11,12,.55) 62%, rgba(11,11,12,.96) 100%);"
+)
 
 
 def esc(s):
@@ -78,19 +134,24 @@ def esc(s):
     return _html.escape(str(s or ""))
 
 
-def cover_slide_html(item, day, total):
-    bg = BACKGROUNDS[item.get("bg", 1) % len(BACKGROUNDS)]
+def cover_slide_html(item, day, total, photo=None):
+    bg = photo_bg(photo) if photo else BACKGROUNDS[item.get("bg", 1) % len(BACKGROUNDS)]
+    vign = PHOTO_VIGNETTE if photo else VIGNETTE
     slide = (item.get("slides") or [{}])[0]
     heading = esc(slide.get("heading") or item.get("title") or "").replace("\n", "<br>")
     sub = esc(slide.get("body") or "")
     tag = esc(item.get("tag") or "MAGAZINE")
     sub_html = f'<div class="sub">{sub}</div>' if sub else ""
+    credit_html = (
+        f'<div class="foot"><span>ⓒ {esc(photo["credit_name"])} / Unsplash</span></div>'
+        if photo else ""
+    )
     return f"""<!doctype html><html><head><meta charset="utf-8">{FONT_LINK}
 <style>
   *{{margin:0;padding:0;box-sizing:border-box}}
   html,body{{width:{W}px;height:{H}px;overflow:hidden;font-family:{FONT_FAMILY}}}
   .stage{{position:relative;width:100%;height:100%;{bg}}}
-  .vign{{position:absolute;inset:0;{VIGNETTE}}}
+  .vign{{position:absolute;inset:0;{vign}}}
   .eyebrow{{
     position:absolute;top:64px;left:64px;right:64px;
     display:flex;justify-content:space-between;align-items:center;
@@ -126,12 +187,14 @@ def cover_slide_html(item, day, total):
       <h1>{heading}</h1>
       {sub_html}
     </div>
+    {credit_html}
   </div>
 </body></html>"""
 
 
-def content_slide_html(item, slide, idx, total):
-    bg = BACKGROUNDS[item.get("bg", 1) % len(BACKGROUNDS)]
+def content_slide_html(item, slide, idx, total, photo=None):
+    bg = photo_bg(photo) if photo else BACKGROUNDS[item.get("bg", 1) % len(BACKGROUNDS)]
+    vign = PHOTO_VIGNETTE if photo else VIGNETTE
     heading = esc(slide.get("heading") or "")
     body = esc(slide.get("body") or "").replace("\n", "<br><br>")
     heading_html = f'<div class="head">{heading}</div>' if heading else ""
@@ -140,7 +203,7 @@ def content_slide_html(item, slide, idx, total):
   *{{margin:0;padding:0;box-sizing:border-box}}
   html,body{{width:{W}px;height:{H}px;overflow:hidden;font-family:{FONT_FAMILY}}}
   .stage{{position:relative;width:100%;height:100%;{bg}}}
-  .vign{{position:absolute;inset:0;{VIGNETTE}}}
+  .vign{{position:absolute;inset:0;{vign}}}
   .top{{
     position:absolute;top:56px;left:64px;right:64px;
     display:flex;justify-content:space-between;align-items:center;
@@ -174,11 +237,15 @@ def render_item(browser, day, item):
     slides = item.get("slides") or []
     out_dir = os.path.join(OUT, day, slug)
     os.makedirs(out_dir, exist_ok=True)
+    query = item.get("photo_query")
+    photo = search_unsplash(query) if query else None
+    if query:
+        print(f"    [unsplash] {'사진 적용 — ' + photo['credit_name'] if photo else '검색 실패 → 브랜드 그래픽 폴백'} ({query!r})")
     page = browser.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
     try:
         for i, slide in enumerate(slides):
-            html = cover_slide_html(item, day, len(slides)) if i == 0 else \
-                content_slide_html(item, slide, i, len(slides))
+            html = cover_slide_html(item, day, len(slides), photo) if i == 0 else \
+                content_slide_html(item, slide, i, len(slides), photo)
             page.set_content(html, wait_until="load")
             page.evaluate("document.fonts.ready")
             path = os.path.join(out_dir, f"{i + 1:02d}.png")
