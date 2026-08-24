@@ -1,0 +1,412 @@
+{
+  "vol": "VOL.01  NO.008",
+  "editor": "HUEY",
+  "counts": {
+    "total": 18,
+    "intl": 11,
+    "kr": 7
+  },
+  "outlets": [
+    "헤럴드경제",
+    "뉴스핌",
+    "ArchDaily",
+    "Dezeen",
+    "The National",
+    "Free Malaysia Today",
+    "The Architects' Journal",
+    "한국건축가협회"
+  ],
+  "teasers": [
+    {
+      "title": "박서보미술관, 연희동에 열리다",
+      "desc": "최문규 설계, 지하 2층~지상 3층 2000㎡ 규모",
+      "label": "OPENING"
+    },
+    {
+      "title": "두바이 알막툼공항, 50㎞ 무인철도",
+      "desc": "세계 최장 피플무버, MHI·L&T 컨소시엄 수주",
+      "label": "INFRA"
+    },
+    {
+      "title": "울산 건축상 대상은 '케이지 안전교육센터'",
+      "desc": "고려아연 온산제련소 산업건축, 43점 중 7점 선정",
+      "label": "AWARDS"
+    },
+    {
+      "title": "예테보리 새 중앙역, 벽돌 60만 장 재사용",
+      "desc": "라이울프 람스타드 아키텍터, 12월 개통 목표",
+      "label": "INFRA"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 문화유산",
+    "lede": "35개월 해체수리 마친 성균관 대성전, 1602년 목수의 기록을 되찾아 시민 곁으로",
+    "lede_em": "35개월 해체수리 마친",
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/08/18/news-p.v1.20260818.4e3a44bb58334536b85d9dfaf3091930_P1.jpg",
+    "image_label": "헤럴드경제",
+    "caption": "서울 문묘 및 성균관 대성전, 35개월에 걸친 해체수리를 마쳤다 ⓒ 헤럴드경제",
+    "body": [
+      "서울 종로구와 국가유산청이 **8월 24일 오전 11시** 성균관 대성전 앞마당에서 **'서울 문묘 및 성균관 대성전 보수공사'** 준공식을 열었다. 국가지정유산(보물)인 대성전은 공자와 4대 성인, 공자의 제자들, 우리나라 명현 18인 등 **총 39위**의 위패를 봉안한 유교문화의 상징적 공간이다. **1398년** 처음 세워졌으나 임진왜란 때 불타 없어졌고, **1602년** 다시 지어졌다.",
+      "공사는 **2023년 9월부터 2026년 8월까지 35개월**간 이어졌다. 2021년 정기 모니터링에서 확인된 **동북측 처마의 진행성 처짐**이 해체수리의 계기가 됐다. 기존 목부재는 최대한 살려 재사용했고, 전통 수제 기와와 옛 안료 등 전통 기법을 그대로 적용했다.",
+      "해체 과정에서 뜻밖의 발견이 이어졌다. 1602년 재건 당시 목수들이 남긴 **상량 묵서**가 확인됐고, 단일 부재로는 **국내 최장인 18.8m 길이의 평고대**가 나왔다. 1704년 이전 초기 조선시대의 단청 기법으로 추정되는 줄무늬 장식과 함께, 천장 마감재에서 어람지·쪽물들인 종이도 발견됐다.",
+      "국가유산청은 이번 성과를 시민과 공유하기 위해 준공식 당일 견학 프로그램을 함께 진행했다. 문화재를 그저 완성된 결과물로 보여주는 대신 해체·복원의 전 과정과 전통 수리기술을 공개하는 방식으로, 평소 접하기 어려운 국가유산 수리 현장을 시민에게 여는 시도가 이어지고 있다."
+    ],
+    "source": {
+      "outlet": "헤럴드경제",
+      "links": [
+        { "text": "성균관 대성전 보수공사 마치고 24일 준공", "url": "https://biz.heraldcorp.com/article/10844530" }
+      ]
+    },
+    "topic": "재난유산"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "직접지급 합의해도 원사업자 지급보증 유지…공정위, 건설 하도급 표준계약서 개정",
+    "body": [
+      "공정거래위원회가 **건설업종 표준하도급계약서(직접지급합의서)**를 개정했다. 그동안은 발주자·원사업자·수급사업자가 직접지급에 합의하면 원사업자가 지급보증 의무에서 벗어났지만, 개정 이후에는 직접지급 합의가 있어도 원사업자의 지급보증 책임이 유지된다."
+    ],
+    "facts": [
+      "시행: **2026년 8월 11일**부터",
+      "적용 범위: **1천만원 이하 소액공사**를 제외한 모든 건설 하도급 거래",
+      "핵심 변경: 직접지급 합의가 있어도 원사업자 지급보증 의무 **존속**",
+      "최종 책임: 발주자가 미지급 시 원사업자가 그 금액에 대한 **최종 지급 책임** 부담"
+    ],
+    "body_after": [
+      "개정 계약서는 발주자가 기성 완료분에 대해 직접 지급하는 절차와 함께, 압류·체납 등으로 직접지급이 불가능해질 경우 발주자가 수급사업자에게 즉시 통지하도록 하는 절차도 담았다. 또 수급사업자가 임금이나 자재대금 지급을 지연했을 경우 원사업자가 지급을 유예할 수 있는 근거도 마련했다. 하도급 대금 미지급 리스크를 원사업자에게 다시 지우는 방향인 만큼, 시공사 입장에서는 하도급 계약 관리 실무에 직접적인 영향이 있다."
+    ],
+    "source": {
+      "outlet": "뉴스핌",
+      "links": [
+        { "text": "하도급대금 직접지급 합의해도 지급보증 의무…공정위, 건설 표준계약서 개정", "url": "https://www.newspim.com/news/view/20260805000314" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 인프라",
+      "title": "재사용 벽돌 60만 장으로 지은 예테보리 새 중앙역",
+      "image": "https://images.adsttc.com/media/images/6a88/b75a/ac8b/af01/892c/e49a/newsletter/gothenburg-grand-central_6.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "노르웨이 스튜디오 **라이울프 람스타드 아키텍터**가 스웨덴 예테보리의 통근철도 사업 **베스트렝켄(West Link)**의 핵심 시설인 **'예테보리 그랜드 센트럴'**을 완공 단계에 올렸다. 연면적 **1만 5,000㎡** 규모로 역사 기능과 상업시설, 약 700개 업무공간을 갖춘 오피스 3개 층이 함께 들어선다.",
+        "외피는 깊은 수직 리브와 큰 아치형 개구부를 낸 **재사용 벽돌**로 마감했다. 약 **60만 장**의 벽돌과 재사용 철골을 활용했고, 여기에 **9,100㎡**의 구조용 집성목(CLT)과 철골·콘크리트를 더했다. 옥상에는 54종의 식물이 자라는 **200m 길이 산책로**가 얹힌다. 역사는 **2026년 12월** 개통을 목표로 하며, 오피스 입주는 2027년부터 시작된다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Reused Brick and Timber Shape Reiulf Ramstad Arkitekter's New Railway Station in Sweden", "url": "https://www.archdaily.com/1183811/reused-brick-and-timber-shape-reiulf-ramstad-arkitekters-new-railway-station-in-sweden" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 인프라",
+      "title": "두바이 알막툼공항, 세계 최장 50㎞ 무인철도 낸다",
+      "image": "",
+      "image_label": "THE NATIONAL",
+      "body": [
+        "두바이 알막툼국제공항이 세계 최대 규모의 **자동무인철도(APM)** 시스템을 갖추게 된다. **미쓰비시중공업(MHI)**과 인도 **L&T(Larsen & Toubro)** 컨소시엄이 공사를 수주했으며, 1단계로 **9개 역**을 잇는 지하 노선을 건설하고 향후 전체 확장이 끝나면 **14개 역**, 총 **50㎞** 노선으로 늘어난다. 현재 가장 긴 공항 APM인 댈러스포트워스공항 스카이링크(약 8㎞)의 여섯 배가 넘는 규모다.",
+        "완공 목표는 **2031년 12월**이며, 공항 1단계 개장은 **2032년**이다. 알막툼국제공항은 완공 시 연간 여객 **2억 6,000만 명**, 화물 **1,200만 톤**을 처리하는 세계 최대 공항을 목표로 하고 있고, 1단계만으로도 연 1억 3,000만 명을 수용한다."
+      ],
+      "source": {
+        "outlet": "The National",
+        "links": [
+          { "text": "Dubai's Al Maktoum airport set for 50km driverless rail network to carry passengers", "url": "https://www.thenationalnews.com/news/uae/2026/08/21/dubais-al-maktoum-airport-set-for-50km-driverless-rail-network-to-carry-passengers/" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 비엔날레",
+      "title": "'자연이 먼저라면'…오슬로 건축 트리엔날레 9월 개막",
+      "image": "https://images.adsttc.com/media/images/6a8c/0f48/ab59/ca01/8994/6f78/medium_jpg/oslo-architecture-triennale-2026-announces-programme-for-ninth-edition-under-what-if-nature-comes-first_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "제9회 **오슬로 건축 트리엔날레**가 **'자연이 먼저라면?(What if Nature Comes First?)'**을 주제로 **9월 17일부터 10월 1일까지** 열린다. 조경건축가 **라인 람스타드**가 총감독을 맡았고, 1877년 지어진 오슬로 그뤼네를뢰카의 소피엔베리 교회를 재사용 자재로 개조한 공간이 2주간 축제 무대가 된다. 재료·구조물·영토·시스템 네 가지 스케일로 프로그램을 짰으며, 노르웨이·덴마크·스웨덴 등 10개국 30여 개 프로젝트가 참여한다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Oslo Architecture Triennale 2026 Announces Programme for 9th Edition Under \"What if Nature Comes First?\"", "url": "https://www.archdaily.com/1183847/oslo-architecture-triennale-2026-announces-programme-for-9th-edition-under-what-if-nature-comes-first" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 인프라",
+      "title": "베트남, 중국 접경 철도에 3조원 추가 투입…11조원 규모로",
+      "image": "https://www.freemalaysiatoday.com/cdn-cgi/image/width=3840,quality=80,format=auto,fit=scale-down,metadata=none,dpr=1,onerror=redirect/https://media.freemalaysiatoday.com/wp-content/uploads/2024/11/9c7b72be-vietnam-train-30112024.webp",
+      "image_label": "FREE MALAYSIA TODAY",
+      "body": [
+        "베트남 국회가 라오까이-하노이-하이퐁을 잇는 철도 사업에 **미화 30억 달러**를 추가 투입하기로 했다. 총사업비는 기존 **203조 동에서 289조 동(약 111억 달러)**으로 늘었다. 노선 길이도 391㎞에서 **426㎞**로 늘고 푸토·박닌·흥옌 등 산업단지가 몰린 지역을 추가로 지난다. 최고 시속 120㎞로 운행하며 완공 목표는 **2030년**이다. 중국 정부 차관을 활용하는 이 노선은 베트남-중국을 잇는 3개 철도 계획 중 하나다."
+      ],
+      "source": {
+        "outlet": "Free Malaysia Today",
+        "links": [
+          { "text": "Vietnam approves additional US$3 billion spending for China rail link", "url": "https://www.freemalaysiatoday.com/category/world/2026/08/24/vietnam-approves-additional-us-3-billion-spending-for-china-rail-link" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 주택",
+      "title": "브라질 산속 능선에 눕힌 '씨이 하우스', 175㎡",
+      "image": "https://images.adsttc.com/media/images/6a87/3da0/4253/0500/01c9/fbd3/medium_jpg/DMSFX_-_11s_M.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "브라질 스튜디오 **달오보 마갈량이스 아르키테투라**가 상프란시스코사비에르에 **175㎡** 규모 산속 주택을 완공했다(2025년). 수평으로 길게 뻗은 절제된 볼륨이 지형 경사를 그대로 따라가며, '땅에 가까이 있으면서도 그 위에 떠 있는' 경험을 만든다. 잔디와 숲 사이 대지에 놓여 오래전부터 그 자리에 있던 것처럼 보이도록 설계했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "C.E. House / Dall'Ovo Magalhães Arquitetura", "url": "https://www.archdaily.com/1183808/ce-house-dallovo-magalhaes-arquitetura" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 시상",
+      "title": "AJ 건축상 2026, 123개 프로젝트 21개 부문 숏리스트 공개",
+      "image": "https://cdn.rt.emap.com/wp-content/uploads/sites/4/2026/08/11091105/01_MetWorks_Farmstead_Fred-Haworth-1540x1100-1.webp",
+      "image_label": "THE ARCHITECTS' JOURNAL",
+      "body": [
+        "영국 건축전문지 아키텍츠 저널이 주관하는 제9회 **AJ 건축상 2026**의 숏리스트가 공개됐다. 21개 부문에 걸쳐 **123개 프로젝트**가 이름을 올렸다. 주택 부문은 예산 규모별로 셋으로 나뉘는데, **1,000만 파운드 이하** 부문에는 깁슨손리 아키텍츠의 리언 하우스, 메트로폴리탄 워크숍의 아트앤크래프트풍 루이셤 주택 등 6개작이 올랐다. 심사는 브리프 충족도, 커뮤니티 참여, 공간·장소성, 지속가능성 전략을 기준으로 진행된다."
+      ],
+      "source": {
+        "outlet": "The Architects' Journal",
+        "links": [
+          { "text": "AJ Architecture Awards 2026 shortlists Part 3: Housing and landscape and public realm", "url": "https://www.architectsjournal.co.uk/news/aj-architecture-awards-2026-shortlists-part-3-housing-and-landscape-and-public-realm" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 개관",
+      "title": "연희동에 박서보미술관 개관…\"기념관 아닌 동시대 플랫폼\"",
+      "image": "https://wimg.heraldcorp.com/news/cms/2026/08/18/news-p.v1.20260818.6dbaa04ff27148579290d6c67baa825d_P1.jpg",
+      "image_label": "헤럴드경제",
+      "body": [
+        "한국 단색화를 대표하는 고 박서보 화백을 기리는 **박서보미술관**이 **8월 21일** 서울 서대문구 연희동, 박서보가 생전 작업하던 작업실 인근에 문을 열었다. 연세대 건축공학과 **최문규** 교수가 설계했으며, 지하 2층~지상 3층 총 5개 층, 연면적 약 **2,000㎡** 규모다. 층마다 작은 정원을 배치해 작품·자연·건축이 어우러지도록 짰다.",
+        "박승호 이사장은 \"박서보를 기리는 공간이 아니라 그가 평생 해온 일들을 지속할 수 있게 하는 공간\"이라고 설명했다. 개관전 **'박서보와 흐엉 도딘: 비움 그 충만'**은 2027년 1월 3일까지 이어지며, 박서보 회화 25점과 베트남 태생 작가 흐엉 도딘의 회화 17점 등 총 42점을 선보인다. 8m 높이 큐브 전시실에는 박서보가 2023년 작업한 대작 3점이 자연광 속에 걸린다."
+      ],
+      "source": {
+        "outlet": "헤럴드경제",
+        "links": [
+          { "text": "\"박서보 기념 아닌 동시대 플랫폼\"…박서보미술관 개관", "url": "https://biz.heraldcorp.com/article/10844277" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "호남선 익산역사 증축 설계공모 공고",
+      "body": [
+        "**호남선 익산역사 증축 기타 설계 제안설계공모**가 **8월 24일** 공고됐다. 한국건축가협회가 공모 관리를 맡았으며, 익산역 역사 시설을 증축하는 설계 제안을 받는다. 철도 역사 개보수·증축 공모는 최근 국가철도공단이 잇달아 발주하고 있는 흐름과 맞닿아 있다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회",
+        "links": [
+          { "text": "호남선 익산역사 증축 기타 설계 제안설계공모 공고", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20699" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "제주 보건환경연구원 증축사업, 건축 설계공모 공고",
+      "body": [
+        "**제주특별자치도 보건환경연구원 증축사업** 건축 설계공모가 공고됐다. 참가 등록은 **8월 10일부터 17일까지**, 질의응답은 8월 18~19일 진행된다. 작품 제출 마감은 **9월 30일**이며, 1차 심사는 10월 8일과 22일, 최종 심사는 10월 29일에 열린다. 한국건축가협회가 공모 운영을 맡고 있다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회",
+        "links": [
+          { "text": "「제주특별자치도 보건환경연구원 증축사업」 건축 설계공모 공고", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20679" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "당진 정원문화지원센터 건립사업, 2단계 설계공모 공고",
+      "body": [
+        "충남 당진시 고대면 옥현리 당진수목원 안에 들어설 **정원문화지원센터** 건립사업이 **2단계 설계공모**로 진행된다. 설계비 약 **54억 원**(㎡당 34만 원), 공사비 약 **1,140억 원**(㎡당 715만 원) 규모이며 연면적은 **1,600㎡**, 제1종 근린생활시설로 분류된다. 등록은 **8월 5일부터 14일까지**였고, 작품 제출 마감은 **10월 1일**, 심사위원은 9명이다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회",
+        "links": [
+          { "text": "당진 정원문화지원센터 건립사업 건축설계공모(2단계 설계공모)", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20676" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "울산 건축상 대상은 '케이지 안전교육센터'",
+      "body": "고려아연 온산제련소 부지에 지은 산업건축이 2026 울산광역시 건축상 대상을 받았다. 비철금속 생산과정을 형상화한 수직 루버 입면이 특징이다.",
+      "source": {
+        "outlet": "헤럴드경제",
+        "links": [
+          { "text": "2026년 울산광역시 건축상 수상작 발표", "url": "https://biz.heraldcorp.com/article/10830221" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "빌드너 '아키텍츠 스테어' 공모 수상작 발표",
+      "body": "계단을 건축적 스토리텔링의 매체로 다룬 빌드너의 제3회 아키텍츠 스테어 국제 아이디어 공모 수상작이 공개됐다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Buildner's 3rd Architect's Stair Competition Winners Explore the Stair as a Form of Architectural Expression", "url": "https://www.archdaily.com/1181786/buildners-3rd-architects-stair-competition-winners-explore-the-stair-as-a-form-of-architectural-expression" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "포틀랜드미술관, 1억1100만 달러 로스코 파빌리온 공개",
+      "body": "헤너베리 에디·빈치 햄프 아키텍츠가 1930년대 벨루스키관과 1920년대 프리치관 사이에 유리 파빌리온을 끼워 넣었다. 화가 마크 로스코 유족과의 협력 프로젝트다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Glazed pavilion with \"distinctly modernist character\" added to Portland Art Museum", "url": "https://www.dezeen.com/2026/08/03/portland-art-museum-oregon-hennebery-eddy-architects-and-vinci-hamp-architects/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "우피, 온타리오 산장을 '하이킹하듯' 재구성",
+      "body": "토론토 스튜디오 우피가 1970년대 산장을 확장·리노베이션했다. 가파른 숲 지형에 맞춰 그물망을 실내 경계로 활용했다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "UUfie organises renovated Ontario chalet \"like a hike\"", "url": "https://www.dezeen.com/2026/08/21/uufie-renovates-ontario-chalet-belfountain/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "리스본 사립학교, 콘크리트 큐브 증축으로 위법 건물 대체",
+      "body": "안토니우 코스타 리마가 콜레지우 드 산타마리아의 불법 별관을 철거하고, 옥상 화단을 얹은 콘크리트 큐브 증축동을 새로 지었다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "António Costa Lima adds concrete extension to Lisbon school", "url": "https://www.dezeen.com/2026/08/20/antonio-costa-lima-colegio-de-santa-maria/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "노르웨이 해안 산장, 쓰러진 가문비나무로 뼈대를 세우다",
+      "body": "헬렌앤하드가 폭풍에 뿌리째 뽑힌 가문비나무들로 18개의 가지형 기둥을 짜 '캐빈 산데'를 완공했다. 바이킹 시대 조선술에서 이음 방식을 가져왔다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Helen & Hard uses uprooted spruce trees to shape Cabin Sande on Norway's Atlantic coast", "url": "https://www.dezeen.com/2026/08/15/cabin-sande-spruce-trees-norway-atlanic-ocean-helen-hard-architects/" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "daeseongjeon-restoration-2026",
+      "tag": "HERITAGE",
+      "title": "35개월, 성균관 대성전이 돌아왔다",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "slides": [
+        {
+          "heading": "35개월 만에\n돌아온 대성전",
+          "body": "성균관 대성전, 해체수리를 마치고 시민 곁으로"
+        },
+        {
+          "heading": "WHAT",
+          "body": "서울 종로구와 국가유산청이 8월 24일 성균관 대성전 보수공사 준공식을 열었다. 39위 위패를 모신 국가지정유산 보물이다."
+        },
+        {
+          "heading": "TIMELINE",
+          "body": "1398년 처음 세워졌다가 임진왜란 때 소실, 1602년 재건됐다. 2021년 동북측 처마 처짐이 확인돼 2023년 9월부터 35개월간 해체수리가 진행됐다."
+        },
+        {
+          "heading": "DISCOVERY",
+          "body": "해체 중 1602년 목수들이 남긴 상량 묵서와, 단일 부재로는 국내 최장인 18.8m 길이 평고대가 발견됐다. 1704년 이전 초기 단청 기법도 확인됐다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "기존 목부재를 최대한 살리고 전통 수제 기와·안료를 그대로 썼다. 국가유산청은 해체·복원 전 과정을 시민에게 공개하며 전통 수리기술 계승을 알리고 있다."
+        }
+      ]
+    },
+    {
+      "slug": "park-seobo-museum-yeonhui",
+      "tag": "OPENING",
+      "title": "연희동에 박서보미술관 열리다",
+      "ref": { "section": "korea", "index": 0 },
+      "bg": 1,
+      "slides": [
+        {
+          "heading": "연희동에\n박서보미술관",
+          "body": "최문규가 설계한 2000㎡, \"기념관 아닌 동시대 플랫폼\""
+        },
+        {
+          "heading": "WHAT",
+          "body": "한국 단색화의 거장 고 박서보를 기리는 미술관이 8월 21일 서울 연희동, 그의 옛 작업실 인근에 문을 열었다."
+        },
+        {
+          "heading": "ARCHITECTURE",
+          "body": "연세대 최문규 교수가 설계했다. 지하 2층~지상 3층, 연면적 약 2,000㎡ 규모로 층마다 작은 정원을 두어 작품·자연·건축이 어우러지게 했다."
+        },
+        {
+          "heading": "PHILOSOPHY",
+          "body": "박승호 이사장은 \"박서보를 기리는 공간이 아니라 그가 평생 해온 일들을 지속할 수 있게 하는 공간\"이라고 말했다."
+        },
+        {
+          "heading": "FIRST SHOW",
+          "body": "개관전 '박서보와 흐엉 도딘: 비움 그 충만'은 2027년 1월 3일까지. 8m 높이 큐브 전시실엔 박서보의 2023년 대작 3점이 자연광 속에 걸린다."
+        }
+      ]
+    },
+    {
+      "slug": "al-maktoum-people-mover",
+      "tag": "INFRA",
+      "title": "두바이, 세계 최장 무인철도를 놓는다",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 2,
+      "slides": [
+        {
+          "heading": "50㎞\n세계 최장 무인철도",
+          "body": "두바이 알막툼국제공항의 자동무인철도(APM) 프로젝트"
+        },
+        {
+          "heading": "WHAT",
+          "body": "미쓰비시중공업(MHI)과 인도 L&T 컨소시엄이 알막툼국제공항 자동무인철도(APM) 공사를 수주했다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "1단계 9개 역에서 시작해 전체 확장이 끝나면 14개 역, 총 50㎞ 노선이 된다. 현재 최장인 댈러스포트워스공항 스카이링크(8㎞)의 여섯 배가 넘는다."
+        },
+        {
+          "heading": "TIMELINE",
+          "body": "완공 목표는 2031년 12월, 공항 1단계 개장은 2032년이다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "알막툼국제공항은 완공 시 연간 여객 2억 6,000만 명, 화물 1,200만 톤을 처리하는 세계 최대 공항을 목표로 한다."
+        }
+      ]
+    }
+  ]
+}

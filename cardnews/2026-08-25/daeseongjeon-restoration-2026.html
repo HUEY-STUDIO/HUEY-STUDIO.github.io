@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>35개월, 성균관 대성전이 돌아왔다 — HUEY ARCHI MAGAZINE</title>
+<link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../../assets/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../assets/apple-touch-icon.png">
+<link rel="stylesheet" as="style" crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<div class="site-nav">
+  <a class="site-nav__brand" href="../../index.html">HEUY<span>.</span>ARCHI</a>
+  <nav>
+    <a href="../../index.html">최신호</a>
+    <a href="../../archive.html">지난호</a>
+  </nav>
+</div>
+<div class="cn-wrap">
+  <div class="cn-detail-head">
+    <span class="cn-brand">HUEY ARCHI MAGAZINE</span>
+    <span class="cn-editor">Editor HUEY</span>
+  </div>
+  <h1 class="cn-detail-title">35개월, 성균관 대성전이 돌아왔다</h1>
+  <div class="cn-carousel" id="cnCarousel">
+      <div class="cn-slide"><img src="../../cardnews/2026-08-25/daeseongjeon-restoration-2026/01.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-25/daeseongjeon-restoration-2026/02.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-25/daeseongjeon-restoration-2026/03.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-25/daeseongjeon-restoration-2026/04.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-25/daeseongjeon-restoration-2026/05.png" alt="" loading="lazy"></div>
+  </div>
+  <div class="cn-dots" id="cnDots"></div>
+  <div class="cn-infobar">
+    <div class="cn-info-row">
+      <span class="cn-info-label">원문 출처</span>
+      <div class="src"><span class="o">헤럴드경제</span> · <a href="https://biz.heraldcorp.com/article/10844530" target="_blank" rel="noopener">성균관 대성전 보수공사 마치고 24일 준공</a></div>
+    </div>
+    <div class="cn-info-row">
+      <span class="cn-info-label">HUEY.ARCHI 기사</span>
+      <a href="../../issues/2026-08-25.html#art-top">35개월 해체수리 마친 성균관 대성전, 1602년 목수의 기록을 되찾아 시민 곁으로 →</a>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var car = document.getElementById('cnCarousel');
+  var dotsWrap = document.getElementById('cnDots');
+  var slides = car.querySelectorAll('.cn-slide');
+  slides.forEach(function (_, i) {
+    var dot = document.createElement('span');
+    dot.className = 'cn-dot' + (i === 0 ? ' on' : '');
+    dotsWrap.appendChild(dot);
+  });
+  var dotEls = dotsWrap.querySelectorAll('.cn-dot');
+  car.addEventListener('scroll', function () {
+    var idx = Math.round(car.scrollLeft / car.clientWidth);
+    dotEls.forEach(function (el, i) { el.classList.toggle('on', i === idx); });
+  }, { passive: true });
+})();
+</script>
+</body>
+</html>
