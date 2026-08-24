@@ -1,0 +1,430 @@
+{
+  "vol": "VOL.01  NO.009",
+  "editor": "HUEY",
+  "counts": {
+    "total": 19,
+    "intl": 14,
+    "kr": 5
+  },
+  "outlets": [
+    "뉴스핌",
+    "이투데이",
+    "아시아투데이",
+    "ArchDaily",
+    "designboom",
+    "Dezeen",
+    "Construction Dive",
+    "한국건축가협회",
+    "Bustler"
+  ],
+  "teasers": [
+    {
+      "title": "해안건축, 송파 올림픽훼밀리타운 재건축 설계권",
+      "desc": "6,700가구 '펜타포레' 콘셉트, 72.2% 압도적 지지",
+      "label": "PROJECT"
+    },
+    {
+      "title": "9·7 공급대책 후속법 6건 국회 통과",
+      "desc": "노후청사·학교용지 복합개발법 등 제정",
+      "label": "POLICY"
+    },
+    {
+      "title": "앙골라 나미베 시네마, 50년 만의 첫 상영",
+      "desc": "1973년 열대 모더니즘 유산, 세계기념물감시목록 등재",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "시게루 반, 아와지시마 웰니스 리트리트 공개",
+      "desc": "온천 객실·수면 센서 침대 갖춘 D자형 호텔",
+      "label": "PROJECT"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 재건축",
+    "lede": "72.2% 압도적 지지로 해안건축 선정…송파 올림픽훼밀리타운, 6,700가구 '펜타포레'로 다시 선다",
+    "lede_em": "72.2% 압도적 지지로 해안건축 선정",
+    "image": "https://img.newspim.com/news/2026/08/24/2608241724226020.jpg",
+    "image_label": "뉴스핌",
+    "caption": "올림픽훼밀리타운 재건축 조감도 ⓒ 뉴스핌",
+    "body": [
+      "서울 송파구 올림픽훼밀리타운(현 **4,494가구**) 재건축 설계권을 **해안종합건축사사무소**가 확보했다. **8월 22일** 열린 제2차 주민총회 결선투표에서 총 2,004표 중 **72.2%**를 얻어 경쟁사를 큰 격차로 앞섰다.",
+      "해안건축이 제안한 콘셉트는 **'펜타포레'**. 자산가치·조경·교통·공간·인프라 다섯 가지 특권을 숲과 결합한다는 구상이다. 단지 중앙에는 약 **7만 평** 규모의 '펜타포레가든'을 조성하고, **9km** 길이 산책로를 둘러 전 가구에 파노라마 조망권을 제공한다는 계획이다.",
+      "재건축이 완료되면 기존 4,494가구는 **6,700여 가구** 규모의 초대형 단지로 탈바꿈한다. 서울 동남권에서도 손꼽히는 대단지 재건축 사업인 만큼, 이번 설계권 선정 결과는 인근 단지들의 재건축 추진 동력에도 영향을 줄 것으로 보인다.",
+      "추진위원회는 연내 조합 창립총회 개최를 목표로 후속 절차를 밟을 예정이다. 정비계획 수립과 사업시행인가 등 남은 절차가 많지만, 압도적 지지로 설계사를 확정지으며 사업 추진에 속도가 붙을 전망이다."
+    ],
+    "source": {
+      "outlet": "뉴스핌",
+      "links": [
+        { "text": "해안건축, 송파 올림픽훼밀리타운 재건축 설계권 획득", "url": "https://www.newspim.com/news/view/20260824001137" }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://img.etoday.co.kr/pto_db/2026/08/20260820150009_2375796_1000_666.jpg",
+    "image_label": "이투데이",
+    "title": "노후청사·학교용지도 주택으로…9·7 공급대책 후속법 6건 국회 통과",
+    "body": [
+      "**8월 20일** 국회 본회의에서 '9·7 주택공급 확대대책'의 후속 법안 6건이 통과됐다. 노후 공공청사와 미사용 학교용지까지 주택 공급 부지로 끌어쓸 수 있는 제도적 기반이 마련되면서, 도심 유휴부지를 다루는 설계·개발 실무에 직접 영향을 미칠 전망이다."
+    ],
+    "facts": [
+      "노후청사 복합개발법(제정): 준공 **30년 이상** 노후 공공청사에 주택·생활SOC 복합개발 허용",
+      "학교용지 복합개발법(제정): 미사용·폐교 학교용지를 주택·소규모 학교로 복합 조성",
+      "빈 건축물 정비법(제정): **1년 이상** 미거주 주택·미사용 비주택·방치건축물 통합 관리",
+      "공공주택 특별법 개정: 도심 공공주택 복합사업 일몰기한 **2029년 말**까지 3년 연장",
+      "주택법 개정: 도시형생활주택 가구 수 제한 완화, 공동주택 리모델링 인허가 의제 확대"
+    ],
+    "body_after": [
+      "이번 개정으로 그동안 활용이 막혀 있던 노후 공공청사·폐교부지가 정식 개발 사업 대상에 포함되면서, 도심 내 소규모·복합 개발을 다루는 설계사무소에는 새로운 발주 유형이 생길 가능성이 크다. 부동산거래신고법 개정으로 토지거래허가구역 지정 권한도 확대돼, 개발 예정지 인근의 거래·설계 착수 시점에도 유의가 필요해졌다."
+    ],
+    "source": {
+      "outlet": "이투데이",
+      "links": [
+        { "text": "9·7 공급대책 후속법 6건 본회의 통과⋯도심 주택공급 속도 낸다", "url": "https://www.etoday.co.kr/news/view/2616587" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 재난유산",
+      "title": "50년 만의 첫 상영…앙골라 나미베 시네마, 열대 모더니즘의 부활",
+      "image": "https://images.adsttc.com/media/images/6a75/0c0e/ac8b/af01/892c/af52/newsletter/cinema-estudio-namibe-um-icone-do-modernismo-tropical-entre-a-ruina-e-a-reabilitacao_1.jpg?1786055715",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "앙골라 해안도시 나미베에 **1973년** 세워진 영화관 '시네마 스튜디오 나미베'가 준공 이후 처음으로 관객을 맞았다. 대담한 콘크리트 구조로 지어진 이 건물은 완공 이후 수십 년간 문을 열지 못한 채 방치돼, 정작 본래 목적인 영화 상영은 한 번도 이뤄지지 못했다.",
+        "이 건물은 앙골라 열대 모더니즘 건축을 대표하는 사례로 재평가되며 **세계기념물기금(WMF)**의 세계기념물감시목록에 이름을 올렸다. 약 반세기 만의 첫 상영은 방치된 근대 유산을 되살리려는 복원 움직임의 상징적 장면으로 꼽힌다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Cinema Studio Namibe: Reviving a Tropical Modernist Icon in Angola", "url": "https://www.archdaily.com/1183720/cinema-studio-namibe-reviving-a-tropical-modernist-icon-in-angola" }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "국제 · 웰니스",
+      "title": "시게루 반, 아와지시마에 온천 딸린 D자형 웰니스 리트리트",
+      "image": "",
+      "image_label": "DEZEEN",
+      "body": [
+        "프리츠커상 수상 건축가 **시게루 반**이 일본 파소나그룹을 위해 설계한 세 번째 아와지시마 프로젝트, **'더 파소나 네이처버스 리트리트'**가 공개됐다. 초가지붕 레스토랑과 목조 명상 리트리트에 이어 이번엔 장기 체류형 웰니스 호텔이다. 해안과 숲 사이 대지에 D자형 평면을 앉혀 두 개의 선형 매스가 빛이 드는 아트리움을 감싸는 구조다.",
+        "1단계 **11개 객실**이 오사카만과 아와지시마 풍광을 향해 열리며, 모든 객실에 천연 온천을 갖췄다. 일부 객실에는 투숙객 상태에 맞춰 수면의 질을 조절하는 센서 침대가 설치된다. 미쉐린 스타 셰프가 참여하는 레스토랑 5곳과 여러 카페도 들어선다. '미병(未病)'—병에 이르기 전 예방한다는 개념을 바탕으로 한 장기 체류 프로그램을 운영하며, 2026년 6월 개장을 목표로 2월부터 예약을 받는다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Shigeru Ban unveils Pasona Natureverse Retreat on Awaji Island", "url": "https://www.dezeen.com/2026/08/24/shigeru-ban-hotel-pasona-awaji-island/" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 주택",
+      "title": "르코르뷔지에의 '최소 세포', 워싱턴주 섬 위 37㎡ 캐빈으로",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/blakely-cabin-wittman-estes-san-juan-island-washington-state-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "미국 스튜디오 **위트먼 에스테스**가 워싱턴주 블레이클리 아일랜드에 르코르뷔지에의 1952년 '카바농'에서 영감을 받은 캐빈을 완공했다. 16×20피트(약 **37㎡**)의 작은 발자국을 가느다란 기둥 위에 높이 띄웠다. 지역산 삼나무로 외장을, 자작합판으로 내부를 마감했고 노출 전나무 보를 그대로 살렸다. 접이식 침대와 2단 침대를 갖춘 다락, 360도 회전하는 벽난로가 좁은 공간을 압축적으로 채운다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "wittman estes reinterprets le corbusier's 'minimum cell' as elevated cabin on blakely island", "url": "https://www.designboom.com/architecture/wittman-estes-corbusier-minimum-cell-cabin-blakely-island-washington/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "로마 아파트, 파란 포탈과 벽돌 볼트로 100㎡를 다시 그리다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/blue-portals-and-brick-vaults-shape-dkas-apartment-renovation-in-rome1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "이탈리아 스튜디오 **DKA(디엘레 케르치쿠 아르케테투레)**가 로마의 **100㎡** 아파트를 리노베이션했다. 기존 내력벽 일부를 걷어내는 '감산' 전략으로 개방적인 거주 공간을 만들었고, 원래 있던 벽돌 볼트 천장은 그대로 보존했다. 선명한 파란색으로 칠한 맞춤 목공 포탈이 공간과 공간을 잇는 장치로 기능하며, 참나무 마루와 에칭 유리, 아르테미데·플로스 조명이 대비를 이룬다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "blue portals and brick vaults shape DKA's apartment renovation in Rome", "url": "https://www.designboom.com/architecture/blue-portals-and-brick-vaults-shape-dkas-apartment-renovation-in-rome/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 도시재생",
+      "title": "이탈리아 소도시, 3만㎡ 녹지에 철골 파빌리온을 앉히다",
+      "image": "https://images.adsttc.com/media/images/6a85/7ebd/4253/0500/01c9/f234/newsletter/PARCO_BROLO_Albo-15.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "이탈리아 **CN10 아르케테티**가 베르가모주 보나테 소토의 '파르코 브롤로' 공원에 **250㎡** 규모 다목적 파빌리온을 준공했다. 철골과 콘크리트로 지은 이 파빌리온은 **3만㎡**가 넘는 대규모 녹지를 되살리는 도시재생 프로젝트의 핵심 시설로, 시청이 발주했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Pavilion in Brolo Park / CN10 architetti", "url": "https://www.archdaily.com/1183571/pavilion-in-brolo-park-cn10-architetti" }
+        ]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "국제 · 주택",
+      "title": "리구리아 알프스 건초헛간, 나무 위 목조 리트리트로",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/07/officina82-traditional-italian-hay-barn-timber-treetop-retreat-ligurian-alps-designboom-03.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "이탈리아 스튜디오 **오피치나82**가 리구리아 알프스 지역 전통 건초헛간 '바르키'를 재해석한 트리하우스 '트리박스'를 완공했다. 목재 기둥 4개로 지지해 나무에 구조적 부담을 주지 않고 숲 위로 떠 있으며, 목재 싱글로 외장을, 베니어판으로 내부를 마감했다. 전면 유리창 너머로 리구리아·피에몬테 알프스 능선이 펼쳐진다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "officina82 reimagines traditional italian hay barn as timber treetop retreat in ligurian alps", "url": "https://www.designboom.com/architecture/officina82-traditional-italian-hay-barn-timber-treetop-retreat-ligurian-alps/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "킹스팬 '마이크로홈 2026', 상금 총 13억 원 마이크로홈 공모",
+      "image": "https://storage.architecturecompetitions.com/upload/06.11.2025/7df92b7c80a1bea161b27caa28ea74aa.jpg",
+      "image_label": "BUILDNER",
+      "body": [
+        "빌드너와 킹스팬이 공동 주최하는 국제 아이디어 공모 **'킹스팬 마이크로홈 2026'**이 참가자를 모집한다. **25㎡ 이하** 모듈러·자립형 마이크로홈을 주제로 하며, 자격 제한 없이 누구나 참가할 수 있다. 등록 마감은 **9월 30일**, 작품 접수 마감은 **11월 2일**이며, 상금 총액은 **10만 유로**(1위 3만 유로 등)에 이른다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "100,000 € Prize / Kingspan MICROHOME 2026", "url": "https://architecturecompetitions.com/microhome2026/" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "울주 두동면 공공복합시설 건립, 건축설계공모 접수 중",
+      "body": [
+        "울산광역시 울주군이 **두동면 공공복합시설 건립공사** 건축설계공모를 진행하고 있다. 대상지는 울주군 두동면 구미리 일원이며, **8월 4일** 공고돼 참가등록은 8월 10일 마감됐고, 작품접수는 **10월 16일**까지다. 발주처는 울주군청 시설지원과, 공모 운영은 제대로랩이 맡았다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회",
+        "links": [
+          { "text": "두동면 공공복합시설 건립공사 건축설계공모 안내", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20672" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "모듈러 공공주택 2만가구로 확대…의왕초평 22층·하남교산 25층 시범",
+      "body": [
+        "국토교통부가 **2027~2030년** 공공기관의 모듈러 공공주택 발주 물량을 기존 **1만 2,000가구에서 2만가구**로 늘린다. 연평균 발주 규모도 3,000가구에서 **5,000가구**로 확대된다. 공장 제작과 현장 시공을 병행해 통상 2년 걸리는 공사기간을 1년 6개월로, 약 **30%** 단축할 수 있다는 설명이다.",
+        "다만 일반 공법 대비 공사비가 가구당 약 **7,000만원** 더 든다는 점이 걸림돌로 꼽힌다. 정부는 이 추가 공사비의 약 **50%**를 재정으로 지원할 계획이다. 시범사업으로 LH **의왕초평 A4블록**은 최고 22층 381가구, GH **하남교산 A1블록**은 25층 400가구 규모로 추진된다."
+      ],
+      "source": {
+        "outlet": "아시아투데이",
+        "links": [
+          { "text": "모듈러 방식으로 주택 공급 늘린다는데…'30% 비싼 공사비' 관건", "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260817010005281" }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 정책토론",
+      "title": "'공간민주주의 헌장' 발표 국회토론회, 8월 27일 열린다",
+      "body": [
+        "국가건축정책위원회와 여야 국회의원, 도시연대·문화연대 등이 공동 주최하는 **'공간민주주의 헌장(안) 발표 및 지자체 제안 국회토론회'**가 **8월 27일** 오전 국회의원회관에서 열린다. 시민의 공간에 대한 권리를 헌장 형태로 제안하는 자리로, 유튜브 생중계도 함께 진행된다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회",
+        "links": [
+          { "text": "공간민주주의 헌장(안) 제안 국회토론회 개최 안내", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20697" }
+        ]
+      },
+      "topic": "제도규제"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "AIA 2026 소규모 프로젝트상, 7건 선정",
+      "body": "미국건축가협회(AIA)가 2026년 소규모 프로젝트상 수상작 7건을 발표했다. 옛 채석장을 수영 명소로 되살린 테네시의 '오거스타 쿼리' 등이 이름을 올렸다.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          { "text": "Best small projects chosen at AIA Small Project Award 2026", "url": "https://archinect.com/news/bustler/11020/best-small-projects-chosen-at-aia-small-project-award-2026" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "테슬라, 텍사스에 12조원 규모 태양전지 공장 추진",
+      "body": "테슬라가 '프로젝트 크리스탈 선'이라는 이름으로 텍사스 포트벤드 카운티에 101억 달러 규모 태양광 셀·모듈 공장을 짓는다. 정규직 9,712명 고용을 예상하며 2029년 1분기 가동이 목표다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          { "text": "Tesla eyes $10B solar cell manufacturing site in Fort Bend County, Texas", "url": "https://www.constructiondive.com/news/tesla-eyes-10b-solar-cell-manufacturing-site-fort-bend-county-texas/828532/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "맨해튼 차이나타운, 세계 최고층 구치소 굴착 공사 중",
+      "body": "HOK가 설계한 39억 달러 규모 맨해튼 구치소(16층, 연면적 약 9만 8천㎡)가 라이커스 아일랜드 폐쇄에 따른 대체 시설로 뉴욕 차이나타운에서 공사가 진행 중이다. 완공 목표는 2032년 2월, 지역 주민들의 반대가 이어지고 있다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "World's tallest jail begins construction in Manhattan's Chinatown", "url": "https://www.dezeen.com/2026/08/24/manhattan-jail-hok-chinatown-construction/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 연방법원, 휴스턴시 소수기업 우대 계약제도 위헌 판결",
+      "body": "텍사스 연방법원이 휴스턴시의 인종 기반 소수기업 우대 계약제도에 영구금지명령을 내렸다. 연방 DBE 제도는 이미 인종·성별 기준을 폐지한 반면 뉴욕·일리노이 등 일부 주는 우대제도를 유지·확대하고 있어, 공공발주 입찰기업들이 상충하는 규정에 놓이게 됐다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          { "text": "Builders need to be prepared for uneven state, federal DBE rules", "url": "https://www.constructiondive.com/news/public-builders-prepare-state-federal-dbe-dei/828519/" }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "케랄라 가파른 산비탈에 화강암 농가와 노천 사원",
+      "body": "인도 스튜디오 에볼빙 래디컬 에스테틱스가 케랄라 가파른 언덕에 농가 '우샤스'를 완공했다. 옹벽 속에 새긴 노천 사원이 함께 들어섰다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Ushas farmhouse by Evolving Radical Aesthetics", "url": "https://www.dezeen.com/2026/08/24/ushas-farmhouse-kerala-india-evolving-radical-aesthetics/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "서머싯 더 뉴트, 19세기 건물 3동을 사유 별장으로",
+      "body": "리처드 파 어소시에이츠가 잉글랜드 더 뉴트 인 서머싯의 19세기 건물 3동을 개조해 최대 32명이 묵는 사유 별장 '야링턴 로지'를 열었다. 이전 거주자들의 흔적을 초상화·가구로 남겼다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Yarlington Lodge at The Newt in Somerset", "url": "https://www.dezeen.com/2026/08/24/yarlington-lodge-newt-somerset-richard-parr/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "그리스 시프노스섬, 돌담 속에 파묻힌 집 '피시카'",
+      "body": "건축가 알렉산드르 파블리디스가 그리스 시프노스섬 해안 경사지에 돌담을 겹겹이 두른 주택 '피시카(자연이라는 뜻)'를 완공했다. 기존 축대 하나를 건물로 대체해 지형 속에 파묻힌 듯한 모습이다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Alexandre Pavlidis completes Within the Earth on Sifnos", "url": "https://divisare.com/projects/561984-alexandre-pavlidis-architect-simone-bossi-fysika-beneath-the-earth" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "olympic-family-town-pentaforet",
+      "tag": "PROJECT",
+      "photo_query": "modern apartment tower forest park aerial",
+      "title": "송파 6,700가구, '펜타포레'로 다시 선다",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "slides": [
+        {
+          "heading": "72.2% 압도적 지지\n송파 재건축 설계권",
+          "body": "올림픽훼밀리타운, 해안건축의 '펜타포레'를 선택하다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "8월 22일 열린 제2차 주민총회 결선투표에서 해안종합건축사사무소가 2,004표 중 72.2%를 얻어 송파 올림픽훼밀리타운 재건축 설계권을 확보했다."
+        },
+        {
+          "heading": "CONCEPT",
+          "body": "콘셉트명은 '펜타포레'. 자산가치·조경·교통·공간·인프라 다섯 특권을 숲과 결합한다는 구상으로, 약 7만 평 규모 중앙공원과 9km 산책로를 계획했다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "기존 4,494가구가 재건축을 거쳐 약 6,700여 가구 규모 초대형 단지로 탈바꿈한다. 전 가구 파노라마 조망권 확보가 핵심 설계 목표다."
+        },
+        {
+          "heading": "WHAT'S NEXT",
+          "body": "추진위원회는 연내 조합 창립총회 개최를 목표로 한다. 압도적 득표로 사업 추진에 속도가 붙을 전망이다."
+        }
+      ]
+    },
+    {
+      "slug": "namibe-cinema-revival",
+      "tag": "HERITAGE",
+      "photo_query": "brutalist concrete cinema facade coastal",
+      "title": "50년 만에 불 켜진 앙골라 극장",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 1,
+      "slides": [
+        {
+          "heading": "지어졌지만\n한 번도 못 열었던 극장",
+          "body": "앙골라 나미베 시네마, 준공 53년 만의 첫 상영"
+        },
+        {
+          "heading": "WHAT",
+          "body": "1973년 앙골라 해안도시 나미베에 세워진 영화관 '시네마 스튜디오 나미베'가 완공 이후 처음으로 관객을 맞았다."
+        },
+        {
+          "heading": "WHY IT NEVER OPENED",
+          "body": "대담한 콘크리트 구조로 지어졌지만 수십 년간 방치되며 본래 목적인 영화 상영은 한 번도 이뤄지지 못했다."
+        },
+        {
+          "heading": "RECOGNITION",
+          "body": "앙골라 열대 모더니즘 건축의 아이콘으로 재평가되며 세계기념물기금(WMF)의 세계기념물감시목록에 이름을 올렸다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "약 반세기 만의 첫 상영은 방치된 근대 유산을 되살리려는 복원 움직임의 상징적 장면으로 꼽힌다."
+        }
+      ]
+    },
+    {
+      "slug": "shigeru-ban-awaji-natureverse",
+      "tag": "PROJECT",
+      "photo_query": "onsen hotel forest coast japan minimalist",
+      "title": "시게루 반의 온천 딸린 웰니스 리트리트",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 2,
+      "slides": [
+        {
+          "heading": "숲과 바다 사이,\n시게루 반의 세 번째 아와지시마",
+          "body": "'더 파소나 네이처버스 리트리트' 공개"
+        },
+        {
+          "heading": "WHAT",
+          "body": "프리츠커상 수상 건축가 시게루 반이 파소나그룹을 위해 설계한 세 번째 아와지시마 프로젝트, 장기 체류형 웰니스 호텔이 공개됐다."
+        },
+        {
+          "heading": "FORM",
+          "body": "해안과 숲 사이 대지에 D자형 평면을 앉혔다. 두 개의 선형 매스가 빛이 드는 아트리움을 감싸는 구조다."
+        },
+        {
+          "heading": "ROOMS",
+          "body": "1단계 11개 객실이 오사카만과 아와지시마 풍광을 향해 열린다. 모든 객실에 천연 온천을, 일부 객실엔 수면 상태를 조절하는 센서 침대를 갖췄다."
+        },
+        {
+          "heading": "PHILOSOPHY",
+          "body": "병에 이르기 전 예방한다는 개념 '미병(未病)'을 바탕으로 한 장기 체류 프로그램을 운영하며, 2026년 6월 개장이 목표다."
+        }
+      ]
+    }
+  ]
+}
