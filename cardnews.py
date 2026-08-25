@@ -9,13 +9,22 @@ HEUY ARCHI MAGAZINE — 카드뉴스 렌더러
 입력  : data/<날짜>.json 의 "cardnews" 배열
 출력  : cardnews/<날짜>/<slug>/01.png ... 0N.png   (1080x1350, 인스타그램 카드뉴스 규격)
 
-cardnews[] 항목에 "photo_query"(영문 검색어, 예: "temple wood restoration")를 넣으면
-Unsplash에서 그 검색어로 슬라이드 수만큼 서로 다른 사진을 한 번에 받아와(per_page)
-슬라이드마다 다른 배경으로 쓴다. 검색 결과 1순위(가장 관련도 높은 사진)는 항상 표지
-슬라이드(맨 앞)에 배정된다. 슬라이드 하나가 item 전체와 다른 소재를 다룬다면 그 슬라이드
-객체에 별도 "photo_query"를 넣어 단독으로 검색하게 할 수 있다(무료 API 한도를 아끼려면
-꼭 필요한 슬라이드에만 쓸 것). UNSPLASH_ACCESS_KEY 환경변수가 필요하며, 없거나 검색이
-실패하면 브랜드 그래픽 배경으로 자동 폴백한다.
+배경 사진은 두 종류다.
+
+1. "official_photos" — 공공누리 등으로 자유이용이 **사람이 직접 확인된** 정부·공공기관
+   이미지. [{"url": "...", "credit": "국가유산청 · 공공누리 제1유형"}] 형태로 item에 넣으면
+   앞 슬라이드부터 순서대로 실제 사진을 쓴다. 실제 취재 사진이라 하단에 출처만 표기하고
+   별도 disclaimer는 붙지 않는다. **원문 페이지에서 공공누리 마크·라이선스 유형을 직접
+   확인하지 않은 이미지는 여기 넣으면 안 된다** — CLAUDE.md 참조.
+2. "photo_query"(영문 검색어) — Unsplash에서 그 검색어로 슬라이드 수만큼 서로 다른 사진을
+   한 번에 받아와(per_page) official_photos로 못 채운 나머지 슬라이드에 배정한다. 슬라이드
+   하나가 item 전체와 다른 소재를 다룬다면 그 슬라이드 객체에 별도 "photo_query"를 넣어
+   단독 검색하게 할 수 있다(무료 API 한도를 아끼려면 꼭 필요한 슬라이드에만 쓸 것). Unsplash
+   사진은 기사 실제 사진이 아니므로 하단에 "기사 내용과 무관한 이미지입니다"라는 문구가
+   자동으로 붙는다.
+
+UNSPLASH_ACCESS_KEY 환경변수가 필요하며, 없거나 검색이 실패하면 브랜드 그래픽 배경으로
+자동 폴백한다.
 
 무료(Demo) Unsplash API는 시간당 50회 요청으로 제한된다. item당 검색 1회가 기본이므로
 하루 카드뉴스 3건 발행에는 여유가 있지만, --all --force로 대량 재렌더링할 때는 이 한도를
@@ -58,23 +67,47 @@ FONT_LINK = (
 )
 FONT_FAMILY = "'Pretendard Variable', Pretendard, 'Apple SD Gothic Neo', sans-serif"
 
-# ------------------------------------------------------------------ Unsplash 배경 사진
-# cardnews[] 항목에 "photo_query"(영문 검색어)가 있으면 Unsplash에서 사진을 검색해
-# 배경으로 쓴다. 키 없음/검색 실패/photo_query 없음이면 아래 브랜드 그래픽으로 폴백한다.
-# Unsplash License는 출처 표기 없이도 상업적 이용을 허용하지만, 예의상 표지 하단에
-# 촬영자 크레딧을 작게 남긴다.
+# ------------------------------------------------------------------ 배경 사진
+# 1순위는 item의 "official_photos"(공공누리 등 확인된 정부·공공기관 이미지, 실사진 그대로).
+# 그걸로 못 채운 슬라이드는 "photo_query"로 Unsplash를 검색해 채운다 — 이 경우 기사와
+# 무관한 연출컷이라는 문구가 자동으로 붙는다. 키 없음/검색 실패면 브랜드 그래픽으로 폴백한다.
 UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 
 _photo_cache = {}  # query -> list[photo] | None  (같은 실행 안에서 중복 검색 방지)
+_official_cache = {}  # url -> photo | None
+
+
+def _download_bytes(url):
+    with urllib.request.urlopen(url, timeout=20) as resp:
+        img_bytes = resp.read()
+        content_type = resp.headers.get_content_type() or "image/jpeg"
+    return f"data:{content_type};base64,{base64.b64encode(img_bytes).decode()}"
 
 
 def _download_photo(r):
-    with urllib.request.urlopen(r["urls"]["regular"], timeout=20) as resp:
-        img_bytes = resp.read()
-        content_type = resp.headers.get_content_type() or "image/jpeg"
-    data_uri = f"data:{content_type};base64,{base64.b64encode(img_bytes).decode()}"
-    return {"data_uri": data_uri, "credit_name": r["user"]["name"]}
+    data_uri = _download_bytes(r["urls"]["regular"])
+    return {"data_uri": data_uri, "credit_name": r["user"]["name"], "kind": "unsplash"}
+
+
+def download_official(entry):
+    """공공누리 등 자유이용이 확인된 정부기관·공공기관 이미지를 그대로 받아온다.
+    entry: {"url": "...", "credit": "국가유산청 · 공공누리 제1유형"}
+    반드시 원문 페이지에서 공공누리 마크·라이선스 유형을 사람이 직접 확인한 뒤에만 써야 한다.
+    """
+    url = entry.get("url")
+    if not url:
+        return None
+    if url in _official_cache:
+        return _official_cache[url]
+    photo = None
+    try:
+        data_uri = _download_bytes(url)
+        photo = {"data_uri": data_uri, "credit_name": entry.get("credit") or "", "kind": "official"}
+    except Exception as e:
+        print(f"    [official] 다운로드 실패({url!r}): {e}", file=sys.stderr)
+    _official_cache[url] = photo
+    return photo
 
 
 def search_unsplash(query, count=1):
@@ -105,6 +138,20 @@ def search_unsplash(query, count=1):
         print(f"    [unsplash] 검색 실패({query!r}): {e}", file=sys.stderr)
     _photo_cache[cache_key] = photos
     return photos
+
+
+def credit_block(photo):
+    """사진 출처 표시. Unsplash 사진에는 '기사와 무관한 이미지'라는 문구를 함께 남긴다."""
+    if not photo:
+        return ""
+    if photo.get("kind") == "official":
+        return f'<div class="foot"><div class="credit">ⓒ {esc(photo["credit_name"])}</div></div>'
+    return (
+        '<div class="foot">'
+        f'<div class="credit">ⓒ {esc(photo["credit_name"])} / Unsplash</div>'
+        '<div class="disclaimer">기사 내용과 무관한 이미지입니다</div>'
+        '</div>'
+    )
 
 
 def photo_bg(photo):
@@ -163,10 +210,7 @@ def cover_slide_html(item, day, total, photo=None):
     sub = esc(slide.get("body") or "")
     tag = esc(item.get("tag") or "MAGAZINE")
     sub_html = f'<div class="sub">{sub}</div>' if sub else ""
-    credit_html = (
-        f'<div class="foot"><span>ⓒ {esc(photo["credit_name"])} / Unsplash</span></div>'
-        if photo else ""
-    )
+    credit_html = credit_block(photo)
     return f"""<!doctype html><html><head><meta charset="utf-8">{FONT_LINK}
 <style>
   *{{margin:0;padding:0;box-sizing:border-box}}
@@ -193,9 +237,9 @@ def cover_slide_html(item, day, total, photo=None):
   .rule{{width:64px;height:5px;background:{HOT};margin-bottom:26px}}
   .foot{{
     position:absolute;left:64px;right:64px;bottom:34px;
-    display:flex;justify-content:space-between;align-items:center;
     font-size:15px;color:rgba(255,255,255,.6);font-weight:700;letter-spacing:.06em;
   }}
+  .foot .disclaimer{{margin-top:4px;font-size:12px;font-weight:600;color:rgba(255,255,255,.4);letter-spacing:.02em}}
 </style></head><body>
   <div class="stage">
     <div class="vign"></div>
@@ -219,9 +263,7 @@ def content_slide_html(item, slide, idx, total, photo=None):
     heading = esc(slide.get("heading") or "")
     body = esc(slide.get("body") or "").replace("\n", "<br><br>")
     heading_html = f'<div class="head">{heading}</div>' if heading else ""
-    credit_html = (
-        f'<div class="foot">ⓒ {esc(photo["credit_name"])} / Unsplash</div>' if photo else ""
-    )
+    credit_html = credit_block(photo)
     return f"""<!doctype html><html><head><meta charset="utf-8">{FONT_LINK}
 <style>
   *{{margin:0;padding:0;box-sizing:border-box}}
@@ -240,8 +282,9 @@ def content_slide_html(item, slide, idx, total, photo=None):
   .head{{font-size:30px;font-weight:800;letter-spacing:.02em;color:{HOT};margin-bottom:16px}}
   .body{{font-size:34px;font-weight:700;line-height:1.56;letter-spacing:-.015em;
     text-shadow:0 2px 16px rgba(0,0,0,.3);}}
-  .foot{{position:absolute;left:64px;bottom:34px;font-size:13px;font-weight:700;
+  .foot{{position:absolute;left:64px;right:64px;bottom:34px;font-size:13px;font-weight:700;
     letter-spacing:.04em;color:rgba(255,255,255,.55)}}
+  .foot .disclaimer{{margin-top:4px;font-size:11px;font-weight:600;color:rgba(255,255,255,.38);letter-spacing:.02em}}
 </style></head><body>
   <div class="stage">
     <div class="vign"></div>
@@ -260,24 +303,43 @@ def content_slide_html(item, slide, idx, total, photo=None):
 
 
 def photos_for_item(item, slides):
-    """슬라이드마다 쓸 서로 다른 사진 목록을 만든다. 표지(0번)는 검색 1순위(최고 관련도)를 쓴다.
+    """슬라이드마다 쓸 서로 다른 사진 목록을 만든다.
 
-    기본은 item의 photo_query 하나로 슬라이드 수만큼 한 번에 검색해 순서대로 배정한다
-    (API 호출 1회). 슬라이드 자신에게 photo_query가 있으면 그 슬라이드만 별도로 단독
-    검색한다(무료 API 한도를 아끼려면 꼭 다른 소재를 다루는 슬라이드에만 쓸 것).
+    우선순위:
+      1. item의 "official_photos"(공공누리 등 확인된 정부·공공기관 이미지) — 앞 슬라이드부터 채운다.
+         표지(0번)에 실제 취재 사진이 들어가는 가장 좋은 경우다.
+      2. 슬라이드 자신에게 photo_query가 있으면 그 슬라이드만 Unsplash에서 단독 검색.
+      3. 나머지는 item의 photo_query 하나로 슬라이드 수만큼 한 번에 검색한 Unsplash 결과
+         (API 호출 1회)에서 순서대로 채운다.
+    official_photos로 채워지지 않은 슬라이드는 전부 Unsplash(기사와 무관한 연출컷)이므로
+    렌더링 시 그 사실을 알리는 문구가 자동으로 붙는다.
     """
     n = len(slides)
-    base_query = item.get("photo_query")
-    pool = search_unsplash(base_query, count=n) if base_query else []
-    photos = [pool[i] if i < len(pool) else None for i in range(n)]
-    for i, slide in enumerate(slides):
-        slide_query = slide.get("photo_query")
+    photos = [None] * n
+    for i, entry in enumerate(item.get("official_photos") or []):
+        if i >= n:
+            break
+        photos[i] = download_official(entry)
+
+    empty_idx = [i for i in range(n) if photos[i] is None]
+    for i in empty_idx:
+        slide_query = slides[i].get("photo_query")
         if slide_query:
             hits = search_unsplash(slide_query, count=1)
             if hits:
                 photos[i] = hits[0]
-    # 검색 결과가 슬라이드 수보다 적으면, 못 채운 자리는 확보된 사진들을 순환 배정해
-    # 최소한 브랜드 그래픽보다는 사진이 보이게 한다.
+
+    still_empty = [i for i in range(n) if photos[i] is None]
+    if still_empty:
+        base_query = item.get("photo_query")
+        pool = search_unsplash(base_query, count=n) if base_query else []
+        pool_i = 0
+        for i in still_empty:
+            if pool_i < len(pool):
+                photos[i] = pool[pool_i]
+                pool_i += 1
+
+    # 그래도 못 채운 자리는 확보된 사진들을 순환 배정해 최소한 브랜드 그래픽보다는 낫게 한다.
     have = [p for p in photos if p]
     if have and any(p is None for p in photos):
         j = 0
