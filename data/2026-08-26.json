@@ -1,0 +1,402 @@
+{
+  "vol": "VOL.01  NO.010",
+  "editor": "HUEY",
+  "counts": {
+    "total": 17,
+    "intl": 12,
+    "kr": 5
+  },
+  "outlets": [
+    "한국경제",
+    "한국일보",
+    "대한건설경제",
+    "ArchDaily",
+    "designboom",
+    "Construction Dive",
+    "Archinect",
+    "ENR",
+    "GlobeNewswire"
+  ],
+
+  "teasers": [
+    {
+      "title": "용산 갈월동, 40층 900가구로 다시 선다",
+      "desc": "숙대입구역세권 재개발, 서울시 통합심의 통과",
+      "label": "PROJECT"
+    },
+    {
+      "title": "설계공모, 건축사사무소 단독 제출 허용",
+      "desc": "조달청, 8월 공고분부터 참가 문턱 낮춰",
+      "label": "POLICY"
+    },
+    {
+      "title": "도널드 저드의 '아틸러리 셰즈', 53년 만의 복원",
+      "desc": "텍사스 마르파, 군사 유산 속 알루미늄 연작 보존",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "커맨더스 새 홈구장, 38억 달러 공사 시작",
+      "desc": "클락·모텐슨·스무트 컨소시엄, 2030년 개장",
+      "label": "PROJECT"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 재개발",
+    "lede": "서울시 통합심의 통과…용산 갈월동 숙대입구역세권, 40층 900가구로 다시 선다",
+    "lede_em": "서울시 통합심의 통과",
+    "image": "https://img.hankyung.com/photo/202608/01.45430206.1.jpg",
+    "image_label": "한국경제",
+    "caption": "숙대입구역세권 도시정비형 재개발사업 조감도 ⓒ 한국경제",
+    "body": [
+      "서울 용산구 갈월동 '숙대입구역세권 장기전세주택 도시정비형 재개발사업'이 **8월 20일** 서울시 제17차 통합심의를 통과했다. 건축·경관·교육·환경·교통·재해 등 6개 분야를 한 번에 심의하는 통합심의로, 사업시행자인 대신자산신탁이 **5월 12일** 심의를 신청한 지 약 3개월 만에 문턱을 넘었다.",
+      "대지면적 **2만 6,493㎡** 부지에 지하 6층~지상 **40층**, 5개 동, 총 **900가구** 규모의 공동주택과 부대복리시설이 들어선다. 일반분양 **597가구**에 역세권 장기전세주택 231가구, 재개발 의무임대주택 72가구가 포함되며, 서울시 '역세권 장기전세주택 활성화 방안'에 따른 20% 밀도 인센티브가 적용됐다.",
+      "이 사업은 조합을 설립하지 않고 신탁사가 사업시행자를 맡는 신탁방식으로, 용산구에서는 첫 사례다. 정비구역 지정은 **2024년 12월** 이뤄졌고, 대신자산신탁이 사업시행자로 지정된 것은 올해 3월이었다. 통합심의라는 단일 절차로 여러 인허가를 동시에 처리하면서 사업 속도가 눈에 띄게 빨라졌다.",
+      "대신자산신탁은 설계를 조속히 마무리하고 연내 시공사 선정을 추진한다는 방침이다. 용산 일대 역세권 재개발이 잇따라 속도를 내는 가운데, 신탁방식 재개발의 첫 사례가 될 이번 사업의 진행 상황은 인근 정비사업의 참고 사례가 될 전망이다."
+    ],
+    "source": {
+      "outlet": "한국경제",
+      "links": [
+        { "text": "용산 갈월동 재개발, 서울시 통합심의 통과…40층 900가구", "url": "https://www.hankyung.com/article/202608247922i" }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "대한건설경제",
+    "title": "설계공모 참가 문턱 낮춘다…조달청, 건축사사무소 단독 제출 허용",
+    "body": [
+      "조달청이 건축 설계공모 참가업체의 행정 부담을 줄여 설계안 중심의 경쟁을 활성화하기 위한 '설계공모 운영 개선방안'을 마련했다. **8월** 최초 입찰공고분부터 적용되며, 소규모 건축사사무소의 공모 참여 장벽을 낮추는 데 초점을 맞췄다."
+    ],
+    "facts": [
+      "참가자격 간소화: 공모 단계에서는 **건축사사무소** 자격만 요구",
+      "전문분야 자격 확인 시점 이동: 전기·통신·소방 등은 당선자 선정 후 **계약 단계**에서 확인",
+      "공동수급협정서 제출 시점 조정: 공모 단계에는 참여 건축사 **명단**만 제출, 완전한 협정서는 계약 단계에 제출"
+    ],
+    "body_after": [
+      "그동안 소규모 건축사사무소는 공모 단계에서부터 전기·통신·소방 등 전문분야 업체와 공동수급협정을 미리 맺어야 했고, 기한 내 협정서를 제출하지 못해 심사 대상에서 제외되는 사례가 적지 않았다. 조달청은 이번 개선으로 참가자들이 행정 서류 준비보다 설계안 자체에 집중할 수 있게 될 것이라고 설명했다."
+    ],
+    "source": {
+      "outlet": "대한건설경제",
+      "links": [
+        { "text": "조달청, 설계공모 참가 문턱 낮춘다…건축사 단독 제출 허용", "url": "https://www.kcenews.kr/9082" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 재난유산",
+      "title": "53년 만의 복원…텍사스 마르파의 도널드 저드 '아틸러리 셰즈'",
+      "image": "https://images.adsttc.com/media/images/6a8d/663f/ab59/ca01/8994/72ad/large_jpg/donald-judds-artillery-sheds-in-texas-to-undergo-major-restoration_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "미국 텍사스 마르파의 '포트 D.A. 러셀' 옛 군사시설 '아틸러리 셰즈' 두 동이 대대적인 복원에 들어간다. **1939년** 지어진 이 건물들은 아티스트 도널드 저드가 1982~1986년 개조해 알루미늄 연작 조각 **100점**을 상설 전시하는 공간으로 바꾼 곳으로, 치나티 재단이 관리해왔다.",
+        "복원은 스캄 아키텍츠의 트로이 스캄이 이끌고 게티 보존연구소가 협력한다. 마르파의 극한 기후로부터 작품을 보호하고 접근성·환경성능을 개선하는 것이 목표다. 2025년 국가사적지에 등재된 이 건물은 공사 기간 방문객에게 닫히며, 10월 9~11일 열리는 '치나티 위켄드'가 복원 전 마지막 관람 기회가 된다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Donald Judd's Artillery Sheds in Texas to Undergo Major Restoration", "url": "https://www.archdaily.com/1183915/donald-judds-artillery-sheds-in-texas-to-undergo-major-restoration" }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "국제 · 전시",
+      "title": "OMA·OPEN 아키텍처가 그린 개관전…시드니 파워하우스 파라마타, 11월 문 연다",
+      "image": "https://images.adsttc.com/media/images/6a8d/10e5/ab59/ca01/8994/71d3/large_jpg/powerhouse-parramatta_10.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "호주 시드니 서부 파라마타강변에 들어서는 **3만㎡** 규모 박물관 '파워하우스 파라마타'가 **11월 7일** 개관을 앞두고 개관 전시 5편을 공개했다. 건물은 2019년 공모에서 당선된 프랑스·일본 합작 스튜디오 모로 쿠수노키가 설계하고, 겐턴이 현지 건축가로, 아럽이 구조를 맡았다.",
+        "OPEN 아키텍처가 디자인한 'Task Eternal'은 원주민의 하늘 지식부터 현대 항공우주 기술까지 인류 비행사를 다룬다. OMA/AMO(데이비드 지아노튼·가브리엘 두아르테·실비아 챈 주도)가 디자인한 'The Mall'은 서부 시드니의 쇼핑몰 역사를 소재로 삼아 욕망·아케이드·거래·이상도시·포럼 다섯 개 테마 공간으로 구성된다. 개관전에는 총 3,000여 점의 소장품과 14개국 45건 이상의 신규 커미션 작품이 걸린다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "OMA/AMO and OPEN Architecture Design Opening Exhibitions for Powerhouse Parramatta", "url": "https://www.archdaily.com/1183902/oma-amo-and-open-architecture-design-opening-exhibitions-for-powerhouse-parramatta-in-sydney-australia" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "22개 방을 헐고 다시 지은 집…인도 '기억의 집', 3대가 함께 사는 배리어프리 저택",
+      "image": "https://images.adsttc.com/media/images/6a88/658a/ac8b/af01/892c/e21b/newsletter/the-house-of-memories-studio-lagom_33.jpg?1787323814",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "인도 스튜디오 라곰이 구자라트주 발사드에 **1만 2,000평방피트** 규모 단독주택 '기억의 집'을 완공했다. 파르시 가문에게서 매입한 옛 22개 방짜리 저택을 헐고 다시 지은 곳으로, 벽돌·석재·콘크리트·목재를 두루 써 옛집의 가구와 기억을 곳곳에 남기면서도 고령 가족을 위한 배리어프리 동선을 갖췄다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "The House of Memories / Studio Lagom", "url": "https://www.archdaily.com/1183766/the-house-of-memories-studio-lagom" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 문화시설",
+      "title": "지하 4m 땅속으로 꺼진 미술관…로스카보스 '아르테 아비에르토 바하'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/sordo-madaleno-arte-abierto-baja-california-mexico-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "멕시코 스튜디오 소르도 마달레노가 로스카보스 '아니마 빌리지'에 **180㎡** 규모 야외 미술관 '아르테 아비에르토 바하'를 완공했다. 광장에서 **17m** 경사로를 따라 지하 4m까지 내려가면 5m 높이 옹벽으로 둘러싸인 무개(無蓋) 전시공간이 나타난다. 안료를 섞은 도끼다짐 콘크리트로 마감해 바하칼리포르니아의 거친 사막 지형과 시각적으로 이어지며, 개관전은 멕시코 작가 아브라함 크루스비예가스의 설치작업으로 채워졌다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "sordo madaleno sinks open-air art gallery four meters below ground in los cabos", "url": "https://www.designboom.com/architecture/sordo-madaleno-art-gallery-los-cabos-arte-abierto-baja-anima-village-mexico/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 수상",
+      "title": "AIA 리저널·어반디자인상 5선…다운타운 캐리 파크부터 시애틀 워터프론트까지",
+      "image": "",
+      "image_label": "AIA",
+      "body": [
+        "미국건축가협회(AIA)가 도시계획·공공공간·워터프론트 설계를 대상으로 한 '2026 리저널·어반디자인상' 수상작 5건을 발표했다. 마차도 실베티가 설계한 노스캐롤라이나 '다운타운 캐리 파크', 옛 산업 조선소를 되살린 샌프란시스코 '인디아 베이슨 워터프론트 파크', 멕시코 '몬테레이 테크 혁신 생태계', 사라소타 '더 베이', 엘리엇만과 도심을 다시 잇는 **1.5마일** 길이의 '시애틀 워터프론트 파크'가 이름을 올렸다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          { "text": "Best in urban planning recognized at AIA Regional & Urban Design Award 2026", "url": "https://archinect.com/news/bustler/11023/best-in-urban-planning-recognized-at-aia-regional-urban-design-award-2026" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "베니스비엔날레 2027 바레인관, 작가·팀 공모 시작…주제는 '제작과 결핍'",
+      "image": "https://images.adsttc.com/media/images/6a8c/4c04/4253/0500/01ca/043e/large_jpg/Bahrain_Pavilion-_Open_Call_Post13.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "바레인 문화유산청이 제20회 베니스 국제건축전(**2027년 5월 8일~11월 21일**)에 출품할 바레인 국가관 참여 작가·팀을 공모한다. 주제는 '제작과 결핍(Making and Scarcity)'으로, 개인과 협업팀 모두 지원할 수 있다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Call for Proposals: Bahrain Pavilion at the Venice Architecture Biennale 2027", "url": "https://www.archdaily.com/1183869/call-for-proposals-bahrain-pavilion-at-the-venice-architecture-biennale-2027" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "부산 화명생태공원 야외수영장, 국제설계공모로 사계절 레저공간 만든다",
+      "body": [
+        "부산광역시와 부산디자인진흥원이 화명생태공원 내 방치된 야외수영장을 사계절 가족 친화 레저공간으로 바꾸는 국제설계공모를 시행했다. 2019년부터 운영이 중단된 이 수영장은 '화명 워터라이트 커넥션 스페이스'로 다시 태어나며, 총 사업비 **104억원**(설계비 5억원)을 들여 낙동강 수변 재생사업과 시너지를 낸다는 구상이다. 개장 목표는 **2028년 6월**이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Call for Entries: International Design Competition for the Redevelopment of the Hwamyeong Outdoor Swimming Pool", "url": "https://www.archdaily.com/1183617/call-for-entries-international-design-competition-for-the-redevelopment-of-the-hwamyeong-outdoor-swimming-pool" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "대구 수성구, '살아있는 대지'를 주제로 국제 건축·조경 비주얼아트 공모전",
+      "body": [
+        "대구 수성구가 '2026 수성 국제 건축·조경 비주얼아트 공모전'을 열고 있다. 주제는 '당신에게 살아있는 대지(Living Ground)란 무엇인가'이며, 건축·조경에 관심 있는 전 세계 누구나 참가할 수 있다. 만 10~18세 청소년부와 만 19세 이상 일반부로 나뉘며, 공모 기간은 7~9월, 작품접수 마감은 **9월 11일**이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "2026 Suseong International Architecture and Landscape Visual Artwork Competition", "url": "https://www.archdaily.com/1183324/2026-suseong-international-architecture-and-landscape-visual-artwork-competition" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "용산공원 일부 부지에 청년·신혼부부 주택…'용산특별법' 개정안 다음주 처리",
+      "body": [
+        "용산공원 외곽부 녹지비율 규제를 완화해 주택·상업·업무시설 복합개발을 허용하는 '용산공원 특별법' 개정안이 **8월 20일** 국회 본회의 상정이 보류됐다. 현행법은 용산공원 부지를 공원 외 용도로 전용하는 것을 금지하는데, 개정안은 전체 부지(약 300만㎡)의 약 10%에 해당하는 용산어린이정원 일대에 청년·신혼부부용 대규모 공공임대주택을 지을 수 있도록 하는 내용이다.",
+        "개정안은 지난 **4월** 국회 국토교통위원회를 통과했지만 이번 본회의에서는 처리가 미뤄졌다. 여야는 국토교통부·서울시 간 추가 협의 결과를 반영해 다음 주 본회의에서 관련 법안들을 함께 처리하기로 했다."
+      ],
+      "source": {
+        "outlet": "한국일보",
+        "links": [
+          { "text": "여야, '용산특별법 개정안' 국토부·서울시 논의 후 내주 처리키로", "url": "https://www.hankookilbo.com/news/article/A2026082010520003504" }
+        ]
+      },
+      "topic": "제도규제"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "커맨더스 새 홈구장, 클락·모텐슨·스무트 컨소시엄이 짓는다",
+      "body": "워싱턴 커맨더스가 RFK 스타디움 부지에 짓는 6만 5천석 규모 38억 달러 홈구장 시공사로 클락·모텐슨·스무트DC 조인트벤처를 선정했다. HKS 설계, 2027년 봄 착공, 2030년 개장이 목표다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          { "text": "Commanders pick JV for reported $3.8B NFL stadium", "url": "https://www.constructiondive.com/news/commanders-jv-nfl-stadium-clark-mortenson-smoot/827593/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 7월 건설착공액 25.6% 급반등, 데이터센터·오피스가 견인",
+      "body": "닷지 컨스트럭션 네트워크에 따르면 미국 7월 건설착공액이 전월 대비 25.6% 급반등해 연환산 1.79조 달러를 기록했다. 오피스·데이터센터 착공이 107.9% 늘며 반등을 이끌었고, 10억 달러 이상 프로젝트만 25건이 새로 착공했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          { "text": "Surge in July construction starts reflected megaproject volatility: Dodge", "url": "https://www.constructiondive.com/news/surge-july-construction-starts-megaproject-volatility-dodge/828521/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "파울 클레 첸트룸, 안네 로흐의 거대한 꽃과 양 떼",
+      "body": "스위스 베른 파울 클레 첸트룸이 독일 작가 안네 로흐의 회화 80여 점을 모은 전시를 연다. 2m에 달하는 꽃, 3.5m가 넘는 양 떼 그림 등 실물보다 압도적으로 확대된 이미지가 특징이며, 9월 20일까지 이어진다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "anne loch magnifies flowers, sheep and mountains at zentrum paul klee in switzerland", "url": "https://www.designboom.com/art/anne-loch-flowers-sheep-mountains-zentrum-paul-klee-exhibition-switzerland/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "태풍 할롱 이후 알래스카 콰이길링곡, 영구동토 붕괴 속 재건 기로",
+      "body": "지난해 10월 태풍 할롱으로 마을 대부분이 파괴된 알래스카 원주민 마을 콰이길링곡과 킵눅이 영구동토층 해빙과 해안 침식 가속화 속에서 재건 방식을 두고 갈림길에 섰다. ENR은 현장 르포를 통해 기후변화가 인프라 재건 방식 자체를 바꾸고 있다고 전했다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          { "text": "Visiting a Devastated Alaska Landscape for an ENR Report", "url": "https://www.enr.com/articles/63526-visiting-a-devastated-alaska-landscape-for-an-enr-report" }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "title": "트럼프, 데이터센터 반대하는 지역사회에 \"실수\"라고 비판",
+      "body": "도널드 트럼프 미국 대통령이 데이터센터 건설에 반대하는 지역 주민들을 향해 \"실수를 하는 것\"이라고 말했다. 데이터센터발 건설 붐이 지역 전력망·용수 부담을 둘러싼 갈등으로 이어지는 가운데 나온 발언이다.",
+      "source": {
+        "outlet": "USA Today",
+        "links": [
+          { "text": "Trump calls it 'a mistake' for communities to reject data centers", "url": "https://www.usatoday.com/story/news/politics/2026/08/24/donald-trump-data-centers-mistake/91438730007/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美조경가협회, 2026 전문가상에 '루리 가든' 등 35건 선정",
+      "body": "미국조경가협회(ASLA)가 450건 응모작 중 2026년 전문가상 35건을 선정했다. 랜드마크상은 시카고 밀레니엄파크의 '루리 가든'(GGN 설계)이 받았으며, 시상식은 9월 16일 로스앤젤레스에서 열린다.",
+      "source": {
+        "outlet": "GlobeNewswire",
+        "links": [
+          { "text": "American Society of Landscape Architects Announces its 2026 Professional Awards", "url": "https://www.globenewswire.com/news-release/2026/08/24/3350117/0/en/american-society-of-landscape-architects-announces-its-2026-professional-awards.html" }
+        ]
+      },
+      "topic": "수상"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "yongsan-galwol-sookdae-redevelopment",
+      "tag": "PROJECT",
+      "title": "용산 갈월동, 40층 900가구로 다시 선다",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "seoul apartment redevelopment skyline construction",
+      "slides": [
+        {
+          "heading": "40층 900가구,\n용산 갈월동의 변신",
+          "body": "숙대입구역세권 재개발, 서울시 통합심의 통과"
+        },
+        {
+          "heading": "WHAT",
+          "body": "서울 용산구 갈월동 숙대입구역세권 재개발사업이 8월 20일 서울시 통합심의를 통과했다. 사업시행자 대신자산신탁이 신청한 지 약 3개월 만이다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "대지면적 2만 6,493㎡에 지하 6층~지상 40층, 5개 동, 총 900가구 규모 공동주택이 들어선다. 일반분양 597가구에 장기전세주택·임대주택이 더해진다."
+        },
+        {
+          "heading": "HOW",
+          "body": "조합 없이 신탁사가 사업시행자를 맡는 신탁방식으로, 용산구 첫 사례다. 서울시 역세권 장기전세주택 활성화 방안에 따른 20% 밀도 인센티브도 적용됐다."
+        },
+        {
+          "heading": "WHAT'S NEXT",
+          "body": "대신자산신탁은 설계를 조속히 마무리하고 연내 시공사 선정을 추진한다는 방침이다."
+        }
+      ]
+    },
+    {
+      "slug": "judd-artillery-sheds-restoration",
+      "tag": "HERITAGE",
+      "title": "도널드 저드의 텍사스 유산, 53년 만의 복원",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 1,
+      "photo_query": "brutalist concrete military building desert restoration",
+      "slides": [
+        {
+          "heading": "1939년 군사시설,\n예술 공간이 되다",
+          "body": "도널드 저드의 '아틸러리 셰즈', 대대적 복원 시작"
+        },
+        {
+          "heading": "WHAT",
+          "body": "텍사스 마르파 옛 군사기지 '아틸러리 셰즈' 두 동이 대대적인 복원에 들어간다. 도널드 저드가 1982~1986년 개조해 알루미늄 조각 100점을 전시하는 공간으로 바꾼 곳이다."
+        },
+        {
+          "heading": "WHO",
+          "body": "복원은 스캄 아키텍츠의 트로이 스캄이 이끌고, 게티 보존연구소가 협력한다. 원작 알루미늄 조각을 제작한 리핀콧사의 공동대표도 참여한다."
+        },
+        {
+          "heading": "WHY",
+          "body": "2025년 국가사적지에 등재된 이 건물은 마르파의 극한 기후에 노출돼 있다. 복원은 접근성과 환경성능을 높이면서도 저드의 설치작품은 그대로 보존하는 것을 목표로 한다."
+        },
+        {
+          "heading": "TIMELINE",
+          "body": "공사 기간 건물은 방문객에게 닫힌다. 10월 9~11일 열리는 '치나티 위켄드'가 복원 전 마지막 관람 기회다."
+        }
+      ]
+    },
+    {
+      "slug": "sordo-madaleno-arte-abierto-baja",
+      "tag": "PROJECT",
+      "title": "지하 4m로 꺼진 미술관, 로스카보스",
+      "ref": { "section": "intl_grid", "index": 1 },
+      "bg": 2,
+      "photo_query": "concrete underground courtyard desert architecture",
+      "slides": [
+        {
+          "heading": "땅속으로\n꺼진 미술관",
+          "body": "로스카보스 '아르테 아비에르토 바하'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "멕시코 스튜디오 소르도 마달레노가 로스카보스 '아니마 빌리지'에 180㎡ 규모 야외 미술관을 완공했다."
+        },
+        {
+          "heading": "FORM",
+          "body": "광장에서 17m 경사로를 따라 지하 4m까지 내려가면, 5m 높이 옹벽으로 둘러싸인 지붕 없는 전시공간이 나타난다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "안료를 섞은 도끼다짐 콘크리트로 마감해 바하칼리포르니아의 거친 사막 지형과 시각적으로 이어진다."
+        },
+        {
+          "heading": "OPENING",
+          "body": "개관전은 멕시코 작가 아브라함 크루스비예가스의 설치작업으로 채워졌다. 로스카보스 첫 공공 현대미술 갤러리다."
+        }
+      ]
+    }
+  ]
+}
