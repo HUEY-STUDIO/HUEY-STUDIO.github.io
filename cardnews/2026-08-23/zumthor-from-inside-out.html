@@ -27,12 +27,16 @@
     <span class="cn-editor">Editor HUEY</span>
   </div>
   <h1 class="cn-detail-title">14년을 찍은 줌토르 다큐, 베니스로</h1>
-  <div class="cn-carousel" id="cnCarousel">
+  <div class="cn-carousel-wrap">
+    <div class="cn-carousel" id="cnCarousel">
       <div class="cn-slide"><img src="../../cardnews/2026-08-23/zumthor-from-inside-out/01.png" alt="" loading="lazy"></div>
       <div class="cn-slide"><img src="../../cardnews/2026-08-23/zumthor-from-inside-out/02.png" alt="" loading="lazy"></div>
       <div class="cn-slide"><img src="../../cardnews/2026-08-23/zumthor-from-inside-out/03.png" alt="" loading="lazy"></div>
       <div class="cn-slide"><img src="../../cardnews/2026-08-23/zumthor-from-inside-out/04.png" alt="" loading="lazy"></div>
       <div class="cn-slide"><img src="../../cardnews/2026-08-23/zumthor-from-inside-out/05.png" alt="" loading="lazy"></div>
+    </div>
+    <button type="button" class="cn-arrow cn-arrow-prev" id="cnPrev" aria-label="이전 슬라이드">‹</button>
+    <button type="button" class="cn-arrow cn-arrow-next" id="cnNext" aria-label="다음 슬라이드">›</button>
   </div>
   <div class="cn-dots" id="cnDots"></div>
   <div class="cn-infobar">
@@ -50,17 +54,62 @@
 (function () {
   var car = document.getElementById('cnCarousel');
   var dotsWrap = document.getElementById('cnDots');
+  var prevBtn = document.getElementById('cnPrev');
+  var nextBtn = document.getElementById('cnNext');
   var slides = car.querySelectorAll('.cn-slide');
+  var n = slides.length;
   slides.forEach(function (_, i) {
     var dot = document.createElement('span');
     dot.className = 'cn-dot' + (i === 0 ? ' on' : '');
+    dot.addEventListener('click', function () {
+      car.scrollTo({ left: i * car.clientWidth, behavior: 'smooth' });
+    });
     dotsWrap.appendChild(dot);
   });
   var dotEls = dotsWrap.querySelectorAll('.cn-dot');
-  car.addEventListener('scroll', function () {
-    var idx = Math.round(car.scrollLeft / car.clientWidth);
+
+  function currentIndex() {
+    return Math.round(car.scrollLeft / car.clientWidth);
+  }
+  function update() {
+    var idx = currentIndex();
     dotEls.forEach(function (el, i) { el.classList.toggle('on', i === idx); });
-  }, { passive: true });
+    prevBtn.classList.toggle('is-hidden', idx <= 0);
+    nextBtn.classList.toggle('is-hidden', idx >= n - 1);
+  }
+  car.addEventListener('scroll', update, { passive: true });
+
+  prevBtn.addEventListener('click', function () {
+    car.scrollTo({ left: Math.max(0, currentIndex() - 1) * car.clientWidth, behavior: 'smooth' });
+  });
+  nextBtn.addEventListener('click', function () {
+    car.scrollTo({ left: Math.min(n - 1, currentIndex() + 1) * car.clientWidth, behavior: 'smooth' });
+  });
+
+  // 마우스 드래그로 슬라이드 넘기기 (트랙패드/터치 없이도 넘어가도록)
+  var dragging = false, moved = false, startX = 0, startScroll = 0;
+  car.addEventListener('mousedown', function (e) {
+    dragging = true; moved = false;
+    startX = e.pageX; startScroll = car.scrollLeft;
+    car.classList.add('is-dragging');
+  });
+  window.addEventListener('mousemove', function (e) {
+    if (!dragging) return;
+    var dx = e.pageX - startX;
+    if (Math.abs(dx) > 4) moved = true;
+    car.scrollLeft = startScroll - dx;
+  });
+  window.addEventListener('mouseup', function () {
+    if (!dragging) return;
+    dragging = false;
+    car.classList.remove('is-dragging');
+    car.scrollTo({ left: currentIndex() * car.clientWidth, behavior: 'smooth' });
+  });
+  car.addEventListener('click', function (e) {
+    if (moved) { e.preventDefault(); e.stopPropagation(); }
+  }, true);
+
+  update();
 })();
 </script>
 </body>

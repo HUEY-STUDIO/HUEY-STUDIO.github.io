@@ -224,16 +224,31 @@ article .src{margin-top:auto}
 .cn-detail-head{display:flex; justify-content:space-between; align-items:center; margin-bottom:16px}
 .cn-detail-head .cn-editor{font-size:11px; color:var(--ink-3); font-weight:700; letter-spacing:.08em}
 .cn-detail-title{font-size:clamp(20px,4vw,28px); font-weight:900; line-height:1.36; letter-spacing:-.03em; margin:0 0 18px}
+.cn-carousel-wrap{position:relative}
 .cn-carousel{
   display:flex; overflow-x:auto; scroll-snap-type:x mandatory;
   border:1px solid var(--rule); background:var(--ink);
   -webkit-overflow-scrolling:touch; scrollbar-width:none;
+  cursor:grab; user-select:none;
 }
+.cn-carousel.is-dragging{cursor:grabbing; scroll-snap-type:none}
 .cn-carousel::-webkit-scrollbar{display:none}
 .cn-slide{flex:0 0 100%; scroll-snap-align:center; aspect-ratio:4/5}
-.cn-slide img{width:100%; height:100%; object-fit:cover; display:block}
+.cn-slide img{width:100%; height:100%; object-fit:cover; display:block; pointer-events:none}
+.cn-arrow{
+  position:absolute; top:50%; transform:translateY(-50%);
+  width:38px; height:38px; border-radius:50%; border:none;
+  background:rgba(11,11,12,.55); color:#fff; font-size:22px; line-height:1;
+  display:flex; align-items:center; justify-content:center;
+  cursor:pointer; transition:background .15s, opacity .15s;
+}
+.cn-arrow:hover{background:rgba(11,11,12,.8)}
+.cn-arrow.is-hidden{opacity:0; pointer-events:none}
+.cn-arrow-prev{left:10px}
+.cn-arrow-next{right:10px}
 .cn-dots{display:flex; justify-content:center; gap:6px; margin:12px 0 22px}
-.cn-dot{width:6px; height:6px; border-radius:50%; background:var(--rule)}
+.cn-dot{position:relative; width:6px; height:6px; border-radius:50%; background:var(--rule); cursor:pointer}
+.cn-dot::before{content:""; position:absolute; inset:-8px; border-radius:50%}
 .cn-dot.on{background:var(--hot)}
 .cn-infobar{border-top:2px solid var(--ink); padding-top:6px}
 .cn-info-row{display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; padding:10px 0; border-bottom:1px solid var(--rule-2)}
