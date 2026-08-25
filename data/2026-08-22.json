@@ -343,6 +343,7 @@
       "title": "노후 공공건축물 그린리모델링, 의무가 되다",
       "ref": { "section": "top" },
       "bg": 1,
+      "photo_query": "old public building renovation scaffolding facade",
       "slides": [
         {
           "heading": "노후 공공건축물\n그린리모델링 의무화",
@@ -376,6 +377,7 @@
       "title": "위반건축물 처벌에 설계자가 들어왔다",
       "ref": { "section": "side" },
       "bg": 2,
+      "photo_query": "architectural blueprint drawing desk pencil",
       "slides": [
         {
           "heading": "위반건축물 처벌에\n'설계자'가 들어왔다",
@@ -405,6 +407,7 @@
       "title": "불탄 학교, 3주 만에 사무실 층으로 돌아오다",
       "ref": { "section": "intl_feature", "index": 1 },
       "bg": 0,
+      "photo_query": "bright converted office classroom interior",
       "slides": [
         {
           "heading": "불탄 학교가\n3주 만에 돌아왔다",

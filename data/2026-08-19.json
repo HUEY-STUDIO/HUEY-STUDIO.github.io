@@ -492,6 +492,7 @@
         "section": "top"
       },
       "bg": 0,
+      "photo_query": "futuristic curved glass skyscraper facade",
       "slides": [
         {
           "heading": "강남 한복판에\n뜨는 49층 타워",
@@ -524,6 +525,7 @@
         "index": 0
       },
       "bg": 1,
+      "photo_query": "industrial warehouse night emergency lights",
       "slides": [
         {
           "heading": "화재 그 후\n한 달",
@@ -556,6 +558,7 @@
         "index": 0
       },
       "bg": 2,
+      "photo_query": "historic brick building downtown preservation",
       "slides": [
         {
           "heading": "역사보존이\n데이터센터를 이겼다",

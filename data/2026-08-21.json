@@ -393,6 +393,7 @@
         "section": "side"
       },
       "bg": 1,
+      "photo_query": "solar panel green roof sustainable building",
       "slides": [
         {
           "heading": "녹색건축인증\n7개 → 4개로",
@@ -429,6 +430,7 @@
         "index": 3
       },
       "bg": 2,
+      "photo_query": "vacant lot city",
       "slides": [
         {
           "heading": "4000억 여의도 땅,\n6년째 비어 있다",
@@ -461,6 +463,7 @@
         "index": 1
       },
       "bg": 0,
+      "photo_query": "curved brick pavilion garden park",
       "slides": [
         {
           "heading": "서펜타인,\n구불구불한 벽",

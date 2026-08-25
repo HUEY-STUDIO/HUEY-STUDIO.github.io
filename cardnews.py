@@ -10,8 +10,16 @@ HEUY ARCHI MAGAZINE — 카드뉴스 렌더러
 출력  : cardnews/<날짜>/<slug>/01.png ... 0N.png   (1080x1350, 인스타그램 카드뉴스 규격)
 
 cardnews[] 항목에 "photo_query"(영문 검색어, 예: "temple wood restoration")를 넣으면
-Unsplash에서 사진을 검색해 배경으로 쓴다. UNSPLASH_ACCESS_KEY 환경변수가 필요하며,
-없거나 검색이 실패하면 기존 브랜드 그래픽 배경으로 자동 폴백한다.
+Unsplash에서 그 검색어로 슬라이드 수만큼 서로 다른 사진을 한 번에 받아와(per_page)
+슬라이드마다 다른 배경으로 쓴다. 검색 결과 1순위(가장 관련도 높은 사진)는 항상 표지
+슬라이드(맨 앞)에 배정된다. 슬라이드 하나가 item 전체와 다른 소재를 다룬다면 그 슬라이드
+객체에 별도 "photo_query"를 넣어 단독으로 검색하게 할 수 있다(무료 API 한도를 아끼려면
+꼭 필요한 슬라이드에만 쓸 것). UNSPLASH_ACCESS_KEY 환경변수가 필요하며, 없거나 검색이
+실패하면 브랜드 그래픽 배경으로 자동 폴백한다.
+
+무료(Demo) Unsplash API는 시간당 50회 요청으로 제한된다. item당 검색 1회가 기본이므로
+하루 카드뉴스 3건 발행에는 여유가 있지만, --all --force로 대량 재렌더링할 때는 이 한도를
+넘지 않도록 아이템 수를 확인할 것.
 
 render.py(웹페이지 생성)와 분리된 스크립트입니다 — render.py는 표준 라이브러리만
 쓰는 게 원칙이라, Playwright가 필요한 이미지 렌더링은 여기서 따로 합니다.
@@ -58,32 +66,45 @@ FONT_FAMILY = "'Pretendard Variable', Pretendard, 'Apple SD Gothic Neo', sans-se
 UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 
-def search_unsplash(query):
+_photo_cache = {}  # query -> list[photo] | None  (같은 실행 안에서 중복 검색 방지)
+
+
+def _download_photo(r):
+    with urllib.request.urlopen(r["urls"]["regular"], timeout=20) as resp:
+        img_bytes = resp.read()
+        content_type = resp.headers.get_content_type() or "image/jpeg"
+    data_uri = f"data:{content_type};base64,{base64.b64encode(img_bytes).decode()}"
+    return {"data_uri": data_uri, "credit_name": r["user"]["name"]}
+
+
+def search_unsplash(query, count=1):
+    """query로 최대 count장의 서로 다른 사진을 받아온다. 결과는 관련도순(1순위가 먼저)."""
     # Playwright의 크로미움은 이 환경의 HTTPS 프록시(커스텀 CA)를 신뢰하지 않아
     # 원격 url()을 직접 불러오지 못한다. 그래서 여기서 파이썬으로 사진을 미리
     # 내려받아 base64 data URI로 만들고, HTML에는 그 데이터를 그대로 박아 넣는다.
     if not UNSPLASH_KEY or not query:
-        return None
+        return []
+    cache_key = (query, count)
+    if cache_key in _photo_cache:
+        return _photo_cache[cache_key]
     params = urllib.parse.urlencode({
-        "query": query, "orientation": "portrait", "per_page": 1,
+        "query": query, "orientation": "portrait", "per_page": max(1, count),
         "client_id": UNSPLASH_KEY,
     })
     search_url = f"https://api.unsplash.com/search/photos?{params}"
+    photos = []
     try:
         with urllib.request.urlopen(search_url, timeout=15) as resp:
             data = json.load(resp)
-        results = data.get("results") or []
-        if not results:
-            return None
-        r = results[0]
-        with urllib.request.urlopen(r["urls"]["regular"], timeout=20) as resp:
-            img_bytes = resp.read()
-            content_type = resp.headers.get_content_type() or "image/jpeg"
-        data_uri = f"data:{content_type};base64,{base64.b64encode(img_bytes).decode()}"
+        for r in (data.get("results") or [])[:count]:
+            try:
+                photos.append(_download_photo(r))
+            except Exception as e:
+                print(f"    [unsplash] 사진 다운로드 실패({query!r}): {e}", file=sys.stderr)
     except Exception as e:
-        print(f"    [unsplash] 검색/다운로드 실패({query!r}): {e}", file=sys.stderr)
-        return None
-    return {"data_uri": data_uri, "credit_name": r["user"]["name"]}
+        print(f"    [unsplash] 검색 실패({query!r}): {e}", file=sys.stderr)
+    _photo_cache[cache_key] = photos
+    return photos
 
 
 def photo_bg(photo):
@@ -198,6 +219,9 @@ def content_slide_html(item, slide, idx, total, photo=None):
     heading = esc(slide.get("heading") or "")
     body = esc(slide.get("body") or "").replace("\n", "<br><br>")
     heading_html = f'<div class="head">{heading}</div>' if heading else ""
+    credit_html = (
+        f'<div class="foot">ⓒ {esc(photo["credit_name"])} / Unsplash</div>' if photo else ""
+    )
     return f"""<!doctype html><html><head><meta charset="utf-8">{FONT_LINK}
 <style>
   *{{margin:0;padding:0;box-sizing:border-box}}
@@ -216,6 +240,8 @@ def content_slide_html(item, slide, idx, total, photo=None):
   .head{{font-size:30px;font-weight:800;letter-spacing:.02em;color:{HOT};margin-bottom:16px}}
   .body{{font-size:34px;font-weight:700;line-height:1.56;letter-spacing:-.015em;
     text-shadow:0 2px 16px rgba(0,0,0,.3);}}
+  .foot{{position:absolute;left:64px;bottom:34px;font-size:13px;font-weight:700;
+    letter-spacing:.04em;color:rgba(255,255,255,.55)}}
 </style></head><body>
   <div class="stage">
     <div class="vign"></div>
@@ -228,8 +254,38 @@ def content_slide_html(item, slide, idx, total, photo=None):
       {heading_html}
       <div class="body">{body}</div>
     </div>
+    {credit_html}
   </div>
 </body></html>"""
+
+
+def photos_for_item(item, slides):
+    """슬라이드마다 쓸 서로 다른 사진 목록을 만든다. 표지(0번)는 검색 1순위(최고 관련도)를 쓴다.
+
+    기본은 item의 photo_query 하나로 슬라이드 수만큼 한 번에 검색해 순서대로 배정한다
+    (API 호출 1회). 슬라이드 자신에게 photo_query가 있으면 그 슬라이드만 별도로 단독
+    검색한다(무료 API 한도를 아끼려면 꼭 다른 소재를 다루는 슬라이드에만 쓸 것).
+    """
+    n = len(slides)
+    base_query = item.get("photo_query")
+    pool = search_unsplash(base_query, count=n) if base_query else []
+    photos = [pool[i] if i < len(pool) else None for i in range(n)]
+    for i, slide in enumerate(slides):
+        slide_query = slide.get("photo_query")
+        if slide_query:
+            hits = search_unsplash(slide_query, count=1)
+            if hits:
+                photos[i] = hits[0]
+    # 검색 결과가 슬라이드 수보다 적으면, 못 채운 자리는 확보된 사진들을 순환 배정해
+    # 최소한 브랜드 그래픽보다는 사진이 보이게 한다.
+    have = [p for p in photos if p]
+    if have and any(p is None for p in photos):
+        j = 0
+        for i in range(n):
+            if photos[i] is None:
+                photos[i] = have[j % len(have)]
+                j += 1
+    return photos
 
 
 def render_item(browser, day, item):
@@ -237,20 +293,21 @@ def render_item(browser, day, item):
     slides = item.get("slides") or []
     out_dir = os.path.join(OUT, day, slug)
     os.makedirs(out_dir, exist_ok=True)
-    query = item.get("photo_query")
-    photo = search_unsplash(query) if query else None
-    if query:
-        print(f"    [unsplash] {'사진 적용 — ' + photo['credit_name'] if photo else '검색 실패 → 브랜드 그래픽 폴백'} ({query!r})")
+    photos = photos_for_item(item, slides)
+    n_found = len([p for p in photos if p])
+    if item.get("photo_query"):
+        print(f"    [unsplash] {n_found}/{len(slides)}장 확보 (기본 검색어 {item['photo_query']!r})")
     page = browser.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
     try:
         for i, slide in enumerate(slides):
+            photo = photos[i]
             html = cover_slide_html(item, day, len(slides), photo) if i == 0 else \
                 content_slide_html(item, slide, i, len(slides), photo)
             page.set_content(html, wait_until="load")
             page.evaluate("document.fonts.ready")
             path = os.path.join(out_dir, f"{i + 1:02d}.png")
             page.screenshot(path=path)
-            print(f"    {day}/{slug}/{i + 1:02d}.png")
+            print(f"    {day}/{slug}/{i + 1:02d}.png" + ("" if photo else " (브랜드 그래픽 폴백)"))
     finally:
         page.close()
 

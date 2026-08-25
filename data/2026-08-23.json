@@ -342,6 +342,7 @@
       "title": "아프리카가 스스로 쓰는 건축 담론",
       "ref": { "section": "top" },
       "bg": 0,
+      "photo_query": "modern african architecture conference building",
       "slides": [
         {
           "heading": "아프리카가\n중심을 옮긴다",
@@ -375,6 +376,7 @@
       "title": "국토의 16.7%에 국민 92.1%가 산다",
       "ref": { "section": "side" },
       "bg": 1,
+      "photo_query": "aerial dense city skyline grid",
       "slides": [
         {
           "heading": "국토의 16.7%에\n국민 92.1%가 산다",
@@ -404,6 +406,7 @@
       "title": "14년을 찍은 줌토르 다큐, 베니스로",
       "ref": { "section": "intl_feature", "index": 0 },
       "bg": 2,
+      "photo_query": "minimalist concrete chapel light interior",
       "slides": [
         {
           "heading": "14년을 찍었다\n줌토르, 베니스로",
