@@ -1,0 +1,415 @@
+{
+  "vol": "VOL.01  NO.011",
+  "editor": "HUEY",
+  "counts": {
+    "total": 18,
+    "intl": 12,
+    "kr": 6
+  },
+  "outlets": [
+    "이투데이",
+    "헤럴드경제",
+    "뉴스핌",
+    "부산광역시",
+    "ArchDaily",
+    "designboom",
+    "Buildner",
+    "Dezeen",
+    "Archinect"
+  ],
+
+  "teasers": [
+    {
+      "title": "캠프킴 2500가구, 정기국회로 넘어갔다",
+      "desc": "용산특별법 처리 보류…국토부·서울시 이견 여전",
+      "label": "POLICY"
+    },
+    {
+      "title": "ACSA 콘크리트 조적 학생공모전 발표",
+      "desc": "1위는 아이다호대 '링크드 어셈블리'",
+      "label": "AWARDS"
+    },
+    {
+      "title": "한미글로벌, ENR 글로벌 CM·PM 6위",
+      "desc": "한국 기업 역대 최고 순위…중동 수주 견인",
+      "label": "INDUSTRY"
+    },
+    {
+      "title": "이탈리아 요가팜에 뜨는 '오크문 파빌리온'",
+      "desc": "빌드너 국제공모, 상금 총 8,000유로",
+      "label": "COMPETITION"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 제도규제",
+    "lede": "캠프킴 2500가구 계획, 국회 문턱 못 넘고 정기국회로",
+    "lede_em": "국회 문턱 못 넘고 정기국회로",
+    "image": "https://img.etoday.co.kr/pto_db/2026/08/20260818123843_2374488_1200_781.JPG",
+    "image_label": "이투데이",
+    "caption": "용산 캠프킴 부지 일대 ⓒ 이투데이",
+    "body": [
+      "용산구 남영역과 삼각지역 사이 옛 주한미군 부지 '캠프킴'(약 **4만 8,000㎡**)에 **2,500가구** 규모 주택을 공급하는 내용의 '용산공원 조성에 관한 특별법' 개정안이 **8월 26일** 국회 본회의에 상정되지 못한 채 처리가 보류됐다. 여야는 이날 비쟁점 법안 40여 건을 합의 처리했지만, 캠프킴 관련 법안은 정기국회로 논의가 넘어가게 됐다.",
+      "개정안의 골자는 캠프킴에 적용되는 공원·녹지 확보 기준을 현행 '1인당 3㎡'에서 '가구당 3㎡' 수준으로 완화하는 것이다. 이를 통해 기존 **1,400가구** 계획을 **2,500가구**로 늘리고 **2029년** 착공한다는 게 정부 구상이다. 2020년 반환된 이 부지는 현재 오염 정화 작업이 진행 중이다.",
+      "처리가 미뤄진 배경에는 국토교통부와 서울시의 이견이 있다. 국토부는 이미 훼손된 캠프킴 부지를 활용해 청년·신혼부부 주택을 공급해야 한다는 입장인 반면, 서울시는 용산공원 본체 보존을 우선하며 대체 부지를 제시하고 있다. 국민의힘은 더불어민주당이 상임위에서 법안을 단독 처리한 절차를 문제 삼아 본회의 상정에 동의하지 않았고, 만약 강행 상정될 경우 무제한 토론(필리버스터)에 나서겠다는 방침도 밝혔었다.",
+      "오세훈 서울시장과 김윤덕 국토부 장관은 최근 수 차례 회동을 이어가며 접점을 모색하고 있다. 여야는 합의 처리 기조를 유지한 채 추가 협의를 거쳐 정기국회에서 재논의하기로 했다."
+    ],
+    "source": {
+      "outlet": "이투데이",
+      "links": [
+        { "text": "캠프킴 2500가구 들어서나…26일 본회의 '마지막 문턱'", "url": "https://www.etoday.co.kr/news/view/2617926" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/08/20/news-p.v1.20260107.eda1750f15f14300b44876acfaf44702_P1.jpg",
+    "image_label": "헤럴드경제",
+    "title": "외국인 토지거래허가구역 1년 연장…국토 외곽 섬 353곳도 새로 묶는다",
+    "body": [
+      "정부가 수도권 외국인 주택 투기를 막기 위한 토지거래허가구역 지정을 **8월 26일**부터 1년 더 연장했다. 서울 25개 자치구 전역과 경기·인천 주요 시·군이 그대로 유지된다."
+    ],
+    "facts": [
+      "효과: 지정 이후 수도권 외국인 주택거래량 전년 대비 **27%** 감소, 강남3구·용산구는 **49%** 감소",
+      "신규 지정: 울릉도·제주 우도 등 국토 외곽 섬 **353곳**, 국방·전략상 관리 목적",
+      "위반 시 제재: 허가 없는 계약은 **무효** 처리, 징역 또는 벌금 부과"
+    ],
+    "body_after": [
+      "외국인이 허가구역 내 주택·토지를 거래하려면 계약 전 지방자치단체 허가를 받아야 하며, 취득 후 일정 기간 실거주해야 한다. 정부는 이번 연장과 함께 국토 외곽 섬 지역을 신규 지정해 영토·안보 관리 차원의 대응도 강화했다고 설명했다."
+    ],
+    "source": {
+      "outlet": "헤럴드경제",
+      "links": [
+        { "text": "외국인 토허제 1년 연장…울릉도·제주·우도 등 국토 외곽 섬 353곳은 신규지정", "url": "https://biz.heraldcorp.com/article/10847265" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "스티븐 홀 아키텍츠, 시카고대 111년 된 '아이다 노예스 홀' 리노베이션 맡는다",
+      "image": "https://images.adsttc.com/media/images/6a8e/ab37/ac8b/af01/892c/ee07/newsletter/steven-holl-architects-selected-to-renew-historic-ida-noyes-hall-at-the-university-of-chicago_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "미국 시카고대학교가 **1916년** 완공된 여성 클럽하우스 '아이다 노예스 홀' 리노베이션 설계자로 스티븐 홀 아키텍츠를 선정했다. 셰플리·루탄·쿨리지가 설계한 이 건물은 이후 체육관을 영화관으로, 수영장을 스터디룸으로 바꾸는 등 용도를 거듭 바꿔온 캠퍼스 커뮤니티 공간이다.",
+        "이번 프로젝트는 건물의 노후 설비를 개선하고 접근성을 높이는 동시에, 학생 프로그램과 행사·비공식 모임을 위한 새 공간을 더하면서도 역사적 특징은 보존하는 것을 목표로 한다. 역사보존 건축은 JLK 아키텍츠가, 학생생활 프로그램 기획은 워크숍 아키텍츠가 맡는다. 시카고대는 **2026년 3월** 데이비드 루벤스타인의 5,000만 달러 기부로 이 사업의 재원을 마련했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Steven Holl Architects Selected to Renew Historic Ida Noyes Hall at the University of Chicago", "url": "https://www.archdaily.com/1184002/steven-holl-architects-selected-to-renew-historic-ida-noyes-hall-at-the-university-of-chicago" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "대나무 지붕이 감싼 세네갈 흙집…카사망스 전통가옥에서 빌린 형태",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/kaira-looro-community-center-senegal-winner-afroditi-ioannidou-vladimir-gligorovski-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "그리스 건축가 아프로디티 이오아니두와 블라디미르 글리고롭스키(K-스튜디오)가 세네갈 카사망스 지역에 대나무와 다짐흙으로 지은 커뮤니티센터를 완공했다. 세네갈 전통 '임플루비움' 주택 형식에서 출발한 이 건물은 현지에서 조달한 대나무를 밧줄과 아연도금 철사로 엮고, 라테라이트 토양으로 다짐흙 벽체를 독립적으로 세웠다.",
+        "다이아몬드 모양으로 작게 뚫린 벽체 개구부는 무거운 흙벽 사이로 공기와 여과된 빛을 들인다. 대나무 셔터를 열면 각 실이 하나의 큰 파빌리온으로 확장되며, 넓은 지붕에 떨어진 빗물은 손씻기 시설로 모이고 중앙 자갈층은 우기에 빗물이 땅속으로 스며들게 한다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "sweeping bamboo roof to shape rammed-earth community center in senegal", "url": "https://www.designboom.com/architecture/bamboo-roof-kaira-looro-rammed-earth-community-center-senegal-ioannidou-gligorovski/" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "파타고니아 산정에 걸린 '엘 트레볼 하우스', 195㎡",
+      "image": "https://images.adsttc.com/media/images/6a8e/c016/ab59/ca01/8994/77c0/newsletter/casa-el-trebol-engelman-estudio_37.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "아르헨티나 엥겔만 에스투디오가 산카를로스데바릴로체 최고지대에 195㎡ 규모 주택 '카사 엘 트레볼'을 완공했다. 미리 정한 형태가 아니라 대지의 지형에서 출발한 설계로, 울창한 숲을 지나 정상의 고요함에 이르는 '행렬의 동선'을 만들었다. 토착 코이후에·소나무 숲을 지나 마지막에는 엘 트레볼 호수의 열린 지평선이 펼쳐진다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "El Trebol House / Engelman Estudio", "url": "https://www.archdaily.com/1184015/el-trebol-house-engelman-estudio" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "리우 산기슭 등고선 따라 앉힌 '자푸 하우스', 376㎡",
+      "image": "https://images.adsttc.com/media/images/6a87/17b5/4253/0500/01c9/fa79/newsletter/0461.AIAEstudio.CasaJapu-PedroKok0227.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "브라질 AIA 에스투디오가 리우데자네이루 산악지대에 376㎡ 규모 단독주택 '자푸 하우스'를 **2025년** 완공했다. 대지 등고선 사이에 평탄한 띠 모양 공간을 조성하고 그 결을 따라 프로그램을 종주 방향으로 배치해, 주변 경관과 끊기지 않고 이어지는 감각을 만들었다. 목재와 콘크리트 마감을 함께 썼다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Japú House / AIA Estúdio", "url": "https://www.archdaily.com/1183980/japu-house-aia-estudio" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "마요르카 재활용 팔레트 지붕 아래 쌓은 돌기둥 파빌리온",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/aulets-architectes-futur-habitable-pavilion-mallorca-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "스페인 아울레츠 아르키텍테스가 마요르카 포옌사의 연례 축제 '푸투르 아비타블레' 마지막 편으로, 공공 통로를 가로지르는 파빌리온을 완공했다. 깨진 모서리와 톱자국, 색 편차를 그대로 드러낸 거대한 석재 기둥이 건축의 스케일을 이루고, 재활용 나무 팔레트로 짠 지붕의 바깥 띠와 그 사이를 가로지르는 보 구조가 결합됐다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "aulets stacks natural stone beneath a recycled pallet roof in mallorca", "url": "https://www.designboom.com/architecture/aulets-architectes-natural-stone-recycled-pallet-roof-mallorca-futur-habitable-pavilion-pollenca/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "이탈리아 요가팜 참나무 아래, 국제 파빌리온 공모 '오크문' 등록 시작",
+      "image": "https://storage.architecturecompetitions.com/upload/pages/00-comp/221-OMP/1.jpg",
+      "image_label": "BUILDNER",
+      "body": [
+        "건축 공모 플랫폼 빌드너가 이탈리아 중부 요가팜과 함께 목조 야외 요가 파빌리온 국제공모 '오크문 파빌리온'을 시작했다. 역사적인 참나무 아래 달 모양 플랫폼을 얹는 것이 과제다. 총상금은 8,000유로로 1위 3,500유로, 2위 2,000유로, 3위 1,000유로에 학생상·지속가능성상이 각 500~1,000유로씩 별도로 걸렸다. 등록 마감은 2027년 1월 28일, 제출 마감은 3월 1일이다."
+      ],
+      "source": {
+        "outlet": "Buildner",
+        "links": [
+          { "text": "The Oak Moon Pavilion International Architecture Competition", "url": "https://architecturecompetitions.com/oakmoonpavilion/" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "부산 이기대공원, 친환경 목조전망대 설계공모 현장설명회",
+      "body": [
+        "부산광역시가 남구 용호동 이기대공원 내 친환경 목조전망대 조성사업 설계공모 관련 현장 안내(설명)를 진행한다고 공고했다. 참가등록은 이미 지난 **8월 18일** 시작됐으며, 관련 문의는 부산시 건축 설계공모 담당 부서에서 받는다."
+      ],
+      "source": {
+        "outlet": "부산광역시",
+        "links": [
+          { "text": "이기대공원 친환경목조전망대 조성사업 설계공모 현장 안내(설명)", "url": "https://making.busan.go.kr/main/4" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "울산 광역 재활용품 공공선별장, 연면적 6,150㎡ 건축설계공모 접수 중",
+      "body": [
+        "울산광역시가 남구 성암동 일원에 하루 **110t** 재활용품을 처리할 광역 공공선별장을 짓는다. 연면적 **6,150㎡** 규모로 설계비 17.2억 원, 공사비 314억 원이 책정됐다. 설계공모는 **8월 20일** 공고돼 **8월 28일** 접수 마감한다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          { "text": "울산광역시 광역 재활용품 공공선별장 건립 건축 설계공모", "url": "https://jootek.com/folio/contests/18830" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 인프라",
+      "title": "대구-경북 광역철도, 예타 통과…서대구~신공항 62분에서 25분으로",
+      "body": [
+        "대구-경북 광역철도 건설사업이 예비타당성조사를 통과했다. 총사업비 **3조 1,813억 원** 규모로, 서대구역에서 중앙선 의성역까지 **70.06km** 구간을 잇고 이 중 **64.97km**는 복선전철로 새로 놓인다. 개통 후 서대구역~대구경북통합신공항 이동시간이 승용차 62분에서 25분으로 줄어들 전망이다. **2021년** 국가철도망 구축계획에 반영된 지 약 5년, 2024년 6월 예타 착수 이후 약 2년 만의 통과다."
+      ],
+      "source": {
+        "outlet": "이투데이",
+        "links": [
+          { "text": "서대구~신공항 25분으로 단축…대구-경북 광역철도 예타 통과", "url": "https://www.etoday.co.kr/news/view/2618397" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 산업",
+      "title": "한미글로벌, ENR 글로벌 CM·PM 세계 6위…한국 기업 역대 최고",
+      "body": [
+        "한미글로벌이 미국 건설전문지 ENR이 발표한 '2026 ENR 톱 인터내셔널 서베이'에서 글로벌 건설사업관리(CM·PM) 부문 세계 6위에 올랐다. 국내외 종합매출 2억 5,580만 달러(약 3,547억 원)를 기록했으며, 2019년 처음 10위권에 진입한 이후 지속적으로 순위를 끌어올렸다. 최근 사우디 메카 초고층 레지던스, 리야드 도시재생, 쿠웨이트 인프라 등 중동 프로젝트를 잇달아 수주했다."
+      ],
+      "source": {
+        "outlet": "뉴스핌",
+        "links": [
+          { "text": "한미글로벌, 美 ENR 글로벌 CM·PM 6위 등극…\"한국 기업 역대 최고\"", "url": "https://www.newspim.com/news/view/20260826000930" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "ACSA 2026 콘크리트 조적 학생공모전, 아이다호대 '링크드 어셈블리' 1위",
+      "body": "내일의 웰컴센터를 주제로 한 공모전, 매사추세츠·일리노이대 등 7개 팀 수상.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          { "text": "ACSA unveils winners of 2026 Concrete Masonry Student Competition", "url": "https://archinect.com/news/bustler/11102/acsa-unveils-winners-of-2026-concrete-masonry-student-competition" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "영국 서머싯 습지에 재활용 자재로 세운 '야생동물 타워'",
+      "body": "박쥐·올빼미·매를 위한 6m 높이 구조물, 농장 부지 재료만으로 지었다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Pearce+ stacks reclaimed materials to create multi-species wildlife tower", "url": "https://www.dezeen.com/2026/08/26/wildlife-tower-reclaimed-honeygar-farm-somerset-pearce/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "스페인 라리오하, 스미드슨의 '엔트로피'로 포도밭 지형을 파내다",
+      "body": "베어 아키텍츠, 콘첸트리코 2026서 15m 도랑 파 흙 지층을 그대로 드러냈다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "robert smithson's entropy leads BEAR architects into the spaces architecture forgot", "url": "https://www.designboom.com/architecture/robert-smithsons-entropy-bear-architects-spaces-architecture/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "메타, 캐나다 첫 데이터센터에 13조 원 투자…앨버타주 스터전카운티",
+      "body": "1GW 규모 AI 캠퍼스, 건설 인력만 3,000명…3년간 공사 예정.",
+      "source": {
+        "outlet": "Data Center Frontier",
+        "links": [
+          { "text": "Meta's Canadian AI Data Center: A New Model for Infrastructure and Energy Integration", "url": "https://www.datacenterfrontier.com/hyperscale/article/55391399/metas-canadian-ai-data-center-a-new-model-for-infrastructure-and-energy-integration" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "오픈AI, 조지아주에 20조 원 '프로젝트 카멜리아' 데이터센터",
+      "body": "서배너 인근 4개 동, 3.2GW 전력…2028년부터 단계적 가동.",
+      "source": {
+        "outlet": "OpenAI",
+        "links": [
+          { "text": "Building AI infrastructure with the Effingham County community", "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "휴스턴 아스트로돔, 재개발 아이디어 공개 모집…9월 8일 마감",
+      "body": "1965년 세계 최초 돔구장, 2009년 폐장 후 유일한 비운영 건물로 남았다.",
+      "source": {
+        "outlet": "Bisnow",
+        "links": [
+          { "text": "Astrodome Conservancy Solicits Redevelopment Ideas", "url": "https://www.bisnow.com/news/houston/construction-development/astrodome-conservancy-solicits-redevelopment-ideas" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "kaira-looro-bamboo-community-senegal",
+      "tag": "PROJECT",
+      "title": "대나무 지붕이 감싼 세네갈 흙집",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 0,
+      "photo_query": "bamboo architecture rammed earth village Africa",
+      "slides": [
+        {
+          "heading": "대나무 지붕이\n감싼 세네갈 흙집",
+          "body": "카사망스 전통가옥에서 빌려온 커뮤니티센터"
+        },
+        {
+          "heading": "WHAT",
+          "body": "그리스 건축가 아프로디티 이오아니두와 블라디미르 글리고롭스키(K-스튜디오)가 세네갈 카사망스 지역에 대나무·다짐흙 커뮤니티센터를 완공했다."
+        },
+        {
+          "heading": "FORM",
+          "body": "세네갈 전통 '임플루비움' 주택 형식에서 출발해, 라테라이트 토양으로 다짐흙 벽체를 독립적으로 세우고 현지 대나무를 밧줄과 철사로 엮어 지붕을 짰다."
+        },
+        {
+          "heading": "DETAIL",
+          "body": "다이아몬드 모양으로 뚫린 벽체 개구부가 무거운 흙벽 사이로 공기와 빛을 들인다. 대나무 셔터를 열면 각 실이 하나의 큰 파빌리온으로 확장된다."
+        },
+        {
+          "heading": "WATER",
+          "body": "넓은 지붕에 떨어진 빗물은 손씻기 시설로 모이고, 중앙 자갈층은 우기에 빗물이 땅속으로 스며들게 한다."
+        }
+      ]
+    },
+    {
+      "slug": "casa-el-trebol-patagonia",
+      "tag": "PROJECT",
+      "title": "파타고니아 산정에 걸린 집",
+      "ref": { "section": "intl_grid", "index": 0 },
+      "bg": 1,
+      "photo_query": "patagonia forest mountain lake house architecture",
+      "slides": [
+        {
+          "heading": "숲을 지나\n정상에 이르다",
+          "body": "바릴로체 최고지대에 걸린 '카사 엘 트레볼', 195㎡"
+        },
+        {
+          "heading": "WHAT",
+          "body": "아르헨티나 엥겔만 에스투디오가 산카를로스데바릴로체 최고지대에 195㎡ 규모 주택 '카사 엘 트레볼'을 완공했다."
+        },
+        {
+          "heading": "APPROACH",
+          "body": "미리 정한 형태가 아니라 대지의 지형에서 출발한 설계로, 울창한 숲을 지나 정상의 고요함에 이르는 '행렬의 동선'을 만들었다."
+        },
+        {
+          "heading": "VIEW",
+          "body": "토착 코이후에·소나무 숲을 지나는 동안 시야가 서서히 열리고, 마지막에는 엘 트레볼 호수의 열린 지평선이 펼쳐진다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "형태보다 지형과 동선을 우선한 설계 방식은 파타고니아 산악지대 주택이 풍경과 관계 맺는 방식을 다시 묻는다."
+        }
+      ]
+    },
+    {
+      "slug": "igidae-park-wooden-observatory",
+      "tag": "COMPETITION",
+      "title": "이기대공원 목조전망대 설계공모",
+      "ref": { "section": "korea", "index": 0 },
+      "bg": 2,
+      "photo_query": "wooden observation deck coastal cliff forest",
+      "slides": [
+        {
+          "heading": "부산 바다 위,\n목조전망대가 선다",
+          "body": "이기대공원 친환경 목조전망대 조성사업 설계공모"
+        },
+        {
+          "heading": "WHAT",
+          "body": "부산광역시가 남구 용호동 이기대공원 내에 친환경 목조전망대를 짓는 설계공모를 진행 중이다. 참가등록은 8월 18일 시작됐다."
+        },
+        {
+          "heading": "WHERE",
+          "body": "부산 남구 용호동 산196-11번지 일원, 이기대공원 해안 산책로와 연결되는 위치다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "연면적 1,200㎡ 규모로, 예정 설계비는 4억 6천만 원(㎡당 약 39만 원) 수준이다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "부산시는 현장 안내(설명)를 거쳐 설계공모 심사 절차를 이어갈 예정이다."
+        }
+      ]
+    }
+  ]
+}
