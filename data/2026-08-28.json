@@ -1,0 +1,401 @@
+{
+  "vol": "VOL.01  NO.012",
+  "editor": "HUEY",
+  "counts": {
+    "total": 17,
+    "intl": 11,
+    "kr": 6
+  },
+  "outlets": [
+    "한국경제",
+    "헤럴드경제",
+    "ArchDaily",
+    "designboom",
+    "Dezeen",
+    "Archinect",
+    "주택폴리오",
+    "대한건설경제"
+  ],
+
+  "teasers": [
+    {
+      "title": "LH, 2030년까지 42.6만 가구 발주",
+      "desc": "내년 발주 7.6만 가구로 확대…8·13 대책 후속조치",
+      "label": "POLICY"
+    },
+    {
+      "title": "스튜디오 갱, AIA 시카고 2026 협회상",
+      "desc": "10월 1일 시상식에서 수여되는 최고 영예",
+      "label": "AWARDS"
+    },
+    {
+      "title": "화성 반다비체육센터 설계공모 시작",
+      "desc": "장애인·비장애인 공용시설, 접수 마감 9월 8일",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "미스의 파빌리온, 증발한 물 1.2만 리터를 되돌리다",
+      "desc": "바르셀로나 2026 세계건축수도 공개공모 선정작",
+      "label": "CULTURE"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 공공주택",
+    "lede": "LH, 2030년까지 42.6만 가구 발주…내년 7.6만 가구로 확대",
+    "lede_em": "42.6만 가구 발주",
+    "image": "https://img.hankyung.com/photo/202608/AA.45470800.1.jpg",
+    "image_label": "한국경제",
+    "caption": "LH 주택공급 간담회 현장 ⓒ 한국경제",
+    "body": [
+      "한국토지주택공사(LH)가 **8월 27일** 경기 남부권 본부에서 '주택공급 간담회'를 열고, 2030년까지 총 **42만 6,000가구**를 발주하는 5개년 계획을 공개했다. 올해 **5만 가구**(14.9조원)를 시작으로 내년 **7만 6,000가구**(25.7조원), 2028~2030년에는 매년 **10만 가구 이상**(연 30조원 규모)으로 발주 물량을 단계적으로 늘린다는 구상이다.",
+      "이는 정부가 8월 13일 발표한 공급대책의 후속 조치로, 공공주택 착공 물량을 **18만 가구**로 확대하고 수도권 신규택지 **10만 가구**와 3기 신도시 착공 일정을 1~2년 앞당기는 내용을 담고 있다. 도봉구 옛 성균관대 야구장 부지(**2,100가구**, 2027년 착공), 송파구 위례 민관합동 부지(**999가구**) 등이 우선 사업으로 꼽힌다.",
+      "강서구 3개 부지와 학교 용지를 활용한 4개 복합사업은 올해 설계공모를 거쳐 2028년 착공을 목표로 한다. LH는 물량 급증에 대응해 민간 건설사·설계사와의 협력을 확대하겠다는 방침이다.",
+      "이성훈 LH 사장은 이날 간담회에서 \"2030년까지 연평균 **12만 가구** 공급이 목표\"라며 \"민관 협력을 통해 공급 속도를 높이겠다\"고 말했다."
+    ],
+    "source": {
+      "outlet": "한국경제",
+      "links": [
+        { "text": "LH, 2030년까지 42.6만 가구 발주…내년 7.6만 가구로 확대", "url": "https://www.hankyung.com/article/2026082775141" }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/08/26/news-p.v1.20251126.2cd4c06552cf43528ad4a3a77e6279c4_P1.jpeg",
+    "image_label": "헤럴드경제",
+    "title": "서울시, 가로주택·모아주택 조합에 첫 초기사업비 융자…설계비도 지원",
+    "body": [
+      "서울시가 가로주택정비사업·소규모재건축·소규모재개발(모아주택 포함) 조합을 대상으로 시가 직접 초기사업비를 빌려주는 융자 지원을 처음 시작한다. 조합설립인가는 받았지만 사업시행계획인가 전이라 자금 조달이 어려운 초기 단계 조합이 대상이다."
+    ],
+    "facts": [
+      "규모: 구역별 최대 **20억 원**, 총사업비의 **5%** 이내",
+      "금리: 연 **2.2%**, 서울주택도시공사(SH)를 통해 집행",
+      "용도: 조합 운영비·**설계비**·용역비·총회비 등 초기 경비"
+    ],
+    "body_after": [
+      "신청 기간은 **9월 7일부터 28일까지**이며, 상환 기간은 최초 3년으로 최대 7년까지 연장할 수 있다. 서울시는 이번 융자 지원과 함께 모아주택 1호인 중랑구 '한양연립'(99가구→215가구) 준공 소식도 함께 전했다."
+    ],
+    "source": {
+      "outlet": "헤럴드경제",
+      "links": [
+        { "text": "서울시, 가로주택·모아주택 조합에 첫 초기사업비 융자 지원", "url": "https://biz.heraldcorp.com/article/10853079" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "두바이 트레이드센터에 선 358m 타워…펠리 클라크의 '시티타워 원'",
+      "image": "https://images.adsttc.com/media/images/6a8e/7074/ab59/ca01/8994/768b/large_jpg/pelli-clarke-and-partnerss-city-tower-one-under-the-lens-of-ahmad-alnaji_5.jpg?1787719809",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "펠리 클라크 앤드 파트너스가 설계한 두바이 트레이드센터 퍼스트 지구의 **93층·358m** 복합타워 '시티타워 원'이 완공돼 지난 **6월**부터 임대를 시작했다. 셰이크 자예드로와 알 바다로가 만나는 자리에 선 이 건물은 스튜디오부터 4베드룸 복층 펜트하우스까지 **608가구**를 담고 있다.",
+        "샴페인 톤 파사드에 입구 부분은 전통 마슈라비야 문양을 재해석한 알루미늄 스크린을 둘렀다. 두바이 사진작가 아마드 알나지가 도시의 스카이라인과 거리 풍경 속에서 이 타워를 담은 연작을 최근 공개했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Pelli Clarke and Partners' City Tower One and Dubai City Life Under the Lens of Ahmad Alnaji", "url": "https://www.archdaily.com/1183975/pelli-clarke-and-partners-city-tower-one-and-dubai-city-life-under-the-lens-of-ahmad-alnaji" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "분해해서 통째로 옮기는 집…일본 즈시의 '순환성 캐빈'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/circularity-cabin-takaaki-fuji-yuko-fuji-architecture-japan-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "일본 건축가 후지 다카아키·유코 부부(tyfa)가 아레아노와 함께 가나가와현 즈시시에 약 **59.6㎡** 규모 목조주택 '순환성 캐빈'을 완공했다. 도로 확장이 예정된 부지에 지어진 이 집은 영구적인 접합 없이 볼트와 나사만으로 짜여 있어, 통째로 해체해 다른 곳으로 옮기거나 부재 단위로 재사용할 수 있다.",
+        "**1.82m** 표준 그리드에 맞춘 105mm 두께 소나무·삼나무 기둥과 사와라 편백 마감재를 썼다. 두 층 사이 널마루 틈으로 빛이 오가며, '떠날 것을 전제로 지은 집'이라는 설계 개념을 물리적으로 드러낸다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "circularity cabin is designed to be dismantled and moved", "url": "https://www.designboom.com/architecture/takaaki-fuji-yuko-fuji-japanese-home-dismantled-circularity-cabin/" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "치앙마이 홍수 이재지역에 선 27㎡ 스틸·목재 파빌리온",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/27-square-meter-steel-timber-pavilion-chiang-mai-thailand-designboom-2.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "태국 스튜디오 루프레인이 2024년 대홍수를 겪은 치앙마이에 오픈 키친 겸 공동체 공간 '살라 낀 카오'(**27㎡**)를 지었다. 현지에서 구하기 쉬운 6m 철골을 3×3m 그리드로 짜고 재사용 골동 목재를 더했으며, 지면에서 **70cm** 띄워 홍수 완충 공간을 확보했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "27-square-meter steel and timber pavilion rises in flood-hit Chiang Mai, Thailand", "url": "https://www.designboom.com/architecture/27-square-meter-steel-timber-pavilion-chiang-mai-thailand/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "러시아 키지섬, 목조 슬랫으로 짠 유네스코 성당 전망대",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/lens-installation-rhythmic-timber-slats-kizhi-historic-churches-design-wood-home-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "러시아 디자인우드홈스튜디오(예브게니 마카렌코)가 오네가호 키지섬에 유네스코 세계유산 '키지 포고스트' 목조성당군을 조망하는 작은 목조 설치물 '더 렌즈'를 세웠다. 벤치가 딸린 포털 형태로, 러시아 전통 사시나무 지붕널(레메흐)의 디테일을 모듈형 슬랫으로 재해석했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "lens installation uses rhythmic timber slats to frame island's historic churches", "url": "https://www.designboom.com/architecture/lens-installation-rhythmic-timber-slats-kizhi-historic-churches-design-wood-home/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "밴쿠버 목재 공장, 걸을 수 있는 지붕을 공공에 열다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/luca-fontana-vancouver-timber-factory-roof-promenade-designboom-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "루카 폰타나가 밴쿠버 스탠리파크 인근에 매스팀버 제재·가공 공장을 설계하면서, 경사진 지붕을 시민이 걸을 수 있는 공공 산책로로 열었다. 방문객은 산책로에서 유리 파사드 너머 아래층의 목재 가공 공정을 내려다보는 동시에 공원과 해안 전망을 함께 누린다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "luca fontana gives vancouver's timber factory a roof you can walk on", "url": "https://www.designboom.com/architecture/luca-fontana-gives-vancouvers-timber-factory-a-roof-you-can-walk-on/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "미스의 바르셀로나 파빌리온, 증발한 물 1.2만 리터를 되돌리다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/plou-prou-ephemeral-intervention-cierto-estudio-h3o-architects-metronom-mies-van-der-rohe-pavilion-barcelona-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "시에르토 에스투디오·h3o 아키텍츠·메트로놈이 '바르셀로나 2026 세계건축수도' 공개공모에 선정돼, 미스 반 데어 로에의 바르셀로나 파빌리온에 임시 설치작업 '플루 프루?'를 선보였다. 14일간 승강식 산업용 탱크 12개에 지하수 **1만 2,000리터 이상**을 채워, 파빌리온 반사연못에서 그 기간 증발할 것으로 추산되는 물의 양을 시각화했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "twelve tanks and dripping aqueduct trace water loss at Mies van der Rohe's Barcelona Pavilion", "url": "https://www.designboom.com/design/twelve-tanks-dripping-aqueduct-water-loss-mies-van-der-rohe-barcelona-pavilion-plou-prou-cierto-estudio-h3o-architects-metronom/" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "1968년 연희동 주택, '색동'의 논리로 마당을 되찾다",
+      "body": [
+        "건축가 정이삭·홍진표가 서울 연희동의 1968년생 단독주택을 리모델링하며 전통 조각보(색동) 짜임의 논리를 건축에 적용했다. 기존 거실을 통째로 걷어내 채광·환기용 중정을 만들고, 줄어든 건폐율은 남쪽 별동으로 옮겨 확보했다.",
+        "목구조로 뼈대를 보강하고, 철거 대신 옛 방공호를 그대로 살려 바닥을 낮춘 통로로 동선에 편입시켰다. 무거웠던 원래 박공지붕은 가벼운 형태로 바꾸고, 옥색 FRP 처마가 외부 통로를 감쌌다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "1968 Seoul residence is reshaped with courtyard, annex, and timber frame", "url": "https://www.designboom.com/architecture/1968-seoul-residence-is-reshaped-with-courtyard-annex-and-timber-frame/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "단양시장 주차타워 건축설계공모 접수 중…연면적 6,195㎡",
+      "body": [
+        "충북 단양군이 단양읍 별곡리 일원에 주차타워를 짓는 일반 설계공모를 **8월 24일** 공고했다. 연면적 **6,195㎡** 규모로, 예정 설계비는 **5억 5,000만 원**(평당 9만 원), 공사비는 **132억 원**(평당 214만 원)이다. 참가등록 마감은 **8월 31일**, 결과 발표는 **10월 23일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          { "text": "단양시장 주차타워 조성사업 건축설계공모", "url": "https://jootek.com/folio/contests/18838" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "화성 동부 반다비체육센터 설계공모 시작…장애인·비장애인 공용시설",
+      "body": [
+        "경기 화성시가 동탄구 능동 일원에 장애인과 비장애인이 함께 쓰는 '동부 반다비체육센터' 건립을 위한 기본 및 실시설계 공모를 **8월 26일** 공고했다. 연면적 **3,840㎡**(지하 1층·지상 2층) 규모로, 예정 설계비는 **7억 6,000만 원**, 공사비는 **162억 원**이다. 접수 마감은 **9월 8일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          { "text": "화성 동부 반다비체육센터 건립사업 기본 및 실시설계 용역 설계공모", "url": "https://jootek.com/folio/contests/18849" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "마이아키스쿨 '아키디자인' 유스 공모전 2026 수상작 발표",
+      "body": "도시 공공공간을 예술로 되살리는 아이디어들, 아트갤러리부터 수상 레스토랑까지.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "my archischool announces winners of international youth ARCHIDESIGN competition 2026", "url": "https://www.designboom.com/architecture/my-archischool-winners-international-youth-archidesign-competition-2026/" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "스웨덴 25살이 살 수 있는 집은 1.9㎡…릭스비겐의 초소형 주택 캠페인",
+      "body": "스톡홀름 1.9㎡·예테보리 3.1㎡·우메오 4.5㎡, 소득 대비 주거면적을 실물로 보여줬다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Sweden's smallest apartments \"make the housing crisis tangible\"", "url": "https://www.dezeen.com/2026/08/26/riksbyggen-swedens-smallest-apartments-housing-crisis-tangible/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "AIA 2026 COTE 톱텐, 지속가능 건축 10선 발표",
+      "body": "학교부터 컨벤션센터·소방서·외교공관까지, 설계 완성도와 성능을 겸비한 10건 선정.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          { "text": "10 standout sustainable projects honored at AIA COTE Top Ten Award 2026", "url": "https://archinect.com/news/bustler/11019/10-standout-sustainable-projects-honored-at-aia-cote-top-ten-award-2026" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "스튜디오 갱, AIA 시카고 2026 협회상 수상",
+      "body": "시카고 지부가 수여하는 최고 영예…10월 1일 시상식에서 수여된다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          { "text": "Studio Gang receives 2026 AIA Chicago Firm Award for 'conceptual rigor'", "url": "https://archinect.com/news/bustler/11070/studio-gang-receives-2026-aia-chicago-firm-award-for-conceptual-rigor" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "도쿄 두 채의 집, 낯익음을 다시 낯설게…울트라 스튜디오",
+      "body": "검은 원통을 삽입한 '애프터 이미지'와 흔한 마감재를 뒤튼 '우에하라의 아파트'.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "what do we stop seeing at home? ULTRA studio reframes domestic perception in tokyo", "url": "https://www.designboom.com/architecture/ultra-studio-domestic-perception-tokyo-after-image-apartment-uehara-japan/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "조달청, 이번 주 시설공사 49건·2,768억 원 입찰",
+      "body": "8월 24~28일 물량 중 지역업체가 48건·1,884억 원(68%) 수주할 전망이다.",
+      "source": {
+        "outlet": "대한건설경제",
+        "links": [
+          { "text": "조달청 시설공사 주간('26.8.24.~'26.8.28.)입찰 동향", "url": "https://www.kcenews.kr/9361" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "lh-housing-plan-2030",
+      "tag": "POLICY",
+      "title": "LH, 2030년까지 42.6만 가구 발주",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "public housing apartment construction site Korea city",
+      "slides": [
+        {
+          "heading": "2030년까지\n42.6만 가구",
+          "body": "LH 5개년 주택 발주 계획, 내년부터 본격 확대"
+        },
+        {
+          "heading": "WHAT",
+          "body": "LH가 8월 27일 주택공급 간담회에서 2030년까지 총 42만 6,000가구를 발주하는 5개년 계획을 공개했다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "올해 5만 가구(14.9조원)에서 시작해 2028~2030년에는 매년 10만 가구 이상, 연 30조원 규모로 늘어난다."
+        },
+        {
+          "heading": "PROJECTS",
+          "body": "도봉구 옛 성균관대 야구장 부지 2,100가구, 송파구 위례 민관합동 부지 999가구 등이 우선 사업으로 꼽힌다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "정부 8·13 공급대책의 후속 조치로, 수도권 신규택지와 3기 신도시 착공을 1~2년 앞당기는 흐름과 맞물린다."
+        }
+      ]
+    },
+    {
+      "slug": "dubai-city-tower-one",
+      "tag": "PROJECT",
+      "title": "두바이 93층 타워 '시티타워 원'",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 1,
+      "photo_query": "Dubai skyscraper tower skyline modern architecture",
+      "slides": [
+        {
+          "heading": "두바이 하늘에\n선 93층 타워",
+          "body": "펠리 클라크가 그린 '시티타워 원', 608가구"
+        },
+        {
+          "heading": "WHAT",
+          "body": "펠리 클라크 앤드 파트너스가 설계한 358m·93층 복합타워 '시티타워 원'이 두바이 트레이드센터 퍼스트 지구에 완공돼 6월부터 임대를 시작했다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "스튜디오부터 4베드룸 복층 펜트하우스까지 총 608가구가 들어섰다."
+        },
+        {
+          "heading": "FACADE",
+          "body": "샴페인 톤 파사드에 전통 마슈라비야 문양을 재해석한 알루미늄 스크린을 입구에 둘렀다."
+        },
+        {
+          "heading": "LENS",
+          "body": "두바이 사진작가 아마드 알나지가 도시 스카이라인과 거리 풍경 속 이 타워를 담은 연작을 최근 공개했다."
+        }
+      ]
+    },
+    {
+      "slug": "circularity-cabin-japan",
+      "tag": "PROJECT",
+      "title": "분해해서 옮기는 집, 순환성 캐빈",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 2,
+      "photo_query": "wooden cabin timber house forest",
+      "slides": [
+        {
+          "heading": "떠날 것을 전제로\n지은 집",
+          "body": "일본 즈시, 볼트와 나사로만 짠 목조주택"
+        },
+        {
+          "heading": "WHAT",
+          "body": "일본 건축가 후지 다카아키·유코 부부(tyfa)가 아레아노와 함께 가나가와현 즈시시에 약 59.6㎡ 규모 목조주택 '순환성 캐빈'을 완공했다."
+        },
+        {
+          "heading": "WHY",
+          "body": "도로 확장이 예정된 대지 위에 지어져, 통째로 해체해 옮기거나 부재 단위로 재사용할 수 있도록 설계했다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "1.82m 표준 그리드에 맞춘 105mm 두께 소나무·삼나무 기둥에 볼트와 나사만으로 짜맞춰, 영구 접합이 없다."
+        },
+        {
+          "heading": "DETAIL",
+          "body": "두 층 사이 널마루 틈으로 빛이 오가며, 사와라 편백 마감재가 외피를 감싼다."
+        }
+      ]
+    }
+  ]
+}
