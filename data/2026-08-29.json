@@ -1,0 +1,460 @@
+{
+  "vol": "VOL.01  NO.013",
+  "editor": "HUEY",
+  "counts": {
+    "total": 20,
+    "intl": 12,
+    "kr": 8
+  },
+  "outlets": [
+    "Dezeen",
+    "Fox News",
+    "ArchDaily",
+    "designboom",
+    "헤럴드경제",
+    "굿모닝경제",
+    "주택폴리오",
+    "Construction Dive",
+    "Buildner"
+  ],
+
+  "teasers": [
+    {
+      "title": "히로사키성, 1,800명이 밧줄로 당겨 제자리로",
+      "desc": "국가지정 문화재, 전통 히키야 기법으로 이틀간 2.22m 이동",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "건설사 폐업, 3년 새 24%↑",
+      "desc": "기준금리 3% 시대, 지방 중소사부터 무너진다",
+      "label": "POLICY"
+    },
+    {
+      "title": "속초 영랑어울림센터 설계공모 접수 중",
+      "desc": "연면적 624㎡, 참가등록 마감 9월 2일",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "대방건설 '세이프 플랫폼', 5년 연속 굿디자인",
+      "desc": "어린이 안전 승·하차 시설이 다시 인정받았다",
+      "label": "AWARDS"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 문화유산",
+    "lede": "1,800명이 밧줄로 당긴 360톤 목조 덴슈…히로사키성, 제자리를 찾아간다",
+    "lede_em": "1,800명이 밧줄로 당긴 360톤 목조 덴슈",
+    "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/1200/675/hirosaki-castle-repair-relocation.jpg?ve=1&tl=1",
+    "image_label": "FOX NEWS",
+    "caption": "전통 히키야 기법으로 이동 중인 히로사키성 덴슈 ⓒ Fox News",
+    "body": [
+      "일본 아오모리현 히로사키시에서 **8월 22~23일** 이틀간 자원봉사자 **1,800명**이 국가지정 중요문화재 히로사키성 덴슈(1611년 준공)를 **30m** 밧줄로 끌어 원래 위치 방향으로 옮기는 행사가 열렸다. 80명씩 조를 짜 \"소레, 소레\" 구호에 맞춰 당긴 끝에 첫날 **1.13m**, 둘째날 **1.09m**, 이틀간 총 **2.22m**를 이동시켰다.",
+      "이 목조 덴슈는 무게 **360톤**, 일본에 12개뿐인 현존 목조 덴슈 중 하나이자 도호쿠 지방 유일의 사례다. 2015년 지진으로 손상된 성벽을 보수하기 위해 이미 한 차례 옮겨졌던 것을, 2024년 12월 성벽 복원이 끝나자 원래 자리로 되돌리는 2단계 공사가 이번 행사다.",
+      "국가지정 문화재라 분해 대신 롤러 위에 얹어 통째로 끄는 전통 이전 기법 '히키야'를 썼다. 1,800개 참가 자리에 약 **8,000명**이 몰려 4대 1 경쟁률을 기록했으며, 동남아시아·유럽·북미 등 해외 참가자도 다수 포함됐다.",
+      "시민 참여 구간 이후에는 기계 장비를 동원해 나머지 약 **73m**를 연말까지 이동시킬 계획이며, 성벽 기단 위 최종 안착과 재개장은 **2033년**으로 예정돼 있다. 매년 벚꽃철 약 200만 명이 찾는 히로사키성의 완전한 원형 복원까지는 앞으로도 몇 해가 더 걸리는 셈이다."
+    ],
+    "source": [
+      {
+        "outlet": "Dezeen",
+        "links": [
+          { "text": "Volunteers tug 360-tonne castle tower towards its original site", "url": "https://www.dezeen.com/2026/08/27/hirosaki-castle-volunteer-relocation-japan/" }
+        ]
+      },
+      {
+        "outlet": "Fox News",
+        "links": [
+          { "text": "Hundreds of volunteers pull 360-tonne historic Japanese castle back into place by hand", "url": "https://www.foxnews.com/world/hundreds-volunteers-pull-360-tonne-historic-japanese-castle-back-into-place-by-hand" }
+        ]
+      }
+    ],
+    "topic": "재난유산"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://wimg.heraldcorp.com/news/cms/2026/08/28/ams.V01.photo.HDN.P.20260408.P12026040815120044309383120_P1.jpg",
+    "image_label": "헤럴드경제",
+    "title": "건설사 폐업 3년 새 24%↑…기준금리 3% 시대, 정부 PF 지원 확대",
+    "body": [
+      "한국은행이 기준금리를 연 3.0%로 두 달 연속 인상하며 2008년 이후 세 번째로 긴 연속 인상 기록을 세운 가운데, 건설사 폐업이 가파르게 늘고 있다."
+    ],
+    "facts": [
+      "폐업: 올해 1~8월 27일 **2,843건**, 2023년(2,293건) 대비 **24%↑**",
+      "원인: 원자재값 급등·부동산 PF 부실 장기화·미분양 누적",
+      "지원: PF 보증 연평균 **28조 7,000억 원** 확대, 보증료 **30%** 인하 연장"
+    ],
+    "body_after": [
+      "한국건설산업연구원 이지혜 연구위원은 \"2023년 금리 인상 여파가 본격화하던 시기를 지나며, 버티지 못하는 지방 중소 건설사들이 늘고 있다\"고 짚었다. 정부는 PF·건설사 금융애로 해소센터도 새로 연다."
+    ],
+    "source": {
+      "outlet": "헤럴드경제",
+      "links": [
+        { "text": "\"더는 못버텨\" 건설사 폐업 3년 새 24% 증가…'3% 금리 시대' 줄도산 공포", "url": "https://biz.heraldcorp.com/article/10855185" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 재난유산",
+      "title": "네팔-티베트 국경 빙하 붕괴…교량 수십 개·도로 40km 휩쓸려",
+      "image": "https://images.adsttc.com/media/images/6a90/94e7/c615/2701/88ac/409a/newsletter/nepal_5.jpg?1787860237",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "**8월 26일** 네팔-티베트 국경 렌데강 유역에서 히말라야 빙하 하단부가 붕괴하며 얼음·암석 사태를 일으켰고, 30분 만에 하류 수위가 최대 **9m** 치솟는 돌발홍수로 번졌다. 라수와·누와코트 지역을 중심으로 최소 **350명**이 숨지고 **1,300명 이상**이 실종된 것으로 집계됐다.",
+        "마을 전체가 쓸려나간 것은 물론 교량 수십 개와 도로 약 **40km**가 파괴됐고, 트리술리강 유역의 수력발전 시설과 국경 게이리롱 항구 시설도 큰 피해를 입었다. 당초 규모 4.4 지진으로 추정됐던 지진파 신호는 이후 위성영상 분석 결과 빙하 붕괴에 의한 것으로 확인됐다.",
+        "붕괴 이틀 전 이상 고온으로 지반 온도가 2년 만에 최고치를 기록했던 점이 원인으로 지목된다. 기후변화로 인한 고산지대 빙하 불안정이 국경을 넘나드는 인프라 재난으로 이어질 수 있음을 보여준 사례로 꼽힌다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Himalayan Glacier Collapse Triggers Flash Floods and Infrastructure Destruction in Nepal", "url": "https://www.archdaily.com/1184100/himalayan-glacier-collapse-triggers-flash-floods-and-infrastructure-destruction-in-nepal" }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "마드리드 옛 냉동창고, 예술·기술이 교차하는 '하이브리드 인프라'로",
+      "image": "https://images.adsttc.com/media/images/6a86/c0c0/4253/0500/01c9/f7b8/newsletter/Copy_of_09-DOBLE-ERRE.jpg?1787216078",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스튜디오 모르피즘(리드 건축가 아킬레스 하린)이 마드리드 우세라 지구의 옛 제과업체 냉동 저장고(**215㎡**)를 예술·디자인·기술이 교차하는 문화 생산 공간 '도블 에레'로 개조했다. 전시장·워크숍·주방·외부 중정을 갖춘 하이브리드 시설로 2026년 완공됐다.",
+        "목재·강철·콘크리트 등 산업적 재료를 그대로 노출해 옛 저장고의 물성을 살리면서, 내부는 유연하게 재구성 가능한 개방형 구조로 짰다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Doble Erre / Morphism", "url": "https://www.archdaily.com/1183662/doble-erre-morphism" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "프랑스 숲 가장자리, 12세기 수도원을 바라보는 10㎡ 목재 정자",
+      "image": "https://images.adsttc.com/media/images/6a87/d92e/4253/0500/01c9/fd12/medium_jpg/HUT-Katuvu-_David_Foessel-02.jpg?1787287894",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "건축가 뱅자맹 피용이 이끄는 HUT 아틀리에 다르시텍처가 프랑스 사부아 파베르주세텐 숲 가장자리에 목재와 패브릭으로 짠 **10㎡** 규모 소형 파빌리온 '카투부 헛'을 지었다. 완만한 경사지에 남서향으로 배치해, 12세기 시토회 수도원 타미에 아베이 방향으로 시선이 열리도록 설계했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Katūvu Hut / HUT atelier d'architecture", "url": "https://www.archdaily.com/1183732/katuvu-hut-hut-atelier-darchitecture" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "선전만 해변에 내려앉은 48㎡ 바나나잎 캐노피",
+      "image": "https://images.adsttc.com/media/images/6a86/9c6b/4253/0500/01c9/f6f8/medium_jpg/1OUKVJ_F.jpg?1787206842",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스튜디오 10이 중국 선전만공원 해변의 나무 우거진 경사지에 **48㎡** 규모 소형 공공시설 '어 리프 캐노피 바이 더 시'를 지었다. 바나나잎에서 형태를 딴 지붕 켜와 바나나 섬유를 섞은 저층 벽체로 공공 공간·상업시설·생태 보전 사이의 균형을 시도했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "A Leaf Canopy by the Sea / Studio 10", "url": "https://www.archdaily.com/1183655/a-leaf-canopy-by-the-sea-studio-10" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "인도 와랑갈, '붉은 요새'라 이름 붙인 테라코타 벽돌집",
+      "image": "https://images.adsttc.com/media/images/6a8e/ec17/4253/0500/01ca/0f42/newsletter/02.jpg?1787751796",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스페이스픽션 스튜디오가 인도 텔랑가나주 와랑갈에 약 **929㎡**(1만 sq ft) 규모 단독주택 'T(에라코타) 하우스'를 완공했다. 텔루구어로 '붉은 요새'를 뜻하는 프로젝트명처럼, 테라코타 벽돌 벽이 높이 솟아오르고 그 위를 녹색 식물이 뒤덮는 형태로 설계했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "T(errakota) House / Spacefiction Studio", "url": "https://www.archdaily.com/1184036/t-errakota-house-spacefiction-studio" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 도시재생",
+      "title": "100년 전 '근린주구' 개념, 오늘의 '15분 도시'로 이어지다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/clarence-perry-neighborhood-unit-15-minute-city-designboom-01.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "1929년 미국 사회학자 클래런스 페리가 뉴욕 지역계획의 일환으로 제안한 '근린주구'는 약 **5,000~6,000명**이 도보 5~10분 거리 안에서 학교·공원·상업시설을 함께 쓰는 자족적 공동체를 그렸다. 학교를 중심에 놓고 간선도로는 주변부로 밀어내며 녹지 비율 **10%**를 확보하는 원칙은, 오늘날 여섯 가지 생활 기능을 15분 안에 채우자는 카를로스 모레노의 '15분 도시'와 맞닿아 있다.",
+        "다만 페리의 모델이 물리적 경계로 공동체를 구획해 계층·인종 분리로 이어질 위험을 안고 있었다면, 15분 도시는 시간을 기준으로 용도를 섞는다는 점에서 다르다. 100년을 사이에 둔 두 개념 모두, 결국 관건은 '걷는 거리'가 아니라 '경계가 흐려지는 도시의 질'이라는 지적이다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "clarence perry's 'neighborhood unit': the century-old idea behind today's 15-minute city", "url": "https://www.designboom.com/architecture/clarence-perry-neighborhood-unit-15-minute-city/" }
+        ]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "'짓지 않은 건축'을 겨루다…빌드너 언빌트 어워드 2026 접수 중",
+      "image": "",
+      "image_label": "BUILDNER",
+      "body": [
+        "지어지지 않은(unbuilt) 건축·조경·인테리어 아이디어를 겨루는 국제 공모전 '빌드너 언빌트 어워드 2026'이 참가등록을 받고 있다. 소형(**~100㎡**)·중형(**101~999㎡**)·대형(**1,000㎡~**) 3개 규모 부문에 걸쳐 총상금 **10만 유로**가 걸렸으며, 전문 자격 없이 개인 또는 4인 이하 팀이면 누구나 지원할 수 있다.",
+        "참가등록 마감은 **9월 23일**, 작품 접수 마감은 **10월 20일**(런던 시각 23:59)이다. 결과는 12월 1일 발표된다."
+      ],
+      "source": {
+        "outlet": "Buildner",
+        "links": [
+          { "text": "Unbuilt Award 2026", "url": "https://architecturecompetitions.com/unbuilt2026/" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "속초 영랑어울림센터 설계공모 접수 중…연면적 624㎡",
+      "body": [
+        "속초시가 장사동 647-67번지 일원에 근린생활시설 '영랑어울림센터'를 짓는 설계공모를 **8월 26일** 공고했다. 연면적 **624㎡** 규모 제안공모로, 예정 설계비는 **1억 7,000만 원**, 공사비는 **35억 9,000만 원**이다. 참가등록 마감은 **9월 2일**, 결과 발표는 **11월 10일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          { "text": "영랑동1지역(장사동 새마을) 영랑어울림센터 건립사업 설계용역", "url": "https://jootek.com/folio/contests/18847" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "춘천경찰서 별관동 재건축 설계공모, 접수 마감 임박",
+      "body": [
+        "춘천경찰서가 춘천시 효자동 청사 별관동을 재건축·증축하는 설계공모를 **8월 24일** 공고했다. 연면적 **2,262㎡** 업무시설로, 예정 설계비는 **2억 원**, 공사비는 **44억 8,000만 원**이다. 참가등록 마감은 **8월 31일**로, 지면 발행일 기준 이틀밖에 남지 않았다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          { "text": "춘천경찰서 별관동 재건축(증축) 설계용역", "url": "https://jootek.com/folio/contests/18844" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "LH, 양주회천 A-26블록 공공분양 792가구 9월 청약",
+      "body": [
+        "LH가 경기 양주회천지구 A-26블록에서 전용 **59~84㎡** 총 **792가구** 공공분양 청약을 **9월 14~17일** 진행한다. 84㎡ 기준 평균 분양가는 **4억 8,000만 원대**(3.3㎡당 1,300만 원)이며, GTX-C 덕정역이 도보 500m 거리에 있다."
+      ],
+      "source": {
+        "outlet": "굿모닝경제",
+        "links": [
+          { "text": "[아침을 여는 부동산] LH 양주회천 A-26블록 공공분양 외", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290675" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "현대건설, 송파 오피스텔 '힐스테이트 송파더그리드' 9월 분양",
+      "body": [
+        "현대건설이 서울 송파구 장지동에 짓는 주거용 오피스텔 '힐스테이트 송파더그리드'를 9월 분양한다. 지하 4층~지상 16층 **10개 동**, 전용 **34~119㎡** 총 **1,393실** 규모다."
+      ],
+      "source": {
+        "outlet": "굿모닝경제",
+        "links": [
+          { "text": "[아침을 여는 부동산] 힐스테이트 송파더그리드 외", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290675" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "우미건설, 광주 북구 '올 뉴 챔피언스시티' 조성 착수",
+      "body": [
+        "우미건설이 광주광역시 북구 임동 일원 약 **29만 8,000㎡** 부지에 **4,315가구** 규모 복합단지 '올 뉴 챔피언스시티' 조성을 위한 기반공사에 들어갔다. 더현대 광주, 특급호텔, 업무시설, 역사문화공원 등이 함께 들어선다."
+      ],
+      "source": {
+        "outlet": "굿모닝경제",
+        "links": [
+          { "text": "[아침을 여는 부동산] 올 뉴 챔피언스시티 외", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290675" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "HUG, 공사중단 사업장 안전점검…아산 '아르니퍼스트' 현장",
+      "body": "중대재해처벌법·산업안전보건법 준수 여부를 집중 점검한다.",
+      "source": {
+        "outlet": "굿모닝경제",
+        "links": [
+          { "text": "HUG, 공사중단 사업장 안전점검", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290723" }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "대방건설 '세이프 플랫폼', 굿디자인 어워드 5년 연속 수상",
+      "body": "어린이 안전 승·하차 시설이 2026 굿디자인 상품으로 다시 선정됐다.",
+      "source": {
+        "outlet": "굿모닝경제",
+        "links": [
+          { "text": "대방건설 세이프 플랫폼 굿디자인 어워드", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290723" }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "테네시 I-24 유료차로 사업, 92억 달러 규모 시공팀 확정",
+      "body": "AECOM·페로비알 컨소시엄이 미국 인터스테이트 사상 최대 규모 PPP 콘세션을 맡는다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          { "text": "$9.2B Tennessee highway project picks construction team", "url": "https://www.constructiondive.com/news/92b-tennessee-highway-project-picks-construction-team/828758/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "캘리포니아 앤더슨댐, 19억 달러 내진보강 착공",
+      "body": "지진 안전 문제로 용량 3%만 가동 중이던 실리콘밸리 최대 저수지가 정상화에 나선다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          { "text": "FlatironDragados-Sukut JV starts California's Anderson Dam retrofit", "url": "https://www.constructiondive.com/news/flatirondragados-sukut-jv-california-anderson-dam/828678/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "이달의 라틴아메리카 건축…지진 피해 유산부터 공공 놀이터까지",
+      "body": "콜롬비아 지진 문화유산 피해, 아르헨티나 문화센터 완공, 메데인 공공 놀이터망까지 이달의 소식을 모았다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Latin America in Focus: This Month in Architecture, Environmental Design, Social Infrastructure, and Practice", "url": "https://www.archdaily.com/1184123/latin-america-in-focus-this-month-in-architecture-environmental-design-social-infrastructure-and-practice" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "쿠사마 야요이 별세, 향년 97세",
+      "body": "무한거울방으로 유명한 예술가가 8월 14일 도쿄에서 별세, 2017년 개관한 구메셋케이 설계 쿠사마 미술관이 그의 유산을 지킨다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Yayoi Kusama, Artist of Dots, Repetition and Infinity, Dies at 97", "url": "https://www.archdaily.com/1184060/yayoi-kusama-artist-of-dots-repetition-and-infinity-dies-at-97" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "hirosaki-castle-relocation",
+      "tag": "HERITAGE",
+      "title": "1,800명이 옮긴 360톤 목조 성",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "traditional Japanese wooden castle architecture heritage",
+      "slides": [
+        {
+          "heading": "1,800명이 밧줄로\n당긴 360톤 성",
+          "body": "히로사키성 덴슈, 전통 기법으로 제자리를 찾아간다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "아오모리현 히로사키시에서 8월 22~23일 이틀간 자원봉사자 1,800명이 국가지정 문화재 히로사키성 덴슈를 30m 밧줄로 당겨 옮겼다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "무게 360톤, 1611년 준공된 이 목조 덴슈는 일본에 12개뿐인 현존 목조 덴슈 중 하나이자 도호쿠 지방 유일의 사례다."
+        },
+        {
+          "heading": "TECHNIQUE",
+          "body": "분해 대신 롤러 위에 얹어 통째로 끄는 전통 이전 기법 '히키야'를 썼다. 80명씩 조를 짜 구호에 맞춰 당긴 끝에 이틀간 2.22m를 이동시켰다."
+        },
+        {
+          "heading": "WHY",
+          "body": "2015년 지진으로 손상된 성벽을 보수하려 옮겨졌던 것을, 2024년 복원이 끝나자 원위치로 되돌리는 2단계 공사다. 1,800자리에 8,000명이 몰려 4대 1 경쟁률을 기록했다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "남은 약 73m는 기계로 연말까지 이동시키며, 완전한 재개장은 2033년으로 예정돼 있다."
+        }
+      ]
+    },
+    {
+      "slug": "nepal-glacier-flood",
+      "tag": "DISASTER",
+      "title": "빙하가 무너지자 마을이 사라졌다",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 1,
+      "photo_query": "himalayan mountain river valley landscape",
+      "slides": [
+        {
+          "heading": "빙하가 무너지자\n마을이 사라졌다",
+          "body": "네팔-티베트 국경, 돌발홍수가 삼킨 인프라"
+        },
+        {
+          "heading": "WHAT",
+          "body": "8월 26일 네팔-티베트 국경 렌데강 유역에서 히말라야 빙하 하단부가 붕괴, 얼음·암석 사태가 돌발홍수로 이어졌다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "30분 만에 하류 수위가 최대 9m 치솟았고, 최소 350명이 숨지고 1,300명 이상이 실종됐다."
+        },
+        {
+          "heading": "INFRASTRUCTURE",
+          "body": "교량 수십 개와 도로 약 40km가 파괴됐고, 트리술리강 유역 수력발전 시설과 국경 항구 시설도 큰 피해를 입었다."
+        },
+        {
+          "heading": "CAUSE",
+          "body": "붕괴 이틀 전 이상 고온으로 지반 온도가 2년 만에 최고치를 기록한 점이 원인으로 지목된다. 당초 지진으로 추정됐던 신호는 위성영상으로 빙하 붕괴임이 확인됐다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "기후변화로 인한 고산지대 빙하 불안정이 국경을 넘나드는 인프라 재난으로 번질 수 있음을 보여준 사례다."
+        }
+      ]
+    },
+    {
+      "slug": "terrakota-house-india",
+      "tag": "PROJECT",
+      "title": "붉은 요새라 부른 테라코타 집",
+      "ref": { "section": "intl_grid", "index": 2 },
+      "bg": 2,
+      "photo_query": "red brick terracotta house tropical courtyard architecture",
+      "slides": [
+        {
+          "heading": "붉은 요새라\n부른 집",
+          "body": "인도 와랑갈, 테라코타 벽돌로 쌓아 올린 단독주택"
+        },
+        {
+          "heading": "WHAT",
+          "body": "스페이스픽션 스튜디오가 인도 텔랑가나주 와랑갈에 약 929㎡ 규모 단독주택 'T(에라코타) 하우스'를 완공했다."
+        },
+        {
+          "heading": "NAME",
+          "body": "텔루구어로 '붉은 요새'를 뜻하는 프로젝트명처럼, 테라코타 벽돌 벽이 높이 솟아오른 형태로 설계했다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "벽돌 매스 위로 녹색 식물이 뒤덮이도록 해, 단단한 벽돌 요새와 무성한 식재가 대비를 이루게 했다."
+        }
+      ]
+    }
+  ]
+}
