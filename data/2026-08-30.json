@@ -1,0 +1,430 @@
+{
+  "vol": "VOL.01  NO.014",
+  "editor": "HUEY",
+  "counts": {
+    "total": 19,
+    "intl": 11,
+    "kr": 8
+  },
+  "outlets": [
+    "Construction Dive",
+    "ArchDaily",
+    "e-flux",
+    "Buildner",
+    "KSP뉴스",
+    "헤럴드경제",
+    "메트로서울",
+    "주택폴리오"
+  ],
+
+  "teasers": [
+    {
+      "title": "샌안토니오 스퍼스 새 아레나, 13억 달러",
+      "desc": "몰텐슨·바틀렛콕 컨소시엄이 건설관리 맡는다",
+      "label": "PROJECT"
+    },
+    {
+      "title": "건축 인허가 중복검사 폐지",
+      "desc": "정부, 감리완료보고서로 고압가스 안전검사 대체",
+      "label": "POLICY"
+    },
+    {
+      "title": "오세훈, 탄천물재생센터에 청년특화단지 제안",
+      "desc": "AI·R&D 시설과 청년주택 결합한 유럽식 모델",
+      "label": "URBAN"
+    },
+    {
+      "title": "'파빌리온 아틀라스 2026' 국제공모 접수 중",
+      "desc": "당신 나라의 이야기를 설계하라, 상금 2만 유로",
+      "label": "COMPETITION"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 스포츠 인프라",
+    "lede": "샌안토니오 스퍼스 새 아레나에 13억 달러…몰텐슨·바틀렛콕이 짓는다",
+    "lede_em": "13억 달러",
+    "image": "https://imgproxy.divecdn.com/SjjaV7OzW2kPn2QoZTTONlHdxLvZPcvwzIgxTiOdfQo/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzMxMzMzNzIyLmpwZw==.webp",
+    "image_label": "CONSTRUCTION DIVE",
+    "caption": "샌안토니오 스퍼스 홈경기 장면 ⓒ Getty Images (Construction Dive 제공)",
+    "body": [
+      "미국프로농구(NBA) 샌안토니오 스퍼스가 다운타운에 새로 지을 홈아레나의 건설관리를 몰텐슨(Mortenson)과 바틀렛콕 제너럴 컨트랙터스(Bartlett Cocke General Contractors) 컨소시엄에 맡겼다고 Construction Dive가 **8월 26일** 보도했다. 총 프로젝트 규모는 **13억 달러**(약 1조 8,000억 원)에 이른다.",
+      "재원은 텍사스주 벡사카운티(Bexar County)가 **3억 1,100만 달러**, 샌안토니오시가 **4억 8,900만 달러**를 지원해 공적자금만 **8억 달러**에 달한다. 나머지 금액과 향후 발생할 비용 초과분은 구단인 스퍼스가 전액 부담하기로 했다.",
+      "새 아레나는 헨리 B. 곤잘레스 컨벤션센터 확장, 컨벤션호텔 신축 등과 함께 추진되는 샌안토니오 다운타운 스포츠·엔터테인먼트 지구 재개발 계획의 핵심 축이다. 낙후된 도심 일대를 하나의 목적지형 지구로 재편하려는 시도로 풀이된다.",
+      "미국 프로스포츠 구단들이 앞다퉈 대형 경기장을 재개발하는 흐름 속에서, 이번 프로젝트는 지자체 재정 지원과 구단 민간자본이 결합한 최근 공공-민간 파트너십(P3) 모델의 대표 사례로 꼽힌다."
+    ],
+    "source": {
+      "outlet": "Construction Dive",
+      "links": [
+        { "text": "Mortenson, Bartlett Cocke win $1.3B NBA Spurs arena", "url": "https://www.constructiondive.com/news/mortenson-bartlett-cocke-win-13b-nba-spurs-arena/828867/" }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "국무조정실",
+    "title": "정부, 건축 인허가 중복검사 폐지…ESS 컨테이너 가이드라인 다음달 수립",
+    "body": [
+      "한성숙 국무총리가 대한상공회의소에서 경제단체들과 규제합리화 성과 공유 간담회를 열고, 건축·산업 인허가 절차를 실질적으로 줄이는 후속 조치들을 **8월 29일** 발표했다."
+    ],
+    "facts": [
+      "적용: 건축법상 공사감리 완료보고서로 고압가스 안전검사 **대체**(중복검사 폐지)",
+      "시행: ESS(에너지저장장치) 컨테이너 법적 분류 가이드라인, **9월 중** 관계부처 합동 수립",
+      "통일: 지자체별로 제각각이던 이격거리 기준, **연말까지** 전국 통일",
+      "추가: 수소 신기술 전용 안전기준 **내년 3월까지** 마련, 산업단지 입주기업의 인근 공장 창고 임차 허용"
+    ],
+    "body_after": [
+      "이번 조치는 대통령이 위원장을 맡은 규제합리화위원회의 첫 성과로, 정부는 \"규제합리화의 방향이 산업의 성장과 발전으로 이어지도록 하겠다\"고 밝혔다. 설계·감리 단계에서 중복되던 안전검사가 줄어들면 실무 인허가 기간 단축 효과가 예상된다."
+    ],
+    "source": {
+      "outlet": "KSP뉴스",
+      "links": [
+        { "text": "[특집] 조정실, 규제합리화 성과가 '모두의 성장'으로 이어지도록 한다", "url": "http://kspnews.com/2782428" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "세쿼이아 국립공원 옆, 벤 웨히터가 다시 그린 '오토캠프 세쿼이아'",
+      "image": "https://images.adsttc.com/media/images/6a86/eac4/4253/0500/01c9/f82e/large_jpg/AutoCampSequoia-Matt_Kisiday-ArchDaily__1_.jpg?1787226857",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "벤 웨히터(Waechter Architecture)가 미국 캘리포니아 스리리버스, 세쿼이아·킹스캐니언 국립공원 사이 카위아강변의 RV 캠핑장 '오토캠프 세쿼이아'를 재설계했다. 약 **7,800㎡** 부지에 흩어져 있던 캠프사이트와 편의시설을 하나의 경험으로 재구성했다.",
+        "2025년 완공된 이번 프로젝트는 자연 지형을 거스르지 않는 저층 목조 건물과 동선 계획으로, 국립공원 인접지에서 캠핑 리조트가 어떻게 풍경과 공존할 수 있는지를 보여준다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "AutoCamp Sequoia / Waechter Architecture", "url": "https://www.archdaily.com/1183669/autocamp-sequoia-waechter-architecture" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "카보산루카스 2만 4,000㎡ 복합단지 '아니마 빌리지', 걷기 좋은 동네로",
+      "image": "https://images.adsttc.com/media/images/6a8c/2310/ac8b/af01/892c/e6df/large_jpg/anima-village-javier-sordo-madaleno-bringas_10.jpg?1787568967",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "멕시코 카보산루카스에 소르도 마달레노 아르키텍토스가 설계한 **2만 4,000㎡** 규모 복합개발 '아니마 빌리지'가 2025년 완공됐다. \"걷기 좋은 인간 척도의 동네\"를 표방하며 풍부한 조경과 공공공간을 계획의 중심에 뒀다.",
+        "차량보다 보행이 우선되는 동선 체계와 저층·중밀도 매스로 구성돼, 관광지 개발이 흔히 빠지는 고밀·폐쇄형 리조트 모델과 거리를 뒀다는 평가를 받는다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Animà Village / Sordo Madaleno Arquitectos", "url": "https://www.archdaily.com/1183857/anima-village-javier-sordo-madaleno-bringas" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "12세기 수도원을 마주보는 프랑스 숲속 10㎡ 목재 정자",
+      "image": "https://images.adsttc.com/media/images/6a87/d92e/4253/0500/01c9/fd12/medium_jpg/HUT-Katuvu-_David_Foessel-02.jpg?1787287894",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "HUT 아틀리에 다르시텍처가 프랑스 사부아 파베르주세텐 숲 가장자리에 목재와 패브릭으로 지은 **10㎡** 소형 파빌리온 '카투부 헛'. 완만한 경사지에 남서향으로 배치해 12세기 시토회 수도원 타미에 아베이 방향으로 시선이 열리도록 설계했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Katūvu Hut / HUT atelier d'architecture", "url": "https://www.archdaily.com/1183732/katuvu-hut-hut-atelier-darchitecture" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "로마의 100㎡ 아파트, 색과 기하학으로 다시 짠 'A12'",
+      "image": "https://images.adsttc.com/media/images/6a84/5531/3cf9/6c00/0178/383d/medium_jpg/DKA_A12-living-_Serena-Eller-2.jpg?1787057528",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "DKA(Diele Kerciku Architetture)가 이탈리아 로마의 역사적 아파트를 **100㎡** 규모 현대 주거로 리노베이션했다. 색채·기하학·공간 연속성을 활용해 기존 건축의 켜와 오늘의 생활 방식 사이에 새로운 관계를 만들었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "A12 Apartment / DKA – Diele Kerciku Architetture", "url": "https://www.archdaily.com/1183511/a12-apartment-dka" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "상하이 좁은 상가, 공사 흔적을 그대로 남긴 '반(半)공사현장 사무소'",
+      "image": "https://images.adsttc.com/media/images/6a8f/fba0/a25c/7b00/0125/f6af/medium_jpg/14-01.jpg?1787821043",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "ARCHWASTE가 중국 상하이의 좁고 불규칙한 1층 상업공간을 사무소로 개조하며, 노출 구조와 미로 같은 좁은 복도 등 공사 흔적을 일부러 그대로 남겼다. 완공작임에도 '짓는 중'의 상태를 공간 정체성으로 삼은 실험이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Semi-construction Site Office / ARCHWASTE", "url": "https://www.archdaily.com/1184064/semi-construction-site-office-archwaste" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "\"당신 나라의 이야기를 설계하라\"…'파빌리온 아틀라스 2026' 국제공모",
+      "image": "https://storage.architecturecompetitions.com/upload/23.09.2025/4ff80397accadc759c583f2a9c3c7700.jpg",
+      "image_label": "BUILDNER",
+      "body": [
+        "빌드너(Buildner)가 참가자가 선택한 국가의 문화·정체성을 표현하는 콘셉트 파빌리온을 설계하는 국제공모 '파빌리온 아틀라스 2026'을 진행 중이다. 총상금 **2만 유로** 규모로 학생상·지속가능성상 등이 별도로 마련돼 있다.",
+        "등록 마감은 **9월 16일**, 작품 제출 마감은 **10월 19일**(런던 시각)이다."
+      ],
+      "source": {
+        "outlet": "Buildner",
+        "links": [
+          { "text": "Pavilion Atlas 2026 International Architecture Competition", "url": "https://architecturecompetitions.com/pavilionatlas/" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 도시재생",
+      "title": "오세훈, 탄천물재생센터 부지에 '동남권 청년 특화단지' 제안",
+      "image": "https://wimg.heraldcorp.com/news/cms/2026/08/28/news-p.v1.20260828.35894f073b99414da80d6cafeed00a58_P1.jpg",
+      "image_label": "헤럴드경제",
+      "body": [
+        "오세훈 서울시장이 용산공원 내 주택 공급 대체지로 강남구 **탄천물재생센터** 부지를 제안했다. 가칭 '동남권 청년 특화 산업단지'를 통해 AI·첨단 연구개발(R&D) 시설과 청년주택을 결합한 복합모델을 구상하고 있으며, 영국 포이어 제도·프랑스 아비따 쥔·독일 융에스 보넨 등 유럽식 청년 자립 지원 모델을 참고했다고 밝혔다. 정치권 일각에서는 \"강남 부지 가치 극대화 구상\"이라는 비판도 나온다."
+      ],
+      "source": {
+        "outlet": "헤럴드경제",
+        "links": [
+          { "text": "오세훈, 탄천물재생센터 부지에 '동남권 청년 특화단지' 제안", "url": "https://biz.heraldcorp.com/article/10855402" }
+        ]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "LH, 신축매입 사업절차 대폭 간소화…설계도면 없이 약식 신청",
+      "body": [
+        "LH가 수도권 신축매입 물량 확보 속도를 높이기 위해 절차를 간소화했다. **설계도면 제출 없이** 약식 사업계획서(A4 5장 이내)만으로 신청할 수 있고, 입지 사전심의를 통과하면 서류심사가 면제되며 매입심의 입지 항목에서 만점을 받는다. 신청 마감은 **9월 15일**이다."
+      ],
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          { "text": "LH, 신축매입 사업절차 대폭 간소화", "url": "https://www.koscaj.com/news/articleView.html?idxno=326034" }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "경기도교육청, 하반기 학교복합시설 4곳 선정…수원·포천·하남·화성",
+      "image": "https://cdn.emetro.co.kr/data2/content/image/2026/08/21/.cache/512/20260821500055.jpg",
+      "image_label": "메트로서울",
+      "body": [
+        "경기도교육청이 총사업비 **1,330억 원**(국비 766억 원) 규모의 학교복합시설 4곳을 선정했다. 수원 매탄초는 수영장·체육관을, 포천 폐교(보장초)는 기후변화체험관을, 하남 남한중은 수영장·돌봄시설을, 화성 진안중은 공연장·마을교육지원센터를 각각 조성한다."
+      ],
+      "source": {
+        "outlet": "메트로서울",
+        "links": [
+          { "text": "경기도교육청, 하반기 학교복합시설 4곳 선정", "url": "https://www.metroseoul.co.kr/article/20260821500054" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "김해 대동초 통폐합 신축 설계공모 접수 중",
+      "body": [
+        "경남 김해시가 통폐합되는 초등학교의 신축을 위한 건축설계공모를 **8월 27일** 공고했다. 참가등록 마감은 **9월 7일**이며, 학령인구 감소에 따른 학교 통폐합·신설교 설계 사례로 주목된다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          { "text": "대동초등학교 통폐합 신축 설계공모", "url": "https://jootek.com/folio/contests/18850" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "해남 송지초 공간재구조화 교사동 개축 설계공모 접수 중",
+      "body": [
+        "전남 해남군이 송지초등학교 교사동 개축을 위한 공간재구조화 설계공모를 **8월 26일** 공고했다. 학교공간혁신 사업의 일환으로, 참가등록 마감은 **9월 2일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          { "text": "송지초등학교 공간재구조화 교사동 개축공사 설계공모", "url": "https://jootek.com/folio/contests/18846" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "바르셀로나 미스 파빌리온, 증발한 물 1만 2,000리터를 되돌리다",
+      "body": "12개 물탱크와 임시 수로로 반사연못 증발수를 시각화한 임시 설치 '플루 프루?'.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "Plou Prou? makes water evaporation visible at Mies van der Rohe's Barcelona Pavilion", "url": "https://www.designboom.com/design/twelve-tanks-dripping-aqueduct-water-loss-mies-van-der-rohe-barcelona-pavilion-plou-prou-cierto-estudio-h3o-architects-metronom/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "메릴랜드, 키브리지 재건 해체공사 입찰 개시",
+      "body": "프랜시스 스콧 키브리지 재건 4개 계약 중 두 번째, 강재·교각 철거 등 추정 5,000만~1억 달러.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          { "text": "Punch List: Maryland Key Bridge demo bids", "url": "https://www.constructiondive.com/news/punch-list-maryland-key-bridge-demo-bids-turner-ireland/828988/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "터너 컨스트럭션, 개인정보 유출 통지",
+      "body": "사회보장번호·계좌정보 등이 유출돼 직원들에게 통지했다고 밝혔다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          { "text": "Punch List: Maryland Key Bridge demo bids", "url": "https://www.constructiondive.com/news/punch-list-maryland-key-bridge-demo-bids-turner-ireland/828988/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "베를린 '폭염' 건축 아이디어 공모, 9월 1일 마감",
+      "body": "공공공간의 폭염 대응 개조안을 모집, 1등 상금 5,000유로.",
+      "source": {
+        "outlet": "e-flux",
+        "links": [
+          { "text": "PERSPEKTIVE Open Call — Architecture Ideas Competition 2026 \"HEATWAVE\"", "url": "https://www.e-flux.com/announcements/6787646/perspektive-open-call-architecture-ideas-competition" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "합천중·고 공간재구조화사업 설계공모 접수 중",
+      "body": "중·고 통합 캠퍼스 단위 공간혁신 설계공모, 참가등록 마감 9월 4일.",
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          { "text": "합천중학교·합천고등학교 공간재구조화사업 설계공모", "url": "https://jootek.com/folio/contests/18845" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "안양시, 주거용 위반건축물 한시적 양성화",
+      "body": "12월 17일부터 18개월간, 2023년 이전 완공 다세대·단독·다가구 대상.",
+      "source": {
+        "outlet": "이뉴스투데이",
+        "links": [
+          { "text": "안양시, 주거용 위반건축물 한시적 양성화 추진", "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2460510" }
+        ]
+      },
+      "topic": "제도규제"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "spurs-arena-1-3b",
+      "tag": "PROJECT",
+      "title": "샌안토니오 스퍼스, 13억 달러 새 아레나",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "basketball arena construction night city skyline",
+      "slides": [
+        {
+          "heading": "13억 달러\n새 아레나",
+          "body": "샌안토니오 스퍼스, 다운타운에 새 홈구장을 짓는다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "NBA 샌안토니오 스퍼스의 새 다운타운 아레나 건설관리를 몰텐슨과 바틀렛콕 컨소시엄이 맡았다. 총 프로젝트 규모는 13억 달러."
+        },
+        {
+          "heading": "MONEY",
+          "body": "벡사카운티가 3억 1,100만 달러, 샌안토니오시가 4억 8,900만 달러를 지원해 공적자금만 8억 달러. 나머지와 비용 초과분은 구단이 부담한다."
+        },
+        {
+          "heading": "CONTEXT",
+          "body": "헨리 B. 곤잘레스 컨벤션센터 확장, 컨벤션호텔 신축과 함께 추진되는 다운타운 스포츠·엔터테인먼트 지구 재개발의 핵심 축이다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "지자체 재정과 구단 민간자본이 결합한 최근 공공-민간 파트너십(P3) 대형 경기장 개발의 대표 사례로 꼽힌다."
+        }
+      ]
+    },
+    {
+      "slug": "tancheon-youth-district",
+      "tag": "URBAN",
+      "title": "탄천물재생센터에 뜨는 청년특화단지",
+      "ref": { "section": "korea", "index": 0 },
+      "bg": 1,
+      "photo_query": "riverside urban redevelopment site Seoul skyline",
+      "slides": [
+        {
+          "heading": "탄천물재생센터에\n뜨는 청년특화단지",
+          "body": "오세훈 시장, 용산공원 대체지로 강남 부지를 제안했다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "오세훈 서울시장이 용산공원 내 주택 공급 대체지로 강남구 탄천물재생센터 부지를 제안했다."
+        },
+        {
+          "heading": "PLAN",
+          "body": "가칭 '동남권 청년 특화 산업단지'로, AI·첨단 R&D 시설과 청년주택을 결합한 복합모델을 구상하고 있다."
+        },
+        {
+          "heading": "REFERENCE",
+          "body": "영국 포이어 제도, 프랑스 아비따 쥔, 독일 융에스 보넨 등 유럽식 청년 자립 지원 모델을 참고했다."
+        },
+        {
+          "heading": "DEBATE",
+          "body": "정치권 일각에서는 \"강남 부지 가치 극대화 구상\"이라는 비판도 나오고 있어, 향후 논의 과정이 주목된다."
+        }
+      ]
+    },
+    {
+      "slug": "autocamp-sequoia-camping",
+      "tag": "PROJECT",
+      "title": "세쿼이아 국립공원 옆, 다시 그린 캠핑장",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 2,
+      "photo_query": "forest camping cabins national park river sunset",
+      "slides": [
+        {
+          "heading": "세쿼이아 옆,\n다시 그린 캠핑장",
+          "body": "벤 웨히터가 재설계한 '오토캠프 세쿼이아'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "벤 웨히터가 미국 세쿼이아·킹스캐니언 국립공원 사이 카위아강변의 RV 캠핑장 '오토캠프 세쿼이아'를 재설계했다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "약 7,800㎡ 부지에 흩어져 있던 캠프사이트와 편의시설을 하나의 경험으로 재구성, 2025년 완공됐다."
+        },
+        {
+          "heading": "APPROACH",
+          "body": "자연 지형을 거스르지 않는 저층 목조 건물과 동선 계획으로, 국립공원 인접지에서 캠핑 리조트와 풍경이 공존하는 법을 보여준다."
+        }
+      ]
+    }
+  ]
+}
