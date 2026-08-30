@@ -1,0 +1,421 @@
+{
+  "vol": "VOL.01  NO.015",
+  "editor": "HUEY",
+  "counts": {
+    "total": 18,
+    "intl": 11,
+    "kr": 7
+  },
+  "outlets": [
+    "ESPN",
+    "Populous",
+    "대한건설경제",
+    "ArchDaily",
+    "Metalocus",
+    "Bisnow",
+    "파이낸셜뉴스",
+    "헤럴드경제",
+    "비전21뉴스",
+    "전매일보",
+    "inews24"
+  ],
+
+  "teasers": [
+    {
+      "title": "탬파베이 레이스 새 구장에 23억 달러",
+      "desc": "젠슬러·파퓰러스가 짓는 웨스트쇼어 지구 핵심 시설",
+      "label": "PROJECT"
+    },
+    {
+      "title": "조달청, 설계공모 참가 문턱 낮춘다",
+      "desc": "전문분야 공동수급 없이 건축사사무소 단독 참가 허용",
+      "label": "POLICY"
+    },
+    {
+      "title": "미개관 콘서트홀, 완공 15년 만에 철거",
+      "desc": "트빌리시 리케 콘서트홀, 스튜디오 푹사스 설계",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "대구 신청사 국제설계공모 마감",
+      "desc": "4,500억 원 규모, 당선작은 9월 18일 발표",
+      "label": "COMPETITION"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 스포츠 인프라",
+    "lede": "탬파베이 레이스 새 구장에 23억 달러…젠슬러·파퓰러스가 짓는다",
+    "lede_em": "23억 달러",
+    "image": "https://populous.com/uploads/2026/07/POPULOUS_RAYS_home_plate_day-4K-1-1920x1440-c-center.jpg",
+    "image_label": "POPULOUS",
+    "caption": "탬파베이 레이스 새 구장 홈플레이트 조감도 ⓒ Populous",
+    "body": [
+      "미국프로야구(MLB) 탬파베이 레이스의 새 홈구장 건립을 위한 **23억 달러**(약 3조 2,000억 원) 규모 개발 협약을 탬파시의회와 힐즈버러카운티 의회가 각각 **8월 27일**과 **28일** 승인했다고 ESPN이 보도했다. 시의회는 4대 3, 카운티 의회는 5대 2로 가결했다.",
+      "구장 설계는 파퓰러스(Populous)가, 구장을 포함한 전체 지구 마스터플랜은 젠슬러(Gensler)가 맡았다. 부지는 탬파 웨스트쇼어 지구의 힐즈버러 커뮤니티칼리지 데일 매브리 캠퍼스 일대 약 **130에이커**로, NFL 탬파베이 버커니어스의 홈구장 레이먼드 제임스 스타디움과 마주하고 뉴욕 양키스 스프링캠프장인 스타인브레너 필드와도 인접한다.",
+      "새 구장은 좌석 **3만 1,000석** 규모로 MLB에서 가장 작은 구장이 될 전망이며, 반투명 지붕이 하늘을 프레이밍하고 카우노즈가오리를 볼 수 있는 대형 수족관이 광장 입구를 장식한다. 개발비는 구단이 50%를, 나머지를 카운티와 시가 분담한다.",
+      "구장 주변에는 사무·상업·주거가 결합된 800만 평방피트 규모의 '챔피언스 쿼터' 복합지구가 함께 조성된다. 2028시즌까지 트로피카나 필드에서 경기를 마친 뒤 **2029시즌** 개장이 목표다."
+    ],
+    "source": [
+      { "outlet": "ESPN", "links": [{ "text": "Tampa officials approve $2.3 billion deal for new Rays stadium", "url": "https://www.espn.com/mlb/story/_/id/49747707/tampa-officials-approve-23-billion-deal-new-rays-stadium" }] },
+      { "outlet": "Populous", "links": [{ "text": "Tampa Bay Rays Release Interior Renderings for New Ballpark Designed by Populous", "url": "https://populous.com/article/tampa-bay-rays-release-interior-renderings-for-new-ballpark-designed-by-populous" }] }
+    ],
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "조달청",
+    "title": "조달청, 설계공모 참가 문턱 낮춘다…건축사사무소 단독 참가 허용",
+    "body": [
+      "조달청이 건축 설계공모 참가업체의 행정 부담을 줄이기 위한 '설계공모 운영 개선방안'을 마련해 **8월** 최초 입찰공고분부터 적용한다고 밝혔다."
+    ],
+    "facts": [
+      "핵심: 공모 단계 참가자격을 **건축사사무소**로 간소화",
+      "이전: 전기·통신·소방 등 전문분야 업체와 공동수급체 구성을 공모 단계부터 요구",
+      "변경: 전문분야 자격 확인은 **당선자 선정 후 계약 단계**로 이동",
+      "배경: 공동수급협정서를 기한 내 제출하지 못해 심사 대상에서 제외되는 사례 발생"
+    ],
+    "body_after": [
+      "그동안 소규모 건축사사무소는 설계안을 완성하고도 전문분야 협력업체를 사전에 확보해야 하는 부담 때문에 공모 참여 자체를 포기하는 경우가 많았다. 조달청은 이번 개선으로 설계안 중심의 경쟁이 활성화될 것으로 기대한다고 밝혔다."
+    ],
+    "source": {
+      "outlet": "대한건설경제",
+      "links": [
+        { "text": "조달청, 설계공모 참가 문턱 낮춘다…건축사 단독 제출 허용", "url": "https://www.kcenews.kr/9082" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "은행 본점에서 미술관으로…데이비드 치퍼필드의 '파로 산탄데르'",
+      "image": "https://www.metalocus.es/sites/default/files/2026-07/metalocus_chipperfield_santander_01.jpg",
+      "image_label": "METALOCUS",
+      "body": [
+        "데이비드 치퍼필드 아키텍츠(영국·스페인 사무소)가 스페인 산탄데르 해변의 옛 산탄데르은행 본점 '페레다 빌딩'을 미술관 '파로 산탄데르'로 개조했다. 스페인에서 치퍼필드가 설계한 첫 미술관으로, **9월 8일** 개관한다.",
+        "10층 규모 **1만㎡** 중 5개 층 약 **3,000㎡**를 전시 공간으로 바꿨다. 기존 아치 구조를 노출 콘크리트 나선 계단이 관통하는 순환 동선의 핵심으로 삼았고, 옥상에는 강철 구조 파빌리온을 얹어 기존 건물과 대비를 이뤘다. 산탄데르은행 미술 컬렉션 일부가 전시된다.",
+        "BREEAM 인증에서 **92.96점**을 받아 전 세계 미술관 중 최고 점수를 기록했다. 지열 에너지, 옥상녹화, 건설폐기물 **95%** 재활용 등이 반영됐다."
+      ],
+      "source": {
+        "outlet": "Metalocus",
+        "links": [
+          { "text": "From bank to art center, dialogue with the sea. \"Faro Santander\" by David Chipperfield", "url": "https://www.metalocus.es/en/news/bank-art-center-dialogue-sea-faro-santander-david-chipperfield" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 도시재생",
+      "title": "'언덕 위 알카트라즈'…트리에스테 로촐 멜라라의 부침",
+      "image": "https://images.adsttc.com/media/images/6a7f/8397/ac8b/af01/892c/cbc2/large_jpg/the-rise-and-afterlife-of-triestes-rozzol-melara_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "이탈리아 트리에스테 외곽 언덕에 선 브루탈리즘 집합주택 '로촐 멜라라'. 주민들 사이에서 '알카트라즈'로 불리는 이 단지는 카를로 첼리가 이끄는 건축가 29명이 1970년대에 설계해 1982년 완공했다. 한 변이 **200m**에 달하는 중정은 트리에스테 어느 광장보다 크다.",
+        "총 **648세대**에 학교·우체국·보건소·성당·상점 20여 개·2층 규모 주차장까지 들어선 '지붕 아래 하나의 도시'였다. 지형을 따라 7층에서 15층까지 높이가 달라지는 두 개의 L자형 콘크리트 매스가 15m 간격 필로티로 떠 있고, 덮인 통로와 고가 보행로로 주민들이 실외로 나가지 않고도 시설을 오갈 수 있게 설계됐다.",
+        "사회학 조사를 바탕으로 한 이 집단생활 실험은 완공 후 관리 부실과 고립감 문제로 브루탈리즘 megastructure의 명암을 동시에 보여주는 사례로 남았다. 해안도로에서 올려다보면 언덕을 가로지르는 회색 선처럼 보인다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Alcatraz on the Hill: The Rise and Afterlife of Trieste's Rozzol Melara", "url": "https://www.archdaily.com/1183316/alcatraz-on-the-hill-the-rise-and-afterlife-of-triestes-rozzol-melara" }
+        ]
+      },
+      "topic": "도시재생"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "무르시아 외곽, 협곡 위에 흩어놓은 '작은 캡슐들' 카사 PB16",
+      "image": "https://images.adsttc.com/media/images/6a8c/0dce/4253/0500/01ca/0301/medium_jpg/7.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "ESPECIE 아르키텍투라가 스페인 무르시아 근교 라스토레스데코티야스의 단독주택을 **156㎡** 규모로 증축했다. 부지를 가로지르는 자연 협곡을 거스르지 않고 온수 실내수영장과 정원을 향한 외부 사무공간을 여러 볼륨으로 나눠 배치했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Casa PB16 / ESPECIE arquitectura", "url": "https://www.archdaily.com/1183846/casa-pb16" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "바르샤바 목조 주택가에 스민 '숲속 도서관'",
+      "image": "https://images.adsttc.com/media/images/6a87/3da6/ac8b/af01/892c/deda/medium_jpg/public-library-in-choszczowka-ambient_24.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "폴란드 스튜디오 앰비언트가 바르샤바 초슈추프카의 전쟁 이전 단독주택가에 **625㎡** 규모 공공도서관을 완공했다. 집성재 구조에 목재 프레임 벽체·우드파이버 단열재, 열처리 소나무 외장을 써 저층 목조 주거지의 결과 맞췄다. 2026년 미스 반 데어 로에상 후보에 올랐다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Public Library in Choszczówka / Ambient", "url": "https://www.archdaily.com/1183710/public-library-in-choszczowka-ambient" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "태국 논 한복판, 새와 볕을 다스리는 미강유 정제소",
+      "image": "https://images.adsttc.com/media/images/6a8d/a37d/4253/0500/01ca/0937/medium_jpg/A3.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "PHTAA가 태국 나콘사완 인근 농경지에 **5,000㎡** 규모 미강유(米糠油) 정제 공장을 지었다. 강한 볕과 폭우, 새떼가 상존하는 환경에서 첨단 설비 대신 흔한 자재와 단순한 구조로 채광·환기를 다스려, 밀폐형이 당연시되는 공장 건축에 다른 답을 제시했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "LPP Rice Bran Oil Refinery / PHTAA", "url": "https://www.archdaily.com/1183945/lpp-rice-bran-oil-refinery-phtaa" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "\"도시·교외·농촌, 당신의 마을을 설계하라\"…UIA-HYP컵 2026",
+      "image": "https://images.adsttc.com/media/images/6a33/ed7b/54d7/6a00/01cc/662e/medium_jpg/English_Poster_UIA-HYP_2026.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "톈진대·내몽고공업대와 UED매거진이 공동 주최하는 국제학생건축공모 'UIA-HYP컵 2026'이 참가자를 모집 중이다. 국제건축가연맹(UIA) 공인 공모전으로, 올해 주제는 '빌리저스: 도시·교외·농촌'. 세 가지 생활 맥락 중 하나를 골라 정체성과 소속감을 강화하는 지속가능한 커뮤니티를 제안해야 한다.",
+        "등록 마감은 **9월 20일**, 작품 제출은 **10월 10일**까지이며 참가비는 무료다. 1등 상금은 **8만 위안**(약 1,600만 원)이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Call for Entries: UIA-HYP CUP 2026 International Student Competition in Architectural Design", "url": "https://www.archdaily.com/1042566/call-for-entries-uia-hyp-cup-2026-international-student-competition-in-architectural-design" }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "위례선 트램 갈등조정안 확정…12월 정상 개통 가능해져",
+      "body": [
+        "국토교통부 대도시권광역교통위원회가 **8월 27일** 갈등조정위원회를 열어 위례선 트램 건설사업을 둘러싼 서울시·서울경찰청 간 이견을 조정했다. 트램 선로가 도로에 해당하는지, 교차로·횡단보도 교통안전심의 범위를 어디까지 볼지를 놓고 이견이 있었다.",
+        "서울시는 트램 선로 구간을 구도로로 지정하고 교통안전시설 점검을 거쳐 안전대책을 반영해 서울경찰청에 심의를 요청하기로 했다. 성남시 구간은 경기도·성남시가 시도로로 지정해 별도 심의를 진행한다. 이번 조정으로 **12월** 예정된 개통 일정이 지연 없이 추진될 전망이다."
+      ],
+      "source": [
+        { "outlet": "헤럴드경제", "links": [{ "text": "국내 '최초' 위례선 트램 12월 정상개통하나…대광위서 갈등조정안 의결", "url": "https://biz.heraldcorp.com/article/10854529" }] },
+        { "outlet": "파이낸셜뉴스", "links": [{ "text": "위례선 트램 선로 도로 지정…교통안전심의 절차 확정", "url": "https://www.fnnews.com/news/202608271904216867" }] }
+      ],
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "포항시립박물관 국제설계공모, 작품 제출 9월 7일 마감",
+      "body": [
+        "포항시가 남구 동해면 임곡리 일원 **1만 5,142㎡** 부지에 지역 유물을 수집·보존하고 전시·교육·관광 기능을 아우르는 '포항시립박물관' 건립을 위한 국제설계공모를 진행 중이다. 연면적 **7,640㎡**, 지상 4층 규모로 예정공사비는 **313억 8,000만 원**이다.",
+        "**6월 8일** 공모를 시행해 참가등록을 마감했고, 작품 제출은 **9월 7일** 17시까지, 심사는 **9월 22일** 열린다."
+      ],
+      "source": {
+        "outlet": "vmspace",
+        "links": [
+          { "text": "포항시, '포항시립박물관 건립 국제설계공모' 개최", "url": "https://vmspace.com/news/news_view.html?base_seq=Mzg4MA%3D%3D" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "대구 신청사 국제설계공모 마감…당선작 9월 18일 발표",
+      "body": [
+        "대구광역시가 옛 두류정수장 부지(달서구 당산로 176)에 짓는 신청사 건립사업 국제설계공모의 작품 접수가 **8월 26일** 마감됐다. 대지면적 **7만 2,023㎡**, 연면적 **11만 6,954㎡** 규모로 총사업비는 약 **4,500억 원**, 설계비는 **142억 원**이다.",
+        "시청사·시의회·시민편의시설이 함께 들어서는 대구의 미래 행정 중심지로, '시민을 위한 미래지향적이고 친환경적인 청사'를 설계 비전으로 내걸었다. 당선작은 **9월 18일** 발표되며, 올해 말 착공해 **2030년** 준공이 목표다."
+      ],
+      "source": {
+        "outlet": "inews24",
+        "links": [
+          { "text": "대구시 신청사 설계공모 28일 공고…국내외 건축가 참여 기대", "url": "https://www.inews24.com/view/1848150" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "대전선화초 증축, 8월 말 준공…미래형 학습공간으로",
+      "body": [
+        "대전동부교육지원청이 총사업비 **220억 원**을 들인 대전선화초등학교 증축사업을 **8월 말** 준공 목표로 마무리하고 있다. 인근 아파트 단지 개발로 학생 수요가 늘어난 데 따른 것으로, 기존 교사동은 유지한 채 4층 규모 교사동과 1층 급식실·2층 다목적 강당을 새로 지었다.",
+        "새 교사동은 단순 교실 중심 공간을 넘어 계단형 독서공간을 갖춘 다용도교실(러닝커먼스), 소규모 무대, 예체능 교과교실, 학생 복지시설 등을 층별로 배치해 사용자 주도 학습이 가능한 환경으로 조성했다."
+      ],
+      "source": {
+        "outlet": "전매일보",
+        "links": [
+          { "text": "대전선화초 증축공사 착공…미래형 학습공간 조성", "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1156495" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "휴스턴 아스트로돔 재개발 아이디어 공모, 9월 8일 마감",
+      "body": "애스트로돔 컨서번시가 개발업체·투자자 대상 정보요청(RFI)을 접수 중이다.",
+      "source": {
+        "outlet": "Bisnow",
+        "links": [
+          { "text": "Astrodome Conservancy Solicits Redevelopment Ideas", "url": "https://www.bisnow.com/news/houston/construction-development/astrodome-conservancy-solicits-redevelopment-ideas" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "중국 타이저우 강변, 물결치는 둔치로 다시 태어나다",
+      "body": "TJAD가 산업 유휴부지였던 자오장강 강변 1,691㎡를 완만한 둔덕들로 재구성했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Ripples Becoming Everyday Ground / TJAD Original Design Studio", "url": "https://www.archdaily.com/1184066/ripples-becoming-everyday-ground-tjad-original-design-studio" }
+        ]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "title": "국토부, 9월 1일 서울·3일 대전서 정비사업 설명회",
+      "body": "8·13 주택공급 확대방안 후속, 용적률 완화·이주비 지원 등 설명.",
+      "source": {
+        "outlet": "파이낸셜뉴스",
+        "links": [
+          { "text": "국토부, 서울·대전서 정비사업 설명회…이주비·공공재개발 안내", "url": "https://www.fnnews.com/news/202608291342318756" }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "노르웨이 대서양 연안, 뿌리째 뽑은 가문비나무로 지은 오두막",
+      "body": "헬렌앤하드가 12년 구상 끝에 완공한 112㎡ 자택형 캐빈 '캐빈 산데'.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Cabin Sande / Helen & Hard architects", "url": "https://www.archdaily.com/1183733/cabin-sande-helen-and-hard-architects" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "국토부, 8월 한 달 건설현장 폭염안전 집중점검",
+      "body": "전국 약 1,380개 현장 대상, 14~17시 옥외작업 자제·휴식시간 부여 점검.",
+      "source": {
+        "outlet": "비전21뉴스",
+        "links": [
+          { "text": "국토교통부, 건설현장 폭염 안전 집중 점검", "url": "https://www.vision21.kr/news/article.html?no=606528" }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "이탈리아 소도시 보나테소토, 3만㎡ 녹지 재생의 첫 파빌리온",
+      "body": "CN10 아르키테티가 도시 재생 프로젝트 '파르코브롤로'의 250㎡ 파빌리온을 지었다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Pavilion in Brolo Park / CN10 architetti", "url": "https://www.archdaily.com/1183571/pavilion-in-brolo-park-cn10-architetti" }
+        ]
+      },
+      "topic": "도시재생"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "rays-ballpark-2-3b",
+      "tag": "PROJECT",
+      "title": "탬파베이 레이스, 23억 달러 새 구장",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "baseball stadium construction rendering skyline dusk",
+      "slides": [
+        {
+          "heading": "23억 달러\n새 야구장",
+          "body": "탬파베이 레이스, 웨스트쇼어 지구에 새 홈구장을 짓는다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "탬파시의회와 힐즈버러카운티 의회가 탬파베이 레이스의 새 홈구장 개발 협약을 각각 승인했다. 총 사업비 23억 달러."
+        },
+        {
+          "heading": "DESIGN",
+          "body": "구장은 파퓰러스, 지구 전체 마스터플랜은 젠슬러가 맡았다. 반투명 지붕과 대형 수족관이 있는 광장이 특징이다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "좌석 3만 1,000석으로 MLB 최소 규모 구장이 될 전망. 힐즈버러 커뮤니티칼리지 부지 약 130에이커에 조성된다."
+        },
+        {
+          "heading": "WHAT'S NEXT",
+          "body": "구단이 개발비 50%를 부담하고 카운티·시가 나머지를 지원한다. 2028시즌까지 기존 구장을 쓰다 2029시즌 개장이 목표다."
+        }
+      ]
+    },
+    {
+      "slug": "rozzol-melara-alcatraz",
+      "tag": "URBAN",
+      "title": "언덕 위 알카트라즈, 로촐 멜라라",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 1,
+      "photo_query": "brutalist concrete housing complex hillside megastructure",
+      "slides": [
+        {
+          "heading": "언덕 위\n알카트라즈",
+          "body": "이탈리아 트리에스테, 브루탈리즘 집합주택의 부침"
+        },
+        {
+          "heading": "WHAT",
+          "body": "트리에스테 외곽 언덕에 선 집합주택 '로촐 멜라라'. 주민들은 이곳을 '알카트라즈'라 부른다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "건축가 29명이 1970년대 설계해 1982년 완공. 648세대에 학교·성당·상점까지 갖춘 '지붕 아래 하나의 도시'였다."
+        },
+        {
+          "heading": "DESIGN",
+          "body": "한 변 200m 중정, 7~15층으로 높이가 달라지는 두 개의 L자형 콘크리트 매스가 필로티로 떠 있다."
+        },
+        {
+          "heading": "AFTERLIFE",
+          "body": "모더니즘 집단생활 실험은 완공 후 관리 부실과 고립감 문제에 부딪혔다. 오늘날 브루탈리즘 megastructure의 명암을 함께 보여주는 사례로 남았다."
+        }
+      ]
+    },
+    {
+      "slug": "daegu-new-city-hall",
+      "tag": "COMPETITION",
+      "title": "4,500억 원, 대구 신청사 설계공모",
+      "ref": { "section": "korea", "index": 2 },
+      "bg": 2,
+      "photo_query": "modern city hall civic building glass facade plaza",
+      "slides": [
+        {
+          "heading": "4,500억 원\n대구 신청사",
+          "body": "국제설계공모 작품 접수 마감, 당선작은 9월 18일"
+        },
+        {
+          "heading": "WHAT",
+          "body": "대구광역시가 옛 두류정수장 부지에 짓는 신청사 건립사업 국제설계공모의 작품 접수가 8월 26일 마감됐다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "대지면적 7만 2,023㎡, 연면적 11만 6,954㎡. 총사업비 약 4,500억 원, 설계비 142억 원 규모다."
+        },
+        {
+          "heading": "VISION",
+          "body": "시청사·시의회·시민편의시설이 함께 들어서는 대구의 미래 행정 중심지로, '시민을 위한 미래지향적이고 친환경적인 청사'를 표방했다."
+        },
+        {
+          "heading": "TIMELINE",
+          "body": "당선작은 9월 18일 발표된다. 올해 말 착공해 2030년 준공이 목표다."
+        }
+      ]
+    }
+  ]
+}
