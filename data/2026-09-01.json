@@ -1,0 +1,450 @@
+{
+  "vol": "VOL.01  NO.016",
+  "editor": "HUEY",
+  "counts": {
+    "total": 19,
+    "intl": 13,
+    "kr": 6
+  },
+  "outlets": [
+    "NBC News",
+    "The Hill",
+    "Engineering News-Record",
+    "Wikipedia",
+    "RIBA",
+    "Architects' Journal",
+    "designboom",
+    "Construction Dive",
+    "UIA",
+    "Azure Magazine",
+    "St. Louis Lambert International Airport",
+    "Forsters LLP",
+    "RIBA Journal",
+    "njbiz",
+    "뉴시스",
+    "아시아투데이",
+    "Associated Builders and Contractors",
+    "경기일보",
+    "경기도교육청 EDU PLAN",
+    "더에스엔에스타임",
+    "헤럴드경제"
+  ],
+
+  "teasers": [
+    {
+      "title": "美 케네디센터, 철거 위협 속 법정 공방",
+      "desc": "리노베이션 막히면 철거 후 원형극장 검토",
+      "label": "PROJECT"
+    },
+    {
+      "title": "잉글랜드, 9월 30일부터 계단 2개 의무화",
+      "desc": "18m 넘는 신축 공동주택 화재안전 규정 강화",
+      "label": "POLICY"
+    },
+    {
+      "title": "스뇌헤타, 산을 뚫는 선박터널 입구 설계",
+      "desc": "노르웨이 스타드 해역, 세계 최초 대형 선박터널",
+      "label": "PROJECT"
+    },
+    {
+      "title": "현대건설, 2.6조 목동10단지 품는다",
+      "desc": "두 차례 단독 응찰 끝에 우선협상대상자 선정",
+      "label": "PROJECT"
+    }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "美 케네디센터, 리노베이션 막히면 철거·원형극장 전환 검토",
+    "lede_em": "철거",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Kennedy_Center_for_the_Performing_Arts%2C_Washington%2C_D.C.%2C_LCCN2011632175_%28cropped%29.jpg/1280px-Kennedy_Center_for_the_Performing_Arts%2C_Washington%2C_D.C.%2C_LCCN2011632175_%28cropped%29.jpg",
+    "image_label": "WIKIMEDIA COMMONS",
+    "caption": "1971년 개관한 케네디센터 전경(에드워드 듀렐 스톤 설계) ⓒ Library of Congress",
+    "body": [
+      "미국 워싱턴 D.C.의 케네디센터를 둘러싸고 초유의 철거 위협이 벌어졌다. 법무부가 연방법원에 낸 서류에서, 진행 중인 소송으로 리노베이션이 계속 가로막히면 센터가 결국 **철거**될 수 있다고 밝혔다고 CNN·NBC 등이 보도했다.",
+      "발단은 **2025년 2월** 트럼프 대통령이 이사진을 교체하고 자신의 이름을 건물에 붙이는 안을 추진하면서다. 트럼프 측은 **7월 4일**부터 2년간 건물을 폐쇄하고 대대적으로 리노베이션하겠다고 발표했지만, **2026년 5월** 연방법원이 이름 제거를 명령하고 2년 폐쇄안을 일단 저지한 상태다.",
+      "이에 법무부 측 변호인은 법정 서류에서 리노베이션이 끝내 무산되면 노후한 건물이 '안전하지 않고 허물어져야 할 구조물'로 전락할 것이라며, 대안으로 포토맥강을 내려다보는 대형 야외 원형극장 건립이 오래전부터 거론돼 왔다고 언급했다. 케네디를 기리기엔 부적합하지만 짓고 운영하기는 더 경제적이라는 논리다.",
+      "DC보존리그·건축사학회·전미역사보존신탁 등 보존단체와 미국건축가협회(AIA)·미국조경가협회(ASLA)는 의회 승인 없는 개조를 멈춰달라며 연방법원에 소송을 제기했다. 의회는 '하나의 크고 아름다운 법안'을 통해 밀린 유지보수에 **2억 5,700만 달러**를 배정해둔 상태로, **1971년** 개관한 이 건물의 운명은 이제 법정에서 갈릴 전망이다."
+    ],
+    "source": [
+      { "outlet": "NBC News", "links": [{ "text": "Trump administration says it might demolish the Kennedy Center if court blocks renovations", "url": "https://www.nbcnews.com/politics/trump-administration/trump-administration-says-might-demolish-kennedy-center-court-blocks-r-rcna594350" }] },
+      { "outlet": "The Hill", "links": [{ "text": "Trump administration threatens to demolish Kennedy Center if renovations are not approved", "url": "https://thehill.com/homenews/administration/6049931-trump-administration-threatens-kennedy-center-demolition/" }] }
+    ],
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "UK 건축규정",
+    "title": "잉글랜드, 9월 30일부터 18m 초과 공동주택 '계단 2개' 의무화",
+    "body": [
+      "영국 잉글랜드에서 **9월 30일**부터 최고 거주층 높이 **18m**를 초과하는 신축 공동주택에 대피용 계단을 2개 이상 설치하는 것이 의무화된다. 개정된 건축규정 승인문서 B(Approved Document B)에 따른 조치로, **2017년** 그렌펠타워 화재 이후 마련된 화재안전 규제 개편의 핵심이다."
+    ],
+    "facts": [
+      "적용: 잉글랜드 신축 공동주택 중 최고 거주층 높이 **18m 초과** 건물",
+      "배경: 2017년 그렌펠타워 화재가 계기, 최초 제안 기준(30m)에서 18m로 하향",
+      "유예: 시행일 전 기초·파일링 착수 등 '충분히 진행된' 사업은 **18개월** 유예",
+      "영향: 기준 불확실성으로 런던에서만 약 **3만 8,000가구** 공급이 지연된 것으로 추산"
+    ],
+    "body_after": [
+      "단일 계단 코어로 설계된 기존 고층 주거 프로젝트는 안전설비 개선에 상당한 추가 비용을 투입하거나 자산가치 하락을 감수해야 하는 상황에 놓였다. 업계는 시행일을 한 달 앞두고 막바지 인허가 대응에 분주하다."
+    ],
+    "source": [
+      { "outlet": "Forsters LLP", "links": [{ "text": "Second staircases mandatory in residential buildings over 18m from 30 September 2026", "url": "https://www.forsters.co.uk/news-and-views/second-staircases-mandatory-in-residential-buildings-over-18m-from-30-september-2026" }] },
+      { "outlet": "RIBA Journal", "links": [{ "text": "The implications of the lower height threshold for second (fire) stairways in residential blocks", "url": "https://www.ribaj.com/intelligence/second-staircases-in-residential-blocks-lower-threshold-fire-safety/" }] }
+    ],
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "산을 뚫어 배가 지나간다…노르웨이 '스타드 선박터널', 스뇌헤타가 입구 그렸다",
+      "image": "https://images.adsttc.com/media/images/58da/812b/e58e/cec1/a100/0364/newsletter/29686980744_d9098712c8_k.jpg?1490714917",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "노르웨이 해안관리청이 스타드반도 아래를 뚫어 세계 최초의 대형 선박용 터널을 건설하는 시공 계약을 체결했다. 연간 **100일**가량 폭풍이 몰아치는 스타드 해역을 우회하기 위한 것으로, **1945년** 이후 이 뱃길에서 목숨을 잃은 사람이 **33명**에 이른다. 터널을 이용하면 항로가 **56km** 짧아진다.",
+        "터널 양쪽 입구는 노르웨이 건축사무소 스뇌헤타가 설계했다. 거친 화강암 절개면으로 마감해 주변 지형과 어우러지도록 했으며, 좁은 협만 쪽과 작은 마을이 있는 쪽의 입구 형태를 다르게 그렸다. 규모는 길이 **1.7~1.8km**, 높이 약 **49m**, 폭 **36~37m**로, 후르티그루텐 연안여객선을 포함해 최대 **1만 6,000톤급** 선박까지 통과할 수 있다.",
+        "총사업비는 약 **NOK 86억**(약 1조 1,000억 원) 규모이며, 설계·시공 턴키 계약은 AF그룹이 수주했다. **2027년** 초 착공해 **2031년** 개통이 목표로, 굴착해야 할 암석량만 약 **300만㎥**에 달한다."
+      ],
+      "source": [
+        { "outlet": "Engineering News-Record", "links": [{ "text": "Design-Build Team Selected for Norway's Stad Ship Tunnel", "url": "https://www.enr.com/articles/63255-design-build-team-selected-for-norways-stad-ship-tunnel" }] },
+        { "outlet": "Wikipedia", "links": [{ "text": "Stad Ship Tunnel", "url": "https://en.wikipedia.org/wiki/Stad_Ship_Tunnel" }] }
+      ],
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "세인트루이스 램버트공항, 30억 달러 들여 터미널 하나로 합친다",
+      "image": "https://www.flystl.com/wp-content/uploads/2025/02/STL-Proposed-New-Terminal-Rendering.jpg",
+      "image_label": "FLYSTL.COM",
+      "body": [
+        "미국 미주리주 세인트루이스 램버트국제공항이 노후한 터미널 1·2를 하나로 통합하는 '통합터미널 프로그램'을 추진 중이다. **2022년** 처음 제시된 사업비는 **28억~30억 달러** 수준이었으나 인건비·자재비 상승으로 늘어날 전망이며, 게이트 수는 기존 54개에서 **62개**로 늘어난다.",
+        "항공사들은 설계와 사전 정지작업에 쓰일 **6억 5,000만 달러** 규모의 3차 수정안에 동의했다. 여기에는 **1956년** 지어진 중앙유틸리티플랜트 개보수와 신설 변전소 등 약 **2억 달러** 규모의 기반시설 공사도 포함된다.",
+        "새 터미널은 기존 터미널 1 부지를 중심으로 확장되며, 확대된 상업시설과 약 **7,000면** 규모의 대형 주차장이 함께 들어선다. **2028년** 단계적 개장을 시작해 **2032년** 완전 개장이 목표다."
+      ],
+      "source": [
+        { "outlet": "Engineering News-Record", "links": [{ "text": "St. Louis Lambert Airport Selects CMAR for Proposed $3B Terminal Overhaul", "url": "https://www.enr.com/articles/61637-st-louis-lambert-airport-selects-cmar-for-proposed-3b-terminal-overhaul" }] },
+        { "outlet": "St. Louis Lambert International Airport", "links": [{ "text": "STL Reaches An Important Milestone In Its Efforts Toward A Consolidated Terminal", "url": "https://www.flystl.com/newsroom/stl-news/2024/stl-reaches-an-important-milestone-in-its-efforts-toward-a-consolidated-terminal" }] }
+      ],
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "베이징 융딩강에 세울 파빌리온…UIA 공인 국제공모 접수中",
+      "image": "https://www.uia-architectes.org/wp-content/uploads/2026/08/cover-page-image-clean-1200x800.jpg",
+      "image_label": "UIA",
+      "body": [
+        "베이징시 도시계획자연자원위원회와 베이징건축가협회가 국제건축가연맹(UIA) 공인으로 '융딩 창안 파빌리온 국제설계공모'를 시작했다. 융딩강변에 들어설 **200㎡** 규모 공공 파빌리온을 **4만 2,000㎡** 규모 수변 경관에 통합하는 안을 제안해야 하며, **2029년** 베이징에서 열리는 제30회 UIA 세계건축대회의 파일럿 프로젝트다.",
+        "참가 자격은 **1986년 11월 16일** 이후 출생한 전 세계 건축가로 제한되며, 등록·제출 마감은 **11월 16일**이다. 상금은 1등 3만 5,000유로를 포함해 총 **6만 5,000유로** 규모다."
+      ],
+      "source": [
+        { "outlet": "UIA", "links": [{ "text": "Yong Ding Chang'an Pavilion International Design Competition Launched", "url": "https://www.uia-architectes.org/en/news/yong-ding-changan-pavilion-international-design-competition-launched/" }] },
+        { "outlet": "Azure Magazine", "links": [{ "text": "Yong Ding Chang'an Pavilion International Architectural Design Competition", "url": "https://www.azuremagazine.com/competitions/yong-ding-changan-pavilion-international-architectural-design-competition/" }] }
+      ],
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국제 · 수상",
+      "title": "RIBA 내셔널 어워드 2026, 역대 최다 32곳 선정…런던이 절반 이상",
+      "image": "https://s3-eu-west-1.amazonaws.com/odonnell-tuomey-static/projects/_w1800/A150_00_Sadlers-Wells_MainImage2025_PM.jpg",
+      "image_label": "O'DONNELL + TUOMEY",
+      "body": [
+        "영국왕립건축가협회(RIBA)가 2026년 내셔널 어워드 수상작 **32곳**을 발표했다. 전년(**20곳**) 대비 12곳 늘어난 역대 최다 규모로, 이 중 **17곳**이 런던에 몰린 반면 잉글랜드 북동·북서·이스트미들랜즈 지역은 수상작이 하나도 없었고 스코틀랜드·북아일랜드·웨일스는 각 1곳에 그쳤다.",
+        "대표작은 오도넬+투오미가 스트랫퍼드에 지은 무용 전용극장 '새들러스 웰스 이스트'(550석)로, 춤의 움직임에서 착안한 톱니 지붕이 자연광을 끌어들인다. 모리스+컴퍼니는 런던에서만 4개 프로젝트로 최다 수상 사무소에 올랐다. 수상작들은 **10월 15일** 발표되는 스털링상 후보로 자동 진출한다."
+      ],
+      "source": [
+        { "outlet": "RIBA", "links": [{ "text": "RIBA's National Award winners announced", "url": "https://www.riba.org/news/32-national-award-winners/" }] },
+        { "outlet": "Architects' Journal", "links": [{ "text": "London wins big at the RIBA National awards: see all 32 projects", "url": "https://www.architectsjournal.co.uk/news/london-wins-big-at-the-riba-national-awards-see-all-32-projects" }] }
+      ],
+      "topic": "수상"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "뮌헨 임대료가 부담스러워서…나무에 매단 1㎡ 사무실",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/opposite-office-one-square-meter-treehouse-germany-weimar.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "독일 건축사무소 오퍼짓오피스가 바우하우스대학교 바이마르 캠퍼스의 나무 한 그루에 약 **1㎡** 크기 사무실 '바움하우스 오피스'를 매달았다. 콘크리트 기초도, 나사도, 복잡한 고정장치도 없이 커다란 벨트 두 개만으로 나무를 감아 고정했다. 사다리로 오르는 정육면체 구조 안에는 선반·책상·접이식 작업대가 들어차 건축가 2~3명이 함께 쓸 수 있다.",
+        "뮌헨의 높은 사무실 임대료가 계기가 됐다. 오퍼짓오피스가 바이마르에서 진행 중인 프로젝트 2건 동안 임시로 사용할 예정으로, 건축가가 일하는 데 실제로 얼마나 많은 공간이 필요한지를 묻는 실험이기도 하다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "opposite office moves into one-square-meter treehouse at bauhaus university", "url": "https://www.designboom.com/architecture/opposite-office-one-square-meter-treehouse-germany-weimar/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "뉴욕시, 40억 달러 들여 브루클린-퀸스 고속도로 손본다",
+      "image": "https://imgproxy.divecdn.com/bf_TTbMp3k-_zy399EIK4hfCVRKHlMI-uiq1zrnx8fw/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMDYzODU2OTcwLmpwZw==.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "뉴욕시장 조란 맘다니가 브루클린-퀸스 고속도로(BQE) 중 시 소유 구간 개보수에 **40억 달러**를 투입하는 계획을 공개했다. 대상은 애틀랜틱애비뉴~샌즈스트리트 **1.5마일** 구간, 이른바 'BQE 센트럴'로, 노후한 콘크리트와 3중 캔틸레버 구조를 보수하고 배수·난간도 손본다.",
+        "이 구간은 설계수명을 20년 넘게 초과한 채 하루 **13만 대**(트럭 1만 3,000대 포함)를 감당하고 있으며, 보수가 1년 늦어질 때마다 비용이 약 **1억 6,000만 달러**씩 불어난다는 설명이다. **2030년** 착공해 10년간 공사하며, 환경영향평가는 **2028년 여름** 완료가 목표다. 연방 자금 없이 시 재원만으로 추진된다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          { "text": "NYC earmarks $4B for 'deteriorating' highway", "url": "https://www.constructiondive.com/news/nyc-brooklyn-queens-expressway-project/828737/" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "파주교육지원청, 45년 만에 청사 새로 짓는다…참가등록 마감",
+      "body": [
+        "파주교육지원청이 노후한 현 청사를 헐고 사업비 **419억 원**을 들여 연면적 **1만 472㎡**, 지상 5층 규모의 신청사를 짓는 건축설계공모의 참가등록을 **8월 31일** 마감했다. 부지는 현재 청사가 있는 금촌동 일대 **6,585㎡**로, **1980년** 준공 이후 45년 만의 신축이다.",
+        "공사는 **2027년 3월** 착공해 **2028년 7월** 준공하는 것이 목표다. 시설 노후화와 공간 부족 문제를 해소하고 교육행정 서비스 환경을 개선하는 데 초점을 맞췄다."
+      ],
+      "source": [
+        { "outlet": "경기일보", "links": [{ "text": "45년만에 신축 앞 둔 파주교육지원청 \"교육행정의 질적 전환 가져올 것\"", "url": "https://www.kyeonggi.com/article/20251203580447" }] },
+        { "outlet": "경기도교육청 EDU PLAN", "links": [{ "text": "설계공모 현황", "url": "https://plan.goe.go.kr/index.jsp" }] }
+      ],
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "경기 (가칭)도일중 신축 설계공모, 작품 제출 9월 7일 마감",
+      "body": [
+        "경기도교육청이 (가칭)도일중학교 신축공사 건축설계공모를 진행 중이다. 참가등록은 **7월 31일** 마감됐고, 설계안 제출은 **9월 7일** 오후 4시까지다."
+      ],
+      "source": {
+        "outlet": "경기도교육청 EDU PLAN",
+        "links": [
+          { "text": "설계공모 현황", "url": "https://plan.goe.go.kr/index.jsp" }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "현대건설, 2조 6,000억 목동10단지 재건축 품는다",
+      "body": [
+        "현대건설이 서울 양천구 목동10단지 재건축정비사업의 시공사 우선협상대상자로 선정됐다. 두 차례 진행된 시공사 선정 입찰에 모두 단독으로 응찰하면서, 조합은 도시 및 주거환경정비법에 따라 수의계약 절차로 전환했다.",
+        "사업은 양천구 신정동 311 일대 **19만 4,686㎡** 부지에서 기존 **2,160가구**를 **4,248가구** 규모로 재건축하는 대형 프로젝트로, 사업비는 부가가치세 별도 약 **2조 6,000억 원**이다."
+      ],
+      "source": {
+        "outlet": "아시아투데이",
+        "links": [
+          { "text": "현대건설, 2.6조 규모 목동10단지 재건축 시공사 우협 선정", "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260826010009043" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "조달청, 8월 대형공사 등 195건 4조 3,431억 원 입찰",
+      "body": [
+        "조달청이 **8월** 한 달간 물품·용역 **10억 원**, 공사 **100억 원** 이상 대형사업 총 **195건, 4조 3,431억 원** 규모의 경쟁입찰을 추진한다고 밝혔다. 7월(3조 1,770억 원) 대비 **36.7%** 늘어난 규모로, 신규 대형공사 발주와 전월 이월 물량이 겹친 영향이다.",
+        "분야별로는 공사 부문이 **103건, 3조 6,654억 원**으로 가장 큰 비중을 차지했고, 물품 **46건 2,454억 원**, 용역 **46건 4,323억 원** 규모다. 신규 사업으로는 '국도45호선 용인 처인 이동-남동 국도건설공사'(**8,911억 원**) 등이 포함됐다."
+      ],
+      "source": {
+        "outlet": "더에스엔에스타임",
+        "links": [
+          { "text": "조달청, 8월 대형사업 총 195건, 4조 3,431억 원 상당 입찰 예정", "url": "https://www.thesnstime.com/jodalceong-8weol-daehyeongsaeob-cong-195geon-4jo-3-431eog-weon-sangdang-ibcal-yejeong/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "서울시, 정비사업 조합설립 기간 1년→4개월로 단축",
+      "body": [
+        "서울시가 재건축·재개발 조합설립에 걸리는 기간을 기존 **1년(365일)**에서 **4개월(120일)**로 줄이는 '조합설립 공정촉진 절차 개선방안'을 **8월 18일**부터 시행했다. 추진위 구성 단계에서 조합설립 동의 요건(**75% 이상**)을 이미 채운 구역은 정비구역 지정 전이라도 정관 작성과 임원 선정 등 조합설립 업무를 병행할 수 있게 된다.",
+        "구역지정 이후 60일 넘게 걸리던 추정분담금 통지·이의신청 기간도 주민공람과 같은 **30일**로 단축하고 창립총회와 병행 진행할 수 있도록 했다. 서울시는 이번 개선으로 사업 기간이 최대 **245일** 빨라질 것으로 내다봤다."
+      ],
+      "source": {
+        "outlet": "헤럴드경제",
+        "links": [
+          { "text": "서울시, 정비사업 조합설립 1년→4개월로 단축", "url": "https://biz.heraldcorp.com/article/10844419" }
+        ]
+      },
+      "topic": "제도규제"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "알제리 북부 산불, 최소 12명 사망·주요 국도 폐쇄",
+      "body": "지질레·베자이아·티지우주 등에서 산불이 번져 도로와 주거지가 파괴됐다. 알제리는 7월 한 달에만 산불 2,000건 가까이 겪었다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Wildfires in Algeria Highlight the Scale of the Global Fire Landscape", "url": "https://www.archdaily.com/1184225/wildfires-in-algeria-highlight-the-scale-of-the-global-fire-landscape" }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "title": "튜터페리니, 괌 해군기지 전력망 개선에 6,518억 원 수주",
+      "body": "튜터페리니와 괌 블랙컨스트럭션이 지하 배전선로 교체 등 해군기지 전력 인프라 개선 공사를 따냈다. 설계는 8월, 착공은 2027년 4월 예정이다.",
+      "source": {
+        "outlet": "Engineering News-Record",
+        "links": [
+          { "text": "Tutor Perini Lands $652M Grid Upgrade at Naval Base Guam", "url": "https://www.enr.com/articles/63162-tutor-perini-lands-652m-grid-upgrade-at-naval-base-guam" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "허드슨강 밑 새 철도터널, 1조 7,000억 원 규모 구간 발주",
+      "body": "트레일러·월시·스칸스카 컨소시엄이 허드슨 터널 프로젝트의 강밑 터널 구간(12억 9,000만 달러)을 수주했다. 총사업비 160억 달러 중 6개 패키지가 발주됐다.",
+      "source": {
+        "outlet": "njbiz",
+        "links": [
+          { "text": "Gateway awards $1.29B Hudson Tunnel contract", "url": "https://njbiz.com/gateway-1-29b-hudson-tunnel-contract-award/" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "C40 도시 기후 프레임워크, '실행'은 어디까지 왔나",
+      "body": "전 세계 100여 개 대도시가 참여하는 C40의 기후 행동 프레임워크가 실제 이행으로 이어지고 있는지 짚었다. 요르단 암만의 전술적 도시재생 사례도 소개됐다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "C40 cities have built a framework for climate action, but which ones are actually delivering?", "url": "https://www.designboom.com/architecture/c40-cities-framework-climate-action/" }
+        ]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "title": "2조 원 여의도 시범아파트, 삼성물산 단독 응찰로 유찰",
+      "body": "한국자산신탁이 진행한 시공사 선정 입찰에 삼성물산만 참여해 무산됐다. 재입찰에서도 단독 응찰이면 수의계약으로 전환된다.",
+      "source": {
+        "outlet": "뉴시스",
+        "links": [
+          { "text": "'여의도 시범'도 래미안 유력…삼성물산 단독 응찰", "url": "https://www.newsis.com/view/NISX20260825_0003761966" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 건설업, 올해 34만 9,000명 더 필요…인력난 구조화",
+      "body": "협회(ABC) 분석에 따르면 고령화·이민 단속 강화·데이터센터 붐이 겹쳐 인력 부족이 일시적 현상이 아니라 구조적 문제로 굳어지고 있다.",
+      "source": {
+        "outlet": "Associated Builders and Contractors",
+        "links": [
+          { "text": "ABC: Construction Industry Must Attract 349,000 Workers in 2026 Despite Macroeconomic Headwinds", "url": "https://www.abc.org/News-Media/News-Releases/abc-construction-industry-must-attract-349000-workers-in-2026-despite-macroeconomic-headwinds" }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "kennedy-center-demolition-threat",
+      "tag": "HERITAGE",
+      "title": "케네디센터, 철거 위협 속 법정 공방",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "modernist concert hall riverside building marble columns",
+      "slides": [
+        {
+          "heading": "리노베이션 막히면\n철거하겠다",
+          "body": "美 케네디센터를 둘러싼 초유의 철거 위협"
+        },
+        {
+          "heading": "WHAT",
+          "body": "법무부가 법정 서류에서 리노베이션이 막히면 케네디센터를 철거할 수도 있다고 밝혔다."
+        },
+        {
+          "heading": "BACKGROUND",
+          "body": "2025년 이사진을 교체한 트럼프 대통령 측이 7월부터 2년간 건물을 폐쇄하고 리노베이션하겠다고 발표했다."
+        },
+        {
+          "heading": "LAWSUIT",
+          "body": "보존단체와 미국건축가협회(AIA) 등이 의회 승인 없는 개조를 막아달라며 연방법원에 소송을 제기했다."
+        },
+        {
+          "heading": "ALTERNATIVE",
+          "body": "철거될 경우 포토맥강이 내려다보이는 대형 야외 원형극장 건립이 대안으로 거론된다."
+        },
+        {
+          "heading": "WHAT'S NEXT",
+          "body": "의회는 밀린 유지보수에 2억 5,700만 달러를 배정했다. 1971년 개관한 건물의 운명은 법정에서 갈릴 전망이다."
+        }
+      ]
+    },
+    {
+      "slug": "uk-second-staircase-mandate",
+      "tag": "POLICY",
+      "title": "잉글랜드, 계단 2개 의무화 D-30",
+      "ref": { "section": "side" },
+      "bg": 1,
+      "photo_query": "high rise apartment building stairwell exterior facade",
+      "slides": [
+        {
+          "heading": "9월 30일\n계단 2개 의무화",
+          "body": "잉글랜드 18m 넘는 신축 공동주택, 화재안전 규정 강화"
+        },
+        {
+          "heading": "WHAT",
+          "body": "9월 30일부터 잉글랜드에서 높이 18m를 넘는 신축 공동주택에 대피 계단 2개 이상이 의무화된다."
+        },
+        {
+          "heading": "WHY",
+          "body": "2017년 그렌펠타워 화재를 계기로 도입된 규정으로, 최초 제안 기준이던 30m에서 18m로 낮아졌다."
+        },
+        {
+          "heading": "GRACE PERIOD",
+          "body": "시행일 전 기초·파일링 공사에 들어간 '충분히 진행된' 사업은 18개월 유예를 받는다."
+        },
+        {
+          "heading": "IMPACT",
+          "body": "기준을 둘러싼 불확실성으로 런던에서만 약 3만 8,000가구 공급이 지연된 것으로 추산된다."
+        },
+        {
+          "heading": "WHAT'S NEXT",
+          "body": "단일 계단 코어로 지어진 기존 프로젝트는 안전설비 개선 비용이나 자산가치 하락을 감수해야 하는 상황이다."
+        }
+      ]
+    },
+    {
+      "slug": "stad-ship-tunnel-snohetta",
+      "tag": "PROJECT",
+      "title": "산을 뚫는 선박터널, 스뇌헤타가 그렸다",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 2,
+      "photo_query": "granite mountain tunnel entrance rock coastline norway",
+      "slides": [
+        {
+          "heading": "산을 뚫어\n배가 지나간다",
+          "body": "노르웨이 스타드 선박터널, 스뇌헤타가 입구를 그리다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "노르웨이가 세계 최초의 대형 선박용 터널 '스타드 십 터널' 건설 계약을 체결했다."
+        },
+        {
+          "heading": "WHY",
+          "body": "연간 100일가량 폭풍이 몰아치는 스타드 해역을 우회한다. 1945년 이후 33명이 이 뱃길에서 목숨을 잃었다."
+        },
+        {
+          "heading": "DESIGN",
+          "body": "스뇌헤타가 양쪽 터널 입구를 설계했다. 거친 화강암 절개면으로 지형과 어우러지게 마감했다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "길이 1.7~1.8km, 높이 약 49m, 폭 36~37m 규모로 1만 6,000톤급 선박까지 통과할 수 있다."
+        },
+        {
+          "heading": "TIMELINE",
+          "body": "2027년 초 착공해 2031년 개통이 목표다. 총사업비는 약 1조 1,000억 원 규모다."
+        }
+      ]
+    }
+  ]
+}
