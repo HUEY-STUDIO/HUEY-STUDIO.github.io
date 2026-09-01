@@ -4,6 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>이기대공원 목조전망대 설계공모 — HUEY ARCHI MAGAZINE</title>
+<meta name="description" content="이기대공원 친환경 목조전망대 조성사업 설계공모">
+<link rel="canonical" href="https://huey-studio.github.io/cardnews/2026-08-27/igidae-park-wooden-observatory.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="HEUY.ARCHI">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="이기대공원 목조전망대 설계공모 — HUEY ARCHI MAGAZINE">
+<meta property="og:description" content="이기대공원 친환경 목조전망대 조성사업 설계공모">
+<meta property="og:url" content="https://huey-studio.github.io/cardnews/2026-08-27/igidae-park-wooden-observatory.html">
+<meta property="og:image" content="https://huey-studio.github.io/cardnews/2026-08-27/igidae-park-wooden-observatory/01.jpg">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1350">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="이기대공원 목조전망대 설계공모 — HUEY ARCHI MAGAZINE">
+<meta name="twitter:description" content="이기대공원 친환경 목조전망대 조성사업 설계공모">
+<meta name="twitter:image" content="https://huey-studio.github.io/cardnews/2026-08-27/igidae-park-wooden-observatory/01.jpg">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="alternate" type="application/rss+xml" title="HEUY.ARCHI" href="../../feed.xml">
 <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon-48x48.png">
@@ -12,6 +29,7 @@
 <link rel="stylesheet" as="style" crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
 <link rel="stylesheet" href="../../assets/style.css">
+<script>(function(){try{var t=localStorage.getItem('heuy-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
 <body>
 <div class="site-nav">
@@ -19,8 +37,33 @@
   <nav>
     <a href="../../index.html">최신호</a>
     <a href="../../archive.html">지난호</a>
+    <a href="../../weekly.html">주간</a>
+    <a href="../../stats.html">통계</a>
+    <a href="../../search.html">검색</a>
   </nav>
+  <button type="button" class="theme-toggle" id="themeToggle"
+          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
 </div>
+<script>
+(function () {
+  var btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  var root = document.documentElement;
+  function current() {
+    var set = root.getAttribute('data-theme');
+    if (set) return set;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function paint() { btn.textContent = current() === 'dark' ? '☀' : '☾'; }
+  btn.addEventListener('click', function () {
+    var next = current() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('heuy-theme', next); } catch (e) {}
+    paint();
+  });
+  paint();
+})();
+</script>
 <div class="cn-wrap">
   <div class="cn-detail-head">
     <span class="cn-brand">HUEY ARCHI MAGAZINE</span>
@@ -29,11 +72,11 @@
   <h1 class="cn-detail-title">이기대공원 목조전망대 설계공모</h1>
   <div class="cn-carousel-wrap">
     <div class="cn-carousel" id="cnCarousel">
-      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/01.png" alt="" loading="lazy"></div>
-      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/02.png" alt="" loading="lazy"></div>
-      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/03.png" alt="" loading="lazy"></div>
-      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/04.png" alt="" loading="lazy"></div>
-      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/05.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/01.jpg" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/02.jpg" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/03.jpg" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/04.jpg" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-27/igidae-park-wooden-observatory/05.jpg" alt="" loading="lazy"></div>
     </div>
     <button type="button" class="cn-arrow cn-arrow-prev" id="cnPrev" aria-label="이전 슬라이드">‹</button>
     <button type="button" class="cn-arrow cn-arrow-next" id="cnNext" aria-label="다음 슬라이드">›</button>

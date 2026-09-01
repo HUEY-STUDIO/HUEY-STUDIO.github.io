@@ -2,12 +2,17 @@
 """
 HEUY ARCHI MAGAZINE — 카드뉴스 렌더러
 ------------------------------------------------------------------
-  python3 cardnews.py 2026-08-19     # 해당 날짜 data/*.json의 cardnews[] 전체를 PNG로 렌더
+  python3 cardnews.py 2026-08-19     # 해당 날짜 data/*.json의 cardnews[] 전체를 렌더
   python3 cardnews.py --all          # data/ 전체를 다시 렌더
   python3 cardnews.py 2026-08-19 --force   # 이미 있어도 다시 렌더
 
 입력  : data/<날짜>.json 의 "cardnews" 배열
-출력  : cardnews/<날짜>/<slug>/01.png ... 0N.png   (1080x1350, 인스타그램 카드뉴스 규격)
+출력  : cardnews/<날짜>/<slug>/01.jpg ... 0N.jpg   (1080x1350, 인스타그램 카드뉴스 규격)
+
+JPEG(품질 90)로 저장한다. 같은 카드가 PNG로는 장당 약 1.6MB인데 JPEG q90은 약 230KB로,
+육안 차이 없이 86%가 줄어든다. 카드뉴스는 매일 3건×6장씩 쌓여 저장소 용량을 가장 빠르게
+먹는 산출물이라 이 차이가 곧 GitHub Pages 1GB 한도까지의 수명을 결정한다. 인스타그램
+업로드 호환성 때문에 WebP가 아니라 JPEG를 쓴다.
 
 배경 사진은 두 종류다.
 
@@ -53,6 +58,8 @@ OUT = os.path.join(ROOT, "cardnews")
 
 CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 W, H = 1080, 1350
+EXT = "jpg"        # 저장 포맷. render.py의 카드뉴스 경로와 반드시 같아야 한다.
+QUALITY = 90       # JPEG 품질. 90 아래로 내리면 표지 큰 글자 가장자리가 뭉개진다.
 
 INK = "#0B0B0C"
 RED = "#9F0F1F"
@@ -302,6 +309,89 @@ def content_slide_html(item, slide, idx, total, photo=None):
 </body></html>"""
 
 
+# ------------------------------------------------------------------ 공유 카드(OG)
+# 카카오톡·슬랙·트위터에 링크를 붙였을 때 뜨는 1200x630 이미지.
+# render.py는 표준 라이브러리 전용이라 이미지를 만들 수 없어서, Playwright를 이미 쓰는
+# 여기서 하루 한 장씩 굽고 render.py는 그 경로만 <meta property="og:image">에 적는다.
+OG_W, OG_H = 1200, 630
+
+
+def og_card_html(headline=None, day=None, counts=None, vol=None):
+    y = m = dd = ""
+    if day:
+        y, m, dd = day.split("-")
+    datestr = f"{y}.{m}.{dd}" if day else ""
+    c = counts or {}
+    stat = ""
+    if c:
+        stat = (f'오늘의 기사 <b>{esc(c.get("total", "-"))}</b>건'
+                f' · 해외 <b>{esc(c.get("intl", "-"))}</b>'
+                f' / 국내 <b>{esc(c.get("kr", "-"))}</b>')
+    head_html = (f'<div class="head">{esc(headline)}</div>' if headline
+                 else f'<div class="head tagline-lg">건축·건설<br>데일리 브리핑</div>')
+    meta_bits = " &nbsp;·&nbsp; ".join(x for x in [esc(vol) if vol else "", datestr, stat] if x)
+    return f"""<!doctype html><html><head><meta charset="utf-8">{FONT_LINK}
+<style>
+  *{{margin:0;padding:0;box-sizing:border-box}}
+  html,body{{width:{OG_W}px;height:{OG_H}px;overflow:hidden;font-family:{FONT_FAMILY}}}
+  .stage{{position:relative;width:100%;height:100%;{BACKGROUNDS[0]}}}
+  .inner{{position:absolute;inset:0;padding:56px 64px;display:flex;flex-direction:column;
+          justify-content:space-between}}
+  .logo{{color:#fff;font-weight:900;font-size:40px;letter-spacing:-.02em;line-height:1}}
+  .logo i{{color:{HOT};font-style:normal}}
+  .tag{{color:rgba(255,255,255,.62);font-size:15px;font-weight:700;letter-spacing:.28em;
+        margin-top:12px}}
+  .head{{color:#fff;font-weight:900;font-size:52px;line-height:1.24;letter-spacing:-.03em;
+         display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+         word-break:keep-all;overflow-wrap:break-word;
+         text-shadow:0 2px 24px rgba(0,0,0,.45)}}
+  .tagline-lg{{font-size:66px;line-height:1.16}}
+  .rule{{width:78px;height:6px;background:{HOT};margin-bottom:26px}}
+  .foot{{color:rgba(255,255,255,.78);font-size:19px;font-weight:600;letter-spacing:.01em}}
+  .foot b{{color:#fff;font-weight:900}}
+</style></head><body>
+  <div class="stage"><div class="inner">
+    <div>
+      <div class="logo">HEUY<i>.</i>ARCHI</div>
+      <div class="tag">DAILY ARCHITECTURE BRIEFING</div>
+    </div>
+    <div>
+      <div class="rule"></div>
+      {head_html}
+    </div>
+    <div class="foot">{meta_bits}</div>
+  </div></div>
+</body></html>"""
+
+
+def shoot(browser, html_str, path, w, h):
+    page = browser.new_page(viewport={"width": w, "height": h}, device_scale_factor=1)
+    try:
+        page.set_content(html_str, wait_until="load")
+        page.evaluate("document.fonts.ready")
+        page.screenshot(path=path, type="jpeg", quality=QUALITY)
+    finally:
+        page.close()
+
+
+def render_og_image(browser, day, d):
+    """cardnews/<날짜>/og.jpg — 그날 지면의 공유 카드. 카드뉴스가 없는 날도 만든다."""
+    top = d.get("top") or {}
+    headline = (top.get("lede") or "").replace("\n", " ").strip()
+    out_dir = os.path.join(OUT, day)
+    os.makedirs(out_dir, exist_ok=True)
+    path = os.path.join(out_dir, f"og.{EXT}")
+    shoot(browser, og_card_html(headline, day, d.get("counts"), d.get("vol")), path, OG_W, OG_H)
+    print(f"    {day}/og.{EXT} (공유 카드)")
+
+
+def render_og_default(browser):
+    """assets/og-default.jpg — 아카이브·카테고리 등 특정 지면이 없는 페이지의 공유 카드."""
+    path = os.path.join(ROOT, "assets", f"og-default.{EXT}")
+    shoot(browser, og_card_html(), path, OG_W, OG_H)
+    print(f"  assets/og-default.{EXT} (사이트 기본 공유 카드)")
+
+
 def photos_for_item(item, slides):
     """슬라이드마다 쓸 서로 다른 사진 목록을 만든다.
 
@@ -367,9 +457,9 @@ def render_item(browser, day, item):
                 content_slide_html(item, slide, i, len(slides), photo)
             page.set_content(html, wait_until="load")
             page.evaluate("document.fonts.ready")
-            path = os.path.join(out_dir, f"{i + 1:02d}.png")
-            page.screenshot(path=path)
-            print(f"    {day}/{slug}/{i + 1:02d}.png" + ("" if photo else " (브랜드 그래픽 폴백)"))
+            path = os.path.join(out_dir, f"{i + 1:02d}.{EXT}")
+            page.screenshot(path=path, type="jpeg", quality=QUALITY)
+            print(f"    {day}/{slug}/{i + 1:02d}.{EXT}" + ("" if photo else " (브랜드 그래픽 폴백)"))
     finally:
         page.close()
 
@@ -379,12 +469,20 @@ def load(day):
         return json.load(f)
 
 
-def run(days, force):
+def run(days, force, og_default=False):
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=CHROME, args=["--no-sandbox"])
         try:
+            if og_default:
+                render_og_default(browser)
             for day in days:
                 d = load(day)
+
+                # 공유 카드는 카드뉴스 유무와 무관하게 모든 발행일에 만든다.
+                og_path = os.path.join(OUT, day, f"og.{EXT}")
+                if force or not os.path.exists(og_path):
+                    render_og_image(browser, day, d)
+
                 items = d.get("cardnews") or []
                 if not items:
                     continue
@@ -393,7 +491,7 @@ def run(days, force):
                     out_dir = os.path.join(OUT, day, slug)
                     n = len(item.get("slides") or [])
                     already = os.path.isdir(out_dir) and len(
-                        [f for f in os.listdir(out_dir) if f.endswith(".png")]
+                        [f for f in os.listdir(out_dir) if f.endswith("." + EXT)]
                     ) == n
                     if already and not force:
                         print(f"  {day}/{slug} — 이미 렌더됨, 건너뜀 (--force로 재생성)")
@@ -405,12 +503,14 @@ def run(days, force):
 
 
 if __name__ == "__main__":
-    args = [a for a in sys.argv[1:] if a != "--force"]
+    flags = {"--force", "--og-default"}
+    args = [a for a in sys.argv[1:] if a not in flags]
     force = "--force" in sys.argv[1:]
-    if not args:
-        sys.exit("사용법: python3 cardnews.py <YYYY-MM-DD> | --all [--force]")
-    if args[0] == "--all":
+    og_default = "--og-default" in sys.argv[1:]
+    if not args and not og_default:
+        sys.exit("사용법: python3 cardnews.py <YYYY-MM-DD> | --all [--force] [--og-default]")
+    if args and args[0] == "--all":
         days = sorted(f[:-5] for f in os.listdir(DATA) if f.endswith(".json"))
     else:
         days = args
-    run(days, force)
+    run(days, force, og_default)

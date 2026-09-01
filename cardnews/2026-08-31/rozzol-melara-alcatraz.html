@@ -4,6 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>언덕 위 알카트라즈, 로촐 멜라라 — HUEY ARCHI MAGAZINE</title>
+<meta name="description" content="이탈리아 트리에스테, 브루탈리즘 집합주택의 부침">
+<link rel="canonical" href="https://huey-studio.github.io/cardnews/2026-08-31/rozzol-melara-alcatraz.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="HEUY.ARCHI">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="언덕 위 알카트라즈, 로촐 멜라라 — HUEY ARCHI MAGAZINE">
+<meta property="og:description" content="이탈리아 트리에스테, 브루탈리즘 집합주택의 부침">
+<meta property="og:url" content="https://huey-studio.github.io/cardnews/2026-08-31/rozzol-melara-alcatraz.html">
+<meta property="og:image" content="https://huey-studio.github.io/cardnews/2026-08-31/rozzol-melara-alcatraz/01.jpg">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1350">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="언덕 위 알카트라즈, 로촐 멜라라 — HUEY ARCHI MAGAZINE">
+<meta name="twitter:description" content="이탈리아 트리에스테, 브루탈리즘 집합주택의 부침">
+<meta name="twitter:image" content="https://huey-studio.github.io/cardnews/2026-08-31/rozzol-melara-alcatraz/01.jpg">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="alternate" type="application/rss+xml" title="HEUY.ARCHI" href="../../feed.xml">
 <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon-48x48.png">
@@ -12,6 +29,7 @@
 <link rel="stylesheet" as="style" crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
 <link rel="stylesheet" href="../../assets/style.css">
+<script>(function(){try{var t=localStorage.getItem('heuy-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
 <body>
 <div class="site-nav">
@@ -19,8 +37,33 @@
   <nav>
     <a href="../../index.html">최신호</a>
     <a href="../../archive.html">지난호</a>
+    <a href="../../weekly.html">주간</a>
+    <a href="../../stats.html">통계</a>
+    <a href="../../search.html">검색</a>
   </nav>
+  <button type="button" class="theme-toggle" id="themeToggle"
+          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
 </div>
+<script>
+(function () {
+  var btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  var root = document.documentElement;
+  function current() {
+    var set = root.getAttribute('data-theme');
+    if (set) return set;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function paint() { btn.textContent = current() === 'dark' ? '☀' : '☾'; }
+  btn.addEventListener('click', function () {
+    var next = current() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('heuy-theme', next); } catch (e) {}
+    paint();
+  });
+  paint();
+})();
+</script>
 <div class="cn-wrap">
   <div class="cn-detail-head">
     <span class="cn-brand">HUEY ARCHI MAGAZINE</span>
@@ -29,11 +72,11 @@
   <h1 class="cn-detail-title">언덕 위 알카트라즈, 로촐 멜라라</h1>
   <div class="cn-carousel-wrap">
     <div class="cn-carousel" id="cnCarousel">
-      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/01.png" alt="" loading="lazy"></div>
-      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/02.png" alt="" loading="lazy"></div>
-      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/03.png" alt="" loading="lazy"></div>
-      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/04.png" alt="" loading="lazy"></div>
-      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/05.png" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/01.jpg" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/02.jpg" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/03.jpg" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/04.jpg" alt="" loading="lazy"></div>
+      <div class="cn-slide"><img src="../../cardnews/2026-08-31/rozzol-melara-alcatraz/05.jpg" alt="" loading="lazy"></div>
     </div>
     <button type="button" class="cn-arrow cn-arrow-prev" id="cnPrev" aria-label="이전 슬라이드">‹</button>
     <button type="button" class="cn-arrow cn-arrow-next" id="cnNext" aria-label="다음 슬라이드">›</button>

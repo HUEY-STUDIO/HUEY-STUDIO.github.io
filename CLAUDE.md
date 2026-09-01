@@ -13,14 +13,23 @@
 data/<YYYY-MM-DD>.json   ← 그날의 기사 내용     (매일 새로 추가하는 유일한 파일 — cardnews 포함)
 assets/style.css         ← 디자인               (모양을 바꾸려면 여기)
 render.py                ← 마크업 생성기        (구조를 바꾸려면 여기, 표준 라이브러리만 사용)
-cardnews.py              ← 카드뉴스 PNG 렌더러  (Playwright, render.py보다 먼저 실행)
+cardnews.py              ← 카드뉴스·공유카드 렌더러 (Playwright, render.py보다 먼저 실행)
 ─────────────────────────── 아래는 전부 자동 생성물, 직접 수정 금지 ───────
 index.html               ← 최신호 (= "메인" 탭)
 archive.html             ← 지난호 목록
-issues/<YYYY-MM-DD>.html ← 날짜별 보관본
+issues/<YYYY-MM-DD>.html ← 날짜별 보관본 (하단에 이전호/다음호 이동)
 categories/<slug>.html   ← 카테고리 탭 아카이브 (전체 발행일 통틀어 topic별로 모음)
-cardnews/<날짜>/<slug>/  ← 카드뉴스 PNG (1080×1350, cardnews.py 산출물)
+weekly.html              ← 주간 요약 목록
+weekly/<YYYY-Www>.html   ← 주간 요약호 (그 주 톱기사·제도규제·설계공모)
+stats.html               ← 지면 통계 (분야·매체·발행 추이)
+search.html              ← 전체 아카이브 검색
+search-index.json        ← 검색 색인 (search.html이 첫 검색 때 지연 로드)
+feed.xml                 ← RSS 2.0 (호 단위, 최근 30호)
+sitemap.xml / robots.txt ← 검색엔진 색인용
+cardnews/<날짜>/<slug>/  ← 카드뉴스 JPEG (1080×1350, cardnews.py 산출물)
+cardnews/<날짜>/og.jpg   ← 그날의 공유 카드 (1200×630, 카카오톡·슬랙 미리보기)
 cardnews/<날짜>/<slug>.html ← 카드뉴스 상세 페이지 (render.py 산출물)
+assets/og-default.jpg    ← 사이트 기본 공유 카드
 issues.json              ← 발행 이력
 ```
 
@@ -31,13 +40,15 @@ issues.json              ← 발행 이력
 빌드:
 
 ```bash
-python3 cardnews.py 2026-08-17   # 그날 cardnews[]를 PNG로 렌더 (render.py보다 먼저)
-python3 render.py 2026-08-17     # 특정 날짜
+python3 render.py --check        # 검증만 (중복·topic·counts·카드뉴스 ref)
+python3 cardnews.py 2026-08-17   # 카드뉴스 JPEG + 그날 공유카드 (render.py보다 먼저)
+python3 render.py 2026-08-17     # 특정 날짜 — 빌드 전에 검증이 자동으로 돈다
 python3 render.py --all          # 전체 재생성 (CSS·구조 수정 후)
 ```
 
 `render.py`는 표준 라이브러리만 사용합니다(의존성 설치 불필요). `cardnews.py`만 Playwright가
-필요합니다(`pip install playwright`) — 카드뉴스가 없는 날은 건너뛰어도 됩니다.
+필요합니다(`pip install playwright`) — 카드뉴스가 없는 날도 공유 카드는 만들어야 하므로
+가급적 돌립니다.
 
 ---
 
@@ -103,7 +114,9 @@ python3 render.py --all          # 전체 재생성 (CSS·구조 수정 후)
 ### 4단계 · 빌드 & 배포
 
 ```bash
-python3 render.py <오늘날짜>
+python3 render.py --check <오늘날짜>   # 먼저 검증. 오류가 나오면 고치고 다시
+python3 cardnews.py <오늘날짜>          # 카드뉴스 JPEG + 공유 카드
+python3 render.py <오늘날짜>            # 빌드 (검증이 자동으로 한 번 더 돈다)
 git add -A
 git commit -m "<오늘날짜> 발행"
 git push
@@ -113,7 +126,19 @@ GitHub Pages가 1~2분 뒤 반영한다.
 
 ### 5단계 · 검증
 
-- `index.html`에 오늘 날짜가 들어갔는지
+`python3 render.py --check <오늘날짜>`가 아래를 자동으로 잡는다. **오류가 하나라도 남아
+있으면 발행하지 않는다.**
+
+- **전체 아카이브 대비 중복** — 같은 원문 URL, 또는 제목 78% 이상 일치
+  (최근 3일이 아니라 `data/*.json` 전부를 상대로 본다. 같은 피드를 매일 훑기 때문에
+  3일치만 보면 반드시 놓친다)
+- `topic` 값이 허용된 6개 문자열인지 (오타 하나면 카테고리 탭에서 조용히 누락된다)
+- `counts`가 실제 기사 수와 맞는지, `teasers`가 4개인지, 설계공모가 2건 이상인지
+- `cardnews[].ref`가 그날 실존하는 기사를 가리키는지, 슬라이드 수와 이미지 수가 맞는지
+
+그다음 눈으로 확인할 것:
+
+- `index.html`에 오늘 날짜와 새 vol 번호가 들어갔는지
 - `archive.html` 항목 수가 하나 늘었는지
 - 외부 이미지 URL이 실제로 200을 반환하는지 (`curl -sIL -o /dev/null -w "%{http_code}"`)
 
@@ -232,10 +257,11 @@ GitHub Pages가 1~2분 뒤 반영한다.
 `cardnews/<날짜>/<slug>.html` 상세 페이지에서 캐러셀로 크게 볼 수 있다.
 
 **파이프라인**: `data/<날짜>.json`의 `cardnews[]`를 채운 뒤, `render.py`보다 **먼저**
-`cardnews.py`를 돌려 PNG를 만들어야 한다.
+`cardnews.py`를 돌려 이미지를 만들어야 한다.
 
 ```bash
-python3 cardnews.py <날짜>   # cardnews[] → cardnews/<날짜>/<slug>/01.png..0N.png
+python3 cardnews.py <날짜>   # cardnews[] → cardnews/<날짜>/<slug>/01.jpg..0N.jpg
+                             #   + cardnews/<날짜>/og.jpg (공유 카드)
 python3 render.py <날짜>     # 웹페이지(타일·상세페이지) 생성
 ```
 
@@ -305,6 +331,41 @@ python3 render.py <날짜>     # 웹페이지(타일·상세페이지) 생성
 
 ---
 
+## 부가 페이지 · 공유 · 검색
+
+`data/*.json`만 채우면 아래는 전부 매 빌드마다 자동으로 다시 만들어진다. 손댈 것 없다.
+
+| 산출물 | 무엇 |
+|---|---|
+| `weekly/<YYYY-Www>.html` | ISO 주 단위 요약. 그 주 톱기사 + 제도규제(side) + 설계공모를 모은다 |
+| `stats.html` | 분야별·섹션별·매체별 분포와 일자별 발행량 |
+| `search.html` | 전체 아카이브 키워드 검색. `search-index.json`을 첫 검색 때만 내려받는다 |
+| `feed.xml` | RSS 2.0. 한 항목이 그날 지면 하나이고 본문에 전체 헤드라인이 들어간다 |
+| `sitemap.xml`·`robots.txt` | 검색엔진 색인 |
+
+**공유 카드(og:image).** 링크를 카카오톡·슬랙에 붙였을 때 뜨는 이미지다.
+
+- 지면 페이지 → `cardnews/<날짜>/og.jpg` (1200×630, 그날 톱기사 헤드라인이 박힌 브랜드 카드)
+- 카드뉴스 상세 → 그 카드의 표지 `01.jpg` (1080×1350)
+- 그 외(아카이브·카테고리·검색·통계) → `assets/og-default.jpg`
+
+`og.jpg`는 `cardnews.py`가 만든다. **카드뉴스가 없는 날에도 `cardnews.py`를 돌려야
+그날 공유 카드가 생긴다** — 안 돌리면 기본 카드로 폴백하므로 치명적이진 않다.
+기본 카드를 다시 구우려면 `python3 cardnews.py --og-default`.
+
+**이미지는 JPEG(q90)로 저장한다.** 카드뉴스는 매일 3건×6장씩 쌓여 저장소 용량을 가장
+빠르게 먹는 산출물이다. PNG로는 장당 1.6MB라 하루 21MB씩 늘어 한 달이면 GitHub Pages
+게시 한도(1GB)에 닿는다. JPEG q90은 장당 약 230KB로 육안 차이 없이 86%가 줄어든다.
+인스타그램 업로드 호환성 때문에 WebP가 아니라 JPEG를 쓴다. **PNG로 되돌리지 말 것.**
+
+**다크모드.** `assets/style.css` 맨 아래에서 색 토큰만 다시 정의한다(구조는 그대로).
+`prefers-color-scheme`를 따르고 상단 우측 토글로 덮어쓸 수 있으며 선택은
+`localStorage['heuy-theme']`에 남는다. 새 색을 추가할 때는 반드시 라이트/다크 양쪽에
+정의할 것 — 한쪽에만 넣으면 다른 모드에서 대비가 무너진다. 검은 바(내비·브랜드바·푸터)는
+`--bar` 토큰을 쓰며 양쪽 모드에서 검게 유지한다.
+
+---
+
 ## 브랜드 규칙
 
 - 제호는 **HEUY.ARCHI** — 가운데 점(`.`)만 포인트 레드 `#FF4D1A`, 나머지는 블랙
@@ -330,10 +391,14 @@ python3 render.py <날짜>     # 웹페이지(타일·상세페이지) 생성
 ## 하지 말 것
 
 - `index.html` · `archive.html` · `issues/*.html` · `issues.json` · `categories/*.html` ·
-  `cardnews/*.html` 직접 수정 (다음 빌드에서 덮어써진다. 반드시 `data/*.json`이나
+  `cardnews/*.html` · `weekly.html` · `weekly/*.html` · `stats.html` · `search.html` ·
+  `search-index.json` · `feed.xml` · `sitemap.xml` · `robots.txt` 직접 수정
+  (전부 자동 생성물이라 다음 빌드에서 덮어써진다. 반드시 `data/*.json`이나
   `assets/style.css`를 고칠 것)
+- `python3 render.py --check`가 **오류**를 뱉는데 그대로 발행하는 것
+- 카드뉴스 이미지를 PNG로 되돌리는 것 (저장소 용량이 8배로 늘어난다)
 - 확인되지 않은 기사 URL·이미지 URL 사용
-- 이미지 파일을 저장소에 복사 (각 매체 URL을 그대로 링크한다) — 단, 카드뉴스 PNG(`cardnews/**/*.png`)는
+- 이미지 파일을 저장소에 복사 (각 매체 URL을 그대로 링크한다) — 단, 카드뉴스 JPEG(`cardnews/**/*.jpg`)는
   `cardnews.py`가 만드는 우리 자체 그래픽이라 예외. 매체 사진을 카드뉴스 배경으로 쓰지 않는다.
 - 기사에 `topic` 필드를 빠뜨리는 것 (카테고리 탭 아카이브에서 누락된다)
 - 카드뉴스의 `ref`가 그날 `data/<날짜>.json`에 실제로 없는 기사를 가리키게 두는 것

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>주간 요약 — HEUY.ARCHI</title>
+<meta name="description" content="HEUY.ARCHI 주간 요약 3주. 한 주의 톱기사·제도규제·설계공모를 한 페이지로.">
+<link rel="canonical" href="https://huey-studio.github.io/weekly.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HEUY.ARCHI">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="주간 요약 — HEUY.ARCHI">
+<meta property="og:description" content="HEUY.ARCHI 주간 요약 3주. 한 주의 톱기사·제도규제·설계공모를 한 페이지로.">
+<meta property="og:url" content="https://huey-studio.github.io/weekly.html">
+<meta property="og:image" content="https://huey-studio.github.io/assets/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="주간 요약 — HEUY.ARCHI">
+<meta name="twitter:description" content="HEUY.ARCHI 주간 요약 3주. 한 주의 톱기사·제도규제·설계공모를 한 페이지로.">
+<meta name="twitter:image" content="https://huey-studio.github.io/assets/og-default.jpg">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="alternate" type="application/rss+xml" title="HEUY.ARCHI" href="feed.xml">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" as="style" crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
+<link rel="stylesheet" href="assets/style.css">
+<script>(function(){try{var t=localStorage.getItem('heuy-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+<div class="site-nav">
+  <a class="site-nav__brand" href="index.html">HEUY<span>.</span>ARCHI</a>
+  <nav>
+    <a href="index.html">최신호</a>
+    <a href="archive.html">지난호</a>
+    <a href="weekly.html" aria-current="page">주간</a>
+    <a href="stats.html">통계</a>
+    <a href="search.html">검색</a>
+  </nav>
+  <button type="button" class="theme-toggle" id="themeToggle"
+          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
+</div>
+<script>
+(function () {
+  var btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  var root = document.documentElement;
+  function current() {
+    var set = root.getAttribute('data-theme');
+    if (set) return set;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function paint() { btn.textContent = current() === 'dark' ? '☀' : '☾'; }
+  btn.addEventListener('click', function () {
+    var next = current() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('heuy-theme', next); } catch (e) {}
+    paint();
+  });
+  paint();
+})();
+</script>
+<div class="ar-wrap">
+  <header class="ar-head">
+    <h1>HEUY<span>.</span>ARCHI</h1>
+    <div class="tag">DAILY ARCHITECTURE BRIEFING</div>
+    <div class="catbar"><a href="index.html">메인</a><a href="categories/regulation.html">제도규제</a><a href="categories/projects.html">프로젝트</a><a href="categories/urban-regen.html">도시재생</a><a href="categories/disaster-heritage.html">재난유산</a><a href="categories/korea.html">국내</a><a href="categories/competitions.html">설계공모</a><a href="categories/awards.html">수상</a></div>
+    <div class="sub">WEEKLY · 주간 요약 3주</div>
+  </header>
+  <ul class="ar-list">
+      <li class="ar-row">
+        <a href="weekly/2026-W36.html">
+          <span class="ar-date">2026-W36</span>
+          <span class="ar-title">8월 31일 – 9월 1일 · 발행 2호</span>
+          <span class="ar-go">주간 요약 →</span>
+        </a>
+      </li>
+      <li class="ar-row">
+        <a href="weekly/2026-W35.html">
+          <span class="ar-date">2026-W35</span>
+          <span class="ar-title">8월 24일 – 8월 30일 · 발행 7호</span>
+          <span class="ar-go">주간 요약 →</span>
+        </a>
+      </li>
+      <li class="ar-row">
+        <a href="weekly/2026-W34.html">
+          <span class="ar-date">2026-W34</span>
+          <span class="ar-title">8월 17일 – 8월 23일 · 발행 7호</span>
+          <span class="ar-go">주간 요약 →</span>
+        </a>
+      </li>
+  </ul>
+  <div class="ar-foot">주간 요약은 그 주 발행분에서 자동으로 추립니다.</div>
+</div>
+</body>
+</html>

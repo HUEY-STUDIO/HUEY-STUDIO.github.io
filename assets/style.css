@@ -12,10 +12,14 @@
   --red:#9F0F1F;        /* 딥 레드 (킥커·드롭캡) */
   --hot:#FF4D1A;        /* 포인트 레드 닷 */
   --sand:#F2D3B1;       /* 웜 샌드 (핵심팩트 박스) */
+  --sand-line:#E0BE93;  /* 핵심팩트 박스 테두리 */
   --paper:#EFE3D2;      /* 바깥 신문지 */
   --sheet:#FCF7F0;      /* 지면 */
   --rule:#D8C4AA;       /* 굵은 괘선 */
   --rule-2:#E8DAC6;     /* 얇은 괘선 */
+  --bar:#0B0B0C;        /* 검은 바(내비·브랜드바·푸터). 다크모드에서도 검게 유지 */
+  --chart:#9F0F1F;      /* 통계 막대. 계열이 하나뿐이라 한 색만 쓴다 */
+  --mark:#F7E08A;       /* 검색 결과 하이라이트 */
   --font:'Pretendard Variable', Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR',
          'Malgun Gothic', -apple-system, system-ui, sans-serif;
 }
@@ -40,7 +44,7 @@ b{font-weight:800; color:var(--ink)}
   position:sticky; top:0; z-index:99;
   display:flex; justify-content:space-between; align-items:center; gap:16px;
   margin:0 -18px 26px; padding:9px 26px;
-  background:var(--ink); color:#fff;
+  background:var(--bar); color:#fff;
 }
 .site-nav__brand{font-size:13px; font-weight:900; letter-spacing:.16em; color:#fff; text-decoration:none}
 .site-nav__brand span{color:var(--hot)}
@@ -57,7 +61,7 @@ b{font-weight:800; color:var(--ink)}
 
 /* ---- 브랜드 바 ---- */
 .brandbar{
-  margin:0 -30px; background:var(--ink); color:#fff;
+  margin:0 -30px; background:var(--bar); color:#fff;
   display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center;
   gap:6px 16px; padding:7px 30px;
   font-size:10px; font-weight:700; letter-spacing:.18em;
@@ -155,7 +159,7 @@ figcaption{font-size:10.5px; line-height:1.5; color:var(--ink-3); padding:6px 0 
 .topside h3{font-size:19px; font-weight:900; line-height:1.34; letter-spacing:-.035em; margin:0 0 10px}
 .topside .thumb{aspect-ratio:16/9; margin-bottom:11px}
 .topside p{margin:0 0 11px; font-size:12.8px; line-height:1.78; color:var(--ink-2)}
-.facts{list-style:none; margin:0 0 11px; padding:11px 13px; background:var(--sand); border:1px solid #E0BE93}
+.facts{list-style:none; margin:0 0 11px; padding:11px 13px; background:var(--sand); border:1px solid var(--sand-line)}
 .facts li{font-size:11.8px; line-height:1.62; color:#5E2410; padding-left:13px; position:relative}
 .facts li::before{content:"—"; position:absolute; left:0; color:var(--red)}
 .facts li b{color:#5E2410}
@@ -194,7 +198,7 @@ article .src{margin-top:auto}
 /* ---- 지면 푸터 ---- */
 .paper-foot{
   margin:24px -30px -34px; padding:22px 30px 26px;
-  background:var(--ink); color:#B8AFA6;
+  background:var(--bar); color:#B8AFA6;
   font-size:10.5px; line-height:1.85; text-align:center;
 }
 .paper-foot .cn{font-size:15px; font-weight:900; letter-spacing:.22em; color:#fff; margin-bottom:6px}
@@ -212,7 +216,7 @@ article .src{margin-top:auto}
   margin-bottom:22px; padding-bottom:22px; border-bottom:3px solid var(--ink);
 }
 .cn-tile{display:block; text-decoration:none; color:inherit}
-.cn-thumb{position:relative; aspect-ratio:4/5; overflow:hidden; background:var(--ink)}
+.cn-thumb{position:relative; aspect-ratio:4/5; overflow:hidden; background:var(--bar)}
 .cn-thumb img{width:100%; height:100%; object-fit:cover; display:block; transition:transform .3s}
 .cn-tile:hover .cn-thumb img{transform:scale(1.035)}
 .cn-tag{margin-top:9px; font-size:9.5px; font-weight:800; letter-spacing:.18em; color:var(--hot)}
@@ -227,7 +231,7 @@ article .src{margin-top:auto}
 .cn-carousel-wrap{position:relative}
 .cn-carousel{
   display:flex; overflow-x:auto; scroll-snap-type:x mandatory;
-  border:1px solid var(--rule); background:var(--ink);
+  border:1px solid var(--rule); background:var(--bar);
   -webkit-overflow-scrolling:touch; scrollbar-width:none;
   cursor:grab; user-select:none;
 }
@@ -291,6 +295,105 @@ article .src{margin-top:auto}
   .cat-row{grid-template-columns:92px 1fr; gap:12px}
 }
 
+/* ================= 화면 전환 버튼 ================= */
+.theme-toggle{
+  flex:0 0 auto; width:26px; height:26px; padding:0; cursor:pointer;
+  border:1px solid rgba(255,255,255,.28); border-radius:50%;
+  background:transparent; color:#B8AFA6; font-size:12px; line-height:1;
+  font-family:inherit;
+}
+.theme-toggle:hover{color:var(--hot); border-color:var(--hot)}
+
+/* ================= 이전호 / 다음호 ================= */
+.issue-nav{
+  display:grid; grid-template-columns:1fr auto 1fr; gap:10px; align-items:stretch;
+  margin:30px 0 0; padding-top:18px; border-top:3px double var(--ink);
+}
+.io-cell{
+  display:flex; flex-direction:column; justify-content:center; gap:3px;
+  padding:11px 14px; border:1px solid var(--rule); background:var(--sheet);
+  text-decoration:none; color:inherit;
+}
+.io-cell:hover{border-color:var(--hot)}
+.io-cell.is-empty{border:0; background:transparent; pointer-events:none}
+.io-next{text-align:right}
+.io-all{justify-content:center; text-align:center; background:transparent; border-style:dashed}
+.io-label{font-size:10.5px; font-weight:800; letter-spacing:.12em; color:var(--red)}
+.io-date{font-size:14px; font-weight:800; letter-spacing:-.01em}
+.io-date em{font-style:normal; font-size:11px; color:var(--ink-3); margin-left:4px}
+
+/* ================= 검색 ================= */
+.sc-box{margin:26px 0 8px}
+.sc-input{
+  width:100%; padding:14px 16px; font-family:inherit; font-size:15px; font-weight:600;
+  color:var(--ink); background:var(--sheet);
+  border:1px solid var(--ink); border-radius:0; outline:none;
+}
+.sc-input:focus{border-color:var(--hot); box-shadow:0 0 0 3px rgba(255,77,26,.14)}
+.sc-input::placeholder{color:var(--ink-3); font-weight:500}
+.sc-chips{display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 10px}
+.sc-chip{
+  padding:5px 11px; font-family:inherit; font-size:11.5px; font-weight:700; cursor:pointer;
+  color:var(--ink-2); background:transparent; border:1px solid var(--rule);
+}
+.sc-chip:hover{border-color:var(--hot); color:var(--hot)}
+.sc-chip.on{background:var(--ink); border-color:var(--ink); color:var(--sheet)}
+.sc-status{font-size:12px; color:var(--ink-3); padding:4px 0 0}
+.sc-list{list-style:none; margin:14px 0 0; padding:0}
+.sc-row a{
+  display:grid; grid-template-columns:78px 1fr; gap:16px; align-items:start;
+  padding:14px 0; border-bottom:1px solid var(--rule-2); text-decoration:none; color:inherit;
+}
+.sc-row a:hover{background:var(--sheet)}
+.sc-date{font-size:12px; font-weight:800; color:var(--red); letter-spacing:.02em; padding-top:2px}
+.sc-main{display:block; min-width:0}
+.sc-kicker{display:block; font-size:10.5px; font-weight:800; letter-spacing:.1em; color:var(--ink-3); margin-bottom:3px}
+.sc-title{display:block; font-size:15.5px; font-weight:800; line-height:1.45; letter-spacing:-.02em; word-break:keep-all}
+.sc-body{display:block; margin-top:4px; font-size:12.8px; line-height:1.7; color:var(--ink-2); word-break:keep-all}
+.sc-list mark{background:var(--mark); color:var(--ink); padding:0 1px}
+
+/* ================= 주간 요약 ================= */
+.wk-list{list-style:none; margin:0 0 8px; padding:0}
+.wk-row a{
+  display:grid; grid-template-columns:64px 1fr; gap:16px; align-items:start;
+  padding:13px 0; border-bottom:1px solid var(--rule-2); text-decoration:none; color:inherit;
+}
+.wk-row a:hover{background:var(--sheet)}
+.wk-date{font-size:14px; font-weight:900; color:var(--red); letter-spacing:-.02em}
+.wk-date em{display:block; font-style:normal; font-size:10.5px; font-weight:700; color:var(--ink-3)}
+.wk-main{display:block; min-width:0}
+.wk-kicker{display:block; font-size:10.5px; font-weight:800; letter-spacing:.1em; color:var(--ink-3); margin-bottom:3px}
+.wk-title{display:block; font-size:16px; font-weight:800; line-height:1.45; letter-spacing:-.02em; word-break:keep-all}
+
+/* ================= 통계 ================= */
+/* 차트는 전부 단일 계열 크기 비교라 색을 하나만 쓴다. 값은 막대 끝에 직접 적어
+   색이나 길이만으로 읽지 않아도 되게 한다. */
+.st-tiles{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; margin:20px 0 8px; background:var(--rule)}
+.st-tile{display:flex; flex-direction:column; gap:4px; padding:18px 16px; background:var(--sheet)}
+.st-tv{font-size:32px; font-weight:900; letter-spacing:-.04em; line-height:1; color:var(--ink)}
+.st-tv i{font-style:normal; font-size:17px; margin-left:1px; color:var(--ink-3)}
+.st-tl{font-size:11px; font-weight:700; letter-spacing:.06em; color:var(--ink-3)}
+.st-card{margin:26px 0 0}
+.st-note{margin:-6px 0 10px; font-size:11.5px; color:var(--ink-3)}
+.st-empty{padding:22px 0; font-size:12.5px; color:var(--ink-3)}
+
+.st-bars{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.st-bar{display:grid; grid-template-columns:132px 1fr 62px; gap:12px; align-items:center; padding:3px 0}
+.st-bl{font-size:12.5px; font-weight:700; color:var(--ink-2); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.st-btrack{display:block; height:15px; background:var(--rule-2)}
+.st-bfill{display:block; height:100%; background:var(--chart); border-radius:0 3px 3px 0}
+.st-bar:hover .st-bfill{background:var(--hot)}
+.st-bv{font-size:12.5px; font-weight:800; color:var(--ink); text-align:right}
+.st-bv i{font-style:normal; font-weight:600; color:var(--ink-3); margin-left:1px}
+
+.st-cols{list-style:none; margin:0; padding:0; display:flex; align-items:flex-end; gap:2px; height:140px}
+.st-col{flex:1 1 0; min-width:0; display:flex; flex-direction:column; justify-content:flex-end; align-items:center; height:100%; position:relative}
+.st-cfill{display:block; width:100%; background:var(--chart); border-radius:3px 3px 0 0; order:2}
+.st-col:hover .st-cfill{background:var(--hot)}
+.st-cv{order:1; font-size:10px; font-weight:800; color:var(--ink-3); margin-bottom:3px}
+.st-cl{order:3; margin-top:6px; font-size:9.5px; font-weight:700; color:var(--ink-3); white-space:nowrap;
+       writing-mode:vertical-rl; text-orientation:mixed; letter-spacing:.02em}
+
 /* ================= 반응형 ================= */
 @media (max-width:980px){
   .topblock{grid-template-columns:1fr}
@@ -324,7 +427,65 @@ article .src{margin-top:auto}
   .paper-foot{margin:24px -16px -24px; padding:20px 16px 22px}
   .ar-row a{grid-template-columns:1fr; gap:6px}
   .ar-go{display:none}
+  .site-nav{gap:8px}
+  .site-nav nav{gap:11px}
+  .site-nav nav a{font-size:10px; letter-spacing:.06em}
+  .issue-nav{grid-template-columns:1fr 1fr; gap:8px}
+  .io-all{grid-column:1 / -1; order:3}
+  .st-tiles{grid-template-columns:repeat(2,1fr)}
+  .st-bar{grid-template-columns:96px 1fr 50px; gap:8px}
+  .st-bl{font-size:11.5px}
+  .st-cols{height:112px}
+  .st-cv{display:none}
+  .sc-row a,.wk-row a{grid-template-columns:56px 1fr; gap:11px}
 }
+
+/* ================= 다크모드 ================= */
+/* 신문지 질감을 밤판(night edition)으로 옮긴 팔레트. 색 토큰만 다시 정의하고
+   구조·레이아웃은 건드리지 않는다. 검은 바(--bar)는 양쪽 모드에서 그대로 검다.
+   딥레드(#9F0F1F)는 어두운 배경에서 거의 안 보여서 킥커·드롭캡·차트 색을 밝게 올린다
+   (차트 색은 어두운 지면 대비 3:1 이상을 만족하는 값으로 골랐다). */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ink:#F2EBE1;
+    --ink-2:#CFC5B8;
+    --ink-3:#948A7E;
+    --red:#FF6B4A;
+    --hot:#FF7A4D;
+    --sand:#3A2E20;
+    --sand-line:#55432E;
+    --paper:#100E0C;
+    --sheet:#1A1714;
+    --rule:#3B332C;
+    --rule-2:#2B2521;
+    --chart:#E8663C;
+    --mark:#6B5A18;
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#F2EBE1;
+  --ink-2:#CFC5B8;
+  --ink-3:#948A7E;
+  --red:#FF6B4A;
+  --hot:#FF7A4D;
+  --sand:#3A2E20;
+  --sand-line:#55432E;
+  --paper:#100E0C;
+  --sheet:#1A1714;
+  --rule:#3B332C;
+  --rule-2:#2B2521;
+  --chart:#E8663C;
+  --mark:#6B5A18;
+}
+/* 지면 그림자는 밝은 배경 전제라 어두운 화면에선 걷어낸다. */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .sheet{box-shadow:none}
+  :root:not([data-theme="light"]) body{background-image:none}
+  :root:not([data-theme="light"]) .thumb img{filter:brightness(.92)}
+}
+:root[data-theme="dark"] .sheet{box-shadow:none}
+:root[data-theme="dark"] body{background-image:none}
+:root[data-theme="dark"] .thumb img{filter:brightness(.92)}
 
 /* ================= 인쇄 ================= */
 @media print{

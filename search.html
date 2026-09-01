@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>검색 — HEUY.ARCHI</title>
+<meta name="description" content="HEUY.ARCHI 지난 지면 전체 297건을 키워드로 검색합니다.">
+<link rel="canonical" href="https://huey-studio.github.io/search.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HEUY.ARCHI">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="검색 — HEUY.ARCHI">
+<meta property="og:description" content="HEUY.ARCHI 지난 지면 전체 297건을 키워드로 검색합니다.">
+<meta property="og:url" content="https://huey-studio.github.io/search.html">
+<meta property="og:image" content="https://huey-studio.github.io/assets/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="검색 — HEUY.ARCHI">
+<meta name="twitter:description" content="HEUY.ARCHI 지난 지면 전체 297건을 키워드로 검색합니다.">
+<meta name="twitter:image" content="https://huey-studio.github.io/assets/og-default.jpg">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="alternate" type="application/rss+xml" title="HEUY.ARCHI" href="feed.xml">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" as="style" crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
+<link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"HEUY.ARCHI","url":"https://huey-studio.github.io/","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://huey-studio.github.io/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
+<script>(function(){try{var t=localStorage.getItem('heuy-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+<div class="site-nav">
+  <a class="site-nav__brand" href="index.html">HEUY<span>.</span>ARCHI</a>
+  <nav>
+    <a href="index.html">최신호</a>
+    <a href="archive.html">지난호</a>
+    <a href="weekly.html">주간</a>
+    <a href="stats.html">통계</a>
+    <a href="search.html" aria-current="page">검색</a>
+  </nav>
+  <button type="button" class="theme-toggle" id="themeToggle"
+          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
+</div>
+<script>
+(function () {
+  var btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  var root = document.documentElement;
+  function current() {
+    var set = root.getAttribute('data-theme');
+    if (set) return set;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function paint() { btn.textContent = current() === 'dark' ? '☀' : '☾'; }
+  btn.addEventListener('click', function () {
+    var next = current() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('heuy-theme', next); } catch (e) {}
+    paint();
+  });
+  paint();
+})();
+</script>
+<div class="ar-wrap">
+  <header class="ar-head">
+    <h1>HEUY<span>.</span>ARCHI</h1>
+    <div class="tag">DAILY ARCHITECTURE BRIEFING</div>
+    <div class="catbar"><a href="index.html">메인</a><a href="categories/regulation.html">제도규제</a><a href="categories/projects.html">프로젝트</a><a href="categories/urban-regen.html">도시재생</a><a href="categories/disaster-heritage.html">재난유산</a><a href="categories/korea.html">국내</a><a href="categories/competitions.html">설계공모</a><a href="categories/awards.html">수상</a></div>
+    <div class="sub">SEARCH · 전체 297건에서 찾기</div>
+  </header>
+  <div class="sc-box">
+    <input type="search" id="scInput" class="sc-input" autocomplete="off"
+           placeholder="키워드로 지난 지면 전체를 검색합니다 — 예: 성수동, 리모델링, 목조" autofocus>
+    <div class="sc-chips">
+      <button type="button" class="sc-chip on" data-topic="">전체</button><button type="button" class="sc-chip" data-topic="제도규제">제도규제</button><button type="button" class="sc-chip" data-topic="프로젝트">프로젝트</button><button type="button" class="sc-chip" data-topic="도시재생">도시재생</button><button type="button" class="sc-chip" data-topic="재난유산">재난유산</button><button type="button" class="sc-chip" data-topic="설계공모">설계공모</button><button type="button" class="sc-chip" data-topic="수상">수상</button>
+    </div>
+    <div class="sc-status" id="scStatus">검색어를 입력하세요.</div>
+  </div>
+  <ul class="sc-list" id="scList"></ul>
+</div>
+<script>
+(function () {
+  var input = document.getElementById('scInput');
+  var list = document.getElementById('scList');
+  var status = document.getElementById('scStatus');
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.sc-chip'));
+  var data = null, loading = false, topic = '', timer = null;
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+  function mark(text, q) {
+    var out = esc(text);
+    if (!q) return out;
+    var i = out.toLowerCase().indexOf(q.toLowerCase());
+    if (i < 0) return out;
+    return out.slice(0, i) + '<mark>' + out.slice(i, i + q.length) + '</mark>' + out.slice(i + q.length);
+  }
+
+  function load() {
+    if (data || loading) return Promise.resolve();
+    loading = true;
+    status.textContent = '색인을 불러오는 중…';
+    return fetch('search-index.json').then(function (r) { return r.json(); })
+      .then(function (j) { data = j; loading = false; })
+      .catch(function () { loading = false; status.textContent = '색인을 불러오지 못했습니다.'; });
+  }
+
+  function score(row, q) {
+    var s = 0;
+    if (row.t.toLowerCase().indexOf(q) >= 0) s += 6;
+    if ((row.k || '').toLowerCase().indexOf(q) >= 0) s += 3;
+    if ((row.b || '').toLowerCase().indexOf(q) >= 0) s += 2;
+    if ((row.o || '').toLowerCase().indexOf(q) >= 0) s += 1;
+    if ((row.p || '').toLowerCase().indexOf(q) >= 0) s += 1;
+    return s;
+  }
+
+  function run() {
+    var raw = input.value.trim();
+    if (!raw) {
+      list.innerHTML = '';
+      status.textContent = topic ? ('‘' + topic + '’ 분야 — 검색어를 입력하세요.') : '검색어를 입력하세요.';
+      return;
+    }
+    load().then(function () {
+      if (!data) return;
+      var q = raw.toLowerCase();
+      var hits = [];
+      for (var i = 0; i < data.length; i++) {
+        var row = data[i];
+        if (topic && row.p !== topic) continue;
+        var s = score(row, q);
+        if (s > 0) hits.push([s, row]);
+      }
+      hits.sort(function (a, b) { return b[0] - a[0] || (a[1].d < b[1].d ? 1 : -1); });
+      status.textContent = hits.length
+        ? ('‘' + raw + '’ — ' + hits.length + '건' + (topic ? ' · ' + topic : ''))
+        : ('‘' + raw + '’ — 결과가 없습니다.');
+      list.innerHTML = hits.slice(0, 120).map(function (h) {
+        var r = h[1], ymd = r.d.split('-');
+        return '<li class="sc-row">'
+          + '<a href="issues/' + r.d + '.html#' + r.a + '">'
+          + '<span class="sc-date">' + ymd[0] + '.' + ymd[1] + '.' + ymd[2] + '</span>'
+          + '<span class="sc-main">'
+          + '<span class="sc-kicker">' + esc(r.p) + (r.o ? ' · ' + esc(r.o) : '') + '</span>'
+          + '<span class="sc-title">' + mark(r.t, raw) + '</span>'
+          + '<span class="sc-body">' + mark(r.b, raw) + '</span>'
+          + '</span></a></li>';
+      }).join('');
+    });
+  }
+
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(run, 120);
+  });
+  chips.forEach(function (c) {
+    c.addEventListener('click', function () {
+      chips.forEach(function (x) { x.classList.remove('on'); });
+      c.classList.add('on');
+      topic = c.getAttribute('data-topic') || '';
+      run();
+    });
+  });
+
+  var pre = new URLSearchParams(location.search).get('q');
+  if (pre) { input.value = pre; run(); }
+})();
+</script>
+</body>
+</html>

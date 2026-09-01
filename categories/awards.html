@@ -4,6 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>수상 — HEUY.ARCHI</title>
+<meta name="description" content="HEUY.ARCHI &#x27;수상&#x27; 분야 기사 전체 23건. 발행일 전체를 통틀어 모은 아카이브.">
+<link rel="canonical" href="https://huey-studio.github.io/categories/awards.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HEUY.ARCHI">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="수상 — HEUY.ARCHI">
+<meta property="og:description" content="HEUY.ARCHI &#x27;수상&#x27; 분야 기사 전체 23건. 발행일 전체를 통틀어 모은 아카이브.">
+<meta property="og:url" content="https://huey-studio.github.io/categories/awards.html">
+<meta property="og:image" content="https://huey-studio.github.io/assets/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="수상 — HEUY.ARCHI">
+<meta name="twitter:description" content="HEUY.ARCHI &#x27;수상&#x27; 분야 기사 전체 23건. 발행일 전체를 통틀어 모은 아카이브.">
+<meta name="twitter:image" content="https://huey-studio.github.io/assets/og-default.jpg">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="alternate" type="application/rss+xml" title="HEUY.ARCHI" href="../feed.xml">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="48x48" href="../assets/favicon-48x48.png">
@@ -12,6 +29,7 @@
 <link rel="stylesheet" as="style" crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
 <link rel="stylesheet" href="../assets/style.css">
+<script>(function(){try{var t=localStorage.getItem('heuy-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
 <body>
 <div class="site-nav">
@@ -19,8 +37,33 @@
   <nav>
     <a href="../index.html">최신호</a>
     <a href="../archive.html">지난호</a>
+    <a href="../weekly.html">주간</a>
+    <a href="../stats.html">통계</a>
+    <a href="../search.html">검색</a>
   </nav>
+  <button type="button" class="theme-toggle" id="themeToggle"
+          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
 </div>
+<script>
+(function () {
+  var btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  var root = document.documentElement;
+  function current() {
+    var set = root.getAttribute('data-theme');
+    if (set) return set;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function paint() { btn.textContent = current() === 'dark' ? '☀' : '☾'; }
+  btn.addEventListener('click', function () {
+    var next = current() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('heuy-theme', next); } catch (e) {}
+    paint();
+  });
+  paint();
+})();
+</script>
 <div class="ar-wrap">
   <header class="ar-head">
     <h1>HEUY<span>.</span>ARCHI</h1>
