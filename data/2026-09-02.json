@@ -1,0 +1,281 @@
+{
+  "vol": "VOL.01  NO.017",
+  "editor": "HUEY",
+  "counts": { "total": 19, "intl": 14, "kr": 5 },
+  "outlets": [
+    "ArchDaily",
+    "designboom",
+    "Construction Dive",
+    "AGC",
+    "경기뉴스",
+    "주택폴리오",
+    "세계일보(인천)"
+  ],
+
+  "teasers": [
+    { "title": "발레아레스 사회주택, 2026 오벨상 품다", "desc": "행정 자체를 실험한 스페인의 공공주택 모델", "label": "AWARDS" },
+    { "title": "쿠마 겐고, 2027 앙드레 퓌트만상 수상", "desc": "자연과 건축의 관계를 탐구해온 공로 인정", "label": "AWARDS" },
+    { "title": "철강·알루미늄 관세 50%, 설계 예산 흔든다", "desc": "美 232조 관세, 2026년 내내 공사비 밀어올려", "label": "POLICY" },
+    { "title": "안양건축문화제, 김중업박물관서 개막", "desc": "9월 1~6일, 건축상 시상과 시민참여 프로그램", "label": "CULTURE" }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 수상",
+    "lede": "발레아레스 사회주택 모델, 2026 오벨상 수상…행정이 만든 건축",
+    "lede_em": "2026 오벨상",
+    "image": "https://images.adsttc.com/media/images/6a96/4b7b/b853/2e01/895b/69c6/newsletter/the-balearic-social-housing-model-receives-the-2026-obel-award_21.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "스페인 발레아레스 제도의 공공 사회주택 단지 ⓒ Balearic Social Housing Model / Obel Award",
+    "body": [
+      "덴마크 오벨재단이 주최하는 **2026 오벨상**(Obel Award) 수상작으로 스페인 **발레아레스 제도**의 '사회주택 모델'이 선정됐다. 크리스 발레스터 파레츠와 카를레스 올리버 바르셀로가 이끈 이 모델은 **2019년부터 2023년**까지 지역 정부가 심각한 주택난에 대응해 공공주택 행정 체계 자체를 바꾼 사례로, 개별 건물이 아니라 정책과 제도가 상을 받은 드문 경우다.",
+      "이 모델은 지역 자원 활용, 수동형 기후대응 설계, 임대주택의 영구 공공자산화 등 여섯 가지 전환을 축으로 삼는다. 대량 공급과 건축·환경·사회적 품질을 동시에 지키는 접근을 제시했다는 평가를 받는다.",
+      "심사위원장 나탈리 드 브리스는 \"혁신적 건축은 설계와 재료 선택뿐 아니라 조달·정책·과정에서도 발견될 수 있다\"고 밝혔다. 심사위원단은 공공 행정 자체를 실험의 장으로 삼은 점을 가장 높이 평가했다고 전했다.",
+      "오벨재단은 이번 수상을 계기로 올해 상의 주제였던 '시스템 해킹(Systems' Hack)'을 **2027년**까지 이어가기로 했다. 공공 정책과 건축 실험, 환경 책임, 지역 생산 역량을 하나의 시스템으로 엮은 이 사례가 국제적으로 얼마나 확산될지 주목된다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        { "text": "The Balearic Social Housing Model Receives the 2026 OBEL Award", "url": "https://www.archdaily.com/1184293/the-balearic-social-housing-model-receives-the-2026-obel-award" }
+      ]
+    },
+    "topic": "수상"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://imgproxy.divecdn.com/pOlykdARrgXHKKEmefagL8eBbOIEp3ZhLN7APN6T3UY/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjI0MzE1NjU2LmpwZw==.webp",
+    "image_label": "CONSTRUCTION DIVE",
+    "title": "철강·알루미늄 관세 50%, 2026년에도 설계 예산 흔든다",
+    "body": [
+      "**2026년 4월** 개정된 미국 무역확장법 232조에 따라 철강·알루미늄·구리를 주원료로 한 건축 자재에 **50%** 관세가 그대로 유지되고 있다. 이들 금속이 실질적으로 들어간 파생 제품에는 **25%** 관세가 붙는다. 자재별 인상 폭에 따라 프로젝트마다 영향이 크게 갈리면서, 설계 초기 단계부터 관세를 반영한 자재 선정과 예산 산정이 실무 과제로 떠올랐다."
+    ],
+    "facts": [
+      "관세율: 철강·알루미늄·구리 **50%** / 파생 제품 **25%** / 연질목재 **10%**",
+      "물가지수: 알루미늄재 전년비 **30.5%**·철강재 **17%** 상승",
+      "공사비 영향: 철강 비중 높은 중층 공동주택 기준 ㎡당 **15~25달러** 추가",
+      "주택 1채당 평균 **1만 7,500달러** 추가 비용 예상"
+    ],
+    "body_after": [
+      "미국건설협회(AGC) 켄 사이먼슨 수석이코노미스트는 \"관세가 유지되는 한 건설비는 2026년 내내 계속 오를 것\"이라고 말했다. 수입 마감재·설비 비중이 큰 현장에서는 설계 단계부터 자재 대체안을 함께 검토해야 하는 상황이다."
+    ],
+    "source": [
+      { "outlet": "Construction Dive", "links": [{ "text": "What adjusted steel, aluminum and copper tariffs mean for construction", "url": "https://www.constructiondive.com/news/adjusted-steel-aluminum-copper-tariffs-construction/816944/" }] },
+      { "outlet": "AGC", "links": [{ "text": "Double-digit Increases In Aluminum, Steel And Copper Costs Drive Up Producer Price Indexes", "url": "https://www.agc.org/news/2026/01/30/double-digit-increases-aluminum-steel-and-copper-costs-drive-producer-price-indexes-construction" }] }
+    ],
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "마이애미 윈우드에 색색이 쌓아올린 '워마' 주거단지",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/09/woma-mvrdv-miami-wynwood-designboom-01.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "네덜란드 건축사무소 **MVRDV**가 마이애미 윈우드 노르테 지구의 옛 커피 로스팅 공장 부지에 163가구 규모 복합주거 '워마(WOMA)'를 설계했다. 빨강·초록·파랑·모래색 블록을 층층이 쌓아올린 매스와 직물에서 영감을 받은 파사드로 마이애미 패션 지구의 역사를 건물 외관에 새겼다.",
+        "단지 중앙에는 이탈리아 디자이너 포르나세티의 모자이크로 꾸민 공용 광장이 배치되고, 초소형 유닛부터 복층형 아틀리에 레지던스까지 다양한 평면이 들어선다. 옥상에는 세미올림픽 규격 수영장과 조경정원을 올려 커뮤니티 공간을 완성했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [{ "text": "MVRDV stacks colorful WOMA housing around Fornasetti mosaic plaza in Miami", "url": "https://www.designboom.com/architecture/mvrdv-colorful-woma-housing-fornasetti-miami-wynwood-uribe-schwarzkopf/" }]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "시드니 파라마타에 뜨는 9억 호주달러 박물관",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/08/intricate-exoskeleton-powerhouse-parramatta-sydney-australia-moreau-kusunoki-genton-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "호주 시드니 서부 파라마타 강변에 들어서는 신설 박물관 '파워하우스 파라마타'가 **11월 7일** 개관한다. 프랑스·일본계 설계사무소 **모로쿠스노키**가 총괄설계를, 호주의 젠턴이 로컬 건축을, 아럽이 구조를 맡았다. 총사업비는 **9억 1,500만 호주달러**로 시드니 오페라하우스 이후 호주 최대 규모 문화시설 프로젝트로 꼽힌다.",
+        "강철 뼈대가 그대로 드러난 격자형 외골격 파사드가 건물을 감싸며 채광과 차양을 동시에 조절한다. 개관 전시로는 OMA/AMO가 큐레이팅한 'The Mall'을 비롯해 5개 전시가 준비됐고, 파워하우스 소장품 1,600여 점을 포함해 총 3,000여 점의 과학·기술·디자인 유물이 전시된다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [{ "text": "intricate exoskeleton wraps powerhouse parramatta in sydney, australia by moreau kusunoki + genton", "url": "https://www.designboom.com/architecture/intricate-exoskeleton-powerhouse-parramatta-sydney-australia-moreau-kusunoki-genton/" }]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "우한 습지 위, 이중나선 계단으로 오르는 조류전망대",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/a-tectonic-narrative-of-perception-600-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "중국 우한시 톈후습지에 샹 아키텍츠가 높이 **19.8m**의 조류관찰탑을 세웠다. 오르내림을 분리한 두 개의 나선형 계단이 서로 맞물리며 중앙에는 폭 3m의 수직 개구부를 남겼고, 계단 곳곳에 놓인 **24개** 전망 플랫폼에서 습지 풍경이 단계적으로 펼쳐진다."
+      ],
+      "source": { "outlet": "designboom", "links": [{ "text": "xiang architects tops chenhu wetland with dual helix bird-watching tower in wuhan", "url": "https://www.designboom.com/architecture/double-helix-stairs-wetland-xiang-architects-wuhan-observation-tower/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "1969년 모더니즘 시청사, 유리 계단으로 시민에 열리다",
+      "image": "https://www.designboom.com/wp-content/dbsub/467823/2026-08-25/reconstruction-of-city-hall-in-prerov-a-building-that-opens-to-its-city-6-6a8d9911d040e.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "체코 프르제로프의 1969년 준공 시청사를 아뜰리에 그램이 개방형 시민시설로 개조한다. 연면적 **5,000㎡**, 6개 층 규모 건물에서 가장 큰 개입은 남쪽 외벽에 새로 낸 유리 계단으로, 폐쇄적이던 행정청사를 광장과 시각적으로 잇는다."
+      ],
+      "source": { "outlet": "designboom", "links": [{ "text": "reconstruction of city hall in Přerov: a building that opens to its city", "url": "https://www.designboom.com/architecture/steel-layered-facade-1969-modernist-city-hall-czech-republic-prerov-atelier-gram/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 수상",
+      "title": "쿠마 겐고, 2027 앙드레 퓌트만 평생공로상",
+      "image": "https://images.adsttc.com/media/images/6a96/7f33/b853/2e01/895b/6afb/medium_jpg/kengo-kuma-to-receive-the-2027-andree-putman-lifetime-achievement-award_11.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "일본 건축가 **쿠마 겐고**가 크레아퇴르 디자인상(CDA)이 수여하는 **2027년** 앙드레 퓌트만 평생공로상 수상자로 선정됐다. 시상식은 **2027년 1월 16일** 파리 샹그릴라 호텔에서 열린다. 1990년 도쿄에 사무소를 연 쿠마는 V&A 던디, 일본 국립경기장 등을 설계하며 '자연과 건축의 관계'를 일관되게 탐구해왔다는 평가를 받는다."
+      ],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "Kengo Kuma to Receive the 2027 Andrée Putman Lifetime Achievement Award", "url": "https://www.archdaily.com/1184310/kengo-kuma-to-receive-the-2027-andree-putman-lifetime-achievement-award" }] },
+      "topic": "수상"
+    },
+    {
+      "kicker": "해외 · 설계공모",
+      "title": "미스반데어로에 재단, '리빙 플레이스' 6회 공모 접수中",
+      "image": "https://images.adsttc.com/media/images/6a70/7de8/1801/ca00/0176/ee7e/newsletter/Living_Places_Simon.jpg?1785757167",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "미스반데어로에 재단이 주관하는 '리빙 플레이스 - 시몬 건축상' 6회 공모가 **9월 14일**까지 등록을, **10월 5일**까지 작품을 접수한다. 유럽 전역과 멕시코·브라질에 이어 올해 처음 모로코가 참가국에 추가됐다. 당선작 2곳에 각각 **1만 유로**와 트로피가 주어진다."
+      ],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "Living Places – Simon Architecture Prize 6th edition: 2026", "url": "https://www.archdaily.com/1182097/living-places-simon-architecture-prize-6th-edition-2026" }] },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "충남 보령 청라면 행정복지센터, 신축 설계공모",
+      "body": [
+        "충남 보령시가 청라면 행정복지센터 신축공사 설계공모를 **8월 31일** 공고했다. 설계비는 **2억 6,000만 원** 규모로, 업무시설로 분류돼 발주됐다."
+      ],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "청라면 행정복지센터 신축공사 공모전", "url": "https://jootek.com/folio/contests/18857" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "'건축, 사람과 공간을 잇다'…안양건축문화제 개막",
+      "body": [
+        "안양시가 **9월 1일부터 6일까지** 김중업건축박물관 일원에서 '2026 안양건축문화제'를 연다. 안양시건축사회와 공동주최로 수상작과 건축사 작품, 특수학교 학생 작품 전시와 함께 중앙성당·김중업건축박물관 투어, 어린이 그리기대회 등 시민참여 프로그램을 진행한다. 개막식과 건축문화상 시상식은 **9월 5일** 열린다."
+      ],
+      "source": { "outlet": "경기뉴스", "links": [{ "text": "\"건축, 사람과 공간을 잇다\"…안양시, '2026 안양건축문화제' 개최", "url": "https://www.kgnews.co.kr/news/article.html?no=908962" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "대전 가양2동 행정복지센터, 이전·신축 설계공모",
+      "body": [
+        "대전 동구가 가양2동 행정복지센터를 이전·신축하는 설계공모를 **9월 1일** 공고했다. 설계비는 **3억 1,000만 원** 규모로, 업무시설로 분류돼 발주됐다."
+      ],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "가양2동 행정복지센터 이전·신축 설계용역 공모전", "url": "https://jootek.com/folio/contests/18859" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "서울 광운인공지능고, 그린스마트 미래학교로 개축",
+      "body": [
+        "서울 노원구 광운인공지능고등학교가 그린스마트 미래학교 사업으로 개축공사 설계공모를 **9월 1일** 공고했다. 설계비 **11억 8,000만 원**으로 최근 발표된 교육시설 공모 중 규모가 큰 축에 속한다."
+      ],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "광운인공지능고등학교 그린스마트 미래학교 개축공사 설계용역 공모전", "url": "https://jootek.com/folio/contests/18856" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "경남 진주 도동초, 미래학교 공간재구조화 공모",
+      "body": [
+        "경남 진주시 도동초등학교가 미래학교 공간재구조화 본관동 증축공사 설계공모를 **9월 1일** 공고했다. 설계비는 **4억 5,000만 원**이며, 교육연구시설로 분류된다."
+      ],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "도동초등학교 미래학교 공간재구조화 본관동 증축공사 설계공모 공모전", "url": "https://jootek.com/folio/contests/18858" }] },
+      "topic": "설계공모"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "M+ 홍콩, 헤르초크&드뫼롱 중국 10년 설계과정 전시",
+      "body": "9월 12일부터 내년 1월까지, 국가경기장·타이관·M+ 등 10개 프로젝트의 모형·스케치 200여 점을 공개한다.",
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1184216/m-plus-hong-kong-exhibition-traces-herzog-and-de-meurons-design-process-across-china" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "서포크·CO아키텍츠, UCSF 치의학교육센터 설계",
+      "body": "미션베이 캠퍼스에 2억 7,800만 달러 규모 치의학 교육·임상시설을 프로그레시브 디자인빌드 방식으로 짓는다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/suffolk-wins-california-university-dental-school-project/829259/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "월마트, 조지아에 13억 달러 자동화 물류센터",
+      "body": "카네스빌 소재 150만sf 규모 차세대 이행센터로, 일자리 1,000개를 창출한다. 착공은 올해 말.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/walmart-build-fulfillment-center-georgia-megaproject-construction/829255/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "프랑스 보종라로멘, 돌담이 감싼 예술학교 광장",
+      "body": "미스트랄 바람을 막는 55m 사각 석재 외벽 안에 음악·무용학교, 공연홀, 어린이센터를 목조 건물 3동으로 배치했다.",
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/mineral-stone-wall-enclosure-tectoniques-cultural-center-france-vaison-la-romaine/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "경기 군포경찰서 재건축, 설계용역 공모 공고",
+      "body": "군포경찰서 재건축사업 설계용역을 8월 31일 공고했다. 설계비 17억 1,000만 원 규모로 최근 발표된 공공청사 공모 중 규모가 큰 편이다.",
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "기사", "url": "https://jootek.com/folio/contests/18855" }] },
+      "topic": "설계공모"
+    },
+    {
+      "title": "제35회 대구광역시 건축상, 심사 돌입…10월 시상",
+      "body": "최근 3년 새 사용승인된 건물을 대상으로 접수를 마감하고 심사 중이다. 대상 1점 등 총 7점과 시민상을 뽑아 10월 대구건축제에서 시상한다.",
+      "source": { "outlet": "세계일보(인천)", "links": [{ "text": "기사", "url": "http://incheon.thesegye.com/news/view/1065590720985561" }] },
+      "topic": "설계공모"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "balearic-social-housing-obel-award",
+      "tag": "AWARDS",
+      "title": "행정이 상을 받았다, 발레아레스 사회주택",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "mediterranean social housing apartment building balcony",
+      "slides": [
+        { "heading": "행정이 만든\n건축이 상을 받다", "body": "2026 오벨상, 스페인 발레아레스 사회주택 모델" },
+        { "heading": "WHAT", "body": "덴마크 오벨재단이 주최하는 2026 오벨상 수상작으로 발레아레스 제도의 '사회주택 모델'이 선정됐다. 개별 건물이 아니라 정책과 행정 체계 자체가 상을 받은 드문 사례다." },
+        { "heading": "BACKGROUND", "body": "2019년부터 2023년까지 지역 정부가 심각한 주택난에 대응해 공공주택 행정 절차를 근본적으로 바꿨다. 크리스 발레스터 파레츠와 카를레스 올리버 바르셀로가 이 전환을 이끌었다." },
+        { "heading": "HOW", "body": "지역 자원 활용, 수동형 기후대응 설계, 임대주택의 영구 공공자산화 등 여섯 가지 전환이 축이다. 대량 공급과 건축·환경 품질을 동시에 지키는 방식을 제시했다." },
+        { "heading": "JUDGES SAY", "body": "심사위원장 나탈리 드 브리스는 '혁신적 건축은 설계뿐 아니라 조달·정책·과정에서도 발견될 수 있다'고 말했다. 오벨재단은 이 주제를 2027년까지 이어가기로 했다." }
+      ]
+    },
+    {
+      "slug": "powerhouse-parramatta-opening",
+      "tag": "PROJECT",
+      "title": "시드니에 뜨는 9억 달러 박물관",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 1,
+      "photo_query": "steel lattice facade museum building exterior architecture",
+      "slides": [
+        { "heading": "시드니에 뜨는\n9억 달러 박물관", "body": "파워하우스 파라마타, 11월 7일 개관" },
+        { "heading": "WHAT", "body": "호주 시드니 서부 파라마타 강변에 신설 박물관 '파워하우스 파라마타'가 11월 7일 문을 연다. 시드니 오페라하우스 이후 호주 최대 문화시설 프로젝트로 꼽힌다." },
+        { "heading": "WHO", "body": "프랑스·일본계 설계사무소 모로쿠스노키가 총괄설계를, 호주의 젠턴이 로컬 건축을, 아럽이 구조를 맡았다. 총사업비는 9억 1,500만 호주달러." },
+        { "heading": "DESIGN", "body": "강철 뼈대가 그대로 드러난 격자형 외골격 파사드가 건물을 감싸며 채광과 차양을 동시에 조절한다." },
+        { "heading": "OPENING", "body": "개관 전시는 OMA/AMO가 큐레이팅한 'The Mall' 등 5개. 파워하우스 소장품 1,600여 점을 포함해 3,000여 점의 과학·기술·디자인 유물이 걸린다." }
+      ]
+    },
+    {
+      "slug": "steel-tariff-design-budget-2026",
+      "tag": "POLICY",
+      "title": "관세 50%, 설계 예산을 흔들다",
+      "ref": { "section": "side" },
+      "bg": 2,
+      "photo_query": "steel beams construction site industrial material",
+      "slides": [
+        { "heading": "관세 50%,\n설계 예산을 흔들다", "body": "美 철강·알루미늄·구리 관세, 2026년 내내 이어진다" },
+        { "heading": "WHAT", "body": "2026년 4월 개정된 미국 무역확장법 232조에 따라 철강·알루미늄·구리 자재에 50% 관세가 유지되고 있다. 파생 제품에는 25% 관세가 붙는다." },
+        { "heading": "NUMBERS", "body": "알루미늄재 가격 전년비 30.5%, 철강재 17% 상승. 철강 비중 높은 중층 공동주택은 ㎡당 15~25달러가 추가된다." },
+        { "heading": "IMPACT", "body": "주택 한 채당 평균 1만 7,500달러가 더 든다는 분석도 있다. AGC 켄 사이먼슨 수석이코노미스트는 '관세가 유지되는 한 건설비는 계속 오를 것'이라고 말했다." }
+      ]
+    }
+  ]
+}
