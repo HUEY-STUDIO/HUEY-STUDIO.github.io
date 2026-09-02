@@ -1,0 +1,289 @@
+{
+  "vol": "VOL.01  NO.018",
+  "editor": "HUEY",
+  "counts": { "total": 20, "intl": 15, "kr": 5 },
+  "outlets": [
+    "designboom",
+    "ArchDaily",
+    "Construction Dive",
+    "Dezeen",
+    "Bustler",
+    "주택폴리오",
+    "이투데이",
+    "내외일보"
+  ],
+
+  "teasers": [
+    { "title": "국토부 내년 예산 69조원, 역대 최대", "desc": "주택공급에만 30조원 투입", "label": "POLICY" },
+    { "title": "오바마 대통령센터, 내부 영상 첫 공개", "desc": "완공 석 달만에 공개된 19.3에이커 캠퍼스", "label": "VIDEO" },
+    { "title": "나이로비서 첫 범아프리카 건축비엔날레", "desc": "9월 7일 개막, 아프리카 대륙 첫 건축 비엔날레", "label": "EVENT" },
+    { "title": "발포비티, 신임 최고전략책임자 임명", "desc": "맥킨지 출신 에마 록스톤이 성장전략 총괄", "label": "PEOPLE" }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 도시재생",
+    "lede": "주민이 직접 건축가 뽑았다…OMA, 타이베이 낡은 마을에 대안적 재개발 제시",
+    "lede_em": "OMA",
+    "image": "https://static.designboom.com/wp-content/uploads/2026/09/omas-taipei-housing-renewal-residents-alternative-standard-tower-designboom-500.jpg",
+    "image_label": "DESIGNBOOM",
+    "caption": "타이베이 쑹산 위린위안 주민 참여형 재개발 조감도 ⓒ OMA / designboom",
+    "body": [
+      "타이베이 쑹산구 위린위안 커뮤니티의 노후 저층 주거지가 주민들이 직접 건축사를 선임해 재개발하는 방식으로 다시 지어진다. **OMA**가 설계를 맡은 이 프로젝트는 부지면적 **6,825㎡**에 **24층** 높이 주거타워 두 동을 짓는 계획으로, 밀도를 높이면서도 기존 동네의 성격을 지키는 것을 목표로 삼는다.",
+      "설계는 엇갈리게 배치한 수직 슬라브와 서로 연결된 테라스, 공유 플랫폼, 정원으로 구성된다. 원래 이웃이 갖고 있던 낮은 밀도와 녹지, 서로 이어진 건축물 패턴을 새 타워 안에 재현하려는 시도다.",
+      "OMA 파트너 데이비드 지아노턴과 프로젝트 디렉터 치아주 린이 설계를 이끌었다. 이들은 \"밀도를 높이면서도 주거의 질을 보존하는 방식\"을 이번 프로젝트의 핵심 원칙으로 제시했다.",
+      "무엇보다 이번 프로젝트가 주목받는 지점은 절차 자체다. 발주처나 조합이 아니라 주민들이 직접 설계사를 골랐다는 점에서, 획일적인 고층 재건축 모델을 반복해온 아시아 각국의 재개발 관행에 대한 하나의 대안으로 거론되고 있다."
+    ],
+    "source": {
+      "outlet": "designboom",
+      "links": [
+        { "text": "OMA's Taipei housing renewal lets residents shape an alternative to the standard tower", "url": "https://www.designboom.com/architecture/oma-taipei-housing-renewal-residents-alternative-standard-tower/" }
+      ]
+    },
+    "topic": "도시재생"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://imgproxy.divecdn.com/D9Mzq-d9mSKeBl5_KKOW1u-J0dLGawl1tjmwQgoF_XU/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMDgtMDVfYXRfMTAuNTQuMzBBTS5wbmc=.webp",
+    "image_label": "CONSTRUCTION DIVE",
+    "title": "美 하원, 교통예산 삭감한 임시예산안 가결…설계·시공 줄줄이 밀릴 판",
+    "body": [
+      "미국 하원이 **9월 2일** 오는 **12월 11일**까지 연방정부를 운영할 임시예산안을 **370 대 48**로 가결해 백악관에 넘겼다. 앞서 상원도 **8월 10일** **90 대 6**으로 통과시켰다. 문제는 내용이다. 이 임시예산안은 대중교통·철도 예산을 큰 폭으로 깎았고, 인프라투자일자리법(IIJA)에 따른 선제적 예산지원도 담기지 않았다."
+    ],
+    "facts": [
+      "대중교통 예산: 현 수준 대비 **20%** 감소",
+      "여객철도 예산: 현 수준 대비 **83%** 감소",
+      "상원 통과 8월 10일(90-6) → 하원 통과 9월 2일(**370-48**)",
+      "적용 기간: **12월 11일**까지"
+    ],
+    "body_after": [
+      "업계 전문가들은 이번 삭감이 \"전국의 지표면 교통 프로젝트의 계획·설계·시공을 즉시 중단시키고 지연시킬 것\"이라고 우려했다. 도로안전 단체들은 임시 연장 자체는 불가피했다고 인정하면서도, 장기 재승인 없이는 설계 파이프라인 자체가 흔들릴 수 있다고 지적했다."
+    ],
+    "source": {
+      "outlet": "Construction Dive",
+      "links": [{ "text": "House sends stopgap funding bill to White House with less transportation funding", "url": "https://www.constructiondive.com/news/senate-fails-stopgap-transportation-funding-bill/827116/" }]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "모든 집이 대서양을 본다…웨스트팜비치에 뜨는 지그재그 타워",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/MI-MAR-CRA-carlo-ratti-associati-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "이탈리아 건축사무소 **CRA-카를로 라티 아소시아티**가 미국 플로리다 웨스트팜비치 다운타운에 **25층** 주거타워 '미마르(MiMar)'를 설계했다. 지그재그로 꺾인 매스로 모든 세대를 동쪽 대서양을 향하게 배치해, 도시 주택에서 흔히 나타나는 '전망 위계'를 없애는 것을 목표로 삼았다. 상층부로 올라갈수록 깊어지는 발코니가 그늘을 만들어준다.",
+        "전체 세대의 **40%**를 저소득층 주택으로 채운 혼합주거로 계획됐으며, 하이브리드 목재-콘크리트 구조로 탄소배출을 줄였다. 부지 내 있는 역사적인 다투라 소방서 건물은 철거하지 않고 그대로 보존한다. 개발은 제프 그린이 맡았다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [{ "text": "every apartment gets an atlantic view in carlo ratti's zig-zag west palm beach tower", "url": "https://www.designboom.com/architecture/apartment-atlantic-view-cra-carlo-ratti-zig-zag-west-palm-beach-tower-mimar-florida/" }]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "3D 프린터로 찍어낸 코르크 학생촌, 유럽 최대 규모로 덴마크에 서다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/3d-printed-concrete-cork-36-student-homes-denmark-skovsporet-saga-space-architects-ms-plus-arkitekter-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "덴마크 홀스테브로에 **SAGA 스페이스 아키텍츠**와 **MS+ 아르키텍터**가 설계한 3D 프린팅 학생주거 '스코브스포레트'가 문을 열었다. **36개** 아파트가 6개의 저층 클러스터에 나뉘어 배치되며, 유럽 최대 규모의 3D 프린팅 주거단지로 꼽힌다. 공용 안뜰과 정원을 중심으로 클러스터를 배치하고 기존 수목의 **90%**를 그대로 남겼다.",
+        "저탄소 시멘트 '퓨처셈'과 시멘트를 아예 쓰지 않는 '메보셈'으로 3D 프린팅 콘크리트 벽체를 찍어 올리고, 코르크 패널로 마감했다. 각 유닛에는 주방·욕실·침실·거실·학습공간을 모두 갖췄고, 자전거 보관소와 보행로도 함께 조성됐다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [{ "text": "3D printed concrete and cork shape 36 student homes in denmark", "url": "https://www.designboom.com/architecture/3d-printed-concrete-cork-36-student-homes-denmark-skovsporet-saga-space-architects-ms-plus-arkitekter/" }]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "밀도가 문제가 아니다…DLR그룹이 그리는 중동의 사람 스케일 도시",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/08/DRL-group-middle-east-urbanism-designboom-interview-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "설계사무소 DLR그룹이 \"밀도는 문제가 아니라 반복적이고 압도적인 디자인이 문제\"라는 입장을 내놨다. 두바이 EMAAR-더 하이츠, 메카 MAAD, 리야드 LIWAN 나즈드 등 중동 프로젝트를 예로 들며, 조경건축을 대규모 매스와 사람 사이를 잇는 중개자로 삼아 그늘과 보행로, 지역 유산을 존중하는 방식으로 고밀도를 인간 스케일로 완화할 수 있다고 설명했다."
+      ],
+      "source": { "outlet": "designboom", "links": [{ "text": "DLR Group on translating urban density into intimate neighborhoods in the middle east", "url": "https://www.designboom.com/architecture/interview-dlr-group-urban-density-intimate-neighborhoods-middle-east/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "거울과 리브드 글라스로 넓힌 암스테르담 협소주택",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/kubota-bachmann-architects-traditional-1890-amsterdam-townhome-fluid-apartment-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "**쿠보타&바흐만 아키텍츠**가 1890년 지어진 암스테르담 타운하우스의 지하층과 1층을 이중 레벨 아파트로 고쳤다. 대형 라이트박스 두 개를 설치해 인공 스카이라이트로 삼고, 중정 창을 반사시키는 거울을 곳곳에 배치해 좁고 깊은 실내에 개방감을 더했다. 조적벽 일부는 확산광이 통과하는 리브드 글라스로 대체했다."
+      ],
+      "source": { "outlet": "designboom", "links": [{ "text": "mirrors, ribbed glass, and light boxes open up a narrow amsterdam townhouse", "url": "https://www.designboom.com/architecture/mirrors-ribbed-glass-light-boxes-narrow-amsterdam-townhouse-kubota-bachmann-architects/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "루카스 내러티브 아트뮤지엄, 9월 22일 LA에 뜬다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/mad-lucas-museum-narrative-art-los-angeles-california-september-preview-2026-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "영화감독 조지 루카스가 세운 '루카스 내러티브 아트뮤지엄'이 **9월 22일** LA 익스포지션파크에서 개관한다. **마옌송**이 이끄는 **MAD 건축사무소**가 설계한 연면적 **30만 평방피트** 규모 건물로, **1,500장** 이상의 FRP(유리섬유강화플라스틱) 패널이 유기적 곡선 매스를 감싼다. 지진에 대비해 최대 **1m** 측면 이동으로 흔들림을 흡수하는 구조를 적용했고, 200여 그루 나무를 심은 조경은 스튜디오-MLA가 맡았다."
+      ],
+      "source": { "outlet": "designboom", "links": [{ "text": "MAD's lucas museum floats above los angeles garden ahead of september opening", "url": "https://www.designboom.com/architecture/mad-lucas-museum-narrative-art-los-angeles-completion-2026-debut-07-16-2025/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "AI 데이터센터, 공급 3배 늘렸는데 공실률은 사상 최저",
+      "image": "https://imgproxy.divecdn.com/ikpa35TGjwXnydVaWFZn9GlDK7fZ7dHUdSuU9KfHjq4/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjg1MjgzNjk0LmpwZw==.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "CBRE 조사 결과 북미 데이터센터 공실률이 2026년 상반기 **1.4%**로 역대 최저를 기록했다. 전력용량은 전년 대비 **33%** 늘고 주요 시장 신규 건설도 **25%** 증가했는데도 공실률이 오히려 떨어진 이례적인 현상이다. 애틀랜타가 **50%** 이상 성장하며 노던버지니아에 이은 새 거점으로 떠올랐고, 업계에서는 전력 인프라 부족이 임차료를 밀어올리는 동시에 과잉 건설을 막는 역할도 한다고 본다."
+      ],
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "Data center market faces all-time low vacancies despite record-breaking construction", "url": "https://www.constructiondive.com/news/data-center-all-time-low-vacancy-record-construction/829339/" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "국토부 내년 예산 69조원, 역대 최대…주택공급에 30조원",
+      "body": [
+        "국토교통부가 **9월 1일** 내년도 예산안을 올해 본예산(**62조 8,000억 원**)보다 **9.9%** 늘어난 **69조 원**으로 편성했다고 밝혔다. 이 중 절반에 가까운 **30조 원**이 공공분양·임대 등 공적주택 공급에 투입된다. 2030년까지 공적주택 **110만 가구** 이상을 공급한다는 계획에 따라 내년 공적주택 물량을 올해보다 **12%** 이상 늘린 **21만 8,000가구**로 잡았다. 청년 주거 지원 예산도 **18조 5,000억 원**으로 늘어난다."
+      ],
+      "source": { "outlet": "이투데이", "links": [{ "text": "국토부 내년 예산 69조원 '역대 최대'…주택공급에 30조원 집중", "url": "https://www.etoday.co.kr/news/view/2620504" }] },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "화성 인덕원~동탄 솔빛나루역, 신축 설계 제안공모",
+      "body": [
+        "경기 화성시 동탄구 반송동 일원에 들어설 인덕원~동탄 솔빛나루역(가칭) 신축 설계 제안공모가 **8월 31일** 공고됐다. 연면적 **10,442㎡**, 예정 설계비 **16억 1,000만 원** 규모로 제한공모 방식이다. 참가등록은 **9월 7일** 마감하며 결과는 **11월 6일** 발표된다."
+      ],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "인덕원~동탄 솔빛나루역 신축 설계 제안공모 공모전", "url": "https://jootek.com/folio/contests/18862" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "경북 안동 글로컬 브릿지센터, 증·개축 설계공모",
+      "body": [
+        "경북 안동시가 글로컬 브릿지센터 증·개축 설계용역 공모를 **9월 2일** 공고했다. 연면적 **8,800㎡**, 예정 설계비 **14억 2,000만 원** 규모다. 참가등록은 **9월 10일** 마감하며 결과는 **11월 12일** 발표된다."
+      ],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "글로컬 브릿지센터 증·개축 설계용역 공모전", "url": "https://jootek.com/folio/contests/18865" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "경기 부천 (가칭)대장1초, 신축 설계공모",
+      "body": [
+        "경기 부천시 오정구 대장동 일원에 짓는 (가칭)대장1초등학교 신축 설계공모가 **9월 1일** 공고됐다. 연면적 **19,138㎡**, 예정 설계비 **14억 6,000만 원** 규모다. 참가등록은 **9월 11일** 마감한다."
+      ],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "(가칭)대장1초 신축 설계공모 공모전", "url": "https://jootek.com/folio/contests/18861" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "건설업 임금 상승률 3년 연속 둔화…역대 최저 수준",
+      "body": [
+        "대한건설협회가 **9월 1일** 공표한 '2026년 하반기 적용 건설업 임금실태조사' 결과, 전체 **132개** 직종의 일 평균임금은 **28만 2,737원**으로 전년 동기 대비 **1.40%** 오르는 데 그쳤다. 최근 10년 새 가장 낮은 상승폭으로, 2023년 **6.71%**에서 2024년 **3.30%**, 2025년 **1.66%**에 이어 3년 연속 둔화됐다. 최근 건설경기 부진에 따른 고용 감소가 주요 요인으로 꼽힌다."
+      ],
+      "source": { "outlet": "내외일보", "links": [{ "text": "대한건설협회 '26년 하반기 적용 건설업 임금실태조사 결과 공표", "url": "https://www.naewoeilbo.com/news/articleView.html?idxno=2406344" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "발포비티, 신임 최고전략책임자에 에마 록스톤",
+      "body": "맥킨지·英 정부 출신으로 에너지·운송·방위 시장 성장전략을 총괄하며 영·미·아시아 사업 확대를 맡는다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/balfour-beatty-new-strategy-chief/829472/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "버지니아텍, 건설업계판 '레딧' 만든다",
+      "body": "스마트건설연합 주도로 중소 건설사도 기술혁신에 참여할 디지털 플랫폼을 구축한다. 10월 시범, 내년 3~4월 정식 출시.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/virginia-tech-reddit-construction-hitt/829442/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "오바마 대통령센터, 완공 석 달만에 내부 영상 공개",
+      "body": "톳 윌리엄스 빌리 치엔이 설계한 시카고의 19.3에이커 캠퍼스 내부를 담은 영상이 새로 공개됐다. 지난 6월 개관했다.",
+      "source": { "outlet": "Dezeen", "links": [{ "text": "기사", "url": "https://www.dezeen.com/2026/09/02/obama-presidential-center-video-chicago-tod-williams-billie-tsien/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "나이로비서 첫 범아프리카 건축비엔날레 9월 7일 개막",
+      "body": "케냐타 국제컨벤션센터를 무대로 9월 7~11일 열린다. 오마르 데간이 큐레이팅한 아프리카 대륙 첫 건축 비엔날레다.",
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1039935/the-first-pan-african-biennale-establishes-a-platform-for-a-decolonized-african-led-architectural-future" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "언더브리지 국제공모 2회, 교량 하부 재생 아이디어 접수中",
+      "body": "빌드너 주최로 다리 밑 유휴공간을 주거로 바꾸는 아이디어를 모은다. 등록마감 9월 17일, 작품마감 10월 19일.",
+      "source": { "outlet": "Bustler", "links": [{ "text": "기사", "url": "https://bustler.net/news/10889/design-housing-in-underutilized-bridge-spaces-underbridge-edition-2-is-launched" }] },
+      "topic": "설계공모"
+    },
+    {
+      "title": "전남 진도 조도중학교 본관동, 개축 설계공모",
+      "body": "연면적 4,477㎡, 설계비 2억 5,000만 원 규모로 9월 1일 공고됐다. 참가등록은 9월 8일 마감한다.",
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "기사", "url": "https://jootek.com/folio/contests/18860" }] },
+      "topic": "설계공모"
+    },
+    {
+      "title": "미스반데어로에재단, 5회 릴리 라이히 그랜트 오늘 마감",
+      "body": "건축의 다양성과 평등을 다루는 연구지원금 공모로, 이번 회는 릴리 라이히의 유산에 초점을 맞췄다.",
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1182098/the-fundacio-mies-van-der-rohe-opens-the-call-for-entries-for-the-5th-lilly-reich-grant-for-equality-in-architecture" }] },
+      "topic": "설계공모"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "oma-taipei-songshan-yulinyuan-renewal",
+      "tag": "URBAN",
+      "title": "주민이 뽑은 건축가, 타이베이를 다시 짓다",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "dense residential towers staggered terraces asian city",
+      "slides": [
+        { "heading": "주민이 건축가를\n직접 뽑았다", "body": "OMA가 그리는 타이베이 저밀도 마을의 대안적 재개발" },
+        { "heading": "WHAT", "body": "타이베이 쑹산구 위린위안 주민들이 직접 건축사를 선임해 노후 저층 주거지를 재개발한다. 부지면적 6,825㎡에 24층 높이 주거타워 두 동을 짓는 계획이다." },
+        { "heading": "WHY", "body": "기존 이웃의 낮은 밀도와 녹지, 서로 연결된 건축물 패턴을 지키면서도 밀도를 높이는 방식을 찾기 위해 주민들이 직접 설계사를 골랐다." },
+        { "heading": "HOW", "body": "엇갈리게 배치한 수직 슬라브와 연결된 테라스, 공유 플랫폼, 정원으로 기존 마을의 공간감을 새 타워 안에 재현한다." },
+        { "heading": "TEAM", "body": "OMA 파트너 데이비드 지아노턴과 프로젝트 디렉터 치아주 린이 설계를 이끈다. '밀도를 높이면서도 주거의 질을 지키는 방식'을 목표로 내세웠다." }
+      ]
+    },
+    {
+      "slug": "carlo-ratti-mimar-west-palm-beach",
+      "tag": "TOWER",
+      "title": "모든 집이 대서양을 보는 타워",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 1,
+      "photo_query": "zigzag balcony apartment tower coastal florida",
+      "slides": [
+        { "heading": "모든 집이\n대서양을 본다", "body": "카를로 라티가 설계한 웨스트팜비치의 지그재그 타워 '미마르'" },
+        { "heading": "WHAT", "body": "CRA-카를로 라티 아소시아티가 설계한 25층 주거타워 '미마르'가 미국 플로리다 웨스트팜비치 다운타운에 들어선다. 지그재그 기하학으로 모든 세대가 동쪽 대서양을 향하도록 배치했다." },
+        { "heading": "WHY", "body": "도시 주택에서 흔한 '전망 위계'를 없애겠다는 목표다. 상층부로 갈수록 깊어지는 발코니가 그늘을 만들어 준다." },
+        { "heading": "MIX", "body": "전체 세대의 40%를 저소득층 주택으로 채운 혼합주거로 계획됐다. 개발은 제프 그린이 맡았다." },
+        { "heading": "MATERIAL", "body": "하이브리드 목재-콘크리트 구조로 탄소배출을 줄였고, 부지 내 역사적인 다투라 소방서 건물은 그대로 보존한다." }
+      ]
+    },
+    {
+      "slug": "skovsporet-3d-printed-student-housing-denmark",
+      "tag": "3D PRINT",
+      "title": "3D 프린터로 찍어낸 학생촌",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 2,
+      "photo_query": "3d printed concrete house construction cork material",
+      "slides": [
+        { "heading": "3D 프린터로\n찍어낸 학생촌", "body": "덴마크에 들어선 유럽 최대 규모 3D 프린팅 학생주거" },
+        { "heading": "WHAT", "body": "덴마크 홀스테브로에 SAGA 스페이스 아키텍츠와 MS+ 아르키텍터가 설계한 3D 프린팅 학생주거 '스코브스포레트'가 문을 열었다. 36개 아파트가 6개 저층 클러스터에 나뉘어 배치된다." },
+        { "heading": "SCALE", "body": "유럽 최대 규모의 3D 프린팅 주거단지로 꼽힌다. 공용 안뜰과 정원을 중심으로 클러스터를 배치하고 기존 수목의 90%를 그대로 남겼다." },
+        { "heading": "MATERIAL", "body": "저탄소 시멘트 퓨처셈과 시멘트를 아예 쓰지 않는 메보셈으로 3D 프린팅 콘크리트 벽체를 찍고, 코르크 패널로 마감했다." },
+        { "heading": "LIVING", "body": "각 유닛에는 주방·욕실·침실·거실·학습공간을 모두 갖췄고, 자전거 보관소와 보행로도 함께 조성됐다." }
+      ]
+    }
+  ]
+}
