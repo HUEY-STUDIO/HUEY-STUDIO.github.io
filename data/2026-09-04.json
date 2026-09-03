@@ -1,0 +1,306 @@
+{
+  "vol": "VOL.01  NO.019",
+  "editor": "HUEY",
+  "counts": { "total": 19, "intl": 14, "kr": 5 },
+  "outlets": ["ArchDaily", "designboom", "Construction Dive", "Bustler", "이데일리", "머니투데이", "주택폴리오", "Architectural Record"],
+
+  "teasers": [
+    { "title": "빌드너 언빌트 어워드 3회, 상금 10만 유로", "desc": "미실현 건축 비전 대상 국제공모, 9월 23일 등록마감", "label": "COMPETITION" },
+    { "title": "영남대, 대구·경북 첫 AI 건축 경진대회", "desc": "9월 5일 개최, 고등학생부터 건축사까지 151명 참가", "label": "EVENT" },
+    { "title": "美 건축전문지, 2026 여성건축가상 5인 발표", "desc": "9월 23일 시상식, 미스반데어로에의 크라운홀에서", "label": "AWARDS" },
+    { "title": "美 비주거 건설 지출, 데이터센터가 다 견인", "desc": "데이터센터 빼면 지출 2023년 9월 이후 최저", "label": "DATA" }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "BIG의 첫 미술관, 쑤저우에 뜨다…소주 정원에서 빌려온 리본 지붕",
+    "lede_em": "BIG",
+    "image": "https://images.adsttc.com/media/images/6a98/d856/cc78/e301/8820/ddac/large_jpg/the-suzhou-museum-of-contemporary-art-opens-to-the-public-marking-bigs-first-completed-art-museum_23.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "쑤저우현대미술관 전경, 12개 파빌리온을 감싸는 연속 리본형 지붕 ⓒ ArchDaily",
+    "body": [
+      "중국 장쑤성 쑤저우 진지호(金鷄湖) 호숫가에 **6만㎡** 규모 쑤저우현대미술관이 문을 열었다. **비야케 잉겔스 그룹(BIG)**이 설계를 맡은 이 프로젝트는 소주 전통 정원의 회랑 구조에서 영감을 받아, 연속된 리본형 지붕 아래 **12개**의 독립 파빌리온을 배치했다. BIG이 완공한 첫 미술관이라는 점에서 건축계의 관심이 쏠린다.",
+      "각 파빌리온은 저마다 다른 규모와 채광 조건을 갖춰 회화·조각·미디어아트 등 서로 다른 장르의 전시에 유연하게 대응하도록 설계됐다. 리본형 지붕은 파빌리온 사이를 잇는 회랑이자 차양 역할을 동시에 하며, 관람객이 실내외를 오가며 호수 전망을 즐기도록 동선을 짰다.",
+      "개관전으로는 **파블로 피카소**의 작품과 중국 현대미술가들의 작품을 함께 조명하는 전시가 마련됐다. 서구 근현대미술사의 거장과 동시대 중국 작가를 나란히 배치해, 미술관의 지향점을 상징적으로 드러냈다는 평가다.",
+      "쑤저우현대미술관은 최근 몇 년 새 이어진 중국 지방정부發 대형 문화시설 투자 흐름과, BIG이 아시아권에서 넓혀가고 있는 문화 프로젝트 포트폴리오가 만나는 지점에 있다. 미술관 하나로 도시 브랜드를 재편하려는 중국 2선 도시들의 경쟁이 당분간 이어질 전망이다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        { "text": "The Suzhou Museum of Contemporary Art Opens to the Public, Marking BIG's First Completed Art Museum", "url": "https://www.archdaily.com/1184463" }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "국토교통부",
+    "title": "LH 둘로 쪼갠다…택지개발·임대주택 분리해 '공급 속도전'",
+    "body": [
+      "정부가 **한국토지주택공사(LH)**를 택지개발·주택건설을 맡는 가칭 **'주택도시개발공사'**와 임대주택 등 주거복지·토지비축을 맡는 가칭 **'주택도시자산공사'**로 분리하기로 했다. 성격이 다른 두 업무를 한 기관이 함께 처리하면서 발생해온 비효율을 걷어내, 주택 공급 속도를 높이겠다는 취지다."
+    ],
+    "facts": [
+      "분리 후: 주택도시개발공사(택지개발·주택건설) / 주택도시자산공사(주거복지·토지비축)",
+      "개발공사 수익 일부는 주거복지 기금으로 계속 유입",
+      "국토교통부, 세부 개편안 조만간 발표 예정"
+    ],
+    "body_after": [
+      "설계공모·택지 발주 물량이 어느 조직으로 재편되는지에 따라 공공 발주 체계 자체가 달라질 수 있어, 건축·엔지니어링 업계는 세부 개편안 발표를 주시하고 있다."
+    ],
+    "source": {
+      "outlet": "아시아경제",
+      "links": [
+        { "text": "LH, 둘로 쪼갠다…택지개발·임대주택 분리해 '공급 속도전'", "url": "https://view.asiae.co.kr/article/2026090310342095368" }
+      ]
+    },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "해외 · 오피스",
+      "title": "후쿠오카 텐진 한복판에 OMA의 새 오피스타워",
+      "image": "https://images.adsttc.com/media/images/6a98/8e87/4348/7022/5037/0b6c/large_jpg/tenjin-business-center-ii-oma_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "OMA가 설계한 **6만 2,720㎡** 규모 복합 오피스 빌딩 '텐진 비즈니스 센터 II'가 일본 후쿠오카에 문을 열었다. 이 중 약 **3만 9,570㎡**가 사무 공간이며, 나머지는 상업시설과 협업 공간으로 채워진다. 담당 파트너는 시게마츠 쇼헤이다.",
+        "일본 7위 도시 후쿠오카는 규슈 지역 경제의 중심이자 활발한 스타트업 생태계로 꼽힌다. OMA는 건물 곳곳에 '리부트!(Reboot!)' 존 등 특색 있는 공용공간을 배치해, 전통적인 사무공간을 넘어서는 업무 환경을 제안했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          { "text": "Tenjin Business Center II / OMA", "url": "https://www.archdaily.com/1184460" }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 도시재생",
+      "title": "1923년 아르데코 창고, 로테르담의 춤추는 집으로",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/mad-ma-yansong-1923-art-deco-warehouse-rotterdam-house-dance-danshuis-designboom-01.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "**마옌쑹**이 이끄는 MAD가 로테르담의 **1923년** 아르데코 양식 창고(**9,500㎡**)를 댄스 전용 문화시설 '단스하위스(Danshuis)'로 개조한다. 완공되면 **14개** 댄스 스튜디오와 개방형 무대, 전시 공간, 카페, 옥상 대연회장을 갖춘 로테르담 최대 규모의 무용 거점이 된다.",
+        "단스하위스는 같은 건축가가 설계한 이민박물관 페닉스 바로 옆에 자리해, 로테르담 워터프론트 일대의 문화재생 흐름을 잇는다. 완공 목표는 **2030년**이다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          { "text": "MAD transforms 1923 art deco warehouse into rotterdam's house for dance", "url": "https://www.designboom.com/architecture/mad-ma-yansong-1923-art-deco-warehouse-rotterdam-house-dance-danshuis/" }
+        ]
+      },
+      "topic": "도시재생"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "해외 · 주거",
+      "title": "도쿄 협소주택, 자동차 한 대 자리까지 설계에 새긴다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/car-shaped-hole-japanese-houses-tokyo-parking-architecture-designboom-01.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": ["도쿄의 좁은 대지와 높은 지가로, 일본 건축가들은 자동차 한 대가 들어갈 공간을 집의 필수 구조 요소로 통합한다. 법규와 부동산 여건이 만들어낸 독특한 설계 관행을 조명한 기획이다."],
+      "source": {
+        "outlet": "designboom",
+        "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/japanese-carve-parking-tiny-urban-homes-tokyo/" }]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 도시재생",
+      "title": "스웨덴 셸레프테오, 오염부지에 세운 '크리스탈 사우나'",
+      "image": "https://images.adsttc.com/media/images/6a8d/9d23/4253/0500/01ca/0893/large_jpg/_BB_9300-2_Photo_Pa_r_Olofsson-low-res.jpg",
+      "image_label": "ARCHDAILY",
+      "body": ["예술가 듀오 비게르트&베리스트룀이 설계한 '크리스탈 사우나'가 오염된 산업부지를 되살리는 공공공원 '웨이스트랜드(WasteLand)'의 중심 구조물로 들어섰다. 공공예술과 사회적 만남의 공간 역할을 동시에 한다."],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [{ "text": "기사", "url": "https://www.archdaily.com/1183940" }]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "해외 · 전시공간",
+      "title": "오슬로 자연사박물관, 보이지 않는 전시건축의 힘",
+      "image": "https://images.adsttc.com/media/images/6a79/8073/ac8b/af01/892c/b6c2/large_jpg/what-does-a-museum-need-inside-the-exhibition-architecture-of-the-natural-history-museum-oslo_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": ["**2,300㎡** 규모로 개축된 오슬로 자연사박물관이 **1920년**에 지어진 역사적 건물을 보존하면서 진열장·조명·보안설비를 새로 통합했다. 지하에 조성된 몰입형 '크리스탈 동굴' 전시가 특히 눈에 띈다."],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [{ "text": "기사", "url": "https://www.archdaily.com/1182454" }]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 설계공모",
+      "title": "미실현 건축에 상금 10만 유로…빌드너 '언빌트 어워드' 3회",
+      "image": "",
+      "image_label": "BUSTLER",
+      "body": ["미실현 건축 비전을 다루는 국제공모 '빌드너 언빌트 어워드'가 3회째를 맞았다. 종이 위에만 존재하는 초기 구상부터 실현을 앞둔 상세 계획안까지 모두 응모할 수 있으며, 규모별로 스몰·미디엄·라지 3개 부문에 총 **10만 유로**의 상금을 건다. 최종 등록 마감은 **9월 23일**이다."],
+      "source": {
+        "outlet": "Bustler",
+        "links": [{ "text": "100,000 € Prize / Buildner's Unbuilt Award 2026", "url": "https://bustler.net/competitions/10322/100-000-prize-buildner-s-unbuilt-award-2026" }]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "대우건설, 신월시영 재건축에 미국 조경사 STOSS와 손잡다",
+      "body": ["대우건설이 서울 양천구 신월시영아파트(**2,256가구→3,155가구**, 최고 **21층**) 재건축 수주를 위해 미국 보스턴의 조경·도시설계사 **STOSS**와 협업했다. '신월8경'을 콘셉트로 8개 특화 정원과 **6km** 순환 보행망을 조성하는 계획을 조합에 제시했다."],
+      "source": {
+        "outlet": "이데일리",
+        "links": [{ "text": "대우건설, 신월시영 재건축에 美 STOSS와 조경 협업", "url": "https://www.edaily.co.kr/News/Read?newsId=04313206645576512" }]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "건설공사비지수 또 최고치…상승폭은 3개월째 둔화",
+      "body": ["**7월** 건설공사비지수가 **138.59**로 역대 최고치를 다시 썼다. 다만 상승폭 자체는 **3개월** 연속 줄었다. 미국-이란 갈등으로 촉발됐던 유가 급등 여파가 다소 누그러지며 휘발유·등유 등 석유 관련 품목 가격이 내린 영향이다. 다만 최근 국제유가가 다시 오름세로 돌아서며 불안 요인은 여전하다. 올해 종합건설업체 폐업 신고는 벌써 **565건**으로 지난해 같은 기간보다 **29%** 늘었다."],
+      "source": {
+        "outlet": "머니투데이",
+        "links": [{ "text": "공사비 상승폭 한풀 꺾였는데… 여전한 고유가, 등 휘는 건설사", "url": "https://www.mt.co.kr/estate/2026/09/04/2026090319280151405" }]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "제주 자치경찰단 아라청사 증축, 설계공모 접수中",
+      "body": ["제주시가 자치경찰단 아라청사 증축사업 설계공모를 냈다. 연면적 **962㎡**에 설계비 **1억 9,000만 원**, 공사비 **40억 6,000만 원** 규모의 간이공모다. 참가등록 마감은 **9월 7일**, 작품접수는 **11월 3일**까지다."],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [{ "text": "자치경찰단 아라청사 증축사업", "url": "https://jootek.com/folio/contests/18868" }]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "한반도 평화공존센터 건립, 설계용역 지명공모",
+      "body": ["연면적 **5,700㎡** 규모 한반도 평화공존센터 건립사업 설계용역이 지명공모로 발주됐다. 예정 설계비는 **13억 원**. 참가등록 마감은 **9월 7일**이다."],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [{ "text": "한반도 평화공존센터 건립사업 설계용역", "url": "https://jootek.com/folio/contests/18866" }]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "경북 예천 용궁 청춘마실 조성, 건축설계 제안공모",
+      "body": ["경북 예천군이 용궁면 청춘마실 조성사업 건축설계 제안공모를 냈다. 연면적 **749㎡**, 예정 설계비 **1억 9,000만 원**, 공사비 **31억 7,000만 원** 규모다. 참가등록 마감은 **9월 10일**, 작품접수는 **10월 19일**까지다."],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [{ "text": "예천 용궁 청춘마실 조성 건축설계 제안공모", "url": "https://jootek.com/folio/contests/18869" }]
+      },
+      "topic": "설계공모"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "美 건축전문지, 2026 여성건축가상 5인 발표",
+      "body": "말린 이미르지안 등 5인이 수상, 9월 23일 시카고 IIT 크라운홀에서 시상식. 13회째를 맞는 이 상은 지금까지 70명에 가까운 여성 건축가를 조명했다.",
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [{ "text": "기사", "url": "https://www.architecturalrecord.com/articles/18320-introducing-records-2026-women-in-architecture-awardees" }]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "美 비주거 건설 지출, 데이터센터가 다 견인",
+      "body": "7월 비주거 건설 지출이 데이터센터 부문 호황에 힘입어 늘었지만, 데이터센터를 빼면 2023년 9월 이후 최저 수준이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/data-centers-nonresidential-spending-growth-july/829473/" }]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "영남대, 대구·경북 첫 AI 건축문화 경진대회",
+      "body": "9월 5일 개최, AI 이미지 생성 도구로 건축설계 작품을 완성하는 방식. 고등학생부터 건축사까지 151명이 참가하며 참가자 전원에게 AI 프로그램 크레딧을 무료 제공한다.",
+      "source": {
+        "outlet": "이데일리",
+        "links": [{ "text": "AI가 그리는 미래 건축…영남대서 지역 첫 설계 경진대회", "url": "https://www.edaily.co.kr/News/Read?newsId=05093846645576512" }]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "상파울루 옛 산업지구에 들어선 비콘스쿨 고등학교동",
+      "body": "2016년 마스터플랜의 일환으로 빌라 레오폴디나 옛 산업지구에 조성된 3,100㎡ 규모 고등학교 건물이 2023년 완공됐다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [{ "text": "기사", "url": "https://www.archdaily.com/1184487" }]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "멕시코 치와와, 집 모양 콘크리트 놀이구조물 공원",
+      "body": "Urbánika가 설계한 ARC 공원은 복합개발 중심부 커뮤니티 공원으로, 주택 형태 놀이시설과 사막 기후에 적응한 수목 120여 그루로 조성됐다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/house-like-concrete-play-structures-community-arc-park-chihuahua-urbanika/" }]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "화성에서도 산다는 것…우주 거주지 설계의 과제",
+      "body": "화성·달 거주지 설계에서는 프라이버시·폐기물 처리·자원 활용이 핵심 과제다. NASA의 '마스 듄 알파', SAGA의 'LUNARK' 등 프로토타입이 그 답을 모색하고 있다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/home-becomes-life-support-habitats-mars-moon-big-icon-saga-nasa/" }]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "big-suzhou-museum-of-contemporary-art",
+      "tag": "MUSEUM",
+      "title": "BIG의 첫 미술관, 쑤저우에 뜨다",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "contemporary art museum lakeside ribbon roof pavilions",
+      "slides": [
+        { "heading": "BIG의 첫 미술관\n쑤저우에 뜨다", "body": "소주 정원에서 빌려온 리본 지붕 아래 12개 파빌리온" },
+        { "heading": "WHAT", "body": "비야케 잉겔스 그룹(BIG)이 설계한 6만㎡ 규모 쑤저우현대미술관이 중국 진지호 호숫가에 문을 열었다. BIG이 완공한 첫 미술관이다." },
+        { "heading": "FORM", "body": "소주 전통 정원의 회랑 구조에서 영감을 받아, 연속된 리본형 지붕 아래 12개의 독립 파빌리온을 배치했다. 지붕은 회랑이자 차양 역할을 겸한다." },
+        { "heading": "INSIDE", "body": "각 파빌리온은 규모와 채광이 저마다 달라 회화·조각·미디어아트 등 다양한 장르의 전시에 유연하게 대응한다." },
+        { "heading": "OPENING", "body": "개관전은 파블로 피카소와 중국 현대미술가들의 작품을 함께 조명한다. 서구 거장과 동시대 중국 작가를 나란히 세운 상징적인 구성이다." }
+      ]
+    },
+    {
+      "slug": "oma-fukuoka-tenjin-business-center-ii",
+      "tag": "OFFICE",
+      "title": "후쿠오카 텐진, OMA의 새 오피스타워",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 1,
+      "photo_query": "modern office tower facade fukuoka japan business district",
+      "slides": [
+        { "heading": "후쿠오카 텐진에\nOMA의 새 오피스타워", "body": "규슈 경제 중심지에 들어선 6만㎡ 복합 업무시설" },
+        { "heading": "WHAT", "body": "OMA가 설계한 6만 2,720㎡ 규모 복합 오피스 빌딩 '텐진 비즈니스 센터 II'가 일본 후쿠오카에 완공됐다." },
+        { "heading": "SCALE", "body": "이 중 약 3만 9,570㎡가 사무 공간이며, 나머지는 상업시설과 협업 공간으로 채워진다. 담당 파트너는 시게마츠 쇼헤이다." },
+        { "heading": "WHY FUKUOKA", "body": "일본 7위 도시 후쿠오카는 규슈 지역 경제의 중심이자 활발한 스타트업 생태계로 꼽힌다." },
+        { "heading": "SPACE", "body": "건물 곳곳에 '리부트!(Reboot!)' 존 등 특색 있는 공용공간을 배치해, 전통적인 사무공간을 넘어서는 업무 환경을 제안했다." }
+      ]
+    },
+    {
+      "slug": "mad-rotterdam-danshuis-dance-house",
+      "tag": "URBAN",
+      "title": "아르데코 창고, 로테르담의 춤추는 집으로",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 2,
+      "photo_query": "art deco warehouse renovation waterfront cultural building rotterdam",
+      "slides": [
+        { "heading": "1923년 창고가\n춤추는 집이 되다", "body": "마옌쑹의 MAD가 그리는 로테르담 워터프론트 재생" },
+        { "heading": "WHAT", "body": "MAD가 로테르담의 1923년 아르데코 양식 창고(9,500㎡)를 댄스 전용 문화시설 '단스하위스'로 개조한다." },
+        { "heading": "PROGRAM", "body": "완공되면 14개 댄스 스튜디오와 개방형 무대, 전시 공간, 카페, 옥상 대연회장을 갖춘 로테르담 최대 규모의 무용 거점이 된다." },
+        { "heading": "CONTEXT", "body": "같은 건축가가 설계한 이민박물관 페닉스 바로 옆에 자리해, 로테르담 워터프론트 일대의 문화재생 흐름을 잇는다." },
+        { "heading": "TIMELINE", "body": "완공 목표는 2030년이다." }
+      ]
+    }
+  ]
+}
