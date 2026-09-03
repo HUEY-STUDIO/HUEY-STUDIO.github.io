@@ -83,9 +83,16 @@ b{font-weight:800; color:var(--ink)}
 .ap-avatar{
   width:40px; height:40px; border-radius:50%; background:var(--red); color:#fff;
   display:flex; align-items:center; justify-content:center; font-weight:800; font-size:15px;
-  flex-shrink:0;
+  flex-shrink:0; position:relative; overflow:hidden;
 }
 #apLoggedOut .ap-avatar{margin:0 0 10px}
+.ap-avatar-btn{border:0; padding:0; cursor:pointer; font-family:var(--font)}
+.ap-avatar-btn img{width:100%; height:100%; object-fit:cover; border-radius:50%}
+.ap-avatar-btn::after{
+  content:"📷"; position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+  font-size:13px; background:rgba(11,11,12,.55); opacity:0; transition:opacity .15s;
+}
+.ap-avatar-btn:hover::after, .ap-avatar-btn:focus-visible::after{opacity:1}
 .ap-lead{font-size:12px; font-weight:700; color:var(--ink-2); line-height:1.5; margin:0 0 12px}
 #apLoggedOut form{display:flex; flex-direction:column; gap:8px}
 .account-panel input[type=email], .account-panel input[type=text]{
@@ -111,6 +118,45 @@ b{font-weight:800; color:var(--ink)}
 .ap-nickbtns button{flex:1}
 .ap-nickbtns button:last-child{background:transparent; color:var(--ink-2)}
 .ap-logout{width:100%; background:transparent; color:var(--ink-2)}
+
+/* ---- 미니 스페이스 (계정 패널 바로 아래, 방향키로 움직이는 픽셀 캐릭터) ---- */
+.mini-space{
+  background:var(--sheet); border:1px solid var(--rule); border-radius:8px; padding:14px;
+}
+.ms-head{font-size:11.5px; font-weight:800; letter-spacing:.06em; color:var(--ink-2); margin-bottom:8px}
+.ms-room{
+  position:relative; height:170px; border-radius:6px; overflow:hidden; cursor:pointer;
+  border:1px solid var(--rule-2); outline-offset:-2px;
+}
+.ms-room:focus-visible{outline:2px solid var(--hot)}
+.ms-floor{
+  position:absolute; inset:0;
+  background-image:
+    linear-gradient(45deg, var(--paper) 25%, transparent 25%, transparent 75%, var(--paper) 75%),
+    linear-gradient(45deg, var(--paper) 25%, var(--sheet) 25%, var(--sheet) 75%, var(--paper) 75%);
+  background-size:18px 18px; background-position:0 0, 9px 9px;
+}
+.ms-deco{position:absolute}
+.ms-deco--table{width:44px; height:26px; left:14px; top:16px; background:#8B5A3C; border-radius:3px; box-shadow:0 3px 0 #6E4630}
+.ms-deco--plant{left:auto; right:16px; top:14px; width:16px; height:22px}
+.ms-deco--plant span{position:absolute; bottom:0; left:3px; width:10px; height:10px; background:#8B5A3C; border-radius:2px}
+.ms-deco--plant::before{
+  content:""; position:absolute; top:0; left:0; width:16px; height:16px; background:#3E8E5A;
+  border-radius:50% 50% 50% 0; box-shadow:6px 2px 0 -2px #3E8E5A, -6px 2px 0 -2px #3E8E5A;
+}
+.ms-char{position:absolute; left:40px; top:40px; width:20px; height:28px; transition:left .05s linear, top .05s linear}
+.ms-char-body{
+  position:absolute; width:4px; height:4px; background:transparent;
+  box-shadow:
+    4px 0 0 0 var(--hot), 8px 0 0 0 var(--hot), 12px 0 0 0 var(--hot),
+    0 4px 0 0 var(--hot), 4px 4px 0 0 var(--hot), 8px 4px 0 0 var(--hot), 12px 4px 0 0 var(--hot), 16px 4px 0 0 var(--hot),
+    0 8px 0 0 var(--hot), 4px 8px 0 0 var(--hot), 8px 8px 0 0 var(--hot), 12px 8px 0 0 var(--hot), 16px 8px 0 0 var(--hot),
+    4px 12px 0 0 var(--ink), 8px 12px 0 0 var(--ink), 12px 12px 0 0 var(--ink),
+    0 16px 0 0 var(--hot), 4px 16px 0 0 var(--hot), 8px 16px 0 0 var(--hot), 12px 16px 0 0 var(--hot), 16px 16px 0 0 var(--hot),
+    4px 20px 0 0 var(--ink), 12px 20px 0 0 var(--ink),
+    4px 24px 0 0 var(--ink), 12px 24px 0 0 var(--ink);
+}
+.ms-hint{font-size:10.5px; color:var(--ink-3); margin:8px 0 0; text-align:center}
 
 /* ================= 지면 ================= */
 .sheet{

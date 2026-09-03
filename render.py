@@ -518,7 +518,11 @@ def render_account_panel():
       </div>
       <div id="apLoggedIn" class="hidden">
         <div class="ap-row">
-          <div class="ap-avatar" id="apAvatar">·</div>
+          <button type="button" class="ap-avatar ap-avatar-btn" id="apAvatar" title="프로필 사진 바꾸기">
+            <img id="apAvatarImg" class="hidden" alt="">
+            <span id="apAvatarLetter">·</span>
+          </button>
+          <input type="file" id="apAvatarFile" accept="image/*" class="hidden">
           <div class="ap-who">
             <div class="ap-name"><span id="apName"></span><button type="button" id="apEditNick" class="ap-edit" title="닉네임 변경">✎</button></div>
             <div class="ap-email" id="apEmail"></div>
@@ -531,9 +535,25 @@ def render_account_panel():
             <button type="button" id="nickCancel">취소</button>
           </div>
         </form>
+        <p class="ap-note" id="apAvatarNote"></p>
         <button type="button" id="authLogout" class="ap-logout">로그아웃</button>
       </div>
     </aside>"""
+
+
+def render_mini_space():
+    """홈페이지 전용: 계정 패널 바로 아래 붙는 미니 스페이스. 방향키로 픽셀 캐릭터를 움직인다.
+    로그인 여부와 무관하게 누구나 가지고 놀 수 있는 장식용 위젯 — 위치는 저장하지 않는다."""
+    return """    <div class="mini-space" id="miniSpace">
+      <div class="ms-head"><span id="msTitle">MY SPACE</span></div>
+      <div class="ms-room" id="msRoom" tabindex="0" aria-label="방향키로 캐릭터를 움직여보세요">
+        <div class="ms-floor"></div>
+        <div class="ms-deco ms-deco--table"></div>
+        <div class="ms-deco ms-deco--plant"><span></span></div>
+        <div class="ms-char" id="msChar"><div class="ms-char-body"></div></div>
+      </div>
+      <p class="ms-hint">클릭한 뒤 방향키로 움직여보세요</p>
+    </div>"""
 
 
 def render_feedback_room():
@@ -559,6 +579,7 @@ def render_home_side():
     본문 옆에 붙어 스크롤을 따라오다 본문 끝에서 멈춘다(position:sticky)."""
     return (f'  <aside class="home-side">\n'
             f'{render_account_panel()}\n'
+            f'{render_mini_space()}\n'
             f'{render_feedback_room()}\n'
             f'  </aside>')
 

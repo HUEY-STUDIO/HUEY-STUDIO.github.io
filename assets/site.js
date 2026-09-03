@@ -61,6 +61,43 @@
   });
 })();
 
+/* 미니 스페이스 — 계정 패널 아래 붙는 장식용 방. 방향키로 픽셀 캐릭터를 움직인다.
+   로그인 여부와 무관하게 동작하고, 위치는 저장하지 않는다(그냥 놀이용). */
+(function () {
+  "use strict";
+  var room = document.getElementById("msRoom");
+  var char = document.getElementById("msChar");
+  if (!room || !char) return;
+
+  var STEP = 8;
+  var x = 40, y = 40;
+
+  function clampAxis(v, max) { return Math.max(0, Math.min(max, v)); }
+  function paint() {
+    var maxX = room.clientWidth - char.offsetWidth;
+    var maxY = room.clientHeight - char.offsetHeight;
+    x = clampAxis(x, maxX);
+    y = clampAxis(y, maxY);
+    char.style.left = x + "px";
+    char.style.top = y + "px";
+  }
+  paint();
+
+  var KEYMAP = {
+    ArrowUp: [0, -STEP], ArrowDown: [0, STEP],
+    ArrowLeft: [-STEP, 0], ArrowRight: [STEP, 0]
+  };
+  room.addEventListener("keydown", function (e) {
+    var d = KEYMAP[e.key];
+    if (!d) return;
+    e.preventDefault();
+    x += d[0]; y += d[1];
+    paint();
+  });
+  room.addEventListener("click", function () { room.focus(); });
+  window.addEventListener("resize", paint);
+})();
+
 /* HEUY.ARCHI — 로그인(매직링크) + 닉네임 + 홈페이지 피드백/댓글 채팅방
    Supabase Auth + Postgres + Realtime. 계정 패널·피드백방 모두 홈페이지 전용이라
    #accountPanel 이 없는 페이지(지난호·카테고리 등)에서는 이 스크립트가 아무 일도 안 한다. */
@@ -95,6 +132,10 @@
   var apLoggedOut = document.getElementById("apLoggedOut");
   var apLoggedIn = document.getElementById("apLoggedIn");
   var apAvatar = document.getElementById("apAvatar");
+  var apAvatarImg = document.getElementById("apAvatarImg");
+  var apAvatarLetter = document.getElementById("apAvatarLetter");
+  var apAvatarFile = document.getElementById("apAvatarFile");
+  var apAvatarNote = document.getElementById("apAvatarNote");
   var apName = document.getElementById("apName");
   var apEmail = document.getElementById("apEmail");
   var apEditNick = document.getElementById("apEditNick");
@@ -105,9 +146,11 @@
   var authForm = document.getElementById("authForm");
   var authEmail = document.getElementById("authEmail");
   var authNote = document.getElementById("authNote");
+  var msTitle = document.getElementById("msTitle");
 
   var currentSession = null;
   var currentNickname = null;
+  var currentAvatarUrl = null;
 
   function displayName() {
     if (currentNickname) return currentNickname;
@@ -121,20 +164,64 @@
     if (loggedIn) {
       var name = displayName();
       apName.textContent = name;
-      apAvatar.textContent = name.slice(0, 1).toUpperCase();
       apEmail.textContent = currentSession.user.email || "";
       nickForm.classList.add("hidden");
+      if (currentAvatarUrl) {
+        apAvatarImg.src = currentAvatarUrl;
+        apAvatarImg.classList.remove("hidden");
+        apAvatarLetter.classList.add("hidden");
+      } else {
+        apAvatarImg.classList.add("hidden");
+        apAvatarLetter.classList.remove("hidden");
+        apAvatarLetter.textContent = name.slice(0, 1).toUpperCase();
+      }
+      if (msTitle) msTitle.textContent = name + "'s SPACE";
+    } else if (msTitle) {
+      msTitle.textContent = "MY SPACE";
     }
     paintFeedbackAuthState();
   }
 
   function loadProfile() {
-    if (!currentSession || !currentSession.user) { currentNickname = null; return Promise.resolve(); }
-    return sb.from("profiles").select("nickname").eq("id", currentSession.user.id).maybeSingle()
+    if (!currentSession || !currentSession.user) { currentNickname = null; currentAvatarUrl = null; return Promise.resolve(); }
+    return sb.from("profiles").select("nickname, avatar_url").eq("id", currentSession.user.id).maybeSingle()
       .then(function (res) {
         currentNickname = (res.data && res.data.nickname) || null;
+        currentAvatarUrl = (res.data && res.data.avatar_url) || null;
       })
-      .catch(function () { currentNickname = null; });
+      .catch(function () { currentNickname = null; currentAvatarUrl = null; });
+  }
+
+  if (apAvatar && apAvatarFile) {
+    apAvatar.addEventListener("click", function () { apAvatarFile.click(); });
+    apAvatarFile.addEventListener("change", function () {
+      var file = apAvatarFile.files && apAvatarFile.files[0];
+      apAvatarFile.value = "";
+      if (!file || !currentSession || !currentSession.user) return;
+      if (file.size > 3 * 1024 * 1024) {
+        if (apAvatarNote) apAvatarNote.textContent = "3MB 이하 이미지만 가능합니다.";
+        return;
+      }
+      var uid = currentSession.user.id;
+      var ext = (file.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "") || "jpg";
+      var path = uid + "/avatar." + ext;
+      if (apAvatarNote) apAvatarNote.textContent = "업로드 중…";
+      sb.storage.from("avatars").upload(path, file, { upsert: true, cacheControl: "3600" })
+        .then(function (res) {
+          if (res.error) throw res.error;
+          var pub = sb.storage.from("avatars").getPublicUrl(path);
+          var url = pub.data.publicUrl + "?t=" + Date.now();
+          return sb.from("profiles").upsert({ id: uid, avatar_url: url }).then(function (res2) {
+            if (res2.error) throw res2.error;
+            currentAvatarUrl = url;
+            paintAccount();
+            if (apAvatarNote) apAvatarNote.textContent = "";
+          });
+        })
+        .catch(function (err) {
+          if (apAvatarNote) apAvatarNote.textContent = "업로드 실패: " + (err && err.message ? err.message : err);
+        });
+    });
   }
 
   if (authForm) {

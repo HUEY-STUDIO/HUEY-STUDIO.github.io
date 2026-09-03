@@ -28,7 +28,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" as="style" crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
-<link rel="stylesheet" href="assets/style.css?v=ddcccb1e">
+<link rel="stylesheet" href="assets/style.css?v=703bd8fd">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"주민이 직접 건축가 뽑았다…OMA, 타이베이 낡은 마을에 대안적 재개발 제시","description":"주민이 직접 건축가 뽑았다…OMA, 타이베이 낡은 마을에 대안적 재개발 제시 외 19건 — 건축·건설 데일리 브리핑 HEUY.ARCHI","datePublished":"2026-09-03T08:00:00+09:00","dateModified":"2026-09-03T08:00:00+09:00","image":["https://huey-studio.github.io/cardnews/2026-09-03/og.jpg"],"author":{"@type":"Person","name":"HUEY"},"publisher":{"@type":"Organization","name":"HEUY.ARCHI","logo":{"@type":"ImageObject","url":"https://huey-studio.github.io/assets/favicon-192x192.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://huey-studio.github.io/"},"inLanguage":"ko-KR"}</script>
 <script>(function(){try{var t=localStorage.getItem('heuy-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
@@ -317,7 +317,11 @@
       </div>
       <div id="apLoggedIn" class="hidden">
         <div class="ap-row">
-          <div class="ap-avatar" id="apAvatar">·</div>
+          <button type="button" class="ap-avatar ap-avatar-btn" id="apAvatar" title="프로필 사진 바꾸기">
+            <img id="apAvatarImg" class="hidden" alt="">
+            <span id="apAvatarLetter">·</span>
+          </button>
+          <input type="file" id="apAvatarFile" accept="image/*" class="hidden">
           <div class="ap-who">
             <div class="ap-name"><span id="apName"></span><button type="button" id="apEditNick" class="ap-edit" title="닉네임 변경">✎</button></div>
             <div class="ap-email" id="apEmail"></div>
@@ -330,9 +334,20 @@
             <button type="button" id="nickCancel">취소</button>
           </div>
         </form>
+        <p class="ap-note" id="apAvatarNote"></p>
         <button type="button" id="authLogout" class="ap-logout">로그아웃</button>
       </div>
     </aside>
+    <div class="mini-space" id="miniSpace">
+      <div class="ms-head"><span id="msTitle">MY SPACE</span></div>
+      <div class="ms-room" id="msRoom" tabindex="0" aria-label="방향키로 캐릭터를 움직여보세요">
+        <div class="ms-floor"></div>
+        <div class="ms-deco ms-deco--table"></div>
+        <div class="ms-deco ms-deco--plant"><span></span></div>
+        <div class="ms-char" id="msChar"><div class="ms-char-body"></div></div>
+      </div>
+      <p class="ms-hint">클릭한 뒤 방향키로 움직여보세요</p>
+    </div>
   <div class="feedback-room" id="feedbackRoom">
     <div class="fr-head">
       <span class="fr-title">피드백 &amp; 댓글</span>
@@ -351,6 +366,6 @@
   </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
-<script src="assets/site.js?v=98c4f269" defer></script>
+<script src="assets/site.js?v=5523d219" defer></script>
 </body>
 </html>
