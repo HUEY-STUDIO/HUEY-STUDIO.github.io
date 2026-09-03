@@ -544,16 +544,23 @@ def render_account_panel():
 def render_mini_space():
     """홈페이지 전용: 계정 패널 바로 아래 붙는 미니 스페이스. 방향키로 픽셀 캐릭터를 움직인다.
     로그인 여부와 무관하게 누구나 가지고 놀 수 있는 장식용 위젯 — 위치는 저장하지 않는다."""
-    return """    <div class="mini-space" id="miniSpace">
+    swatches = "".join(
+        f'<button type="button" class="ms-color-btn" data-color="{i}" style="--sw-a:{a}" title="캐릭터 색"></button>'
+        for i, a in enumerate(["#FF4D1A", "#3B6FD6", "#3E8E5A", "#8B5CD6", "#D6A93B", "#2AA6A0"])
+    )
+    return f"""    <div class="mini-space" id="miniSpace">
       <div class="ms-head"><span id="msTitle">MY SPACE</span></div>
       <div class="ms-room" id="msRoom" tabindex="0" aria-label="방향키로 캐릭터를 움직여보세요">
         <div class="ms-platform">
+          <div class="ms-wall ms-wall--r"></div>
+          <div class="ms-wall ms-wall--l"></div>
           <div class="ms-floor"></div>
           <div class="ms-deco ms-deco--table"></div>
           <div class="ms-deco ms-deco--plant"><span></span></div>
           <div class="ms-char" id="msChar"><div class="ms-char-body"></div></div>
         </div>
       </div>
+      <div class="ms-colors" id="msColors">{swatches}</div>
       <p class="ms-hint">클릭한 뒤 방향키로 자유롭게 움직여보세요(대각선도 가능)</p>
     </div>"""
 

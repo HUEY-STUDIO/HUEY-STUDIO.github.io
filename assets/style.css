@@ -21,6 +21,9 @@
   --bar:#0B0B0C;        /* 검은 바(내비·브랜드바·푸터). 다크모드에서도 검게 유지 */
   --chart:#9F0F1F;      /* 통계 막대. 계열이 하나뿐이라 한 색만 쓴다 */
   --mark:#F7E08A;       /* 검색 결과 하이라이트 */
+  --iso-floor:#F2E4D0;  /* 미니 스페이스 아이소메트릭 바닥(가장 밝은 면) */
+  --iso-wall-r:#D9C4A3; /* 오른쪽 벽(중간 톤) */
+  --iso-wall-l:#C2A980; /* 왼쪽 벽(가장 어두운 면) */
   --font:'Pretendard Variable', Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR',
          'Malgun Gothic', -apple-system, system-ui, sans-serif;
 }
@@ -125,29 +128,37 @@ b{font-weight:800; color:var(--ink)}
 }
 .ms-head{font-size:11.5px; font-weight:800; letter-spacing:.06em; color:var(--ink-2); margin-bottom:8px}
 .ms-room{
-  position:relative; height:194px; border-radius:6px; overflow:hidden; cursor:pointer;
+  position:relative; height:224px; border-radius:6px; overflow:hidden; cursor:pointer;
   border:1px solid var(--rule-2); outline-offset:-2px;
   background:linear-gradient(180deg, var(--paper), var(--sheet));
 }
 .ms-room:focus-visible{outline:2px solid var(--hot)}
 
-/* 아이소메트릭(2:1) 투영 — 실제 3D가 아니라 x/y를 화면 다이아몬드로 매핑하는 고전적인
-   방식이라 회전/블러 없이 픽셀이 또렷하다. 좌표 상수는 assets/site.js의 ISO_* 와 맞춰야 한다. */
-.ms-platform{position:relative; width:220px; height:110px; margin:36px auto 0}
+/* 아이소메트릭(2:1) 투영 — 실제 3D 회전이 아니라 x/y/z를 화면 좌표로 매핑만 하는
+   고전적인 방식이라 회전으로 인한 블러 없이 픽셀이 또렷하다. 바닥(위쪽 면) +
+   뒷벽 두 개(왼쪽·오른쪽 면)로 상자를 이루게 해서 X/Y/Z 세 축이 뚜렷이 구분되는
+   입체 공간처럼 보이게 한다. 좌표 상수는 assets/site.js의 ISO_* 와 맞물려 있다. */
+.ms-platform{position:relative; width:220px; height:150px; margin:10px auto 0}
+.ms-wall{position:absolute; inset:0; border:1px solid rgba(11,11,12,.12)}
+.ms-wall--r{clip-path:polygon(110px 0px, 220px 55px, 220px 95px, 110px 40px); background:var(--iso-wall-r)}
+.ms-wall--l{clip-path:polygon(110px 0px, 0px 55px, 0px 95px, 110px 40px); background:var(--iso-wall-l)}
 .ms-floor{
-  position:absolute; inset:0; clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  background:linear-gradient(135deg, var(--paper) 0%, var(--sheet) 55%, var(--paper) 100%);
-  filter:drop-shadow(0 10px 8px rgba(0,0,0,.18));
+  position:absolute; inset:0; clip-path:polygon(110px 40px, 220px 95px, 110px 150px, 0px 95px);
+  background:var(--iso-floor); border:1px solid rgba(11,11,12,.12);
+  filter:drop-shadow(0 10px 8px rgba(0,0,0,.16));
 }
 .ms-deco{position:absolute}
-.ms-deco--table{width:40px; height:24px; left:72px; top:6px; background:#8B5A3C; border-radius:3px; box-shadow:0 3px 0 #6E4630}
-.ms-deco--plant{left:163px; top:26px; width:16px; height:24px}
+.ms-deco--table{width:40px; height:24px; left:74px; top:44px; background:#8B5A3C; border-radius:3px; box-shadow:0 3px 0 #6E4630}
+.ms-deco--plant{left:163px; top:66px; width:16px; height:24px}
 .ms-deco--plant span{position:absolute; bottom:0; left:3px; width:10px; height:10px; background:#8B5A3C; border-radius:2px}
 .ms-deco--plant::before{
   content:""; position:absolute; top:0; left:0; width:16px; height:16px; background:#3E8E5A;
   border-radius:50% 50% 50% 0; box-shadow:6px 2px 0 -2px #3E8E5A, -6px 2px 0 -2px #3E8E5A;
 }
-.ms-char{position:absolute; left:100px; top:31px; width:20px; height:28px}
+.ms-char{
+  position:absolute; left:100px; top:71px; width:20px; height:28px;
+  --char-a:#FF4D1A; --char-b:#0B0B0C; --char-a-dk:#C93C13;
+}
 .ms-char::after{
   content:""; position:absolute; bottom:1px; left:2px; width:16px; height:5px;
   background:rgba(0,0,0,.28); border-radius:50%; filter:blur(1px); z-index:-1;
@@ -155,14 +166,20 @@ b{font-weight:800; color:var(--ink)}
 .ms-char-body{
   position:absolute; width:4px; height:4px; background:transparent;
   box-shadow:
-    4px 0 0 0 var(--hot), 8px 0 0 0 var(--hot), 12px 0 0 0 var(--hot),
-    0 4px 0 0 var(--hot), 4px 4px 0 0 var(--hot), 8px 4px 0 0 var(--hot), 12px 4px 0 0 var(--hot), 16px 4px 0 0 var(--hot),
-    0 8px 0 0 var(--hot), 4px 8px 0 0 var(--hot), 8px 8px 0 0 var(--hot), 12px 8px 0 0 var(--hot), 16px 8px 0 0 var(--hot),
-    4px 12px 0 0 var(--ink), 8px 12px 0 0 var(--ink), 12px 12px 0 0 var(--ink),
-    0 16px 0 0 var(--hot), 4px 16px 0 0 var(--hot), 8px 16px 0 0 var(--hot), 12px 16px 0 0 var(--hot), 16px 16px 0 0 var(--hot),
-    4px 20px 0 0 var(--ink), 12px 20px 0 0 var(--ink),
-    4px 24px 0 0 var(--ink), 12px 24px 0 0 var(--ink);
+    4px 0 0 0 var(--char-a), 8px 0 0 0 var(--char-a), 12px 0 0 0 var(--char-a-dk),
+    0 4px 0 0 var(--char-a), 4px 4px 0 0 var(--char-a), 8px 4px 0 0 var(--char-a), 12px 4px 0 0 var(--char-a-dk), 16px 4px 0 0 var(--char-a-dk),
+    0 8px 0 0 var(--char-a), 4px 8px 0 0 var(--char-a), 8px 8px 0 0 var(--char-a), 12px 8px 0 0 var(--char-a-dk), 16px 8px 0 0 var(--char-a-dk),
+    4px 12px 0 0 var(--char-b), 8px 12px 0 0 var(--char-b), 12px 12px 0 0 var(--char-b),
+    0 16px 0 0 var(--char-a), 4px 16px 0 0 var(--char-a), 8px 16px 0 0 var(--char-a), 12px 16px 0 0 var(--char-a-dk), 16px 16px 0 0 var(--char-a-dk),
+    4px 20px 0 0 var(--char-b), 12px 20px 0 0 var(--char-b),
+    4px 24px 0 0 var(--char-b), 12px 24px 0 0 var(--char-b);
 }
+.ms-colors{display:flex; gap:7px; justify-content:center; margin-top:10px}
+.ms-color-btn{
+  width:18px; height:18px; border-radius:50%; border:2px solid transparent; padding:0; cursor:pointer;
+  background:var(--sw-a); box-shadow:inset 0 0 0 1px rgba(11,11,12,.15);
+}
+.ms-color-btn.is-on{border-color:var(--ink)}
 .ms-hint{font-size:10.5px; color:var(--ink-3); margin:8px 0 0; text-align:center}
 
 /* ================= 지면 ================= */
@@ -610,6 +627,9 @@ article .src{margin-top:auto}
     --rule-2:#2B2521;
     --chart:#E8663C;
     --mark:#6B5A18;
+    --iso-floor:#3A3128;
+    --iso-wall-r:#2C2620;
+    --iso-wall-l:#211C17;
   }
 }
 :root[data-theme="dark"]{
@@ -627,6 +647,9 @@ article .src{margin-top:auto}
   --rule-2:#2B2521;
   --chart:#E8663C;
   --mark:#6B5A18;
+  --iso-floor:#3A3128;
+  --iso-wall-r:#2C2620;
+  --iso-wall-l:#211C17;
 }
 /* 지면 그림자는 밝은 배경 전제라 어두운 화면에선 걷어낸다. */
 @media (prefers-color-scheme:dark){

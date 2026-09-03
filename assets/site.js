@@ -76,7 +76,7 @@
   if (!room || !platform || !char) return;
 
   var WORLD_MAX = 10;              // gx, gy 범위 [0, WORLD_MAX]
-  var ISO_ORIGIN_X = 110, ISO_ORIGIN_Y = 0;   // .ms-platform 폭 220 / 높이 110의 꼭짓점
+  var ISO_ORIGIN_X = 110, ISO_ORIGIN_Y = 40;  // .ms-platform 폭 220 / 높이 150(벽 40 + 바닥 110)의 안쪽 꼭짓점
   var ISO_TW = 11, ISO_TH = 5.5;    // (220/2)/WORLD_MAX, (110/2)/WORLD_MAX
   var CHAR_W = 20, CHAR_H = 28, FOOT_OFFSET = 24; // 캐릭터 "발"이 투영점에 오도록
 
@@ -147,6 +147,33 @@
   room.addEventListener("blur", function () { keys = Object.create(null); });
   room.addEventListener("click", function () { room.focus(); });
   window.addEventListener("resize", paint);
+
+  // ---- 캐릭터 색 고르기 ----
+  var colorsWrap = document.getElementById("msColors");
+  if (colorsWrap) {
+    var DARK_OF = {
+      "#FF4D1A": "#C93C13", "#3B6FD6": "#2C55AD", "#3E8E5A": "#2E6B44",
+      "#8B5CD6": "#6B42AD", "#D6A93B": "#AD842C", "#2AA6A0": "#1F7D79"
+    };
+    var btns = Array.prototype.slice.call(colorsWrap.querySelectorAll(".ms-color-btn"));
+    var LS_KEY = "heuy_char_color";
+
+    function applyColor(idx, persist) {
+      var btn = btns[idx];
+      if (!btn) return;
+      var a = getComputedStyle(btn).getPropertyValue("--sw-a").trim();
+      char.style.setProperty("--char-a", a);
+      char.style.setProperty("--char-a-dk", DARK_OF[a] || a);
+      btns.forEach(function (b, i) { b.classList.toggle("is-on", i === idx); });
+      if (persist) { try { localStorage.setItem(LS_KEY, idx); } catch (e) {} }
+    }
+    btns.forEach(function (btn, i) {
+      btn.addEventListener("click", function () { applyColor(i, true); });
+    });
+    var saved = 0;
+    try { saved = parseInt(localStorage.getItem(LS_KEY), 10) || 0; } catch (e) {}
+    applyColor(saved, false);
+  }
 })();
 
 /* HEUY.ARCHI — 로그인(매직링크) + 닉네임 + 홈페이지 피드백/댓글 채팅방
