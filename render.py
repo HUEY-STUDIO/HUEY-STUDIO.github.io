@@ -541,27 +541,46 @@ def render_account_panel():
     </aside>"""
 
 
+# 미니 스페이스 월드 좌표계. assets/site.js 의 ISO_* 상수와 반드시 맞물려야 한다.
+MS_WORLD_MAX = 50
+MS_ORIGIN_X, MS_ORIGIN_Y = 550, 0
+MS_TW, MS_TH = 11, 5.5
+# (종류, gx, gy) — 열린 월드 여기저기 흩어놓은 랜드마크
+MS_DECOS = [
+    ("table", 10, 15), ("plant", 35, 10), ("plant", 20, 40), ("table", 40, 35),
+    ("plant", 8, 35), ("table", 45, 20), ("plant", 48, 8), ("table", 5, 45),
+    ("plant", 25, 25), ("table", 28, 4),
+]
+
+
 def render_mini_space():
-    """홈페이지 전용: 계정 패널 바로 아래 붙는 미니 스페이스. 방향키로 픽셀 캐릭터를 움직인다.
-    로그인 여부와 무관하게 누구나 가지고 놀 수 있는 장식용 위젯 — 위치는 저장하지 않는다."""
+    """홈페이지 전용: 계정 패널 바로 아래 붙는 공유 스페이스. 접속자 전원이 같은 월드에서
+    실시간으로 함께 움직인다(Supabase Realtime broadcast+presence). 방향키로 자유롭게
+    돌아다니고, 카메라가 내 캐릭터를 따라다니며 훨씬 넓어진 맵을 비춘다."""
     swatches = "".join(
         f'<button type="button" class="ms-color-btn" data-color="{i}" style="--sw-a:{a}" title="캐릭터 색"></button>'
         for i, a in enumerate(["#FF4D1A", "#3B6FD6", "#3E8E5A", "#8B5CD6", "#D6A93B", "#2AA6A0"])
     )
+    decos = "\n".join(
+        f'          <div class="ms-deco ms-deco--{kind}" style="left:{MS_ORIGIN_X + (gx - gy) * MS_TW}px; '
+        f'top:{MS_ORIGIN_Y + (gx + gy) * MS_TH}px">{"<span></span>" if kind == "plant" else ""}</div>'
+        for kind, gx, gy in MS_DECOS
+    )
     return f"""    <div class="mini-space" id="miniSpace">
-      <div class="ms-head"><span id="msTitle">MY SPACE</span></div>
+      <div class="ms-head">
+        <span id="msTitle">MY SPACE</span>
+        <span class="ms-online" id="msOnline" title="지금 이 스페이스에 있는 사람">● 1</span>
+      </div>
       <div class="ms-room" id="msRoom" tabindex="0" aria-label="방향키로 캐릭터를 움직여보세요">
-        <div class="ms-platform">
-          <div class="ms-wall ms-wall--r"></div>
-          <div class="ms-wall ms-wall--l"></div>
+        <div class="ms-platform" id="msPlatform" style="width:{MS_ORIGIN_X * 2}px; height:{MS_WORLD_MAX * MS_TH * 2}px">
           <div class="ms-floor"></div>
-          <div class="ms-deco ms-deco--table"></div>
-          <div class="ms-deco ms-deco--plant"><span></span></div>
-          <div class="ms-char" id="msChar"><div class="ms-char-body"></div></div>
+{decos}
+          <div class="ms-players" id="msPlayers"></div>
+          <div class="ms-char" id="msChar"><div class="ms-char-body"></div><div class="ms-char-tag" id="msMyTag"></div></div>
         </div>
       </div>
       <div class="ms-colors" id="msColors">{swatches}</div>
-      <p class="ms-hint">클릭한 뒤 방향키로 자유롭게 움직여보세요(대각선도 가능)</p>
+      <p class="ms-hint">클릭한 뒤 방향키로 자유롭게 돌아다녀보세요 — 같이 접속한 사람들도 실시간으로 보여요</p>
     </div>"""
 
 

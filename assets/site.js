@@ -61,24 +61,33 @@
   });
 })();
 
-/* 미니 스페이스 — 계정 패널 아래 붙는 장식용 방. 방향키로 픽셀 캐릭터를 자유롭게(대각선 포함)
-   부드럽게 움직인다. 로그인 여부와 무관하게 동작하고, 위치는 저장하지 않는다(그냥 놀이용).
+/* 미니 스페이스 — 계정 패널 아래 붙는 공유 스페이스. 방향키로 픽셀 캐릭터를 자유롭게
+   (대각선 포함) 부드럽게 움직인다. 열린 월드라 방 하나에 다 안 들어가는 만큼, 카메라가
+   내 캐릭터를 화면 중앙에 고정한 채 .ms-platform 전체를 매 프레임 이동시킨다 —
+   실제 위치는 저장하지 않는다(그냥 놀이용).
 
    진짜 3D 회전(rotateX/rotateZ) 대신 고전적인 2:1 아이소메트릭 투영을 쓴다 — 좌표를
    화면 다이아몬드로 매핑만 하는 방식이라 박스섀도 픽셀아트가 회전으로 흐려지지 않고
-   또렷하게 남는다. 여기 ISO_* 상수는 assets/style.css 의 .ms-platform/.ms-floor
-   치수(220×110)와 맞물려 있으니 같이 바꿔야 한다. */
+   또렷하게 남는다. WORLD_* / ISO_* 상수는 render.py의 MS_* 와 반드시 맞물려야 한다.
+
+   접속자끼리는 Supabase Realtime의 presence(누가 있는지)+broadcast(움직임)로
+   동기화한다 — 위치를 DB에 쓰지 않는 휘발성 채널이라 움직일 때마다 테이블에
+   기록하는 부담이 없다. */
 (function () {
   "use strict";
   var room = document.getElementById("msRoom");
-  var platform = document.querySelector(".ms-platform");
+  var platform = document.getElementById("msPlatform");
   var char = document.getElementById("msChar");
+  var playersWrap = document.getElementById("msPlayers");
+  var onlineBadge = document.getElementById("msOnline");
+  var myTag = document.getElementById("msMyTag");
   if (!room || !platform || !char) return;
+  char.classList.add("ms-char--me");
 
-  var WORLD_MAX = 10;              // gx, gy 범위 [0, WORLD_MAX]
-  var ISO_ORIGIN_X = 110, ISO_ORIGIN_Y = 40;  // .ms-platform 폭 220 / 높이 150(벽 40 + 바닥 110)의 안쪽 꼭짓점
-  var ISO_TW = 11, ISO_TH = 5.5;    // (220/2)/WORLD_MAX, (110/2)/WORLD_MAX
-  var CHAR_W = 20, CHAR_H = 28, FOOT_OFFSET = 24; // 캐릭터 "발"이 투영점에 오도록
+  var WORLD_MAX = 50;              // gx, gy 범위 [0, WORLD_MAX] — render.py MS_WORLD_MAX
+  var ISO_ORIGIN_X = 550, ISO_ORIGIN_Y = 0;
+  var ISO_TW = 11, ISO_TH = 5.5;
+  var CHAR_W = 20, FOOT_OFFSET = 24; // 캐릭터 "발"이 투영점에 오도록
 
   var gx = WORLD_MAX / 2, gy = WORLD_MAX / 2;
 
@@ -88,13 +97,125 @@
       y: ISO_ORIGIN_Y + (px + py) * ISO_TH
     };
   }
+  function darken(hex) {
+    var m = /^#?([0-9a-f]{6})$/i.exec(hex || "");
+    if (!m) return hex;
+    var n = parseInt(m[1], 16);
+    var r = Math.max(0, ((n >> 16) & 255) - 40);
+    var g = Math.max(0, ((n >> 8) & 255) - 40);
+    var b = Math.max(0, (n & 255) - 40);
+    return "#" + [r, g, b].map(function (v) { return ("0" + v.toString(16)).slice(-2); }).join("");
+  }
+  function myColorHex() {
+    return getComputedStyle(char).getPropertyValue("--char-a").trim() || "#FF4D1A";
+  }
+
+  // 카메라: 내 캐릭터가 뷰포트 중앙에 오도록 .ms-platform 전체를 밀어낸다.
   function paint() {
     var p = project(gx, gy);
+    var vw = room.clientWidth, vh = room.clientHeight;
+    platform.style.transform = "translate(" + (vw / 2 - p.x) + "px," + (vh / 2 - p.y) + "px)";
     char.style.left = (p.x - CHAR_W / 2) + "px";
     char.style.top = (p.y - FOOT_OFFSET) + "px";
   }
   paint();
 
+  // ---------------------------------------------------------- 다른 접속자 동기화
+  var others = Object.create(null); // id -> {el, gx, gy}
+  var channel = null;
+  var myId = "g_" + Math.random().toString(36).slice(2, 10);
+  var myName = "손님" + Math.floor(1000 + Math.random() * 9000);
+
+  function positionOther(rec) {
+    var p = project(rec.gx, rec.gy);
+    rec.el.style.left = (p.x - CHAR_W / 2) + "px";
+    rec.el.style.top = (p.y - FOOT_OFFSET) + "px";
+  }
+  function ensureOther(id, name, color) {
+    var rec = others[id];
+    if (rec) return rec;
+    var el = document.createElement("div");
+    el.className = "ms-char ms-char--other";
+    el.style.setProperty("--char-a", color || "#7A716B");
+    el.style.setProperty("--char-a-dk", darken(color || "#7A716B"));
+    el.innerHTML = '<div class="ms-char-body"></div><div class="ms-char-tag"></div>';
+    playersWrap.appendChild(el);
+    rec = others[id] = { el: el, gx: WORLD_MAX / 2, gy: WORLD_MAX / 2 };
+    positionOther(rec);
+    return rec;
+  }
+  function setOtherMeta(rec, name, color) {
+    rec.el.querySelector(".ms-char-tag").textContent = name || "손님";
+    if (color) {
+      rec.el.style.setProperty("--char-a", color);
+      rec.el.style.setProperty("--char-a-dk", darken(color));
+    }
+  }
+  function removeOther(id) {
+    var rec = others[id];
+    if (!rec) return;
+    rec.el.remove();
+    delete others[id];
+  }
+  function updateOnlineBadge() {
+    if (!onlineBadge) return;
+    var n = Object.keys(others).length + 1;
+    onlineBadge.textContent = "● " + n;
+    onlineBadge.classList.toggle("is-live", n > 1);
+  }
+
+  if (window.supabase && window.supabase.createClient) {
+    var sb = window.supabase.createClient(
+      "https://rwmivexpkjppvsvwuguw.supabase.co",
+      "sb_publishable_iDTkwOY5Qo42G0xj7Igqaw_rgfrWMyH"
+    );
+    channel = sb.channel("mini_space_v1", { config: { broadcast: { self: false }, presence: { key: myId } } });
+
+    channel.on("broadcast", { event: "move" }, function (msg) {
+      var d = msg.payload;
+      if (!d || d.id === myId) return;
+      var rec = ensureOther(d.id, d.name, d.color);
+      setOtherMeta(rec, d.name, d.color);
+      rec.gx = d.gx; rec.gy = d.gy;
+      positionOther(rec);
+    });
+    channel.on("presence", { event: "sync" }, function () {
+      var state = channel.presenceState();
+      var seen = Object.create(null);
+      Object.keys(state).forEach(function (key) {
+        (state[key] || []).forEach(function (meta) {
+          if (meta.id === myId) return;
+          seen[meta.id] = true;
+          var rec = ensureOther(meta.id, meta.name, meta.color);
+          setOtherMeta(rec, meta.name, meta.color);
+          if (typeof meta.gx === "number") { rec.gx = meta.gx; rec.gy = meta.gy; positionOther(rec); }
+        });
+      });
+      Object.keys(others).forEach(function (id) { if (!seen[id]) removeOther(id); });
+      updateOnlineBadge();
+    });
+    channel.subscribe(function (status) {
+      if (status === "SUBSCRIBED") {
+        channel.track({ id: myId, name: myName, color: myColorHex(), gx: gx, gy: gy });
+      }
+    });
+
+    // 로그인돼 있으면 실제 닉네임으로 갱신
+    sb.auth.getSession().then(function (res) {
+      var session = res.data && res.data.session;
+      if (!session || !session.user) return;
+      myId = session.user.id;
+      return sb.from("profiles").select("nickname").eq("id", session.user.id).maybeSingle().then(function (r) {
+        var nick = r.data && r.data.nickname;
+        myName = nick || (session.user.email || "").split("@")[0] || myName;
+        if (myTag) myTag.textContent = myName;
+        if (channel) channel.track({ id: myId, name: myName, color: myColorHex(), gx: gx, gy: gy });
+      });
+    }).catch(function () {});
+  }
+  if (myTag) myTag.textContent = myName;
+
+  // ---------------------------------------------------------- 이동
   // 화면에서 위/아래/좌/우로 보이도록, 각 방향키를 월드 대각선 한 쌍에 대응시킨다
   // (아이소메트릭 게임의 표준 방식) — 여러 키를 같이 누르면 자연히 나머지 4방향도 나온다.
   var keys = Object.create(null);
@@ -102,10 +223,16 @@
     ArrowUp: [-1, -1], ArrowDown: [1, 1],
     ArrowLeft: [-1, 1], ArrowRight: [1, -1]
   };
-  var SPEED = 3.2; // 초당 월드유닛
-  var rafId = null, lastT = null;
+  var SPEED = 9; // 초당 월드유닛 — 넓어진 만큼 예전보다 빠르게
+  var rafId = null, lastT = null, lastSend = 0;
 
   function clampWorld(v) { return Math.max(0, Math.min(WORLD_MAX, v)); }
+
+  function broadcastMove(t) {
+    if (!channel || t - lastSend < 90) return;
+    lastSend = t;
+    channel.send({ type: "broadcast", event: "move", payload: { id: myId, name: myName, color: myColorHex(), gx: gx, gy: gy } });
+  }
 
   function tick(t) {
     if (lastT == null) lastT = t;
@@ -121,6 +248,7 @@
       gx = clampWorld(gx + (dx / len) * v);
       gy = clampWorld(gy + (dy / len) * v);
       paint();
+      broadcastMove(t);
       rafId = requestAnimationFrame(tick);
     } else {
       rafId = null; lastT = null;
@@ -128,10 +256,6 @@
   }
   function ensureLoop() {
     if (rafId == null) rafId = requestAnimationFrame(tick);
-  }
-  function anyKeyHeld() {
-    for (var k in DIRS) if (keys[k]) return true;
-    return false;
   }
 
   room.addEventListener("keydown", function (e) {
@@ -151,10 +275,6 @@
   // ---- 캐릭터 색 고르기 ----
   var colorsWrap = document.getElementById("msColors");
   if (colorsWrap) {
-    var DARK_OF = {
-      "#FF4D1A": "#C93C13", "#3B6FD6": "#2C55AD", "#3E8E5A": "#2E6B44",
-      "#8B5CD6": "#6B42AD", "#D6A93B": "#AD842C", "#2AA6A0": "#1F7D79"
-    };
     var btns = Array.prototype.slice.call(colorsWrap.querySelectorAll(".ms-color-btn"));
     var LS_KEY = "heuy_char_color";
 
@@ -163,9 +283,12 @@
       if (!btn) return;
       var a = getComputedStyle(btn).getPropertyValue("--sw-a").trim();
       char.style.setProperty("--char-a", a);
-      char.style.setProperty("--char-a-dk", DARK_OF[a] || a);
+      char.style.setProperty("--char-a-dk", darken(a));
       btns.forEach(function (b, i) { b.classList.toggle("is-on", i === idx); });
-      if (persist) { try { localStorage.setItem(LS_KEY, idx); } catch (e) {} }
+      if (persist) {
+        try { localStorage.setItem(LS_KEY, idx); } catch (e) {}
+        if (channel) channel.track({ id: myId, name: myName, color: a, gx: gx, gy: gy });
+      }
     }
     btns.forEach(function (btn, i) {
       btn.addEventListener("click", function () { applyColor(i, true); });

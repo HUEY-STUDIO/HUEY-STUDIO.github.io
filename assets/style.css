@@ -126,39 +126,51 @@ b{font-weight:800; color:var(--ink)}
 .mini-space{
   background:var(--sheet); border:1px solid var(--rule); border-radius:8px; padding:14px;
 }
-.ms-head{font-size:11.5px; font-weight:800; letter-spacing:.06em; color:var(--ink-2); margin-bottom:8px}
+.ms-head{
+  display:flex; align-items:center; justify-content:space-between; gap:8px;
+  font-size:11.5px; font-weight:800; letter-spacing:.06em; color:var(--ink-2); margin-bottom:8px;
+}
+.ms-online{
+  font-size:10px; font-weight:800; letter-spacing:0; color:var(--ink-3);
+  display:flex; align-items:center; gap:4px;
+}
+.ms-online.is-live{color:#1E7A3D}
 .ms-room{
-  position:relative; height:224px; border-radius:6px; overflow:hidden; cursor:pointer;
+  position:relative; height:240px; border-radius:6px; overflow:hidden; cursor:pointer;
   border:1px solid var(--rule-2); outline-offset:-2px;
   background:linear-gradient(180deg, var(--paper), var(--sheet));
 }
 .ms-room:focus-visible{outline:2px solid var(--hot)}
 
-/* 아이소메트릭(2:1) 투영 — 실제 3D 회전이 아니라 x/y/z를 화면 좌표로 매핑만 하는
-   고전적인 방식이라 회전으로 인한 블러 없이 픽셀이 또렷하다. 바닥(위쪽 면) +
-   뒷벽 두 개(왼쪽·오른쪽 면)로 상자를 이루게 해서 X/Y/Z 세 축이 뚜렷이 구분되는
-   입체 공간처럼 보이게 한다. 좌표 상수는 assets/site.js의 ISO_* 와 맞물려 있다. */
-.ms-platform{position:relative; width:220px; height:150px; margin:10px auto 0}
-.ms-wall{position:absolute; inset:0; border:1px solid rgba(11,11,12,.12)}
-.ms-wall--r{clip-path:polygon(110px 0px, 220px 55px, 220px 95px, 110px 40px); background:var(--iso-wall-r)}
-.ms-wall--l{clip-path:polygon(110px 0px, 0px 55px, 0px 95px, 110px 40px); background:var(--iso-wall-l)}
+/* 아이소메트릭(2:1) 투영 — 실제 3D 회전이 아니라 x/y를 화면 다이아몬드로 매핑만 하는
+   고전적인 방식이라 회전으로 인한 블러 없이 픽셀이 또렷하다. 열린 월드라 바닥 하나가
+   .ms-room(뷰포트)보다 훨씬 크고, 그 안에서 내 캐릭터를 중심에 고정한 채 .ms-platform
+   전체를 매 프레임 이동시켜 카메라가 따라다니는 것처럼 보이게 한다(assets/site.js).
+   폭·높이는 render.py의 MS_* 상수와 반드시 맞물려야 한다. */
+.ms-platform{position:absolute; left:0; top:0; will-change:transform}
 .ms-floor{
-  position:absolute; inset:0; clip-path:polygon(110px 40px, 220px 95px, 110px 150px, 0px 95px);
-  background:var(--iso-floor); border:1px solid rgba(11,11,12,.12);
-  filter:drop-shadow(0 10px 8px rgba(0,0,0,.16));
+  position:absolute; inset:0; clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background:
+    radial-gradient(ellipse 60% 45% at 50% 50%, var(--iso-wall-r) 0%, transparent 70%),
+    linear-gradient(135deg, var(--iso-floor) 0%, var(--iso-wall-r) 100%);
 }
 .ms-deco{position:absolute}
-.ms-deco--table{width:40px; height:24px; left:74px; top:44px; background:#8B5A3C; border-radius:3px; box-shadow:0 3px 0 #6E4630}
-.ms-deco--plant{left:163px; top:66px; width:16px; height:24px}
+.ms-deco--table{width:40px; height:24px; margin:-20px 0 0 -20px; background:#8B5A3C; border-radius:3px; box-shadow:0 3px 0 #6E4630}
+.ms-deco--plant{width:16px; height:24px; margin:-24px 0 0 -8px}
 .ms-deco--plant span{position:absolute; bottom:0; left:3px; width:10px; height:10px; background:#8B5A3C; border-radius:2px}
 .ms-deco--plant::before{
   content:""; position:absolute; top:0; left:0; width:16px; height:16px; background:#3E8E5A;
   border-radius:50% 50% 50% 0; box-shadow:6px 2px 0 -2px #3E8E5A, -6px 2px 0 -2px #3E8E5A;
 }
+.ms-players{position:absolute; inset:0}
 .ms-char{
-  position:absolute; left:100px; top:71px; width:20px; height:28px;
+  position:absolute; width:20px; height:28px;
   --char-a:#FF4D1A; --char-b:#0B0B0C; --char-a-dk:#C93C13;
 }
+/* 다른 접속자는 위치가 throttle된 브로드캐스트로 뜨문뜨문 오니, 그 사이를 CSS
+   트랜지션으로 매끄럽게 이어 붙인다. 내 캐릭터는 매 프레임 rAF로 직접 그리므로
+   트랜지션을 얹으면 오히려 입력이 늦게 느껴져서 뺀다. */
+.ms-char--other{transition:left .12s linear, top .12s linear}
 .ms-char::after{
   content:""; position:absolute; bottom:1px; left:2px; width:16px; height:5px;
   background:rgba(0,0,0,.28); border-radius:50%; filter:blur(1px); z-index:-1;
@@ -174,6 +186,12 @@ b{font-weight:800; color:var(--ink)}
     4px 20px 0 0 var(--char-b), 12px 20px 0 0 var(--char-b),
     4px 24px 0 0 var(--char-b), 12px 24px 0 0 var(--char-b);
 }
+.ms-char-tag{
+  position:absolute; left:50%; top:-15px; transform:translateX(-50%); white-space:nowrap;
+  font-size:9px; font-weight:800; color:#fff; background:rgba(11,11,12,.68);
+  padding:1px 5px; border-radius:3px; pointer-events:none;
+}
+.ms-char--me .ms-char-tag{background:var(--hot)}
 .ms-colors{display:flex; gap:7px; justify-content:center; margin-top:10px}
 .ms-color-btn{
   width:18px; height:18px; border-radius:50%; border:2px solid transparent; padding:0; cursor:pointer;
