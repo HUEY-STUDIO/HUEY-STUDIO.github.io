@@ -547,12 +547,14 @@ def render_mini_space():
     return """    <div class="mini-space" id="miniSpace">
       <div class="ms-head"><span id="msTitle">MY SPACE</span></div>
       <div class="ms-room" id="msRoom" tabindex="0" aria-label="방향키로 캐릭터를 움직여보세요">
-        <div class="ms-floor"></div>
-        <div class="ms-deco ms-deco--table"></div>
-        <div class="ms-deco ms-deco--plant"><span></span></div>
-        <div class="ms-char" id="msChar"><div class="ms-char-body"></div></div>
+        <div class="ms-platform">
+          <div class="ms-floor"></div>
+          <div class="ms-deco ms-deco--table"></div>
+          <div class="ms-deco ms-deco--plant"><span></span></div>
+          <div class="ms-char" id="msChar"><div class="ms-char-body"></div></div>
+        </div>
       </div>
-      <p class="ms-hint">클릭한 뒤 방향키로 움직여보세요</p>
+      <p class="ms-hint">클릭한 뒤 방향키로 자유롭게 움직여보세요(대각선도 가능)</p>
     </div>"""
 
 

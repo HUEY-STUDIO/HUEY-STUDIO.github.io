@@ -61,39 +61,90 @@
   });
 })();
 
-/* 미니 스페이스 — 계정 패널 아래 붙는 장식용 방. 방향키로 픽셀 캐릭터를 움직인다.
-   로그인 여부와 무관하게 동작하고, 위치는 저장하지 않는다(그냥 놀이용). */
+/* 미니 스페이스 — 계정 패널 아래 붙는 장식용 방. 방향키로 픽셀 캐릭터를 자유롭게(대각선 포함)
+   부드럽게 움직인다. 로그인 여부와 무관하게 동작하고, 위치는 저장하지 않는다(그냥 놀이용).
+
+   진짜 3D 회전(rotateX/rotateZ) 대신 고전적인 2:1 아이소메트릭 투영을 쓴다 — 좌표를
+   화면 다이아몬드로 매핑만 하는 방식이라 박스섀도 픽셀아트가 회전으로 흐려지지 않고
+   또렷하게 남는다. 여기 ISO_* 상수는 assets/style.css 의 .ms-platform/.ms-floor
+   치수(220×110)와 맞물려 있으니 같이 바꿔야 한다. */
 (function () {
   "use strict";
   var room = document.getElementById("msRoom");
+  var platform = document.querySelector(".ms-platform");
   var char = document.getElementById("msChar");
-  if (!room || !char) return;
+  if (!room || !platform || !char) return;
 
-  var STEP = 8;
-  var x = 40, y = 40;
+  var WORLD_MAX = 10;              // gx, gy 범위 [0, WORLD_MAX]
+  var ISO_ORIGIN_X = 110, ISO_ORIGIN_Y = 0;   // .ms-platform 폭 220 / 높이 110의 꼭짓점
+  var ISO_TW = 11, ISO_TH = 5.5;    // (220/2)/WORLD_MAX, (110/2)/WORLD_MAX
+  var CHAR_W = 20, CHAR_H = 28, FOOT_OFFSET = 24; // 캐릭터 "발"이 투영점에 오도록
 
-  function clampAxis(v, max) { return Math.max(0, Math.min(max, v)); }
+  var gx = WORLD_MAX / 2, gy = WORLD_MAX / 2;
+
+  function project(px, py) {
+    return {
+      x: ISO_ORIGIN_X + (px - py) * ISO_TW,
+      y: ISO_ORIGIN_Y + (px + py) * ISO_TH
+    };
+  }
   function paint() {
-    var maxX = room.clientWidth - char.offsetWidth;
-    var maxY = room.clientHeight - char.offsetHeight;
-    x = clampAxis(x, maxX);
-    y = clampAxis(y, maxY);
-    char.style.left = x + "px";
-    char.style.top = y + "px";
+    var p = project(gx, gy);
+    char.style.left = (p.x - CHAR_W / 2) + "px";
+    char.style.top = (p.y - FOOT_OFFSET) + "px";
   }
   paint();
 
-  var KEYMAP = {
-    ArrowUp: [0, -STEP], ArrowDown: [0, STEP],
-    ArrowLeft: [-STEP, 0], ArrowRight: [STEP, 0]
+  // 화면에서 위/아래/좌/우로 보이도록, 각 방향키를 월드 대각선 한 쌍에 대응시킨다
+  // (아이소메트릭 게임의 표준 방식) — 여러 키를 같이 누르면 자연히 나머지 4방향도 나온다.
+  var keys = Object.create(null);
+  var DIRS = {
+    ArrowUp: [-1, -1], ArrowDown: [1, 1],
+    ArrowLeft: [-1, 1], ArrowRight: [1, -1]
   };
+  var SPEED = 3.2; // 초당 월드유닛
+  var rafId = null, lastT = null;
+
+  function clampWorld(v) { return Math.max(0, Math.min(WORLD_MAX, v)); }
+
+  function tick(t) {
+    if (lastT == null) lastT = t;
+    var dt = Math.min(48, t - lastT);
+    lastT = t;
+    var dx = 0, dy = 0;
+    for (var k in DIRS) {
+      if (keys[k]) { dx += DIRS[k][0]; dy += DIRS[k][1]; }
+    }
+    var len = Math.hypot(dx, dy);
+    if (len > 0) {
+      var v = SPEED * (dt / 1000);
+      gx = clampWorld(gx + (dx / len) * v);
+      gy = clampWorld(gy + (dy / len) * v);
+      paint();
+      rafId = requestAnimationFrame(tick);
+    } else {
+      rafId = null; lastT = null;
+    }
+  }
+  function ensureLoop() {
+    if (rafId == null) rafId = requestAnimationFrame(tick);
+  }
+  function anyKeyHeld() {
+    for (var k in DIRS) if (keys[k]) return true;
+    return false;
+  }
+
   room.addEventListener("keydown", function (e) {
-    var d = KEYMAP[e.key];
-    if (!d) return;
+    if (!DIRS[e.key]) return;
     e.preventDefault();
-    x += d[0]; y += d[1];
-    paint();
+    keys[e.key] = true;
+    ensureLoop();
   });
+  room.addEventListener("keyup", function (e) {
+    if (!DIRS[e.key]) return;
+    delete keys[e.key];
+  });
+  room.addEventListener("blur", function () { keys = Object.create(null); });
   room.addEventListener("click", function () { room.focus(); });
   window.addEventListener("resize", paint);
 })();
