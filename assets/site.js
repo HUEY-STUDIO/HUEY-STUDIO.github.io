@@ -1,3 +1,66 @@
+/* 홈페이지 본문/사이드바 경계 드래그 리사이즈. Supabase 여부와 무관하게 항상 동작하고,
+   고른 사이드바 폭은 localStorage에 저장해 다음 방문에도 유지한다. */
+(function () {
+  "use strict";
+  var resizer = document.getElementById("homeResizer");
+  var layout = document.getElementById("homeLayout");
+  if (!resizer || !layout) return;
+
+  var LS_KEY = "heuy_sidebar_w";
+  var MIN = 220, MAX = 480;
+
+  function apply(px) {
+    layout.style.gridTemplateColumns = "1fr 10px " + px + "px";
+  }
+  function sideWidth() {
+    return document.querySelector(".home-side").getBoundingClientRect().width;
+  }
+  function clamp(px) { return Math.min(MAX, Math.max(MIN, px)); }
+
+  try {
+    var saved = parseInt(localStorage.getItem(LS_KEY), 10);
+    if (saved) apply(clamp(saved));
+  } catch (e) {}
+
+  var dragging = false, startX = 0, startWidth = 0;
+
+  function start(clientX) {
+    dragging = true;
+    startX = clientX;
+    startWidth = sideWidth();
+    resizer.classList.add("is-dragging");
+    document.body.style.userSelect = "none";
+  }
+  function move(clientX) {
+    if (!dragging) return;
+    apply(clamp(startWidth - (clientX - startX)));
+  }
+  function end() {
+    if (!dragging) return;
+    dragging = false;
+    resizer.classList.remove("is-dragging");
+    document.body.style.userSelect = "";
+    try { localStorage.setItem(LS_KEY, Math.round(sideWidth())); } catch (e) {}
+  }
+
+  resizer.addEventListener("mousedown", function (e) { start(e.clientX); e.preventDefault(); });
+  window.addEventListener("mousemove", function (e) { move(e.clientX); });
+  window.addEventListener("mouseup", end);
+
+  resizer.addEventListener("touchstart", function (e) { start(e.touches[0].clientX); }, { passive: true });
+  window.addEventListener("touchmove", function (e) { move(e.touches[0].clientX); }, { passive: true });
+  window.addEventListener("touchend", end);
+
+  // 키보드로도 조절 가능하게(접근성)
+  resizer.addEventListener("keydown", function (e) {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    e.preventDefault();
+    var next = clamp(sideWidth() + (e.key === "ArrowLeft" ? 16 : -16));
+    apply(next);
+    try { localStorage.setItem(LS_KEY, Math.round(next)); } catch (err) {}
+  });
+})();
+
 /* HEUY.ARCHI — 로그인(매직링크) + 닉네임 + 홈페이지 피드백/댓글 채팅방
    Supabase Auth + Postgres + Realtime. 계정 패널·피드백방 모두 홈페이지 전용이라
    #accountPanel 이 없는 페이지(지난호·카테고리 등)에서는 이 스크립트가 아무 일도 안 한다. */

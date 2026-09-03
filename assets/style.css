@@ -59,9 +59,17 @@ b{font-weight:800; color:var(--ink)}
 /* 홈페이지만 본문 옆에 로그인+피드백 사이드바를 붙이는 만큼 지면 폭을 조금 더 준다.
    다른 페이지는 기존 1180px 그대로. */
 .sheet--home{max-width:1500px}
-.home-layout{display:grid; grid-template-columns:1fr 300px; gap:24px; align-items:start}
-.home-main{min-width:0}
-.home-side{position:sticky; top:64px; display:flex; flex-direction:column; gap:16px}
+.home-layout{display:grid; grid-template-columns:1fr 10px 300px; align-items:start}
+.home-main{min-width:280px; padding-right:14px}
+.home-side{position:sticky; top:64px; display:flex; flex-direction:column; gap:16px; padding-left:14px; min-width:220px}
+.home-resizer{
+  align-self:stretch; cursor:col-resize; position:relative; touch-action:none;
+}
+.home-resizer::after{
+  content:""; position:absolute; top:0; bottom:0; left:50%; width:1px;
+  background:var(--rule); transform:translateX(-50%); transition:background .1s, width .1s;
+}
+.home-resizer:hover::after, .home-resizer.is-dragging::after{background:var(--hot); width:3px}
 /* brandbar·paper-foot의 좌우 풀블리드(-30px)는 원래 .sheet 패딩 기준이라, 사이드바가
    생긴 오른쪽에서는 그 트릭을 끄고 .home-main 자기 폭에 맞춘다(왼쪽은 그대로 지면 끝까지). */
 .home-main .brandbar, .home-main .paper-foot{margin-right:0}
@@ -474,8 +482,10 @@ article .src{margin-top:auto}
 /* ================= 반응형 ================= */
 @media (max-width:980px){
   .sheet--home{max-width:1180px}
-  .home-layout{grid-template-columns:1fr}
-  .home-side{position:static; top:auto}
+  .home-layout{grid-template-columns:1fr !important}
+  .home-main{padding-right:0}
+  .home-side{position:static; top:auto; padding-left:0; min-width:0}
+  .home-resizer{display:none}
   .home-main .brandbar, .home-main .paper-foot{margin-right:-30px}
   .topblock{grid-template-columns:1fr}
   .topmain{padding:18px 0; border-right:0; border-bottom:1px solid var(--rule)}

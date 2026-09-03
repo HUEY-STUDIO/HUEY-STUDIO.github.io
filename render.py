@@ -584,8 +584,10 @@ def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None,
         render_foot(d),
     ] if x)
     if home:
-        sheet_inner = (f'  <div class="home-layout">\n'
+        sheet_inner = (f'  <div class="home-layout" id="homeLayout">\n'
                        f'    <div class="home-main">\n{main}\n    </div>\n'
+                       f'    <div class="home-resizer" id="homeResizer" role="separator" '
+                       f'aria-orientation="vertical" aria-label="사이드바 너비 조절" tabindex="0"></div>\n'
                        f'{render_home_side()}\n'
                        f'  </div>')
         sheet_open = '<div class="sheet sheet--home">'
