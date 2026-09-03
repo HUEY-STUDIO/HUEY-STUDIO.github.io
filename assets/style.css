@@ -22,8 +22,11 @@
   --chart:#9F0F1F;      /* 통계 막대. 계열이 하나뿐이라 한 색만 쓴다 */
   --mark:#F7E08A;       /* 검색 결과 하이라이트 */
   --iso-floor:#F2E4D0;  /* 미니 스페이스 아이소메트릭 바닥(가장 밝은 면) */
-  --iso-wall-r:#D9C4A3; /* 오른쪽 벽(중간 톤) */
-  --iso-wall-l:#C2A980; /* 왼쪽 벽(가장 어두운 면) */
+  --iso-wall-r:#D9C4A3; /* 오른쪽 벽(중간 톤) — 건물 옆면에도 재사용 */
+  --iso-wall-l:#C2A980; /* 왼쪽 벽(가장 어두운 면) — 건물 옆면에도 재사용 */
+  --ms-grass:#3E8E5A;   /* 미니 스페이스 잔디 타일 */
+  --ms-road:#9C9086;    /* 미니 스페이스 도로 타일 */
+  --ms-river:#3B6FD6;   /* 미니 스페이스 강 타일 */
   --font:'Pretendard Variable', Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR',
          'Malgun Gothic', -apple-system, system-ui, sans-serif;
 }
@@ -154,6 +157,13 @@ b{font-weight:800; color:var(--ink)}
     radial-gradient(ellipse 60% 45% at 50% 50%, var(--iso-wall-r) 0%, transparent 70%),
     linear-gradient(135deg, var(--iso-floor) 0%, var(--iso-wall-r) 100%);
 }
+/* 바닥에 붙는 평면 타일(강·도로·잔디) — 캐릭터 한 칸 이동 폭(2×TW × 2×TH)과 같은 크기의
+   다이아몬드를 이어 붙여 지형처럼 보이게 한다. render.py의 MS_TILES가 좌표를 계산한다. */
+.ms-tile{position:absolute; width:22px; height:11px; margin:-5.5px 0 0 -11px; clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}
+.ms-tile--grass{background:var(--ms-grass); opacity:.55}
+.ms-tile--road{background:var(--ms-road); opacity:.82}
+.ms-tile--river{background:var(--ms-river); opacity:.75}
+
 .ms-deco{position:absolute}
 .ms-deco--table{width:40px; height:24px; margin:-20px 0 0 -20px; background:#8B5A3C; border-radius:3px; box-shadow:0 3px 0 #6E4630}
 .ms-deco--plant{width:16px; height:24px; margin:-24px 0 0 -8px}
@@ -161,6 +171,21 @@ b{font-weight:800; color:var(--ink)}
 .ms-deco--plant::before{
   content:""; position:absolute; top:0; left:0; width:16px; height:16px; background:#3E8E5A;
   border-radius:50% 50% 50% 0; box-shadow:6px 2px 0 -2px #3E8E5A, -6px 2px 0 -2px #3E8E5A;
+}
+/* 건물 — 지붕(다이아몬드) + 양쪽 벽(평행사변형) 3면. 바닥 만들 때 쓰던 --iso-wall-r/-l을
+   여기서 재사용한다(방 경계 벽은 오픈월드가 되며 없앴지만 톤은 그대로 살려 씀). */
+.ms-deco--building{width:22px; height:11px; margin:-34px 0 0 -11px}
+.ms-bld-roof{
+  position:absolute; left:0; top:0; width:22px; height:11px;
+  clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%); background:var(--red);
+}
+.ms-bld-wall-r{
+  position:absolute; left:11px; top:5.5px; width:11px; height:26px;
+  clip-path:polygon(0 0,100% 20%,100% 100%,0 80%); background:var(--iso-wall-r);
+}
+.ms-bld-wall-l{
+  position:absolute; left:0; top:5.5px; width:11px; height:26px;
+  clip-path:polygon(100% 0,0 20%,0 100%,100% 80%); background:var(--iso-wall-l);
 }
 .ms-players{position:absolute; inset:0}
 .ms-char{
@@ -192,6 +217,30 @@ b{font-weight:800; color:var(--ink)}
   padding:1px 5px; border-radius:3px; pointer-events:none;
 }
 .ms-char--me .ms-char-tag{background:var(--hot)}
+
+/* 스페이스바 점프 — 몸통만 살짝 튀어오르게(이름표·말풍선은 제자리) */
+@keyframes msJump{0%{transform:translateY(0)} 45%{transform:translateY(-16px)} 100%{transform:translateY(0)}}
+.ms-char.is-jumping .ms-char-body{animation:msJump .5s ease}
+
+/* 엔터로 치는 채팅 — 말풍선으로 캐릭터 머리 위에 잠깐 떴다 사라진다 */
+@keyframes msBubbleIn{from{opacity:0; transform:translate(-50%,4px)} to{opacity:1; transform:translate(-50%,0)}}
+.ms-char-bubble{
+  position:absolute; left:50%; bottom:100%; transform:translate(-50%,0); margin-bottom:20px;
+  background:var(--sheet); color:var(--ink); border:1px solid var(--rule-2); border-radius:10px;
+  padding:4px 9px; font-size:11px; font-weight:600; white-space:normal; word-break:break-word;
+  max-width:130px; box-shadow:0 3px 8px rgba(0,0,0,.18); z-index:5; pointer-events:none;
+  animation:msBubbleIn .15s ease;
+}
+.ms-char-bubble::after{
+  content:""; position:absolute; top:100%; left:50%; transform:translateX(-50%);
+  border:5px solid transparent; border-top-color:var(--sheet);
+}
+.ms-chat-form{position:absolute; left:8px; right:8px; bottom:8px; z-index:6}
+.ms-chat-form input{
+  width:100%; box-sizing:border-box; border:1px solid var(--rule-2); border-radius:6px;
+  padding:7px 10px; font-size:12px; font-family:var(--font); background:var(--sheet); color:var(--ink); outline:none;
+}
+.ms-chat-form input:focus{border-color:var(--hot)}
 .ms-colors{display:flex; gap:7px; justify-content:center; margin-top:10px}
 .ms-color-btn{
   width:18px; height:18px; border-radius:50%; border:2px solid transparent; padding:0; cursor:pointer;
@@ -648,6 +697,9 @@ article .src{margin-top:auto}
     --iso-floor:#3A3128;
     --iso-wall-r:#2C2620;
     --iso-wall-l:#211C17;
+    --ms-grass:#2E6B45;
+    --ms-road:#4A433B;
+    --ms-river:#2F5AA8;
   }
 }
 :root[data-theme="dark"]{
@@ -668,6 +720,9 @@ article .src{margin-top:auto}
   --iso-floor:#3A3128;
   --iso-wall-r:#2C2620;
   --iso-wall-l:#211C17;
+  --ms-grass:#2E6B45;
+  --ms-road:#4A433B;
+  --ms-river:#2F5AA8;
 }
 /* 지면 그림자는 밝은 배경 전제라 어두운 화면에선 걷어낸다. */
 @media (prefers-color-scheme:dark){

@@ -81,6 +81,8 @@
   var playersWrap = document.getElementById("msPlayers");
   var onlineBadge = document.getElementById("msOnline");
   var myTag = document.getElementById("msMyTag");
+  var chatForm = document.getElementById("msChatForm");
+  var chatInput = document.getElementById("msChatInput");
   if (!room || !platform || !char) return;
   char.classList.add("ms-char--me");
 
@@ -164,6 +166,58 @@
     onlineBadge.classList.toggle("is-live", n > 1);
   }
 
+  // ---------------------------------------------------------- 점프(스페이스바)
+  function triggerJump(el) {
+    if (!el || el.classList.contains("is-jumping")) return;
+    el.classList.add("is-jumping");
+    setTimeout(function () { el.classList.remove("is-jumping"); }, 500);
+  }
+  function broadcastJump() {
+    if (!channel) return;
+    channel.send({ type: "broadcast", event: "jump", payload: { id: myId } });
+  }
+
+  // ---------------------------------------------------------- 채팅(엔터, 말풍선)
+  function showBubble(el, text) {
+    if (!el) return;
+    var old = el.querySelector(".ms-char-bubble");
+    if (old) old.remove();
+    var b = document.createElement("div");
+    b.className = "ms-char-bubble";
+    b.textContent = text; // textContent라 별도 이스케이프 없이도 안전
+    el.appendChild(b);
+    setTimeout(function () { if (b.parentNode) b.remove(); }, 4000);
+  }
+  function broadcastChat(text) {
+    if (!channel) return;
+    channel.send({ type: "broadcast", event: "chat", payload: { id: myId, name: myName, color: myColorHex(), text: text } });
+  }
+  function openChat() {
+    if (!chatForm || !chatInput) return;
+    chatForm.classList.remove("hidden");
+    chatInput.value = "";
+    chatInput.focus();
+  }
+  function closeChat() {
+    if (!chatForm) return;
+    chatForm.classList.add("hidden");
+    room.focus();
+  }
+  if (chatForm && chatInput) {
+    chatForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var text = chatInput.value.trim().slice(0, 60);
+      closeChat();
+      if (!text) return;
+      showBubble(char, text);
+      broadcastChat(text);
+    });
+    chatInput.addEventListener("keydown", function (e) {
+      e.stopPropagation(); // 타이핑 중엔 방향키/스페이스가 이동·점프로 새지 않게
+      if (e.key === "Escape") { e.preventDefault(); closeChat(); }
+    });
+  }
+
   if (window.supabase && window.supabase.createClient) {
     var sb = window.supabase.createClient(
       "https://rwmivexpkjppvsvwuguw.supabase.co",
@@ -178,6 +232,19 @@
       setOtherMeta(rec, d.name, d.color);
       rec.gx = d.gx; rec.gy = d.gy;
       positionOther(rec);
+    });
+    channel.on("broadcast", { event: "jump" }, function (msg) {
+      var d = msg.payload;
+      if (!d || d.id === myId) return;
+      var rec = others[d.id];
+      if (rec) triggerJump(rec.el);
+    });
+    channel.on("broadcast", { event: "chat" }, function (msg) {
+      var d = msg.payload;
+      if (!d || d.id === myId || !d.text) return;
+      var rec = ensureOther(d.id, d.name, d.color);
+      setOtherMeta(rec, d.name, d.color);
+      showBubble(rec.el, String(d.text).slice(0, 60));
     });
     channel.on("presence", { event: "sync" }, function () {
       var state = channel.presenceState();
@@ -259,6 +326,17 @@
   }
 
   room.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      openChat();
+      return;
+    }
+    if (e.code === "Space" || e.key === " ") {
+      e.preventDefault();
+      triggerJump(char);
+      broadcastJump();
+      return;
+    }
     if (!DIRS[e.key]) return;
     e.preventDefault();
     keys[e.key] = true;

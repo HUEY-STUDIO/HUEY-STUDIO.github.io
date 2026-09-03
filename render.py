@@ -545,42 +545,92 @@ def render_account_panel():
 MS_WORLD_MAX = 50
 MS_ORIGIN_X, MS_ORIGIN_Y = 550, 0
 MS_TW, MS_TH = 11, 5.5
-# (종류, gx, gy) — 열린 월드 여기저기 흩어놓은 랜드마크
+# (종류, gx, gy) — 열린 월드 여기저기 흩어놓은 랜드마크(테이블·화분·건물 — 바닥 위로 솟은 것들)
 MS_DECOS = [
     ("table", 10, 15), ("plant", 35, 10), ("plant", 20, 40), ("table", 40, 35),
     ("plant", 8, 35), ("table", 45, 20), ("plant", 48, 8), ("table", 5, 45),
     ("plant", 25, 25), ("table", 28, 4),
 ]
+# 건물 — 십자로 옆으로 작은 마을처럼 배치
+MS_BUILDINGS = [(12, 20), (18, 20), (32, 30), (38, 30), (20, 8), (30, 42)]
+
+
+def _ms_line(kind, x1, y1, x2, y2):
+    """(x1,y1)~(x2,y2)를 잇는 직선을 kind 타일로 촘촘히 채운 (kind, gx, gy) 목록.
+    도로·강처럼 여러 칸에 걸친 지형을 절점 몇 개로 그릴 때 쓴다."""
+    steps = max(abs(x2 - x1), abs(y2 - y1), 1)
+    seen, out = set(), []
+    for i in range(steps + 1):
+        t = i / steps
+        p = (round(x1 + (x2 - x1) * t), round(y1 + (y2 - y1) * t))
+        if p not in seen:
+            seen.add(p)
+            out.append((kind, p[0], p[1]))
+    return out
+
+
+# 바닥에 붙는 평면 타일 — 강을 먼저 깔고 도로를 그 위에 덮어 다리처럼 가로지르게 한다
+MS_TILES = (
+    _ms_line("river", 2, 3, 14, 18) + _ms_line("river", 14, 18, 9, 33) + _ms_line("river", 9, 33, 15, 48)
+    + _ms_line("road", 0, 25, 50, 25) + _ms_line("road", 25, 0, 25, 50)
+    + [("grass", gx, gy) for gx, gy in [
+        (36, 36), (38, 39), (35, 40), (39, 34), (41, 38), (37, 42),
+        (5, 8), (8, 11), (4, 13), (10, 6), (7, 15),
+    ]]
+)
+
+
+def _ms_point(gx, gy):
+    return (MS_ORIGIN_X + (gx - gy) * MS_TW, MS_ORIGIN_Y + (gx + gy) * MS_TH)
 
 
 def render_mini_space():
     """홈페이지 전용: 계정 패널 바로 아래 붙는 공유 스페이스. 접속자 전원이 같은 월드에서
     실시간으로 함께 움직인다(Supabase Realtime broadcast+presence). 방향키로 자유롭게
-    돌아다니고, 카메라가 내 캐릭터를 따라다니며 훨씬 넓어진 맵을 비춘다."""
+    돌아다니고, 카메라가 내 캐릭터를 따라다니며 훨씬 넓어진 맵을 비춘다. 스페이스바로 점프,
+    Enter로 채팅(말풍선)도 할 수 있다."""
     swatches = "".join(
         f'<button type="button" class="ms-color-btn" data-color="{i}" style="--sw-a:{a}" title="캐릭터 색"></button>'
         for i, a in enumerate(["#FF4D1A", "#3B6FD6", "#3E8E5A", "#8B5CD6", "#D6A93B", "#2AA6A0"])
     )
+    tiles = "\n".join(
+        f'          <div class="ms-tile ms-tile--{kind}" style="left:{x}px; top:{y}px"></div>'
+        for kind, gx, gy in MS_TILES
+        for x, y in [_ms_point(gx, gy)]
+    )
+    buildings = "\n".join(
+        f'          <div class="ms-deco ms-deco--building" style="left:{x}px; top:{y}px">'
+        f'<div class="ms-bld-roof"></div><div class="ms-bld-wall-r"></div><div class="ms-bld-wall-l"></div></div>'
+        for gx, gy in MS_BUILDINGS
+        for x, y in [_ms_point(gx, gy)]
+    )
     decos = "\n".join(
-        f'          <div class="ms-deco ms-deco--{kind}" style="left:{MS_ORIGIN_X + (gx - gy) * MS_TW}px; '
-        f'top:{MS_ORIGIN_Y + (gx + gy) * MS_TH}px">{"<span></span>" if kind == "plant" else ""}</div>'
+        f'          <div class="ms-deco ms-deco--{kind}" style="left:{x}px; top:{y}px">'
+        f'{"<span></span>" if kind == "plant" else ""}</div>'
         for kind, gx, gy in MS_DECOS
+        for x, y in [_ms_point(gx, gy)]
     )
     return f"""    <div class="mini-space" id="miniSpace">
       <div class="ms-head">
         <span id="msTitle">MY SPACE</span>
         <span class="ms-online" id="msOnline" title="지금 이 스페이스에 있는 사람">● 1</span>
       </div>
-      <div class="ms-room" id="msRoom" tabindex="0" aria-label="방향키로 캐릭터를 움직여보세요">
+      <div class="ms-room" id="msRoom" tabindex="0"
+           aria-label="방향키로 캐릭터를 움직이고, 스페이스바로 점프, 엔터로 채팅해보세요">
         <div class="ms-platform" id="msPlatform" style="width:{MS_ORIGIN_X * 2}px; height:{MS_WORLD_MAX * MS_TH * 2}px">
           <div class="ms-floor"></div>
+{tiles}
+{buildings}
 {decos}
           <div class="ms-players" id="msPlayers"></div>
           <div class="ms-char" id="msChar"><div class="ms-char-body"></div><div class="ms-char-tag" id="msMyTag"></div></div>
         </div>
+        <form class="ms-chat-form hidden" id="msChatForm">
+          <input type="text" id="msChatInput" maxlength="60" autocomplete="off" placeholder="메시지를 입력하고 Enter">
+        </form>
       </div>
       <div class="ms-colors" id="msColors">{swatches}</div>
-      <p class="ms-hint">클릭한 뒤 방향키로 자유롭게 돌아다녀보세요 — 같이 접속한 사람들도 실시간으로 보여요</p>
+      <p class="ms-hint">방향키로 이동 · 스페이스바로 점프 · Enter로 채팅 — 같이 접속한 사람들도 실시간으로 보여요</p>
     </div>"""
 
 
