@@ -195,6 +195,8 @@ def shell(title, body, css_prefix="", description=None, canonical=None,
 </head>
 <body>
 {body}
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+<script src="{css_prefix}assets/site.js" defer></script>
 </body>
 </html>
 """
@@ -205,15 +207,33 @@ def nav(root, current):
         return ' aria-current="page"' if page == current else ""
     return f"""<div class="site-nav">
   <a class="site-nav__brand" href="{root}index.html">HEUY<span>.</span>ARCHI</a>
-  <nav>
-    <a href="{root}index.html"{mark("index")}>최신호</a>
-    <a href="{root}archive.html"{mark("archive")}>지난호</a>
-    <a href="{root}weekly.html"{mark("weekly")}>주간</a>
-    <a href="{root}stats.html"{mark("stats")}>통계</a>
-    <a href="{root}search.html"{mark("search")}>검색</a>
-  </nav>
-  <button type="button" class="theme-toggle" id="themeToggle"
-          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
+  <div class="site-nav__right">
+    <nav>
+      <a href="{root}index.html"{mark("index")}>최신호</a>
+      <a href="{root}archive.html"{mark("archive")}>지난호</a>
+      <a href="{root}weekly.html"{mark("weekly")}>주간</a>
+      <a href="{root}stats.html"{mark("stats")}>통계</a>
+      <a href="{root}search.html"{mark("search")}>검색</a>
+    </nav>
+    <div class="auth-zone">
+      <button type="button" class="auth-btn" id="authBtn">로그인</button>
+      <div class="auth-pop hidden" id="authPop">
+        <div id="authLoggedOut">
+          <form id="authForm">
+            <input type="email" id="authEmail" placeholder="you@email.com" required autocomplete="email">
+            <button type="submit">매직링크 받기</button>
+          </form>
+          <p class="auth-note" id="authNote">비밀번호 없이 메일로 받은 링크로 로그인합니다.</p>
+        </div>
+        <div id="authLoggedIn" class="hidden">
+          <p class="auth-email" id="authUserName"></p>
+          <button type="button" id="authLogout">로그아웃</button>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="theme-toggle" id="themeToggle"
+            aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
+  </div>
 </div>
 <script>
 (function () {{
@@ -486,7 +506,25 @@ def render_issue_nav(root, prev_day, next_day):
   </nav>"""
 
 
-def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None):
+def render_feedback_room():
+    """홈페이지 전용 실시간 피드백/댓글 채팅방. assets/site.js(Supabase)가 이 안을 채운다."""
+    return """  <div class="feedback-room" id="feedbackRoom">
+    <div class="fr-head">
+      <span class="fr-title">피드백 &amp; 댓글</span>
+      <span class="fr-sub">실시간으로 남깁니다 — 누구나 볼 수 있어요</span>
+    </div>
+    <div class="fr-messages" id="frMessages">
+      <p class="fr-empty">불러오는 중…</p>
+    </div>
+    <form class="fr-form" id="frForm">
+      <textarea id="frInput" maxlength="500" disabled placeholder="로그인하면 댓글을 남길 수 있어요"></textarea>
+      <button type="submit" id="frSubmit" disabled>남기기</button>
+    </form>
+    <p class="fr-hint" id="frHint">댓글을 남기려면 <button type="button" class="fr-login-link" id="frLoginLink">로그인</button>하세요.</p>
+  </div>"""
+
+
+def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None, home=False):
     comps, feature, grid, korea, feature_idx, grid_idx, korea_idx = split_competitions(d)
     day = d["date"]
     body = "\n".join(x for x in [
@@ -507,6 +545,7 @@ def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None)
         render_briefs(d.get("briefs", [])),
         render_issue_nav(root, prev_day, next_day),
         render_foot(d),
+        render_feedback_room() if home else "",
         "</div>",
     ] if x)
     title = f'HEUY.ARCHI — Daily Architecture Briefing · {day.replace("-", ".")}'
@@ -1563,7 +1602,7 @@ def build(days):
     with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
         f.write(render_issue(latest, "", "index",
                              prev_day=all_days[1] if len(all_days) > 1 else None,
-                             next_day=None, canonical=abs_url("")))
+                             next_day=None, canonical=abs_url(""), home=True))
     with open(os.path.join(ROOT, "archive.html"), "w", encoding="utf-8") as f:
         f.write(render_archive(index))
     with open(idx_path, "w", encoding="utf-8") as f:

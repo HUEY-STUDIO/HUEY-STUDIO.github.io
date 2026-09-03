@@ -52,6 +52,34 @@ b{font-weight:800; color:var(--ink)}
 .site-nav nav{display:flex; gap:20px}
 .site-nav nav a{font-size:11px; font-weight:700; letter-spacing:.12em; color:#B8AFA6; text-decoration:none}
 .site-nav nav a:hover, .site-nav nav a[aria-current]{color:var(--hot)}
+.site-nav__right{display:flex; align-items:center; gap:18px}
+
+.hidden{display:none !important}
+
+/* ---- 로그인(매직링크) ---- */
+.auth-zone{position:relative}
+.auth-btn{
+  font-family:var(--font); font-size:11px; font-weight:700; letter-spacing:.06em;
+  color:#B8AFA6; background:transparent; border:1px solid rgba(255,255,255,.25);
+  border-radius:3px; padding:5px 10px; cursor:pointer;
+}
+.auth-btn:hover, .auth-btn.is-in{color:#fff; border-color:var(--hot)}
+.auth-pop{
+  position:absolute; top:calc(100% + 8px); right:0; width:240px; max-width:calc(100vw - 32px); z-index:100;
+  background:var(--sheet); color:var(--ink); border:1px solid var(--rule); border-radius:6px;
+  padding:14px; box-shadow:0 8px 24px rgba(0,0,0,.18);
+}
+.auth-pop form{display:flex; flex-direction:column; gap:8px}
+.auth-pop input[type=email]{
+  padding:7px 9px; font-size:12px; font-family:var(--font);
+  border:1px solid var(--rule); border-radius:4px; background:var(--paper); color:var(--ink);
+}
+.auth-pop button{
+  font-family:var(--font); font-size:11.5px; font-weight:800; padding:7px 10px; cursor:pointer;
+  border-radius:4px; border:1px solid var(--ink); background:var(--ink); color:var(--sheet);
+}
+.auth-note{font-size:10.5px; color:var(--ink-3); line-height:1.5; margin:8px 0 0}
+.auth-email{font-size:12px; font-weight:700; color:var(--ink-2); margin:0 0 10px; word-break:break-all}
 
 /* ================= 지면 ================= */
 .sheet{
@@ -193,6 +221,38 @@ article .src{margin-top:auto}
 .brief .src{margin-top:0; font-size:10px}
 
 /* ---- 지면 푸터 ---- */
+/* ---- 홈페이지 피드백/댓글 채팅방 ---- */
+.feedback-room{
+  margin-top:18px; padding:18px 20px; border:1px solid var(--rule); border-radius:6px; background:var(--sheet);
+}
+.fr-head{display:flex; align-items:baseline; gap:10px; margin-bottom:12px; padding-bottom:10px; border-bottom:1px solid var(--rule-2)}
+.fr-title{font-size:14px; font-weight:900; color:var(--ink)}
+.fr-sub{font-size:11px; color:var(--ink-3)}
+.fr-messages{
+  max-height:360px; overflow-y:auto; display:flex; flex-direction:column; gap:10px;
+  padding:4px 4px 10px; margin-bottom:12px;
+}
+.fr-empty{font-size:12.5px; color:var(--ink-3); text-align:center; padding:20px 0}
+.fr-msg{padding:8px 12px; background:var(--paper); border-radius:6px; font-size:12.5px; line-height:1.6}
+.fr-name{font-weight:800; color:var(--red); margin-right:8px; font-size:11.5px}
+.fr-time{color:var(--ink-3); font-size:10.5px}
+.fr-body{margin:4px 0 0; color:var(--ink-2); white-space:pre-wrap; word-break:break-word}
+.fr-form{display:flex; gap:8px}
+.fr-form textarea{
+  flex:1; resize:none; height:44px; padding:9px 11px; font-family:var(--font); font-size:12.5px;
+  border:1px solid var(--rule); border-radius:4px; background:var(--paper); color:var(--ink);
+}
+.fr-form textarea:disabled{opacity:.55}
+.fr-form button{
+  font-family:var(--font); font-size:12px; font-weight:800; padding:0 18px; border-radius:4px; cursor:pointer;
+  border:1px solid var(--ink); background:var(--ink); color:var(--sheet);
+}
+.fr-form button:disabled{opacity:.35; cursor:not-allowed}
+.fr-hint{font-size:11.5px; color:var(--ink-3); margin:8px 0 0}
+.fr-login-link{
+  background:none; border:0; padding:0; font:inherit; color:var(--red); font-weight:800; cursor:pointer; text-decoration:underline;
+}
+
 .paper-foot{
   margin:24px -30px -34px; padding:22px 30px 26px;
   background:var(--bar); color:#B8AFA6;
@@ -427,6 +487,9 @@ article .src{margin-top:auto}
   .site-nav{gap:8px}
   .site-nav nav{gap:11px}
   .site-nav nav a{font-size:10px; letter-spacing:.06em}
+  .site-nav__right{gap:10px}
+  .fr-form{flex-direction:column}
+  .fr-form button{padding:9px 0}
   .issue-nav{grid-template-columns:1fr 1fr; gap:8px}
   .io-all{grid-column:1 / -1; order:3}
   .st-tiles{grid-template-columns:repeat(2,1fr)}
@@ -490,6 +553,7 @@ article .src{margin-top:auto}
 @media print{
   body{background:#fff; padding:0}
   .site-nav{display:none}
+  .feedback-room{display:none}
   .sheet{border:0; box-shadow:none; max-width:none; padding:0}
   .brandbar,.paper-foot{background:#fff !important; color:#000 !important; margin:0}
   .paper-foot .cn{color:#000}
