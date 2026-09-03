@@ -13,6 +13,7 @@ HEUY.ARCHI 지면 렌더러
 표준 라이브러리만 사용합니다.
 """
 
+import hashlib
 import html
 import json
 import os
@@ -27,6 +28,21 @@ ISSUES = os.path.join(ROOT, "issues")
 CATEGORIES_DIR = os.path.join(ROOT, "categories")
 WEEKLY_DIR = os.path.join(ROOT, "weekly")
 WEEK = ["월", "화", "수", "목", "금", "토", "일"]
+
+
+def _asset_ver(path):
+    """assets/style.css·site.js에 붙일 캐시버스팅 쿼리스트링. 내용이 바뀔 때만 값이
+    바뀌므로, 브라우저·GitHub Pages의 CSS 캐시(max-age=600) 때문에 방금 올린 디자인
+    수정이 안 보이는 문제를 build마다 자동으로 막는다."""
+    try:
+        with open(os.path.join(ROOT, path), "rb") as f:
+            return hashlib.sha1(f.read()).hexdigest()[:8]
+    except FileNotFoundError:
+        return "0"
+
+
+STYLE_VER = _asset_ver("assets/style.css")
+SITE_JS_VER = _asset_ver("assets/site.js")
 
 # 공유 카드(og:image)·canonical·RSS·sitemap이 모두 이 주소를 기준으로 절대 URL을 만든다.
 SITE_URL = "https://huey-studio.github.io"
@@ -190,13 +206,13 @@ def shell(title, body, css_prefix="", description=None, canonical=None,
 <link rel="apple-touch-icon" sizes="180x180" href="{css_prefix}assets/apple-touch-icon.png">
 <link rel="stylesheet" as="style" crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
-<link rel="stylesheet" href="{css_prefix}assets/style.css">{ld}
+<link rel="stylesheet" href="{css_prefix}assets/style.css?v={STYLE_VER}">{ld}
 {THEME_BOOT}
 </head>
 <body>
 {body}
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
-<script src="{css_prefix}assets/site.js" defer></script>
+<script src="{css_prefix}assets/site.js?v={SITE_JS_VER}" defer></script>
 </body>
 </html>
 """
