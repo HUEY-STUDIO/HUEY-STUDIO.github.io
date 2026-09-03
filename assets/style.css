@@ -147,9 +147,6 @@ figcaption{font-size:10.5px; line-height:1.5; color:var(--ink-3); padding:6px 0 
   font-size:13.5px; line-height:1.82; color:var(--ink-2); text-align:justify;
 }
 .topcols p{margin:0 0 11px}
-.topcols p:first-child::first-letter{
-  font-weight:800; color:var(--red);
-}
 .topside{padding:20px 0 20px 20px; display:flex; flex-direction:column}
 .sidehead{
   border-top:3px solid var(--hot); border-bottom:1px solid var(--rule);
