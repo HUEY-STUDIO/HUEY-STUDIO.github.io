@@ -23,7 +23,7 @@
     margin:0; padding:20px 16px 60px; background:var(--paper); color:var(--ink);
     font-family:var(--font); font-size:14px;
   }
-  .wrap{max-width:920px; margin:0 auto}
+  .wrap{max-width:1600px; margin:0 auto}
   header{display:flex; align-items:baseline; gap:10px; margin-bottom:4px}
   header h1{font-size:20px; font-weight:900; margin:0; letter-spacing:-.02em}
   header h1 .d{color:var(--hot)}
@@ -52,12 +52,7 @@
   button + button{margin-left:8px}
   .help{font-size:11.5px; color:var(--ink-3); line-height:1.6; margin-top:8px}
   .help a{color:var(--ink-3)}
-  textarea{
-    width:100%; height:52vh; min-height:340px; font-family:var(--mono); font-size:12.5px;
-    line-height:1.6; padding:12px; border:1px solid var(--rule); border-radius:4px;
-    background:var(--paper); color:var(--ink); resize:vertical; tab-size:2;
-  }
-  .toolbar{display:flex; gap:8px; margin:10px 0; flex-wrap:wrap}
+  .toolbar{display:flex; gap:8px; margin:10px 0; flex-wrap:wrap; align-items:center}
   .msg{font-size:12.5px; padding:9px 11px; border-radius:4px; margin-top:10px; line-height:1.6; white-space:pre-wrap}
   .msg.ok{background:rgba(30,122,61,.1); color:var(--ok); border:1px solid rgba(30,122,61,.3)}
   .msg.warn{background:rgba(184,134,11,.1); color:var(--warn); border:1px solid rgba(184,134,11,.3)}
@@ -70,6 +65,20 @@
   .hidden{display:none !important}
   .topic-chip{display:inline-block; padding:2px 8px; margin:2px 4px 2px 0; border-radius:3px; background:var(--paper); border:1px solid var(--rule); font-size:11.5px; font-family:var(--mono)}
   .statusbar{font-size:11.5px; color:var(--ink-3); margin-top:6px}
+
+  .split{display:grid; grid-template-columns:1fr 1fr; gap:16px; align-items:start}
+  @media (max-width:1100px){ .split{grid-template-columns:1fr} }
+  .pane h3{font-size:11.5px; font-weight:800; letter-spacing:.1em; color:var(--ink-3); margin:0 0 8px; text-transform:uppercase}
+  textarea{
+    width:100%; height:62vh; min-height:420px; font-family:var(--mono); font-size:12.5px;
+    line-height:1.6; padding:12px; border:1px solid var(--rule); border-radius:4px;
+    background:var(--paper); color:var(--ink); resize:vertical; tab-size:2;
+  }
+  #preview-frame{
+    width:100%; height:62vh; min-height:420px; border:1px solid var(--rule); border-radius:4px;
+    background:#fff;
+  }
+  .preview-note{font-size:11px; color:var(--ink-3); margin-top:6px; line-height:1.5}
 </style>
 </head>
 <body>
@@ -112,6 +121,7 @@
       </div>
       <div style="flex:0 0 auto">
         <button id="btn-load">불러오기</button>
+        <button id="btn-template" class="ghost">빈 템플릿 삽입</button>
       </div>
       <div class="statusbar" id="load-status"></div>
     </div>
@@ -122,7 +132,21 @@
       <button id="btn-save">저장 (커밋)</button>
     </div>
 
-    <textarea id="json-text" spellcheck="false" placeholder="날짜를 고르고 '불러오기'를 누르세요. 파일이 없으면 새로 작성할 수 있는 빈 편집창이 열립니다."></textarea>
+    <div class="split">
+      <div class="pane">
+        <h3>편집 (JSON)</h3>
+        <textarea id="json-text" spellcheck="false" placeholder="날짜를 고르고 '불러오기'를 누르세요. 파일이 없으면 '빈 템플릿 삽입'으로 시작할 수 있습니다."></textarea>
+      </div>
+      <div class="pane">
+        <h3>미리보기 — 실제 지면 CSS로 렌더링</h3>
+        <iframe id="preview-frame" title="지면 미리보기"></iframe>
+        <div class="preview-note">
+          왼쪽 JSON을 고치면 0.4초 뒤 자동으로 다시 그립니다. 실제 사이트의 <code>assets/style.css</code>를 그대로 불러와
+          쓰므로 발행됐을 때와 거의 같은 모습입니다 — 다만 카드뉴스 스트립·상단 탭 이동은 미리보기에서 빠져 있고,
+          이미지가 아직 없는 새 기사는 매체명 자리표시자로 보입니다.
+        </div>
+      </div>
+    </div>
 
     <div id="lint-msg"></div>
     <div id="save-msg"></div>
@@ -160,16 +184,17 @@
   "use strict";
   var OWNER = "HUEY-STUDIO", REPO = "HUEY-STUDIO.github.io", BRANCH = "main";
   var API = "https://api.github.com/repos/" + OWNER + "/" + REPO;
+  var SITE = "https://huey-studio.github.io/";
   var VALID_TOPICS = ["제도규제","프로젝트","도시재생","재난유산","설계공모","수상"];
   var LS_KEY = "heuy_admin_pat";
 
   var $ = function(id){ return document.getElementById(id); };
   var patInput = $("pat"), btnLogin = $("btn-login"), btnLogout = $("btn-logout"), authMsg = $("auth-msg");
-  var authCard = $("auth-card"), editCard = $("edit-card");
-  var dateInput = $("date"), btnLoad = $("btn-load"), loadStatus = $("load-status");
+  var editCard = $("edit-card");
+  var dateInput = $("date"), btnLoad = $("btn-load"), btnTemplate = $("btn-template"), loadStatus = $("load-status");
   var textArea = $("json-text"), btnFormat = $("btn-format"), btnLint = $("btn-lint"), btnSave = $("btn-save");
-  var lintMsg = $("lint-msg"), saveMsg = $("save-msg");
-  var currentSha = null;
+  var lintMsg = $("lint-msg"), saveMsg = $("save-msg"), previewFrame = $("preview-frame");
+  var currentSha = null, previewTimer = null;
 
   function kstToday(){
     var now = new Date();
@@ -247,16 +272,59 @@
           currentSha = j.sha;
           textArea.value = JSON.stringify(JSON.parse(b64DecodeUnicode(j.content)), null, 2);
           loadStatus.textContent = "불러옴 — " + path + " (기존 파일 수정)";
+          schedulePreview(true);
         });
         if(r.status === 404){
           currentSha = null;
           textArea.value = "";
-          loadStatus.textContent = path + " 없음 — 새로 작성합니다.";
+          loadStatus.textContent = path + " 없음 — '빈 템플릿 삽입'으로 새로 시작하세요.";
+          renderPreview();
           return;
         }
         return r.json().then(function(j){ throw new Error("HTTP " + r.status + " " + (j.message||"")); });
       })
       .catch(function(e){ loadStatus.textContent = ""; showMsg(lintMsg, "err", "불러오기 실패: " + e.message); });
+  });
+
+  var TEMPLATE = {
+    vol: "VOL.01  NO.000",
+    editor: "HUEY",
+    counts: { total: 0, intl: 0, kr: 0 },
+    outlets: [],
+    teasers: [
+      { title: "", desc: "", label: "" },
+      { title: "", desc: "", label: "" },
+      { title: "", desc: "", label: "" },
+      { title: "", desc: "", label: "" }
+    ],
+    top: {
+      kicker: "TOP STORY · ", lede: "", lede_em: "",
+      image: "", image_label: "",
+      caption: "",
+      body: [""],
+      source: { outlet: "", links: [{ text: "기사", url: "" }] },
+      topic: "프로젝트"
+    },
+    side: {
+      label: "실무 직결 · 제도/규제",
+      image: "", image_label: "",
+      title: "",
+      body: [""],
+      facts: [""],
+      body_after: [""],
+      source: { outlet: "", links: [{ text: "기사", url: "" }] },
+      topic: "제도규제"
+    },
+    intl_feature: [],
+    intl_grid: [],
+    korea: [],
+    briefs: []
+  };
+  btnTemplate.addEventListener("click", function(){
+    textArea.value = JSON.stringify(TEMPLATE, null, 2);
+    loadStatus.textContent = "빈 템플릿을 채워 넣었습니다 (기존 파일과 무관 — 저장하면 새로 만들어집니다).";
+    currentSha = null;
+    schedulePreview(true);
   });
 
   btnFormat.addEventListener("click", function(){
@@ -373,6 +441,208 @@
       this.selectionStart = this.selectionEnd = s+2;
     }
   });
+
+  // ============================================================
+  // 미리보기 — render.py의 핵심 렌더 함수를 JS로 그대로 옮겼다.
+  // 구조·클래스명이 바뀌면 render.py 쪽도 같이 봐야 한다.
+  // ============================================================
+  function esc(s){
+    return String(s == null ? "" : s).replace(/[&<>]/g, function(c){
+      return { "&":"&amp;", "<":"&lt;", ">":"&gt;" }[c];
+    });
+  }
+  function rich(s){
+    s = String(s == null ? "" : s);
+    var out = "", last = 0, re = /\*\*(.+?)\*\*/gs, m;
+    while((m = re.exec(s))){
+      out += esc(s.slice(last, m.index));
+      out += "<b>" + esc(m[1]) + "</b>";
+      last = m.index + m[0].length;
+    }
+    out += esc(s.slice(last));
+    return out;
+  }
+  function paras(body){
+    var arr = Array.isArray(body) ? body : (body ? [body] : []);
+    return arr.map(function(p){ return "<p>" + rich(p) + "</p>"; }).join("\n");
+  }
+  function thumb(img, label){
+    var l = esc(label || "IMAGE");
+    if(!img) return '<div class="thumb noimg" data-label="' + l + '"></div>';
+    return '<div class="thumb" data-label="' + l + '">' +
+      '<img src="' + esc(img) + '" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'noimg\')"></div>';
+  }
+  function firstUrl(src){
+    if(!src) return null;
+    var groups = Array.isArray(src) ? src : [src];
+    for(var i=0;i<groups.length;i++){
+      var links = (groups[i] && groups[i].links) || [];
+      for(var j=0;j<links.length;j++) if(links[j].url) return links[j].url;
+    }
+    return null;
+  }
+  function linkTitle(title, src){
+    var text = rich(title), url = firstUrl(src);
+    if(!url) return text;
+    return '<a class="hl" href="' + esc(url) + '" target="_blank" rel="noopener">' + text + '</a>';
+  }
+  function sourceHtml(src){
+    if(!src) return "";
+    var groups = Array.isArray(src) ? src : [src];
+    var parts = groups.map(function(g){
+      var links = (g.links || []).map(function(l){
+        return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.text || "기사") + '</a>';
+      }).join(" · ");
+      return '<span class="o">' + esc(g.outlet) + '</span> · ' + links;
+    });
+    return '<div class="src">' + parts.join(" &nbsp;|&nbsp; ") + '</div>';
+  }
+  function renderTeasers(items){
+    items = (items || []).slice(0,4);
+    var cells = items.map(function(t){
+      return '<div class="teaser"><h4>' + rich(t.title) + '</h4><p>' + rich(t.desc) + '</p>' +
+        '<div class="meta">' + esc(t.label) + '</div></div>';
+    }).join("\n");
+    return '<div class="topstrip">' + cells + '</div>';
+  }
+  function renderBrandbar(d){
+    return '<div class="brandbar"><div>HEUY<span class="dot">.</span>ARCHI</div>' +
+      '<span>DAILY ARCHITECTURE BRIEFING</span>' +
+      '<span>' + esc(d.vol || "VOL.01") + '</span>' +
+      '<span>' + esc(d._date || "0000-00-00").replace(/-/g," . ") + '</span></div>';
+  }
+  var TOPIC_TABS = [["main","메인"],["regulation","제도규제"],["projects","프로젝트"],
+    ["urban-regen","도시재생"],["disaster-heritage","재난유산"],["korea","국내"],
+    ["competitions","설계공모"],["awards","수상"]];
+  function renderMasthead(d){
+    var c = d.counts || {};
+    var catbar = TOPIC_TABS.map(function(t){
+      return '<a' + (t[0]==="main" ? ' class="hi"' : '') + ' href="' + SITE + (t[0]==="main"?"":"categories/"+t[0]+".html") + '">' + esc(t[1]) + '</a>';
+    }).join("");
+    return '<header class="masthead"><h1 class="logo">HEUY<span class="d">.</span>ARCHI</h1>' +
+      '<div class="logo-rule"></div><div class="tagline">DAILY ARCHITECTURE BRIEFING</div>' +
+      '<div class="rule-thick"></div><div class="catbar">' + catbar + '</div>' +
+      '<div class="infobar"><span>제1면 · 종합</span>' +
+      '<span><b>' + esc(d._date || "") + '</b></span>' +
+      '<span>편집·제작 <b>' + esc(d.editor || "HUEY") + '</b></span>' +
+      '<span>오늘의 기사 <b>' + esc(c.total) + '</b>건 · 해외 <b>' + esc(c.intl) + '</b> / 국내 <b>' + esc(c.kr) + '</b></span>' +
+      '</div></header>';
+  }
+  function renderSechead(ko, en){
+    return '<div class="sechead"><h2>' + esc(ko) + '</h2><span class="en">' + esc(en) + '</span><span class="line"></span></div>';
+  }
+  function renderTop(d){
+    var t = d.top || {}, s = d.side || {};
+    var lede = rich(t.lede);
+    if(t.lede_em){
+      var em = rich(t.lede_em);
+      lede = lede.replace(em, '<span class="em">' + em + '</span>');
+    }
+    var topUrl = firstUrl(t.source);
+    if(topUrl) lede = '<a class="hl" href="' + esc(topUrl) + '" target="_blank" rel="noopener">' + lede + '</a>';
+    var cap = t.caption ? '<figcaption>' + rich(t.caption) + '</figcaption>' : "";
+    var main = '<div class="topblock"><div class="topmain"><div class="kicker">' + esc(t.kicker) + '</div>' +
+      '<p class="toplede">' + lede + '</p>' +
+      '<figure class="topfig">' + thumb(t.image, t.image_label) + cap + '</figure>' +
+      '<div class="topcols">' + paras(t.body) + '</div>' +
+      sourceHtml(t.source) + '</div>';
+    if(!s || !Object.keys(s).length) return main + "</div>";
+    var facts = "";
+    if(s.facts && s.facts.length){
+      facts = '<ul class="facts">' + s.facts.map(function(f){ return "<li>" + rich(f) + "</li>"; }).join("") + '</ul>';
+    }
+    var side = '<aside class="topside"><div class="sidehead">' + esc(s.label || "실무 직결 · 제도/규제") + '</div>' +
+      thumb(s.image, s.image_label) + '<h3>' + linkTitle(s.title, s.source) + '</h3>' +
+      paras(s.body) + facts + paras(s.body_after) + sourceHtml(s.source) + '</aside></div>';
+    return main + side;
+  }
+  function renderFeature(a){
+    return '<article><div class="kicker">' + esc(a.kicker) + '</div>' +
+      '<h3>' + linkTitle(a.title, a.source) + '</h3>' +
+      '<div class="feature">' + thumb(a.image, a.image_label) + '<div>' + paras(a.body) + '</div></div>' +
+      sourceHtml(a.source) + '</article>';
+  }
+  function renderCard(a, kr){
+    var hasImg = !!a.image;
+    var cls = (!hasImg && kr) ? ' class="kr-side"' : "";
+    var img = hasImg ? thumb(a.image, a.image_label) : "";
+    return '<article' + cls + '>' + img +
+      '<div class="kicker' + (kr ? ' kr' : '') + '">' + esc(a.kicker) + '</div>' +
+      '<h3>' + linkTitle(a.title, a.source) + '</h3>' + paras(a.body) + sourceHtml(a.source) + '</article>';
+  }
+  function renderRow(articles, cols, fn){
+    if(!articles || !articles.length) return "";
+    return '<div class="row c' + cols + '">' + articles.map(fn).join("\n") + '</div>';
+  }
+  function splitCompetitions(d){
+    var feature = d.intl_feature || [], grid = d.intl_grid || [], korea = d.korea || [];
+    var comps = [];
+    feature.forEach(function(a){ if(a.topic === "설계공모") comps.push([a, false]); });
+    grid.forEach(function(a){ if(a.topic === "설계공모") comps.push([a, false]); });
+    korea.forEach(function(a){ if(a.topic === "설계공모") comps.push([a, true]); });
+    return {
+      comps: comps,
+      feature: feature.filter(function(a){ return a.topic !== "설계공모"; }),
+      grid: grid.filter(function(a){ return a.topic !== "설계공모"; }),
+      korea: korea.filter(function(a){ return a.topic !== "설계공모"; })
+    };
+  }
+  function renderCompetitions(triples){
+    if(!triples.length) return "";
+    var inner = triples.map(function(t){ return renderCard(t[0], t[1]); }).join("\n");
+    return renderSechead("설계공모", "COMPETITIONS") + '<div class="row c3">' + inner + '</div>';
+  }
+  function renderBriefs(items){
+    if(!items || !items.length) return "";
+    var cells = items.map(function(b){
+      return '<div class="brief"><h4>' + linkTitle(b.title, b.source) + '</h4>' +
+        '<p>' + rich(b.body) + '</p>' + sourceHtml(b.source) + '</div>';
+    }).join("\n");
+    return '<div class="briefs">' + cells + '</div>';
+  }
+
+  function renderPreviewBody(data){
+    var d = Object.assign({}, data, { _date: dateInput.value || kstToday() });
+    var sp = splitCompetitions(d);
+    return [
+      '<div class="sheet">',
+      renderBrandbar(d),
+      renderTeasers(d.teasers),
+      renderMasthead(d),
+      renderTop(d),
+      renderSechead("해외", "INTERNATIONAL"),
+      renderRow(sp.feature, 2, renderFeature),
+      renderRow(sp.grid, 4, function(a){ return renderCard(a, false); }),
+      renderSechead("국내", "KOREA"),
+      renderRow(sp.korea, 3, function(a){ return renderCard(a, true); }),
+      renderCompetitions(sp.comps),
+      renderSechead("단신", "IN BRIEF"),
+      renderBriefs(d.briefs),
+      '</div>'
+    ].filter(Boolean).join("\n");
+  }
+
+  function renderPreview(){
+    var data;
+    try{ data = textArea.value.trim() ? JSON.parse(textArea.value) : {}; }
+    catch(e){
+      previewFrame.srcdoc = '<body style="font:13px sans-serif;padding:20px;color:#B8271F">JSON 문법 오류라 미리보기를 그릴 수 없습니다:<br>' + esc(e.message) + '</body>';
+      return;
+    }
+    var html = '<!doctype html><html lang="ko"><head><meta charset="utf-8">' +
+      '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">' +
+      '<link rel="stylesheet" href="../assets/style.css">' +
+      '<style>body{margin:0;padding:16px 0}</style>' +
+      '</head><body>' + renderPreviewBody(data) + '</body></html>';
+    previewFrame.srcdoc = html;
+  }
+  function schedulePreview(immediate){
+    clearTimeout(previewTimer);
+    if(immediate) return renderPreview();
+    previewTimer = setTimeout(renderPreview, 400);
+  }
+  textArea.addEventListener("input", function(){ schedulePreview(false); });
+  dateInput.addEventListener("change", function(){ schedulePreview(true); });
 })();
 </script>
 </body>
