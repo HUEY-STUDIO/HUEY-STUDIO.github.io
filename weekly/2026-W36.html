@@ -34,33 +34,15 @@
 <body>
 <div class="site-nav">
   <a class="site-nav__brand" href="../index.html">HEUY<span>.</span>ARCHI</a>
-  <div class="site-nav__right">
-    <nav>
-      <a href="../index.html">최신호</a>
-      <a href="../archive.html">지난호</a>
-      <a href="../weekly.html" aria-current="page">주간</a>
-      <a href="../stats.html">통계</a>
-      <a href="../search.html">검색</a>
-    </nav>
-    <div class="auth-zone">
-      <button type="button" class="auth-btn" id="authBtn">로그인</button>
-      <div class="auth-pop hidden" id="authPop">
-        <div id="authLoggedOut">
-          <form id="authForm">
-            <input type="email" id="authEmail" placeholder="you@email.com" required autocomplete="email">
-            <button type="submit">매직링크 받기</button>
-          </form>
-          <p class="auth-note" id="authNote">비밀번호 없이 메일로 받은 링크로 로그인합니다.</p>
-        </div>
-        <div id="authLoggedIn" class="hidden">
-          <p class="auth-email" id="authUserName"></p>
-          <button type="button" id="authLogout">로그아웃</button>
-        </div>
-      </div>
-    </div>
-    <button type="button" class="theme-toggle" id="themeToggle"
-            aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
-  </div>
+  <nav>
+    <a href="../index.html">최신호</a>
+    <a href="../archive.html">지난호</a>
+    <a href="../weekly.html" aria-current="page">주간</a>
+    <a href="../stats.html">통계</a>
+    <a href="../search.html">검색</a>
+  </nav>
+  <button type="button" class="theme-toggle" id="themeToggle"
+          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
 </div>
 <script>
 (function () {

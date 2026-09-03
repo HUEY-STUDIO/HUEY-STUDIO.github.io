@@ -207,33 +207,15 @@ def nav(root, current):
         return ' aria-current="page"' if page == current else ""
     return f"""<div class="site-nav">
   <a class="site-nav__brand" href="{root}index.html">HEUY<span>.</span>ARCHI</a>
-  <div class="site-nav__right">
-    <nav>
-      <a href="{root}index.html"{mark("index")}>최신호</a>
-      <a href="{root}archive.html"{mark("archive")}>지난호</a>
-      <a href="{root}weekly.html"{mark("weekly")}>주간</a>
-      <a href="{root}stats.html"{mark("stats")}>통계</a>
-      <a href="{root}search.html"{mark("search")}>검색</a>
-    </nav>
-    <div class="auth-zone">
-      <button type="button" class="auth-btn" id="authBtn">로그인</button>
-      <div class="auth-pop hidden" id="authPop">
-        <div id="authLoggedOut">
-          <form id="authForm">
-            <input type="email" id="authEmail" placeholder="you@email.com" required autocomplete="email">
-            <button type="submit">매직링크 받기</button>
-          </form>
-          <p class="auth-note" id="authNote">비밀번호 없이 메일로 받은 링크로 로그인합니다.</p>
-        </div>
-        <div id="authLoggedIn" class="hidden">
-          <p class="auth-email" id="authUserName"></p>
-          <button type="button" id="authLogout">로그아웃</button>
-        </div>
-      </div>
-    </div>
-    <button type="button" class="theme-toggle" id="themeToggle"
-            aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
-  </div>
+  <nav>
+    <a href="{root}index.html"{mark("index")}>최신호</a>
+    <a href="{root}archive.html"{mark("archive")}>지난호</a>
+    <a href="{root}weekly.html"{mark("weekly")}>주간</a>
+    <a href="{root}stats.html"{mark("stats")}>통계</a>
+    <a href="{root}search.html"{mark("search")}>검색</a>
+  </nav>
+  <button type="button" class="theme-toggle" id="themeToggle"
+          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
 </div>
 <script>
 (function () {{
@@ -506,6 +488,38 @@ def render_issue_nav(root, prev_day, next_day):
   </nav>"""
 
 
+def render_account_panel():
+    """홈페이지 전용 로그인/계정 패널. 상단바가 아니라 티저 스트립 옆 오른쪽 레이아웃으로 붙는다."""
+    return """    <aside class="account-panel" id="accountPanel">
+      <div id="apLoggedOut">
+        <div class="ap-avatar">?</div>
+        <p class="ap-lead">로그인하고<br>피드백에 댓글을 남겨보세요</p>
+        <form id="authForm">
+          <input type="email" id="authEmail" placeholder="you@email.com" required autocomplete="email">
+          <button type="submit">매직링크 받기</button>
+        </form>
+        <p class="ap-note" id="authNote">비밀번호 없이 메일로 받은 링크로 로그인합니다.</p>
+      </div>
+      <div id="apLoggedIn" class="hidden">
+        <div class="ap-row">
+          <div class="ap-avatar" id="apAvatar">·</div>
+          <div class="ap-who">
+            <div class="ap-name"><span id="apName"></span><button type="button" id="apEditNick" class="ap-edit" title="닉네임 변경">✎</button></div>
+            <div class="ap-email" id="apEmail"></div>
+          </div>
+        </div>
+        <form id="nickForm" class="ap-nickform hidden">
+          <input type="text" id="nickInput" maxlength="20" placeholder="새 닉네임">
+          <div class="ap-nickbtns">
+            <button type="submit">저장</button>
+            <button type="button" id="nickCancel">취소</button>
+          </div>
+        </form>
+        <button type="button" id="authLogout" class="ap-logout">로그아웃</button>
+      </div>
+    </aside>"""
+
+
 def render_feedback_room():
     """홈페이지 전용 실시간 피드백/댓글 채팅방. assets/site.js(Supabase)가 이 안을 채운다."""
     return """  <div class="feedback-room" id="feedbackRoom">
@@ -524,6 +538,14 @@ def render_feedback_room():
   </div>"""
 
 
+def render_home_top(d):
+    """홈페이지 전용: 티저 스트립 옆에 로그인/계정 패널을 오른쪽 레이아웃으로 붙인다."""
+    return (f'  <div class="home-top">\n'
+            f'{render_teasers(d.get("teasers", []))}\n'
+            f'{render_account_panel()}\n'
+            f'  </div>')
+
+
 def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None, home=False):
     comps, feature, grid, korea, feature_idx, grid_idx, korea_idx = split_competitions(d)
     day = d["date"]
@@ -531,7 +553,7 @@ def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None,
         nav(root, current),
         '<div class="sheet">',
         render_brandbar(d),
-        render_teasers(d.get("teasers", [])),
+        render_home_top(d) if home else render_teasers(d.get("teasers", [])),
         render_masthead(d, root),
         render_cardnews_strip(d, root),
         render_top(d),

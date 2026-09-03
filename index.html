@@ -35,33 +35,15 @@
 <body>
 <div class="site-nav">
   <a class="site-nav__brand" href="index.html">HEUY<span>.</span>ARCHI</a>
-  <div class="site-nav__right">
-    <nav>
-      <a href="index.html" aria-current="page">최신호</a>
-      <a href="archive.html">지난호</a>
-      <a href="weekly.html">주간</a>
-      <a href="stats.html">통계</a>
-      <a href="search.html">검색</a>
-    </nav>
-    <div class="auth-zone">
-      <button type="button" class="auth-btn" id="authBtn">로그인</button>
-      <div class="auth-pop hidden" id="authPop">
-        <div id="authLoggedOut">
-          <form id="authForm">
-            <input type="email" id="authEmail" placeholder="you@email.com" required autocomplete="email">
-            <button type="submit">매직링크 받기</button>
-          </form>
-          <p class="auth-note" id="authNote">비밀번호 없이 메일로 받은 링크로 로그인합니다.</p>
-        </div>
-        <div id="authLoggedIn" class="hidden">
-          <p class="auth-email" id="authUserName"></p>
-          <button type="button" id="authLogout">로그아웃</button>
-        </div>
-      </div>
-    </div>
-    <button type="button" class="theme-toggle" id="themeToggle"
-            aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
-  </div>
+  <nav>
+    <a href="index.html" aria-current="page">최신호</a>
+    <a href="archive.html">지난호</a>
+    <a href="weekly.html">주간</a>
+    <a href="stats.html">통계</a>
+    <a href="search.html">검색</a>
+  </nav>
+  <button type="button" class="theme-toggle" id="themeToggle"
+          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
 </div>
 <script>
 (function () {
@@ -90,6 +72,7 @@
     <span>VOL.01  NO.018</span>
     <span>2026 . 09 . 03</span>
   </div>
+  <div class="home-top">
   <div class="topstrip">
     <div class="teaser">
       <h4>국토부 내년 예산 69조원, 역대 최대</h4>
@@ -111,6 +94,35 @@
       <p>맥킨지 출신 에마 록스톤이 성장전략 총괄</p>
       <div class="meta">PEOPLE</div>
     </div>
+  </div>
+    <aside class="account-panel" id="accountPanel">
+      <div id="apLoggedOut">
+        <div class="ap-avatar">?</div>
+        <p class="ap-lead">로그인하고<br>피드백에 댓글을 남겨보세요</p>
+        <form id="authForm">
+          <input type="email" id="authEmail" placeholder="you@email.com" required autocomplete="email">
+          <button type="submit">매직링크 받기</button>
+        </form>
+        <p class="ap-note" id="authNote">비밀번호 없이 메일로 받은 링크로 로그인합니다.</p>
+      </div>
+      <div id="apLoggedIn" class="hidden">
+        <div class="ap-row">
+          <div class="ap-avatar" id="apAvatar">·</div>
+          <div class="ap-who">
+            <div class="ap-name"><span id="apName"></span><button type="button" id="apEditNick" class="ap-edit" title="닉네임 변경">✎</button></div>
+            <div class="ap-email" id="apEmail"></div>
+          </div>
+        </div>
+        <form id="nickForm" class="ap-nickform hidden">
+          <input type="text" id="nickInput" maxlength="20" placeholder="새 닉네임">
+          <div class="ap-nickbtns">
+            <button type="submit">저장</button>
+            <button type="button" id="nickCancel">취소</button>
+          </div>
+        </form>
+        <button type="button" id="authLogout" class="ap-logout">로그아웃</button>
+      </div>
+    </aside>
   </div>
   <header class="masthead">
     <h1 class="logo">HEUY<span class="d">.</span>ARCHI</h1>
