@@ -13,6 +13,7 @@
   --hot:#FF4D1A;        /* 포인트 레드 닷 */
   --sand:#F2D3B1;       /* 웜 샌드 (핵심팩트 박스) */
   --sand-line:#E0BE93;  /* 핵심팩트 박스 테두리 */
+  --sand-ink:#5E2410;   /* 핵심팩트 박스 안 텍스트 */
   --paper:#EFE3D2;      /* 바깥 신문지 */
   --sheet:#FCF7F0;      /* 지면 */
   --rule:#D8C4AA;       /* 굵은 괘선 */
@@ -147,8 +148,7 @@ figcaption{font-size:10.5px; line-height:1.5; color:var(--ink-3); padding:6px 0 
 }
 .topcols p{margin:0 0 11px}
 .topcols p:first-child::first-letter{
-  float:left; font-size:44px; line-height:.86; font-weight:900;
-  padding:3px 7px 0 0; color:var(--red);
+  font-weight:800; color:var(--red);
 }
 .topside{padding:20px 0 20px 20px; display:flex; flex-direction:column}
 .sidehead{
@@ -160,9 +160,9 @@ figcaption{font-size:10.5px; line-height:1.5; color:var(--ink-3); padding:6px 0 
 .topside .thumb{aspect-ratio:16/9; margin-bottom:11px}
 .topside p{margin:0 0 11px; font-size:12.8px; line-height:1.78; color:var(--ink-2)}
 .facts{list-style:none; margin:0 0 11px; padding:11px 13px; background:var(--sand); border:1px solid var(--sand-line)}
-.facts li{font-size:11.8px; line-height:1.62; color:#5E2410; padding-left:13px; position:relative}
+.facts li{font-size:11.8px; line-height:1.62; color:var(--sand-ink); padding-left:13px; position:relative}
 .facts li::before{content:"—"; position:absolute; left:0; color:var(--red)}
-.facts li b{color:#5E2410}
+.facts li b{color:var(--sand-ink)}
 
 /* ---- 섹션 헤더 ---- */
 .sechead{display:flex; align-items:baseline; gap:10px; margin:22px 0 14px; padding-bottom:6px; border-bottom:2px solid var(--ink)}
@@ -454,6 +454,7 @@ article .src{margin-top:auto}
     --hot:#FF7A4D;
     --sand:#3A2E20;
     --sand-line:#55432E;
+    --sand-ink:#F2C9A8;
     --paper:#100E0C;
     --sheet:#1A1714;
     --rule:#3B332C;
@@ -470,6 +471,7 @@ article .src{margin-top:auto}
   --hot:#FF7A4D;
   --sand:#3A2E20;
   --sand-line:#55432E;
+  --sand-ink:#F2C9A8;
   --paper:#100E0C;
   --sheet:#1A1714;
   --rule:#3B332C;
