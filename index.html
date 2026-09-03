@@ -65,14 +65,15 @@
   paint();
 })();
 </script>
-<div class="sheet">
+<div class="sheet sheet--home">
+  <div class="home-layout">
+    <div class="home-main">
   <div class="brandbar">
     <div>HEUY<span class="dot">.</span>ARCHI</div>
     <span>DAILY ARCHITECTURE BRIEFING</span>
     <span>VOL.01  NO.018</span>
     <span>2026 . 09 . 03</span>
   </div>
-  <div class="home-top">
   <div class="topstrip">
     <div class="teaser">
       <h4>국토부 내년 예산 69조원, 역대 최대</h4>
@@ -94,35 +95,6 @@
       <p>맥킨지 출신 에마 록스톤이 성장전략 총괄</p>
       <div class="meta">PEOPLE</div>
     </div>
-  </div>
-    <aside class="account-panel" id="accountPanel">
-      <div id="apLoggedOut">
-        <div class="ap-avatar">?</div>
-        <p class="ap-lead">로그인하고<br>피드백에 댓글을 남겨보세요</p>
-        <form id="authForm">
-          <input type="email" id="authEmail" placeholder="you@email.com" required autocomplete="email">
-          <button type="submit">매직링크 받기</button>
-        </form>
-        <p class="ap-note" id="authNote">비밀번호 없이 메일로 받은 링크로 로그인합니다.</p>
-      </div>
-      <div id="apLoggedIn" class="hidden">
-        <div class="ap-row">
-          <div class="ap-avatar" id="apAvatar">·</div>
-          <div class="ap-who">
-            <div class="ap-name"><span id="apName"></span><button type="button" id="apEditNick" class="ap-edit" title="닉네임 변경">✎</button></div>
-            <div class="ap-email" id="apEmail"></div>
-          </div>
-        </div>
-        <form id="nickForm" class="ap-nickform hidden">
-          <input type="text" id="nickInput" maxlength="20" placeholder="새 닉네임">
-          <div class="ap-nickbtns">
-            <button type="submit">저장</button>
-            <button type="button" id="nickCancel">취소</button>
-          </div>
-        </form>
-        <button type="button" id="authLogout" class="ap-logout">로그아웃</button>
-      </div>
-    </aside>
   </div>
   <header class="masthead">
     <h1 class="logo">HEUY<span class="d">.</span>ARCHI</h1>
@@ -330,6 +302,36 @@
     출처: designboom · ArchDaily · Construction Dive · Dezeen · Bustler · 주택폴리오 · 이투데이 · 내외일보<br>
     각 매체 보도를 기반으로 편집했습니다. 이미지 저작권은 각 매체·제공자에 있으며, 인용 시 원문 확인을 권장합니다.
   </div>
+    </div>
+  <aside class="home-side">
+    <aside class="account-panel" id="accountPanel">
+      <div id="apLoggedOut">
+        <div class="ap-avatar">?</div>
+        <p class="ap-lead">로그인하고<br>피드백에 댓글을 남겨보세요</p>
+        <form id="authForm">
+          <input type="email" id="authEmail" placeholder="you@email.com" required autocomplete="email">
+          <button type="submit">매직링크 받기</button>
+        </form>
+        <p class="ap-note" id="authNote">비밀번호 없이 메일로 받은 링크로 로그인합니다.</p>
+      </div>
+      <div id="apLoggedIn" class="hidden">
+        <div class="ap-row">
+          <div class="ap-avatar" id="apAvatar">·</div>
+          <div class="ap-who">
+            <div class="ap-name"><span id="apName"></span><button type="button" id="apEditNick" class="ap-edit" title="닉네임 변경">✎</button></div>
+            <div class="ap-email" id="apEmail"></div>
+          </div>
+        </div>
+        <form id="nickForm" class="ap-nickform hidden">
+          <input type="text" id="nickInput" maxlength="20" placeholder="새 닉네임">
+          <div class="ap-nickbtns">
+            <button type="submit">저장</button>
+            <button type="button" id="nickCancel">취소</button>
+          </div>
+        </form>
+        <button type="button" id="authLogout" class="ap-logout">로그아웃</button>
+      </div>
+    </aside>
   <div class="feedback-room" id="feedbackRoom">
     <div class="fr-head">
       <span class="fr-title">피드백 &amp; 댓글</span>
@@ -343,6 +345,8 @@
       <button type="submit" id="frSubmit" disabled>남기기</button>
     </form>
     <p class="fr-hint" id="frHint">댓글을 남기려면 <button type="button" class="fr-login-link" id="frLoginLink">로그인</button>하세요.</p>
+  </div>
+  </aside>
   </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>

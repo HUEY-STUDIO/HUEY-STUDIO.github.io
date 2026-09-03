@@ -538,22 +538,21 @@ def render_feedback_room():
   </div>"""
 
 
-def render_home_top(d):
-    """홈페이지 전용: 티저 스트립 옆에 로그인/계정 패널을 오른쪽 레이아웃으로 붙인다."""
-    return (f'  <div class="home-top">\n'
-            f'{render_teasers(d.get("teasers", []))}\n'
+def render_home_side():
+    """홈페이지 전용: 로그인/계정 패널 + 실시간 피드백 채팅방을 오른쪽 세로 사이드바로 묶는다.
+    본문 옆에 붙어 스크롤을 따라오다 본문 끝에서 멈춘다(position:sticky)."""
+    return (f'  <aside class="home-side">\n'
             f'{render_account_panel()}\n'
-            f'  </div>')
+            f'{render_feedback_room()}\n'
+            f'  </aside>')
 
 
 def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None, home=False):
     comps, feature, grid, korea, feature_idx, grid_idx, korea_idx = split_competitions(d)
     day = d["date"]
-    body = "\n".join(x for x in [
-        nav(root, current),
-        '<div class="sheet">',
+    main = "\n".join(x for x in [
         render_brandbar(d),
-        render_home_top(d) if home else render_teasers(d.get("teasers", [])),
+        render_teasers(d.get("teasers", [])),
         render_masthead(d, root),
         render_cardnews_strip(d, root),
         render_top(d),
@@ -567,7 +566,20 @@ def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None,
         render_briefs(d.get("briefs", [])),
         render_issue_nav(root, prev_day, next_day),
         render_foot(d),
-        render_feedback_room() if home else "",
+    ] if x)
+    if home:
+        sheet_inner = (f'  <div class="home-layout">\n'
+                       f'    <div class="home-main">\n{main}\n    </div>\n'
+                       f'{render_home_side()}\n'
+                       f'  </div>')
+        sheet_open = '<div class="sheet sheet--home">'
+    else:
+        sheet_inner = main
+        sheet_open = '<div class="sheet">'
+    body = "\n".join(x for x in [
+        nav(root, current),
+        sheet_open,
+        sheet_inner,
         "</div>",
     ] if x)
     title = f'HEUY.ARCHI — Daily Architecture Briefing · {day.replace("-", ".")}'
