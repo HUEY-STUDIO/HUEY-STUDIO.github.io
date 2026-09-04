@@ -551,8 +551,19 @@ MS_DECOS = [
     ("plant", 8, 35), ("table", 45, 20), ("plant", 48, 8), ("table", 5, 45),
     ("plant", 25, 25), ("table", 28, 4),
 ]
-# 건물 — 십자로 옆으로 작은 마을처럼 배치
-MS_BUILDINGS = [(12, 20), (18, 20), (32, 30), (38, 30), (20, 8), (30, 42)]
+# 건물 — 십자로 옆으로 작은 마을처럼 배치. (gx, gy, 크기, 지붕색 변형)
+# 크기별 벽 높이·창문 배치는 MS_BUILDING_SIZES 참조 — 캐릭터(28px)보다 다 크게,
+# sm(단층)~lg(랜드마크)로 스케일을 나눠 전부 같은 크기의 붕어빵 집이 되지 않게 한다.
+MS_BUILDINGS = [
+    (12, 20, "sm", 1), (18, 20, "md", 2), (32, 30, "lg", 3),
+    (38, 30, "md", 4), (20, 8, "sm", 2), (30, 42, "md", 1),
+]
+# 크기 → (벽 높이, 창문 top 오프셋들, 문 유무). style.css 의 --bld-h·.is-{sm,md,lg} 와 반드시 맞물려야 한다.
+MS_BUILDING_SIZES = {
+    "sm": (20, [7], False),
+    "md": (34, [5, 19], True),
+    "lg": (52, [5, 19, 33], True),
+}
 
 
 def _ms_line(kind, x1, y1, x2, y2):
@@ -598,12 +609,17 @@ def render_mini_space():
         for kind, gx, gy in MS_TILES
         for x, y in [_ms_point(gx, gy)]
     )
-    buildings = "\n".join(
-        f'          <div class="ms-deco ms-deco--building" style="left:{x}px; top:{y}px">'
-        f'<div class="ms-bld-roof"></div><div class="ms-bld-wall-r"></div><div class="ms-bld-wall-l"></div></div>'
-        for gx, gy in MS_BUILDINGS
-        for x, y in [_ms_point(gx, gy)]
-    )
+    def _building(gx, gy, size, roof):
+        x, y = _ms_point(gx, gy)
+        _, win_tops, has_door = MS_BUILDING_SIZES[size]
+        wins = "".join(f'<div class="ms-bld-win" style="top:{t}px"></div>' for t in win_tops)
+        door = '<div class="ms-bld-door"></div>' if has_door else ""
+        return (
+            f'          <div class="ms-deco ms-deco--building is-{size} is-roof-{roof}" style="left:{x}px; top:{y}px">'
+            f'<div class="ms-bld-roof"></div>'
+            f'<div class="ms-bld-wall-r">{wins}{door}</div><div class="ms-bld-wall-l"></div></div>'
+        )
+    buildings = "\n".join(_building(*b) for b in MS_BUILDINGS)
     decos = "\n".join(
         f'          <div class="ms-deco ms-deco--{kind}" style="left:{x}px; top:{y}px">'
         f'{"<span></span>" if kind == "plant" else ""}</div>'

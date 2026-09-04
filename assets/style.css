@@ -161,8 +161,24 @@ b{font-weight:800; color:var(--ink)}
    다이아몬드를 이어 붙여 지형처럼 보이게 한다. render.py의 MS_TILES가 좌표를 계산한다. */
 .ms-tile{position:absolute; width:22px; height:11px; margin:-5.5px 0 0 -11px; clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}
 .ms-tile--grass{background:var(--ms-grass); opacity:.55}
-.ms-tile--road{background:var(--ms-road); opacity:.82}
-.ms-tile--river{background:var(--ms-river); opacity:.75}
+/* 도로 — 타일 방향(수평/수직 어느 쪽 도로 조각이든)과 무관하게, 다이아몬드 두 변의
+   기울기(±26.57°, TW:TH=2:1과 같은 비율)를 그대로 딴 결 무늬를 얹어 보도블록처럼 보이게 한다 */
+.ms-tile--road{
+  background:
+    repeating-linear-gradient(26.57deg, rgba(255,255,255,.16) 0 1px, transparent 1px 6px),
+    repeating-linear-gradient(-26.57deg, rgba(0,0,0,.10) 0 1px, transparent 1px 6px),
+    var(--ms-road);
+  opacity:.85;
+}
+/* 강 — 같은 결 무늬를 물결처럼 더 성기게, 밝은 하이라이트를 대각으로 얹어 흐르는 느낌을 낸다 */
+.ms-tile--river{
+  background:
+    linear-gradient(115deg, rgba(255,255,255,.4) 0%, rgba(255,255,255,0) 35%),
+    repeating-linear-gradient(26.57deg, rgba(255,255,255,.22) 0 2px, transparent 2px 9px),
+    linear-gradient(150deg, var(--ms-river) 0%, rgba(0,0,0,.22) 160%);
+  opacity:.88;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.1);
+}
 
 .ms-deco{position:absolute}
 .ms-deco--table{width:40px; height:24px; margin:-20px 0 0 -20px; background:#8B5A3C; border-radius:3px; box-shadow:0 3px 0 #6E4630}
@@ -173,19 +189,34 @@ b{font-weight:800; color:var(--ink)}
   border-radius:50% 50% 50% 0; box-shadow:6px 2px 0 -2px #3E8E5A, -6px 2px 0 -2px #3E8E5A;
 }
 /* 건물 — 지붕(다이아몬드) + 양쪽 벽(평행사변형) 3면. 바닥 만들 때 쓰던 --iso-wall-r/-l을
-   여기서 재사용한다(방 경계 벽은 오픈월드가 되며 없앴지만 톤은 그대로 살려 씀). */
-.ms-deco--building{width:22px; height:11px; margin:-34px 0 0 -11px}
+   여기서 재사용한다(방 경계 벽은 오픈월드가 되며 없앴지만 톤은 그대로 살려 씀).
+   is-sm/md/lg 로 층수(=벽 높이)를 달리해 작은 집부터 랜드마크급 건물까지 스케일을 나눈다.
+   캐릭터 키(28px) 대비: sm≈0.9배(단층집), md≈1.5배(2~3층), lg≈2.4배(랜드마크). */
+.ms-deco--building{width:22px; height:11px; margin-left:-11px}
+.ms-deco--building.is-sm{ --bld-h:20px; margin-top:-28px }
+.ms-deco--building.is-md{ --bld-h:34px; margin-top:-42px }
+.ms-deco--building.is-lg{ --bld-h:52px; margin-top:-60px }
+/* 지붕 색 4종 — 전부 빨간 지붕이면 마을이 아니라 복제품처럼 보여서 갈라준다 */
+.ms-deco--building.is-roof-1{ --bld-roof:#9F0F1F }
+.ms-deco--building.is-roof-2{ --bld-roof:#3E5B49 }
+.ms-deco--building.is-roof-3{ --bld-roof:#4A5A6B }
+.ms-deco--building.is-roof-4{ --bld-roof:#6B4A2F }
 .ms-bld-roof{
   position:absolute; left:0; top:0; width:22px; height:11px;
-  clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%); background:var(--red);
+  clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%); background:var(--bld-roof, var(--red));
 }
-.ms-bld-wall-r{
-  position:absolute; left:11px; top:5.5px; width:11px; height:26px;
-  clip-path:polygon(0 0,100% 20%,100% 100%,0 80%); background:var(--iso-wall-r);
+.ms-bld-wall-r, .ms-bld-wall-l{ position:absolute; top:5.5px; width:11px; height:var(--bld-h,26px) }
+.ms-bld-wall-r{ left:11px; clip-path:polygon(0 0,100% 20%,100% 100%,0 80%); background:var(--iso-wall-r) }
+.ms-bld-wall-l{ left:0; clip-path:polygon(100% 0,0 20%,0 100%,100% 80%); background:var(--iso-wall-l) }
+/* 정면(오른쪽) 벽에 얹는 창·문 — 캐릭터 몸통과 같은 방식(작은 사각 점)으로 그려
+   같은 픽셀아트 결을 맞춘다. render.py 가 층수만큼 top 위치를 계산해 찍어낸다. */
+.ms-bld-win{
+  position:absolute; left:3px; width:3px; height:3px; background:#FFE9A8;
+  box-shadow:0 0 3px 1px rgba(255,233,168,.65);
 }
-.ms-bld-wall-l{
-  position:absolute; left:0; top:5.5px; width:11px; height:26px;
-  clip-path:polygon(100% 0,0 20%,0 100%,100% 80%); background:var(--iso-wall-l);
+.ms-bld-door{
+  position:absolute; left:3px; bottom:0; width:4px; height:6px;
+  background:var(--iso-wall-l); border-radius:1px 1px 0 0;
 }
 .ms-players{position:absolute; inset:0}
 .ms-char{
@@ -222,18 +253,23 @@ b{font-weight:800; color:var(--ink)}
 @keyframes msJump{0%{transform:translateY(0)} 45%{transform:translateY(-16px)} 100%{transform:translateY(0)}}
 .ms-char.is-jumping .ms-char-body{animation:msJump .5s ease}
 
-/* 엔터로 치는 채팅 — 말풍선으로 캐릭터 머리 위에 잠깐 떴다 사라진다 */
+/* 엔터로 치는 채팅 — 말풍선으로 캐릭터 머리 위에 잠깐 떴다 사라진다.
+   width:max-content 가 핵심 — .ms-char(20px)처럼 아주 좁은 위치 기준 조상 안에서
+   left:50%+transform으로 가운데 정렬하면, width:auto인 절대배치 박스는 셋 사이의
+   좁은 가용폭(약 10px)에 맞춰 shrink-to-fit 되어 글자가 세로로 한 줄씩 쌓여 보인다.
+   max-content로 고정해야 항상 내용 너비대로(=가로로) 그려진다. */
 @keyframes msBubbleIn{from{opacity:0; transform:translate(-50%,4px)} to{opacity:1; transform:translate(-50%,0)}}
 .ms-char-bubble{
-  position:absolute; left:50%; bottom:100%; transform:translate(-50%,0); margin-bottom:20px;
-  background:var(--sheet); color:var(--ink); border:1px solid var(--rule-2); border-radius:10px;
-  padding:4px 9px; font-size:11px; font-weight:600; white-space:normal; word-break:break-word;
-  max-width:130px; box-shadow:0 3px 8px rgba(0,0,0,.18); z-index:5; pointer-events:none;
+  position:absolute; left:50%; bottom:100%; transform:translate(-50%,0); margin-bottom:16px;
+  width:max-content; max-width:104px;
+  background:var(--sheet); color:var(--ink); border:1px solid var(--rule-2); border-radius:8px;
+  padding:3px 7px; font-size:9px; line-height:1.4; font-weight:600; white-space:normal; word-break:break-word;
+  box-shadow:0 3px 8px rgba(0,0,0,.18); z-index:5; pointer-events:none;
   animation:msBubbleIn .15s ease;
 }
 .ms-char-bubble::after{
   content:""; position:absolute; top:100%; left:50%; transform:translateX(-50%);
-  border:5px solid transparent; border-top-color:var(--sheet);
+  border:4px solid transparent; border-top-color:var(--sheet);
 }
 .ms-chat-form{position:absolute; left:8px; right:8px; bottom:8px; z-index:6}
 .ms-chat-form input{
