@@ -1,0 +1,233 @@
+{
+  "vol": "VOL.01  NO.020",
+  "editor": "HUEY",
+  "counts": { "total": 17, "intl": 13, "kr": 4 },
+  "outlets": ["Dezeen", "designboom", "ArchDaily", "Construction Management", "대한건축사협회 건축사신문", "주택폴리오", "매일신문"],
+
+  "teasers": [
+    { "title": "AART, 로젠보르그성 왕실 보물창고 설계공모 우승", "desc": "코펜하겐 왕실 컬렉션의 새 보금자리", "label": "AWARDS" },
+    { "title": "2026 한국파사드어워즈 공모 시작", "desc": "9월 30일까지 접수", "label": "COMPETITION" },
+    { "title": "런던탑, 유네스코 세계유산 지위 위기", "desc": "시티오브런던 고층개발과 정면충돌", "label": "HERITAGE" },
+    { "title": "핀란드발 '탄소 저장' 벽재 MO6 공개", "desc": "임업 부산물 리그닌으로 만든 신소재", "label": "MATERIALS" }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 재난유산",
+    "lede": "런던탑, 시티 고층개발에 유네스코 세계유산 지위 흔들린다",
+    "lede_em": "유네스코 세계유산 지위",
+    "image": "https://constructionmanagement.co.uk/wp-content/uploads/2024/06/Tower-of-London.jpg",
+    "image_label": "CONSTRUCTION MANAGEMENT",
+    "caption": "1988년 유네스코 세계유산으로 등재된 런던탑 ⓒ Construction Management",
+    "body": [
+      "영국 정부의 역사환경 자문기구 **히스토릭 잉글랜드**가 **런던 시티(City of London)**의 사무공간 확장 계획이 **런던탑**의 유네스코 세계유산 지위를 위협한다고 공식 경고했다. 두 기관은 \"역사환경 보전과 사무공간 확장 사이에 심각한 내재적 충돌이 있다\"고 밝히며, 계획이 이대로 확정되면 런던탑의 '탁월한 보편적 가치'가 훼손될 수 있다고 주장했다.",
+      "논란의 발단은 시티오브런던 자치구가 추진 중인 **'City Plan 2040'**이다. 기존 지역계획을 대체해 시티 전역에 **120만 제곱미터** 규모의 사무공간을 새로 짓는 것이 목표다. 히스토릭 잉글랜드는 타워브리지와 사우스뱅크에서 바라보는 런던탑 조망을 지키려면 시티와 런던탑 사이에 \"더 넓고 끊김 없는 하늘 공간\"이 필요하며, 신축 건물이 랜드마크로부터 '물러서는' 형태를 취해야 한다고 요구했다.",
+      "유네스코도 이번 논란에 개입했다. 영국 정부에 런던탑의 세계유산 보전현황 보고서 제출을 요청했고, 런던탑을 관리하는 왕실기념물관리청(Historic Royal Palaces)도 시티의 고층건물 정책에 \"심각한 우려\"를 표했다. 앞서 올해 6월에는 주택·계획 담당 장관이 세계유산 지위에 미칠 영향을 이유로 시티플랜 2040의 채택 절차를 전격 중단시키기도 했다.",
+      "반면 시티오브런던 공사는 반발하고 있다. 계획이 철회되면 **100만 제곱피트** 규모의 사무타워 프로젝트가 무산될 수 있다는 우려에서다. 시티 측은 유산의 중요성을 인식하고 있으며 이미 \"맞춤형이고 철저한 고층건물·유산 심사 방식\"을 적용하고 있다고 반박, 성장과 보존이 양립할 수 있다는 입장을 고수하고 있다."
+    ],
+    "source": [
+      { "outlet": "Dezeen", "links": [{ "text": "기사", "url": "https://www.dezeen.com/2026/09/03/tower-of-london-historic-england/" }] },
+      { "outlet": "Construction Management", "links": [{ "text": "기사", "url": "https://constructionmanagement.co.uk/tower-of-london-and-st-pauls-under-threat-from-citys-skyscrappers/" }] }
+    ],
+    "topic": "재난유산"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "대한건축사협회",
+    "title": "건축사법 개정안 9월 18일 시행…명의대여 처벌 강화",
+    "body": [
+      "**대한건축사협회**가 2026년 8월 하반기 주요 입법·제도 변경 대응 현황을 정리해 공개했다. 이번 하반기 가장 큰 변화는 **건축사법 개정안**과 **건축물관리법 시행령** 개정으로, 두 제도 모두 건축사사무소의 일상 실무에 직접 영향을 미친다."
+    ],
+    "facts": [
+      "건축사법 개정안: **9월 18일** 시행, 명의대여·유사명칭 사용 처벌 강화",
+      "건축물관리법 시행령: 건설사업관리자(CM) 배치 의무 **적용범위 대폭 축소**",
+      "대한건축사협회, 국회 국토교통위원회 여야 간사와 잇단 정책 간담회 진행"
+    ],
+    "body_after": [
+      "명의대여 처벌 강화는 무자격 설계 관행을 겨냥한 조치로, 자격 없이 이름만 빌려주는 사무소 운영 방식에 대한 법적 책임이 한층 무거워진다. 반대로 건설사업관리자 적용범위 축소는 중소 규모 프로젝트에서 발주자·설계사무소의 관리 부담을 덜어주는 방향이어서, 현장에서는 두 개정 사항이 서로 다른 방향의 규제 강화·완화로 동시에 다가온다는 평가가 나온다."
+    ],
+    "source": { "outlet": "대한건축사협회 건축사신문", "links": [{ "text": "기사", "url": "https://www.ancnews.kr/news/articleView.html?idxno=21052" }] },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "장어 잠자리 같은 좁은 땅에, 도예가 부부의 집과 공방",
+      "image": "",
+      "image_label": "DEZEEN",
+      "body": [
+        "일본 건축사무소 **타토 아키텍츠**가 교토의 폭 **4m**, 길이 **30m**짜리 극단적으로 좁고 긴 대지—이른바 '장어 잠자리'형 필지—에 도예가 부부를 위한 주택 겸 작업실을 완성했다. 사무소가 설계한 신축 주택 중 가장 큰 **321제곱미터** 규모다.",
+        "교토 전통 마치야(町家)의 통로형 정원을 현대적으로 재해석해 두 개의 채광 보이드와 지그재그 계단으로 동서 두 윙을 잇는다. 서쪽 도로변엔 손님용 침실을 두고, 그 위로 격자무늬 목재 천장 아래 거실·식당·주방이 이어져 자연광이 필터링된 실내를 완성했다."
+      ],
+      "source": { "outlet": "Dezeen", "links": [{ "text": "기사", "url": "https://www.dezeen.com/2026/09/04/tato-architects-house-studio-kyoto/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 수상",
+      "title": "로젠보르그성 지하에 왕실 보물창고…AART, 코펜하겐 공모 우승",
+      "image": "https://images.adsttc.com/media/images/6a9a/7e18/1fe7/3101/8863/049d/newsletter/aart-wins-competition-for-underground-royal-treasury-at-rosenborg-castle-in-copenhagen_8.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "덴마크 건축사무소 **AART**가 코펜하겐 **로젠보르그성**에 새로 들어설 지하 왕실 보물창고 '리게츠 스카트캄메르(Rigets Skatkammer)' 국제 설계공모에서 우승했다. **VEGA Landskab**, **Fogh & Følner**, **Artelia**와 함께 낸 안으로, 성을 둘러싼 역사적 해자 아래 약 **1,300제곱미터** 규모 증축 공간을 만들고 그중 **600제곱미터**를 왕실 컬렉션 전시실로 채운다.",
+        "덴마크 왕실 컬렉션은 왕관 보석과 역사적 의상 등을 소장하며 연간 **50만 명** 이상이 찾는다. 새 보물창고는 해자 수면을 부분 복원하면서, 밝은 채광부터 어두운 전시공간까지 명암·음향·재질의 변화로 관람 동선을 왕실사 서사로 엮어낸다. 총사업비는 **6억 6,100만 덴마크크로네** 이상이 투입된다."
+      ],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1184522/aart-wins-competition-for-underground-royal-treasury-at-rosenborg-castle-in-copenhagen" }] },
+      "topic": "수상"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "벌목 부산물이 탄소 저장 벽재로…핀란드가 내놓은 신소재 MO6",
+      "image": "https://freeyorkk.b-cdn.net/wp-content/uploads/2026/09/carbon-storing-material-tiles-transform-material-freeyork-1.jpg",
+      "image_label": "FREEYORK",
+      "body": [
+        "핀란드 기업 **엘레멘틱**이 임업 부산물 **리그닌**을 원료로 한 벽재 'MO6'를 선보였다. 두껍고 가벼운 타일 형태로 화학 성분의 **90%**가 탄소로 이뤄져 '세계에서 가장 탄소를 많이 저장하는 건축자재'라 소개한다. 1kg당 약 **2.4kg**의 대기 중 이산화탄소를 가둬 목재보다 저장 능력이 뛰어나며, 현재는 건조한 실내 공간용으로만 공급된다."
+      ],
+      "source": { "outlet": "Dezeen", "links": [{ "text": "기사", "url": "https://www.dezeen.com/2026/09/04/mo6-carbon-storing-material-elementic/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "17피트 캔틸레버 테라스로 모래언덕을 끌어안다…델라웨어 해변 주택",
+      "image": "",
+      "image_label": "DEZEEN",
+      "body": [
+        "미국 볼티모어의 **지거스니드**가 델라웨어주 펜윅아일랜드의 좁고 제약 많은 모서리 대지에 3층 규모 별장 '**듄 하우스**'를 완성했다. 35피트 높이 제한 속에서도 거실·식당 공간이 모래언덕 위로 **17피트** 캔틸레버된 테라스로 확장되도록 설계했다. 외장은 마감하지 않은 **아코야 목재**로 감싸 짠 바닷바람 속에서 자연스럽게 은빛으로 변색되도록 했다."
+      ],
+      "source": { "outlet": "Dezeen", "links": [{ "text": "기사", "url": "https://www.dezeen.com/2026/09/02/dune-house-delaware-ziger-snead/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "트래버틴과 사막빛 텍스처…두바이 '빌라 림니'의 절제된 럭셔리",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/dubai-villa-limni-groundeddesign-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "두바이 스튜디오 **그라운디드디자인**이 줄메이라 골프 에스테이트에 **539제곱미터** 규모 5침실 주택 '빌라 림니'를 완성했다. 트래버틴 석재와 목재, 사막빛 텍스처로 촉각적 표면을 강조하며, 유행보다 오래 견디는 재료의 품질과 자연광에 초점을 맞췄다."
+      ],
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/travertine-timber-desert-toned-textures-groundeddesign-villa-limni-dubai/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "33㎡ 협소지에 세운 4층 목조주택…도쿄 카구라자카의 수직 마치야",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/takumi-wakui-riho-wakui-architects-house-kagurazaka-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "일본 건축가 부부 **와쿠이 타쿠미·와쿠이 리호**가 도쿄 카구라자카의 **33제곱미터** 협소 부지에 스스로 살 4층 목조주택을 지었다. 전통 마치야를 수직 공간으로 재해석해, 보이드와 개구부로 각 층을 연결하고 자연 채광·환기를 끌어들였다."
+      ],
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/voids-vertical-space-traditional-japanese-machiya-compact-site-tokyo-takumi-wakui-riho-wakui-architects-house-kagurazaka/" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "배문중·고 그린스마트 미래학교 개축 설계용역, 9월 10일 마감",
+      "body": [
+        "서울 **용산구** 배문중·고등학교의 그린스마트 미래학교 개축공사 설계용역 공모가 접수 중이다. 1970년 지어져 노후화된 서계동 캠퍼스를 총사업비 **535억원**을 들여 지하 2층~지상 6층 4개 동, 연면적 약 **2만 872㎡** 규모로 다시 짓는 사업이다. 접수 마감은 **9월 10일**이며, 2028년 준공을 목표로 단계적 공사가 진행된다."
+      ],
+      "source": { "outlet": "뉴스로", "links": [{ "text": "기사", "url": "https://www.newsro.kr/%EC%84%9C%EC%9A%B8-%EC%9A%A9%EC%82%B0%EA%B5%AC-%EB%B0%B0%EB%AC%B8%EC%A4%91%E3%86%8D%EA%B3%A0-%EA%B7%B8%EB%A6%B0%EC%8A%A4%EB%A7%88%ED%8A%B8-%EB%AF%B8%EB%9E%98%ED%95%99%EA%B5%90-%EC%84%A0%EC%A0%95/" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "서울용강초 급식실·특별교실 증축 설계용역, 9월 7일 마감",
+      "body": [
+        "서울 **마포구** 대흥동 서울용강초등학교의 급식실·학생식당 및 특별교실 증축공사 설계용역 공모가 진행 중이다. 접수 마감은 **9월 7일**로, 서울시내 초등학교 급식·특별교실 공간을 확충하는 소규모 증축 사업이다."
+      ],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "공모 공고", "url": "https://jootek.com/folio/contests" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "건축에 AI 접목하면 뭐가 달라지나…'스마트+빌딩 정책 컨퍼런스' 11일 부산서",
+      "body": [
+        "**건축공간연구원(auri)**이 **9월 11일** 부산 벡스코에서 '2026 월드스마트시티엑스포(WSCE)' 부대행사로 '스마트+빌딩 정책 컨퍼런스'를 연다. '건축 분야 AI 접목에 따른 변화·쟁점과 향후 정책방향', '2026년 공공건축물 스마트+빌딩 리뉴얼 사업 추진 성과' 등이 발표되며, 학계·업계·언론 전문가와 스마트빌딩 얼라이언스 회원사가 모여 네트워크를 구축하는 자리로도 마련됐다."
+      ],
+      "source": { "outlet": "매일신문", "links": [{ "text": "기사", "url": "https://www.imaeil.com/page/view/2026090410002924086" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "\"AI가 그린 도면, 저작권은 누구 것\"…9월 14일 국회 정책토론회",
+      "body": [
+        "**대한건축사협회**와 **건축공간연구원(AURI)**이 복기왕·이정문 국회의원과 공동으로 '**AI 시대의 건축도면정보 활용과 저작권 보호방안**' 정책토론회를 **9월 14일** 국회도서관에서 연다. AURI 조영진 공간AI·빅데이터본부장이 건축도면 정보 구축·AI 활용을 위한 제도 개선안을, 대한건축사협회 강주석 사무부처장이 AI 시대 도면 저작권 보호·활용 방안을 각각 발제한다. 국가건축정책위원회·국토교통부·문화체육관광부·한국저작권위원회 등이 후원한다."
+      ],
+      "source": { "outlet": "대한건축사협회 건축사신문", "links": [{ "text": "기사", "url": "http://www.ancnews.kr/news/articleView.html?idxno=21073" }] },
+      "topic": "제도규제"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "2026 한국파사드어워즈 공모 시작",
+      "body": "건축물 외피(파사드) 디자인·기술을 겨루는 '2026 한국파사드어워즈' 공모가 시작됐다. 접수는 9월 30일까지.",
+      "source": { "outlet": "대한건축사협회 건축사신문", "links": [{ "text": "기사", "url": "http://www.ancnews.kr/news/articleView.html?idxno=20987" }] },
+      "topic": "수상"
+    },
+    {
+      "title": "양평군, 제2회 건축문화상 개최…주거단지 분야 신설",
+      "body": "양평군 소재 건축물을 대상으로 한 제2회 건축문화상이 접수 공고됐다. 올해부터 주거단지 분야가 새로 생겼다.",
+      "source": { "outlet": "시민일보", "links": [{ "text": "기사", "url": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160314021406971" }] },
+      "topic": "수상"
+    },
+    {
+      "title": "신진 건축사들 한자리에…'TAKEOFF 2026' 워크숍 10월 2일",
+      "body": "대한건축사협회 신진건축사위원회가 10월 2일 여는 워크숍 사전등록을 시작했다. 실무 가이드북도 함께 배부한다.",
+      "source": { "outlet": "대한건축사협회 건축사신문", "links": [{ "text": "기사", "url": "http://www.ancnews.kr/news/articleView.html?idxno=20993" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "건축공간연구원, 김제농촌활력센터와 업무협약",
+      "body": "건축공간연구원(auri)이 김제농촌활력센터와 협약을 맺고 농촌공간 재생 정책연구 협력 기반을 마련했다.",
+      "source": { "outlet": "건축공간연구원", "links": [{ "text": "기사", "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013" }] },
+      "topic": "도시재생"
+    },
+    {
+      "title": "'핸드메이드 유토피아', 캘리포니아 귀농 건축을 기록하다",
+      "body": "1960~70년대 도시를 떠나 시골에 정착한 미국인들이 스스로 지은 집들을 담은 사진·구술사 책이 출간됐다.",
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/handmade-utopia-radical-homes-northern-california-land-movement/" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "tower-of-london-unesco-risk",
+      "tag": "HERITAGE",
+      "title": "런던탑, 유네스코 지위 흔들리나",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "Tower of London fortress historic architecture",
+      "slides": [
+        { "heading": "런던탑,\n유네스코 지위\n흔들리나", "body": "고층 사무타워 개발이 부른 세계유산 위기" },
+        { "heading": "WHAT", "body": "히스토릭 잉글랜드가 런던 시티의 사무공간 확장 계획이 런던탑의 유네스코 세계유산 지위를 위협한다고 공식 경고했다." },
+        { "heading": "SCALE", "body": "시티오브런던이 추진하는 'City Plan 2040'은 120만 제곱미터 규모의 사무공간을 새로 짓는 계획이다." },
+        { "heading": "CONFLICT", "body": "타워브리지·사우스뱅크에서 보이는 런던탑 조망을 지키려면 '더 넓고 끊김 없는 하늘'이 필요하다는 것이 히스토릭 잉글랜드의 요구다." },
+        { "heading": "UNESCO", "body": "유네스코는 영국 정부에 세계유산 보전현황 보고서 제출을 요청했고, 올해 6월 장관이 시티플랜 채택 절차를 전격 중단시켰다." },
+        { "heading": "PUSHBACK", "body": "시티오브런던 공사는 100만 제곱피트 규모 사무타워 사업이 무산될 수 있다며 반발, 성장과 보존이 양립 가능하다는 입장이다." }
+      ]
+    },
+    {
+      "slug": "aart-rosenborg-royal-treasury",
+      "tag": "AWARD",
+      "title": "성 아래 묻힐 왕실의 보물창고",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 1,
+      "photo_query": "castle moat historic european stone architecture",
+      "slides": [
+        { "heading": "성 아래 묻힐\n왕실의 보물창고", "body": "AART, 코펜하겐 로젠보르그성 국제공모 우승" },
+        { "heading": "WHAT", "body": "덴마크 AART가 로젠보르그성 지하에 새 왕실 보물창고 '리게츠 스카트캄메르'를 짓는 국제 설계공모에서 우승했다." },
+        { "heading": "SCALE", "body": "역사적 해자 아래 약 1,300제곱미터를 증축해 그중 600제곱미터를 전시 공간으로 채운다." },
+        { "heading": "WHY", "body": "덴마크 왕관 보석 등 왕실 컬렉션을 소장한 이곳은 연간 50만 명 이상이 찾는다." },
+        { "heading": "DESIGN", "body": "해자의 수면을 부분 복원하고, 밝은 채광에서 어두운 전시공간으로 이어지는 동선으로 왕실사를 서사화한다." }
+      ]
+    }
+  ]
+}
