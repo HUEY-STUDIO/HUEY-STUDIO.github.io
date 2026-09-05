@@ -1,0 +1,253 @@
+{
+  "vol": "VOL.01  NO.021",
+  "editor": "HUEY",
+  "counts": { "total": 18, "intl": 14, "kr": 4 },
+  "outlets": ["Newsweek", "ArchDaily", "designboom", "Construction Dive", "대한건축사협회 건축사신문", "국토교통부", "주택폴리오"],
+
+  "teasers": [
+    { "title": "젯다타워, 페트로나스타워 넘어 454m 돌파", "desc": "113층 완공, 목표는 1,000m 이상", "label": "MILESTONE" },
+    { "title": "\"차 없이 걷는 도시가 더 건강하다\"", "desc": "ArchDaily, 보행친화 설계와 공중보건의 상관관계 조명", "label": "URBANISM" },
+    { "title": "경북대 융합연구동 신축 설계공모 공고", "desc": "설계비 18.7억원, 9월 9일 등록마감", "label": "COMPETITION" },
+    { "title": "헌재 \"건축시공기술사 감리 배제 합헌\"", "desc": "건축사 감리제도 정당성 재확인", "label": "REGULATION" }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 산업건축",
+    "lede": "젯다타워, 페트로나스타워 넘어 454m 돌파…목표는 '1,000m 이상'",
+    "lede_em": "454m",
+    "image": "https://assets.newsweek.com/wp-content/uploads/2026/09/210005a-N1262.jpg",
+    "image_label": "NEWSWEEK",
+    "caption": "완공 시 1,000m를 넘어설 젯다타워의 렌더링 ⓒ Newsweek",
+    "body": [
+      "사우디아라비아 제다에서 건설 중인 **젯다타워**가 지난 **9월 3일** 113층, 높이 **454m**(1,489피트)에 도달하며 한때 세계 최고층이었던 말레이시아 **페트로나스타워**(452m)를 넘어섰다. 시공사 **사우디 빈라덴 그룹(SBG)**의 이안 노먼 밀러 상무가 직접 소셜미디어로 이 소식을 알렸다.",
+      "젯다타워는 **에이드리언 스미스+고든 길 아키텍처(AS+GG)**가 설계했다. 완공 시 높이는 **1,000m를 넘어** 현재 세계 최고층인 두바이 부르즈 할리파(828m)를 압도적으로 제칠 예정이며, 다음 이정표는 전체 목표 높이의 절반에 해당하는 **500m** 돌파다.",
+      "AS+GG의 밥 포레스트는 \"이전 세계 최고층 기록 보유 건물을 넘어서는 의미를 실감하면 겸허해진다\"고 소감을 밝혔다. 젯다타워는 2013년 첫 착공 이후 자금난과 시공사 교체 등으로 여러 차례 공사가 중단됐다가 재개된 바 있어, 이번 높이 경신은 프로젝트가 실질적인 궤도에 올랐음을 보여주는 상징적 장면으로 받아들여진다.",
+      "시공사 측이 밝힌 목표 완공 시점은 **2028년 8월**이다. 계획대로 마무리되면 젯다타워는 사우디 정부가 추진하는 '비전 2030' 메가프로젝트를 상징하는 랜드마크이자, 초고층 건축 기술의 새 기준점이 될 전망이다."
+    ],
+    "source": {
+      "outlet": "Newsweek",
+      "links": [{ "text": "기사", "url": "https://www.newsweek.com/jeddah-tower-worlds-tallest-skyscraper-construction-milestone-12401838" }]
+    },
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "대한건축사협회",
+    "title": "헌재 \"건축시공기술사, 감리자격 제외 합헌\"…건축사 감리제도 재확인",
+    "body": [
+      "**헌법재판소**가 지난 **8월 27일** 건축시공기술사를 건축공사 감리자 자격에서 제외한 현행 규정에 대한 헌법소원(2022헌마1211)을 기각했다. **대한건축사협회**는 이번 결정이 건축사 중심 감리제도의 정당성을 재확인한 것이라고 평가했다."
+    ],
+    "facts": [
+      "쟁점: 건축시공기술사의 감리자격 제외가 직업선택의 자유를 침해하는지 여부",
+      "결정: **합헌** — 2022헌마1211 헌법소원 기각",
+      "근거: 감리는 시공기법 지식을 넘어 설계·시공·안전관리·법규를 아우르는 종합적 전문성이 필요"
+    ],
+    "body_after": [
+      "재판부는 건축사는 학력·실무·시험을 거친 자격에 더해 구조물 손괴·인명피해 발생 시 면허 취소 등 법정 책임까지 지는 반면, 건축시공기술사는 이에 상응하는 책임 체계가 없다는 점을 근거로 들었다. 이번 결정으로 건축시공기술사 업계 일각에서 제기해온 감리자격 확대 요구는 당분간 동력을 잃을 것으로 보이며, 건축사 업계는 감리 업무의 법적 지위를 재확인한 판결로 받아들이고 있다."
+    ],
+    "source": { "outlet": "대한건축사협회 건축사신문", "links": [{ "text": "기사", "url": "https://www.ancnews.kr/news/articleView.html?idxno=21072" }] },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "해외 · 도시재생",
+      "title": "\"비만은 개인 문제가 아니다\"…걷기 힘든 도시가 병을 만든다",
+      "image": "https://images.adsttc.com/media/images/6a8e/ae77/ab59/ca01/8994/7733/large_jpg/the-city-as-a-system-of-health-breaking-feedback-loops-in-planning_1.jpg?1787735678",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "ArchDaily 기고가 **올리비아 포스턴**은 비만 등 건강 문제를 개인의 생활습관 탓으로만 돌려서는 안 된다고 짚는다. 식료품점까지의 거리, 보행자 횡단 안전성, 대중교통 배차 간격, 보도 폭, 도보권 내 서비스 밀도 같은 도시의 공간 구조가 주민이 일상에서 신체활동을 할 수 있는지 여부를 실질적으로 결정한다는 것이다.",
+        "서비스가 흩어져 있고 보행 환경이 위험한 동네에서는 운전이 '합리적 선택'이 되는 반면, 걷기 좋은 동네는 자연스럽게 건강한 생활을 뒷받침한다는 게 글의 핵심 논지다. 브라질 **알토 지 봄바** 도시재생 사업(OUTROS BAIRROS), 중국 **창리 어반가든**(TM 스튜디오), 스페인 빌바오의 보행친화 공공공간 사례가 도시설계가 곧 공중보건 정책이라는 주장을 뒷받침하는 근거로 제시된다."
+      ],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1183859/the-city-as-a-system-of-health-breaking-feedback-loops-in-planning" }] },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "필라델피아에 들어서는 37만6천sf 복합주거…RSHP '210 사우스 12번가'",
+      "image": "https://images.adsttc.com/media/images/6a98/a5f5/2b2b/3f01/89f4/090e/large_jpg/210-south-12th-building-rshp_6.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "영국 건축사무소 **RSHP**가 미국 필라델피아에 연면적 약 **37만6,000제곱피트**(약 3만5,000㎡) 규모 복합주거 건물 '210 사우스 12번가'를 설계했다. 저층부에 상업·커뮤니티 공간을 두고 상부에 아파트를 얹는 구성으로, 조경은 **마지 러딕**이 맡아 도심 속 녹지 경험을 더했다.",
+        "구조 엔지니어링은 **WSP**, 설비는 **BALA**가 담당했으며 시공은 **헌터 로버츠**가 맡는다. 필라델피아 도심 주거 수요 증가에 대응하는 프로젝트로, 상업·주거·조경을 한 건물 안에 압축해 배치한 점이 특징이다."
+      ],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1184462/210-south-12th-building-rshp" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "식목제를 위한 임시 목조 파빌리온…일본 '오노다테쇼'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/onodatesho-temporary-timber-pavilion-japan-forest-festival-yano-aoyama-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "일본 건축사무소 **야노 아오야마**가 에히메현에서 열리는 일본 식목제를 위한 임시 파빌리온 '오노다테쇼'를 설계했다. 지역산 삼나무·편백과 국내 운반 가능한 최대 크기의 **CLT** 패널을 기울이기·회전·경사·테이퍼·이동·절단의 여섯 가지 조작으로 조합했다. 행사 후에는 패널을 해체해 지역 학교의 맞춤 가구로 재활용할 예정이다."
+      ],
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/temporary-timber-pavilion-cedar-cypress-reclaimed-clt-japan-forest-festival-onodatesho-yano-aoyama/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "공항을 도시의 사랑방으로…브라질 헤제어웅프레투 공항, 글루램 구조로 재탄생",
+      "image": "https://images.adsttc.com/media/images/6a99/e106/15d8/6f00/01a2/ed83/large_jpg/AEROPORT_RIBEIRAO_PRET0_ANA_MELLO_10.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "브라질 헤제어웅프레투(Ribeirão Preto)의 **도토르 레이치 로페스 주립공항**이 **박코 아르키테토스 아소시아도스**의 설계로 완공됐다. 연면적 **1만840㎡** 규모로, 탄소발자국을 줄이기 위해 구조용집성목(글루램)을 사용했으며 지역의 농공업 유산을 반영해 공항을 단순 이동 공간이 아닌 지역 커뮤니티가 모이는 도시적 공간으로 재구성했다."
+      ],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1184574/doutor-leite-lopes-state-airport-bacco-arquitetos-associados" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "10억 달러 들인 암트랙 정비시설, 뉴욕 선니사이드에 착공",
+      "image": "https://imgproxy.divecdn.com/gaNMgMKUJ2qnkoEuCcw03zNvjHHys62cJurAq34ZAOs/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8wODI4MjYtU1NZLUdyb3VuZGJyZWFraW5nLTEtc2NhbGVkLTIuanBn.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "**암트랙**이 뉴욕 롱아일랜드시티 선니사이드 야드에 **10억 달러** 규모 차량정비시설을 착공했다(8월 28일 기공식). 신형 'Airo' 열차 운영을 지원하기 위한 시설로, 50년 된 기존 정비창을 대체한다. 2트랙 정비·점검시설과 6개 신설 서비스트랙, 기존 승강장 11곳 개보수가 포함되며 **2030년** 완공을 목표로 한다. 최근 2년간 착공한 암트랙 정비시설 중 최대 규모다."
+      ],
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/amtrak-breaks-ground-ny-maintenance-facility-sunnyside/829656/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 설계공모",
+      "title": "'국가를 건축으로 이야기하라'…빌드너 '파빌리온 아틀라스 2026', 9월 16일 마감",
+      "image": "https://images.adsttc.com/media/images/68e6/d7a9/8791/b700/0103/e580/large_jpg/1.1.jpg?1759958959",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "국제 공모 플랫폼 **빌드너**가 주최하는 '파빌리온 아틀라스 2026' 공모의 등록 마감이 **9월 16일**로 다가왔다. 참가자가 원하는 국가 하나를 골라 상징이나 스펙터클이 아닌 건축적 서사로 그 나라를 표현하는 개념형 파빌리온을 제안하는 방식으로, 문화·생태·사회·기술·정치 등 다양한 층위에서 아이디어를 끌어올 것을 요구한다. 총상금은 **2만 유로**."
+      ],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1034873/pavilion-atlas-2026" }] },
+      "topic": "설계공모"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "경북대 융합연구동 신축 설계공모 공고…설계비 18.7억원",
+      "body": [
+        "**경북대학교**(대구 북구)가 연면적 **1만2,800㎡** 규모 융합연구동 신축사업 설계공모를 공고했다. 설계비 **18억 7,000만원**, 공사비 **416억원** 규모로, **9월 9일** 등록 마감, 심사위원 11인이 심사해 **11월 3일** 결과를 발표한다."
+      ],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "공모 공고", "url": "https://jootek.com/folio/contests/18867" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "국토부, 전국 순회 '정비사업 정책설명회'…재건축·재개발 제도 개편 설명",
+      "body": [
+        "**국토교통부**가 지난 **8월 13일** 발표한 '주택 신속공급 방안'의 후속 조치로 **9월 1일 서울, 3일 대전**에서 전국 재건축·재개발 이해관계자를 대상으로 '정비사업 정책설명회'를 열었다. 도시 및 주거환경정비법 개정안 주요 내용과 정부 지원방안을 안내하고, **HUG·LH·한국부동산원**이 참여해 이주비 대출 등 금융지원, 공공재개발 사업설명, 공사비 검증 절차 등을 종합 안내했다."
+      ],
+      "source": { "outlet": "국토교통부", "links": [{ "text": "보도자료", "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=p_sec_2" }] },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "2025년 용역형 CM 실적 1조3,655억원…10년 내 최고치",
+      "body": [
+        "**한국CM협회**의 2026년 CM역량평가 결과, 2025년 용역형 건설사업관리(CM) 실적이 **1조3,655억원**으로 전년 대비 **6.84%** 증가해 최근 10년 내 최고치를 기록했다. 다만 위탁형을 포함한 전체 CM 실적은 **1조4,890억원**으로 **9.85%** 감소했다. 3기 신도시 등 대형 공공사업이 위탁형 CM 성장을 견인했으며, 삼우CM건축사사무소가 실적 1위(1조4,350억원)에 올랐다."
+      ],
+      "source": { "outlet": "대한건축사협회 건축사신문", "links": [{ "text": "기사", "url": "https://www.ancnews.kr/news/articleView.html?idxno=21069" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "'101(일공일)'을 주제로…제18회 서울국제건축영화제 개막",
+      "body": [
+        "**제18회 서울국제건축영화제**가 '101(일공일)'을 주제로 **9월 4일** 서초 건축학회관에서 개막했다. **9월 5~6일** 이대 아트하우스 모모 상영, **9월 6~20일** 네이버TV 온라인 상영이 이어진다. 12개국 장·단편 14편(월드프리미어 2편·아시아프리미어 3편·국내프리미어 6편)이 상영되며, 개막작은 김수동 감독의 '프로세스: 진화하는 공공건축, 구마모토'다."
+      ],
+      "source": { "outlet": "대한건축사협회 건축사신문", "links": [{ "text": "기사", "url": "https://www.ancnews.kr/news/articleView.html?idxno=21076" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "로우스재단, 2035년까지 숙련공 100만명 양성 연합 출범",
+      "body": "로우스재단이 75개 이상 기업이 참여하는 '빌딩 퓨처스 스킬드 트레이즈 연합'을 발족, 2035년까지 숙련 기능인력 100만명 양성을 목표로 내걸었다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/lowes-workforce-training-craft-workers-1-million/829691/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "캐터필러, AI 스타트업 필드AI와 중장비 자동화 협력",
+      "body": "캐터필러가 로봇 파운데이션 모델 스타트업 필드AI와 손잡고 현장 자율점검·디지털트윈 등 중장비 자동화 기술을 공동 개발한다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/caterpillar-partners-fieldai-equipment-automation/829708/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "데이터센터發 인력난 심화…2028년까지 18만명 이상 필요",
+      "body": "켈리서비스 보고서, 2026년 데이터센터 고용 65만명(2023년비 30%↑)에 이어 2028년까지 건설 인력 18만명 이상 추가 필요.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/data-center-employers-face-acute-shortage-of-skilled-workers/829673/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "미 교통부, 공항 인프라에 4억8,100만 달러 보조금",
+      "body": "미 교통부·연방항공청이 36개 주 191건 공항 사업에 보조금을 배정, 애틀랜타 하츠필드-잭슨 공항에는 1억 달러가 투입된다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/dot-airport-infrastructure-projects-federal-aviation-administration-grants/829585/" }] },
+      "topic": "제도규제"
+    },
+    {
+      "title": "터너건설, 1억1,200만 달러 그리니치 중학교 준공",
+      "body": "터너건설이 코네티컷주 그리니치에 13만5,000평방피트 규모 중학교를 완공, 지난주부터 학생들을 맞았다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/punch-list-turner-middle-school-nyc-dob-overdose-rates/829628/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "뉴욕시, 건설현장 과다복용 예방에 나선다…교육 의무화",
+      "body": "뉴욕시 빌딩국이 병원과 협력해 건설노동자 대상 날록손 배포·교육에 나섰다. 올해 5월 발효된 지역법 10호는 대형 현장 안전교육에 정신건강·약물 오남용 교육을 의무화했다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/punch-list-turner-middle-school-nyc-dob-overdose-rates/829628/" }] },
+      "topic": "제도규제"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "jeddah-tower-454m-milestone",
+      "tag": "MILESTONE",
+      "title": "젯다타워, 454m 돌파",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "skyscraper construction site desert tower crane",
+      "slides": [
+        { "heading": "젯다타워,\n454m 돌파", "body": "페트로나스타워를 넘어, 목표는 1,000m 이상" },
+        { "heading": "WHAT", "body": "사우디아라비아 젯다타워가 113층, 높이 454m에 도달해 한때 세계 최고층이던 말레이시아 페트로나스타워(452m)를 넘어섰다." },
+        { "heading": "WHO", "body": "설계는 에이드리언 스미스+고든 길 아키텍처(AS+GG), 시공은 사우디 빈라덴 그룹(SBG)이 맡고 있다." },
+        { "heading": "GOAL", "body": "완공 시 높이는 1,000m를 넘어 현재 세계 최고층인 부르즈 할리파(828m)를 크게 앞지를 예정이다. 다음 이정표는 절반 지점인 500m." },
+        { "heading": "TIMELINE", "body": "2013년 첫 착공 이후 자금난으로 여러 차례 중단됐던 공사가 재개돼, 2028년 8월 완공을 목표로 하고 있다." }
+      ]
+    },
+    {
+      "slug": "knu-convergence-research-competition",
+      "tag": "COMPETITION",
+      "title": "경북대 융합연구동, 설계공모 공고",
+      "ref": { "section": "korea", "index": 0 },
+      "bg": 1,
+      "photo_query": "university research building campus modern architecture",
+      "slides": [
+        { "heading": "경북대\n융합연구동\n설계공모", "body": "설계비 18.7억원, 9월 9일 등록마감" },
+        { "heading": "WHAT", "body": "경북대학교가 대구 북구 캠퍼스에 들어설 융합연구동 신축사업 설계공모를 공고했다." },
+        { "heading": "SCALE", "body": "연면적 1만2,800㎡ 규모로, 설계비 18억7,000만원, 공사비 416억원이 책정됐다." },
+        { "heading": "SCHEDULE", "body": "9월 9일 등록 마감, 심사위원 11인이 심사해 11월 3일 결과를 발표한다." },
+        { "heading": "WHY", "body": "융합연구를 위한 전용 공간을 신설해 학내 연구 인프라를 확충하려는 사업이다." }
+      ]
+    },
+    {
+      "slug": "constitutional-court-supervision-ruling",
+      "tag": "REGULATION",
+      "title": "건축사 감리, 헌재가 다시 지켰다",
+      "ref": { "section": "side" },
+      "bg": 2,
+      "photo_query": "architect blueprint construction site inspection korea",
+      "slides": [
+        { "heading": "건축사 감리,\n헌재가 다시 지켰다", "body": "건축시공기술사 감리자격 제외, 합헌 결정" },
+        { "heading": "WHAT", "body": "헌법재판소가 건축시공기술사를 감리자격에서 제외한 현행 규정에 대한 헌법소원을 기각했다." },
+        { "heading": "WHY", "body": "재판부는 감리가 시공기법 지식만이 아니라 설계·시공·안전관리·법규를 아우르는 종합적 전문성을 요구한다고 판단했다." },
+        { "heading": "GAP", "body": "건축사는 구조물 손괴·인명피해 시 면허 취소 등 법정 책임까지 지지만, 건축시공기술사는 이에 상응하는 책임 체계가 없다는 점도 근거가 됐다." },
+        { "heading": "IMPACT", "body": "이번 결정으로 감리자격 확대를 요구해온 시공기술사 업계의 움직임은 동력을 잃을 전망이며, 건축사 업계는 감리 제도의 법적 지위를 재확인한 것으로 받아들이고 있다." }
+      ]
+    }
+  ]
+}
