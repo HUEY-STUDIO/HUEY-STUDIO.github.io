@@ -405,7 +405,6 @@ function heuySupabase() {
     if (note) note.textContent = "로그인 모듈을 불러오지 못했습니다. 새로고침해보거나 광고 차단기를 꺼보세요.";
     return;
   }
-  console.log("HEUY-DEBUG: account panel init start, sb ready");
   try {
 
   // ---------------------------------------------------------- 오늘 방문자수
@@ -420,7 +419,7 @@ function heuySupabase() {
     var startISO = todayKST + "T00:00:00+09:00";
     var endISO = new Date(new Date(startISO).getTime() + 86400000).toISOString();
 
-    sb.from("page_views").insert({}).catch(function () {}).then(function () {
+    Promise.resolve(sb.from("page_views").insert({})).catch(function () {}).then(function () {
       return sb.from("page_views").select("*", { count: "exact", head: true })
         .gte("visited_at", startISO).lt("visited_at", endISO);
     }).then(function (res) {
@@ -590,10 +589,8 @@ function heuySupabase() {
       promise.then(function (v) { clearTimeout(t); resolve(v); }, function (e) { clearTimeout(t); reject(e); });
     });
   }
-  console.log("HEUY-DEBUG: loginForm element =", loginForm);
   if (loginForm) {
     loginForm.addEventListener("submit", function (e) {
-      console.log("HEUY-DEBUG: login submit handler fired");
       e.preventDefault();
       var email = loginEmail.value.trim();
       var password = loginPassword.value;
@@ -630,7 +627,7 @@ function heuySupabase() {
           return;
         }
         var saveNick = (nick && user)
-          ? sb.from("profiles").upsert({ id: user.id, nickname: nick }).catch(function () {})
+          ? Promise.resolve(sb.from("profiles").upsert({ id: user.id, nickname: nick })).catch(function () {})
           : Promise.resolve();
         return Promise.resolve(saveNick).then(function () {
           signupPassword.value = "";
@@ -792,9 +789,8 @@ function heuySupabase() {
       });
     });
   }
-  console.log("HEUY-DEBUG: account panel init finished OK");
   } catch (err) {
-    console.error("HEUY-DEBUG: account panel init CRASHED:", err);
+    console.error("HEUY.ARCHI account panel init failed:", err);
   }
 })();
 
