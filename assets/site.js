@@ -1,3 +1,19 @@
+/* 이 페이지 안에서 Supabase 클라이언트는 딱 하나만 만들어 여러 기능(미니 스페이스·
+   로그인 패널·관리자 패널)이 나눠 쓴다. 같은 프로젝트로 클라이언트를 여러 개 만들면
+   전부 같은 localStorage 키(세션 저장소)를 두고 서로 경합해 "어떤 부분은 로그인을
+   알아채고 어떤 부분은 못 알아채는" 것 같은 불일치가 생길 수 있다 — 실제로 겪었던
+   문제라 반드시 이렇게 한 번만 만든다. */
+function heuySupabase() {
+  if (!window.supabase || !window.supabase.createClient) return null;
+  if (!window.__heuySb) {
+    window.__heuySb = window.supabase.createClient(
+      "https://rwmivexpkjppvsvwuguw.supabase.co",
+      "sb_publishable_iDTkwOY5Qo42G0xj7Igqaw_rgfrWMyH"
+    );
+  }
+  return window.__heuySb;
+}
+
 /* 홈페이지 본문/사이드바 경계 드래그 리사이즈. Supabase 여부와 무관하게 항상 동작하고,
    고른 사이드바 폭은 localStorage에 저장해 다음 방문에도 유지한다. */
 (function () {
@@ -218,11 +234,8 @@
     });
   }
 
-  if (window.supabase && window.supabase.createClient) {
-    var sb = window.supabase.createClient(
-      "https://rwmivexpkjppvsvwuguw.supabase.co",
-      "sb_publishable_iDTkwOY5Qo42G0xj7Igqaw_rgfrWMyH"
-    );
+  var sb = heuySupabase();
+  if (sb) {
     channel = sb.channel("mini_space_v1", { config: { broadcast: { self: false }, presence: { key: myId } } });
 
     channel.on("broadcast", { event: "move" }, function (msg) {
@@ -384,17 +397,14 @@
   "use strict";
   var panel = document.getElementById("accountPanel");
   if (!panel) return;
-  if (!window.supabase || !window.supabase.createClient) {
+  var sb = heuySupabase();
+  if (!sb) {
     // 광고 차단기·네트워크 문제로 supabase-js CDN이 안 불러와지면 버튼을 눌러도
     // 아무 반응이 없어 보이므로, 최소한 이유는 알 수 있게 표시해둔다.
     var note = document.getElementById("authNote");
     if (note) note.textContent = "로그인 모듈을 불러오지 못했습니다. 새로고침해보거나 광고 차단기를 꺼보세요.";
     return;
   }
-
-  var SUPABASE_URL = "https://rwmivexpkjppvsvwuguw.supabase.co";
-  var SUPABASE_KEY = "sb_publishable_iDTkwOY5Qo42G0xj7Igqaw_rgfrWMyH";
-  var sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
   // ---------------------------------------------------------- 오늘 방문자수
   // 새로고침·재접속마다 page_views에 1행씩 쌓고, 그 날짜(KST) 범위의 누적 건수를
@@ -787,11 +797,8 @@
   "use strict";
   var gate = document.getElementById("adminGate");
   if (!gate) return;
-  if (!window.supabase || !window.supabase.createClient) { gate.textContent = "로그인 모듈을 불러오지 못했습니다."; return; }
-
-  var SUPABASE_URL = "https://rwmivexpkjppvsvwuguw.supabase.co";
-  var SUPABASE_KEY = "sb_publishable_iDTkwOY5Qo42G0xj7Igqaw_rgfrWMyH";
-  var sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+  var sb = heuySupabase();
+  if (!sb) { gate.textContent = "로그인 모듈을 불러오지 못했습니다."; return; }
 
   var denied = document.getElementById("adminDenied");
   var dash = document.getElementById("adminDash");
