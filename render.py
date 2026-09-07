@@ -695,17 +695,20 @@ def render_feedback_room():
   </div>"""
 
 
-def render_home_side():
+def render_home_side(index=None):
     """홈페이지 전용: 로그인/계정 패널 + 실시간 피드백 채팅방을 오른쪽 세로 사이드바로 묶는다.
-    본문 옆에 붙어 스크롤을 따라오다 본문 끝에서 멈춘다(position:sticky)."""
+    본문 옆에 붙어 스크롤을 따라오다 본문 끝에서 멈춘다(position:sticky). 관리자 계정으로
+    로그인하면 그 아래 관리자 패널이 나타난다(그 외에는 통째로 숨어 있다)."""
+    admin_panel = render_admin_fragment(index or [], embedded=True) if index is not None else ""
     return (f'  <aside class="home-side">\n'
             f'{render_account_panel()}\n'
             f'{render_mini_space()}\n'
             f'{render_feedback_room()}\n'
+            f'{admin_panel}\n'
             f'  </aside>')
 
 
-def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None, home=False):
+def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None, home=False, index=None):
     comps, feature, grid, korea, feature_idx, grid_idx, korea_idx = split_competitions(d)
     day = d["date"]
     main = "\n".join(x for x in [
@@ -730,7 +733,7 @@ def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None,
                        f'    <div class="home-main">\n{main}\n    </div>\n'
                        f'    <div class="home-resizer" id="homeResizer" role="separator" '
                        f'aria-orientation="vertical" aria-label="사이드바 너비 조절" tabindex="0"></div>\n'
-                       f'{render_home_side()}\n'
+                       f'{render_home_side(index)}\n'
                        f'  </div>')
         sheet_open = '<div class="sheet sheet--home">'
     else:
@@ -1219,17 +1222,72 @@ def build_stats(index):
 
 
 # ------------------------------------------------------------------ 관리자
-def build_admin(index):
-    """관리자 전용 대시보드(admin.html). 페이지 자체는 누구나 열어볼 수 있지만
-    안에서 보여주는 데이터는 전부 Supabase 쿼리라, 관리자가 아니면 RLS가 막아
-    빈 값만 돌아온다 — 접근 통제는 이 HTML이 아니라 DB 쪽 정책이 한다.
-    검색엔진 노출은 robots.txt·noindex 메타로 별도로 막아둔다."""
+def render_admin_fragment(index, embedded=False):
+    """관리자 대시보드 본문 — admin.html과 홈페이지 임베드 패널이 이 마크업을 그대로
+    공유한다. 접근 통제는 이 HTML이 아니라 Supabase RLS가 한다: 관리자가 아니면
+    방문자·유저 쿼리 자체가 빈 값으로 돌아온다.
+
+    embedded=True(홈페이지)일 때는 방문자 전원이 보는 페이지라 '거부됨' 문구를 보여줄
+    자리가 아니므로, 바깥에 hidden 래퍼(#adminHomePanel)를 하나 더 둘러 관리자가 아니면
+    통째로 숨어 있게 한다 — site.js는 이 래퍼가 있으면 gate/denied 문구 대신 그냥 숨김을
+    유지하도록 분기한다."""
     articles = collect_articles()
     n_total = len(articles)
     n_kr = sum(1 for _d, section, _t, _a, _anc in articles if section == "korea")
     n_comp = sum(1 for _d, _s, topic, _a, _anc in articles if topic == "설계공모")
     latest_day = index[0]["date"] if index else "-"
 
+    inner = f"""<div id="adminGate" class="admin-state">로그인 확인 중…</div>
+    <div id="adminDenied" class="admin-state hidden">
+      <p>이 페이지는 관리자만 볼 수 있습니다.</p>
+      <p><a href="index.html">홈으로 돌아가기</a></p>
+    </div>
+    <div id="adminDash" class="hidden">
+      <div class="st-tiles">
+        <div class="st-tile"><span class="st-tv">{n_total}</span><span class="st-tl">누적 기사</span></div>
+        <div class="st-tile"><span class="st-tv">{n_kr}</span><span class="st-tl">국내 기사</span></div>
+        <div class="st-tile"><span class="st-tv">{n_comp}</span><span class="st-tl">설계공모</span></div>
+        <div class="st-tile"><span class="st-tv">{esc(latest_day)}</span><span class="st-tl">최신호</span></div>
+      </div>
+      <p class="admin-more"><a href="stats.html">지면 통계 전체 보기 →</a></p>
+
+      <section class="st-card">
+        <div class="sechead"><h2>방문자 통계</h2><span class="en">VISITORS</span><span class="line"></span></div>
+        <div class="st-tiles">
+          <div class="st-tile"><span class="st-tv" id="avToday">-</span><span class="st-tl">오늘 방문</span></div>
+          <div class="st-tile"><span class="st-tv" id="avWeek">-</span><span class="st-tl">최근 7일</span></div>
+          <div class="st-tile"><span class="st-tv" id="avTotal">-</span><span class="st-tl">누적 방문</span></div>
+        </div>
+        <ol class="st-bars" id="adminVisitTrend"></ol>
+      </section>
+
+      <section class="st-card">
+        <div class="sechead"><h2>사용자 관리</h2><span class="en">USERS</span><span class="line"></span></div>
+        <p class="st-note">닉네임이 없으면 이메일 앞부분으로 표시됩니다. 정지된 사용자는 피드백 댓글을 남길 수 없습니다.</p>
+        <div class="admin-table-wrap">
+          <table class="admin-table" id="adminUserTable">
+            <thead>
+              <tr><th>사용자</th><th>이메일</th><th>가입일</th><th>관리자</th><th>정지</th></tr>
+            </thead>
+            <tbody id="adminUserRows">
+              <tr><td colspan="5">불러오는 중…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>"""
+    if not embedded:
+        return inner
+    return (f'  <div class="admin-embed hidden" id="adminHomePanel">\n'
+            f'    <div class="admin-embed-head">⚙ 관리자</div>\n'
+            f'    {inner}\n'
+            f'  </div>')
+
+
+def build_admin(index):
+    """관리자 전용 대시보드(admin.html) — 홈페이지 임베드 패널과 별개로, 주소를 직접
+    입력해 열어보고 싶을 때를 위해 남겨둔 페이지. 검색엔진 노출은 robots.txt·noindex
+    메타로 막아둔다."""
     body = f"""{nav("", "admin")}
 <div class="sheet">
   <div class="brandbar">
@@ -1244,46 +1302,7 @@ def build_admin(index):
     <div class="rule-thick"></div>
   </header>
 
-  <div id="adminGate" class="admin-state">로그인 확인 중…</div>
-  <div id="adminDenied" class="admin-state hidden">
-    <p>이 페이지는 관리자만 볼 수 있습니다.</p>
-    <p><a href="index.html">홈으로 돌아가기</a></p>
-  </div>
-
-  <div id="adminDash" class="hidden">
-    <div class="st-tiles">
-      <div class="st-tile"><span class="st-tv">{n_total}</span><span class="st-tl">누적 기사</span></div>
-      <div class="st-tile"><span class="st-tv">{n_kr}</span><span class="st-tl">국내 기사</span></div>
-      <div class="st-tile"><span class="st-tv">{n_comp}</span><span class="st-tl">설계공모</span></div>
-      <div class="st-tile"><span class="st-tv">{esc(latest_day)}</span><span class="st-tl">최신호</span></div>
-    </div>
-    <p class="admin-more"><a href="stats.html">지면 통계 전체 보기 →</a></p>
-
-    <section class="st-card">
-      <div class="sechead"><h2>방문자 통계</h2><span class="en">VISITORS</span><span class="line"></span></div>
-      <div class="st-tiles">
-        <div class="st-tile"><span class="st-tv" id="avToday">-</span><span class="st-tl">오늘 방문</span></div>
-        <div class="st-tile"><span class="st-tv" id="avWeek">-</span><span class="st-tl">최근 7일</span></div>
-        <div class="st-tile"><span class="st-tv" id="avTotal">-</span><span class="st-tl">누적 방문</span></div>
-      </div>
-      <ol class="st-bars" id="adminVisitTrend"></ol>
-    </section>
-
-    <section class="st-card">
-      <div class="sechead"><h2>사용자 관리</h2><span class="en">USERS</span><span class="line"></span></div>
-      <p class="st-note">닉네임이 없으면 이메일 앞부분으로 표시됩니다. 정지된 사용자는 피드백 댓글을 남길 수 없습니다.</p>
-      <div class="admin-table-wrap">
-        <table class="admin-table" id="adminUserTable">
-          <thead>
-            <tr><th>사용자</th><th>이메일</th><th>가입일</th><th>관리자</th><th>정지</th></tr>
-          </thead>
-          <tbody id="adminUserRows">
-            <tr><td colspan="5">불러오는 중…</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  </div>
+  {render_admin_fragment(index, embedded=False)}
 
   <div class="paper-foot">
     <div class="cn">HEUY<span class="d">.</span>ARCHI</div>
@@ -1875,7 +1894,7 @@ def build(days):
     with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
         f.write(render_issue(latest, "", "index",
                              prev_day=all_days[1] if len(all_days) > 1 else None,
-                             next_day=None, canonical=abs_url(""), home=True))
+                             next_day=None, canonical=abs_url(""), home=True, index=index))
     with open(os.path.join(ROOT, "archive.html"), "w", encoding="utf-8") as f:
         f.write(render_archive(index))
     with open(idx_path, "w", encoding="utf-8") as f:

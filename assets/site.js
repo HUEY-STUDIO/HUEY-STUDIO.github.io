@@ -781,6 +781,13 @@
 
   var denied = document.getElementById("adminDenied");
   var dash = document.getElementById("adminDash");
+  // 홈페이지에 끼워 넣은 버전(admin.html이 아니라)에만 있는 바깥 래퍼. 방문자 전원이
+  // 보는 자리라 관리자가 아니면 '거부됨' 문구 없이 통째로 숨어 있어야 한다.
+  var homeWrap = document.getElementById("adminHomePanel");
+  function showDenied() {
+    if (homeWrap) return; // 홈페이지에서는 조용히 숨어만 있는다
+    if (denied) denied.classList.remove("hidden");
+  }
   var avToday = document.getElementById("avToday");
   var avWeek = document.getElementById("avWeek");
   var avTotal = document.getElementById("avTotal");
@@ -911,18 +918,19 @@
     var session = res.data && res.data.session;
     if (!session || !session.user) {
       gate.classList.add("hidden");
-      if (denied) denied.classList.remove("hidden");
+      showDenied();
       return;
     }
     sb.from("profiles").select("is_admin").eq("id", session.user.id).maybeSingle().then(function (r) {
       gate.classList.add("hidden");
-      if (!r.data || !r.data.is_admin) { if (denied) denied.classList.remove("hidden"); return; }
+      if (!r.data || !r.data.is_admin) { showDenied(); return; }
+      if (homeWrap) homeWrap.classList.remove("hidden");
       if (dash) dash.classList.remove("hidden");
       loadVisitorStats();
       loadUsers(session.user.id);
     });
   }).catch(function () {
     gate.classList.add("hidden");
-    if (denied) denied.classList.remove("hidden");
+    showDenied();
   });
 })();

@@ -684,6 +684,27 @@ article .src{margin-top:auto}
 .admin-toggle.is-on{background:var(--hot); border-color:var(--hot); color:#fff}
 .admin-toggle:disabled{opacity:.5; cursor:default}
 
+/* ---- 홈페이지 사이드바에 끼워 넣는 관리자 패널 — 폭이 좁아 타일·표를 압축한다 ---- */
+.admin-embed{
+  background:var(--sheet); border:1px solid var(--rule); border-radius:8px; padding:14px;
+}
+.admin-embed-head{
+  font-size:11.5px; font-weight:800; letter-spacing:.06em; color:var(--ink-2); margin-bottom:10px;
+}
+.admin-embed .admin-state{padding:12px 0; font-size:12px}
+.admin-embed .st-tiles{grid-template-columns:repeat(2,1fr); margin:10px 0 8px}
+.admin-embed .st-tile{padding:10px}
+.admin-embed .st-tv{font-size:20px}
+.admin-embed .st-tl{font-size:9.5px}
+.admin-embed .st-card{margin-top:16px}
+.admin-embed .sechead h2{font-size:13px}
+.admin-embed .st-note{font-size:10.5px}
+.admin-embed .st-bar{grid-template-columns:44px 1fr 34px; gap:6px}
+.admin-embed .st-bl, .admin-embed .st-bv{font-size:10.5px}
+.admin-embed .admin-table{font-size:10.5px}
+.admin-embed .admin-table th, .admin-embed .admin-table td{padding:5px 6px}
+.admin-embed .admin-toggle{font-size:9.5px; padding:3px 6px}
+
 .st-cols{list-style:none; margin:0; padding:0; display:flex; align-items:flex-end; gap:2px; height:140px}
 .st-col{flex:1 1 0; min-width:0; display:flex; flex-direction:column; justify-content:flex-end; align-items:center; height:100%; position:relative}
 .st-cfill{display:block; width:100%; background:var(--chart); border-radius:3px 3px 0 0; order:2}
