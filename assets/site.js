@@ -551,6 +551,18 @@
   if (apTabLogin) apTabLogin.addEventListener("click", function () { showAuthTab("login"); });
   if (apTabSignup) apTabSignup.addEventListener("click", function () { showAuthTab("signup"); });
 
+  function authFail(err) {
+    var msg = (err && (err.message || err.error_description)) || String(err || "알 수 없는 오류");
+    if (authNote) authNote.textContent = "오류: " + msg + " (다시 시도해주세요)";
+  }
+  // 네트워크가 끊기거나 요청이 어떤 이유로든 응답 없이 멈춰도 화면이 "…하는 중"에
+  // 영원히 붙들려 있지 않도록, 일정 시간 안에 안 끝나면 타임아웃으로 대신 실패 처리한다.
+  function withTimeout(promise, ms) {
+    return new Promise(function (resolve, reject) {
+      var t = setTimeout(function () { reject(new Error("응답이 없습니다. 잠시 후 다시 시도해주세요")); }, ms);
+      promise.then(function (v) { clearTimeout(t); resolve(v); }, function (e) { clearTimeout(t); reject(e); });
+    });
+  }
   if (loginForm) {
     loginForm.addEventListener("submit", function (e) {
       e.preventDefault();
@@ -558,10 +570,10 @@
       var password = loginPassword.value;
       if (!email || !password) return;
       if (authNote) authNote.textContent = "로그인하는 중…";
-      sb.auth.signInWithPassword({ email: email, password: password }).then(function (res) {
-        if (res.error) { if (authNote) authNote.textContent = "오류: " + res.error.message; return; }
+      withTimeout(sb.auth.signInWithPassword({ email: email, password: password }), 15000).then(function (res) {
+        if (res.error) { authFail(res.error); return; }
         loginPassword.value = "";
-      });
+      }).catch(authFail);
     });
   }
   if (signupForm) {
@@ -572,20 +584,28 @@
       var nick = signupNick.value.trim();
       if (!email || !password) return;
       if (authNote) authNote.textContent = "가입하는 중…";
-      sb.auth.signUp({ email: email, password: password }).then(function (res) {
-        if (res.error) { if (authNote) authNote.textContent = "오류: " + res.error.message; return; }
-        var session = res.data && res.data.session;
+      withTimeout(sb.auth.signUp({ email: email, password: password }), 15000).then(function (res) {
+        if (res.error) { authFail(res.error); return; }
         var user = res.data && res.data.user;
+        var session = res.data && res.data.session;
+        // 이메일 확인이 켜져 있는 프로젝트에서, 이미 가입된 이메일로 다시 가입하면
+        // 에러 대신 identities가 빈 배열인 user를 그대로 돌려준다(이메일 열거 공격 방지용
+        // Supabase 기본 동작) — 그대로 두면 "확인 메일을 보냈다"고 오해하게 되므로 구분한다.
+        if (user && user.identities && user.identities.length === 0) {
+          if (authNote) authNote.textContent = "이미 가입된 이메일입니다. 로그인해주세요.";
+          showAuthTab("login");
+          return;
+        }
         var saveNick = (nick && user)
           ? sb.from("profiles").upsert({ id: user.id, nickname: nick }).catch(function () {})
           : Promise.resolve();
-        Promise.resolve(saveNick).then(function () {
+        return Promise.resolve(saveNick).then(function () {
           signupPassword.value = "";
           if (session) return; // 이메일 확인이 꺼져 있으면 바로 로그인 세션이 생긴다
           if (authNote) authNote.textContent = email + " 로 확인 메일을 보냈습니다. 메일함에서 확인하면 가입이 끝나요.";
           showAuthTab("login");
         });
-      });
+      }).catch(authFail);
     });
   }
   if (authLogout) {
