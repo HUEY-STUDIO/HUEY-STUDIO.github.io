@@ -1,0 +1,421 @@
+{
+  "vol": "VOL.01  NO.023",
+  "editor": "HUEY",
+  "counts": {
+    "total": 17,
+    "intl": 14,
+    "kr": 3
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "designboom",
+    "Bustler",
+    "대한건축사협회 건축사신문",
+    "주택폴리오",
+    "건축공간연구원"
+  ],
+  "teasers": [
+    {
+      "title": "돌이 뼈대가 된 고층주택",
+      "desc": "런던 핀칠리로드, 그룹워크·웹 야츠의 '세계 최초' 실험",
+      "label": "STRUCTURE"
+    },
+    {
+      "title": "건축사법 개정 D-10",
+      "desc": "9월 18일부터 유사명칭 사용도 형사처벌",
+      "label": "REGULATION"
+    },
+    {
+      "title": "루카스 내러티브 아트뮤지엄 공개",
+      "desc": "MAD 설계, 9월 22일 LA서 개관",
+      "label": "OPENING"
+    },
+    {
+      "title": "대구 남산 주차복합타운",
+      "desc": "연면적 4,123㎡ 설계공모, 9월 15일 마감",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 프로젝트",
+    "lede": "돌이 뼈대가 되다…런던 핀칠리로드에 뜬 '세계 최초' 돌 외골격 고층주택",
+    "lede_em": "'세계 최초' 돌 외골격",
+    "image": "https://static.dezeen.com/uploads/2026/09/hero-finchley-road-groupwork-webb-yates_dezeen_2364_col_0-852x479.jpg",
+    "image_label": "DEZEEN",
+    "caption": "완공된 핀칠리로드 스톤 하우징 외관 ⓒ Groupwork / Webb Yates",
+    "body": [
+      "영국 건축사무소 **그룹워크**와 구조엔지니어 **웹 야츠**가 런던 핀칠리로드에 하중을 전부 돌로 지탱하는 10층 규모 주거건물을 완공했다. 콘크리트나 철골 없이 노르웨이 라르빅산 화강암과 시칠리아산 현무암 등 약 725톤의 석재를 596개의 기둥·보로 짜 맞춘 '외골격' 구조로, 건물의 자중과 풍하중을 모두 돌이 감당한다. 웹 야츠 공동창업자 **스티브 웹**은 \"건물의 모든 무게가 돌을 타고 내려가고, 모든 풍하중도 돌이 견딘다. 돌이 없다면 이건 그냥 돌무더기일 뿐\"이라고 말했다.",
+      "이 건물은 하부 업무공간 위에 주택 **22가구**가 들어선 연면적 3,000㎡ 규모로, 파사드와 주구조체를 하나로 통합한 '자가마감 돌구조'로는 세계 최초 10층 사례로 소개된다. 그룹워크 창업자 **아민 타하**는 \"건축가와 엔지니어라면 마땅히 이렇게 해야 한다. 목재부터 시작해서, 목재를 쓸 수 없는 곳에는 그다음으로 돌을 써야 한다\"고 말했다.",
+      "설계팀은 영국 건축연구소(BRE)에서 현무암과 석회암의 화재 성능을 비교 시험한 끝에 현무암을 택했다. 화재 시 내부 균열에 대한 저항력이 더 뛰어나 석회암 외골격보다 절반 가량 적은 석재로도 같은 성능을 낼 수 있었기 때문이다. 이 구조는 철골조에 돌을 마감재로 두른 방식보다 내재탄소를 **80%**, 콘크리트조에 돌을 두른 방식보다는 **55%** 줄인 것으로 계산됐다.",
+      "웹은 \"영국산 석재를 이 나라 안에서 가공해 쓸 수도 있다. 그러면 장거리 운송도 필요 없고 비용도 더 싸진다\"며 국산 석재 활용 가능성도 언급했다. 그는 이어 \"가짜 벽돌을 콘크리트 골조에 붙이는 지금의 주거 유형으로 수백만 채를 짓는 것은 환경적 재앙\"이라며, 목재·석재 등 저탄소 구조가 주류 주택 공급 방식으로 자리잡아야 한다고 강조했다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/09/07/stone-high-rise-petra-heights-finchley-road-groupwork-webb-yates/"
+        }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "대한건축사협회",
+    "title": "건축사법 개정안 9월 18일 시행…명의대여 처벌 확대, 유사명칭 사용은 과태료에서 형사처벌로",
+    "body": [
+      "지난 **3월 17일** 공포된 개정 「건축사법」이 **9월 18일**부터 시행된다. 건축사 자격을 빌려주거나 빌려 쓰는 행위를 규제하는 명의대여 조항의 적용 범위를 넓히고, 무자격자의 유사명칭 사용에 대한 제재 수준을 형사처벌로 끌어올린 것이 핵심이다."
+    ],
+    "facts": [
+      "명의대여: 개인 자격뿐 아니라 '건축사사무소' 명칭과 실질 운영·의사결정 주체까지 규율 근거 신설 — 위반 시 2년 이하 징역 또는 2천만원 이하 벌금에 자격취소까지 가능",
+      "유사명칭: 기존 100만원 이하 과태료 조항(제12조)을 삭제하고 **1년 이하 징역 또는 1천만원 이하 벌금**의 형사처벌로 전환",
+      "적용 대상: 무자격자가 '건축사·건축사사무소'나 유사 명칭을 쓰거나, 건축설계 업무를 한다는 표시·광고를 하는 경우, 개설 자격 없이 사무소를 열거나 운영하는 경우"
+    ],
+    "body_after": [
+      "협회 측은 건축주에게도 계약 상대방과 실제 설계 수행자, 설계도서 서명자·세금계산서 발행자가 일치하는지 직접 확인할 것을 당부했다. 건축사에게는 소속 사무소의 실질 운영 구조와 대외 표시물(홈페이지·간판·명함 등)을 개정 시행 전에 다시 점검하라고 안내했다."
+    ],
+    "source": {
+      "outlet": "대한건축사협회 건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.ancnews.kr/news/articleView.html?idxno=21026"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "40년 컬렉션이 뮤지엄으로…MAD가 설계한 '루카스 내러티브 아트뮤지엄', 9월 22일 LA서 개관",
+      "image": "https://images.adsttc.com/media/images/6a99/bc4b/1fe7/3101/8863/0356/large_jpg/lucas-museum-of-narrative-art_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "조지 루카스와 멜로디 홉슨 부부가 세운 **루카스 내러티브 아트뮤지엄**이 로스앤젤레스 엑스포지션 파크에서 **9월 22일** 문을 연다. **마옌쑹**이 이끄는 MAD 아키텍츠가 설계하고 스탠텍이 실시설계·시공 총괄을 맡았으며, 조경은 스튜디오-MLA의 미아 레러가 담당했다. 연면적 약 27,900㎡ 규모로, 선사시대 동굴벽화부터 디지털 미디어까지 아우르는 소장품 4만여 점을 담는다.",
+        "건물 외피는 평균 8×32피트 크기의 유리섬유강화플라스틱(FRP) 패널 1,271장을 하나하나 다른 모양으로 잘라 붙였고, 중앙 전시홀은 56m 스팬의 아치형 철골보로 덮었다. 299석 규모 극장 두 곳과 말굽형 도서관, 스튜디오 10곳, 레스토랑·카페 등을 갖췄고, 부지에는 나무 300여 그루와 옥외 조각 10점을 배치한 정원이 조성됐다. 조지 루카스는 \"이 컬렉션 속 예술가들은 단순히 이미지를 만든 게 아니라, 현대인의 상상력과 아주 오래된 감정을 이어준 사람들\"이라고 말했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184508/first-look-at-the-completed-lucas-museum-of-narrative-art-opening-september-22-2026"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "125년 만의 개선문…워싱턴 D.C. '아크 드 트럼프' 2주 내 착공",
+      "image": "https://static.dezeen.com/uploads/2026/05/trump-triumphal-arch-dc-cfa-designs_dezeen_2364_col_0.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "더그 버검 미국 내무장관이 링컨 기념관과 알링턴 국립묘지 사이 콜롬비아섬 메모리얼 서클에 들어설 높이 250피트(약 76m) 규모 개선문의 굴착공사를 2주 안에 시작한다고 발표했다. 애틀랜타의 **해리슨 디자인**이 설계한 이 신고전주의 구조물은 파리 개선문보다 약 30m 더 높으며, 꼭대기에 금박 천사상 세 점을 얹는다. 지난 5월 미국 예술위원회(CFA)가 최종 설계를 승인했다.",
+        "내부에는 매표·보안 공간과 전시갤러리 4곳, 나선계단, 엘리베이터, 개방형 전망대를 3개 층에 나눠 배치한다. 버검 장관은 \"125년을 넘게 기다린 끝에, 앞으로 2주 동안 이 위대한 개선문과 군사 전망대를 위한 굴착공사를 시작하게 되어 기쁘다\"고 밝혔다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/07/arc-de-trump-construction-start/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "문지방·계단참·중정…독일관, 2027 베니스 비엔날레서 '함께 사는 법' 다룬다",
+      "image": "https://images.adsttc.com/media/images/6a9a/ff7e/cc78/e301/8820/e3d7/large_jpg/german-pavilion_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "독일 연방주택도시건설부가 2027년 제20회 베니스 국제건축전 독일관 큐레이터로 **카와하라 크라우제 아키텍츠**, 안드레스 레피크, 올가 코부스체안을 선정했다. 전시 제목은 '콘비베레(CONVIVERE)—함께 사는 법의 목록'으로, 문지방·계단참·중정·출입구처럼 그동안 주목받지 못한 주거 속 공용공간이 \"신뢰와 이웃관계, 삶이 펼쳐지는 곳\"이라는 문제의식에서 출발한다. 사회적 고립과 정치적 양극화에 맞서 공간설계가 어떻게 공동체적 상호작용을 만들어낼 수 있는지, 시대별 독일 주거 사례를 통해 보여줄 계획이다. 전시는 2027년 5월 8일부터 11월 21일까지 열린다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184577/the-german-pavilion-examines-coexistence-and-democracy-through-convivere-at-the-2027-venice-architecture-biennale"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "운하 위 폐선박, 오프그리드 목욕탕으로…런던 '소크'",
+      "image": "https://static.dezeen.com/uploads/2026/09/soak-bathhouse-london-canals-badweather-hero_dezeen_2364_col_1-852x479.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "건축 콜렉티브 **배드웨더**가 17m 길이 폐운하보트를 개조해 2주마다 런던 운하를 옮겨다니는 오프그리드 목욕탕 '소크(Soak)'를 만들었다. 최대 12명이 이용할 수 있으며 장작 사우나와 냉수풀 두 개, 샤워실, 탈의공간, 바를 갖췄다. 운하물을 6단계로 정수·자외선 살균해 끌어쓰고 태양광 패널과 배터리로 전력을 공급해 완전히 전력망 밖에서 운영된다. 공동창업자 **리오 식스미스**는 \"보트의 위치가 바뀌니 창밖 풍경도 매번 달라진다\"며 \"1cm까지 최대한 효율적으로 써야 했다\"고 말했다. 20년 된 선체를 되살리는 데 약 40명의 인력이 투입됐다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/07/soak-bathhouse-canal-boat-london-badweather/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "소매업 제쳤다…디자인산업, 영국 경제 최대 기여 부문으로",
+      "image": "https://static.dezeen.com/uploads/2026/09/design-council-hero.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "영국 디자인카운슬 보고서에 따르면 디자인산업이 2023년 국내총부가가치(GVA) **1,367억 파운드**를 창출해 2019년 대비 **40%** 성장했다. 이는 소매업(1,140억 파운드)을 넘어선 규모로, 영국 전체 경제성장률(24%)보다 빠른 속도다. 2020년 이후 일자리도 약 29만7,000개 늘어 총 227만 명이 이 분야에 종사하며, 웨일스(88%)·잉글랜드 북동부(67%)·스코틀랜드(32%) 등 런던 밖 지역의 성장세가 두드러졌다. 디자인카운슬 최고디자인책임자 **캣 드류**는 \"디자이너의 80%는 디자인 이외 산업 분야에서 일한다\"며 의료·금융 서비스 기업들도 사내 디자인팀을 두고 있다고 설명했다. 다만 2025년 기준 여성·흑인 디자이너 비중이 각각 2%에 그쳐 \"더 다양한 인재풀 확보가 필요하다\"고 덧붙였다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/07/design-council-economy-report/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 프로젝트",
+      "title": "60도씩 돌아간 목조 프레임 3개…고베 '쓰쿠모 가마' 도예공방",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/triangular-timber-structure-tsukumo-kiln-ceramic-studio-kobe-japan-dept-oaaa-designboom-1800-2.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "일본 스튜디오 **뎁트+OAAA**가 고베 외곽 산기슭에 연면적 80.32㎡ 규모 도예공방 '쓰쿠모 가마'를 완성했다. 목조 문형 프레임 세 개를 서로 60도씩 돌려 세워 정삼각형 평면을 만들고, 강봉 인장재를 곳곳에 걸어 내부 기둥 없이 개방된 작업공간을 확보했다. 외피는 접힌 FRP(섬유강화플라스틱) 패널로 지붕과 벽을 하나의 면처럼 감쌌으며, 반투명한 재질이 시간과 각도에 따라 다른 표정을 짓는다. 앞뒤 구분이 없는 삼각형 평면 덕분에 가마·작업대 등을 자유롭게 배치할 수 있다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/triangular-timber-structure-tsukumo-kiln-ceramic-studio-kobe-japan-dept-oaaa/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "대구 남산 주차복합타운 신축 설계공모 공고…연면적 4,123㎡",
+      "body": [
+        "대구 중구 남산동 일원에 들어설 '남산 주차복합타운 신축사업' 설계공모가 공고됐다. 제1종 근린생활시설로 연면적 **4,123㎡**, 설계비 **78억원**, 공사비 **1,800억원** 규모다. 일반설계공모 방식으로 심사위원 9인이 참여하며, **9월 15일** 참가등록이 마감되고 **11월 18일** 결과가 발표된다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18872"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "경북 영천 반다비 체육센터 건립 설계공모…9월 10일 마감",
+      "body": [
+        "경북 영천시 금노동 일원에 조성할 '영천 반다비 체육센터 건립' 건축설계 제안공모가 공고됐다. 운동시설로 연면적 **2,500㎡**, 설계비 **6억7,000만원**, 예정 공사비 **105억원** 규모이며, 심사위원 10인이 참여한다. **9월 10일** 참가등록 마감, **10월 28일** 결과 발표 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18874"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "\"자산·공급 너머 '사는 법'\"…서울 주거문제 토론회 9월 29일 개최",
+      "body": [
+        "한국도시계획가협회와 서울건축포럼이 공동주최하는 토론회 '서울에서 산다는 것'이 **9월 29일** 정림건축 김정철홀에서 열린다. 주택시장·정비사업·주거권 논의를 자산·공급 관점을 넘어 '서울에서 사는 방식' 자체로 확장하자는 취지로, 건축가 김선아(스페이싱엔지니어링)가 좌장을 맡고 건축가 윤혁경·홍성용, 한양대 이윤홍 교수, 감정평가사 조정흔이 발제·토론자로 나선다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21074"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "'2026 브릭 인 아키텍처 어워즈' 접수 시작",
+      "body": "미국 벽돌산업협회(BIA)가 점토벽돌을 주재료로 쓴 프로젝트를 대상으로 한 국제 공모전 접수를 시작했다. 9개 부문으로 나눠 심사하며 마감은 9월 25일, 시상식은 내년 4월 내슈빌에서 열린다.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://bustler.net/competitions/10553/call-for-entries-2026-brick-in-architecture-awards"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "월드 아키텍처 페스티벌 2026, 닝보서 9월 20~22일 심사",
+      "body": "37개국 심사위원 164명이 참여하는 WAF 2026 국제 심사가 중국 닝보에서 열린다. 630여 건 응모작 중 추린 416개 프로젝트가 최종 후보이며, 결과는 11월 플로리다 포트로더데일 본행사에서 발표된다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1148633/world-architecture-festival-reveals-the-2026-shortlist"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "유엔총회, 164대1로 '이퀄어스' 지도 채택 권고",
+      "body": "유엔총회가 메르카토르 도법 대신 대륙 크기를 실제 비율대로 보여주는 '이퀄어스(Equal Earth)' 도법 사용을 권고하는 결의안을 164대1로 통과시켰다. 미국만 반대표를 던졌으며, 강제성은 없다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184635/un-general-assembly-votes-to-promote-equal-earth-projection-for-more-accurate-world-maps"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "프랑스 툴루즈, 미디운하변 옛 수문지기 집을 100㎡ 주택으로",
+      "body": "아틀리에 APA가 미디운하(Canal du Midi) 가장자리에 있던 옛 수문지기 집을 100㎡ 규모 주택으로 개보수했다. 수변 테라스와 수백 년 된 거목을 그대로 살려 운하 풍경과 어우러지게 했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1183931/renovation-of-a-lock-keepers-house-atelier-apa"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "방콕 스트리트에서 태어난 브랜드, 1,031㎡ 리테일 공간으로",
+      "body": "스튜디오 프로필이 태국 파툼완에 스트리트웨어 브랜드 '카니발'의 1,031㎡ 규모 리테일 매장을 설계했다. 방콕 거리문화에서 출발해 청년 서브컬처를 잇는 플랫폼으로 성장한 브랜드의 정체성을 매장 공간에 담았다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184304/housing-carnival-studio-profile"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "탈린 건축비엔날레, '가성비 사치' 설치공모 당선작 '레조넌스'",
+      "body": "2026 탈린 건축비엔날레 설치프로그램 공모 '버짓 부지'의 당선작으로 아루 마-아키텍츠(청하오충·장제)의 '레조넌스'가 선정됐다. 철근·로프·석회석·합판 등 흔한 재료로 소리에 예민하게 반응하는 아늑한 중정형 파빌리온을 만들었으며, 9월 10일 탈린 로테르만 지구 에스토니아건축박물관 앞에 공개된다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1041464/tallinn-architecture-biennale-2026-announces-winners-of-installation-and-vision-competitions"
+          }
+        ]
+      },
+      "topic": "수상"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "petra-heights-stone-exoskeleton",
+      "tag": "STRUCTURE",
+      "title": "돌이 뼈대가 된 고층주택",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "basalt stone column architecture facade texture",
+      "slides": [
+        {
+          "heading": "돌이 뼈대가\n된 고층주택",
+          "body": "런던 핀칠리로드, '세계 최초' 돌 외골격 실험"
+        },
+        {
+          "heading": "WHAT",
+          "body": "그룹워크와 웹 야츠가 콘크리트·철골 없이 돌로만 하중을 지탱하는 10층 주거건물을 런던에 완공했다."
+        },
+        {
+          "heading": "HOW",
+          "body": "노르웨이 화강암과 시칠리아 현무암 약 725톤을 596개의 기둥·보로 짜 맞춰 자중과 풍하중을 모두 돌이 감당하게 했다."
+        },
+        {
+          "heading": "WHY BASALT",
+          "body": "영국 건축연구소(BRE) 화재 시험 결과 현무암이 석회암보다 내부 균열 저항력이 뛰어나, 절반의 석재량으로 같은 성능을 냈다."
+        },
+        {
+          "heading": "IMPACT",
+          "body": "철골조에 돌을 두른 방식보다 내재탄소를 80%, 콘크리트조보다는 55% 줄인 것으로 계산됐다."
+        },
+        {
+          "heading": "QUOTE",
+          "body": "\"건물의 모든 무게가 돌을 타고 내려간다. 돌이 없다면 이건 그냥 돌무더기일 뿐\" — 스티브 웹, 웹 야츠 공동창업자"
+        }
+      ]
+    },
+    {
+      "slug": "lucas-museum-mad-opening",
+      "tag": "OPENING",
+      "title": "루카스 뮤지엄, 9월 22일 개관",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "curved white museum building sculptural architecture park",
+      "slides": [
+        {
+          "heading": "40년 컬렉션이\n뮤지엄으로",
+          "body": "MAD 아키텍츠가 설계한 루카스 내러티브 아트뮤지엄, LA서 개관"
+        },
+        {
+          "heading": "WHAT",
+          "body": "조지 루카스·멜로디 홉슨 부부가 세운 뮤지엄이 9월 22일 로스앤젤레스 엑스포지션 파크에서 문을 연다."
+        },
+        {
+          "heading": "DESIGN",
+          "body": "마옌쑹이 이끄는 MAD 아키텍츠가 설계하고 스탠텍이 실시설계·시공을 총괄했다. 연면적 약 27,900㎡ 규모다."
+        },
+        {
+          "heading": "SKIN",
+          "body": "평균 8×32피트 크기의 유리섬유강화플라스틱 패널 1,271장을 하나하나 다른 모양으로 재단해 외피를 감쌌다."
+        },
+        {
+          "heading": "COLLECTION",
+          "body": "선사시대 동굴벽화부터 디지털 미디어까지, 50년에 걸쳐 모은 소장품 4만여 점을 담는다."
+        }
+      ]
+    }
+  ]
+}
