@@ -390,6 +390,35 @@
   var SUPABASE_KEY = "sb_publishable_iDTkwOY5Qo42G0xj7Igqaw_rgfrWMyH";
   var sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
+  // ---------------------------------------------------------- 오늘 방문자수
+  // page_views 테이블에 방문 1회를 기록하고(브라우저당 KST 하루 1회로 제한),
+  // 그 날짜(KST) 범위의 누적 건수를 세어 msVisits에 표시한다.
+  (function () {
+    var el = document.getElementById("msVisits");
+    if (!el) return;
+    var todayKST = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit"
+    }).format(new Date());
+    var startISO = todayKST + "T00:00:00+09:00";
+    var endISO = new Date(new Date(startISO).getTime() + 86400000).toISOString();
+
+    var LS_KEY = "heuy_last_visit_day";
+    var already = false;
+    try { already = localStorage.getItem(LS_KEY) === todayKST; } catch (e) {}
+
+    var logged = already ? Promise.resolve() : sb.from("page_views").insert({}).then(function () {
+      try { localStorage.setItem(LS_KEY, todayKST); } catch (e) {}
+    }).catch(function () {});
+
+    Promise.resolve(logged).then(function () {
+      return sb.from("page_views").select("*", { count: "exact", head: true })
+        .gte("visited_at", startISO).lt("visited_at", endISO);
+    }).then(function (res) {
+      if (res && typeof res.count === "number") el.textContent = "오늘 " + res.count.toLocaleString() + "명 방문";
+      else el.textContent = "";
+    }).catch(function () { el.textContent = ""; });
+  })();
+
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];

@@ -629,7 +629,10 @@ def render_mini_space():
     return f"""    <div class="mini-space" id="miniSpace">
       <div class="ms-head">
         <span id="msTitle">MY SPACE</span>
-        <span class="ms-online" id="msOnline" title="지금 이 스페이스에 있는 사람">● 1</span>
+        <span class="ms-stats">
+          <span class="ms-visits" id="msVisits" title="오늘 이 페이지를 방문한 사람 수">오늘 방문 집계 중…</span>
+          <span class="ms-online" id="msOnline" title="지금 이 스페이스에 있는 사람">● 1</span>
+        </span>
       </div>
       <div class="ms-room" id="msRoom" tabindex="0"
            aria-label="방향키로 캐릭터를 움직이고, 스페이스바로 점프, 엔터로 채팅해보세요">
