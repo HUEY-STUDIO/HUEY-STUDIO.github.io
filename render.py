@@ -510,11 +510,22 @@ def render_account_panel():
       <div id="apLoggedOut">
         <div class="ap-avatar">?</div>
         <p class="ap-lead">로그인하고<br>피드백에 댓글을 남겨보세요</p>
-        <form id="authForm">
-          <input type="email" id="authEmail" placeholder="you@email.com" required autocomplete="email">
-          <button type="submit">매직링크 받기</button>
+        <div class="ap-authtabs">
+          <button type="button" class="ap-authtab is-on" id="apTabLogin">로그인</button>
+          <button type="button" class="ap-authtab" id="apTabSignup">회원가입</button>
+        </div>
+        <form id="loginForm">
+          <input type="email" id="loginEmail" placeholder="이메일 (아이디)" required autocomplete="email">
+          <input type="password" id="loginPassword" placeholder="비밀번호" required autocomplete="current-password">
+          <button type="submit">로그인</button>
         </form>
-        <p class="ap-note" id="authNote">비밀번호 없이 메일로 받은 링크로 로그인합니다.</p>
+        <form id="signupForm" class="hidden">
+          <input type="email" id="signupEmail" placeholder="이메일 (아이디로 사용)" required autocomplete="email">
+          <input type="password" id="signupPassword" placeholder="비밀번호 (6자 이상)" required minlength="6" autocomplete="new-password">
+          <input type="text" id="signupNick" placeholder="닉네임 (선택)" maxlength="20">
+          <button type="submit">회원가입</button>
+        </form>
+        <p class="ap-note" id="authNote">이메일이 곧 아이디예요. 한 번 가입해두면 다음부턴 비밀번호로 바로 로그인되고, 로그인 상태는 자동으로 유지됩니다.</p>
       </div>
       <div id="apLoggedIn" class="hidden">
         <div class="ap-row">

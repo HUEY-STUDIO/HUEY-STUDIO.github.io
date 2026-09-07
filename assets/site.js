@@ -451,8 +451,15 @@
   var nickInput = document.getElementById("nickInput");
   var nickCancel = document.getElementById("nickCancel");
   var authLogout = document.getElementById("authLogout");
-  var authForm = document.getElementById("authForm");
-  var authEmail = document.getElementById("authEmail");
+  var apTabLogin = document.getElementById("apTabLogin");
+  var apTabSignup = document.getElementById("apTabSignup");
+  var loginForm = document.getElementById("loginForm");
+  var loginEmail = document.getElementById("loginEmail");
+  var loginPassword = document.getElementById("loginPassword");
+  var signupForm = document.getElementById("signupForm");
+  var signupEmail = document.getElementById("signupEmail");
+  var signupPassword = document.getElementById("signupPassword");
+  var signupNick = document.getElementById("signupNick");
   var authNote = document.getElementById("authNote");
   var msTitle = document.getElementById("msTitle");
 
@@ -532,19 +539,52 @@
     });
   }
 
-  if (authForm) {
-    authForm.addEventListener("submit", function (e) {
+  var AUTH_NOTE_DEFAULT = authNote ? authNote.textContent : "";
+  function showAuthTab(tab) {
+    var login = tab === "login";
+    if (apTabLogin) apTabLogin.classList.toggle("is-on", login);
+    if (apTabSignup) apTabSignup.classList.toggle("is-on", !login);
+    if (loginForm) loginForm.classList.toggle("hidden", !login);
+    if (signupForm) signupForm.classList.toggle("hidden", login);
+    if (authNote) authNote.textContent = AUTH_NOTE_DEFAULT;
+  }
+  if (apTabLogin) apTabLogin.addEventListener("click", function () { showAuthTab("login"); });
+  if (apTabSignup) apTabSignup.addEventListener("click", function () { showAuthTab("signup"); });
+
+  if (loginForm) {
+    loginForm.addEventListener("submit", function (e) {
       e.preventDefault();
-      var email = authEmail.value.trim();
-      if (!email) return;
-      authNote.textContent = "보내는 중…";
-      sb.auth.signInWithOtp({
-        email: email,
-        options: { emailRedirectTo: window.location.href }
-      }).then(function (res) {
-        authNote.textContent = res.error
-          ? "오류: " + res.error.message
-          : email + " 로 로그인 링크를 보냈습니다. 메일함을 확인하세요.";
+      var email = loginEmail.value.trim();
+      var password = loginPassword.value;
+      if (!email || !password) return;
+      if (authNote) authNote.textContent = "로그인하는 중…";
+      sb.auth.signInWithPassword({ email: email, password: password }).then(function (res) {
+        if (res.error) { if (authNote) authNote.textContent = "오류: " + res.error.message; return; }
+        loginPassword.value = "";
+      });
+    });
+  }
+  if (signupForm) {
+    signupForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = signupEmail.value.trim();
+      var password = signupPassword.value;
+      var nick = signupNick.value.trim();
+      if (!email || !password) return;
+      if (authNote) authNote.textContent = "가입하는 중…";
+      sb.auth.signUp({ email: email, password: password }).then(function (res) {
+        if (res.error) { if (authNote) authNote.textContent = "오류: " + res.error.message; return; }
+        var session = res.data && res.data.session;
+        var user = res.data && res.data.user;
+        var saveNick = (nick && user)
+          ? sb.from("profiles").upsert({ id: user.id, nickname: nick }).catch(function () {})
+          : Promise.resolve();
+        Promise.resolve(saveNick).then(function () {
+          signupPassword.value = "";
+          if (session) return; // 이메일 확인이 꺼져 있으면 바로 로그인 세션이 생긴다
+          if (authNote) authNote.textContent = email + " 로 확인 메일을 보냈습니다. 메일함에서 확인하면 가입이 끝나요.";
+          showAuthTab("login");
+        });
       });
     });
   }
@@ -605,9 +645,10 @@
       hint.classList.toggle("hidden", loggedIn);
     };
 
-    if (loginLink && authEmail) {
+    if (loginLink && loginEmail) {
       loginLink.addEventListener("click", function () {
-        authEmail.focus();
+        showAuthTab("login");
+        loginEmail.focus();
         panel.scrollIntoView({ behavior: "smooth", block: "center" });
       });
     }
