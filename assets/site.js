@@ -384,7 +384,13 @@
   "use strict";
   var panel = document.getElementById("accountPanel");
   if (!panel) return;
-  if (!window.supabase || !window.supabase.createClient) return;
+  if (!window.supabase || !window.supabase.createClient) {
+    // 광고 차단기·네트워크 문제로 supabase-js CDN이 안 불러와지면 버튼을 눌러도
+    // 아무 반응이 없어 보이므로, 최소한 이유는 알 수 있게 표시해둔다.
+    var note = document.getElementById("authNote");
+    if (note) note.textContent = "로그인 모듈을 불러오지 못했습니다. 새로고침해보거나 광고 차단기를 꺼보세요.";
+    return;
+  }
 
   var SUPABASE_URL = "https://rwmivexpkjppvsvwuguw.supabase.co";
   var SUPABASE_KEY = "sb_publishable_iDTkwOY5Qo42G0xj7Igqaw_rgfrWMyH";
@@ -582,6 +588,10 @@
       withTimeout(sb.auth.signInWithPassword({ email: email, password: password }), 15000).then(function (res) {
         if (res.error) { authFail(res.error); return; }
         loginPassword.value = "";
+        // onAuthStateChange가 이 브라우저 환경에서 어떤 이유로든 늦게 오거나 안 올 수도
+        // 있으니, 로그인 성공 직후 화면 전환을 여기서도 바로 한 번 확실히 해준다.
+        currentSession = res.data && res.data.session;
+        loadProfile().then(paintAccount);
       }).catch(authFail);
     });
   }
@@ -610,7 +620,11 @@
           : Promise.resolve();
         return Promise.resolve(saveNick).then(function () {
           signupPassword.value = "";
-          if (session) return; // 이메일 확인이 꺼져 있으면 바로 로그인 세션이 생긴다
+          if (session) { // 이메일 확인이 꺼져 있으면 바로 로그인 세션이 생긴다
+            currentSession = session;
+            loadProfile().then(paintAccount);
+            return;
+          }
           if (authNote) authNote.textContent = email + " 로 확인 메일을 보냈습니다. 메일함에서 확인하면 가입이 끝나요.";
           showAuthTab("login");
         });
