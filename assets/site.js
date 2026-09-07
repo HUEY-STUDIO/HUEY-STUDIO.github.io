@@ -461,11 +461,20 @@
   var signupPassword = document.getElementById("signupPassword");
   var signupNick = document.getElementById("signupNick");
   var authNote = document.getElementById("authNote");
+  var apForgotPw = document.getElementById("apForgotPw");
+  var apResetPassword = document.getElementById("apResetPassword");
+  var resetPasswordForm = document.getElementById("resetPasswordForm");
+  var resetPassword = document.getElementById("resetPassword");
+  var resetNote = document.getElementById("resetNote");
   var msTitle = document.getElementById("msTitle");
 
   var currentSession = null;
   var currentNickname = null;
   var currentAvatarUrl = null;
+  // 이메일의 "비밀번호 재설정" 링크를 타고 들어오면 Supabase가 PASSWORD_RECOVERY 이벤트를
+  // 쏘는데, 그 순간엔 임시 세션이 있어 자칫 평소 로그인 상태로 오인해 그릴 수 있으므로
+  // 새 비밀번호를 입력받는 화면으로 먼저 보내고 끝나면 정상 로그인 상태로 넘어간다.
+  var inRecovery = false;
 
   function displayName() {
     if (currentNickname) return currentNickname;
@@ -473,6 +482,13 @@
   }
 
   function paintAccount() {
+    if (inRecovery) {
+      apLoggedOut.classList.add("hidden");
+      apLoggedIn.classList.add("hidden");
+      if (apResetPassword) apResetPassword.classList.remove("hidden");
+      return;
+    }
+    if (apResetPassword) apResetPassword.classList.add("hidden");
     var loggedIn = !!(currentSession && currentSession.user);
     apLoggedOut.classList.toggle("hidden", loggedIn);
     apLoggedIn.classList.toggle("hidden", !loggedIn);
@@ -546,6 +562,7 @@
     if (apTabSignup) apTabSignup.classList.toggle("is-on", !login);
     if (loginForm) loginForm.classList.toggle("hidden", !login);
     if (signupForm) signupForm.classList.toggle("hidden", login);
+    if (apForgotPw) apForgotPw.classList.toggle("hidden", !login);
     if (authNote) authNote.textContent = AUTH_NOTE_DEFAULT;
   }
   if (apTabLogin) apTabLogin.addEventListener("click", function () { showAuthTab("login"); });
@@ -608,6 +625,38 @@
       }).catch(authFail);
     });
   }
+  if (apForgotPw) {
+    apForgotPw.addEventListener("click", function () {
+      var email = (loginEmail && loginEmail.value || "").trim();
+      if (!email) {
+        if (authNote) authNote.textContent = "먼저 이메일을 입력해주세요.";
+        if (loginEmail) loginEmail.focus();
+        return;
+      }
+      if (authNote) authNote.textContent = "재설정 메일을 보내는 중…";
+      withTimeout(sb.auth.resetPasswordForEmail(email, { redirectTo: window.location.href }), 15000)
+        .then(function (res) {
+          if (res.error) { authFail(res.error); return; }
+          if (authNote) authNote.textContent = email + " 로 비밀번호 재설정 메일을 보냈습니다. 메일함을 확인하세요.";
+        }).catch(authFail);
+    });
+  }
+  if (resetPasswordForm) {
+    resetPasswordForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var pw = resetPassword.value;
+      if (!pw) return;
+      if (resetNote) resetNote.textContent = "저장하는 중…";
+      withTimeout(sb.auth.updateUser({ password: pw }), 15000).then(function (res) {
+        if (res.error) { if (resetNote) resetNote.textContent = "오류: " + res.error.message; return; }
+        resetPassword.value = "";
+        inRecovery = false;
+        loadProfile().then(paintAccount);
+      }).catch(function (err) {
+        if (resetNote) resetNote.textContent = "오류: " + (err && err.message ? err.message : err);
+      });
+    });
+  }
   if (authLogout) {
     authLogout.addEventListener("click", function () { sb.auth.signOut(); });
   }
@@ -639,8 +688,9 @@
     currentSession = res.data && res.data.session;
     loadProfile().then(paintAccount);
   });
-  sb.auth.onAuthStateChange(function (_event, session) {
+  sb.auth.onAuthStateChange(function (event, session) {
     currentSession = session;
+    if (event === "PASSWORD_RECOVERY") inRecovery = true;
     loadProfile().then(paintAccount);
   });
 

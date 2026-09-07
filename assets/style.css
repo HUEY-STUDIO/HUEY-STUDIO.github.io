@@ -117,6 +117,12 @@ b{font-weight:800; color:var(--ink)}
   border-radius:4px; border:1px solid var(--ink); background:var(--ink); color:var(--sheet);
 }
 .ap-note{font-size:10px; color:var(--ink-3); line-height:1.5; margin:8px 0 0}
+.ap-linklike{
+  background:none; border:0; padding:0; margin:6px 0 0; font-family:var(--font);
+  font-size:10.5px; color:var(--ink-3); text-decoration:underline; cursor:pointer; text-align:left;
+}
+.ap-linklike:hover{color:var(--hot)}
+.ap-linklike.hidden{display:none}
 .ap-row{display:flex; align-items:center; gap:10px; margin-bottom:12px}
 .ap-who{min-width:0}
 .ap-name{font-size:13px; font-weight:800; color:var(--ink); display:flex; align-items:center; gap:5px}

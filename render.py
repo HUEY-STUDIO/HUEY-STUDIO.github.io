@@ -519,6 +519,7 @@ def render_account_panel():
           <input type="password" id="loginPassword" placeholder="비밀번호" required autocomplete="current-password">
           <button type="submit">로그인</button>
         </form>
+        <button type="button" class="ap-linklike" id="apForgotPw">비밀번호를 잊으셨나요?</button>
         <form id="signupForm" class="hidden">
           <input type="email" id="signupEmail" placeholder="이메일 (아이디로 사용)" required autocomplete="email">
           <input type="password" id="signupPassword" placeholder="비밀번호 (6자 이상)" required minlength="6" autocomplete="new-password">
@@ -526,6 +527,15 @@ def render_account_panel():
           <button type="submit">회원가입</button>
         </form>
         <p class="ap-note" id="authNote">이메일이 곧 아이디예요. 한 번 가입해두면 다음부턴 비밀번호로 바로 로그인되고, 로그인 상태는 자동으로 유지됩니다.</p>
+      </div>
+      <div id="apResetPassword" class="hidden">
+        <div class="ap-avatar">🔑</div>
+        <p class="ap-lead">새 비밀번호를 설정해주세요</p>
+        <form id="resetPasswordForm">
+          <input type="password" id="resetPassword" placeholder="새 비밀번호 (6자 이상)" required minlength="6" autocomplete="new-password">
+          <button type="submit">비밀번호 설정</button>
+        </form>
+        <p class="ap-note" id="resetNote"></p>
       </div>
       <div id="apLoggedIn" class="hidden">
         <div class="ap-row">
