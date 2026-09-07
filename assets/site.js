@@ -405,6 +405,8 @@ function heuySupabase() {
     if (note) note.textContent = "로그인 모듈을 불러오지 못했습니다. 새로고침해보거나 광고 차단기를 꺼보세요.";
     return;
   }
+  console.log("HEUY-DEBUG: account panel init start, sb ready");
+  try {
 
   // ---------------------------------------------------------- 오늘 방문자수
   // 새로고침·재접속마다 page_views에 1행씩 쌓고, 그 날짜(KST) 범위의 누적 건수를
@@ -588,8 +590,10 @@ function heuySupabase() {
       promise.then(function (v) { clearTimeout(t); resolve(v); }, function (e) { clearTimeout(t); reject(e); });
     });
   }
+  console.log("HEUY-DEBUG: loginForm element =", loginForm);
   if (loginForm) {
     loginForm.addEventListener("submit", function (e) {
+      console.log("HEUY-DEBUG: login submit handler fired");
       e.preventDefault();
       var email = loginEmail.value.trim();
       var password = loginPassword.value;
@@ -787,6 +791,10 @@ function heuySupabase() {
         else input.value = "";
       });
     });
+  }
+  console.log("HEUY-DEBUG: account panel init finished OK");
+  } catch (err) {
+    console.error("HEUY-DEBUG: account panel init CRASHED:", err);
   }
 })();
 
