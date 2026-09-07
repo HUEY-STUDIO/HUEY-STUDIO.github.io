@@ -57,6 +57,7 @@ b{font-weight:800; color:var(--ink)}
 .site-nav__brand span{color:var(--hot)}
 .site-nav nav{display:flex; gap:20px}
 .site-nav nav a{font-size:11px; font-weight:700; letter-spacing:.12em; color:#B8AFA6; text-decoration:none}
+.site-nav__visits{font-size:10.5px; font-weight:700; color:#B8AFA6; white-space:nowrap}
 .site-nav nav a:hover, .site-nav nav a[aria-current]{color:var(--hot)}
 
 .hidden{display:none !important}
@@ -146,8 +147,6 @@ b{font-weight:800; color:var(--ink)}
   display:flex; align-items:center; justify-content:space-between; gap:8px;
   font-size:11.5px; font-weight:800; letter-spacing:.06em; color:var(--ink-2); margin-bottom:8px;
 }
-.ms-stats{display:flex; align-items:center; gap:10px}
-.ms-visits{font-size:10px; font-weight:800; letter-spacing:0; color:var(--ink-3)}
 .ms-online{
   font-size:10px; font-weight:800; letter-spacing:0; color:var(--ink-3);
   display:flex; align-items:center; gap:4px;
@@ -661,6 +660,29 @@ article .src{margin-top:auto}
 .st-bar:hover .st-bfill{background:var(--hot)}
 .st-bv{font-size:12.5px; font-weight:800; color:var(--ink); text-align:right}
 .st-bv i{font-style:normal; font-weight:600; color:var(--ink-3); margin-left:1px}
+
+/* ---- 관리자 대시보드 ---- */
+.admin-state{padding:32px 0; font-size:13px; color:var(--ink-3); text-align:center}
+.admin-state p{margin:0 0 8px}
+.admin-state a{color:var(--hot); font-weight:700}
+.admin-more{margin:4px 0 0; font-size:12px}
+.admin-more a{color:var(--hot); font-weight:700; text-decoration:none}
+.admin-more a:hover{text-decoration:underline}
+.admin-table-wrap{overflow-x:auto}
+.admin-table{width:100%; border-collapse:collapse; font-size:12.5px}
+.admin-table th{
+  text-align:left; font-size:10.5px; font-weight:800; letter-spacing:.04em; color:var(--ink-3);
+  padding:6px 10px; border-bottom:1px solid var(--rule);
+}
+.admin-table td{padding:8px 10px; border-bottom:1px solid var(--rule); color:var(--ink-2); vertical-align:middle}
+.admin-table tr:last-child td{border-bottom:0}
+.admin-email{color:var(--ink-3); font-size:11.5px}
+.admin-toggle{
+  font-family:var(--font); font-size:10.5px; font-weight:800; padding:4px 9px; cursor:pointer;
+  border-radius:4px; border:1px solid var(--rule); background:var(--paper); color:var(--ink-2);
+}
+.admin-toggle.is-on{background:var(--hot); border-color:var(--hot); color:#fff}
+.admin-toggle:disabled{opacity:.5; cursor:default}
 
 .st-cols{list-style:none; margin:0; padding:0; display:flex; align-items:flex-end; gap:2px; height:140px}
 .st-col{flex:1 1 0; min-width:0; display:flex; flex-direction:column; justify-content:flex-end; align-items:center; height:100%; position:relative}

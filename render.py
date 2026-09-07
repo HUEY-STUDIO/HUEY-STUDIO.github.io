@@ -166,7 +166,7 @@ THEME_BOOT = (
 
 
 def shell(title, body, css_prefix="", description=None, canonical=None,
-          og_image=None, og_type="website", jsonld=None, og_size=(1200, 630)):
+          og_image=None, og_type="website", jsonld=None, og_size=(1200, 630), noindex=False):
     """모든 페이지의 공통 <head>. 공유 카드(OG)·canonical·구조화 데이터를 여기서 한 번에 붙인다."""
     desc = clip(description or SITE_DESC)
     canon = canonical or abs_url("")
@@ -176,12 +176,13 @@ def shell(title, body, css_prefix="", description=None, canonical=None,
         ld = ('\n<script type="application/ld+json">'
               + json.dumps(jsonld, ensure_ascii=False, separators=(",", ":"))
               + "</script>")
+    robots = '<meta name="robots" content="noindex,nofollow">\n' if noindex else ""
     return f"""<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)}</title>
+{robots}<title>{esc(title)}</title>
 <meta name="description" content="{html.escape(desc, quote=True)}">
 <link rel="canonical" href="{html.escape(canon, quote=True)}">
 <meta property="og:type" content="{esc(og_type)}">
@@ -218,9 +219,14 @@ def shell(title, body, css_prefix="", description=None, canonical=None,
 """
 
 
-def nav(root, current):
+def nav(root, current, home=False):
     def mark(page):
         return ' aria-current="page"' if page == current else ""
+    visits = (
+        '<span class="site-nav__visits" id="navVisits" '
+        'title="오늘 이 페이지를 방문한 횟수">오늘 방문 집계 중…</span>\n  '
+        if home else ""
+    )
     return f"""<div class="site-nav">
   <a class="site-nav__brand" href="{root}index.html">HEUY<span>.</span>ARCHI</a>
   <nav>
@@ -230,7 +236,7 @@ def nav(root, current):
     <a href="{root}stats.html"{mark("stats")}>통계</a>
     <a href="{root}search.html"{mark("search")}>검색</a>
   </nav>
-  <button type="button" class="theme-toggle" id="themeToggle"
+  {visits}<button type="button" class="theme-toggle" id="themeToggle"
           aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
 </div>
 <script>
@@ -650,10 +656,7 @@ def render_mini_space():
     return f"""    <div class="mini-space" id="miniSpace">
       <div class="ms-head">
         <span id="msTitle">MY SPACE</span>
-        <span class="ms-stats">
-          <span class="ms-visits" id="msVisits" title="오늘 이 페이지를 방문한 사람 수">오늘 방문 집계 중…</span>
-          <span class="ms-online" id="msOnline" title="지금 이 스페이스에 있는 사람">● 1</span>
-        </span>
+        <span class="ms-online" id="msOnline" title="지금 이 스페이스에 있는 사람">● 1</span>
       </div>
       <div class="ms-room" id="msRoom" tabindex="0"
            aria-label="방향키로 캐릭터를 움직이고, 스페이스바로 점프, 엔터로 채팅해보세요">
@@ -734,7 +737,7 @@ def render_issue(d, root, current, prev_day=None, next_day=None, canonical=None,
         sheet_inner = main
         sheet_open = '<div class="sheet">'
     body = "\n".join(x for x in [
-        nav(root, current),
+        nav(root, current, home=home),
         sheet_open,
         sheet_inner,
         "</div>",
@@ -1215,6 +1218,85 @@ def build_stats(index):
     print(f"  stats.html      → {n_total}건 집계")
 
 
+# ------------------------------------------------------------------ 관리자
+def build_admin(index):
+    """관리자 전용 대시보드(admin.html). 페이지 자체는 누구나 열어볼 수 있지만
+    안에서 보여주는 데이터는 전부 Supabase 쿼리라, 관리자가 아니면 RLS가 막아
+    빈 값만 돌아온다 — 접근 통제는 이 HTML이 아니라 DB 쪽 정책이 한다.
+    검색엔진 노출은 robots.txt·noindex 메타로 별도로 막아둔다."""
+    articles = collect_articles()
+    n_total = len(articles)
+    n_kr = sum(1 for _d, section, _t, _a, _anc in articles if section == "korea")
+    n_comp = sum(1 for _d, _s, topic, _a, _anc in articles if topic == "설계공모")
+    latest_day = index[0]["date"] if index else "-"
+
+    body = f"""{nav("", "admin")}
+<div class="sheet">
+  <div class="brandbar">
+    <div>HEUY<span class="dot">.</span>ARCHI</div>
+    <span>ADMIN</span>
+    <span>관리자 전용</span>
+  </div>
+  <header class="masthead">
+    <h1 class="logo">HEUY<span class="d">.</span>ARCHI</h1>
+    <div class="logo-rule"></div>
+    <div class="tagline">ADMIN DASHBOARD · 관리자 전용</div>
+    <div class="rule-thick"></div>
+  </header>
+
+  <div id="adminGate" class="admin-state">로그인 확인 중…</div>
+  <div id="adminDenied" class="admin-state hidden">
+    <p>이 페이지는 관리자만 볼 수 있습니다.</p>
+    <p><a href="index.html">홈으로 돌아가기</a></p>
+  </div>
+
+  <div id="adminDash" class="hidden">
+    <div class="st-tiles">
+      <div class="st-tile"><span class="st-tv">{n_total}</span><span class="st-tl">누적 기사</span></div>
+      <div class="st-tile"><span class="st-tv">{n_kr}</span><span class="st-tl">국내 기사</span></div>
+      <div class="st-tile"><span class="st-tv">{n_comp}</span><span class="st-tl">설계공모</span></div>
+      <div class="st-tile"><span class="st-tv">{esc(latest_day)}</span><span class="st-tl">최신호</span></div>
+    </div>
+    <p class="admin-more"><a href="stats.html">지면 통계 전체 보기 →</a></p>
+
+    <section class="st-card">
+      <div class="sechead"><h2>방문자 통계</h2><span class="en">VISITORS</span><span class="line"></span></div>
+      <div class="st-tiles">
+        <div class="st-tile"><span class="st-tv" id="avToday">-</span><span class="st-tl">오늘 방문</span></div>
+        <div class="st-tile"><span class="st-tv" id="avWeek">-</span><span class="st-tl">최근 7일</span></div>
+        <div class="st-tile"><span class="st-tv" id="avTotal">-</span><span class="st-tl">누적 방문</span></div>
+      </div>
+      <ol class="st-bars" id="adminVisitTrend"></ol>
+    </section>
+
+    <section class="st-card">
+      <div class="sechead"><h2>사용자 관리</h2><span class="en">USERS</span><span class="line"></span></div>
+      <p class="st-note">닉네임이 없으면 이메일 앞부분으로 표시됩니다. 정지된 사용자는 피드백 댓글을 남길 수 없습니다.</p>
+      <div class="admin-table-wrap">
+        <table class="admin-table" id="adminUserTable">
+          <thead>
+            <tr><th>사용자</th><th>이메일</th><th>가입일</th><th>관리자</th><th>정지</th></tr>
+          </thead>
+          <tbody id="adminUserRows">
+            <tr><td colspan="5">불러오는 중…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <div class="paper-foot">
+    <div class="cn">HEUY<span class="d">.</span>ARCHI</div>
+    ADMIN &nbsp;|&nbsp; 검색엔진에 노출되지 않는 페이지입니다.
+  </div>
+</div>"""
+    with open(os.path.join(ROOT, "admin.html"), "w", encoding="utf-8") as f:
+        f.write(shell("관리자 대시보드 — HEUY.ARCHI", body,
+                      description="HEUY.ARCHI 관리자 전용 대시보드.",
+                      canonical=abs_url("admin.html"), noindex=True))
+    print("  admin.html      → 관리자 대시보드")
+
+
 # ------------------------------------------------------------------ 검색
 def outlet_names(src):
     if not src:
@@ -1478,7 +1560,7 @@ def build_sitemap(index, weeks):
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(xml)
     with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8") as f:
-        f.write(f"User-agent: *\nAllow: /\n\nSitemap: {abs_url('sitemap.xml')}\n")
+        f.write(f"User-agent: *\nAllow: /\nDisallow: /admin.html\n\nSitemap: {abs_url('sitemap.xml')}\n")
     print(f"  sitemap.xml     → {len(urls)}개 URL (+ robots.txt)")
 
 
@@ -1805,6 +1887,7 @@ def build(days):
     build_categories()
     weeks = build_weekly(index)
     build_stats(index)
+    build_admin(index)
     n_idx = build_search_index()
     with open(os.path.join(ROOT, "search.html"), "w", encoding="utf-8") as f:
         f.write(render_search_page(n_idx))

@@ -391,10 +391,10 @@
   var sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
   // ---------------------------------------------------------- 오늘 방문자수
-  // page_views 테이블에 방문 1회를 기록하고(브라우저당 KST 하루 1회로 제한),
-  // 그 날짜(KST) 범위의 누적 건수를 세어 msVisits에 표시한다.
+  // 새로고침·재접속마다 page_views에 1행씩 쌓고, 그 날짜(KST) 범위의 누적 건수를
+  // 세어 상단바 navVisits에 표시한다. 중복 제거 없이 접속(페이지 로드) 자체를 센다.
   (function () {
-    var el = document.getElementById("msVisits");
+    var el = document.getElementById("navVisits");
     if (!el) return;
     var todayKST = new Intl.DateTimeFormat("en-CA", {
       timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit"
@@ -402,19 +402,11 @@
     var startISO = todayKST + "T00:00:00+09:00";
     var endISO = new Date(new Date(startISO).getTime() + 86400000).toISOString();
 
-    var LS_KEY = "heuy_last_visit_day";
-    var already = false;
-    try { already = localStorage.getItem(LS_KEY) === todayKST; } catch (e) {}
-
-    var logged = already ? Promise.resolve() : sb.from("page_views").insert({}).then(function () {
-      try { localStorage.setItem(LS_KEY, todayKST); } catch (e) {}
-    }).catch(function () {});
-
-    Promise.resolve(logged).then(function () {
+    sb.from("page_views").insert({}).catch(function () {}).then(function () {
       return sb.from("page_views").select("*", { count: "exact", head: true })
         .gte("visited_at", startISO).lt("visited_at", endISO);
     }).then(function (res) {
-      if (res && typeof res.count === "number") el.textContent = "오늘 " + res.count.toLocaleString() + "명 방문";
+      if (res && typeof res.count === "number") el.textContent = "오늘 방문 " + res.count.toLocaleString() + "회";
       else el.textContent = "";
     }).catch(function () { el.textContent = ""; });
   })();
@@ -772,4 +764,165 @@
       });
     });
   }
+})();
+
+/* HEUY.ARCHI — 관리자 대시보드 (admin.html 전용)
+   접근 통제는 이 스크립트가 아니라 Supabase RLS가 한다: 관리자가 아니면 profiles.is_admin
+   조회 자체가 false로 돌아오고, 방문자·유저 쿼리도 정책에 막혀 빈 값만 온다. */
+(function () {
+  "use strict";
+  var gate = document.getElementById("adminGate");
+  if (!gate) return;
+  if (!window.supabase || !window.supabase.createClient) { gate.textContent = "로그인 모듈을 불러오지 못했습니다."; return; }
+
+  var SUPABASE_URL = "https://rwmivexpkjppvsvwuguw.supabase.co";
+  var SUPABASE_KEY = "sb_publishable_iDTkwOY5Qo42G0xj7Igqaw_rgfrWMyH";
+  var sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+  var denied = document.getElementById("adminDenied");
+  var dash = document.getElementById("adminDash");
+  var avToday = document.getElementById("avToday");
+  var avWeek = document.getElementById("avWeek");
+  var avTotal = document.getElementById("avTotal");
+  var trendEl = document.getElementById("adminVisitTrend");
+  var rowsEl = document.getElementById("adminUserRows");
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+  function kstDay(d) {
+    return new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit"
+    }).format(d);
+  }
+  function dayBoundsISO(dayStr) {
+    var start = dayStr + "T00:00:00+09:00";
+    var end = new Date(new Date(start).getTime() + 86400000).toISOString();
+    return { start: start, end: end };
+  }
+
+  function loadVisitorStats() {
+    var today = kstDay(new Date());
+    var todayB = dayBoundsISO(today);
+    var weekStartDay = kstDay(new Date(Date.now() - 6 * 86400000)); // 오늘 포함 7일
+    var weekB = dayBoundsISO(weekStartDay);
+
+    sb.from("page_views").select("*", { count: "exact", head: true })
+      .gte("visited_at", todayB.start).lt("visited_at", todayB.end)
+      .then(function (res) { if (avToday) avToday.textContent = (res.count || 0).toLocaleString(); });
+
+    sb.from("page_views").select("*", { count: "exact", head: true })
+      .then(function (res) { if (avTotal) avTotal.textContent = (res.count || 0).toLocaleString(); });
+
+    sb.from("page_views").select("visited_at").gte("visited_at", weekB.start)
+      .then(function (res) {
+        var rows = res.data || [];
+        if (avWeek) avWeek.textContent = rows.length.toLocaleString();
+        var byDay = {};
+        rows.forEach(function (r) {
+          var d = kstDay(new Date(r.visited_at));
+          byDay[d] = (byDay[d] || 0) + 1;
+        });
+        var days = [];
+        for (var i = 6; i >= 0; i--) {
+          var d = kstDay(new Date(Date.now() - i * 86400000));
+          days.push([d, byDay[d] || 0]);
+        }
+        var top = 1;
+        days.forEach(function (x) { if (x[1] > top) top = x[1]; });
+        if (trendEl) {
+          trendEl.innerHTML = days.map(function (x) {
+            var pct = (x[1] / top * 100).toFixed(1);
+            return '<li class="st-bar"><span class="st-bl">' + esc(x[0].slice(5)) + '</span>'
+              + '<span class="st-btrack"><span class="st-bfill" style="width:' + pct + '%"></span></span>'
+              + '<span class="st-bv">' + x[1] + '<i>회</i></span></li>';
+          }).join("");
+        }
+      });
+  }
+
+  function toggleFlag(btn, field) {
+    var tr = btn.closest("tr");
+    var id = tr.getAttribute("data-id");
+    var next = !btn.classList.contains("is-on");
+    btn.disabled = true;
+    var patch = { id: id };
+    patch[field] = next;
+    sb.from("profiles").upsert(patch).then(function (res) {
+      btn.disabled = false;
+      if (res.error) { alert("변경하지 못했습니다: " + res.error.message); return; }
+      btn.classList.toggle("is-on", next);
+      if (field === "is_admin") btn.textContent = next ? "관리자" : "-";
+      if (field === "is_banned") btn.textContent = next ? "정지됨" : "정상";
+    });
+  }
+
+  function loadUsers(myId) {
+    if (!rowsEl) return;
+    Promise.all([
+      sb.from("admin_user_emails").select("id, email, created_at"),
+      sb.from("profiles").select("id, nickname, is_admin, is_banned")
+    ]).then(function (res) {
+      var emails = res[0].data || [];
+      var profiles = {};
+      (res[1].data || []).forEach(function (p) { profiles[p.id] = p; });
+      var users = emails.map(function (e) {
+        var p = profiles[e.id] || {};
+        return {
+          id: e.id, email: e.email, created_at: e.created_at,
+          nickname: p.nickname || (e.email || "").split("@")[0],
+          is_admin: !!p.is_admin, is_banned: !!p.is_banned
+        };
+      }).sort(function (a, b) { return (b.created_at || "").localeCompare(a.created_at || ""); });
+
+      if (!users.length) { rowsEl.innerHTML = '<tr><td colspan="5">아직 없습니다.</td></tr>'; return; }
+      rowsEl.innerHTML = users.map(function (u) {
+        var joined = u.created_at ? String(u.created_at).slice(0, 10) : "-";
+        var selfAttr = u.id === myId ? ' disabled title="본인 계정은 여기서 바꿀 수 없습니다"' : "";
+        return '<tr data-id="' + esc(u.id) + '">'
+          + '<td>' + esc(u.nickname) + '</td>'
+          + '<td class="admin-email">' + esc(u.email || "-") + '</td>'
+          + '<td>' + esc(joined) + '</td>'
+          + '<td><button type="button" class="admin-toggle admin-toggle-admin' + (u.is_admin ? " is-on" : "") + '"' + selfAttr + '>'
+          + (u.is_admin ? "관리자" : "-") + '</button></td>'
+          + '<td><button type="button" class="admin-toggle admin-toggle-ban' + (u.is_banned ? " is-on" : "") + '"' + selfAttr + '>'
+          + (u.is_banned ? "정지됨" : "정상") + '</button></td>'
+          + '</tr>';
+      }).join("");
+
+      var adminBtns = rowsEl.querySelectorAll(".admin-toggle-admin");
+      for (var i = 0; i < adminBtns.length; i++) {
+        adminBtns[i].addEventListener("click", (function (btn) {
+          return function () { toggleFlag(btn, "is_admin"); };
+        })(adminBtns[i]));
+      }
+      var banBtns = rowsEl.querySelectorAll(".admin-toggle-ban");
+      for (var j = 0; j < banBtns.length; j++) {
+        banBtns[j].addEventListener("click", (function (btn) {
+          return function () { toggleFlag(btn, "is_banned"); };
+        })(banBtns[j]));
+      }
+    });
+  }
+
+  sb.auth.getSession().then(function (res) {
+    var session = res.data && res.data.session;
+    if (!session || !session.user) {
+      gate.classList.add("hidden");
+      if (denied) denied.classList.remove("hidden");
+      return;
+    }
+    sb.from("profiles").select("is_admin").eq("id", session.user.id).maybeSingle().then(function (r) {
+      gate.classList.add("hidden");
+      if (!r.data || !r.data.is_admin) { if (denied) denied.classList.remove("hidden"); return; }
+      if (dash) dash.classList.remove("hidden");
+      loadVisitorStats();
+      loadUsers(session.user.id);
+    });
+  }).catch(function () {
+    gate.classList.add("hidden");
+    if (denied) denied.classList.remove("hidden");
+  });
 })();

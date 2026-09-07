@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>관리자 대시보드 — HEUY.ARCHI</title>
+<meta name="description" content="HEUY.ARCHI 관리자 전용 대시보드.">
+<link rel="canonical" href="https://huey-studio.github.io/admin.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HEUY.ARCHI">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="관리자 대시보드 — HEUY.ARCHI">
+<meta property="og:description" content="HEUY.ARCHI 관리자 전용 대시보드.">
+<meta property="og:url" content="https://huey-studio.github.io/admin.html">
+<meta property="og:image" content="https://huey-studio.github.io/assets/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="관리자 대시보드 — HEUY.ARCHI">
+<meta name="twitter:description" content="HEUY.ARCHI 관리자 전용 대시보드.">
+<meta name="twitter:image" content="https://huey-studio.github.io/assets/og-default.jpg">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="alternate" type="application/rss+xml" title="HEUY.ARCHI" href="feed.xml">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" as="style" crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css">
+<link rel="stylesheet" href="assets/style.css?v=1c588862">
+<script>(function(){try{var t=localStorage.getItem('heuy-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+<div class="site-nav">
+  <a class="site-nav__brand" href="index.html">HEUY<span>.</span>ARCHI</a>
+  <nav>
+    <a href="index.html">최신호</a>
+    <a href="archive.html">지난호</a>
+    <a href="weekly.html">주간</a>
+    <a href="stats.html">통계</a>
+    <a href="search.html">검색</a>
+  </nav>
+  <button type="button" class="theme-toggle" id="themeToggle"
+          aria-label="밝은 화면과 어두운 화면 전환" title="화면 전환"></button>
+</div>
+<script>
+(function () {
+  var btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  var root = document.documentElement;
+  function current() {
+    var set = root.getAttribute('data-theme');
+    if (set) return set;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function paint() { btn.textContent = current() === 'dark' ? '☀' : '☾'; }
+  btn.addEventListener('click', function () {
+    var next = current() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('heuy-theme', next); } catch (e) {}
+    paint();
+  });
+  paint();
+})();
+</script>
+<div class="sheet">
+  <div class="brandbar">
+    <div>HEUY<span class="dot">.</span>ARCHI</div>
+    <span>ADMIN</span>
+    <span>관리자 전용</span>
+  </div>
+  <header class="masthead">
+    <h1 class="logo">HEUY<span class="d">.</span>ARCHI</h1>
+    <div class="logo-rule"></div>
+    <div class="tagline">ADMIN DASHBOARD · 관리자 전용</div>
+    <div class="rule-thick"></div>
+  </header>
+
+  <div id="adminGate" class="admin-state">로그인 확인 중…</div>
+  <div id="adminDenied" class="admin-state hidden">
+    <p>이 페이지는 관리자만 볼 수 있습니다.</p>
+    <p><a href="index.html">홈으로 돌아가기</a></p>
+  </div>
+
+  <div id="adminDash" class="hidden">
+    <div class="st-tiles">
+      <div class="st-tile"><span class="st-tv">408</span><span class="st-tl">누적 기사</span></div>
+      <div class="st-tile"><span class="st-tv">93</span><span class="st-tl">국내 기사</span></div>
+      <div class="st-tile"><span class="st-tv">63</span><span class="st-tl">설계공모</span></div>
+      <div class="st-tile"><span class="st-tv">2026-09-07</span><span class="st-tl">최신호</span></div>
+    </div>
+    <p class="admin-more"><a href="stats.html">지면 통계 전체 보기 →</a></p>
+
+    <section class="st-card">
+      <div class="sechead"><h2>방문자 통계</h2><span class="en">VISITORS</span><span class="line"></span></div>
+      <div class="st-tiles">
+        <div class="st-tile"><span class="st-tv" id="avToday">-</span><span class="st-tl">오늘 방문</span></div>
+        <div class="st-tile"><span class="st-tv" id="avWeek">-</span><span class="st-tl">최근 7일</span></div>
+        <div class="st-tile"><span class="st-tv" id="avTotal">-</span><span class="st-tl">누적 방문</span></div>
+      </div>
+      <ol class="st-bars" id="adminVisitTrend"></ol>
+    </section>
+
+    <section class="st-card">
+      <div class="sechead"><h2>사용자 관리</h2><span class="en">USERS</span><span class="line"></span></div>
+      <p class="st-note">닉네임이 없으면 이메일 앞부분으로 표시됩니다. 정지된 사용자는 피드백 댓글을 남길 수 없습니다.</p>
+      <div class="admin-table-wrap">
+        <table class="admin-table" id="adminUserTable">
+          <thead>
+            <tr><th>사용자</th><th>이메일</th><th>가입일</th><th>관리자</th><th>정지</th></tr>
+          </thead>
+          <tbody id="adminUserRows">
+            <tr><td colspan="5">불러오는 중…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <div class="paper-foot">
+    <div class="cn">HEUY<span class="d">.</span>ARCHI</div>
+    ADMIN &nbsp;|&nbsp; 검색엔진에 노출되지 않는 페이지입니다.
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+<script src="assets/site.js?v=15916ebc" defer></script>
+</body>
+</html>
