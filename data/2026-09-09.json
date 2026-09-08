@@ -1,0 +1,452 @@
+{
+  "vol": "VOL.01  NO.024",
+  "editor": "HUEY",
+  "counts": {
+    "total": 17,
+    "intl": 14,
+    "kr": 3
+  },
+  "outlets": [
+    "ArchDaily",
+    "designboom",
+    "Dezeen",
+    "대한민국정책브리핑",
+    "대한건축사협회 건축사신문",
+    "주택폴리오",
+    "Construction Dive"
+  ],
+  "teasers": [
+    {
+      "title": "코펜하겐, 2년 연속 세계 1위",
+      "desc": "EIU 173개 도시 평가…아시아 9곳 톱20 진입",
+      "label": "RANKING"
+    },
+    {
+      "title": "설계공모 심사위원 300명 시대",
+      "desc": "조달청, 민간 건축사 50명 추가 위촉",
+      "label": "REGULATION"
+    },
+    {
+      "title": "사유원 심포니6, 국제상 수상",
+      "desc": "코르텐강 야외음악당, 팔공산 자락에",
+      "label": "AWARDS"
+    },
+    {
+      "title": "영암 어선건조지원센터 공모",
+      "desc": "연면적 7,000㎡, 설계비 9.8억원",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 도시환경",
+    "lede": "코펜하겐, 2년 연속 '세계에서 가장 살기 좋은 도시' 1위…아시아 9곳 톱20 진입",
+    "lede_em": "코펜하겐",
+    "image": "https://images.adsttc.com/media/images/6a9f/d204/a228/5801/8aa2/3562/large_jpg/worlds-most-liveable-cities-in-2026-discover-the-worlds-top-ranked-cities_2.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "코펜하겐은 안정성·교육·인프라 3개 항목에서 만점을 받아 2년 연속 1위에 올랐다 ⓒ Economist Intelligence Unit",
+    "body": [
+      "영국 이코노미스트 인텔리전스 유닛(EIU)이 발표한 '2026 세계 리버빌리티 지수'에서 덴마크 **코펜하겐**이 2년 연속 세계에서 가장 살기 좋은 도시 1위에 올랐다. 이 지수는 전 세계 **173개** 도시를 안정성·의료·교육·인프라·문화환경 5개 항목으로 평가한다.",
+      "코펜하겐은 안정성·교육·인프라 3개 항목에서 나란히 만점을 받으며 종합 **98점**(100점 만점)을 기록했다. 2위는 오스트리아 빈, 3위 호주 멜버른이 차지했고, 취리히·제네바 등 서유럽 도시들이 상위권을 휩쓸었다. 서유럽 도시 평균 점수는 **91.7점**으로 전 세계 평균(76.1점)을 크게 웃돌았다.",
+      "올해 지수에서 가장 두드러진 변화는 아시아권이다. 아시아 평균 점수가 0.3점 오른 **73.9점**을 기록하며 전 지역 중 가장 큰 개선폭을 보였다. 중국 푸저우는 7계단 상승한 93위에 올랐고, 오사카·도쿄를 포함해 아시아 도시 **9곳**이 상위 20위 안에 이름을 올렸다.",
+      "반면 서남아시아·북아프리카 지역은 안정성 지수가 세계에서 가장 큰 폭으로 떨어졌다. 최하위는 시리아 다마스쿠스(173위)였고, 리비아 트리폴리·방글라데시 다카·파키스탄 카라치·알제리 알제가 뒤를 이었다. EIU는 정정 불안이 도시 삶의 질을 가르는 핵심 변수로 작용하고 있다고 짚었다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.archdaily.com/1184707/worlds-most-liveable-cities-in-2026-copenhagen-holds-first-place-as-asia-rises"
+        }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "조달청",
+    "title": "조달청, 공공건축 설계공모 혁신…민간 건축사 심사위원 50명 늘려 심사 풀 300명으로",
+    "body": [
+      "조달청이 공공건축 설계공모의 공정성과 전문성을 높이는 혁신방안을 마련해 **9월 중순**부터 시행에 들어간다. 지난해 조달청을 통해 발주된 설계공모는 **117건, 총 1,108억원** 규모였다."
+    ],
+    "facts": [
+      "심사위원 확충: 최근 5년 내 공모 당선 경력이 있는 민간 건축사 약 **50명**을 대한건축사협회 추천으로 신규 위촉 — 기존 대학교수(150명)·공무원(103명) 등과 합쳐 심사위원 풀 약 **300명**으로 확대",
+      "심사위원 책임제: 심사 결과를 공정성·전문성·청렴성 기준으로 누적 분석해 이상 패턴 발견 시 경고·배제 — 공사비 **20억원** 이상 공모부터 참여사가 심사위원을 역으로 평가하는 '역(逆)평가' 시범 도입",
+      "안전 평가 통합: 그간 여러 항목에 흩어져 있던 안전 관련 배점을 '구조방식 및 이용자 안전계획'으로 일원화해 설계 초기 단계부터 검토",
+      "정보공개 확대: 전문위원회 사전검토 결과, 설계비 산출 내역, 참여업체 컨소시엄 구성 현황, 심사위원 청렴서약서, 월별 당선사 현황까지 추가 공개"
+    ],
+    "body_after": [
+      "조달청은 이번 개편이 \"우수한 아이디어를 가진 실력있는 건축사가 공공 설계공모에 적극 참여하는 조달생태계를 만드는 것\"이 목표라고 밝혔다. 참여 건축사 입장에서는 심사위원 구성과 평가 기준이 한층 투명해지는 셈이어서, 공모 준비 단계에서 안전계획 배점 비중을 눈여겨볼 필요가 있다."
+    ],
+    "source": {
+      "outlet": "대한민국정책브리핑",
+      "links": [
+        {
+          "text": "정책브리핑 기사",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=156721772"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "국제 · 순환경제",
+      "title": "산업 유휴건물이 건자재 은행으로…뉴욕·런던·브뤼셀, '순환건설 허브' 조성",
+      "image": "https://images.adsttc.com/media/images/6a9f/b39a/5c4d/8601/88ab/7652/large_jpg/city-governments-transform-industrial-buildings-into-circular-construction-hubs-in-new-york-london-and-brussels_7.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "뉴욕·런던·브뤼셀 등 주요 도시 정부가 버려진 산업 건물을 건축자재 회수·분류·재유통 거점인 '순환건설 허브'로 전환하고 있다. 뉴욕은 브루클린의 부시터미널에서 지난 **8월 말** 1년짜리 시범사업을 시작했고, 브뤼셀은 간스호렌의 6,000㎡ 창고를 '리유즈 파크'로 개조해 유럽지역개발기금 지원을 받는다.",
+        "런던 동부의 '티핑포인트 이스트'는 8,000㎡ 규모로 향후 5년간 매립 폐기물 **1,000톤 이상**을 줄이는 것이 목표다. 뮌헨·코펜하겐·리스본·스코틀랜드를 잇는 유럽연합 '서코파인' 프로젝트도 물리적 자재은행과 디지털 마켓플레이스를 함께 구축 중이다. 영국은 연간 500만 톤 넘는 건설폐기물을 매립하고 있어, 이 같은 재사용 인프라의 확산이 시급하다는 지적이 나온다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184701/city-governments-transform-industrial-buildings-into-circular-construction-hubs-in-new-york-london-and-brussels"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 주거",
+      "title": "BIG, 아테네 엘리니콘에 '파크 라이즈'…50m 타워가 그리는 계단식 스카이라인",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/big-bjarke-ingels-group-hanna-johansson-park-rise-vertical-extension-athens-landscape-ellinikon-designboom-01-1-768x432.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "비야케 잉겔스 그룹(BIG)이 그리스 아테네 대규모 개발지 엘리니콘에 주거타워 '파크 라이즈'를 공개했다. 88세대 규모의 50m 높이 건물로, 계단식으로 층층이 물러나는 형태가 옆에 조성되는 대형 공원의 지형을 수직으로 이어받은 듯한 인상을 준다. 오목한 곡면 파사드는 그리스 고전 열주를 참조했다.",
+        "설계를 총괄한 한나 요한손은 \"밀도와 삶의 질은 흔히 상충하는 것처럼 여겨지지만, 서로를 강화할 수 있다고 믿는다\"며 \"모든 세대가 빛과 조망은 물론 넉넉한 야외공간까지 갖게 된다\"고 말했다. 건물에는 실내 20m 수영장과 태양광 패널을 갖춘 파빌리온, 에게해를 향한 조망이 포함된다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/big-bjarke-ingels-group-hanna-johansson-park-rise-vertical-extension-athens-landscape-ellinikon-interview/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "국제 · 콘셉트",
+      "title": "땅이 지붕이 되다…뉴욕 루즈벨트 아일랜드 시민광장 구상",
+      "image": "https://static.designboom.com/wp-content/dbsub/467796/2026-08-28/architecture-as-inhabitable-landscape-zehua-zhang-rethinks-the-civic-destination-on-roosevelt-island-new-york-city-1-6a90effca3554.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "뉴욕 소재 건축가 정하 장이 루즈벨트 아일랜드 남단에 문화·커뮤니티 시설을 아우르는 '거주 가능한 랜드스케이프' 구상안을 선보였다. 지붕이 그대로 공원처럼 이어져 방문객이 녹지와 전망대를 오르내리며 이스트강을 조망할 수 있고, 우수를 모아 재활용하는 물순환 체계도 통합했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/ground-roof-inhabitable-civic-landscape-roosevelt-island-zehua-zhang/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 지속가능성",
+      "title": "그리스 첫 LEED 플래티넘 단독주택…아테네 '부메랑'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/eclede_designboom_01-768x897.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "아테네 리카비토스 언덕과 콜로나키 사이에 들어선 425㎡ 규모 단독주택 '부메랑'이 그리스에서는 처음으로 LEED v4.1 플래티넘 인증을 받았다. 설계사 에클레드는 태양광 패널과 지열 히트펌프, KNX 스마트 자동화 시스템으로 에너지 성능을 끌어올리면서도 대리석과 원목 마감으로 촉감을 살렸다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/eclede-sustainable-home-greece-leed-platinum-certification/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 제도/기술",
+      "title": "불씨가 집을 태운다…캘리포니아 건축가들의 '방화 주택' 실험",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/designing-for-wildfires-houses-habitation-designboom-01-768x576.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "화재로 번지는 불씨(엠버)가 주택 발화 원인의 **90%**를 차지한다는 분석에 따라, 캘리포니아 건축가들이 목재 사이딩 대신 콘크리트·미장 외벽과 금속 지붕을 택하고 있다. 2025년 팰리세이즈·이튼 산불로 1만 6천여 채가 소실된 이후, 건물 반경 5피트를 불연 소재로 두르는 '존0' 규정이 2026년 1월부터 캘리포니아 전역에 적용됐다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/california-design-house-live-wildfire-fire-resistant/"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국제 · 리테일",
+      "title": "구멍 뚫린 파사드로 빛을 거르다…상하이 '알라이아' 매장",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/alaia-shanghai-boutique-perforated-facade-curved-interior-plaza-66-designboom-01.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "프랑스 패션하우스 알라이아가 상하이 플라자66에 재개장한 부티크는 천공(穿孔) 패턴의 파사드가 자연광을 걸러 실내로 들이고, 곡면으로 흐르는 내부 마감이 매장 전체를 하나의 조형물처럼 보이게 한다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/alaia-shanghai-boutique-perforated-facade-curved-interior-plaza-66/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "수상 · 공공공간",
+      "title": "군위 사유원 야외음악당 '심포니6', 2026 인터내셔널 아키텍처 어워즈 수상",
+      "body": [
+        "대구 군위 사유원의 야외음악당 '심포니6'가 개관 1년 만에 **2026 인터내셔널 아키텍처 어워즈** 공공공간 부문 수상작으로 선정됐다. 이탈리아 건축가 안드레아 리베라니가 설계했으며, 내후성 강판(코르텐강)을 접어 세운 텐트 형태 구조가 무대를 향해 점차 좁아지며 소리를 객석으로 모으는 음향 구조를 만든다.",
+        "건물은 단 네 지점에서만 땅에 닿아 팔공산 능선을 가리지 않으면서도 가벼운 인상을 준다. 오는 **9월 18~20일**에는 국립심포니오케스트라가 참여하는 제1회 사야국제음악제가 이곳에서 열린다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21079"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "kicker": "설계공모 · 창원",
+      "title": "창원 교방동 행정복지센터 신축 설계공모 공고…연면적 1,999㎡",
+      "body": [
+        "경남 창원시 마산합포구 교방동에 들어설 행정복지센터 설계공모가 공고됐다. 연면적 1,999㎡, 설계비 4억원 규모의 일반 설계공모로, 등록 마감은 **9월 16일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 상세",
+            "url": "https://jootek.com/folio/contests/18882"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 전남 영암",
+      "title": "전남 영암 어선건조지원센터 신축 설계용역 공모…연면적 7,000㎡",
+      "body": [
+        "전남 영암군 삼호읍에 조성되는 어선건조지원센터 설계용역 공모가 나왔다. 연면적 7,000㎡, 설계비 9.8억원 규모로 제안공모 방식으로 진행되며, 제출 마감은 **10월 14일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 상세",
+            "url": "https://jootek.com/folio/contests/18881"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "책장 넘기듯 펼쳐진 흰 지붕…시안 창안아카데미 도서관",
+      "body": "중국 시안 찬바 생태구역에 들어선 7만㎡ 복합문화시설. 화재 규정을 맞추면서도 온기를 살린 목재무늬 금속 패널을 실내 전면에 둘렀다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/08/xian-public-library-cultural-centre-china/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "아프리카 첫 건축 비엔날레, 나이로비서 개막",
+      "body": "'범아프리카 비엔날레' 첫 회가 9월 7~11일 나이로비 케냐타 국제컨벤션센터에서 열린다. 소말리아계 건축가 오마르 데간이 총감독을 맡아 아프리카 54개국을 아우른다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "관련 보도",
+            "url": "https://www.dezeen.com/2025/06/27/pan-african-biennale-architecture-omar-degan-interview/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "벡텔, 텍사스 코퍼스크리스티 LNG 3단계 준공",
+      "body": "셰니어에너지가 발주한 프로젝트로 연간 생산능력을 20% 넘게 늘려 약 5,600만 톤에 이른다. 2022년 착공해 지난달 28일 마지막 트레인을 인도했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/bechtel-substantial-completion-texas-lng-project/829715/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "연방 지원 줄자, 도시들 자체 기후재원 마련 나서",
+      "body": "매사추세츠는 2050년까지 최대 1,300억 달러의 기후적응 재원이 필요하다고 추산, 자체 기후은행을 설립했다. 캘리포니아 리버사이드는 95°F 이상 폭염일이 20년 새 65% 늘었다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/financing-climate-resilience-3-ways-cities-pivoting-federal-funding-dwindles/829813/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "다단계 협력공정 늘자…\"타 공종 위험까지 알아야\"",
+      "body": "공기 단축과 인력난으로 여러 공종이 동시에 겹치면서, 개별 업체 단위 안전교육만으로는 사고를 막기 어렵다는 지적이 나온다. 원청 주도의 공종 간 소통 체계가 대안으로 제시됐다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/trades-safety-training-hazards-recognition-education/829590/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "정림건축, 베네수엘라 지진 피해에 6천만원 성금",
+      "body": "임직원 성금 2,828만원에 회사 매칭펀드를 더해 조성했다. 지난 6월 규모 7.2·7.4 연쇄 지진으로 피해를 입은 야라쿠이주 이재민 지원에 쓰인다.",
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21058"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "liveable-cities-2026-copenhagen",
+      "tag": "RANKING",
+      "title": "세계에서 가장 살기 좋은 도시, 코펜하겐 2연패",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "copenhagen colorful waterfront canal houses",
+      "slides": [
+        {
+          "heading": "세계에서 가장\n살기 좋은 도시는",
+          "body": "EIU 리버빌리티 지수, 코펜하겐 2년 연속 1위"
+        },
+        {
+          "heading": "WHAT",
+          "body": "이코노미스트 인텔리전스 유닛(EIU)이 전 세계 173개 도시를 안정성·의료·교육·인프라·문화환경 5개 항목으로 평가한 결과, 코펜하겐이 2년 연속 1위에 올랐다."
+        },
+        {
+          "heading": "SCORE",
+          "body": "코펜하겐은 안정성·교육·인프라 3개 항목에서 나란히 만점을 받아 종합 98점을 기록했다. 전 세계 평균 점수는 76.1점으로 지난해와 같았다."
+        },
+        {
+          "heading": "ASIA RISING",
+          "body": "아시아 평균 점수가 0.3점 오른 73.9점을 기록하며 가장 큰 개선폭을 보였다. 중국 푸저우는 7계단 오른 93위로 뛰었고, 아시아 도시 9곳이 상위 20위 안에 들었다."
+        },
+        {
+          "heading": "BOTTOM",
+          "body": "가장 살기 어려운 도시는 시리아 다마스쿠스, 이어 리비아 트리폴리·방글라데시 다카·파키스탄 카라치 순이었다. 서남아시아·북아프리카는 안정성 지수 하락폭이 가장 컸다."
+        }
+      ]
+    },
+    {
+      "slug": "sayuwon-symphony6-award",
+      "tag": "AWARDS",
+      "title": "팔공산 자락에 뜬 코르텐강 음악당, 국제상 품다",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "steel amphitheater mountain forest",
+      "slides": [
+        {
+          "heading": "팔공산 자락의\n코르텐강 음악당",
+          "body": "군위 사유원 '심포니6', 2026 인터내셔널 아키텍처 어워즈 수상"
+        },
+        {
+          "heading": "WHAT",
+          "body": "대구 군위 사유원의 야외음악당 '심포니6'가 2026 인터내셔널 아키텍처 어워즈 공공공간 부문 수상작으로 선정됐다. 개관 1년 만의 성과다."
+        },
+        {
+          "heading": "DESIGN",
+          "body": "이탈리아 건축가 안드레아 리베라니가 설계했다. 내후성 강판(코르텐강)을 접어 텐트 형태로 세우고, 무대를 향해 좁아지는 벽과 천장이 소리를 객석으로 모으도록 했다."
+        },
+        {
+          "heading": "SITE",
+          "body": "건물은 단 네 지점에서만 땅에 닿아, 팔공산 능선을 가리지 않으면서도 가볍게 내려앉은 인상을 준다. 객석은 산 경사를 따라 계단식으로 앉혔다."
+        },
+        {
+          "heading": "WHAT'S NEXT",
+          "body": "9월 18~20일 국립심포니오케스트라가 참여하는 제1회 사야국제음악제가 이곳에서 열린다. 사유원에는 알바로 시자, 승효상 등의 건축도 함께 있다."
+        }
+      ]
+    },
+    {
+      "slug": "big-park-rise-athens",
+      "tag": "PROJECT",
+      "title": "아테네 엘리니콘에 뜨는 계단식 타워 '파크 라이즈'",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "terraced apartment building modern architecture",
+      "slides": [
+        {
+          "heading": "아테네에 놓인\n계단식 랜드스케이프",
+          "body": "BIG가 설계한 주거타워 '파크 라이즈', 엘리니콘 공원의 연장선"
+        },
+        {
+          "heading": "WHAT",
+          "body": "비야케 잉겔스 그룹(BIG)이 그리스 아테네 엘리니콘 개발지에 50m 높이 주거타워 '파크 라이즈'를 공개했다. 88가구 규모다."
+        },
+        {
+          "heading": "FORM",
+          "body": "계단식으로 층층이 물러나는 외관이 옆에 조성되는 대형 공원의 지형을 수직으로 이어받은 듯한 형태를 만든다. 오목한 곡면 파사드는 그리스 신전의 열주를 참조했다."
+        },
+        {
+          "heading": "LIVING",
+          "body": "모든 세대에 개인 정원이 딸리고, 에게해와 아티카 산맥을 향한 조망이 열린다. 실내 20m 수영장과 태양광 패널을 갖춘 파빌리온도 들어선다."
+        },
+        {
+          "heading": "QUOTE",
+          "body": "설계 총괄 한나 요한손은 \"밀도와 삶의 질은 상충하는 게 아니라 서로를 강화할 수 있다\"고 말했다."
+        }
+      ]
+    }
+  ]
+}
