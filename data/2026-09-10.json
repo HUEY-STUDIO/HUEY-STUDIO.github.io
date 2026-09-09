@@ -1,0 +1,452 @@
+{
+  "vol": "VOL.01  NO.025",
+  "editor": "HUEY",
+  "counts": {
+    "total": 17,
+    "intl": 14,
+    "kr": 3
+  },
+  "outlets": [
+    "ArchDaily",
+    "designboom",
+    "Dezeen",
+    "Construction Dive",
+    "Buildner",
+    "대한건축사협회 건축사신문",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "리베스킨트, 프레미엄 임페리얼 수상",
+      "desc": "건축계 노벨상…6개 도시서 동시 발표",
+      "label": "AWARDS"
+    },
+    {
+      "title": "국토부, 건축정책 5년 만에 새판",
+      "desc": "제4차 건축정책기본계획 공청회 개최",
+      "label": "REGULATION"
+    },
+    {
+      "title": "구마 겐고 등 9인, 오두막 9채",
+      "desc": "스위스 작가촌에 건축가마다 다른 해석",
+      "label": "PROJECT"
+    },
+    {
+      "title": "신한울 3,4호기 건설전망대 공모",
+      "desc": "연면적 750㎡, 원전 공사현장 조망대",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 수상",
+    "lede": "다니엘 리베스킨트, 2026 프레미엄 임페리얼 건축 부문 수상…파리·런던·도쿄 등 6개 도시서 동시 발표",
+    "lede_em": "다니엘 리베스킨트",
+    "image": "https://images.adsttc.com/media/images/6aa0/24af/5c4d/8601/88ab/7a5e/newsletter/daniel-libeskind-awarded-the-2026-praemium-imperiale-for-architecture_1.jpg?1788880075",
+    "image_label": "ARCHDAILY",
+    "caption": "리베스킨드는 베를린 유대인박물관과 뉴욕 세계무역센터 마스터플랜으로 널리 알려져 있다 ⓒ Studio Libeskind",
+    "body": [
+      "일본미술협회가 주관하는 **2026 프레미엄 임페리얼**(Praemium Imperiale) 건축 부문 수상자로 폴란드계 미국 건축가 **다니엘 리베스킨트**가 선정됐다. 수상 소식은 **9월 8일** 파리·로마·베를린·뉴욕·런던·도쿄 6개 도시에서 동시에 발표됐다.",
+      "프레미엄 임페리얼은 **1988년**부터 매년 수여되는 국제 예술상으로, 건축·회화·조각·음악·연극영화 5개 부문에서 \"국경과 민족의 경계를 넘어선\" 공로자를 기린다. 수상자에게는 상금 **1,500만 엔**과 표창장이 주어지며, 시상식은 **10월 28일** 도쿄에서 열린다.",
+      "일본미술협회는 리베스킨트를 \"감성적이고 독창적인 건축으로 문화적 기억을 환기시키는 능력\"으로 평가하며, 음악·철학·문학에 대한 평생의 관심이 작업 전반에 배어 있다고 밝혔다. 그는 베를린 유대인박물관과 뉴욕 세계무역센터 마스터플랜으로 잘 알려져 있으며, 역사에 대한 존중과 과감한 형태 실험을 오가는 작업으로 평가받는다.",
+      "올해 프레미엄 임페리얼의 다른 부문 수상자는 연극영화 부문 **케이트 블란쳇**, 회화 부문 **제니 홀저**, 조각 부문 **앤디 골즈워디**, 음악 부문 **헤르베르트 블롬슈테트**다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.archdaily.com/1184771/daniel-libeskind-awarded-the-2026-praemium-imperiale-for-architecture"
+        }
+      ]
+    },
+    "topic": "수상"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "건축공간연구원",
+    "title": "국토부, 건축정책 5년 만에 새판…'제4차 건축정책기본계획' 공청회 개최",
+    "body": [
+      "국토교통부 의뢰로 건축공간연구원(AURI)이 **9월 8일** 서울 서소문성지 역사박물관에서 '제4차 건축정책기본계획(2026~2030)' 공청회를 열었다. 건축기본법에 따라 국토부 장관이 5년마다 수립하는 법정계획으로, 국가 건축정책의 방향을 제시하는 최상위 계획이다."
+    ],
+    "facts": [
+      "비전: \"모두를 담는 건축, 내일을 여는 도시, 글로컬 문화 공간\" 3대 비전 제시",
+      "정책전환 ①: 빈집·폐교·유휴시설 등 기존 공간 재편으로 지역과 삶의 변화에 대응",
+      "정책전환 ②: 지역 고유성을 국가 문화 경쟁력으로 확장하는 'K-건축문화공간' 지향",
+      "정책전환 ③·④: 설계·시공 중심에서 R&D·운영관리·데이터로 산업 영역 확대, AI 기반 행정·건축데이터 품질 제고 제도화"
+    ],
+    "body_after": [
+      "대한건축사협회는 이날 \"건축정책의 완성은 현장\"이라며, 제도의 명확성이 곧 건축사의 업무 환경 개선으로 이어질 수 있다고 짚었다. 제3차 계획이 지난해 종료된 데 따른 후속 계획으로, 국토부는 이번 공청회에서 수렴한 의견을 반영해 계획을 확정할 예정이다."
+    ],
+    "source": {
+      "outlet": "대한건축사협회 건축사신문",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21087"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "국제 · 주거",
+      "title": "스테파노 보에리, 이비자에 '사 카사'…CLT 목구조로 짓는 190가구 소셜하우징",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/SA-casa-stefano-boeri-architetti-affordable-housing-ibiza-spain-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "스테파노 보에리 아키텍티가 스페인 이비자 칸 에스칸델 지역에 사회주택 '사 카사'를 설계했다. 5,505㎡ 부지에 약 **190가구** 규모로, 경사진 지형을 따라 계단식으로 배치된 4개 매스가 중앙 정원과 공용 광장을 감싼다. 구조는 고비용·고탄소 공법 대신 **CLT(직교집성목)** 골조와 목재 프레임 외피를 채택해 프리패브 비중을 높였다.",
+        "가구별 평면은 세대 구성과 접근성 요구에 맞춰 재구성이 가능하도록 설계됐고, 깊은 발코니가 그늘진 외부 공간을 제공한다. 옥상녹화와 태양광 패널, 빗물·중수 재활용 시스템을 더해 지중해 기후에 대응하는 패시브 쿨링을 꾀했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/stefano-boeri-affordable-housing-ibiza-modular-timber-blocks-sa-casa/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 문화시설",
+      "title": "구마 겐고부터 알레한드로 아라베나까지…스위스 작가촌, 9인 건축가의 오두막 9채",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/kengo-kuma-elemental-cabins-writers-jan-michalski-foundation-switzerland-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "스위스 몽트리셰의 얀 미할스키 재단은 전 세계 작가·번역가에게 2주~3개월 단기 거주 공간을 제공하는 오두막 **9채**를 운영한다. 하나의 거대한 개방형 캐노피 아래 매달린 구조로, 구마 겐고, 알레한드로 아라베나(엘레멘탈), 마르시오 코간(스튜디오 MK27), 린탈라 에게르트손 등 9개 건축사무소가 저마다 다른 해석을 내놓았다.",
+        "린탈라 에게르트손은 중앙 계단을 둘러싼 4개 반층 구조로 도서관을 내려다보는 감시탑 같은 존재감을 냈고, 쇼브 즈비키는 이동에 제약이 있는 입주자를 위해 경사로 진입이 가능한 단층형으로 설계했다. 데코스테르는 소로의 '월든' 문장을 모스부호로 새긴 아연도금강판 외피로 업무·주거 공간을 수직 분리했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/kengo-kuma-elemental-cabins-writers-jan-michalski-foundation-switzerland/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "국제 · 제도/무역",
+      "title": "미, 캐나다산 철강·가구 등에 관세 확대…9월 29일부터 수입금지 품목도",
+      "image": "https://imgproxy.divecdn.com/nN1jwnEs0P-ILYyIUDyFxYhUs_UdyKGmiLJohYD3e6k/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjIwNDMzNjA5LmpwZw==.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "트럼프 행정부가 **9월 9일** 캐나다산 철강·알루미늄·용접자재·가구 등에 대한 관세를 **50%**로 확대하는 행정명령에 서명했다(9월 15일 발효). 800cc 초과 모터사이클과 맥주·와인 등 일부 품목은 **9월 29일**부터 수입 자체가 금지된다. 캐나다도 즉시 맞대응 관세로 응수하면서 양국 무역전쟁이 격화되고 있다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/trump-escalates-canada-trade-war-with-new-tariffs-import-bans/829931/"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국제 · 리테일",
+      "title": "합판과 스테인리스 스틸의 대비…트빌리시 옛 공장의 프린트숍",
+      "image": "https://www.designboom.com/twitterimages/uploads/2026/09/plywood-reflective-steel-retro-futurist-print-shop-tbilisi-former-factory-sandro-kvirikadze-designboom-1200-1-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "조지아 트빌리시의 옛 소비에트 공장 '파브리카' 안에 산드로 크비리카제 디자인 스튜디오가 그래픽 스튜디오 겸 매장 'JPG 프린트숍'을 꾸몄다. 따뜻한 질감의 합판 구조물과 차가운 스테인리스 스틸 마감이 대비를 이루고, 높이 약 3m의 이동식 3단 거울이 맞은편 목구조를 반사하며 공간감을 바꾼다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/plywood-reflective-steel-retro-futurist-print-shop-tbilisi-former-factory-sandro-kvirikadze/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 도시재생",
+      "title": "버려진 운하 부지가 놀이 지형으로…런던 해크니 '플레이스케이프 가든'",
+      "image": "https://www.designboom.com/twitterimages/uploads/2026/09/abandoned-canal-site-london-community-playscape-garden-designboom-1200-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "런던 해크니의 버려진 운하변 부지가 동굴형 구조물과 계단식 정원, 밧줄다리를 결합한 '플레이스케이프 가든' 구상안으로 재편된다. 건물 대신 오르내리고 탐험하는 지형 자체를 건축으로 삼아, 코로나19 이후 심화한 지역 공동체 단절을 킹슬랜드 베이슨 주변에서 다시 잇는 것이 목표다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/abandoned-canal-site-london-community-playscape-garden/"
+          }
+        ]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "다리 밑 유휴공간에 집을 짓다…국제 공모 '언더브릿지' 2회 접수",
+      "image": "https://static.designboom.com/wp-content/dbsub/404395/2026-03-24/mobile_image_1774350589_24bf8dc4f2bae574c89f8160a8c982f9.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "빌드너가 주최하는 저비용 주택 공모 시리즈 20번째 대회 '언더브릿지' 2회가 전 세계 교량 밑 유휴공간을 주거 커뮤니티로 바꾸는 아이디어를 모은다. 전문 자격 없이 개인·팀(최대 4인) 모두 참가할 수 있으며, 최종 등록 마감은 **9월 17일**, 작품 제출 마감은 **10월 19일**이다. 총상금은 **8,000유로**."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "공모 상세",
+            "url": "https://www.designboom.com/competition/underbridge-2/"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "재난유산 · 문화유산",
+      "title": "16세기 부재 그대로 남은 금산 신안사 대광전, 국가지정문화유산 보물 됐다",
+      "body": [
+        "국가유산청이 **9월 9일** 충남 금산 신안사 대광전을 국가지정문화유산 보물로 지정했다. 건립 연대 기록이 없었으나 **2023년** 연륜연대 분석으로 기둥·보·평방 등에서 **1583년** 부재가 다수 확인돼 16세기 최초 건립 사실이 과학적으로 증명됐다. 이후 1638년 중창, 1840년 중수를 거쳤다.",
+        "정면 5칸·측면 3칸 규모에 다포계 맞배지붕, 내외 3출목 공포를 갖췄다. 여러 차례 보수에도 최초 건립 당시의 부재와 치목기법을 그대로 유지하고 있는 점이 높은 학술·예술적 가치로 평가받았다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21086"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "설계공모 · 광주",
+      "title": "한전KDN 광주전남본부 사옥 신축 설계공모 공고…연면적 6,612㎡",
+      "body": [
+        "광주 남구 압촌동에 들어설 한전KDN 광주전남본부 사옥 신축 설계공모가 공고됐다. 연면적 6,612㎡, 설계비 12.1억원 규모의 일반 설계공모로 예정 공사비는 약 225억원이다. 참가등록 마감은 **9월 17일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 상세",
+            "url": "https://jootek.com/folio/contests/18885"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경북 울진",
+      "title": "신한울 3,4호기 건설전망대 신축 설계공모…원전 공사현장 조망대",
+      "body": [
+        "경북 울진군 신한울 3,4호기 건설현장 인근에 방문객이 공사 과정을 지켜볼 수 있는 건설전망대 설계공모가 나왔다. 연면적 750㎡, 설계비 1.5억원 규모의 간이공모로, 등록 마감은 **9월 15일**, 결과 발표는 **10월 27일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 상세",
+            "url": "https://jootek.com/folio/contests/18884"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "시애틀 사운드트랜짓, 웨스트시애틀 경전철 3년 연기",
+      "body": "재정 부담으로 2032년 개통 목표를 2035년으로 늦추고 애벌론역을 폐지하는 등 20억 달러 이상을 절감하기로 했다. 착공은 2028년이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/sound-transit-delays-west-seattle-link-project-3-years/829933/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "데이터센터 발주는 주춤, 사무·호텔·교육시설이 메웠다",
+      "body": "닷지 모멘텀 지수가 8월 전월 대비 0.4% 하락했으나 전년 동월 대비로는 4.2% 상승했다. 데이터센터를 제외하면 상업 부문 발주는 오히려 18.9% 감소한 것으로 나타났다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/data-center-planning-august-dodge-momentum-index/829925/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "\"보안과 안전은 다르다\"…여성 안전과 도시설계, 4개 공공공간의 교훈",
+      "body": "레바논 트리폴리, 이집트 카이로, 콜롬비아, 남아공의 공공공간 사례를 통해 감시 위주 '보안'과 가시성·동선·상시 활동에 기반한 '안전'의 차이를 짚었다. 조명·이동수단 접근성·유지관리가 핵심 변수로 꼽혔다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184374/the-role-of-urban-design-in-womens-safety-lessons-from-four-public-spaces"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "데진 어워즈 2026 지역쇼케이스, 유럽·중동·아프리카 50선 공개",
+      "body": "이탈리아·레바논·르완다·프랑스·남아공·튀르키예 등지의 건축·인테리어·디자인 프로젝트 50개가 '톱50: 유럽·중동·아프리카' 명단에 올랐다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/09/emea-regional-showcases-dezeen-awards/"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "리처드 로저스의 '22 파크사이드', 내셔널트러스트에 기증",
+      "body": "1960년대 말 로저스 부부가 자신의 부모를 위해 지은 프리패브 철골·유리 주택이 보존단체 내셔널트러스트로 소유권이 넘어갔다. 런던 오픈하우스 축제 기간 일반에 공개된다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/09/22-parkside-richard-su-rogers-national-trust/"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "title": "국토부·LH, 수도권 유휴토지 5,000억원 비축 매입 시범사업",
+      "body": "주택공급 위축 해소 후속조치로, 공동주택 건설이 가능한 3,300㎡ 이상 수도권 토지를 대상으로 한다. 신청 기간은 9월 29일부터 10월 28일까지다.",
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21081"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "libeskind-praemium-imperiale-2026",
+      "tag": "AWARDS",
+      "title": "리베스킨트, 건축계 최고 영예 프레미엄 임페리얼 품다",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "angular titanium museum architecture facade",
+      "slides": [
+        {
+          "heading": "건축계 노벨상,\n리베스킨트에게",
+          "body": "2026 프레미엄 임페리얼 건축 부문, 6개 도시서 동시 발표"
+        },
+        {
+          "heading": "WHAT",
+          "body": "일본미술협회가 폴란드계 미국 건축가 다니엘 리베스킨트를 2026 프레미엄 임페리얼 건축 부문 수상자로 선정했다. 9월 8일 파리·로마·베를린·뉴욕·런던·도쿄에서 동시 발표됐다."
+        },
+        {
+          "heading": "THE PRIZE",
+          "body": "1988년부터 매년 수여되는 국제 예술상으로, 건축·회화·조각·음악·연극영화 5개 부문에서 국경과 민족을 넘어선 공로자를 기린다. 상금은 1,500만 엔, 시상식은 10월 28일 도쿄에서 열린다."
+        },
+        {
+          "heading": "WHY HIM",
+          "body": "일본미술협회는 그를 \"감성적이고 독창적인 건축으로 문화적 기억을 환기시키는 능력\"으로 평가했다. 베를린 유대인박물관, 뉴욕 세계무역센터 마스터플랜이 대표작이다."
+        },
+        {
+          "heading": "OTHER LAUREATES",
+          "body": "올해 다른 부문 수상자는 연극영화 케이트 블란쳇, 회화 제니 홀저, 조각 앤디 골즈워디, 음악 헤르베르트 블롬슈테트다."
+        }
+      ]
+    },
+    {
+      "slug": "jan-michalski-writer-cabins",
+      "tag": "PROJECT",
+      "title": "구마 겐고부터 아라베나까지, 오두막 9채에 담긴 9가지 해석",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 1,
+      "photo_query": "minimalist wooden forest cabin canopy architecture",
+      "slides": [
+        {
+          "heading": "숲 속 캐노피 아래,\n작가를 위한 오두막 9채",
+          "body": "스위스 얀 미할스키 재단, 세계적 건축가 9인이 각자 다른 해석을 내놓다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "스위스 몽트리셰의 얀 미할스키 재단은 세계 각지 작가·번역가에게 2주~3개월 거주 공간을 제공한다. 하나의 거대한 개방형 캐노피 아래 오두막 9채가 매달려 있다."
+        },
+        {
+          "heading": "WHO",
+          "body": "구마 겐고, 알레한드로 아라베나(엘레멘탈), 마르시오 코간(스튜디오 MK27), 린탈라 에게르트손 등 9개 건축사무소가 참여해 저마다 다른 형태로 오두막을 해석했다."
+        },
+        {
+          "heading": "DETAIL 1",
+          "body": "린탈라 에게르트손은 중앙 계단을 둘러싼 4개 반층 구조로, 도서관을 내려다보는 감시탑 같은 존재감을 냈다. 접근성을 고려해 쇼브 즈비키는 경사로 진입이 가능한 단층형으로 설계했다."
+        },
+        {
+          "heading": "DETAIL 2",
+          "body": "데코스테르가 설계한 오두막은 헨리 데이비드 소로의 '월든' 문장을 모스부호로 새긴 아연도금강판 외피로 업무 공간과 주거 공간을 수직으로 나눴다."
+        }
+      ]
+    },
+    {
+      "slug": "sa-casa-ibiza-boeri",
+      "tag": "PROJECT",
+      "title": "이비자 언덕에 앉힌 목구조 소셜하우징, 사 카사",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "mediterranean terracotta modular housing courtyard timber",
+      "slides": [
+        {
+          "heading": "이비자 경사지에\n계단식으로 앉힌 목구조 마을",
+          "body": "스테파노 보에리 아키텍티의 사회주택 '사 카사'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "스테파노 보에리 아키텍티가 스페인 이비자 칸 에스칸델에 사회주택 '사 카사'를 설계했다. 5,505㎡ 부지에 약 190가구 규모다."
+        },
+        {
+          "heading": "FORM",
+          "body": "경사진 지형을 따라 계단식으로 배치된 4개 매스가 중앙 정원과 공용 광장을 감싸며, 지나갈 수 있는 통로와 안뜰을 곳곳에 만든다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "고탄소 공법 대신 CLT(직교집성목) 골조와 목재 프레임 외피를 채택해 프리패브 비중을 높이고 시공 폐기물과 현장 작업 시간을 줄였다."
+        },
+        {
+          "heading": "LIVING",
+          "body": "가구별 평면은 세대 구성과 접근성 요구에 맞춰 재구성할 수 있고, 깊은 발코니와 옥상녹화, 태양광 패널로 지중해 기후에 대응한다."
+        }
+      ]
+    }
+  ]
+}
