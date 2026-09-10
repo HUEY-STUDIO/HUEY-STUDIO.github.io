@@ -803,10 +803,10 @@ article .src{margin-top:auto}
     --sand:#2E2418;
     --sand-line:#443423;
     --sand-ink:#F2C9A8;
-    --paper:#100E0C;
-    --sheet:#1C1916;
-    --rule:#332C25;
-    --rule-2:#241F1A;
+    --paper:#0B0A08;
+    --sheet:#242019;
+    --rule:#3C342A;
+    --rule-2:#2A2520;
     --chart:#E8663C;
     --mark:#6B5A18;
     --iso-floor:#3A3128;
@@ -815,8 +815,8 @@ article .src{margin-top:auto}
     --ms-grass:#2E6B45;
     --ms-road:#4A433B;
     --ms-river:#2F5AA8;
-    --shadow-1:0 1px 2px rgba(0,0,0,.3);
-    --shadow-2:0 10px 28px rgba(0,0,0,.35);
+    --shadow-1:0 1px 2px rgba(0,0,0,.4);
+    --shadow-2:0 10px 28px rgba(0,0,0,.45);
   }
 }
 :root[data-theme="dark"]{
@@ -828,10 +828,10 @@ article .src{margin-top:auto}
   --sand:#2E2418;
   --sand-line:#443423;
   --sand-ink:#F2C9A8;
-  --paper:#100E0C;
-  --sheet:#1C1916;
-  --rule:#332C25;
-  --rule-2:#241F1A;
+  --paper:#0B0A08;
+  --sheet:#242019;
+  --rule:#3C342A;
+  --rule-2:#2A2520;
   --chart:#E8663C;
   --mark:#6B5A18;
   --iso-floor:#3A3128;
@@ -840,13 +840,19 @@ article .src{margin-top:auto}
   --ms-grass:#2E6B45;
   --ms-road:#4A433B;
   --ms-river:#2F5AA8;
-  --shadow-1:0 1px 2px rgba(0,0,0,.3);
-  --shadow-2:0 10px 28px rgba(0,0,0,.35);
+  --shadow-1:0 1px 2px rgba(0,0,0,.4);
+  --shadow-2:0 10px 28px rgba(0,0,0,.45);
 }
+/* 어두운 배경 위에서는 검정 계열 box-shadow가 사실상 안 보이므로,
+   지면(.sheet) 바깥 테두리를 옅게 더해 캔버스와의 경계를 명확히 한다.
+   계정·미니스페이스·피드백 카드는 이미 var(--rule) 테두리를 쓰고 있고,
+   지면보다 더 밝은 --sheet라 그 자체로 충분히 구분된다. */
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]) .thumb img{filter:brightness(.9)}
+  :root:not([data-theme="light"]) .sheet{border:1px solid var(--rule)}
 }
 :root[data-theme="dark"] .thumb img{filter:brightness(.9)}
+:root[data-theme="dark"] .sheet{border:1px solid var(--rule)}
 
 /* ================= 인쇄 ================= */
 @media print{
