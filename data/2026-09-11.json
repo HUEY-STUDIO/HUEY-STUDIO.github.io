@@ -1,0 +1,518 @@
+{
+  "vol": "VOL.01  NO.026",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 16,
+    "kr": 5
+  },
+  "outlets": [
+    "WHYY",
+    "ArchDaily",
+    "designboom",
+    "아주경제",
+    "대한건축사협회 건축사신문",
+    "파이낸셜뉴스",
+    "중부뉴스통신",
+    "주택폴리오",
+    "나라장터",
+    "대한건설경제",
+    "국토매일",
+    "한국경제",
+    "Construction Dive"
+  ],
+  "teasers": [
+    {
+      "title": "필라델피아 6조원 아레나 공개",
+      "desc": "76ers·플라이어스 새 홈, 스펙트럼 부지에",
+      "label": "PROJECT"
+    },
+    {
+      "title": "주택공급 착공률 29%",
+      "desc": "국토부 목표 대비 큰 격차",
+      "label": "REGULATION"
+    },
+    {
+      "title": "나무 먼저 심은 예레반 신도시",
+      "desc": "11헥타르 마스터플랜 '아마누'",
+      "label": "PROJECT"
+    },
+    {
+      "title": "경주서 세계유산산업엑스포 개막",
+      "desc": "10돌, AI 유산 콘텐츠 대거 등장",
+      "label": "PROJECT"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 프로젝트",
+    "lede": "옛 스펙트럼 자리에 6조 원 아레나…필라델피아 76ers·플라이어스 새 홈구장 공개",
+    "lede_em": "6조 원 아레나",
+    "image": "https://whyy.org/wp-content/uploads/2026/09/south-philadelphia-arena-rendering-090826-01-768x512.jpg",
+    "image_label": "WHYY",
+    "caption": "필라델피아 사우스필리 스포츠단지에 들어설 새 아레나 조감도 ⓒ Populous·Moody Nolan",
+    "body": [
+      "미국 건축사무소 **파퓰러스**와 **무디놀란**이 필라델피아 사우스필리 스포츠단지에 들어설 NBA 76ers·NHL 플라이어스의 새 홈구장 설계를 공개했다. 1967년 지어졌다가 2011년 철거된 옛 '스펙트럼' 경기장 부지에, 스펙트럼의 원형 구조를 현대적으로 재해석한 '스퀴클(둥근 정사각형)' 매스로 짓는다.",
+      "적층된 캔틸레버 구조로 매스를 층층이 어긋나게 쌓아 대형 경기장의 위압감을 줄였고, 필라델피아 미술관 계단을 연상시키는 대형 계단이 공공 만남의 장소 역할을 한다. 옥외 공간만 반 에이커가 넘는다.",
+      "해리스 블리처와 컴캐스트가 발주한 이 사업은 필라델피아 역사상 최대 규모의 순수 민간자금 프로젝트로, 향후 10년간 **약 60억 달러**의 경제효과와 **1만 5,000개**에 달하는 일자리를 창출할 것으로 추산된다. 착공은 2027년 초, 완공은 2030년을 목표로 하며 2030년 창단하는 WNBA 신생팀의 홈구장도 겸한다.",
+      "설계는 브루클린 바클레이스 센터를 설계한 파퓰러스와, 미국 최대 흑인 소유 건축사무소인 무디놀란이 함께 맡았다."
+    ],
+    "source": {
+      "outlet": "WHYY",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://whyy.org/articles/south-philadelphia-new-arena-design-76ers-comcast/"
+        }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://image.ajunews.com/content/image/2026/09/07/20260907143340429222.png",
+    "image_label": "아주경제",
+    "title": "주택공급 확대방안 1년, 착공률 29%…목표 달성 '빨간불'",
+    "body": [
+      "국토교통부가 지난해 9월 내놓은 '주택공급 확대방안' 시행 1년을 맞았지만, 수도권 착공 실적이 목표치의 3분의 1에도 못 미치는 것으로 나타났다."
+    ],
+    "facts": [
+      "연간 목표: 수도권 착공 **26만 8,000가구**",
+      "실적(7월 기준): **7만 8,000가구**(달성률 **29.1%**)",
+      "5개년 목표: 2026~2030년 총 **135만 가구**(연 27만 가구)",
+      "인허가 후 미착공: 전국 **20만 9,270가구**(79.9%가 토지보상·기반시설 지연)"
+    ],
+    "body_after": [
+      "연간 목표를 채우려면 8~12월에만 작년 같은 기간의 **2.1배**에 달하는 약 19만 가구가 새로 착공해야 한다. 관련 입법은 지난달에야 국회를 통과해 시행 시점보다 11개월 늦었고, 전문가들은 목표 달성이 '현실적으로 어렵다'는 평가를 내놓고 있다."
+    ],
+    "source": {
+      "outlet": "아주경제",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.ajunews.com/view/20260907143023855"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "프로젝트 · 유럽",
+      "title": "정원도시 위에 스포츠 회로…네덜란드 힐베르쉼 복합체육시설",
+      "image": "https://images.adsttc.com/media/images/6aa2/26db/43f9/c501/88fd/1b3c/newsletter/this-weeks-review_7.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "네덜란드 건축사무소 **벤트험 크라우얼 아키텍츠**와 **LD 아키텍턴**이 힐베르쉼 스포츠파크에 들어설 복합체육시설 유럽 입찰에서 품질·가격 평가를 통틀어 최고점을 받아 설계권을 따냈다. 수영장과 실내체육관, 교육·커뮤니티 공간을 한데 묶은 복합시설이다.",
+        "설계의 중심은 초록 전정과 아트리움, 체육시설을 잇는 순환 동선 '3D 스포츠 패스'다. 정원도시로 유명한 힐베르쉼의 건축 전통을 참조해 조경과 채광, 주변 풍경과의 시각적 연결을 설계의 핵심으로 삼았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184844/a-proposal-for-a-new-world-map-and-two-new-sports-complexes-this-weeks-review"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프로젝트 · 도시계획",
+      "title": "나무부터 심고 도시를 짓다…예레반 11헥타르 '아마누' 마스터플랜",
+      "image": "https://images.adsttc.com/media/images/6aa2/4430/237b/e901/8be9/6312/newsletter/a-proposal-for-a-new-world-map-and-two-new-sports-complexes-this-weeks-review_48.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "아르메니아 **하카먄 헤리티지**와 **소고모냔 아키텍츠**가 설계한 예레반 주거단지 마스터플랜 '아마누'가 도심에서 2.5㎞ 떨어진 11헥타르 부지에서 2036년 완공을 목표로 진행 중이다. 통상적인 시공 순서를 뒤집어, 1단계 구역 '아이비'는 나무·관목 **1,100그루**를 먼저 심은 뒤에 건물을 올렸다.",
+        "2025년 완공된 아이비는 1헥타르 부지에 4개 동, 50가구 규모로, 담쟁이 잎 모양에서 딴 곡선형 매스가 특징이다. 외피는 아르메니아산 응회암으로 마감했는데, 곡면에 맞추기 위해 1㎡당 최대 16가지 다른 크기의 석재를 썼다. 전체 마스터플랜은 헥타르당 약 50가구로 밀도를 제한하고 부지의 75% 이상을 녹지로 남긴다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184844/a-proposal-for-a-new-world-map-and-two-new-sports-complexes-this-weeks-review"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "프로젝트 · 교육시설",
+      "title": "고가도로 옆, 나무로 둘러싼 유치원…상파울루 산타크루즈 스쿨",
+      "image": "https://images.adsttc.com/media/images/6aa1/b7d4/05b6/9900/01b5/3668/large_jpg/Nelson_Kon_01K_9360_06.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "**안드라지 모레칭 아르키테투스**가 설계한 상파울루 산타크루즈 스쿨 유치원동이 완공됐다. 연면적 **3,417㎡** 규모로, 오로보 거리 쪽 출입구를 통해 본교와 연결하면서 마르지날 피녜이루스 고속도로의 소음과 시야는 차단했다. 노출보와 목재 마감을 곳곳에 적용해 아이들에게 따뜻한 학습 환경을 만들었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184838/santa-cruz-school-kindergarten-andrade-morettin-arquitetos-associados"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건설업 · 인프라",
+      "title": "라스베이거스 레이더스 홈구장에 1억 5,800만 달러 광장…그림쇼 설계",
+      "image": "https://images.adsttc.com/media/images/6aa2/3f2d/43f9/c501/88fd/1b47/newsletter/this-weeks-review_17.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "영국 건축사무소 **그림쇼**가 라스베이거스 얼리전트 스타디움 북쪽 옛 주차장 2곳을 보행자 광장으로 바꾸는 프로젝트를 맡았다. 하시엔다 애비뉴 고가도로에서 경기장 북문까지 이어지는 인도교 데크와 소규모 공연 무대를 겸하는 캐노피, 데크 아래 승차공유 승하차 구역이 들어선다. 라스베이거스 스타디움청은 약 **1억 5,800만 달러** 규모 사업에 **7,500만 달러**까지 지원하기로 만장일치 승인했다. 2029년 슈퍼볼을 앞두고 혼잡을 줄이기 위한 사업이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184844/a-proposal-for-a-new-world-map-and-two-new-sports-complexes-this-weeks-review"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "인터뷰 · 프랑스",
+      "title": "모로코 리아드에서 자란 쌍둥이 건축가…미쿠 아키텍처의 '손끝 기술'",
+      "image": "https://images.adsttc.com/media/images/6aa1/282f/237b/e901/8be9/6017/medium_jpg/living-with-contrasts-is-something-very-meaningful-salwa-and-selma-mikou-on-architecture-and-craft-in-louisiana-channel-interview_4.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "모로코 전통 가옥 리아드에서 자란 쌍둥이 **살와·셀마 미쿠**가 이끄는 파리 기반 미쿠 아키텍처가 루이지애나 채널과의 인터뷰에서 '기술과 손기술의 결합'을 설계 철학으로 제시했다. 프리패브 공법을 개별화된 스마트 건축으로 가는 길로 보고, 스케치와 콜라주를 오가는 협업 설계 과정을 소개했다. 샤토루의 발사네오 수영장, 리세 장 뤼르사, 보르도의 아르 드 리브 등이 대표작으로 꼽힌다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184803/living-with-contrasts-is-something-very-meaningful-salwa-and-selma-mikou-on-architecture-and-craft-in-louisiana-channel-interview"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프로젝트 · 프랑스",
+      "title": "목구조 캠퍼스로 짓는 창업 인큐베이터…생제르맹앙레 '익스캠퍼스'",
+      "image": "https://images.adsttc.com/media/images/6a9e/bbe6/1fe7/3101/8863/0abb/newsletter/ixcampus-baumschlager-eberle-architekten_25.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "목구조 전문 건축사무소 **바움슐라거 에벨레 아키텍텐**이 프랑스 생제르맹앙레에 연구·창업 복합캠퍼스 '익스캠퍼스'를 완공했다. 연면적 **1만 7,728㎡** 규모로, 연구·교육동 '그랑드 오랑주리'(8,572㎡)와 십자형 스타트업 제조동 '앵큐바퇴르'(3,102㎡)로 구성되며 주요 구조·마감재로 목재를 썼다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184644/ixcampus-baumschlager-eberle-architekten"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 전남",
+      "title": "영광도서관 증축 설계공모…연면적 8,234㎡",
+      "body": [
+        "전라남도 영광읍 영광도서관 증축·리모델링 사업 설계공모가 시행됐다. 간이공모 방식으로 진행되며 연면적은 **8,234㎡**, 설계비 **19억 원**, 공사비는 **420억 원** 규모다. 참가등록 마감은 **9월 18일**, 결과는 10월 26일 발표된다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 상세",
+            "url": "https://jootek.com/folio/contests/18890"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경기",
+      "title": "남양주 덕소, 학교복합 문화센터 설계공모…공사비 1,130억",
+      "body": [
+        "경기 남양주시 와부읍에 들어설 교육·문화 복합시설 설계공모가 공고됐다. 일반공모 방식으로 규모는 **2,896㎡**, 설계비 **65억 원**, 공사비는 **1,130억 원**이다. 참가등록은 9월 16~17일, 결과는 11월 20일 발표된다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 상세",
+            "url": "https://jootek.com/folio/contests/18889"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 제주",
+      "title": "제주 우도면 직원숙소 신축 설계공모 등록 시작",
+      "body": [
+        "제주특별자치도가 우도면 소속 직원 숙소 신축 설계공모 참가등록을 9월 8일부터 받고 있다. 일반형식 공모로 진행되며, 접수 마감은 **10월 23일**이다."
+      ],
+      "source": {
+        "outlet": "나라장터",
+        "links": [
+          {
+            "text": "공고 상세",
+            "url": "https://www.hub.go.kr/portal/dps/dsr/idx-dsr-selectDesignPbpPbancList.do"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 도시재생",
+      "title": "2026 대한민국 도시대상, 평택·경주 최고상",
+      "body": [
+        "국토교통부가 9월 9일 부산 벡스코에서 열린 '2026 세계스마트시티엑스포'에서 대한민국 도시대상 시상식을 열었다. 전국 229개 지자체를 심사한 결과 대통령상은 수소 인프라와 재생에너지를 접목한 평택시가, 국무총리상은 주민 주도로 쇠퇴한 황촌마을을 재생한 경주시가 받았다. 파주시·서울 종로구·광주 동구 등 11개 지자체는 국토부 장관상을 받았다."
+      ],
+      "source": {
+        "outlet": "중부뉴스통신",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.jungbunews.com/news/articleView.html?idxno=2720361"
+          }
+        ]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "국내 · 문화유산",
+      "title": "10돌 맞은 세계유산산업엑스포, 경주서 개막",
+      "body": [
+        "국가유산청이 주최하는 세계유산산업엑스포가 9월 10일부터 12일까지 경주 화백컨벤션센터(HICO)에서 열린다. 2017년 36개사 54부스로 시작해 올해 **129개사 278부스** 규모로 커졌다. 보존·복원 기술과 전통 재료·공예, AI·3D·XR 유산 콘텐츠를 선보이며, AI로 만든 단편영화 11편을 모은 'AI 시네마'도 마련됐다. 11일에는 'AI 전환 시대' 유산산업 포럼이, 12일에는 뇌과학자 장동선과 이세돌 전 프로바둑기사가 참여하는 창의성 토론이 열린다."
+      ],
+      "source": {
+        "outlet": "파이낸셜뉴스",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.fnnews.com/news/202609070925477727"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "대한건축사협회장, 국회 국토위원과 건축업계 현안 논의",
+      "body": "김재록 회장이 김정재 의원(국토위 법안소위)을 만나 소규모 건축사사무소·지역 건설업체의 경영난을 전하고 제도 개선을 요청했다. 8월 13일부터 이어온 소위원 간담회의 일환이다.",
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21071"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "국토부·고용부, 건설현장 추락사고 예방 공모전",
+      "body": "홍보영상과 정책제안 2개 부문으로 9월 14일~10월 13일 접수한다. 총 16점을 선정해 대상 4점에 각 500만 원을 지급하며, 건설현장 사망사고 1위인 추락사고 감축이 목적이다.",
+      "source": {
+        "outlet": "대한건설경제",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.kcenews.kr/9603"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "7월 건설수주 15조 8천억원…전년비 30.6%↓",
+      "body": "공공 수주가 21.9%, 민간이 33.3% 줄며 건설수주가 큰 폭으로 감소했다. 반면 건설기성은 2.4% 늘었고 건설공사비지수는 5.8% 올라 공사비 부담은 여전한 것으로 나타났다.",
+      "source": {
+        "outlet": "국토매일",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://pmnews.co.kr/124339"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "스칸스카 USA, 신임 인프라부문 CFO에 안토니아 유네린드",
+      "body": "20년 가까이 스칸스카에 몸담으며 투자자관계·재무를 두루 거친 유네린드가 내년 1월 1일부로 미국 인프라부문 최고재무책임자를 맡는다. 전임 야리 맨튈래는 은퇴를 앞두고 전략 업무로 자리를 옮긴다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/skanska-us-infrastructure-cfo/829275/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "국토부, 7월 전국 미분양 6만 8,217호…수도권이 증가분 91.5% 차지",
+      "body": "전월 대비 753호 늘며 6개월 만에 최대치를 기록했다. 특히 수도권 미분양이 1만 9,459호로 전월보다 689호 늘어 전국 증가분의 91.5%를 차지했고, 전국 대비 수도권 비중도 1년 전 21.3%에서 28.5%로 커졌다.",
+      "source": {
+        "outlet": "한국경제",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.hankyung.com/article/202608312314i"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "게르하르트 리히터, '스트라이프' 회화로 도하에 6각형 파빌리온",
+      "body": "화가 게르하르트 리히터가 셀도프 아키텍츠와 함께 카타르 도하 이슬람미술관 옆 미아파크에 영구 전시관을 짓는다. 자신의 2011년 아트북 '패턴'에서 뽑은 반복 무늬로 외벽을 감쌌고, 내부엔 대형 '스트라이프' 회화 3점과 이번 프로젝트를 위해 새로 제작한 조형물 '스트라이프 타워'를 들인다. 11월 20일 도하 비주얼아트 트리엔날레 '루바이야 카타르' 개막에 맞춰 공개된다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/gerhard-richter-hexagonal-doha-pavilion-strip-paintings-qatar-sellforf/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "버려질 콘크리트관을 다시 쓰다…뭄바이 '리컨크리트' 파빌리온",
+      "body": "빌드너 국제 콘크리트 파빌리온 공모전 우수상 수상작으로, 폐기 예정인 지름 2.1m 프리캐스트 콘크리트 하수관을 세로로 자르고 돌려 매달아 벽·통로·좌석·채광정을 만든다. 부수어 골재로 버리는 대신 원통형 그대로 재사용해 시민 공간으로 되살리자는 제안이다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/cut-rotated-suspended-concrete-pipes-reusable-pavilion-mumbai/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "이불 말리던 풍습을 파사드로…VELUX 학생 공모전 대상은 중국 팀",
+      "body": "시안건축과학기술대 쉬치청 팀의 '선 더 퀼트'가 제12회 VELUX 라이트 오브 투모로우 글로벌 어워드에서 대상을 받았다. 양쯔강 삼각주 지역의 이불 말리기 풍습에서 착안해 개폐형 창과 확장형 프레임으로 여닫이·차양·환기를 겸하는 반응형 파사드를 제안했다. 이 작품은 바르셀로나 UIA 세계건축대회에서 소개된 8개 최종작 중 하나였다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184122/sun-the-quilt-wins-the-2026-velux-light-of-tomorrow-global-award-with-a-responsive-facade-inspired-by-daily-rituals"
+          }
+        ]
+      },
+      "topic": "수상"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "philadelphia-76ers-flyers-arena",
+      "tag": "PROJECT",
+      "title": "옛 스펙트럼 자리에 6조 원 아레나, 필라델피아 새 홈구장 공개",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "sports arena exterior building",
+      "slides": [
+        {
+          "heading": "6조 원 아레나,\n스펙트럼 자리에",
+          "body": "필라델피아 76ers·플라이어스 새 홈구장 설계 공개"
+        },
+        {
+          "heading": "WHAT",
+          "body": "파퓰러스와 무디놀란이 필라델피아 사우스필리 스포츠단지, 옛 '스펙트럼' 경기장 부지에 NBA 76ers와 NHL 플라이어스의 새 홈구장 설계를 공개했다. 1967년 지어져 2011년 철거된 스펙트럼의 원형 구조를 현대적으로 재해석했다."
+        },
+        {
+          "heading": "FORM",
+          "body": "둥근 정사각형 '스퀴클' 매스를 층층이 어긋나게 쌓은 적층형 캔틸레버 구조로 대형 경기장의 위압감을 줄였다. 필라델피아 미술관 계단을 연상시키는 대형 계단이 공공 만남의 장소가 된다.",
+          "photo_query": "philadelphia museum of art steps"
+        },
+        {
+          "heading": "SCALE",
+          "body": "필라델피아 역사상 최대 규모의 순수 민간자금 프로젝트로, 향후 10년간 약 60억 달러의 경제효과와 1만 5,000개 일자리를 창출할 것으로 추산된다."
+        },
+        {
+          "heading": "TIMELINE",
+          "body": "착공은 2027년 초, 완공은 2030년 목표다. 2030년 창단하는 WNBA 신생팀의 홈구장도 겸하게 된다."
+        }
+      ]
+    },
+    {
+      "slug": "gyeongju-heritage-expo-2026",
+      "tag": "HERITAGE",
+      "title": "10돌 맞은 세계유산산업엑스포, 경주서 개막",
+      "ref": {
+        "section": "korea",
+        "index": 4
+      },
+      "bg": 1,
+      "photo_query": "gyeongju korea traditional architecture",
+      "slides": [
+        {
+          "heading": "유산이\n산업이 되다",
+          "body": "10돌 맞은 세계유산산업엑스포, 경주서 개막"
+        },
+        {
+          "heading": "WHAT",
+          "body": "국가유산청이 주최하는 세계유산산업엑스포가 9월 10일부터 12일까지 경주 화백컨벤션센터(HICO)에서 열린다. 2017년 36개사 54부스로 시작해 올해 129개사 278부스 규모로 커졌다."
+        },
+        {
+          "heading": "CONTENT",
+          "body": "보존·복원 기술과 전통 재료·공예, AI·3D·XR 유산 콘텐츠가 전시된다. AI로 만든 단편영화 11편을 모은 'AI 시네마' 상영도 마련됐다."
+        },
+        {
+          "heading": "PROGRAM",
+          "body": "11일에는 'AI 전환 시대' 유산산업 포럼이, 12일에는 뇌과학자 장동선과 이세돌 전 프로바둑기사가 참여하는 창의성 토론이 열린다. 한옥문화엑스포도 함께 열린다."
+        }
+      ]
+    },
+    {
+      "slug": "amanoo-yerevan-masterplan",
+      "tag": "PROJECT",
+      "title": "나무부터 심고 도시를 짓다, 예레반 '아마누' 마스터플랜",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "yerevan armenia architecture",
+      "slides": [
+        {
+          "heading": "나무부터 심고\n도시를 짓다",
+          "body": "예레반 11헥타르 마스터플랜 '아마누'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "아르메니아 하카먄 헤리티지와 소고모냔 아키텍츠가 설계한 예레반 주거단지 마스터플랜 '아마누'가 도심에서 2.5㎞ 떨어진 11헥타르 부지에서 2036년 완공을 목표로 진행 중이다."
+        },
+        {
+          "heading": "ORDER REVERSED",
+          "body": "통상적인 시공 순서를 뒤집어, 1단계 구역 '아이비'는 나무·관목 1,100그루를 먼저 심은 뒤에 건물을 올렸다. 2025년 완공된 아이비는 1헥타르 부지에 4개 동, 50가구 규모다.",
+          "photo_query": "tree planting landscape construction"
+        },
+        {
+          "heading": "FORM",
+          "body": "담쟁이 잎 모양에서 딴 곡선형 매스가 특징이며, 외피는 아르메니아산 응회암으로 마감했다. 곡면에 맞추기 위해 1㎡당 최대 16가지 다른 크기의 석재를 썼다.",
+          "photo_query": "armenia tuff stone architecture"
+        },
+        {
+          "heading": "DENSITY",
+          "body": "전체 마스터플랜은 헥타르당 약 50가구로 밀도를 제한하고 부지의 75% 이상을 녹지로 남긴다."
+        }
+      ]
+    }
+  ]
+}
