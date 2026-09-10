@@ -100,7 +100,7 @@ b{font-weight:800; color:var(--ink)}
 .home-resizer::before{
   content:""; position:sticky; top:50vh; z-index:1;
   display:block; width:5px; height:48px; margin:0 auto; border-radius:999px;
-  background:var(--ink-3); opacity:.5; box-shadow:0 0 0 6px var(--paper);
+  background:var(--ink-3); opacity:.5; box-shadow:0 0 0 6px var(--sheet);
   transition:background .15s, opacity .15s, height .15s;
 }
 .home-resizer:hover::after, .home-resizer.is-dragging::after{background:var(--hot); width:3px}
@@ -307,9 +307,14 @@ b{font-weight:800; color:var(--ink)}
 /* v1은 지면을 액자처럼 테두리+그림자로 띄웠지만, v2는 캔버스(--paper) 위에
    지면(--sheet)이 이어지듯 평평하게 흐르게 한다 — 박스가 아니라 여백으로
    경계를 표현. 브랜드바/푸터의 풀블리드(-20px)는 이 패딩값과 짝을 맞춘다. */
+/* .sheet가 브랜드바~기사~푸터를 아우르는 "한 장의 지면" 그 자체다.
+   바깥 body(--paper)와는 다른 톤(--sheet)으로 명확히 경계를 지어야
+   전체가 하나의 블록으로 읽힌다 — 이 톤을 body와 같게 두면 페이지 전체가
+   테두리 없이 캔버스에 녹아버려 조각조각 흩어져 보인다. */
 .sheet{
-  max-width:1180px; margin:0 auto; background:var(--paper);
+  max-width:1180px; margin:0 auto; background:var(--sheet);
   border:0; padding:0 32px 40px; border-radius:var(--r-lg);
+  box-shadow:var(--shadow-2);
 }
 
 /* ---- 브랜드 바 ---- */
@@ -328,7 +333,7 @@ b{font-weight:800; color:var(--ink)}
 /* ---- 상단 티저 ---- */
 .topstrip{display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:6px}
 .teaser{
-  padding:16px 18px; border-radius:var(--r-md); background:var(--sheet);
+  padding:16px 18px; border-radius:var(--r-md); background:var(--paper);
   display:flex; flex-direction:column; gap:5px; min-height:88px;
 }
 .teaser h4{margin:0; font-size:12.5px; font-weight:800; line-height:1.42; letter-spacing:-.02em}
@@ -358,7 +363,7 @@ b{font-weight:800; color:var(--ink)}
   padding:6px 14px; border-radius:999px; color:var(--ink-2); text-decoration:none;
   transition:background .15s, color .15s;
 }
-.catbar a:hover{background:var(--sheet); color:var(--ink)}
+.catbar a:hover{background:var(--paper); color:var(--ink)}
 .catbar a.hi{background:var(--ink); color:var(--sheet); font-weight:800}
 .infobar{
   display:flex; flex-wrap:wrap; justify-content:space-between; gap:6px 18px;
@@ -409,7 +414,7 @@ figcaption{font-size:10.5px; line-height:1.5; color:var(--ink-3); padding:8px 2p
 .topcols p{margin:0 0 14px}
 .topside{
   padding:24px; display:flex; flex-direction:column;
-  background:var(--sheet); border-radius:var(--r-lg);
+  background:var(--paper); border-radius:var(--r-lg);
 }
 .sidehead{
   padding:0 0 12px; margin-bottom:14px;
@@ -447,13 +452,13 @@ article .src{margin-top:auto}
 .feature{display:grid; grid-template-columns:1.05fr 1fr; gap:28px; align-items:start}
 .feature .thumb{aspect-ratio:4/3; margin:0}
 .kr-side{
-  border-left:0; padding:20px !important; background:var(--sheet); border-radius:var(--r-lg);
+  border-left:0; padding:20px !important; background:var(--paper); border-radius:var(--r-lg);
 }
 
 /* ---- 단신 ---- */
 .briefs{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
 .brief{
-  padding:18px 20px; border:0; border-radius:var(--r-md); background:var(--sheet);
+  padding:18px 20px; border:0; border-radius:var(--r-md); background:var(--paper);
 }
 .brief h4{margin:0 0 7px; font-size:13.5px; font-weight:800; line-height:1.42; letter-spacing:-.02em}
 .brief p{margin:0 0 8px; font-size:12px; line-height:1.72; color:var(--ink-2)}
@@ -462,8 +467,8 @@ article .src{margin-top:auto}
 /* ---- 지면 푸터 ---- */
 /* ---- 홈페이지 피드백/댓글 채팅방 ---- */
 .feedback-room{
-  margin-top:20px; padding:20px 22px; border:0; border-radius:var(--r-lg); background:var(--sheet);
-  box-shadow:var(--shadow-1);
+  margin-top:20px; padding:20px 22px; border-radius:var(--r-lg); background:var(--sheet);
+  border:1px solid var(--rule); box-shadow:var(--shadow-1);
 }
 .fr-head{display:flex; align-items:baseline; gap:10px; margin-bottom:14px; padding-bottom:12px; border-bottom:1px solid var(--rule)}
 .fr-title{font-size:14px; font-weight:900; color:var(--ink)}
@@ -573,7 +578,7 @@ article .src{margin-top:auto}
   display:grid; grid-template-columns:150px 1fr auto; gap:18px; align-items:center;
   padding:18px 16px; text-decoration:none; color:inherit; border-radius:var(--r-md); transition:background .15s;
 }
-.ar-row a:hover{background:var(--sheet)}
+.ar-row a:hover{background:var(--paper)}
 .ar-date{font-size:13px; font-weight:800; letter-spacing:.04em; color:var(--red)}
 .ar-date em{font-style:normal; margin-left:7px; font-size:11px; color:var(--ink-3)}
 .ar-title{font-size:16px; font-weight:700; letter-spacing:-.02em; line-height:1.5}
@@ -584,7 +589,7 @@ article .src{margin-top:auto}
 /* ---- 카테고리 아카이브 ---- */
 .cat-list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px}
 .cat-row{display:grid; grid-template-columns:150px 1fr; gap:22px; padding:18px; border-bottom:0; border-radius:var(--r-md)}
-.cat-row:hover{background:var(--sheet)}
+.cat-row:hover{background:var(--paper)}
 .cat-thumb{aspect-ratio:4/3; align-self:start}
 .cat-date{display:block; font-size:12px; font-weight:800; letter-spacing:.04em; color:var(--red); margin-bottom:4px}
 .cat-main h3{font-size:16.5px; margin:0 0 8px}
@@ -610,14 +615,14 @@ article .src{margin-top:auto}
 }
 .io-cell{
   display:flex; flex-direction:column; justify-content:center; gap:3px;
-  padding:16px 18px; border:0; background:var(--sheet); border-radius:var(--r-md);
+  padding:16px 18px; border:0; background:var(--paper); border-radius:var(--r-md);
   text-decoration:none; color:inherit; transition:background .15s;
 }
 .io-cell:hover{background:var(--sand)}
 .io-cell.is-empty{border:0; background:transparent; pointer-events:none}
 .io-next{text-align:right}
 .io-all{justify-content:center; text-align:center; background:transparent; border:1px dashed var(--rule)}
-.io-all:hover{background:var(--sheet)}
+.io-all:hover{background:var(--paper)}
 .io-label{font-size:10.5px; font-weight:800; letter-spacing:.1em; color:var(--red)}
 .io-date{font-size:14px; font-weight:800; letter-spacing:-.01em}
 .io-date em{font-style:normal; font-size:11px; color:var(--ink-3); margin-left:4px}
@@ -626,7 +631,7 @@ article .src{margin-top:auto}
 .sc-box{margin:30px 0 10px}
 .sc-input{
   width:100%; padding:16px 18px; font-family:inherit; font-size:15px; font-weight:600;
-  color:var(--ink); background:var(--sheet);
+  color:var(--ink); background:var(--paper);
   border:0; border-radius:var(--r-md); outline:none;
 }
 .sc-input:focus{box-shadow:0 0 0 3px rgba(255,77,26,.16)}
@@ -634,7 +639,7 @@ article .src{margin-top:auto}
 .sc-chips{display:flex; flex-wrap:wrap; gap:7px; margin:14px 0 12px}
 .sc-chip{
   padding:6px 13px; font-family:inherit; font-size:11.5px; font-weight:700; cursor:pointer;
-  color:var(--ink-2); background:var(--sheet); border:0; border-radius:999px;
+  color:var(--ink-2); background:var(--paper); border:0; border-radius:999px;
 }
 .sc-chip:hover{color:var(--hot)}
 .sc-chip.on{background:var(--ink); color:var(--sheet)}
@@ -644,7 +649,7 @@ article .src{margin-top:auto}
   display:grid; grid-template-columns:78px 1fr; gap:16px; align-items:start;
   padding:14px 12px; border-bottom:0; border-radius:var(--r-md); text-decoration:none; color:inherit;
 }
-.sc-row a:hover{background:var(--sheet)}
+.sc-row a:hover{background:var(--paper)}
 .sc-date{font-size:12px; font-weight:800; color:var(--red); letter-spacing:.02em; padding-top:2px}
 .sc-main{display:block; min-width:0}
 .sc-kicker{display:block; font-size:10.5px; font-weight:800; letter-spacing:.08em; color:var(--ink-3); margin-bottom:3px}
@@ -658,7 +663,7 @@ article .src{margin-top:auto}
   display:grid; grid-template-columns:64px 1fr; gap:16px; align-items:start;
   padding:14px 12px; border-bottom:0; border-radius:var(--r-md); text-decoration:none; color:inherit;
 }
-.wk-row a:hover{background:var(--sheet)}
+.wk-row a:hover{background:var(--paper)}
 .wk-date{font-size:14px; font-weight:900; color:var(--red); letter-spacing:-.02em}
 .wk-date em{display:block; font-style:normal; font-size:10.5px; font-weight:700; color:var(--ink-3)}
 .wk-main{display:block; min-width:0}
@@ -667,7 +672,7 @@ article .src{margin-top:auto}
 
 /* ================= 통계 ================= */
 .st-tiles{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:24px 0 10px; background:transparent}
-.st-tile{display:flex; flex-direction:column; gap:4px; padding:20px 18px; background:var(--sheet); border-radius:var(--r-md)}
+.st-tile{display:flex; flex-direction:column; gap:4px; padding:20px 18px; background:var(--paper); border-radius:var(--r-md)}
 .st-tv{font-size:32px; font-weight:900; letter-spacing:-.03em; line-height:1; color:var(--ink)}
 .st-tv i{font-style:normal; font-size:17px; margin-left:1px; color:var(--ink-3)}
 .st-tl{font-size:11px; font-weight:700; letter-spacing:.06em; color:var(--ink-3)}
