@@ -1,0 +1,492 @@
+{
+  "vol": "VOL.01  NO.027",
+  "editor": "HUEY",
+  "counts": {
+    "total": 19,
+    "intl": 14,
+    "kr": 5
+  },
+  "outlets": [
+    "designboom",
+    "ArchDaily",
+    "Dezeen",
+    "Construction Dive",
+    "대한건축사협회 건축사신문",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "케찰코아틀 공원",
+      "desc": "멕시코, 뱀의 신을 닮은 20년째 조경 프로젝트",
+      "label": "FEATURE"
+    },
+    {
+      "title": "9·11 25주기",
+      "desc": "AECOM 티시먼, WTC 재건 25년을 돌아보다",
+      "label": "FEATURE"
+    },
+    {
+      "title": "젊은건축가상 3팀",
+      "desc": "김민호·신성진·손경민 등 문체부 선정",
+      "label": "AWARDS"
+    },
+    {
+      "title": "대전 헤리티지 오픈하우스",
+      "desc": "보문산 근대별장 등 3곳 특별 개방",
+      "label": "HERITAGE"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 프로젝트",
+    "lede": "나고야 한복판, 12m 높이 초록 벽을 두른 7층 오피스",
+    "lede_em": "12m 높이 초록 벽",
+    "image": "https://static.designboom.com/wp-content/dbsub/399996/2026-09-09/kawamura-electric-headquarters-1-6aa106dc92d9e.jpg",
+    "image_label": "DESIGNBOOM",
+    "caption": "가와무라전기 신사옥 아트리움의 12m 수직정원 ⓒ Daici Ano / designboom",
+    "body": [
+      "일본 건축사무소 KIAS(이시다 켄타로 건축설계사무소)가 아이치현 세토시에서 출발한 가와무라전기의 나고야 신사옥을 완공했다. 사무공간에 미술관과 110명 규모 다목적홀을 더한 **복합 오피스**로, 부서와 사람 사이의 연결, 그리고 자연·예술·재료의 디테일을 일상 업무 공간에 들여오는 데 초점을 맞췄다.",
+      "7층 건물은 저층부와 고층부를 서로 다른 재료로 대비시켰다. 저층부는 헤키난산 **거친 질감의 벽돌**로, 고층부는 일사량을 조절하는 GRC(유리섬유강화콘크리트) 격자로 마감했다.",
+      "건물 중심에는 자연환기가 가능한 7층 높이 아트리움을 두고, 식물학자 **패트릭 블랑**이 디자인한 12m 높이 수직정원을 세웠다. 180여 종의 식물이 심겼다.",
+      "테라조 계단, 수제 타일, 벽돌 카운터 등 곳곳에 수공예적 디테일과 예술 작품을 배치해 일하는 공간에 감각적 경험을 더했다."
+    ],
+    "source": {
+      "outlet": "designboom",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.designboom.com/architecture/kias-textured-brick-facade-planted-atrium-headquarters-japan-kawamura-electric/"
+        }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "한국부동산원, '공공건축 설계공모 길잡이' 발간…\"실질적 업무 지침서로\"",
+    "body": [
+      "한국부동산원이 공공기관의 설계공모 운영 경험을 담은 실무 안내서 **'공공건축 설계공모 길잡이'**를 9월 7일 펴냈다. 설계공모를 처음 맡거나 오랜만에 다시 맡은 담당자의 행정 부담을 줄이는 데 초점을 맞췄다."
+    ],
+    "facts": [
+      "구성: 공공건축지원센터 소개, 설계공모 운영기록, 당선작·최종작 소개, 담당자 인터뷰",
+      "사례: **김천 농업인 기숙사** 설계공모 전 과정을 상세 케이스로 수록",
+      "배포: 공공건축지원센터 홈페이지(rebpbc.re.kr)에서 **무료 공개**"
+    ],
+    "body_after": [
+      "한국부동산원은 이번 길잡이가 설계공모를 준비하는 기관의 실질적인 업무 지침서가 되어 공정하고 투명한 설계공모 문화 확산에 기여하길 바란다고 밝혔다."
+    ],
+    "source": {
+      "outlet": "대한건축사협회 건축사신문",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21097"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "국제 · 비엔날레",
+      "title": "부에노스아이레스 건축비엔날레, 40주년…한 달간 무료 개방",
+      "image": "https://images.adsttc.com/media/images/6aa3/38b1/43f9/c501/88fd/1f12/large_jpg/buenos-aires-architecture-biennial-celebrates-40-years-with-a-free-program-under-the-theme-of-inhabiting_40.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "아르헨티나 부에노스아이레스 건축비엔날레가 올해로 **40주년**을 맞아 9월 22일부터 5주간 'HABITAR(거주하다)'를 주제로 열린다. 국립미술관(Museo Nacional de Bellas Artes)을 비롯한 도심 곳곳 문화기관에서 **15개 전시·50개 컨퍼런스**가 무료로 열린다.",
+        "10월 5일부터 6일간 열리는 국제포럼에는 2026년 프리츠커상 수상자 스밀랸 라디치가 참여한다. 남극 등 극한 환경 속 거주를 다루는 '극한 거주하기' 특별전 등에 100여 건축사무소가 참여하며, 평생공로상은 아르헨티나 예술가 마르타 미누힌에게 돌아간다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184927/buenos-aires-architecture-biennial-celebrates-40-years-with-a-free-program-under-the-theme-of-inhabiting"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "밀라노 팔라초 리타, '더 열린 미술관'으로…AMDL 서클 마스터플랜",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/amdl-circle-public-life-milan-palazzo-litta-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "미켈레 데 루키가 이끄는 AMDL 서클이 17세기 밀라노 팔라초 리타를 문화부 산하 5개 기관 사무공간으로 계속 쓰면서도 대중에 더 열린 문화기관으로 바꾸는 전략적 마스터플랜을 마련했다. 롬바르디아주 국립박물관관리국이 발주했다.",
+        "중정 '코르틸레 도노레'를 매표소·서점·전시공간·다목적홀을 갖춘 주 출입구로 삼고, 오랫동안 접근이 막혔던 19세기 기념정원도 다시 개방한다. 피아노 노빌레는 순환 동선을 따라 전시·행사 공간으로 재편되며, 옥상 등 눈에 띄지 않는 곳에 히트펌프와 태양광 패널을 설치한다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/amdl-circle-public-life-milan-palazzo-litta/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "국제 · 프로젝트",
+      "title": "뱀의 신을 닮은 정원…멕시코 케찰코아틀 공원의 20년 공사",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/senosiain-quetzalcoatl-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "멕시코시티 인근 나우칼판에서 건축가 하비에르 세노시아인이 2007년부터 짓고 있는 '케찰코아틀 공원'은 아즈텍의 깃털 달린 뱀 신을 모티프로 한 대규모 조경 프로젝트다. '인간은 생물학적 본성에서 스스로를 떼어놓아서는 안 된다'는 그의 철학이 뱀 형상의 물길과 조형물, 구불구불한 산책로로 구현됐다.",
+        "철근에 철망을 씌워 모르타르로 마감하는 **철망 콘크리트(ferro-cement)** 기법으로 천장이 바닥으로 녹아내리듯 이어지는 유기적 형태를 만들었다. 스테인드글라스 지붕을 얹은 나선형 '무지개 온실' 등이 대표적이며, 아직 일반에 공개되지 않고 투어·행사 예약으로만 방문할 수 있다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/inside-the-serpentine-world-of-javier-senosiains-quetzalcoatl-park/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 커뮤니티",
+      "title": "컨테이너로 지은 뉴올리언스 흑인 창작교육 거점, 10월 문 연다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/community-cultural-hub-permanent-home-black-creative-education-new-orleans-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "2016년 설립된 예술교육 단체 '더 블랙 스쿨'이 뉴올리언스 세븐스워드 지역에 **185.8㎡** 규모 상설 거점을 짓는다. 재사용한 해상 컨테이너에 목재 데크와 식재를 더한 구조로, 갤러리·교실·컴퓨터실·메이커스페이스·도서관·커뮤니티 주방·정원을 갖췄다. 총 사업비는 약 170만 달러다.",
+        "18개월간 가가호호 설문과 디자인 워크숍을 거쳐 주민들이 창작 기술 교육과 청소년·가족 공간, 웰니스 자원을 최우선 요구로 꼽았다. 이 단체는 그간 디자인 견습생 39명, 주니어 디자이너 35명을 배출했으며, 개관은 **10월 10일**로 예정됐다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/community-cultural-hub-permanent-home-black-creative-education-new-orleans/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 주거",
+      "title": "숲 위에 뜬 빨간 잠수함…우한의 20㎡ 오두막",
+      "image": "https://static.designboom.com/wp-content/dbsub/326019/2026-09-07/wiki-world-red-submarine-cabin-wild-cabin-140-1-6a9e2a2e42b64.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "중국 건축사무소 위키월드가 후베이성 우한 숲속에 잠수함을 닮은 목조 오두막을 지었다. 베르너 헤어초크 영화 '피츠카랄도'가 그린 '배와 야생의 초현실적 관계'에서 착안했다.",
+        "접합 목재로 전 구조를 짜고 자체 개발한 '디지털 우드' 기술로 부재를 맞춤 설계·제작해 조립했다. 둥근 창을 낸 20여㎡ 공간에 거실·다락·침실을 담았고, 건물을 지면에서 띄워 숲 바닥을 그대로 살리는 **무각인(zero-footprint)** 방식을 택했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/compact-forest-cabin-wiki-world-red-wooden-submarine-china/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "수상 · 쇼케이스",
+      "title": "데진 어워즈 2026, 아시아태평양 톱50 공개",
+      "image": "",
+      "image_label": "DEZEEN",
+      "body": [
+        "데진이 데진 어워즈 2026 지역 쇼케이스의 세 번째 순서로 아시아태평양(APAC) 톱50을 공개했다. 호주·인도·태국·중국·뉴질랜드·베트남 등의 건축·인테리어·디자인 프로젝트가 이름을 올렸다.",
+        "앞서 발표된 유럽·중동·아프리카(EMEA), 아메리카 지역과 함께 올해 신설된 세 개 지역 쇼케이스를 완성한다. 본선 숏리스트는 9월 21일부터 23일 사이 발표된다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/11/asia-pacific-regional-showcases-dezeen-awards/"
+          }
+        ]
+      },
+      "topic": "수상"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "수상",
+      "title": "2026년 젊은건축가상에 김민호·신성진·손경민 등 3개 팀",
+      "body": [
+        "문화체육관광부가 주관하는 **2026년 젊은건축가상**에 코드아키텍츠건축사사무소 김민호 대표, 볼드아키텍츠건축사사무소 신성진·손경민 공동대표, 오브아키텍처 나종원 공동대표 팀이 선정됐다. 42개 팀이 접수해 서류심사와 공개 발표 2단계 심사를 거쳤다.",
+        "김용미 심사위원장(금성종합건축사사무소)은 건축가로서의 진정성과 사회적 기여 의지를 주요 평가 기준으로 꼽았다고 밝혔다. 시상식은 10월 대한민국 건축문화제에서 열린다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21094"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "kicker": "국내 · 산업",
+      "title": "간삼건축, LG유플러스·GS건설과 100MW급 모듈러 AI데이터센터 표준설계 개발",
+      "body": [
+        "간삼건축이 지난 **9월 4일** LG유플러스·GS건설·자이씨앤에이·디앤오씨엠과 손잡고 **100MW급** 사전제작형 모듈러 데이터센터(PMDC) 표준설계모델 개발에 나섰다. 공장에서 제작한 모듈을 현장에서 조립해 공사기간을 단축하는 방식이다.",
+        "간삼건축은 20여 년간 데이터센터 **77건**을 설계한 경험을 바탕으로 신축형과 기존 건물 리모델링형 모델을 함께 개발한다. 회사 측은 \"AI 데이터센터는 초기 시공 속도와 기술·수요 변화에 대응하는 확장성을 동시에 요구한다\"고 밝혔다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21091"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "서울 중계1 노후 공공임대 재정비사업 기본설계용역 공모…공사비 3,775억원",
+      "body": [
+        "서울주택도시공사가 노원구 중계동 주공1단지 일대 **노후 공공임대주택 재정비사업** 기본설계용역 제안공모를 냈다. 설계비 **24억 8천만원**, 공사비 약 **3,775억원** 규모다.",
+        "접수 마감은 **9월 18일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://www.jootek.com/folio/contests/18893"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "정읍시 공공임대형 지식산업센터 건립 설계공모…연면적 10,281㎡",
+      "body": [
+        "전북 정읍시 신정동 일원에 들어설 공공임대형 지식산업센터 건축설계공모가 공고됐다. 연면적 **10,281㎡** 규모로 공사비 **300억원**, 설계비 **17억 1천만원**이 책정됐다.",
+        "접수 마감은 **9월 21일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://www.jootek.com/folio/contests/18891"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "제주 추자면사무소 청사 건립 설계공모…접수 D-5",
+      "body": [
+        "제주시 추자면 대서리 일원에 신축할 추자면사무소 청사 건립사업 일반 설계공모가 진행 중이다. 연면적 **1,355㎡**, 총사업비 **73억 5천만원** 규모다.",
+        "접수 마감은 **9월 17일**로 닷새 앞으로 다가왔다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://www.jootek.com/folio/contests/18892"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "대전, 못 들어가던 근현대 건축유산 3곳 특별 개방",
+      "body": "9월 16일부터 30일까지 매주 수요일, 보문산 근대별장·대흥배수지·대흥동 뾰족집을 개방. 참가 신청은 9월 14일까지 이메일로.",
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21096"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "title": "고은사진미술관, '부산프로젝트 2026'…이인미 개인전 '흐르는 도시'",
+      "body": "부산 고은사진미술관이 이인미 작가의 개인전 '흐르는 도시(FLUID SCAPE)'를 12월 26일까지 연다.",
+      "source": {
+        "outlet": "대한건축사협회 건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21095"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "9·11 25주기…AECOM 티시먼 \"7개 건물 재건은 헤라클레스의 과업\"",
+      "body": "뉴욕 세계무역센터 재건을 맡아온 AECOM 티시먼이 25주기를 맞아 작업을 돌아봤다. 1,776피트 원월드트레이드센터 등 4개 건물과 하루 25만 명이 이용하는 환승허브를 지었으며, 투 월드트레이드센터는 올여름 착공해 2031년 완공 예정.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/aecom-tishman-rebuild-9-11-world-trade-center-construction/830063/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 건설자재값 1년 새 8.9%↑…관세·유가가 밀어올렸다",
+      "body": "미 건설협회(ABC) 분석 결과 8월 건설투입 물가가 전년 동월 대비 8.9% 상승. 구리·목재·철강 등 일부 품목은 10% 이상 올랐고, 시공사 55%가 프로젝트 중단·지연을 겪었다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/cost-spikes-construction-materials-producer-price-index/830165/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "프로코어, 드론디플로이 8억 4,500만 달러에 인수",
+      "body": "현장 점검용 드론·로봇 업체를 인수해 BIM 모델과 실측 데이터를 비교하는 기능을 통합한다. 제이컵스는 오클라호마시티 하수처리 시설 운영에 1억 3,050만 달러 계약을 따냈다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/punch-list-procore-closes-deal-jacobs-wins-skanska-granite/830146/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "데진 어워즈 2026, 아메리카 톱50 공개",
+      "body": "브라질·캐나다·미국 등 아메리카 지역 건축·인테리어·디자인 프로젝트 50건이 이름을 올렸다. 프로그라(Programa)가 후원했다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/10/americas-regional-showcases-dezeen-awards/"
+          }
+        ]
+      },
+      "topic": "수상"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "kias-kawamura-electric-hq-vertical-garden",
+      "tag": "PROJECT",
+      "title": "나고야 신사옥, 12m 초록벽을 두르다",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "vertical garden atrium office building plants",
+      "slides": [
+        {
+          "heading": "나고야 신사옥\n12m 초록벽을 두르다",
+          "body": "가와무라전기 신사옥, 패트릭 블랑의 수직정원"
+        },
+        {
+          "heading": "WHAT",
+          "body": "KIAS가 설계한 7층 오피스에 미술관과 다목적홀을 더했다. 부서와 사람, 자연을 잇는 게 목표다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "저층부는 거친 벽돌, 고층부는 빛을 조절하는 GRC 격자로 대비를 이뤘다."
+        },
+        {
+          "heading": "CENTERPIECE",
+          "body": "7층 높이 아트리움 한가운데, 패트릭 블랑이 디자인한 12m 수직정원에 180여 종 식물이 자란다."
+        },
+        {
+          "heading": "DETAIL",
+          "body": "테라조 계단과 수제 타일, 벽돌 카운터 등 수공예적 디테일이 곳곳에 더해졌다."
+        }
+      ]
+    },
+    {
+      "slug": "quetzalcoatl-park-senosiain-mexico",
+      "tag": "FEATURE",
+      "title": "뱀의 신을 닮은 정원, 케찰코아틀 공원",
+      "ref": {
+        "section": "intl_grid",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "organic curved concrete architecture sculpture garden",
+      "slides": [
+        {
+          "heading": "뱀의 신을 닮은\n정원",
+          "body": "멕시코 건축가 하비에르 세노시아인의 20년째 공사"
+        },
+        {
+          "heading": "WHAT",
+          "body": "멕시코시티 인근 나우칼판에 2007년부터 짓고 있는 대규모 조경 프로젝트. 아즈텍의 깃털 달린 뱀 신 케찰코아틀에서 이름을 땄다."
+        },
+        {
+          "heading": "PHILOSOPHY",
+          "body": "\"인간은 생물학적 본성에서 스스로를 떼어놓아서는 안 된다\" — 뱀 형상의 물길과 구불구불한 산책로로 이 생각을 구현했다."
+        },
+        {
+          "heading": "HOW",
+          "body": "철망에 모르타르를 입히는 철망 콘크리트 기법으로 천장이 바닥으로 녹아내리듯 이어지는 유기적 형태를 만들었다."
+        },
+        {
+          "heading": "VISIT",
+          "body": "스테인드글라스 지붕을 얹은 나선형 '무지개 온실' 등이 있으며, 아직은 투어·행사 예약으로만 방문할 수 있다."
+        }
+      ]
+    },
+    {
+      "slug": "amdl-circle-palazzo-litta-milan",
+      "tag": "PROJECT",
+      "title": "밀라노 팔라초 리타, 더 열린 미술관으로",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "Milan architecture historic building",
+      "slides": [
+        {
+          "heading": "밀라노 팔라초 리타\n더 열린 미술관으로",
+          "body": "AMDL 서클의 17세기 궁전 마스터플랜"
+        },
+        {
+          "heading": "WHAT",
+          "body": "미켈레 데 루키가 이끄는 AMDL 서클이 문화부 산하 5개 기관이 쓰는 팔라초 리타를 대중에 더 여는 마스터플랜을 마련했다."
+        },
+        {
+          "heading": "ENTRANCE",
+          "body": "중정 '코르틸레 도노레'가 매표소·서점·전시공간을 갖춘 주 출입구가 된다."
+        },
+        {
+          "heading": "GARDEN",
+          "body": "오랫동안 닫혀 있던 19세기 기념정원이 다시 대중에게 열린다."
+        },
+        {
+          "heading": "SUSTAINABILITY",
+          "body": "옥상 등 눈에 띄지 않는 곳에 히트펌프와 태양광 패널을 설치해 지속가능성을 더한다."
+        }
+      ]
+    }
+  ]
+}
