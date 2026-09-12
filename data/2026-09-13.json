@@ -1,0 +1,478 @@
+{
+  "vol": "VOL.01  NO.028",
+  "editor": "HUEY",
+  "counts": {
+    "total": 18,
+    "intl": 13,
+    "kr": 5
+  },
+  "outlets": [
+    "ArchDaily",
+    "designboom",
+    "Bustler",
+    "Construction Dive",
+    "ENR",
+    "대한건축사협회 건축사신문",
+    "주택폴리오",
+    "아시아경제",
+    "데일리안"
+  ],
+  "teasers": [
+    {
+      "title": "국보·보물 AI 감지",
+      "desc": "국가유산청, 9월부터 180건에 지능형 감지체계",
+      "label": "POLICY"
+    },
+    {
+      "title": "크라운플라자 타임스퀘어",
+      "desc": "1962년 건물, 수년 리노베이션 끝에 재개장",
+      "label": "RENOVATION"
+    },
+    {
+      "title": "지하에 산다는 것",
+      "desc": "왜 땅속 집은 낯설게 느껴질까 — 건축 심리학 에세이",
+      "label": "FEATURE"
+    },
+    {
+      "title": "복합기능 인력 39%↑",
+      "desc": "美 ABC \"다기능 훈련이 생산성·안전 모두 높인다\"",
+      "label": "INSIGHT"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 프로젝트",
+    "lede": "로테르담 항구 창고, MAD가 무용센터 '단하위스'로 되살린다",
+    "lede_em": "무용센터 '단하위스'",
+    "image": "https://images.adsttc.com/media/images/6aa3/1437/237b/e904/242f/6f79/large_jpg/mad-reveals-design-to-transform-1923-warehouse-into-danshuis-in-rotterdam_1.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "단하위스 조감도, 옛 1923년 창고 파사드를 그대로 살렸다 ⓒ MAD",
+    "body": [
+      "중국 건축사무소 MAD(대표 마옌쑹)가 네덜란드 로테르담의 옛 항만 지구에 무용센터 '단하위스(Danshuis)'를 짓는다. **1923년** 지어진 아르데코 양식 창고를 뮤즈강 남안에서 개조하는 프로젝트로, 마찬가지로 MAD가 설계한 이주박물관 페닉스(Fenix)와 나란히 자리한다. 개관은 **2030년**으로 예정됐다.",
+      "연면적 **9,500㎡** 규모로 전문 무용수부터 아마추어까지 다양한 연령과 수준을 아우르는 프로그램을 한데 묶는다. **14개 무용 스튜디오**와 개방형 포디움, 체육관, 전시공간, 카페가 들어서고, 옥상에는 로테르담 옛 항구를 내려다보는 대형 행사장 '살 데 페트'를 얹는다.",
+      "건물을 관통하는 수직 로비가 서로 다른 층을 이으며, 강변을 따라 넓은 야외 공간을 조성해 건물과 주변 도시를 움직임으로 연결하는 데 초점을 맞췄다. 개발은 페닉스 등 로테르담의 문화 프로젝트를 다수 이끌어온 드룸 앤 다드 재단이 맡는다.",
+      "마옌쑹은 \"움직임은 건축을 넘어 지역의 정체성이 된다. 인간 움직임의 아름다움과 무용의 순간들이 페닉스와 공명하며 두 건물 사이에 끊임없는 대화를 만들어낼 것\"이라고 밝혔다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.archdaily.com/1184920/mad-reveals-design-to-transform-1923-warehouse-into-danshuis-in-rotterdam"
+        }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://cdn.ancnews.kr/news/photo/202609/21090_23851_5224.jpg",
+    "image_label": "건축사신문",
+    "title": "대한건축사협회 설계도서 품질 지침, 국가 설계기준으로 정식 편입",
+    "body": [
+      "국토교통부가 9월 10일 대한건축사협회가 자체 연구로 마련한 **'한국건축규정 기반 설계도서 품질확인 지침'**과 **'전자설계도서 작성지침'**을 국가 설계기준 체계에 정식 편입하는 「건축물의 설계도서 작성기준」 일부개정고시안을 행정예고했다. 협회가 관련 연구에 착수한 지 약 **2년 만**이다."
+    ],
+    "facts": [
+      "신설: 「건축물의 설계도서 작성기준」 제15·16호 — 협회가 지침을 작성·보급하되 국토부와 협의",
+      "품질확인 지침: 건축허가 시 검토할 법령을 정리한 **한국건축규정 체크리스트** 항목별 해설",
+      "작성지침: CAD 전자설계도서의 레이어·도면번호·표현기법 표준화, 표준설계도서 **6종** 함께 보급",
+      "의견 접수: **10월 2일**까지 통합입법예고시스템(opinion.lawmaking.go.kr)"
+    ],
+    "body_after": [
+      "협회는 이번 편입이 단순한 기술 지침을 넘어, 설계 조정·도서 작성·품질확인 등 건축사 전문업무의 범위를 명확히 하고 설계업무대가를 합리적으로 현실화하는 기반이 될 것으로 기대했다."
+    ],
+    "source": {
+      "outlet": "대한건축사협회 건축사신문",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "http://www.ancnews.kr/news/articleView.html?idxno=21090"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "에콰도르 산골 창고, 유칼립투스 지붕 아래 '둥지' 두 채를 얹다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/casa-los-nidos-del-cholan-la-cabina-de-la-curiosidad-designboom-700-500x400-22b08q85r731.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "에콰도르 건축사무소 라 카비나 데 라 쿠리오시다드(마리 콩베트·다니엘 모레노 플로레스)가 키토에서 35㎞ 떨어진 페루초에 있던 **105㎡** 규모의 낡은 블록조 창고를 주거 겸 작업실로 개조했다. 삭아가던 점토기와 지붕을 걷어내고, 그 자리에 가벼운 유칼립투스 목재 구조를 새로 얹었다.",
+        "새 지붕 아래에는 '둥지'라 부르는 침실 두 개를 공중에 띄웠다. 쪼갠 대나무로 천장을 마감하고 코코넛 섬유와 재활용 계란판으로 단열·흡음을 해결하는 등 현지에서 구할 수 있는 재료를 손으로 짜맞춘 듯한 질감을 살렸다. 해체한 옛 지붕의 목재는 그대로 바닥재로 재사용했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/cabina-curiosidad-timber-nests-eucalyptus-roof-ecuador-cholan/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 헤리티지",
+      "title": "코소보·캐나다·중국·이집트·방글라데시…미완의 헤리티지 프로젝트 5선",
+      "image": "https://images.adsttc.com/media/images/6aa1/c052/237b/e901/8be9/6273/medium_jpg/_21.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "ArchDaily 커뮤니티가 세계 각지 건축가들이 제안한, 실현되지 않은 헤리티지 프로젝트 5건을 모았다. 코소보·캐나다·중국·이집트·방글라데시를 배경으로, 재료를 상징적 형태로 빚어 추모와 성찰로 시선을 이끄는 방식이 공통점이다.",
+        "역사적 인물을 기리거나 생태 교육을 탐구하고, 전통 재료를 되살리거나 토착 형태를 참조하는 등 각 프로젝트는 문화유산을 저마다 다르게 해석한다. 마덴 아키텍츠가 제안한 '이브라힘 루고바 기념공원 및 대통령도서관'이 대표적이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184837/structures-of-memory-5-unbuilt-projects-on-heritage-from-the-archdaily-community"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "마요르카 산골 마을, '있는 것을 그대로 쓰는' 타운하우스 개조",
+      "image": "https://www.designboom.com/twitterimages/uploads/2026/09/kosmos-architects-mallorcan-townhouse-old-materials-new-roles-blanca-gardelegui-designboom-1200.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "코스모스 아키텍츠와 블랑카 가르델레기가 스페인 마요르카섬 세라 데 트라문타나의 산골 마을 반얄부파르에서 '칸 아모르 데 라 이슬라'를 개조했다. 자재를 구하기 힘든 험준한 지형을 고려해 있던 것을 최대한 다시 쓰는 전략을 세웠다.",
+        "깨진 타일을 모아 테라초 바닥을 짜고, 나무 문을 접이식 문으로 재활용했으며, 버려진 깔때기는 조명으로, 맨홀 뚜껑은 화덕 받침으로 바꿨다. 파사드에 단 초록색 도르래는 자재를 끌어올리는 실용적 장치이자, 밤이면 마을과 바다에서 보이는 랜드마크가 된다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/kosmos-architects-mallorcan-townhouse-old-materials-new-roles-blanca-gardelegui/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "마드리드 1960년대 아파트, 색을 건축재료처럼 쓰다",
+      "image": "https://www.designboom.com/twitterimages/uploads/2026/09/madrid-imperial-apartment-renovation-alessio-lamarca-marta-ciabattini-designboom-1200.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "알레시오 라마르카와 마르타 치아바티니가 마드리드 임페리알 지구의 **48㎡** 1960년대 아파트를, 정해진 미학이 아니라 실제 생활 방식을 기준으로 다시 짰다. 방 3개짜리 낡은 구조를 방 2개와 오픈 거실·주방으로 바꿨다.",
+        "코랄·핑크·짙은 파랑·목재·초록을 구역과 동선을 나누는 건축 요소로 활용했고, 욕실은 통째로 파란색 볼륨이 됐다. 기존 구조 기둥을 그대로 살린 붙박이장은 모서리를 둥글려 오픈 책장으로 바꾸는 등, 곡선 맞춤 가구로 좁은 면적을 최대한 활용했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/curved-joinery-bold-color-1960s-apartment-madrid-imperial-alessio-lamarca-marta-ciabattini/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 인테리어",
+      "title": "프랑스 테이크아웃 카페, 매달린 금속 그리드 천장이 만든 조도",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/suspended-metal-grid-ceiling-translucent-reflective-surfaces-french-cafe-mellow-wrong-door-studio-designboom-500-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "롱도어 스튜디오(대표 크세니야 포포바)가 프랑스 뮐루즈에 **31㎡** 규모 테이크아웃 커피숍 '멜로우 카페'를 설계했다. 주문·제조·픽업·진열 동선을 군더더기 없이 배치해 좁은 공간을 열려 보이게 했다.",
+        "스테인리스스틸 조리대에 질감 있는 금속 패널과 그리드 구조를 더해 공간감을 해치지 않으면서 깊이를 냈다. 조명·설비를 하나로 통합한 매달린 금속 그리드 천장이 핵심 요소이며, 옅은 하늘색 포인트가 가구·사인·그래픽 곳곳에서 정체성을 만든다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/suspended-metal-grid-ceiling-translucent-reflective-surfaces-french-cafe-mellow-wrong-door-studio/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "빌드너 '킹스팬 마이크로홈 2026', 25㎡ 초소형 주거 공모 접수 중",
+      "image": "https://archinect.gumlet.io/uploads/26/26g2eq6f5m77k3m8.jpg?fit=crop&auto=compress%2Cformat&w=1200",
+      "image_label": "BUSTLER",
+      "body": [
+        "빌드너가 주관하는 국제 학생·일반 공모전 '킹스팬 마이크로홈 2026'이 11회째를 맞아 접수 중이다. **25㎡** 이내에서 효율적이면서도 따뜻하고, 압축적이면서도 열린 초소형 주거를 제안하는 것이 과제다. 건축 자격 없이 개인 또는 4인 이하 팀으로 참가할 수 있고, 대지는 세계 어디든 자유롭게 정할 수 있다.",
+        "총 상금 **10만 유로** 규모로 빌드너상 5만 5천 유로, 킹스팬상 3만 유로 등으로 구성된다. 사전등록 마감은 **9월 30일**, 최종 제출 마감은 **11월 2일**(런던 시각 23시 59분)이다."
+      ],
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://bustler.net/competitions/10321/kingspan-microhome-2026"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "국보·보물 180건에 AI 감지체계…국가유산청, 9월부터 시행",
+      "body": [
+        "국가유산청이 9월부터 국보·보물 등 중요 문화유산 **180건**, CCTV **358개 채널**에 인공지능 기반 지능형 감지체계를 도입한다. 기존에는 관리자가 화면을 육안으로 확인하는 방식이었다면, 새 체계는 화재·침입·이상행동 등 위험 징후를 AI가 분석해 즉시 알린다.",
+        "안동 봉정사 등 산불 취약 사찰 **5곳**에는 대형 자동 스프링클러를 시범 설치하고, 식생 관리로 완충 구역을 만들어 산불 확산을 막는다. 재해를 입은 유산에는 최대 **2천만원**을 즉시 지원하는 긴급보호조치도 함께 운영한다."
+      ],
+      "source": {
+        "outlet": "데일리안",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dailyan.com/news/article.html?no=774897"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "합천군 청년 주거지원사업 설계공모…공사비 1,140억원",
+      "body": [
+        "경남 합천군이 합천읍 합천리 일원에 지을 청년 일자리연계 주거지원사업 설계용역 공모를 냈다. 연면적 **2,438㎡** 공동주택으로 공사비 **1,140억원**, 설계비 **49억원**이 책정된 일반 설계공모다.",
+        "접수 마감은 **9월 15일**, 결과는 11월 2일 발표된다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18877"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "전남 보성 다향고 개축공사 설계 제안공모…연면적 2,597㎡",
+      "body": [
+        "전남 보성군 보성읍 녹차로 일원 다향고등학교 공간재구조화사업 개축공사 건축설계 제안공모가 나왔다. 연면적 **2,597㎡** 규모로 설계비 **3억원**이 책정됐다.",
+        "접수는 **9월 17일**부터이며, 결과는 11월 3일 발표된다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18887"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 도시재생",
+      "title": "방치된 국가유산 244곳, 내년부터 지역 문화 거점으로",
+      "body": [
+        "국가유산청이 활용이 뜸했던 지역 문화유산을 되살리는 **'우리 고장 국가유산 활용사업'** 244건을 선정했다. 생생 국가유산, 향교·서원, 국가유산 야행, 전통 산사, 고택·종갓집 등 다섯 분야로 나뉘며, 역사적 의미를 발굴하는 생생 국가유산과 인문 정신을 살리는 향교·서원이 전체의 절반 이상을 차지한다.",
+        "공주·광주·경주·군산 등 전국의 문화유산이 내년부터 본격적으로 지역 문화 거점으로 탈바꿈될 예정이다."
+      ],
+      "source": {
+        "outlet": "아시아경제",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://view.asiae.co.kr/article/2026091023221256459"
+          }
+        ]
+      },
+      "topic": "도시재생"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "1962년 건물, 리노베이션 끝에 '크라운플라자' 아메리카 대표 지점으로",
+      "body": "뉴욕 타임스스퀘어 인근 22층 685객실 크라운플라자가 9월 2일 재개장. IHG의 '뉴 모던' 콘셉트로 바·레스토랑 '피프티퍼스트 스트리트 소셜' 등을 새로 들였다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/crowne-plaza-manhattan-times-square-opens-after-renovation/830145/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "전 AECOM 임원 제이 바다미, 브라보그룹 COO로",
+      "body": "9·11 이후 세계무역센터 재건 공로로 2018년 '올해의 임원'에 뽑혔던 제이 바다미가 뉴욕 건설관리사 브라보그룹 최고운영책임자로 자리를 옮겼다. 약 70명 팀을 이끌며 공공·민간 프로젝트 수주를 늘리는 역할을 맡는다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/former-aecom-exec-jay-badame-joins-bravo-group/830096/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "뉴욕 지하철역, 복사냉방으로 폭염 잡는다",
+      "body": "브루클린브리지-시청역과 챔버스스트리트역 두 곳에서 배관에 냉수를 흘려 열을 흡수하는 복사냉방 시범사업 추진. 흡수한 열은 지하 지열정에 저장했다가 겨울 인근 건물 난방에 재활용한다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63558-thermal-energy-network-could-cool-new-york-city-subway-stations-and-heat-buildings"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "'복합기능 인력'이 생산성 39%↑…ABC \"다기능 훈련이 답\"",
+      "body": "美 ABC 마이크 벨라만 회장은 여러 연관 공정을 함께 훈련하는 '복합기능(multiskilling)' 인력이 순수 생산 작업에 쓰는 시간이 39% 더 많고 안전 성과도 좋다고 분석했다. 전문화를 없애는 게 아니라 자격 갖춘 인력이 인접 공정까지 맡게 하는 전략이라고 설명했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/multiskilled-construction-is-a-win-for-workers-taxpayers-and-the-industry/829839/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "왜 땅속에 살면 낯설게 느껴질까",
+      "body": "중국 황토고원 야오둥부터 튀니지 마트마타까지, 지하 주거는 오래됐지만 여전히 이질감을 준다. 건축가들은 중정·천창으로 하늘과의 연결을 살려 이 낯섦을 풀어왔다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/why-does-living-underground-feel-so-strange/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "슈퍼스튜디오의 '12개 이상도시', 55년 만에 다시 읽기",
+      "body": "1971년 슈퍼스튜디오가 그린 12개의 가상도시는 각각 편안함·효율·질서·자동화 같은 단 하나의 이상을 극단까지 밀어붙인다. 완벽하게 설계된 삶이 자유를 지울 수 있다는 경고는 지금도 유효하다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/superstudio-12-ideal-cities-price-perfectly-designed-life/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "mad-danshuis-rotterdam-dance-center",
+      "tag": "PROJECT",
+      "title": "로테르담 항구 창고, 무용센터 '단하위스'로",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "rotterdam harbor warehouse building river",
+      "slides": [
+        {
+          "heading": "로테르담 항구 창고\n무용센터가 되다",
+          "body": "MAD가 그린 1923년 창고의 새 삶, '단하위스'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "마옌쑹이 이끄는 MAD가 로테르담 옛 항만의 1923년 아르데코 창고를 무용센터로 개조한다. 2030년 개관 예정."
+        },
+        {
+          "heading": "SCALE",
+          "body": "연면적 9,500㎡에 14개 무용 스튜디오, 체육관, 전시공간, 카페가 들어선다."
+        },
+        {
+          "heading": "ROOFTOP",
+          "body": "옥상에는 로테르담 옛 항구를 내려다보는 대형 행사장 '살 데 페트'를 얹는다."
+        },
+        {
+          "heading": "NEIGHBOR",
+          "body": "마찬가지로 MAD가 설계한 이주박물관 페닉스와 나란히 자리해, 두 건물이 움직임으로 대화한다."
+        }
+      ]
+    },
+    {
+      "slug": "khs-ai-heritage-safety-system",
+      "tag": "POLICY",
+      "title": "국보·보물 180건, AI가 지킨다",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "korean traditional temple wooden architecture night",
+      "slides": [
+        {
+          "heading": "국보·보물\n180건을 AI가 지킨다",
+          "body": "국가유산청, 9월부터 지능형 감지체계 시행"
+        },
+        {
+          "heading": "WHAT",
+          "body": "국보·보물 등 중요 문화유산 180건, CCTV 358개 채널에 AI 기반 지능형 감지체계를 도입한다."
+        },
+        {
+          "heading": "HOW",
+          "body": "관리자가 화면을 육안으로 보던 방식에서, 화재·침입·이상행동을 AI가 분석해 즉시 알리는 방식으로 바뀐다."
+        },
+        {
+          "heading": "SPRINKLER",
+          "body": "안동 봉정사 등 산불 취약 사찰 5곳에는 대형 자동 스프링클러를 시범 설치한다."
+        },
+        {
+          "heading": "EMERGENCY",
+          "body": "재해를 입은 유산에는 최대 2천만원을 즉시 지원하는 긴급보호조치도 함께 운영한다."
+        }
+      ]
+    },
+    {
+      "slug": "cabina-curiosidad-cholan-nests-ecuador",
+      "tag": "FEATURE",
+      "title": "에콰도르 산골 창고, 나무 둥지를 얹다",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "wooden cabin forest renovation",
+      "slides": [
+        {
+          "heading": "산골 창고에\n나무 둥지를 얹다",
+          "body": "에콰도르 페루초, 라 카비나 데 라 쿠리오시다드의 리노베이션"
+        },
+        {
+          "heading": "WHAT",
+          "body": "키토 근교 페루초의 낡은 블록조 창고를 105㎡ 주거 겸 작업실로 개조했다. 삭은 점토기와 지붕을 걷어내고 유칼립투스 목구조를 새로 얹었다."
+        },
+        {
+          "heading": "NESTS",
+          "body": "새 지붕 아래 '둥지'라 부르는 침실 두 개를 공중에 띄웠다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "쪼갠 대나무 천장, 코코넛 섬유·재활용 계란판 단열재 등 현지 재료를 손으로 짜맞췄다."
+        },
+        {
+          "heading": "REUSE",
+          "body": "해체한 옛 지붕의 목재는 그대로 새 바닥재가 됐다."
+        }
+      ]
+    }
+  ]
+}
