@@ -1,0 +1,491 @@
+{
+  "vol": "VOL.01  NO.029",
+  "editor": "HUEY",
+  "counts": {
+    "total": 18,
+    "intl": 14,
+    "kr": 4
+  },
+  "outlets": [
+    "ArchDaily",
+    "designboom",
+    "Dezeen",
+    "Wallpaper*",
+    "Construction Dive",
+    "재경일보",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "싱가포르 '나무 위의 집'",
+      "desc": "숲과 이웃 사이, 프라이버시를 지킨 1,890㎡ 저택",
+      "label": "PROJECT"
+    },
+    {
+      "title": "지흘라바 붉은 아레나",
+      "desc": "체코 아이스하키장, '고슴도치' 별명 얻은 파사드",
+      "label": "PROJECT"
+    },
+    {
+      "title": "제로에너지건축 전면 시행",
+      "desc": "2026년, 대규모 공공·민간 건물로 의무화 확대",
+      "label": "POLICY"
+    },
+    {
+      "title": "美 데이터센터 건설 붐",
+      "desc": "6개월새 계획 물량 203%↑, 전력이 병목",
+      "label": "INSIGHT"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 프로젝트",
+    "lede": "싱가포르 숲 언덕 위, 이웃과 나무 사이의 '나무 위의 집'",
+    "lede_em": "나무 위의 집",
+    "image": "https://images.adsttc.com/media/images/6aa5/87c6/a74d/1200/0125/debb/large_jpg/00_House_Above_The_Trees_Wallflower_Architects.jpg?1789233253",
+    "image_label": "ARCHDAILY",
+    "caption": "도시가 숲을 만나는 지점에 자리 잡은 주택 ⓒ Finbarr Fallon",
+    "body": [
+      "싱가포르 스튜디오 월플라워 아키텍처+디자인이 도심 자연보호구역 언덕 위, '도시가 숲을 만나는' 지점에 **1,890㎡** 규모 단독주택 '하우스 어보브 더 트리스'를 완공했다. 주도 건축가 로빈 탠과 용 미엔 후이가 이끌었다.",
+      "가장 큰 과제는 이웃 주택의 시선을 막으면서 동시에 숲 조망을 확보하는 것이었다. 가족이 일상을 보내는 눈높이에 인접 주택들이 바짝 둘러싸고 있어, 무분별하게 창을 열면 사생활이 그대로 노출될 위험이 있었다.",
+      "건축가들은 매스마다 높이를 달리하고 개구부 위치를 전략적으로 배치해 이 문제를 풀었다. 낮은 층에서는 시선을 차단하는 벽을 세우고, 높은 층에서는 나무 위로 시야를 틔워 숲의 캐노피만 보이도록 했다.",
+      "외장은 목재와 레이나스(Reynaers)의 알루미늄 프레임을 함께 써서, 도시적 정밀함과 숲의 질감이 공존하는 입면을 완성했다. 2025년 완공됐으며, 사진은 핀바 팰런이 촬영했다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.archdaily.com/1184983/house-above-the-trees-wallflower-architecture-plus-design"
+        }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "제로에너지건축 의무화, 2026년 대규모 건물로 전면 확대",
+    "body": [
+      "**2026년**부터 대규모 공공·민간 건축물을 대상으로 한 제로에너지건축(ZEB) 의무화가 전면 시행되고 있다. 그동안 공공건축물 중심으로 추진되던 인증 의무화가 민간 대형 건물로까지 넓어지는 전환점이다."
+    ],
+    "facts": [
+      "적용 대상: **대규모 공공·민간 건축물** (2026년 전면 시행)",
+      "핵심 요소: 패시브(고단열·고기밀 외피, 자연환기) + 액티브(태양광·지열·에너지관리시스템)",
+      "시장 영향: 에너지 효율 기준이 시공사 기술력의 척도, 분양 경쟁력·자산가치와 직결"
+    ],
+    "body_after": [
+      "초기 투자비 상승과 복합 기술 통합의 난이도, 전문 인력 부족이 과제로 꼽히지만, 장기적으로는 운영비 절감과 자산가치 상승으로 이어질 것이라는 전망이 나온다."
+    ],
+    "source": {
+      "outlet": "재경일보",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://news.jkn.co.kr/post/879993"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "포르투 골목의 빈틈을 메운 코스타 카브랄 빌딩",
+      "image": "https://images.adsttc.com/media/images/6aa1/4f5c/237b/e964/93ed/9bcc/medium_jpg/edificio-costa-cabral-ata-atelier-tiago-antero-plus-entretempos_23.jpg?1788956557",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "포르투갈 건축사무소 ATA(아텔리에 티아고 안테로)와 엔트레템포스가 포르투 코스타 카브랄 거리의 빈 필지에 **1,400㎡** 규모 건물을 지어 2026년 완공했다. 인접 건물들의 높이와 정렬, 축조 원리를 그대로 참조해 도시 조직의 연속성을 지키는 전략을 택했다.",
+        "건물을 거리 파사드 선에 맞춰 배치해 지배적인 가로 형태를 유지하되, 최상층은 뒤로 물려 북쪽으로는 기존 스카이라인과의 연속성을, 남쪽으로는 매스의 전환을 동시에 확보했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184924/costa-cabral-building-ata-atelier-tiago-antero-plus-entretempos"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 스포츠건축",
+      "title": "체코 지흘라바에 뜬 붉은 '고슴도치' 아이스하키 아레나",
+      "image": "https://cdn.mos.cms.futurecdn.net/gxeX65DHYLQSMYvJmZEjSh.jpg",
+      "image_label": "WALLPAPER*",
+      "body": [
+        "체코 건축사무소 치빅+크리슈토프가 지흘라바시에 다목적 아레나 '호라츠카 아레나'를 완공했다. 1950년대 낡은 스케이트장을 대체해 아이스하키단 HC 두클라 지흘라바의 새 홈구장이 됐으며, **5,650석** 규모에 지역 설계공모를 거쳐 공공 투자 **8천만 유로**가 투입됐다.",
+        "천공된 붉은 알루미늄 패널로 외피를 두르고, 지붕선을 따라 반복되는 삼각형 패턴은 도시의 고딕 건축과 지흘라바의 상징 동물인 고슴도치의 가시를 동시에 떠올리게 한다. 경기 중 골이 터지면 외피 조명이 함께 반응해 점멸하고, 옥상에는 시민에게 개방된 **230m** 러닝트랙이 얹혔다."
+      ],
+      "source": [
+        {
+          "outlet": "Wallpaper*",
+          "links": [
+            {
+              "text": "기사 원문",
+              "url": "https://www.wallpaper.com/architecture/jihlava-municipal-arena-chybik-and-kristof-czech-republic"
+            }
+          ]
+        },
+        {
+          "outlet": "Dezeen",
+          "links": [
+            {
+              "text": "관련 보도",
+              "url": "https://www.dezeen.com/2026/09/13/jihlava-municipal-arena-chybik-kristof/"
+            }
+          ]
+        }
+      ],
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "국제 · 리사이클",
+      "title": "철거 잔해로 지은 테헤란의 '데브리' 파빌리온",
+      "image": "https://www.designboom.com/wp-content/dbsub/453937/2026-09-06/debris-the-hidden-face-of-tehran-1-6a9d66b871008.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "이란 건축사무소 DAP 스튜디오가 테헤란의 끊임없는 철거·재건 순환에 문제를 제기하는 공모전 출품작 '데브리(DEBRIS)'를 선보였다. 철거 현장에서 나온 콘크리트 블록을 내부 칸막이로, 재활용 알루미늄판을 용접해 외피로 삼아 산업적 정밀함과 파편화된 콘크리트의 대비를 그대로 드러낸다.",
+        "내부는 거울면으로 마감해 잔해와 관람객의 모습을 끝없이 반사시키고, 바닥에는 실제 건설 폐기물을 그대로 흩뿌렸다. 조르주 바타유의 '배제된 물질' 개념을 참조해, 버려지는 것이야말로 도시를 비추는 거울이라는 메시지를 던진다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/salvaged-concrete-recycled-aluminum-tehran-demolition-waste-debris-pavilion-dap-studio/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 주택",
+      "title": "스웨덴 소나무숲에 십자형으로 뻗은 여름집",
+      "image": "https://freeyorkk.b-cdn.net/wp-content/uploads/2026/09/cross-shaped-summer-retreat-timber-elegance-summer-freeyork-1.jpg",
+      "image_label": "FREEYORK",
+      "body": [
+        "요한 순드베리 아르키텍투르가 스웨덴 남부 할란도센 능선의 북향 경사지에 **152㎡** 규모 여름집 '파인 하우스'를 완공했다. 침실 세 개를 품은 낮은 목조 건물이 십자형 평면으로 사방으로 뻗어, 숲의 식생을 가까이서 보는 시야와 바다를 향한 먼 시야를 동시에 확보한다.",
+        "집성목(글루램) 구조에 가문비나무 CLT 패널을 덧대고, 무처리 심재 소나무로 마감한 외장은 세월이 지나며 부위마다 다르게 변색되도록 그대로 뒀다. 처마가 돌출된 지붕 아래로 넓은 데크가 건물을 감싸며, 북쪽 끝은 콘크리트 기단 위로 들어 올려 야외 다이닝 테라스를 냈다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/13/johan-sundberg-arkitektur-pine-house/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 주택",
+      "title": "뉴욕 브리지 포인트 해변, '집 속의 집' 비치하우스",
+      "image": "https://freeyorkk.b-cdn.net/wp-content/uploads/2026/09/queens-beach-house-baao-studio-freeyork-1.jpg",
+      "image_label": "FREEYORK",
+      "body": [
+        "뉴욕 브루클린 스튜디오 BAAO가 퀸스 로커웨이 반도 서쪽 끝 브리지 포인트의 해변 협동조합 단지에 **2,655제곱피트(약 247㎡)** 규모 주택을 지었다. 어긋난 박공 매스에 낸 홈과 절개면이 실내 곳곳에 자연광을 끌어들인다.",
+        "원래 이 부지를 소유했던 의뢰인은 4인 가족을 위한 별장을 의뢰했지만, 공사 도중 상주 주택으로 계획을 바꿨다. 홍수 규제와 협동조합 규정이라는 제약 속에서도 개방적이고 빛으로 가득한 실내, 극적인 공간감을 지닌 외부 공간을 함께 담아냈다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/12/breezy-point-house-queens-new-york-baao-studio/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 주택",
+      "title": "그을린 삼나무로 감싼 야쓰가타케의 별장",
+      "image": "https://freeyorkk.b-cdn.net/wp-content/uploads/2026/09/keiji-ashizawa-charred-cedar-home-freeyork-1.jpg",
+      "image_label": "FREEYORK",
+      "body": [
+        "일본 건축사무소 케이지 아시자와 디자인이 중부 산악지대 야쓰가타케 고원에 **225㎡** 규모 별장을 지었다. 한 가족이 단독으로도, 손님과 함께도 쓸 수 있도록 계획했으며, 이웃 시선은 피하면서 주변 풍경에는 열려 있도록 꺾이고 기울어진 독특한 형태를 택했다.",
+        "외장은 일본 전통 그을림 목재 기법인 야키스기로 마감했다 — 인구밀집지역인 도쿄 도심이었다면 방화 규정 탓에 쓸 수 없었을 재료다. 콘크리트 기초 위에 앉힌 건물은 경사가 낮아지는 지점일수록 기초가 더 드러나며, 겨울철 폭설에 대응하는 목조주택의 전통적 축조 방식을 따랐다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/11/keiji-ashizawa-house-yatsugatake/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "전남대병원 임상교육훈련센터 리모델링 설계공모…공사비 89.1억원",
+      "body": [
+        "빛고을전남대학교병원(광주 남구)이 임상교육훈련센터 건립사업(리모델링) 설계용역 제안공모를 냈다. 공사비 **89.1억원**, 설계비 **3.7억원** 규모의 의료시설 리모델링 공모다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18879"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "대구 중구 남산동 주차복합타운 설계공모…공사비 180억원",
+      "body": [
+        "대구 중구가 남산동 2175-24번지 일원에 지을 주차복합타운 신축 건축 설계공모를 냈다. 연면적 **4,123㎡**, 공사비 **180억원** 규모의 일반 설계공모다.",
+        "참가등록 마감은 **9월 15일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18886"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "서울영문초등학교 급식실 증축 설계공모…오늘 접수 마감",
+      "body": [
+        "서울 영등포구 문래동 서울영문초등학교가 급식실 및 학생식당 증축공사 설계공모를 냈다. 공사비 **36.6억원**, 설계비 **1.8억원** 규모의 제안공모다.",
+        "참가등록 마감이 **9월 14일** 오늘이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18883"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "경기 양주 가납초 학교복합시설 구축사업 설계공모…연면적 1,230㎡",
+      "body": [
+        "경기 양주시 가납초등학교 내에 학교복합시설을 짓는 설계용역 제안공모가 나왔다. 연면적 **1,230㎡**, 공사비 **45억원**, 설계비 **2.4억원** 규모다.",
+        "참가등록 마감은 **9월 15일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18878"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "이끼 낀 지붕 아래 목욕 의식…이스트서식스 '베이더스 캐빈'",
+      "body": "영국 스튜디오 빌트 웍스가 지은 숲속 캐빈. 이끼·풀·고사리를 그대로 옮겨 심은 옥상 테라스로 진입하며, 사우나·냉수욕조·온수욕조를 갖춘 목욕 전용 공간을 감춰뒀다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/12/bathers-cabin-built-works/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 데이터센터 건설 붐, 6개월 새 계획 물량 203%↑",
+      "body": "JP모건은 올해 하이퍼스케일러의 데이터센터 설비투자를 6,970억 달러로 추산. 전력 부족과 전기장비 40~60주 리드타임이 새 병목으로 떠올랐다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/analyzing-us-data-center-construction-boom-developers-pipeline-state/829330/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "복도는 왜 생겼을까 — 평면도에 새겨진 가사노동의 역사",
+      "body": "19세기 저택의 뒷계단·서비스 통로는 하인을 가족 공간에서 떼어놓기 위해 설계됐다. 계급 구조가 사라진 지금도 그 공간 논리는 아파트 평면에 그대로 남아있다는 에세이.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/domestic-work-floor-plan-modern-home-corridor/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "226 대 1 뚫은 이동식 닭장…국제 공모 수상작, 여름학교서 직접 짓다",
+      "body": "슬로베니아에서 열린 '미래의 닭장' 국제공모 당선작. 약 10㎡ 목구조로, 참가자들이 직접 조립해 닭 열 마리를 위한 이동식 주택을 완성했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184943/mobile-chicken-coop-gerrit-muller-scheessel-plus-zop-institute-for-spatial-design"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "title": "교토 '뱀장어 침대' 필지에 들어선 도예가 부부의 집 겸 공방",
+      "body": "일본 다토 아키텍츠가 교토 상업지구 좁고 긴 필지에 321㎡ 규모 주거 겸 스튜디오를 지었다. 지상층에 최대한의 작업 공간을 확보하는 데 설계 초점을 맞췄다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184960/house-and-studio-in-kyoto-tato-architects"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "덴마크 보른홀름 숲 최고점에 선 100㎡ 트레일센터",
+      "body": "해발 162m 알민딩엔 숲 정상에 지어진 소규모 전망 쉼터. 덴마크 전역 트레일센터 계획의 일환으로, 섬의 지형과 생물다양성을 감상하는 휴게 공간을 제공한다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1033655/trailcenter-rytterknaegten-matters-architects"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "house-above-the-trees-wallflower-singapore",
+      "tag": "PROJECT",
+      "title": "숲과 이웃 사이, 나무 위의 집",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "tropical modern house greenery singapore architecture",
+      "slides": [
+        {
+          "heading": "도시가 숲을 만나는 곳\n나무 위의 집",
+          "body": "싱가포르 언덕 위, 월플라워가 설계한 1,890㎡ 주택"
+        },
+        {
+          "heading": "WHAT",
+          "body": "도심 자연보호구역 언덕, 도시와 숲이 만나는 지점에 들어선 단독주택이다."
+        },
+        {
+          "heading": "PROBLEM",
+          "body": "가족의 생활 눈높이를 인접 주택들이 둘러싸고 있어, 무분별하게 열면 사생활이 그대로 노출될 위험이 있었다."
+        },
+        {
+          "heading": "SOLUTION",
+          "body": "매스마다 높이를 달리하고 개구부를 전략적으로 배치해, 낮은 층은 시선을 막고 높은 층은 숲의 캐노피만 보이도록 열었다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "목재와 알루미늄 프레임을 함께 써서 도시적 정밀함과 숲의 질감이 공존하는 입면을 완성했다."
+        },
+        {
+          "heading": "WHO",
+          "body": "월플라워 아키텍처+디자인의 로빈 탠과 용 미엔 후이가 설계, 2025년 완공됐다."
+        }
+      ]
+    },
+    {
+      "slug": "jihlava-arena-chybik-kristof-hedgehog",
+      "tag": "PROJECT",
+      "title": "체코의 붉은 '고슴도치' 아레나",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 1,
+      "photo_query": "red perforated metal facade building architecture",
+      "slides": [
+        {
+          "heading": "고슴도치를 닮은\n붉은 아이스하키장",
+          "body": "체코 지흘라바에 완공된 치빅+크리슈토프의 호라츠카 아레나"
+        },
+        {
+          "heading": "WHAT",
+          "body": "1950년대 낡은 스케이트장을 대체하는 다목적 아레나. 아이스하키단 HC 두클라 지흘라바의 새 홈구장이다."
+        },
+        {
+          "heading": "WHY HEDGEHOG",
+          "body": "지붕선을 따라 반복되는 삼각형 패턴이 도시의 고딕 건축과 지흘라바의 상징 동물, 고슴도치의 가시를 동시에 떠올리게 한다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "5,650석 규모. 지역 설계공모를 거쳐 공공 투자 8천만 유로가 투입됐다."
+        },
+        {
+          "heading": "LIGHTING",
+          "body": "경기 중 골이 터지면 붉은 알루미늄 외피의 조명이 함께 반응해 점멸한다."
+        },
+        {
+          "heading": "ROOFTOP",
+          "body": "옥상에는 시민에게 개방된 230m 러닝트랙을 얹어, 경기장이자 일상의 운동 공간이 됐다."
+        }
+      ]
+    },
+    {
+      "slug": "debris-pavilion-tehran-dap-studio",
+      "tag": "CONCEPT",
+      "title": "철거 잔해로 지은 테헤란의 파빌리온",
+      "ref": {
+        "section": "intl_grid",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "raw concrete texture architecture abstract",
+      "slides": [
+        {
+          "heading": "부서진 것들로\n다시 짓다",
+          "body": "이란 DAP 스튜디오의 공모전 출품작 '데브리(DEBRIS)'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "테헤란은 끊임없이 짓고 부순다. 이 파빌리온은 그 철거 잔해를 재료 삼아 순환의 문제를 되묻는다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "철거 현장의 콘크리트 블록을 내부 칸막이로, 재활용 알루미늄판을 용접해 외피로 삼았다."
+        },
+        {
+          "heading": "CONTRAST",
+          "body": "산업적으로 정밀한 알루미늄 외피와, 파편화된 콘크리트 내부가 서로 대비를 이룬다."
+        },
+        {
+          "heading": "MIRROR",
+          "body": "내부는 거울면으로 마감해 잔해와 관람객의 모습을 끝없이 반사시킨다. 바닥에는 실제 건설 폐기물을 그대로 흩뿌렸다."
+        }
+      ]
+    }
+  ]
+}
