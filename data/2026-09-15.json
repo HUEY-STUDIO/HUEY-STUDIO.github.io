@@ -1,0 +1,472 @@
+{
+  "vol": "VOL.01  NO.030",
+  "editor": "HUEY",
+  "counts": {
+    "total": 18,
+    "intl": 14,
+    "kr": 4
+  },
+  "outlets": [
+    "ArchDaily",
+    "designboom",
+    "대한건설경제",
+    "뉴시스",
+    "주택폴리오",
+    "Construction Dive",
+    "Bustler"
+  ],
+  "teasers": [
+    {
+      "title": "덴마크 3D 프린팅 학생촌",
+      "desc": "SAGA가 완성한 36가구 저탄소 기숙사 단지",
+      "label": "PROJECT"
+    },
+    {
+      "title": "분양가상한제 건축비 4.07%↑",
+      "desc": "9월 정기고시, ㎡당 232만8천원으로",
+      "label": "POLICY"
+    },
+    {
+      "title": "은퇴 부부가 되살린 벌집주택",
+      "desc": "에콰도르 두란의 다가구주택 '라 콜메나'",
+      "label": "PROJECT"
+    },
+    {
+      "title": "80년 만에 복원되는 '물 위의 집'",
+      "desc": "아만시오 윌리엄스의 1943년 모더니즘 걸작",
+      "label": "HERITAGE"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 건설기술",
+    "lede": "3D 프린터로 찍어낸 덴마크 학생촌, 나무 90% 지키며 12개월 만에 완공",
+    "lede_em": "3D 프린터로 찍어낸",
+    "image": "https://images.adsttc.com/media/images/6aa7/c9ce/069c/1b01/89fb/72fa/large_jpg/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark_5.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "숲을 남긴 채 들어선 3D 프린팅 학생 주택 클러스터",
+    "body": [
+      "SAGA 스페이스 아키텍츠와 3DCP 그룹이 덴마크 홀스테브로에 3D 프린팅 학생 주택 단지 '스코브스포레트'를 완공했다. **36가구**가 6개 건물 클러스터에 나뉘어 있으며 총면적은 **1,650㎡**. 발주처는 주택조합 노르드베스트보(NordVestBO)다.",
+      "가장 눈에 띄는 대목은 시공 방식이다. 3D 프린팅 콘크리트 구조와 전통 목구조 시공을 섞은 하이브리드 공법으로 **12개월** 만에 전체 단지를 완성했다. 일반 신축 주택 대비 크게 단축된 기간이다.",
+      "부지에 있던 기존 수목의 **약 90%**를 그대로 보존하며 건물을 배치한 것도 특징이다. 구조체에는 저탄소 시멘트 '퓨처셈'과 무시멘트 바인더 '메보셈'을 적용해 탄소 배출을 낮췄고, 공용 정원·산책로·자전거 보관소를 갖춰 입주생들의 교류 공간도 마련했다.",
+      "2026년 9월부터 입주가 시작된다. 건축업계에서는 3D 프린팅이 실험적 파빌리온 단계를 넘어 실제 대규모 주거 공급 수단으로 쓰인 사례로 주목하고 있다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.archdaily.com/1185029/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark"
+        }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "분양가상한제 기본형건축비 9월 정기고시, ㎡당 232만8천원으로 4.07%↑",
+    "body": [
+      "국토교통부가 분양가상한제 적용 주택의 분양가 상한선을 결정하는 기본형건축비를 9월 정기고시로 올렸다. 직전 고시(7월 15일 비정기고시) 대비 **4.07%** 인상된 수치로, 매년 3월과 9월 두 차례 정기 고시되는 항목이다."
+    ],
+    "facts": [
+      "기본형건축비: ㎡당 **223만7천원 → 232만8천원** (16~25층 이하, 전용 60~85㎡ 기준)",
+      "간접공사비: ㎡당 **60만4천원 → 66만3천원** (9.77% 상승, 이번 인상의 핵심 요인)",
+      "적용 시점: **9월 15일** 이후 입주자모집 승인을 신청하는 단지부터"
+    ],
+    "body_after": [
+      "정부가 공사 全단계 안전투자를 강화하면서 조달청이 지난 4월 발표한 새 간접공사비 기준이 반영된 결과다. 간접노무비 적용 요율이 14.6%에서 18.1%로, 기타경비 요율은 6.0%에서 6.9%로 각각 상향 조정됐다. 분양가상한제 적용 단지의 공급가가 다시 오를 것이라는 전망이 나온다."
+    ],
+    "source": {
+      "outlet": "대한건설경제",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.kcenews.kr/9742"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "국제 · 주거복지",
+      "title": "은퇴 부부가 되살린 에콰도르 벌집 다가구주택 '라 콜메나'",
+      "image": "https://images.adsttc.com/media/images/6aa8/0700/069c/1b01/89fb/7451/medium_jpg/la-colmena-ancestra-plus-natura-futura_19.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "에콰도르 건축사무소 안세스트라와 나투라 푸투라가 과야킬 위성도시 두란에 다가구 주택 '라 콜메나(벌집)'를 완공했다. 은퇴한 부부가 낡은 부동산을 사들여 **335㎡** 규모의 거주 공간 세 채로 재구성한 프로젝트로, 사회·도시적 긴장이 있는 지역을 생산적이고 안전한 방식으로 되살리려는 시도다.",
+        "노출 콘크리트를 주재료로 삼아 각 세대가 독립성을 유지하면서도 공용 공간으로 이어지도록 설계했다. 2026년 완공됐으며 사진은 JAG 스튜디오가 촬영했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1185061/la-colmena-multi-family-housing-as-shared-neighborhood-infrastructure-ancestra-plus-natura-futura"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 인프라",
+      "title": "스위스 추흐빌, 흩어진 인프라를 하나로 묶은 폐기물 에너지화 플랜트",
+      "image": "https://images.adsttc.com/media/images/6a88/322e/4253/0500/01c9/fe2d/medium_jpg/89_260424_BAU_B0003381_web__1_.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스위스 건축사무소 펜첼 발리에가 추흐빌에 완공한 폐기물 에너지화 플랜트 'KEBAG 에노바'는 연면적 **4만 4,000㎡** 규모다. 기존 시설과 신축 구조물이 뒤섞인 부지에 흩어진 인프라 요소들을 하나의 통일된 형태로 묶어내는 데 설계 초점을 맞췄다.",
+        "콘크리트·철·유리를 주재료로 쓰고 구조 엔지니어링은 AFRY 스위스가 맡았다. 2025년 완공됐으며, 도시 인프라 시설도 조형적 완성도를 갖출 수 있다는 걸 보여주는 사례로 꼽힌다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1183744/kebag-enova-waste-to-energy-plant"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "국제 · 초소형주택",
+      "title": "13㎡ 창고를 3층 집으로…아조레스 제도의 '미니 아탈랴다'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/SO-arquitecura-mini-atalhada-portugal-designboom-01.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "포르투갈 SO 아르키테투라가 아조레스 제도 상미겔섬 라고아의 작은 창고를 완전한 주택으로 바꿨다. **13㎡** 기초 면적을 3층으로 쌓아 올려 총 **35㎡** 실내를 확보했다. 하층엔 부엌, 중층엔 침실, 상층엔 거실 겸 작업 공간을 뒀다.",
+        "천공 금속판과 목재로 짠 계단이 층 사이로 빛과 시야를 끌어들인다. 노출 콘크리트에 밝은 색 목재, 검정 창틀을 매치했으며 2026년 완공됐다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/so-arquitetura-tiny-azores-home-mini-atalhada-portugal/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 리노베이션",
+      "title": "벽 대신 가구로 나눈 아테네 1970년대 아파트",
+      "image": "https://static.designboom.com/wp-content/dbsub/467574/2026-08-27/kifisia-apartment-reconfiguration-of-domestic-boundaries-1-6a905cf02a4e5.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "그리스 건축사무소 게오르기오스 아포스톨로풀로스 아키텍츠가 아테네 키피시아의 1970년대 아파트를 리모델링하며 내부 칸막이를 전부 걷어냈다. 대신 목공(조이너리) 요소로 공간을 구획해, 중앙 주방이 사회적 중심으로 기능하도록 재구성했다.",
+        "침실과 거실은 점진적인 전환으로 이어지고, 둘째 침실은 접이식 침대와 슬라이딩 패널로 용도를 바꿀 수 있게 했다. 단색 팔레트로 전체를 통일했으며 사진은 로렌초 잔드리가 촬영했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/joinery-elements-walls-1970s-athens-apartment-renovation-georgios-apostolopoulos-architects/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 주택",
+      "title": "밴쿠버 경사지에 계단식으로 앉힌 '캐노피 하우스'",
+      "image": "https://images.adsttc.com/media/images/6aa2/bbfa/05b6/9900/01b5/383e/large_jpg/The-Collingwood-Residence-1001Photoshoped-Compressed.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "캐나다 라모로 아키텍트가 나무가 빽빽한 경사지에 약 **585㎡**(6,300제곱피트) 규모 주택 '캐노피 하우스'를 설계했다. 지형을 거스르지 않도록 거주 공간을 단계적으로 배치해, 비탈을 따라 매스가 내려앉는 형태를 택했다.",
+        "브래드 라모로가 이끄는 팀이 설계했으며 2026년 준공 예정이다. 기존 수목을 최대한 보존하는 방향으로 배치 계획을 짰다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1184863/canopy-house-lamoureux-architect-inc"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국제 · 설계공모",
+      "title": "UIA-HYP CUP 2026, 도시로 몰리는 인구와 공동체의 미래를 묻다",
+      "image_label": "BUSTLER",
+      "body": [
+        "국제건축가연맹(UIA) 산하 국제 학생 건축설계공모 'UIA-HYP CUP 2026'이 참가자를 모집한다. 올해 주제는 농촌 인구의 도시 유입과 공동체의 미래로, 정체성·소속감·사회적 상호작용과 지속가능성을 함께 다루도록 했다.",
+        "등록 마감은 **9월 20일**, 작품 제출 마감은 **10월 10일**이다. 전 세계 건축 전공 학생을 대상으로 하는 국제기구 공인 공모전이다."
+      ],
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://bustler.net/news/11021/new-architecture-and-design-competitions-ideas-awards-uia-hyp-cup-international-student-competition-vancouver-tall-challenge-and-memorial-to-the-sixth-extinction"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 재난유산",
+      "title": "창덕궁 정문 돈화문, 해체 과정 9월부터 매달 두 차례 공개",
+      "body": [
+        "국가유산청이 세계유산 창덕궁 정문 돈화문의 해체 보수 현장을 **9월부터 매달 둘째·넷째 수요일**마다 일반에 공개한다. 부재를 하나씩 떼어내는 해체 과정과 보관 방법을 직접 확인할 수 있다.",
+        "2014년부터 이어온 '국가유산 수리현장 중점공개' 사업의 일환으로, 올해는 대구 파계사 원통전, 진전사지 삼층석탑 등 전국 **15곳**이 선정됐다. 대부분 사전 예약제로 운영된다."
+      ],
+      "source": {
+        "outlet": "뉴시스",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.newsis.com/view/NISX20260422_0003601177"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "남원주역세권초 신축 설계공모…공사비 420억원",
+      "body": [
+        "강원 원주시가 무실동 일원에 지을 (가칭) 남원주역세권초등학교 신축 공사 설계공모를 냈다. 연면적 **18,527㎡**, 공사비 **420억원**, 설계비 **19.4억원** 규모의 제안공모다.",
+        "참가등록 마감은 **9월 21일**, 결과 발표는 11월 13일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18895"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "경기 고양 창릉6초 신축 설계공모…연면적 16,927㎡",
+      "body": [
+        "경기 고양시가 덕양구 도내동 일원에 지을 (가칭) 창릉6초등학교 신축 설계공모를 냈다. 연면적 **16,927㎡**, 공사비 약 **295억원**, 설계비 약 **13.6억원** 규모의 일반 설계공모다.",
+        "참가등록 마감은 **9월 23일**, 결과 발표는 11월 18일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18896"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "충주여고 시청각실 증축공사 설계공모…내일 참가등록 마감",
+      "body": [
+        "충북 충주시가 충주여고 시청각실 및 학생식당 증축공사 설계공모를 냈다. 연면적 **625㎡**, 공사비 **30.7억원**, 설계비 **1.6억원** 규모의 일반 설계공모다.",
+        "참가등록 마감은 **9월 16일**, 결과 발표는 11월 16일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18888"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "무질서한 캠프장 입구에 세운 강철 그리드 '블루 박스'",
+      "body": "아르헨티나 에스투디오 VA 아르키텍토스가 산카를로스 스포츠 캠프장 입구를 199㎡ 규모로 재정비했다. 3.3m 그리드로 진입 동선을 정돈해 무질서하게 자란 캠프장과 대비를 이룬다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1185092/blue-box-estudio-va-arquitectos"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "그리스 오토노이섬에 세운 4층 흰색 '집단 왕좌'",
+      "body": "건축가 디미트리스 콘토디모스가 섬 이름의 어원인 '왕좌'를 재해석해 2.5×2.5×1.25m 크기의 4층 흰색 임시 전망대를 지었다. 여럿이 함께 오르내리며 서쪽 지평선을 바라보도록 설계됐다.",
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/four-level-white-platform-collective-throne-western-edge-greece-dimitris-kontodimos/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "물 위에 뜬 1943년 모더니즘 걸작, 80년 만에 복원 착수",
+      "body": "아르헨티나 건축가 아만시오 윌리엄스가 마르델플라타에 지은 '카사 소브레 엘 아로요'. 철근콘크리트 아치가 개울을 가로지르는 이 주택을 월드모뉴먼츠펀드가 건축유산으로 복원하고 있다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184793/a-house-above-the-water-the-story-of-amancio-and-delfina-williams-modernist-gem"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "title": "하노이 신도시에 목재와 석재로 지은 '돌핀 빌라'",
+      "body": "베트남 이디 아키텍츠가 하노이 새 개발지구에 1,000㎡ 규모 단독주택을 설계했다. 건축·경관·빛·기후가 서로 대화하듯 반응하는 환경을 목표로 목재와 석재를 주재료로 썼다. 2026년 준공 예정.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1185015/dolphine-villa-idee-architects"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "18세기 독일 농가, 목재·콘크리트로 현대 주택 되다",
+      "body": "PUR+ 아키텍텐이 독일 아이펠 지역 베일링겐의 18세기 전통 농가 '아인하우스'를 350㎡ 현대 주택으로 개조했다. 전통 건축 양식의 흔적을 보존하면서 유연한 생활 공간을 더했다. 2026년 완공 예정.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184860/house-sudeifel-pur-plus-architekten"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 건설업계, AI 도입 화두는 '연결된 데이터'",
+      "body": "세이지의 건설부문 수석부사장 줄리 애덤스는 AI 도입 효과를 개별 업무의 시간 절감이 아니라, 설계·시공·인력관리·재무 데이터를 연결해 의사결정의 맥락을 읽는 데서 찾아야 한다고 짚었다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/spons/ai-in-construction-connected-data-matters/829392/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "saga-skovsporet-3d-printed-student-village",
+      "tag": "PROJECT",
+      "title": "3D 프린터로 지은 덴마크 학생촌",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "3d printed concrete building construction texture",
+      "slides": [
+        {
+          "heading": "프린터로 찍어낸\n36가구 학생 마을",
+          "body": "SAGA 스페이스 아키텍츠가 덴마크에 완성한 '스코브스포레트'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "덴마크 홀스테브로에 들어선 3D 프린팅 학생 주택 단지. 6개 건물 클러스터에 36가구가 나뉘어 있다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "총면적 1,650㎡, 시공 기간은 단 12개월. 2026년 9월부터 입주가 시작된다."
+        },
+        {
+          "heading": "GREEN",
+          "body": "기존 수목의 약 90%를 보존하며 단지를 앉혔고, 저탄소 시멘트와 무시멘트 바인더를 구조체에 썼다."
+        },
+        {
+          "heading": "HYBRID",
+          "body": "3D 프린팅 구조와 전통 목구조 시공을 섞은 방식. 공용 정원과 산책로, 자전거 보관소를 갖췄다."
+        }
+      ]
+    },
+    {
+      "slug": "la-colmena-ecuador-multi-family-housing",
+      "tag": "PROJECT",
+      "title": "은퇴 부부가 되살린 벌집주택",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "exposed concrete courtyard housing ecuador architecture",
+      "slides": [
+        {
+          "heading": "은퇴 부부가\n되살린 벌집주택",
+          "body": "에콰도르 두란, 안세스트라+나투라 푸투라의 '라 콜메나'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "은퇴한 부부가 낡은 부동산을 사들여 다가구 주택 세 채로 재구성했다. 이름은 '벌집'이라는 뜻이다."
+        },
+        {
+          "heading": "WHY",
+          "body": "사회·도시적 긴장이 있는 과야킬 위성도시 두란을, 생산적이고 안전한 방식으로 활성화하려는 시도다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "총 335㎡ 규모. 노출 콘크리트를 주재료로 세대별 독립성과 공용 공간을 함께 확보했다."
+        },
+        {
+          "heading": "WHO",
+          "body": "2026년 완공. 사진은 JAG 스튜디오가 촬영했다."
+        }
+      ]
+    },
+    {
+      "slug": "casa-sobre-el-arroyo-restoration",
+      "tag": "HERITAGE",
+      "title": "80년 만에 복원되는 '물 위의 집'",
+      "ref": {
+        "section": "briefs",
+        "index": 2
+      },
+      "bg": 2,
+      "photo_query": "modernist concrete arch bridge architecture river",
+      "slides": [
+        {
+          "heading": "개울을 가로지른\n1943년 모더니즘 걸작",
+          "body": "아만시오 윌리엄스의 '카사 소브레 엘 아로요', 복원에 들어가다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "아르헨티나 마르델플라타의 라스 차크라스 하천 위에, 철근콘크리트 아치가 거실을 떠받친 주택이다."
+        },
+        {
+          "heading": "WHO",
+          "body": "건축가 아만시오 윌리엄스와 델피나 갈베스 붕헤 데 윌리엄스가 1943년부터 설계했다."
+        },
+        {
+          "heading": "80 YEARS",
+          "body": "약 80년에 걸쳐 용도와 소유권, 상태가 여러 차례 바뀌며 건물은 점차 훼손됐다."
+        },
+        {
+          "heading": "NOW",
+          "body": "월드모뉴먼츠펀드 등이 건축유산으로 복원 작업을 주도하고 있다. 하천을 주거 경험의 중심에 둔 설계가 다시 조명받는다."
+        }
+      ]
+    }
+  ]
+}
