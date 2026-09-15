@@ -63,9 +63,28 @@ python3 render.py --all          # 전체 재생성 (CSS·구조 수정 후)
 - 해외: Dezeen, ArchDaily, designboom, Architectural Record, The Architect's Newspaper,
   Archinect, The Architectural Review + 건설업 전반은 ENR(Engineering News-Record),
   Construction Dive.
-- **국내 비중을 적극적으로 키운다.** 국토교통부·조달청 보도자료, 대한건축사협회(kira.or.kr),
-  한국건축가협회(kia.or.kr), 대한건축학회, 건축공간연구원(auri.re.kr), 서울시 도시공간본부,
-  국내 건축전문지 + 건설업 전반은 대한건설협회(cak.or.kr), 건설경제, 국토일보.
+- **국내 비중을 적극적으로 키운다.** 국토교통부·조달청 보도자료, 대한건축사협회(kira.or.kr,
+  실제 뉴스 창구는 산하 매체 **ancnews.kr**), 한국건축가협회(kia.or.kr), 대한건축학회,
+  건축공간연구원(auri.re.kr), 서울시 도시공간본부, 국내 건축전문지 + 건설업 전반은
+  대한건설협회(cak.or.kr), 건설경제, 국토일보. 그 외 지역 건축사회 매체인
+  **건축사뉴스(a-news.kr, 경기도건축사회 산하)** 도 ancnews.kr과 별개 출처라 다양성 확보에
+  쓸만하다.
+  - **국내 사이트는 WebSearch로 찾지 말고 사이트 자체 목록 페이지를 WebFetch로 직접 열어본다.**
+    ancnews.kr·jootek.com처럼 매일 훑는 소규모 사이트는 검색엔진 색인이 며칠씩 늦어, WebSearch로는
+    실제로 새로 올라온 글도 "새 글 없음"으로 오판하기 쉽다(예: jootek.com을 WebSearch로 찾으면
+    며칠 전 글이 최신으로 나오지만, `jootek.com/folio/contests` 목록을 직접 열면 당일 등록된
+    공모가 바로 보인다). 검증된 목록 페이지:
+    - ancnews.kr: `ancnews.kr/news/articleList.html?sc_order_by=E` (최신순)
+    - jootek.com: `jootek.com/folio/contests` (설계공모 목록)
+    - 대한건설협회: `cak.or.kr/lay1/bbs/S1T9C12/A/2/list.do` (보도자료 게시판)
+    - 건축공간연구원: `auri.re.kr/board.es?mid=a10401030000&bid=0013` (보도자료 게시판)
+    - a-news.kr: `a-news.kr/news/articleList.html`
+  - **molit.go.kr(국토교통부)은 이 환경에서 fetch 시도 시 리다이렉트 루프로 항상 실패한다.**
+    직접 fetch를 시도하지 말고 WebSearch로 검색하거나 정책브리핑(korea.kr) 보도자료 검색을 쓴다.
+  - **건축허브(hub.go.kr)의 설계공모 목록**(`idx-dsr-selectDesignPbpPbancList.do`)은 항목마다
+    JS 기반 `#` 링크뿐이라 개별 공고의 실제 URL을 얻을 수 없다. 이 목록에서 소재를 확인한
+    공모는 출처 URL이 이 목록 페이지 자체가 될 수밖에 없다 — `render.py --check`가 같은 URL을
+    쓰는 여러 공모를 "중복"으로 표시해도, 제목이 서로 다른 별개 공고라면 정상이니 무시해도 된다.
 - **설계공모(topic="설계공모") 전용 출처.** 국내 비중을 우선적으로 채운다:
   - 국내: **서울시 설계공모 홈페이지**(project.seoul.go.kr), **나라장터**(조달청) 건축 설계공모
     공고 — 매일 우선 확인
