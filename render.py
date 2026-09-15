@@ -1673,6 +1673,25 @@ VALID_TOPICS = {"제도규제", "프로젝트", "도시재생", "재난유산", 
 DUP_TITLE_RATIO = 0.78   # 출처가 달라도 제목이 이만큼 닮았으면 같은 사안이다
 NEAR_TITLE_RATIO = 0.66  # 애매한 구간 — 사람이 한 번 봐야 한다
 ROUNDUP_MIN = 2          # 한 호 안에서 이만큼 쓰인 URL은 종합기사로 본다
+ENTITY_WINDOW_DAYS = 21  # 같은 회사명이 이 기간 안에 반복되면 의역 중복을 의심한다
+
+# 국내 설계사무소·시공사 이름에 흔한 접미사. "간삼건축, PMDC 얼라이언스 참여" 같은 기사가
+# 제목을 완전히 다시 써서(예: "간삼건축, LG유플러스·GS건설과 100MW급 모듈러 AI데이터센터
+# 표준") 문자열 유사도 비교를 피해가는 경우를 잡기 위한 보조 신호다. 국토교통부·서울시처럼
+# 매일 여러 건 다른 사안을 내는 관공서는 이 접미사에 안 걸리므로 자동으로 제외된다.
+ENTITY_SUFFIXES = (
+    "건축", "건설", "종합건설", "아키텍츠", "아틀리에", "스튜디오", "디자인그룹",
+    "엔지니어링", "파트너스", "어소시에이츠", "그룹", "개발", "산업",
+)
+ENTITY_RE = re.compile(
+    r"^([가-힣A-Za-z0-9]{2,20}(?:" + "|".join(ENTITY_SUFFIXES) + r"))(?=[,·\s]|$)"
+)
+
+
+def extract_entity(title):
+    """제목 맨 앞의 회사명 후보를 뽑는다. 없으면 빈 문자열."""
+    m = ENTITY_RE.match(html.unescape(str(title or "")).strip())
+    return m.group(1) if m else ""
 
 
 def norm_title(s):
@@ -1736,7 +1755,8 @@ def check(days, verbose=True):
                     if l.get("url"):
                         urls.append(norm_url(l["url"]))
             ledger.append({"day": day, "label": label, "title": title,
-                           "norm": norm_title(title), "urls": urls})
+                           "norm": norm_title(title), "urls": urls,
+                           "entity": extract_entity(title)})
 
     # 한 호 안에서 여러 항목이 같이 인용한 URL = 종합기사. 날짜를 건너 겹쳐도 중복이 아니다.
     per_day_use = {}
@@ -1812,10 +1832,12 @@ def check(days, verbose=True):
         # 6) 과거 호와의 중복 — 이게 이 검사의 핵심이다.
         #    같은 URL을 쓴다고 곧 중복은 아니다. 종합기사 하나에서 여러 꼭지를 뽑는 건
         #    정상이므로, URL이 겹치면 제목까지 닮았을 때만 중복으로 판정한다.
+        r_date = date.fromisoformat(day)
         for r in mine:
             own = set(r["urls"]) - roundup_urls   # 종합기사 URL은 겹쳐도 중복 근거가 못 된다
             verdict = None      # (등급, 상대, 사유)
             roundup_hit = None  # 종합기사 URL만 겹치는 상대
+            entity_hit = None   # 회사명은 같은데 제목 유사도는 낮은 상대 (의역 의심)
             for o in others:
                 ratio = 0.0
                 if len(r["norm"]) >= 8 and len(o["norm"]) >= 8:
@@ -1830,6 +1852,10 @@ def check(days, verbose=True):
                     verdict = ("경고", o, f"제목 {ratio * 100:.0f}% 유사")
                 if roundup_hit is None and (set(r["urls"]) & set(o["urls"])):
                     roundup_hit = o
+                if (entity_hit is None and ratio < NEAR_TITLE_RATIO and r["entity"]
+                        and r["entity"] == o["entity"]
+                        and abs((r_date - date.fromisoformat(o["day"])).days) <= ENTITY_WINDOW_DAYS):
+                    entity_hit = o
             if verdict:
                 grade, o, why = verdict
                 msg = (f"{day} {r['label']}: {o['day']} {o['label']} 과 중복 — {why} "
@@ -1840,6 +1866,12 @@ def check(days, verbose=True):
                     f"{day} {r['label']}: {roundup_hit['day']} {roundup_hit['label']} 과 "
                     f"출처가 같지만 종합기사로 보입니다 — 다른 꼭지면 정상 "
                     f"· “{clip(r['title'], 38)}”")
+            elif entity_hit is not None:
+                warns.append(
+                    f"{day} {r['label']}: {entity_hit['day']} {entity_hit['label']} 과 "
+                    f"'{r['entity']}' 이름이 {ENTITY_WINDOW_DAYS}일 내에 반복됩니다 — "
+                    f"제목을 다시 쓴 같은 사안인지 확인 "
+                    f"· “{clip(r['title'], 38)}” / “{clip(entity_hit['title'], 38)}”")
 
     if verbose:
         for e in errors:
