@@ -1,0 +1,486 @@
+{
+  "vol": "VOL.01  NO.031",
+  "editor": "HUEY",
+  "counts": {
+    "total": 19,
+    "intl": 14,
+    "kr": 5
+  },
+  "outlets": [
+    "ArchDaily",
+    "designboom",
+    "Construction Dive",
+    "대한건축사협회",
+    "주택폴리오",
+    "건축공간연구원",
+    "정책브리핑"
+  ],
+  "teasers": [
+    {
+      "title": "ArchDaily 넥스트 프랙티스 20",
+      "desc": "17개국 신진 건축사무소가 받은 6회째 어워드",
+      "label": "AWARDS"
+    },
+    {
+      "title": "2010년 지진 덮친 칠레 극장",
+      "desc": "ELEMENTAL이 16년 만에 되살린 콘스티투시온 극장",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "'집합 서울' 걸고 개막한 건축문화제",
+      "desc": "18회 서울건축문화제, 한 달간 전시·시상식 이어져",
+      "label": "KOREA"
+    },
+    {
+      "title": "19억 달러 캔자스시티 MLB 구장",
+      "desc": "모텐슨 컨소시엄이 따낸 미국 대형 스포츠 인프라 공사",
+      "label": "CONSTRUCTION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 수상",
+    "lede": "건축의 경계를 넓히는 20팀, ArchDaily '넥스트 프랙티스 어워드' 6회째 발표",
+    "lede_em": "20팀",
+    "image": "https://images.adsttc.com/media/images/6aa8/104e/069c/1b01/89fb/74bc/large_jpg/20-practices-expanding-architectures-agency-winners-of-the-archdaily-2026-next-practices-awards_1.jpg?1789399135",
+    "image_label": "ARCHDAILY",
+    "caption": "2026 넥스트 프랙티스 어워드 수상작 중 하나 ⓒ ArchDaily",
+    "body": [
+      "ArchDaily가 6회를 맞은 '넥스트 프랙티스 어워드' 2026년 수상팀 **20곳**을 발표했다. 관습적인 건축사무소의 정의를 넘어, 오늘의 건축을 실제로 움직이는 사람·아이디어·방법론에 주목하는 상이다. 주최측은 이번 기수를 \"역대 가장 강력하고 국제적으로 대표성을 갖춘 라인업\"이라고 소개했다.",
+      "수상팀은 중국·브라질·아르헨티나·이집트·인도·호주·이탈리아·아이티·베트남·프랑스·포르투갈·멕시코·에콰도르·모잠비크·스위스·니제르·영국 등 **17개국**에 걸쳐 있다. Arctic Design Group, Atelier Guo, CLUSTER, EVA Studio 등이 이름을 올렸다.",
+      "극한 기후, 농촌 공동체, 비공식 도시 정주지, 강제 이주 지역처럼 까다로운 조건을 다룬 실무가 특히 눈에 띈다. 엔지니어링·생태·디지털 패브리케이션·재료 연구·토착 지식·옹호 활동·비평적 리서치 등 건축을 넘나드는 배경을 지닌 팀들이 다수 포함됐다.",
+      "ArchDaily는 이들이 \"특정한 조건에 응답하며 주변 세계를 능동적으로 빚어내는 능력\"을 보여준다고 평가했다. 지속가능성부터 공동체 회복력, 문화유산 보존까지 오늘날 건축이 마주한 시급한 과제에 다양한 방법론으로 대응하는 모습이 이번 수상작의 공통분모다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.archdaily.com/1185003/20-practices-expanding-architectures-agency-winners-of-the-archdaily-2026-next-practices-awards"
+        }
+      ]
+    },
+    "topic": "수상"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "건축설계도면도 저작권료 받나…AI 시대 '음원 정산' 모델 검토",
+    "body": [
+      "건축 도면이 AI 학습 데이터로 쓰이는데도 정작 설계자에게는 대가가 돌아가지 않는다는 문제 제기가 나왔다. 대한건축사협회는 음원 플랫폼처럼 협회를 신탁관리단체로 지정해, 도면이 AI 학습에 쓰일 때 동의와 보상을 받는 체계를 제안했다."
+    ],
+    "facts": [
+      "쟁점: 도면이 **AI 학습 데이터**로 쓰여도 설계자에겐 대가 없음",
+      "규모: 국내 건축 인허가 시스템에 쌓인 도면 **7억 건** 이상, 형식은 제각각",
+      "제안: 대한건축사협회를 **신탁관리단체**로 지정, 공공데이터·민간저작물 구분 관리"
+    ],
+    "body_after": [
+      "김재록 대한건축사협회장은 \"보호와 활용의 균형을 체계적으로 맞춰야 한다\"고 말했다. 국회에서도 \"AI 데이터 활용 과정에서 창작자 권리가 침해돼선 안 된다\"는 의견이 나왔다."
+    ],
+    "source": {
+      "outlet": "대한건축사협회",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "http://www.ancnews.kr/news/articleView.html?idxno=21105"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "재난유산 · 칠레",
+      "title": "2010년 지진·쓰나미가 덮친 극장, 16년 만에 다시 막 올린다",
+      "image": "https://images.adsttc.com/media/images/6aa9/6915/069c/1b2f/7de7/f2bd/newsletter/reconstruccion-teatro-municipal-de-constitucion-elemental_12.jpg?1789487432",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "2010년 규모 **8.8** 지진과 쓰나미가 칠레 콘스티투시온 도심 절반을 휩쓸었다. 시립극장도 그때 크게 파손된 뒤 오랫동안 방치돼 있었다.",
+        "알레한드로 아라베나가 이끄는 ELEMENTAL이 구조·음향·전기 전문가와 함께 복원을 맡아 **1,500㎡** 규모로 되살렸다. 2024년 공사를 마치고 지역 문화 거점으로 다시 문을 열었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1185162/reconstruction-of-the-constitucion-municipal-theater-elemental"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "프로젝트 · 이란",
+      "title": "테헤란 근교 과수원, 주말 별장에 색색의 둥근 방이 자라났다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/zav-architects-gelareh-house-iran-designboom-600.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "ZAV 아키텍츠가 이란 쿠사르의 **200㎡** 주말 별장을 상시 주거지로 확장하며 과수원 사이로 둥근 방들을 밀어 넣었다. 건축가들은 이를 '기존 건물에서 자라난 새 팔다리'라 표현한다.",
+        "기존 건물의 테라코타색에서 바깥으로 갈수록 분홍과 파랑으로 점차 옮겨가며, 세 필지에 걸친 과수나무를 최대한 살렸다. 현지 조적 기술을 활용한 로우테크 시공이 특징이다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/zav-architects-colorful-vaults-iran-gelareh-house/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "프로젝트 · 일본",
+      "title": "39㎡ 자투리땅에 나선형으로 쌓아 올린 도쿄 4인 가족의 집",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/house-musashi-koyama-tato-architects-yo-shimada-tiny-family-home-tokyo-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "다토 아키텍츠(시마다 요)가 도쿄 시나가와구의 깃발 모양 좁은 대지에 스킵플로어를 나선형으로 배치했다. 적층 목재 빔과 가느다란 철재 부재로 층을 이어, 대지면적 **39.53㎡**·연면적 **47.14㎡**의 초소형 집에 4인 가족이 산다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/spiral-timber-beams-steel-tiny-40-sqm-tokyo-home-musashi-koyama-tato-architects-yo-shimada/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프로젝트 · 미국",
+      "title": "농업 부산물 압축 볏짚판으로 벽·지붕을 다 지은 뉴욕 주택",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/compressed-agricultural-waste-complete-building-system-new-york-house-ltl-architects-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "LTL 아키텍츠가 프린스턴대·구조엔지니어 가이 노든슨과 함께 일반 볏짚 베일보다 **3배 이상** 밀도가 높은 압축 볏짚판 16개 유닛으로 집 한 채를 완성했다. 111겹 볏짚 벽 사이 22겹마다 목재 링빔을 넣고, 갈대를 엮은 초가 패널 33장으로 빗물을 막았다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/compressed-agricultural-waste-complete-building-system-new-york-house-ltl-architects/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "도시재생 · 미국",
+      "title": "뉴욕 여름 거리에 뜬 분홍빛 구름, 자카란다를 닮은 그늘",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/pink-inflatable-canopy-soft-shade-new-york-streetscape-elsa-ponce-bower-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "브루클린 건축가 엘사 폰세가 뉴욕시 교통국 '서머 스트리츠' 프로그램을 위해 팽창형 캐노피 '더 바워'를 선보였다. 색은 폰세가 멕시코에서 자라며 본 자카란다 나무를 따라 연보라에서 파스텔 핑크로 옅게 변하며, 특수 도구 없이 소수 인력이 하루 만에 설치·철거할 수 있다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/pink-inflatable-canopy-soft-shade-new-york-streetscape-elsa-ponce-bower/"
+          }
+        ]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "프로젝트 · 브라질",
+      "title": "브라질 트란코주 해변, 열대의 감각을 그대로 옮긴 저택",
+      "image": "https://images.adsttc.com/media/images/6aa3/6cc0/9637/5601/88df/3ce6/large_jpg/villa-yandara-padovani-arquitetos_7.jpg?1789095121",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "파도바니 아르키테투스가 브라질 포르투세구루 트란코주에 약 **1,000㎡** 규모 주택 '빌라 얀다라'를 완성했다. 목재·철·콘크리트를 섞어 조경이 실내의 연장이 되도록 설계했고, 자동화·조명·공조 시스템까지 맞춤 제작했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184934/villa-yandara-padovani-arquitetos"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 전시",
+      "title": "'집합 서울' 걸고 개막한 18회 서울건축문화제, 한 달간 이어진다",
+      "body": [
+        "서울시가 주최하는 18회 서울건축문화제가 '집합 서울: 서울의 발견'을 주제로 9월 15일 서울도시건축전시관에서 개막해 **10월 11일**까지 이어진다. 국형걸 큐레이터와 신경섭 사진작가가 함께 꾸민 주제전이 중심이다.",
+        "44회 서울특별시건축상 수상작 20선도 함께 걸린다. 완공 부문 대상은 더시스템랩건축사사무소가 설계한 '서울서남미술관'이 받았다. 시민참여 프로그램과 청년건축가 지원 순서도 마련됐다."
+      ],
+      "source": {
+        "outlet": "대한건축사협회",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21104"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "담양 반다비체육센터, 공사비 82.7억원 설계공모 접수 시작",
+      "body": [
+        "전남 담양군이 담양읍 만성리 일원에 지을 반다비체육센터 건립공사 설계공모를 9월 15일 공고했다. 연면적 **1,900㎡**, 공사비 **82.7억원** 규모다.",
+        "참가등록 마감은 **9월 22일**, 결과 발표는 12월 4일이다. 심사위원 10인이 심사를 맡는다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18905"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "거제시 노인회관 건립 설계공모, 공사비 31.7억원 규모로 접수",
+      "body": [
+        "경남 거제시가 고현동 거제지역자활센터 부지에 지을 노인회관 건립 설계공모를 공고했다. 연면적 **655㎡**, 공사비 **31.7억원**의 일반 설계공모다.",
+        "참가등록은 9월 16일부터 **9월 23일**까지, 결과 발표는 12월 4일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18901"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 설계공모",
+      "title": "부산 운산초 다목적강당·급식실 증축 설계공모 접수중",
+      "body": [
+        "부산 남구 운산초등학교가 다목적강당 및 급식실 증축 설계공모를 진행 중이다. 연면적 **1,908㎡**, 공사비 **90억원** 규모로 참가등록이 진행되고 있다.",
+        "참가등록 마감은 **9월 22일**, 결과 발표는 12월 7일이다. 심사위원은 7인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18903"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "5년 단위 국가 건축정책, 'AI 건축행정'과 '빈집 재편' 담는다",
+      "body": [
+        "국토교통부와 건축공간연구원이 2030년까지 적용될 제4차 건축정책기본계획 공청회를 9월 8일 서소문성지 역사박물관에서 열었다. 인구감소·고령화에 대응한 유휴공간 재편과 AI 기반 행정 확대가 핵심이다.",
+        "빈집·폐교 등 유휴공간을 재편하는 '공간 재구조화', 한옥·근현대건축을 K-컬처와 잇는 'K-건축문화공간', 설계·시공 중심에서 R&D·운영관리·데이터·녹색건축으로 산업 영역을 넓히는 전략, AI 기반 행정과 모듈러·OSC 등 신기술 확산까지 네 가지 축을 제시했다."
+      ],
+      "source": {
+        "outlet": "건축공간연구원",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7524&tag=&nPage=1"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "산속 리조트 같은 도미니카공화국 '카사 VO'",
+      "body": "데상글스 아브레우 아르키텍토스와 아르키나가 자라바코아에 1,860㎡ 규모 주택을 완성했다. 열대 자연 속에 스민 현대적 매스가 특징이다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1185067/casa-vo-desangles-abreu-arquitectos-and-arkina"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "모텐슨 컨소시엄, 19억 달러 캔자스시티 MLB 구장 수주",
+      "body": "모텐슨이 이끄는 컨소시엄이 캔자스시티 신규 메이저리그 야구장 시공을 따냈다. 미국 스포츠 인프라 투자 열기를 보여주는 대형 계약이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/mortenson-jv-wins-kansas-city-mlb-ballpark/830383/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "뉴욕 첫 경전철, 완공까지 최장 5년 걸릴 듯",
+      "body": "퀸스와 브루클린을 잇는 '인터버러 익스프레스' 경전철 사업이 뉴욕시 첫 경전철로 추진된다. MTA는 완공까지 최대 5년을 예상했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/queens-brooklyn-interborough-express-train-mta/830440/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "US스틸·USA레어어스 등, 시설 투자에 20억 달러 쏟아부어",
+      "body": "9월 한 달간 US스틸과 USA레어어스 등 여러 기업이 제조·생산 시설에 대규모 자본을 투입한다고 발표했다. 공급망 재편 기조가 이어지고 있다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/us-steel-usa-rare-earth-array-covenant-september-investments-openings/830193/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "AECOM 사장 \"프로젝트 성패는 착공 전에 갈린다\"",
+      "body": "라라 폴로니 AECOM 사장이 데이터센터 등 대형 프로젝트에서 프리컨스트럭션 단계의 의사결정이 결과를 좌우한다고 강조했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/Aecom-data-center-lara-poloni-president/830157/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "수도권 도심에 6만호 공급…용산·과천·태릉 등 유휴부지 푼다",
+      "body": "국토교통부가 군부대 이전 부지, 노후 청사 등을 활용해 수도권 도심에 주택 6만호를 공급하는 방안을 내놨다. 용산 1만3,500호, 과천 9,800호 등이 포함된다.",
+      "source": {
+        "outlet": "정책브리핑",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156742030"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "constitucion-theater-elemental-restoration",
+      "tag": "HERITAGE",
+      "title": "16년 만에 다시 여는 칠레 지진 극장",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 0,
+      "photo_query": "old theater building restoration",
+      "slides": [
+        {
+          "heading": "2010년 지진이 삼킨\n극장, 다시 열리다",
+          "body": "ELEMENTAL이 복원한 칠레 콘스티투시온 시립극장"
+        },
+        {
+          "heading": "WHAT",
+          "body": "2010년 규모 8.8 지진과 쓰나미가 칠레 콘스티투시온 도심 절반을 휩쓸었다. 시립극장도 크게 파손됐다."
+        },
+        {
+          "heading": "WHO",
+          "body": "알레한드로 아라베나가 이끄는 ELEMENTAL이 구조·음향·전기 전문가와 함께 복원을 설계했다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "연면적 1,500㎡. 2024년 공사를 마치고 지역 문화 거점으로 다시 문을 열었다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "재난으로 잃은 공공 문화시설을 되살린 사례로, 이후 콘스티투시온의 재건 과정을 상징한다."
+        }
+      ]
+    },
+    {
+      "slug": "zav-gelareh-house-iran-orchard",
+      "tag": "PROJECT",
+      "title": "과수원에 자라난 색색의 둥근 방",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 1,
+      "photo_query": "zav architects iran",
+      "slides": [
+        {
+          "heading": "주말 별장에서\n자라난 둥근 방들",
+          "body": "ZAV 아키텍츠가 이란 과수원에 지은 '겔라레 하우스'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "200㎡ 주말 별장을 상시 주거지로 확장하며, 과수원 사이로 둥근 방들을 밀어 넣었다."
+        },
+        {
+          "heading": "CONCEPT",
+          "body": "건축가들은 이를 '기존 건물에서 자라난 새 팔다리'라 표현한다."
+        },
+        {
+          "heading": "COLOR",
+          "body": "기존 건물의 테라코타색에서 바깥으로 갈수록 분홍과 파랑으로 점차 옮겨간다."
+        },
+        {
+          "heading": "HOW",
+          "body": "세 필지에 걸친 과수나무를 최대한 살렸고, 현지 조적 기술을 활용한 로우테크 시공으로 지었다."
+        }
+      ]
+    },
+    {
+      "slug": "tato-musashi-koyama-spiral-house-tokyo",
+      "tag": "PROJECT",
+      "title": "39㎡ 자투리땅의 나선형 도쿄 집",
+      "ref": {
+        "section": "intl_grid",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "small wooden house tokyo japan",
+      "slides": [
+        {
+          "heading": "깃발 모양 좁은 땅에\n나선으로 쌓은 집",
+          "body": "다토 아키텍츠가 도쿄 무사시코야마에 지은 4인 가족의 집"
+        },
+        {
+          "heading": "WHAT",
+          "body": "도쿄 시나가와구의 깃발 모양 좁은 대지에 스킵플로어를 나선형으로 배치했다."
+        },
+        {
+          "heading": "HOW",
+          "body": "적층 목재 빔과 가느다란 철재 부재로 층과 층을 연결해 벽 없이 시야가 이어진다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "대지면적 39.53㎡, 연면적 47.14㎡의 초소형 집이지만 4인 가족이 산다."
+        }
+      ]
+    }
+  ]
+}
