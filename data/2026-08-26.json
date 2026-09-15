@@ -2,9 +2,9 @@
   "vol": "VOL.01  NO.010",
   "editor": "HUEY",
   "counts": {
-    "total": 17,
-    "intl": 12,
-    "kr": 5
+    "total": 16,
+    "intl": 14,
+    "kr": 2
   },
   "outlets": [
     "한국경제",
@@ -17,7 +17,6 @@
     "ENR",
     "GlobeNewswire"
   ],
-
   "teasers": [
     {
       "title": "용산 갈월동, 40층 900가구로 다시 선다",
@@ -40,7 +39,6 @@
       "label": "PROJECT"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 재개발",
     "lede": "서울시 통합심의 통과…용산 갈월동 숙대입구역세권, 40층 900가구로 다시 선다",
@@ -57,37 +55,41 @@
     "source": {
       "outlet": "한국경제",
       "links": [
-        { "text": "용산 갈월동 재개발, 서울시 통합심의 통과…40층 900가구", "url": "https://www.hankyung.com/article/202608247922i" }
+        {
+          "text": "용산 갈월동 재개발, 서울시 통합심의 통과…40층 900가구",
+          "url": "https://www.hankyung.com/article/202608247922i"
+        }
       ]
     },
     "topic": "프로젝트"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "image": "",
-    "image_label": "대한건설경제",
-    "title": "설계공모 참가 문턱 낮춘다…조달청, 건축사사무소 단독 제출 허용",
+    "image_label": "",
+    "title": "용산공원 일부 부지에 청년·신혼부부 주택…'용산특별법' 개정안 다음주 처리",
     "body": [
-      "조달청이 건축 설계공모 참가업체의 행정 부담을 줄여 설계안 중심의 경쟁을 활성화하기 위한 '설계공모 운영 개선방안'을 마련했다. **8월** 최초 입찰공고분부터 적용되며, 소규모 건축사사무소의 공모 참여 장벽을 낮추는 데 초점을 맞췄다."
+      "용산공원 외곽부 녹지비율 규제를 완화해 주택·상업·업무시설 복합개발을 허용하는 '용산공원 특별법' 개정안이 **8월 20일** 국회 본회의 상정이 보류됐다. 현행법은 용산공원 부지를 공원 외 용도로 전용하는 것을 금지하는데, 개정안은 전체 부지(약 300만㎡)의 약 10%에 해당하는 용산어린이정원 일대에 청년·신혼부부용 대규모 공공임대주택을 지을 수 있도록 하는 내용이다."
     ],
     "facts": [
-      "참가자격 간소화: 공모 단계에서는 **건축사사무소** 자격만 요구",
-      "전문분야 자격 확인 시점 이동: 전기·통신·소방 등은 당선자 선정 후 **계약 단계**에서 확인",
-      "공동수급협정서 제출 시점 조정: 공모 단계에는 참여 건축사 **명단**만 제출, 완전한 협정서는 계약 단계에 제출"
+      "대상: 용산어린이정원 일대 (전체 부지 약 300만㎡의 약 10%)",
+      "용도: 청년·신혼부부용 공공임대주택 복합개발",
+      "진행: 국토위 통과(4월) → 본회의 상정 보류(8월 20일) → 다음 주 처리 예정"
     ],
     "body_after": [
-      "그동안 소규모 건축사사무소는 공모 단계에서부터 전기·통신·소방 등 전문분야 업체와 공동수급협정을 미리 맺어야 했고, 기한 내 협정서를 제출하지 못해 심사 대상에서 제외되는 사례가 적지 않았다. 조달청은 이번 개선으로 참가자들이 행정 서류 준비보다 설계안 자체에 집중할 수 있게 될 것이라고 설명했다."
+      "개정안은 지난 **4월** 국회 국토교통위원회를 통과했지만 이번 본회의에서는 처리가 미뤄졌다. 여야는 국토교통부·서울시 간 추가 협의 결과를 반영해 다음 주 본회의에서 관련 법안들을 함께 처리하기로 했다."
     ],
     "source": {
-      "outlet": "대한건설경제",
+      "outlet": "한국일보",
       "links": [
-        { "text": "조달청, 설계공모 참가 문턱 낮춘다…건축사 단독 제출 허용", "url": "https://www.kcenews.kr/9082" }
+        {
+          "text": "여야, '용산특별법 개정안' 국토부·서울시 논의 후 내주 처리키로",
+          "url": "https://www.hankookilbo.com/news/article/A2026082010520003504"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 재난유산",
@@ -101,7 +103,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Donald Judd's Artillery Sheds in Texas to Undergo Major Restoration", "url": "https://www.archdaily.com/1183915/donald-judds-artillery-sheds-in-texas-to-undergo-major-restoration" }
+          {
+            "text": "Donald Judd's Artillery Sheds in Texas to Undergo Major Restoration",
+            "url": "https://www.archdaily.com/1183915/donald-judds-artillery-sheds-in-texas-to-undergo-major-restoration"
+          }
         ]
       },
       "topic": "재난유산"
@@ -118,13 +123,15 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "OMA/AMO and OPEN Architecture Design Opening Exhibitions for Powerhouse Parramatta", "url": "https://www.archdaily.com/1183902/oma-amo-and-open-architecture-design-opening-exhibitions-for-powerhouse-parramatta-in-sydney-australia" }
+          {
+            "text": "OMA/AMO and OPEN Architecture Design Opening Exhibitions for Powerhouse Parramatta",
+            "url": "https://www.archdaily.com/1183902/oma-amo-and-open-architecture-design-opening-exhibitions-for-powerhouse-parramatta-in-sydney-australia"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 리노베이션",
@@ -137,7 +144,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "The House of Memories / Studio Lagom", "url": "https://www.archdaily.com/1183766/the-house-of-memories-studio-lagom" }
+          {
+            "text": "The House of Memories / Studio Lagom",
+            "url": "https://www.archdaily.com/1183766/the-house-of-memories-studio-lagom"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -153,7 +163,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "sordo madaleno sinks open-air art gallery four meters below ground in los cabos", "url": "https://www.designboom.com/architecture/sordo-madaleno-art-gallery-los-cabos-arte-abierto-baja-anima-village-mexico/" }
+          {
+            "text": "sordo madaleno sinks open-air art gallery four meters below ground in los cabos",
+            "url": "https://www.designboom.com/architecture/sordo-madaleno-art-gallery-los-cabos-arte-abierto-baja-anima-village-mexico/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -169,7 +182,10 @@
       "source": {
         "outlet": "Archinect",
         "links": [
-          { "text": "Best in urban planning recognized at AIA Regional & Urban Design Award 2026", "url": "https://archinect.com/news/bustler/11023/best-in-urban-planning-recognized-at-aia-regional-urban-design-award-2026" }
+          {
+            "text": "Best in urban planning recognized at AIA Regional & Urban Design Award 2026",
+            "url": "https://archinect.com/news/bustler/11023/best-in-urban-planning-recognized-at-aia-regional-urban-design-award-2026"
+          }
         ]
       },
       "topic": "수상"
@@ -185,13 +201,15 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Call for Proposals: Bahrain Pavilion at the Venice Architecture Biennale 2027", "url": "https://www.archdaily.com/1183869/call-for-proposals-bahrain-pavilion-at-the-venice-architecture-biennale-2027" }
+          {
+            "text": "Call for Proposals: Bahrain Pavilion at the Venice Architecture Biennale 2027",
+            "url": "https://www.archdaily.com/1183869/call-for-proposals-bahrain-pavilion-at-the-venice-architecture-biennale-2027"
+          }
         ]
       },
       "topic": "설계공모"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 설계공모",
@@ -202,7 +220,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Call for Entries: International Design Competition for the Redevelopment of the Hwamyeong Outdoor Swimming Pool", "url": "https://www.archdaily.com/1183617/call-for-entries-international-design-competition-for-the-redevelopment-of-the-hwamyeong-outdoor-swimming-pool" }
+          {
+            "text": "Call for Entries: International Design Competition for the Redevelopment of the Hwamyeong Outdoor Swimming Pool",
+            "url": "https://www.archdaily.com/1183617/call-for-entries-international-design-competition-for-the-redevelopment-of-the-hwamyeong-outdoor-swimming-pool"
+          }
         ]
       },
       "topic": "설계공모"
@@ -216,28 +237,15 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "2026 Suseong International Architecture and Landscape Visual Artwork Competition", "url": "https://www.archdaily.com/1183324/2026-suseong-international-architecture-and-landscape-visual-artwork-competition" }
+          {
+            "text": "2026 Suseong International Architecture and Landscape Visual Artwork Competition",
+            "url": "https://www.archdaily.com/1183324/2026-suseong-international-architecture-and-landscape-visual-artwork-competition"
+          }
         ]
       },
       "topic": "설계공모"
-    },
-    {
-      "kicker": "국내 · 제도규제",
-      "title": "용산공원 일부 부지에 청년·신혼부부 주택…'용산특별법' 개정안 다음주 처리",
-      "body": [
-        "용산공원 외곽부 녹지비율 규제를 완화해 주택·상업·업무시설 복합개발을 허용하는 '용산공원 특별법' 개정안이 **8월 20일** 국회 본회의 상정이 보류됐다. 현행법은 용산공원 부지를 공원 외 용도로 전용하는 것을 금지하는데, 개정안은 전체 부지(약 300만㎡)의 약 10%에 해당하는 용산어린이정원 일대에 청년·신혼부부용 대규모 공공임대주택을 지을 수 있도록 하는 내용이다.",
-        "개정안은 지난 **4월** 국회 국토교통위원회를 통과했지만 이번 본회의에서는 처리가 미뤄졌다. 여야는 국토교통부·서울시 간 추가 협의 결과를 반영해 다음 주 본회의에서 관련 법안들을 함께 처리하기로 했다."
-      ],
-      "source": {
-        "outlet": "한국일보",
-        "links": [
-          { "text": "여야, '용산특별법 개정안' 국토부·서울시 논의 후 내주 처리키로", "url": "https://www.hankookilbo.com/news/article/A2026082010520003504" }
-        ]
-      },
-      "topic": "제도규제"
     }
   ],
-
   "briefs": [
     {
       "title": "커맨더스 새 홈구장, 클락·모텐슨·스무트 컨소시엄이 짓는다",
@@ -245,7 +253,10 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "Commanders pick JV for reported $3.8B NFL stadium", "url": "https://www.constructiondive.com/news/commanders-jv-nfl-stadium-clark-mortenson-smoot/827593/" }
+          {
+            "text": "Commanders pick JV for reported $3.8B NFL stadium",
+            "url": "https://www.constructiondive.com/news/commanders-jv-nfl-stadium-clark-mortenson-smoot/827593/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -256,7 +267,10 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "Surge in July construction starts reflected megaproject volatility: Dodge", "url": "https://www.constructiondive.com/news/surge-july-construction-starts-megaproject-volatility-dodge/828521/" }
+          {
+            "text": "Surge in July construction starts reflected megaproject volatility: Dodge",
+            "url": "https://www.constructiondive.com/news/surge-july-construction-starts-megaproject-volatility-dodge/828521/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -267,7 +281,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "anne loch magnifies flowers, sheep and mountains at zentrum paul klee in switzerland", "url": "https://www.designboom.com/art/anne-loch-flowers-sheep-mountains-zentrum-paul-klee-exhibition-switzerland/" }
+          {
+            "text": "anne loch magnifies flowers, sheep and mountains at zentrum paul klee in switzerland",
+            "url": "https://www.designboom.com/art/anne-loch-flowers-sheep-mountains-zentrum-paul-klee-exhibition-switzerland/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -278,7 +295,10 @@
       "source": {
         "outlet": "ENR",
         "links": [
-          { "text": "Visiting a Devastated Alaska Landscape for an ENR Report", "url": "https://www.enr.com/articles/63526-visiting-a-devastated-alaska-landscape-for-an-enr-report" }
+          {
+            "text": "Visiting a Devastated Alaska Landscape for an ENR Report",
+            "url": "https://www.enr.com/articles/63526-visiting-a-devastated-alaska-landscape-for-an-enr-report"
+          }
         ]
       },
       "topic": "재난유산"
@@ -289,7 +309,10 @@
       "source": {
         "outlet": "USA Today",
         "links": [
-          { "text": "Trump calls it 'a mistake' for communities to reject data centers", "url": "https://www.usatoday.com/story/news/politics/2026/08/24/donald-trump-data-centers-mistake/91438730007/" }
+          {
+            "text": "Trump calls it 'a mistake' for communities to reject data centers",
+            "url": "https://www.usatoday.com/story/news/politics/2026/08/24/donald-trump-data-centers-mistake/91438730007/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -300,19 +323,23 @@
       "source": {
         "outlet": "GlobeNewswire",
         "links": [
-          { "text": "American Society of Landscape Architects Announces its 2026 Professional Awards", "url": "https://www.globenewswire.com/news-release/2026/08/24/3350117/0/en/american-society-of-landscape-architects-announces-its-2026-professional-awards.html" }
+          {
+            "text": "American Society of Landscape Architects Announces its 2026 Professional Awards",
+            "url": "https://www.globenewswire.com/news-release/2026/08/24/3350117/0/en/american-society-of-landscape-architects-announces-its-2026-professional-awards.html"
+          }
         ]
       },
       "topic": "수상"
     }
   ],
-
   "cardnews": [
     {
       "slug": "yongsan-galwol-sookdae-redevelopment",
       "tag": "PROJECT",
       "title": "용산 갈월동, 40층 900가구로 다시 선다",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 0,
       "photo_query": "seoul apartment redevelopment skyline construction",
       "slides": [
@@ -342,7 +369,10 @@
       "slug": "judd-artillery-sheds-restoration",
       "tag": "HERITAGE",
       "title": "도널드 저드의 텍사스 유산, 53년 만의 복원",
-      "ref": { "section": "intl_feature", "index": 0 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
       "bg": 1,
       "photo_query": "brutalist concrete military building desert restoration",
       "slides": [
@@ -372,7 +402,10 @@
       "slug": "sordo-madaleno-arte-abierto-baja",
       "tag": "PROJECT",
       "title": "지하 4m로 꺼진 미술관, 로스카보스",
-      "ref": { "section": "intl_grid", "index": 1 },
+      "ref": {
+        "section": "intl_grid",
+        "index": 1
+      },
       "bg": 2,
       "photo_query": "concrete underground courtyard desert architecture",
       "slides": [

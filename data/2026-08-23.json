@@ -3,8 +3,8 @@
   "editor": "HUEY",
   "counts": {
     "total": 19,
-    "intl": 12,
-    "kr": 7
+    "intl": 14,
+    "kr": 5
   },
   "outlets": [
     "ArchDaily",
@@ -37,7 +37,6 @@
       "label": "AWARDS"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 비엔날레",
     "lede": "아프리카가 스스로 쓰는 건축 담론…첫 범아프리카 비엔날레, 9월 나이로비 개막",
@@ -54,12 +53,14 @@
     "source": {
       "outlet": "ArchDaily",
       "links": [
-        { "text": "Pan-African Biennale Unveils Participants for Its Inaugural Edition in Nairobi", "url": "https://www.archdaily.com/1041933/pan-african-biennale-unveils-participants-for-its-inaugural-edition-in-nairobi" }
+        {
+          "text": "Pan-African Biennale Unveils Participants for Its Inaugural Edition in Nairobi",
+          "url": "https://www.archdaily.com/1041933/pan-african-biennale-unveils-participants-for-its-inaugural-edition-in-nairobi"
+        }
       ]
     },
     "topic": "프로젝트"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "title": "국토의 16.7%에 국민 92.1%가 산다…2025년 도시계획현황 통계",
@@ -78,12 +79,14 @@
     "source": {
       "outlet": "한국AI부동산신문",
       "links": [
-        { "text": "국토 16.7퍼센트 도시지역에 국민 92.1퍼센트 거주한다", "url": "https://www.kairnews.com/news/514265" }
+        {
+          "text": "국토 16.7퍼센트 도시지역에 국민 92.1퍼센트 거주한다",
+          "url": "https://www.kairnews.com/news/514265"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 건축영화",
@@ -97,7 +100,10 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Brad Pitt brought on as executive producer for Peter Zumthor documentary", "url": "https://www.dezeen.com/2026/08/20/brad-pitt-from-inside-out-peter-zumthor-documentary/" }
+          {
+            "text": "Brad Pitt brought on as executive producer for Peter Zumthor documentary",
+            "url": "https://www.dezeen.com/2026/08/20/brad-pitt-from-inside-out-peter-zumthor-documentary/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -114,13 +120,15 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Antiquity exhibition at Wawel castle / NArchitekTURA", "url": "https://www.archdaily.com/1183570/antiquity-exhibition-at-wawel-castle-narchitektura" }
+          {
+            "text": "Antiquity exhibition at Wawel castle / NArchitekTURA",
+            "url": "https://www.archdaily.com/1183570/antiquity-exhibition-at-wawel-castle-narchitektura"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 리노베이션",
@@ -133,7 +141,10 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Photos reveal new facade of Google's Thompson Center", "url": "https://www.dezeen.com/2026/08/18/thompson-center-google-jahn-chicago-new-facade/" }
+          {
+            "text": "Photos reveal new facade of Google's Thompson Center",
+            "url": "https://www.dezeen.com/2026/08/18/thompson-center-google-jahn-chicago-new-facade/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -149,7 +160,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Breeze House / Ábaton", "url": "https://www.archdaily.com/1148787/breeze-house-abaton" }
+          {
+            "text": "Breeze House / Ábaton",
+            "url": "https://www.archdaily.com/1148787/breeze-house-abaton"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -165,7 +179,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Call for Entries: Architecture Portfolio Competition 2026", "url": "https://www.archdaily.com/1181661/call-for-entries-architecture-portfolio-competition-2026" }
+          {
+            "text": "Call for Entries: Architecture Portfolio Competition 2026",
+            "url": "https://www.archdaily.com/1181661/call-for-entries-architecture-portfolio-competition-2026"
+          }
         ]
       },
       "topic": "설계공모"
@@ -181,13 +198,15 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "Kinderspace: Architecture for Children's Development competition / Edition #4", "url": "https://www.designboom.com/competition/kinderspace-architecture-for-childrens-development-competition-edition-4/" }
+          {
+            "text": "Kinderspace: Architecture for Children's Development competition / Edition #4",
+            "url": "https://www.designboom.com/competition/kinderspace-architecture-for-childrens-development-competition-edition-4/"
+          }
         ]
       },
       "topic": "설계공모"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 수상",
@@ -201,7 +220,10 @@
       "source": {
         "outlet": "브리크매거진",
         "links": [
-          { "text": "제44회 서울특별시 건축상 수상작 20점 선정", "url": "https://magazine.brique.co/brq-news/seoul-architecture-award-44th-winners-2026/" }
+          {
+            "text": "제44회 서울특별시 건축상 수상작 20점 선정",
+            "url": "https://magazine.brique.co/brq-news/seoul-architecture-award-44th-winners-2026/"
+          }
         ]
       },
       "topic": "수상"
@@ -216,7 +238,10 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "국회 국토교통위원회 위원들과 릴레이 정책 간담회", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20978" }
+          {
+            "text": "국회 국토교통위원회 위원들과 릴레이 정책 간담회",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20978"
+          }
         ]
       },
       "topic": "제도규제"
@@ -230,7 +255,10 @@
       "source": {
         "outlet": "서울특별시",
         "links": [
-          { "text": "2026 서울시 공공건축가 공개모집 결과", "url": "https://news.seoul.go.kr/citybuild/archives/540349" }
+          {
+            "text": "2026 서울시 공공건축가 공개모집 결과",
+            "url": "https://news.seoul.go.kr/citybuild/archives/540349"
+          }
         ]
       },
       "topic": "수상"
@@ -245,7 +273,10 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "'아파트'도 건축적일까?…아파트 통해 한국 사회·건축구조 다뤄", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20964" }
+          {
+            "text": "'아파트'도 건축적일까?…아파트 통해 한국 사회·건축구조 다뤄",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20964"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -259,13 +290,15 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "추사고택에서 외암마을까지…한옥을 '보고, 걷고, 읽다'", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20974" }
+          {
+            "text": "추사고택에서 외암마을까지…한옥을 '보고, 걷고, 읽다'",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20974"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "briefs": [
     {
       "title": "에콰도르 초코 숲에 앉은 탄화목 은신처",
@@ -273,7 +306,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Chocó Pambil Refuge / Minqa Atelier", "url": "https://www.archdaily.com/1183631/choco-pambil-refuge-minqa-atelier" }
+          {
+            "text": "Chocó Pambil Refuge / Minqa Atelier",
+            "url": "https://www.archdaily.com/1183631/choco-pambil-refuge-minqa-atelier"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -284,7 +320,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Maribyrnong I House / Studio Ceravolo", "url": "https://www.archdaily.com/1183578/maribyrnong-i-house-studio-ceravolo" }
+          {
+            "text": "Maribyrnong I House / Studio Ceravolo",
+            "url": "https://www.archdaily.com/1183578/maribyrnong-i-house-studio-ceravolo"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -295,7 +334,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Trilogy House / Waechter Architecture", "url": "https://www.archdaily.com/1183670/trilogy-house-waechter-architecture" }
+          {
+            "text": "Trilogy House / Waechter Architecture",
+            "url": "https://www.archdaily.com/1183670/trilogy-house-waechter-architecture"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -306,7 +348,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Woonhuis Heenvliet / Studio Brandvries", "url": "https://www.archdaily.com/1183423/woonhuis-heenvliet-studio-brandvries" }
+          {
+            "text": "Woonhuis Heenvliet / Studio Brandvries",
+            "url": "https://www.archdaily.com/1183423/woonhuis-heenvliet-studio-brandvries"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -317,7 +362,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "grid of arches wraps ODA's newly completed POST tower in rotterdam", "url": "https://www.designboom.com/architecture/arches-oda-completed-post-tower-rotterdam-netherlands/" }
+          {
+            "text": "grid of arches wraps ODA's newly completed POST tower in rotterdam",
+            "url": "https://www.designboom.com/architecture/arches-oda-completed-post-tower-rotterdam-netherlands/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -328,19 +376,23 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "【인터뷰】 강무길 부산시의원", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20977" }
+          {
+            "text": "【인터뷰】 강무길 부산시의원",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20977"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "cardnews": [
     {
       "slug": "pan-african-biennale-nairobi",
       "tag": "BIENNALE",
       "title": "아프리카가 스스로 쓰는 건축 담론",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 0,
       "photo_query": "modern african architecture conference building",
       "slides": [
@@ -374,7 +426,9 @@
       "slug": "korea-urban-planning-2025",
       "tag": "DATA",
       "title": "국토의 16.7%에 국민 92.1%가 산다",
-      "ref": { "section": "side" },
+      "ref": {
+        "section": "side"
+      },
       "bg": 1,
       "photo_query": "aerial dense city skyline grid",
       "slides": [
@@ -404,7 +458,10 @@
       "slug": "zumthor-from-inside-out",
       "tag": "FILM",
       "title": "14년을 찍은 줌토르 다큐, 베니스로",
-      "ref": { "section": "intl_feature", "index": 0 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
       "bg": 2,
       "photo_query": "minimalist concrete chapel light interior",
       "slides": [

@@ -2,9 +2,9 @@
   "vol": "VOL.01  NO.009",
   "editor": "HUEY",
   "counts": {
-    "total": 19,
-    "intl": 14,
-    "kr": 5
+    "total": 18,
+    "intl": 15,
+    "kr": 3
   },
   "outlets": [
     "뉴스핌",
@@ -39,7 +39,6 @@
       "label": "PROJECT"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 재건축",
     "lede": "72.2% 압도적 지지로 해안건축 선정…송파 올림픽훼밀리타운, 6,700가구 '펜타포레'로 다시 선다",
@@ -56,12 +55,14 @@
     "source": {
       "outlet": "뉴스핌",
       "links": [
-        { "text": "해안건축, 송파 올림픽훼밀리타운 재건축 설계권 획득", "url": "https://www.newspim.com/news/view/20260824001137" }
+        {
+          "text": "해안건축, 송파 올림픽훼밀리타운 재건축 설계권 획득",
+          "url": "https://www.newspim.com/news/view/20260824001137"
+        }
       ]
     },
     "topic": "프로젝트"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "image": "https://img.etoday.co.kr/pto_db/2026/08/20260820150009_2375796_1000_666.jpg",
@@ -83,12 +84,14 @@
     "source": {
       "outlet": "이투데이",
       "links": [
-        { "text": "9·7 공급대책 후속법 6건 본회의 통과⋯도심 주택공급 속도 낸다", "url": "https://www.etoday.co.kr/news/view/2616587" }
+        {
+          "text": "9·7 공급대책 후속법 6건 본회의 통과⋯도심 주택공급 속도 낸다",
+          "url": "https://www.etoday.co.kr/news/view/2616587"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 재난유산",
@@ -102,7 +105,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Cinema Studio Namibe: Reviving a Tropical Modernist Icon in Angola", "url": "https://www.archdaily.com/1183720/cinema-studio-namibe-reviving-a-tropical-modernist-icon-in-angola" }
+          {
+            "text": "Cinema Studio Namibe: Reviving a Tropical Modernist Icon in Angola",
+            "url": "https://www.archdaily.com/1183720/cinema-studio-namibe-reviving-a-tropical-modernist-icon-in-angola"
+          }
         ]
       },
       "topic": "재난유산"
@@ -119,13 +125,15 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Shigeru Ban unveils Pasona Natureverse Retreat on Awaji Island", "url": "https://www.dezeen.com/2026/08/24/shigeru-ban-hotel-pasona-awaji-island/" }
+          {
+            "text": "Shigeru Ban unveils Pasona Natureverse Retreat on Awaji Island",
+            "url": "https://www.dezeen.com/2026/08/24/shigeru-ban-hotel-pasona-awaji-island/"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 주택",
@@ -138,7 +146,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "wittman estes reinterprets le corbusier's 'minimum cell' as elevated cabin on blakely island", "url": "https://www.designboom.com/architecture/wittman-estes-corbusier-minimum-cell-cabin-blakely-island-washington/" }
+          {
+            "text": "wittman estes reinterprets le corbusier's 'minimum cell' as elevated cabin on blakely island",
+            "url": "https://www.designboom.com/architecture/wittman-estes-corbusier-minimum-cell-cabin-blakely-island-washington/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -154,7 +165,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "blue portals and brick vaults shape DKA's apartment renovation in Rome", "url": "https://www.designboom.com/architecture/blue-portals-and-brick-vaults-shape-dkas-apartment-renovation-in-rome/" }
+          {
+            "text": "blue portals and brick vaults shape DKA's apartment renovation in Rome",
+            "url": "https://www.designboom.com/architecture/blue-portals-and-brick-vaults-shape-dkas-apartment-renovation-in-rome/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -170,7 +184,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Pavilion in Brolo Park / CN10 architetti", "url": "https://www.archdaily.com/1183571/pavilion-in-brolo-park-cn10-architetti" }
+          {
+            "text": "Pavilion in Brolo Park / CN10 architetti",
+            "url": "https://www.archdaily.com/1183571/pavilion-in-brolo-park-cn10-architetti"
+          }
         ]
       },
       "topic": "도시재생"
@@ -186,7 +203,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "officina82 reimagines traditional italian hay barn as timber treetop retreat in ligurian alps", "url": "https://www.designboom.com/architecture/officina82-traditional-italian-hay-barn-timber-treetop-retreat-ligurian-alps/" }
+          {
+            "text": "officina82 reimagines traditional italian hay barn as timber treetop retreat in ligurian alps",
+            "url": "https://www.designboom.com/architecture/officina82-traditional-italian-hay-barn-timber-treetop-retreat-ligurian-alps/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -202,13 +222,15 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "100,000 € Prize / Kingspan MICROHOME 2026", "url": "https://architecturecompetitions.com/microhome2026/" }
+          {
+            "text": "100,000 € Prize / Kingspan MICROHOME 2026",
+            "url": "https://architecturecompetitions.com/microhome2026/"
+          }
         ]
       },
       "topic": "설계공모"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 설계공모",
@@ -219,7 +241,10 @@
       "source": {
         "outlet": "한국건축가협회",
         "links": [
-          { "text": "두동면 공공복합시설 건립공사 건축설계공모 안내", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20672" }
+          {
+            "text": "두동면 공공복합시설 건립공사 건축설계공모 안내",
+            "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20672"
+          }
         ]
       },
       "topic": "설계공모"
@@ -234,7 +259,10 @@
       "source": {
         "outlet": "아시아투데이",
         "links": [
-          { "text": "모듈러 방식으로 주택 공급 늘린다는데…'30% 비싼 공사비' 관건", "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260817010005281" }
+          {
+            "text": "모듈러 방식으로 주택 공급 늘린다는데…'30% 비싼 공사비' 관건",
+            "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260817010005281"
+          }
         ]
       },
       "topic": "제도규제"
@@ -248,32 +276,26 @@
       "source": {
         "outlet": "한국건축가협회",
         "links": [
-          { "text": "공간민주주의 헌장(안) 제안 국회토론회 개최 안내", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20697" }
+          {
+            "text": "공간민주주의 헌장(안) 제안 국회토론회 개최 안내",
+            "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20697"
+          }
         ]
       },
       "topic": "제도규제"
     }
   ],
-
   "briefs": [
-    {
-      "title": "AIA 2026 소규모 프로젝트상, 7건 선정",
-      "body": "미국건축가협회(AIA)가 2026년 소규모 프로젝트상 수상작 7건을 발표했다. 옛 채석장을 수영 명소로 되살린 테네시의 '오거스타 쿼리' 등이 이름을 올렸다.",
-      "source": {
-        "outlet": "Bustler",
-        "links": [
-          { "text": "Best small projects chosen at AIA Small Project Award 2026", "url": "https://archinect.com/news/bustler/11020/best-small-projects-chosen-at-aia-small-project-award-2026" }
-        ]
-      },
-      "topic": "수상"
-    },
     {
       "title": "테슬라, 텍사스에 12조원 규모 태양전지 공장 추진",
       "body": "테슬라가 '프로젝트 크리스탈 선'이라는 이름으로 텍사스 포트벤드 카운티에 101억 달러 규모 태양광 셀·모듈 공장을 짓는다. 정규직 9,712명 고용을 예상하며 2029년 1분기 가동이 목표다.",
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "Tesla eyes $10B solar cell manufacturing site in Fort Bend County, Texas", "url": "https://www.constructiondive.com/news/tesla-eyes-10b-solar-cell-manufacturing-site-fort-bend-county-texas/828532/" }
+          {
+            "text": "Tesla eyes $10B solar cell manufacturing site in Fort Bend County, Texas",
+            "url": "https://www.constructiondive.com/news/tesla-eyes-10b-solar-cell-manufacturing-site-fort-bend-county-texas/828532/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -284,7 +306,10 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "World's tallest jail begins construction in Manhattan's Chinatown", "url": "https://www.dezeen.com/2026/08/24/manhattan-jail-hok-chinatown-construction/" }
+          {
+            "text": "World's tallest jail begins construction in Manhattan's Chinatown",
+            "url": "https://www.dezeen.com/2026/08/24/manhattan-jail-hok-chinatown-construction/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -295,7 +320,10 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "Builders need to be prepared for uneven state, federal DBE rules", "url": "https://www.constructiondive.com/news/public-builders-prepare-state-federal-dbe-dei/828519/" }
+          {
+            "text": "Builders need to be prepared for uneven state, federal DBE rules",
+            "url": "https://www.constructiondive.com/news/public-builders-prepare-state-federal-dbe-dei/828519/"
+          }
         ]
       },
       "topic": "제도규제"
@@ -306,7 +334,10 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Ushas farmhouse by Evolving Radical Aesthetics", "url": "https://www.dezeen.com/2026/08/24/ushas-farmhouse-kerala-india-evolving-radical-aesthetics/" }
+          {
+            "text": "Ushas farmhouse by Evolving Radical Aesthetics",
+            "url": "https://www.dezeen.com/2026/08/24/ushas-farmhouse-kerala-india-evolving-radical-aesthetics/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -317,7 +348,10 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Yarlington Lodge at The Newt in Somerset", "url": "https://www.dezeen.com/2026/08/24/yarlington-lodge-newt-somerset-richard-parr/" }
+          {
+            "text": "Yarlington Lodge at The Newt in Somerset",
+            "url": "https://www.dezeen.com/2026/08/24/yarlington-lodge-newt-somerset-richard-parr/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -328,20 +362,24 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Alexandre Pavlidis completes Within the Earth on Sifnos", "url": "https://divisare.com/projects/561984-alexandre-pavlidis-architect-simone-bossi-fysika-beneath-the-earth" }
+          {
+            "text": "Alexandre Pavlidis completes Within the Earth on Sifnos",
+            "url": "https://divisare.com/projects/561984-alexandre-pavlidis-architect-simone-bossi-fysika-beneath-the-earth"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "cardnews": [
     {
       "slug": "olympic-family-town-pentaforet",
       "tag": "PROJECT",
       "photo_query": "modern apartment tower forest park aerial",
       "title": "송파 6,700가구, '펜타포레'로 다시 선다",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 0,
       "slides": [
         {
@@ -371,7 +409,10 @@
       "tag": "HERITAGE",
       "photo_query": "brutalist concrete cinema facade coastal",
       "title": "50년 만에 불 켜진 앙골라 극장",
-      "ref": { "section": "intl_feature", "index": 0 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
       "bg": 1,
       "slides": [
         {
@@ -401,7 +442,10 @@
       "tag": "PROJECT",
       "photo_query": "onsen hotel forest coast japan minimalist",
       "title": "시게루 반의 온천 딸린 웰니스 리트리트",
-      "ref": { "section": "intl_feature", "index": 1 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
       "bg": 2,
       "slides": [
         {

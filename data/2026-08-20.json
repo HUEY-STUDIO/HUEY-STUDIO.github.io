@@ -2,9 +2,9 @@
   "vol": "VOL.01  NO.004",
   "editor": "HUEY",
   "counts": {
-    "total": 18,
+    "total": 17,
     "intl": 12,
-    "kr": 6
+    "kr": 5
   },
   "outlets": [
     "designboom",
@@ -366,20 +366,6 @@
         ]
       },
       "topic": "프로젝트"
-    },
-    {
-      "title": "그레이엄재단, 2026년 건축 담론 확장 프로젝트에 45건 지원",
-      "body": "전시·영화·출판·리서치 등 건축 담론을 넓히는 단체·프로젝트 45곳에 지원금을 배분했다.",
-      "source": {
-        "outlet": "ArchDaily",
-        "links": [
-          {
-            "text": "Graham Foundation Announces 45 New Grants for Projects Expanding Architectural Discourse in 2026",
-            "url": "https://www.archdaily.com/1183472/graham-foundation-announces-45-new-grants-for-projects-expanding-architectural-discourse-in-2026"
-          }
-        ]
-      },
-      "topic": "수상"
     }
   ],
   "cardnews": [

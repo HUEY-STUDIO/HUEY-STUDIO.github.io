@@ -2,9 +2,9 @@
   "vol": "VOL.01  NO.014",
   "editor": "HUEY",
   "counts": {
-    "total": 19,
-    "intl": 11,
-    "kr": 8
+    "total": 17,
+    "intl": 12,
+    "kr": 5
   },
   "outlets": [
     "Construction Dive",
@@ -16,7 +16,6 @@
     "메트로서울",
     "주택폴리오"
   ],
-
   "teasers": [
     {
       "title": "샌안토니오 스퍼스 새 아레나, 13억 달러",
@@ -39,7 +38,6 @@
       "label": "COMPETITION"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 스포츠 인프라",
     "lede": "샌안토니오 스퍼스 새 아레나에 13억 달러…몰텐슨·바틀렛콕이 짓는다",
@@ -56,12 +54,14 @@
     "source": {
       "outlet": "Construction Dive",
       "links": [
-        { "text": "Mortenson, Bartlett Cocke win $1.3B NBA Spurs arena", "url": "https://www.constructiondive.com/news/mortenson-bartlett-cocke-win-13b-nba-spurs-arena/828867/" }
+        {
+          "text": "Mortenson, Bartlett Cocke win $1.3B NBA Spurs arena",
+          "url": "https://www.constructiondive.com/news/mortenson-bartlett-cocke-win-13b-nba-spurs-arena/828867/"
+        }
       ]
     },
     "topic": "프로젝트"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "image": "",
@@ -82,12 +82,14 @@
     "source": {
       "outlet": "KSP뉴스",
       "links": [
-        { "text": "[특집] 조정실, 규제합리화 성과가 '모두의 성장'으로 이어지도록 한다", "url": "http://kspnews.com/2782428" }
+        {
+          "text": "[특집] 조정실, 규제합리화 성과가 '모두의 성장'으로 이어지도록 한다",
+          "url": "http://kspnews.com/2782428"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 프로젝트",
@@ -101,7 +103,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "AutoCamp Sequoia / Waechter Architecture", "url": "https://www.archdaily.com/1183669/autocamp-sequoia-waechter-architecture" }
+          {
+            "text": "AutoCamp Sequoia / Waechter Architecture",
+            "url": "https://www.archdaily.com/1183669/autocamp-sequoia-waechter-architecture"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -118,30 +123,16 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Animà Village / Sordo Madaleno Arquitectos", "url": "https://www.archdaily.com/1183857/anima-village-javier-sordo-madaleno-bringas" }
+          {
+            "text": "Animà Village / Sordo Madaleno Arquitectos",
+            "url": "https://www.archdaily.com/1183857/anima-village-javier-sordo-madaleno-bringas"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
-    {
-      "kicker": "국제 · 프로젝트",
-      "title": "12세기 수도원을 마주보는 프랑스 숲속 10㎡ 목재 정자",
-      "image": "https://images.adsttc.com/media/images/6a87/d92e/4253/0500/01c9/fd12/medium_jpg/HUT-Katuvu-_David_Foessel-02.jpg?1787287894",
-      "image_label": "ARCHDAILY",
-      "body": [
-        "HUT 아틀리에 다르시텍처가 프랑스 사부아 파베르주세텐 숲 가장자리에 목재와 패브릭으로 지은 **10㎡** 소형 파빌리온 '카투부 헛'. 완만한 경사지에 남서향으로 배치해 12세기 시토회 수도원 타미에 아베이 방향으로 시선이 열리도록 설계했다."
-      ],
-      "source": {
-        "outlet": "ArchDaily",
-        "links": [
-          { "text": "Katūvu Hut / HUT atelier d'architecture", "url": "https://www.archdaily.com/1183732/katuvu-hut-hut-atelier-darchitecture" }
-        ]
-      },
-      "topic": "프로젝트"
-    },
     {
       "kicker": "국제 · 프로젝트",
       "title": "로마의 100㎡ 아파트, 색과 기하학으로 다시 짠 'A12'",
@@ -153,7 +144,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "A12 Apartment / DKA – Diele Kerciku Architetture", "url": "https://www.archdaily.com/1183511/a12-apartment-dka" }
+          {
+            "text": "A12 Apartment / DKA – Diele Kerciku Architetture",
+            "url": "https://www.archdaily.com/1183511/a12-apartment-dka"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -169,7 +163,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Semi-construction Site Office / ARCHWASTE", "url": "https://www.archdaily.com/1184064/semi-construction-site-office-archwaste" }
+          {
+            "text": "Semi-construction Site Office / ARCHWASTE",
+            "url": "https://www.archdaily.com/1184064/semi-construction-site-office-archwaste"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -186,13 +183,15 @@
       "source": {
         "outlet": "Buildner",
         "links": [
-          { "text": "Pavilion Atlas 2026 International Architecture Competition", "url": "https://architecturecompetitions.com/pavilionatlas/" }
+          {
+            "text": "Pavilion Atlas 2026 International Architecture Competition",
+            "url": "https://architecturecompetitions.com/pavilionatlas/"
+          }
         ]
       },
       "topic": "설계공모"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 도시재생",
@@ -205,7 +204,10 @@
       "source": {
         "outlet": "헤럴드경제",
         "links": [
-          { "text": "오세훈, 탄천물재생센터 부지에 '동남권 청년 특화단지' 제안", "url": "https://biz.heraldcorp.com/article/10855402" }
+          {
+            "text": "오세훈, 탄천물재생센터 부지에 '동남권 청년 특화단지' 제안",
+            "url": "https://biz.heraldcorp.com/article/10855402"
+          }
         ]
       },
       "topic": "도시재생"
@@ -219,7 +221,10 @@
       "source": {
         "outlet": "대한전문건설신문",
         "links": [
-          { "text": "LH, 신축매입 사업절차 대폭 간소화", "url": "https://www.koscaj.com/news/articleView.html?idxno=326034" }
+          {
+            "text": "LH, 신축매입 사업절차 대폭 간소화",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=326034"
+          }
         ]
       },
       "topic": "제도규제"
@@ -235,7 +240,10 @@
       "source": {
         "outlet": "메트로서울",
         "links": [
-          { "text": "경기도교육청, 하반기 학교복합시설 4곳 선정", "url": "https://www.metroseoul.co.kr/article/20260821500054" }
+          {
+            "text": "경기도교육청, 하반기 학교복합시설 4곳 선정",
+            "url": "https://www.metroseoul.co.kr/article/20260821500054"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -249,7 +257,10 @@
       "source": {
         "outlet": "주택폴리오",
         "links": [
-          { "text": "대동초등학교 통폐합 신축 설계공모", "url": "https://jootek.com/folio/contests/18850" }
+          {
+            "text": "대동초등학교 통폐합 신축 설계공모",
+            "url": "https://jootek.com/folio/contests/18850"
+          }
         ]
       },
       "topic": "설계공모"
@@ -263,32 +274,26 @@
       "source": {
         "outlet": "주택폴리오",
         "links": [
-          { "text": "송지초등학교 공간재구조화 교사동 개축공사 설계공모", "url": "https://jootek.com/folio/contests/18846" }
+          {
+            "text": "송지초등학교 공간재구조화 교사동 개축공사 설계공모",
+            "url": "https://jootek.com/folio/contests/18846"
+          }
         ]
       },
       "topic": "설계공모"
     }
   ],
-
   "briefs": [
-    {
-      "title": "바르셀로나 미스 파빌리온, 증발한 물 1만 2,000리터를 되돌리다",
-      "body": "12개 물탱크와 임시 수로로 반사연못 증발수를 시각화한 임시 설치 '플루 프루?'.",
-      "source": {
-        "outlet": "designboom",
-        "links": [
-          { "text": "Plou Prou? makes water evaporation visible at Mies van der Rohe's Barcelona Pavilion", "url": "https://www.designboom.com/design/twelve-tanks-dripping-aqueduct-water-loss-mies-van-der-rohe-barcelona-pavilion-plou-prou-cierto-estudio-h3o-architects-metronom/" }
-        ]
-      },
-      "topic": "프로젝트"
-    },
     {
       "title": "메릴랜드, 키브리지 재건 해체공사 입찰 개시",
       "body": "프랜시스 스콧 키브리지 재건 4개 계약 중 두 번째, 강재·교각 철거 등 추정 5,000만~1억 달러.",
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "Punch List: Maryland Key Bridge demo bids", "url": "https://www.constructiondive.com/news/punch-list-maryland-key-bridge-demo-bids-turner-ireland/828988/" }
+          {
+            "text": "Punch List: Maryland Key Bridge demo bids",
+            "url": "https://www.constructiondive.com/news/punch-list-maryland-key-bridge-demo-bids-turner-ireland/828988/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -299,7 +304,10 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "Punch List: Maryland Key Bridge demo bids", "url": "https://www.constructiondive.com/news/punch-list-maryland-key-bridge-demo-bids-turner-ireland/828988/" }
+          {
+            "text": "Punch List: Maryland Key Bridge demo bids",
+            "url": "https://www.constructiondive.com/news/punch-list-maryland-key-bridge-demo-bids-turner-ireland/828988/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -310,7 +318,10 @@
       "source": {
         "outlet": "e-flux",
         "links": [
-          { "text": "PERSPEKTIVE Open Call — Architecture Ideas Competition 2026 \"HEATWAVE\"", "url": "https://www.e-flux.com/announcements/6787646/perspektive-open-call-architecture-ideas-competition" }
+          {
+            "text": "PERSPEKTIVE Open Call — Architecture Ideas Competition 2026 \"HEATWAVE\"",
+            "url": "https://www.e-flux.com/announcements/6787646/perspektive-open-call-architecture-ideas-competition"
+          }
         ]
       },
       "topic": "설계공모"
@@ -321,7 +332,10 @@
       "source": {
         "outlet": "주택폴리오",
         "links": [
-          { "text": "합천중학교·합천고등학교 공간재구조화사업 설계공모", "url": "https://jootek.com/folio/contests/18845" }
+          {
+            "text": "합천중학교·합천고등학교 공간재구조화사업 설계공모",
+            "url": "https://jootek.com/folio/contests/18845"
+          }
         ]
       },
       "topic": "설계공모"
@@ -332,19 +346,23 @@
       "source": {
         "outlet": "이뉴스투데이",
         "links": [
-          { "text": "안양시, 주거용 위반건축물 한시적 양성화 추진", "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2460510" }
+          {
+            "text": "안양시, 주거용 위반건축물 한시적 양성화 추진",
+            "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2460510"
+          }
         ]
       },
       "topic": "제도규제"
     }
   ],
-
   "cardnews": [
     {
       "slug": "spurs-arena-1-3b",
       "tag": "PROJECT",
       "title": "샌안토니오 스퍼스, 13억 달러 새 아레나",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 0,
       "photo_query": "basketball arena construction night city skyline",
       "slides": [
@@ -374,7 +392,10 @@
       "slug": "tancheon-youth-district",
       "tag": "URBAN",
       "title": "탄천물재생센터에 뜨는 청년특화단지",
-      "ref": { "section": "korea", "index": 0 },
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
       "bg": 1,
       "photo_query": "riverside urban redevelopment site Seoul skyline",
       "slides": [
@@ -404,7 +425,10 @@
       "slug": "autocamp-sequoia-camping",
       "tag": "PROJECT",
       "title": "세쿼이아 국립공원 옆, 다시 그린 캠핑장",
-      "ref": { "section": "intl_feature", "index": 0 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
       "bg": 2,
       "photo_query": "forest camping cabins national park river sunset",
       "slides": [

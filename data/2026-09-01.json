@@ -3,8 +3,8 @@
   "editor": "HUEY",
   "counts": {
     "total": 19,
-    "intl": 13,
-    "kr": 6
+    "intl": 14,
+    "kr": 5
   },
   "outlets": [
     "NBC News",
@@ -29,7 +29,6 @@
     "더에스엔에스타임",
     "헤럴드경제"
   ],
-
   "teasers": [
     {
       "title": "美 케네디센터, 철거 위협 속 법정 공방",
@@ -52,7 +51,6 @@
       "label": "PROJECT"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 문화시설",
     "lede": "美 케네디센터, 리노베이션 막히면 철거·원형극장 전환 검토",
@@ -67,12 +65,27 @@
       "DC보존리그·건축사학회·전미역사보존신탁 등 보존단체와 미국건축가협회(AIA)·미국조경가협회(ASLA)는 의회 승인 없는 개조를 멈춰달라며 연방법원에 소송을 제기했다. 의회는 '하나의 크고 아름다운 법안'을 통해 밀린 유지보수에 **2억 5,700만 달러**를 배정해둔 상태로, **1971년** 개관한 이 건물의 운명은 이제 법정에서 갈릴 전망이다."
     ],
     "source": [
-      { "outlet": "NBC News", "links": [{ "text": "Trump administration says it might demolish the Kennedy Center if court blocks renovations", "url": "https://www.nbcnews.com/politics/trump-administration/trump-administration-says-might-demolish-kennedy-center-court-blocks-r-rcna594350" }] },
-      { "outlet": "The Hill", "links": [{ "text": "Trump administration threatens to demolish Kennedy Center if renovations are not approved", "url": "https://thehill.com/homenews/administration/6049931-trump-administration-threatens-kennedy-center-demolition/" }] }
+      {
+        "outlet": "NBC News",
+        "links": [
+          {
+            "text": "Trump administration says it might demolish the Kennedy Center if court blocks renovations",
+            "url": "https://www.nbcnews.com/politics/trump-administration/trump-administration-says-might-demolish-kennedy-center-court-blocks-r-rcna594350"
+          }
+        ]
+      },
+      {
+        "outlet": "The Hill",
+        "links": [
+          {
+            "text": "Trump administration threatens to demolish Kennedy Center if renovations are not approved",
+            "url": "https://thehill.com/homenews/administration/6049931-trump-administration-threatens-kennedy-center-demolition/"
+          }
+        ]
+      }
     ],
     "topic": "프로젝트"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "image": "",
@@ -91,12 +104,27 @@
       "단일 계단 코어로 설계된 기존 고층 주거 프로젝트는 안전설비 개선에 상당한 추가 비용을 투입하거나 자산가치 하락을 감수해야 하는 상황에 놓였다. 업계는 시행일을 한 달 앞두고 막바지 인허가 대응에 분주하다."
     ],
     "source": [
-      { "outlet": "Forsters LLP", "links": [{ "text": "Second staircases mandatory in residential buildings over 18m from 30 September 2026", "url": "https://www.forsters.co.uk/news-and-views/second-staircases-mandatory-in-residential-buildings-over-18m-from-30-september-2026" }] },
-      { "outlet": "RIBA Journal", "links": [{ "text": "The implications of the lower height threshold for second (fire) stairways in residential blocks", "url": "https://www.ribaj.com/intelligence/second-staircases-in-residential-blocks-lower-threshold-fire-safety/" }] }
+      {
+        "outlet": "Forsters LLP",
+        "links": [
+          {
+            "text": "Second staircases mandatory in residential buildings over 18m from 30 September 2026",
+            "url": "https://www.forsters.co.uk/news-and-views/second-staircases-mandatory-in-residential-buildings-over-18m-from-30-september-2026"
+          }
+        ]
+      },
+      {
+        "outlet": "RIBA Journal",
+        "links": [
+          {
+            "text": "The implications of the lower height threshold for second (fire) stairways in residential blocks",
+            "url": "https://www.ribaj.com/intelligence/second-staircases-in-residential-blocks-lower-threshold-fire-safety/"
+          }
+        ]
+      }
     ],
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 프로젝트",
@@ -109,8 +137,24 @@
         "총사업비는 약 **NOK 86억**(약 1조 1,000억 원) 규모이며, 설계·시공 턴키 계약은 AF그룹이 수주했다. **2027년** 초 착공해 **2031년** 개통이 목표로, 굴착해야 할 암석량만 약 **300만㎥**에 달한다."
       ],
       "source": [
-        { "outlet": "Engineering News-Record", "links": [{ "text": "Design-Build Team Selected for Norway's Stad Ship Tunnel", "url": "https://www.enr.com/articles/63255-design-build-team-selected-for-norways-stad-ship-tunnel" }] },
-        { "outlet": "Wikipedia", "links": [{ "text": "Stad Ship Tunnel", "url": "https://en.wikipedia.org/wiki/Stad_Ship_Tunnel" }] }
+        {
+          "outlet": "Engineering News-Record",
+          "links": [
+            {
+              "text": "Design-Build Team Selected for Norway's Stad Ship Tunnel",
+              "url": "https://www.enr.com/articles/63255-design-build-team-selected-for-norways-stad-ship-tunnel"
+            }
+          ]
+        },
+        {
+          "outlet": "Wikipedia",
+          "links": [
+            {
+              "text": "Stad Ship Tunnel",
+              "url": "https://en.wikipedia.org/wiki/Stad_Ship_Tunnel"
+            }
+          ]
+        }
       ],
       "topic": "프로젝트"
     },
@@ -125,13 +169,28 @@
         "새 터미널은 기존 터미널 1 부지를 중심으로 확장되며, 확대된 상업시설과 약 **7,000면** 규모의 대형 주차장이 함께 들어선다. **2028년** 단계적 개장을 시작해 **2032년** 완전 개장이 목표다."
       ],
       "source": [
-        { "outlet": "Engineering News-Record", "links": [{ "text": "St. Louis Lambert Airport Selects CMAR for Proposed $3B Terminal Overhaul", "url": "https://www.enr.com/articles/61637-st-louis-lambert-airport-selects-cmar-for-proposed-3b-terminal-overhaul" }] },
-        { "outlet": "St. Louis Lambert International Airport", "links": [{ "text": "STL Reaches An Important Milestone In Its Efforts Toward A Consolidated Terminal", "url": "https://www.flystl.com/newsroom/stl-news/2024/stl-reaches-an-important-milestone-in-its-efforts-toward-a-consolidated-terminal" }] }
+        {
+          "outlet": "Engineering News-Record",
+          "links": [
+            {
+              "text": "St. Louis Lambert Airport Selects CMAR for Proposed $3B Terminal Overhaul",
+              "url": "https://www.enr.com/articles/61637-st-louis-lambert-airport-selects-cmar-for-proposed-3b-terminal-overhaul"
+            }
+          ]
+        },
+        {
+          "outlet": "St. Louis Lambert International Airport",
+          "links": [
+            {
+              "text": "STL Reaches An Important Milestone In Its Efforts Toward A Consolidated Terminal",
+              "url": "https://www.flystl.com/newsroom/stl-news/2024/stl-reaches-an-important-milestone-in-its-efforts-toward-a-consolidated-terminal"
+            }
+          ]
+        }
       ],
       "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 설계공모",
@@ -143,8 +202,24 @@
         "참가 자격은 **1986년 11월 16일** 이후 출생한 전 세계 건축가로 제한되며, 등록·제출 마감은 **11월 16일**이다. 상금은 1등 3만 5,000유로를 포함해 총 **6만 5,000유로** 규모다."
       ],
       "source": [
-        { "outlet": "UIA", "links": [{ "text": "Yong Ding Chang'an Pavilion International Design Competition Launched", "url": "https://www.uia-architectes.org/en/news/yong-ding-changan-pavilion-international-design-competition-launched/" }] },
-        { "outlet": "Azure Magazine", "links": [{ "text": "Yong Ding Chang'an Pavilion International Architectural Design Competition", "url": "https://www.azuremagazine.com/competitions/yong-ding-changan-pavilion-international-architectural-design-competition/" }] }
+        {
+          "outlet": "UIA",
+          "links": [
+            {
+              "text": "Yong Ding Chang'an Pavilion International Design Competition Launched",
+              "url": "https://www.uia-architectes.org/en/news/yong-ding-changan-pavilion-international-design-competition-launched/"
+            }
+          ]
+        },
+        {
+          "outlet": "Azure Magazine",
+          "links": [
+            {
+              "text": "Yong Ding Chang'an Pavilion International Architectural Design Competition",
+              "url": "https://www.azuremagazine.com/competitions/yong-ding-changan-pavilion-international-architectural-design-competition/"
+            }
+          ]
+        }
       ],
       "topic": "설계공모"
     },
@@ -158,8 +233,24 @@
         "대표작은 오도넬+투오미가 스트랫퍼드에 지은 무용 전용극장 '새들러스 웰스 이스트'(550석)로, 춤의 움직임에서 착안한 톱니 지붕이 자연광을 끌어들인다. 모리스+컴퍼니는 런던에서만 4개 프로젝트로 최다 수상 사무소에 올랐다. 수상작들은 **10월 15일** 발표되는 스털링상 후보로 자동 진출한다."
       ],
       "source": [
-        { "outlet": "RIBA", "links": [{ "text": "RIBA's National Award winners announced", "url": "https://www.riba.org/news/32-national-award-winners/" }] },
-        { "outlet": "Architects' Journal", "links": [{ "text": "London wins big at the RIBA National awards: see all 32 projects", "url": "https://www.architectsjournal.co.uk/news/london-wins-big-at-the-riba-national-awards-see-all-32-projects" }] }
+        {
+          "outlet": "RIBA",
+          "links": [
+            {
+              "text": "RIBA's National Award winners announced",
+              "url": "https://www.riba.org/news/32-national-award-winners/"
+            }
+          ]
+        },
+        {
+          "outlet": "Architects' Journal",
+          "links": [
+            {
+              "text": "London wins big at the RIBA National awards: see all 32 projects",
+              "url": "https://www.architectsjournal.co.uk/news/london-wins-big-at-the-riba-national-awards-see-all-32-projects"
+            }
+          ]
+        }
       ],
       "topic": "수상"
     },
@@ -175,7 +266,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "opposite office moves into one-square-meter treehouse at bauhaus university", "url": "https://www.designboom.com/architecture/opposite-office-one-square-meter-treehouse-germany-weimar/" }
+          {
+            "text": "opposite office moves into one-square-meter treehouse at bauhaus university",
+            "url": "https://www.designboom.com/architecture/opposite-office-one-square-meter-treehouse-germany-weimar/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -192,13 +286,15 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "NYC earmarks $4B for 'deteriorating' highway", "url": "https://www.constructiondive.com/news/nyc-brooklyn-queens-expressway-project/828737/" }
+          {
+            "text": "NYC earmarks $4B for 'deteriorating' highway",
+            "url": "https://www.constructiondive.com/news/nyc-brooklyn-queens-expressway-project/828737/"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 설계공모",
@@ -208,8 +304,24 @@
         "공사는 **2027년 3월** 착공해 **2028년 7월** 준공하는 것이 목표다. 시설 노후화와 공간 부족 문제를 해소하고 교육행정 서비스 환경을 개선하는 데 초점을 맞췄다."
       ],
       "source": [
-        { "outlet": "경기일보", "links": [{ "text": "45년만에 신축 앞 둔 파주교육지원청 \"교육행정의 질적 전환 가져올 것\"", "url": "https://www.kyeonggi.com/article/20251203580447" }] },
-        { "outlet": "경기도교육청 EDU PLAN", "links": [{ "text": "설계공모 현황", "url": "https://plan.goe.go.kr/index.jsp" }] }
+        {
+          "outlet": "경기일보",
+          "links": [
+            {
+              "text": "45년만에 신축 앞 둔 파주교육지원청 \"교육행정의 질적 전환 가져올 것\"",
+              "url": "https://www.kyeonggi.com/article/20251203580447"
+            }
+          ]
+        },
+        {
+          "outlet": "경기도교육청 EDU PLAN",
+          "links": [
+            {
+              "text": "설계공모 현황",
+              "url": "https://plan.goe.go.kr/index.jsp"
+            }
+          ]
+        }
       ],
       "topic": "설계공모"
     },
@@ -222,7 +334,10 @@
       "source": {
         "outlet": "경기도교육청 EDU PLAN",
         "links": [
-          { "text": "설계공모 현황", "url": "https://plan.goe.go.kr/index.jsp" }
+          {
+            "text": "설계공모 현황",
+            "url": "https://plan.goe.go.kr/index.jsp"
+          }
         ]
       },
       "topic": "설계공모"
@@ -237,7 +352,10 @@
       "source": {
         "outlet": "아시아투데이",
         "links": [
-          { "text": "현대건설, 2.6조 규모 목동10단지 재건축 시공사 우협 선정", "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260826010009043" }
+          {
+            "text": "현대건설, 2.6조 규모 목동10단지 재건축 시공사 우협 선정",
+            "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260826010009043"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -252,7 +370,10 @@
       "source": {
         "outlet": "더에스엔에스타임",
         "links": [
-          { "text": "조달청, 8월 대형사업 총 195건, 4조 3,431억 원 상당 입찰 예정", "url": "https://www.thesnstime.com/jodalceong-8weol-daehyeongsaeob-cong-195geon-4jo-3-431eog-weon-sangdang-ibcal-yejeong/" }
+          {
+            "text": "조달청, 8월 대형사업 총 195건, 4조 3,431억 원 상당 입찰 예정",
+            "url": "https://www.thesnstime.com/jodalceong-8weol-daehyeongsaeob-cong-195geon-4jo-3-431eog-weon-sangdang-ibcal-yejeong/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -267,13 +388,15 @@
       "source": {
         "outlet": "헤럴드경제",
         "links": [
-          { "text": "서울시, 정비사업 조합설립 1년→4개월로 단축", "url": "https://biz.heraldcorp.com/article/10844419" }
+          {
+            "text": "서울시, 정비사업 조합설립 1년→4개월로 단축",
+            "url": "https://biz.heraldcorp.com/article/10844419"
+          }
         ]
       },
       "topic": "제도규제"
     }
   ],
-
   "briefs": [
     {
       "title": "알제리 북부 산불, 최소 12명 사망·주요 국도 폐쇄",
@@ -281,7 +404,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Wildfires in Algeria Highlight the Scale of the Global Fire Landscape", "url": "https://www.archdaily.com/1184225/wildfires-in-algeria-highlight-the-scale-of-the-global-fire-landscape" }
+          {
+            "text": "Wildfires in Algeria Highlight the Scale of the Global Fire Landscape",
+            "url": "https://www.archdaily.com/1184225/wildfires-in-algeria-highlight-the-scale-of-the-global-fire-landscape"
+          }
         ]
       },
       "topic": "재난유산"
@@ -292,7 +418,10 @@
       "source": {
         "outlet": "Engineering News-Record",
         "links": [
-          { "text": "Tutor Perini Lands $652M Grid Upgrade at Naval Base Guam", "url": "https://www.enr.com/articles/63162-tutor-perini-lands-652m-grid-upgrade-at-naval-base-guam" }
+          {
+            "text": "Tutor Perini Lands $652M Grid Upgrade at Naval Base Guam",
+            "url": "https://www.enr.com/articles/63162-tutor-perini-lands-652m-grid-upgrade-at-naval-base-guam"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -303,7 +432,10 @@
       "source": {
         "outlet": "njbiz",
         "links": [
-          { "text": "Gateway awards $1.29B Hudson Tunnel contract", "url": "https://njbiz.com/gateway-1-29b-hudson-tunnel-contract-award/" }
+          {
+            "text": "Gateway awards $1.29B Hudson Tunnel contract",
+            "url": "https://njbiz.com/gateway-1-29b-hudson-tunnel-contract-award/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -314,7 +446,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "C40 cities have built a framework for climate action, but which ones are actually delivering?", "url": "https://www.designboom.com/architecture/c40-cities-framework-climate-action/" }
+          {
+            "text": "C40 cities have built a framework for climate action, but which ones are actually delivering?",
+            "url": "https://www.designboom.com/architecture/c40-cities-framework-climate-action/"
+          }
         ]
       },
       "topic": "도시재생"
@@ -325,7 +460,10 @@
       "source": {
         "outlet": "뉴시스",
         "links": [
-          { "text": "'여의도 시범'도 래미안 유력…삼성물산 단독 응찰", "url": "https://www.newsis.com/view/NISX20260825_0003761966" }
+          {
+            "text": "'여의도 시범'도 래미안 유력…삼성물산 단독 응찰",
+            "url": "https://www.newsis.com/view/NISX20260825_0003761966"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -336,19 +474,23 @@
       "source": {
         "outlet": "Associated Builders and Contractors",
         "links": [
-          { "text": "ABC: Construction Industry Must Attract 349,000 Workers in 2026 Despite Macroeconomic Headwinds", "url": "https://www.abc.org/News-Media/News-Releases/abc-construction-industry-must-attract-349000-workers-in-2026-despite-macroeconomic-headwinds" }
+          {
+            "text": "ABC: Construction Industry Must Attract 349,000 Workers in 2026 Despite Macroeconomic Headwinds",
+            "url": "https://www.abc.org/News-Media/News-Releases/abc-construction-industry-must-attract-349000-workers-in-2026-despite-macroeconomic-headwinds"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "cardnews": [
     {
       "slug": "kennedy-center-demolition-threat",
       "tag": "HERITAGE",
       "title": "케네디센터, 철거 위협 속 법정 공방",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 0,
       "photo_query": "modernist concert hall riverside building marble columns",
       "slides": [
@@ -382,7 +524,9 @@
       "slug": "uk-second-staircase-mandate",
       "tag": "POLICY",
       "title": "잉글랜드, 계단 2개 의무화 D-30",
-      "ref": { "section": "side" },
+      "ref": {
+        "section": "side"
+      },
       "bg": 1,
       "photo_query": "high rise apartment building stairwell exterior facade",
       "slides": [
@@ -416,7 +560,10 @@
       "slug": "stad-ship-tunnel-snohetta",
       "tag": "PROJECT",
       "title": "산을 뚫는 선박터널, 스뇌헤타가 그렸다",
-      "ref": { "section": "intl_feature", "index": 0 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
       "bg": 2,
       "photo_query": "granite mountain tunnel entrance rock coastline norway",
       "slides": [

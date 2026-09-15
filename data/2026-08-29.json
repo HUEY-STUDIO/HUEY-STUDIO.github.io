@@ -3,8 +3,8 @@
   "editor": "HUEY",
   "counts": {
     "total": 20,
-    "intl": 12,
-    "kr": 8
+    "intl": 15,
+    "kr": 5
   },
   "outlets": [
     "Dezeen",
@@ -17,7 +17,6 @@
     "Construction Dive",
     "Buildner"
   ],
-
   "teasers": [
     {
       "title": "히로사키성, 1,800명이 밧줄로 당겨 제자리로",
@@ -40,7 +39,6 @@
       "label": "AWARDS"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 문화유산",
     "lede": "1,800명이 밧줄로 당긴 360톤 목조 덴슈…히로사키성, 제자리를 찾아간다",
@@ -58,19 +56,24 @@
       {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Volunteers tug 360-tonne castle tower towards its original site", "url": "https://www.dezeen.com/2026/08/27/hirosaki-castle-volunteer-relocation-japan/" }
+          {
+            "text": "Volunteers tug 360-tonne castle tower towards its original site",
+            "url": "https://www.dezeen.com/2026/08/27/hirosaki-castle-volunteer-relocation-japan/"
+          }
         ]
       },
       {
         "outlet": "Fox News",
         "links": [
-          { "text": "Hundreds of volunteers pull 360-tonne historic Japanese castle back into place by hand", "url": "https://www.foxnews.com/world/hundreds-volunteers-pull-360-tonne-historic-japanese-castle-back-into-place-by-hand" }
+          {
+            "text": "Hundreds of volunteers pull 360-tonne historic Japanese castle back into place by hand",
+            "url": "https://www.foxnews.com/world/hundreds-volunteers-pull-360-tonne-historic-japanese-castle-back-into-place-by-hand"
+          }
         ]
       }
     ],
     "topic": "재난유산"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "image": "https://wimg.heraldcorp.com/news/cms/2026/08/28/ams.V01.photo.HDN.P.20260408.P12026040815120044309383120_P1.jpg",
@@ -90,12 +93,14 @@
     "source": {
       "outlet": "헤럴드경제",
       "links": [
-        { "text": "\"더는 못버텨\" 건설사 폐업 3년 새 24% 증가…'3% 금리 시대' 줄도산 공포", "url": "https://biz.heraldcorp.com/article/10855185" }
+        {
+          "text": "\"더는 못버텨\" 건설사 폐업 3년 새 24% 증가…'3% 금리 시대' 줄도산 공포",
+          "url": "https://biz.heraldcorp.com/article/10855185"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 재난유산",
@@ -110,7 +115,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Himalayan Glacier Collapse Triggers Flash Floods and Infrastructure Destruction in Nepal", "url": "https://www.archdaily.com/1184100/himalayan-glacier-collapse-triggers-flash-floods-and-infrastructure-destruction-in-nepal" }
+          {
+            "text": "Himalayan Glacier Collapse Triggers Flash Floods and Infrastructure Destruction in Nepal",
+            "url": "https://www.archdaily.com/1184100/himalayan-glacier-collapse-triggers-flash-floods-and-infrastructure-destruction-in-nepal"
+          }
         ]
       },
       "topic": "재난유산"
@@ -127,13 +135,15 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Doble Erre / Morphism", "url": "https://www.archdaily.com/1183662/doble-erre-morphism" }
+          {
+            "text": "Doble Erre / Morphism",
+            "url": "https://www.archdaily.com/1183662/doble-erre-morphism"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 프로젝트",
@@ -146,7 +156,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Katūvu Hut / HUT atelier d'architecture", "url": "https://www.archdaily.com/1183732/katuvu-hut-hut-atelier-darchitecture" }
+          {
+            "text": "Katūvu Hut / HUT atelier d'architecture",
+            "url": "https://www.archdaily.com/1183732/katuvu-hut-hut-atelier-darchitecture"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -162,7 +175,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "A Leaf Canopy by the Sea / Studio 10", "url": "https://www.archdaily.com/1183655/a-leaf-canopy-by-the-sea-studio-10" }
+          {
+            "text": "A Leaf Canopy by the Sea / Studio 10",
+            "url": "https://www.archdaily.com/1183655/a-leaf-canopy-by-the-sea-studio-10"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -178,7 +194,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "T(errakota) House / Spacefiction Studio", "url": "https://www.archdaily.com/1184036/t-errakota-house-spacefiction-studio" }
+          {
+            "text": "T(errakota) House / Spacefiction Studio",
+            "url": "https://www.archdaily.com/1184036/t-errakota-house-spacefiction-studio"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -195,7 +214,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "clarence perry's 'neighborhood unit': the century-old idea behind today's 15-minute city", "url": "https://www.designboom.com/architecture/clarence-perry-neighborhood-unit-15-minute-city/" }
+          {
+            "text": "clarence perry's 'neighborhood unit': the century-old idea behind today's 15-minute city",
+            "url": "https://www.designboom.com/architecture/clarence-perry-neighborhood-unit-15-minute-city/"
+          }
         ]
       },
       "topic": "도시재생"
@@ -212,13 +234,15 @@
       "source": {
         "outlet": "Buildner",
         "links": [
-          { "text": "Unbuilt Award 2026", "url": "https://architecturecompetitions.com/unbuilt2026/" }
+          {
+            "text": "Unbuilt Award 2026",
+            "url": "https://architecturecompetitions.com/unbuilt2026/"
+          }
         ]
       },
       "topic": "설계공모"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 설계공모",
@@ -229,7 +253,10 @@
       "source": {
         "outlet": "주택폴리오",
         "links": [
-          { "text": "영랑동1지역(장사동 새마을) 영랑어울림센터 건립사업 설계용역", "url": "https://jootek.com/folio/contests/18847" }
+          {
+            "text": "영랑동1지역(장사동 새마을) 영랑어울림센터 건립사업 설계용역",
+            "url": "https://jootek.com/folio/contests/18847"
+          }
         ]
       },
       "topic": "설계공모"
@@ -243,7 +270,10 @@
       "source": {
         "outlet": "주택폴리오",
         "links": [
-          { "text": "춘천경찰서 별관동 재건축(증축) 설계용역", "url": "https://jootek.com/folio/contests/18844" }
+          {
+            "text": "춘천경찰서 별관동 재건축(증축) 설계용역",
+            "url": "https://jootek.com/folio/contests/18844"
+          }
         ]
       },
       "topic": "설계공모"
@@ -257,7 +287,10 @@
       "source": {
         "outlet": "굿모닝경제",
         "links": [
-          { "text": "[아침을 여는 부동산] LH 양주회천 A-26블록 공공분양 외", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290675" }
+          {
+            "text": "[아침을 여는 부동산] LH 양주회천 A-26블록 공공분양 외",
+            "url": "https://www.goodkyung.com/news/articleView.html?idxno=290675"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -271,7 +304,10 @@
       "source": {
         "outlet": "굿모닝경제",
         "links": [
-          { "text": "[아침을 여는 부동산] 힐스테이트 송파더그리드 외", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290675" }
+          {
+            "text": "[아침을 여는 부동산] 힐스테이트 송파더그리드 외",
+            "url": "https://www.goodkyung.com/news/articleView.html?idxno=290675"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -285,13 +321,15 @@
       "source": {
         "outlet": "굿모닝경제",
         "links": [
-          { "text": "[아침을 여는 부동산] 올 뉴 챔피언스시티 외", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290675" }
+          {
+            "text": "[아침을 여는 부동산] 올 뉴 챔피언스시티 외",
+            "url": "https://www.goodkyung.com/news/articleView.html?idxno=290675"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "briefs": [
     {
       "title": "HUG, 공사중단 사업장 안전점검…아산 '아르니퍼스트' 현장",
@@ -299,7 +337,10 @@
       "source": {
         "outlet": "굿모닝경제",
         "links": [
-          { "text": "HUG, 공사중단 사업장 안전점검", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290723" }
+          {
+            "text": "HUG, 공사중단 사업장 안전점검",
+            "url": "https://www.goodkyung.com/news/articleView.html?idxno=290723"
+          }
         ]
       },
       "topic": "제도규제"
@@ -310,7 +351,10 @@
       "source": {
         "outlet": "굿모닝경제",
         "links": [
-          { "text": "대방건설 세이프 플랫폼 굿디자인 어워드", "url": "https://www.goodkyung.com/news/articleView.html?idxno=290723" }
+          {
+            "text": "대방건설 세이프 플랫폼 굿디자인 어워드",
+            "url": "https://www.goodkyung.com/news/articleView.html?idxno=290723"
+          }
         ]
       },
       "topic": "수상"
@@ -321,7 +365,10 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "$9.2B Tennessee highway project picks construction team", "url": "https://www.constructiondive.com/news/92b-tennessee-highway-project-picks-construction-team/828758/" }
+          {
+            "text": "$9.2B Tennessee highway project picks construction team",
+            "url": "https://www.constructiondive.com/news/92b-tennessee-highway-project-picks-construction-team/828758/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -332,7 +379,10 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "FlatironDragados-Sukut JV starts California's Anderson Dam retrofit", "url": "https://www.constructiondive.com/news/flatirondragados-sukut-jv-california-anderson-dam/828678/" }
+          {
+            "text": "FlatironDragados-Sukut JV starts California's Anderson Dam retrofit",
+            "url": "https://www.constructiondive.com/news/flatirondragados-sukut-jv-california-anderson-dam/828678/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -343,7 +393,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Latin America in Focus: This Month in Architecture, Environmental Design, Social Infrastructure, and Practice", "url": "https://www.archdaily.com/1184123/latin-america-in-focus-this-month-in-architecture-environmental-design-social-infrastructure-and-practice" }
+          {
+            "text": "Latin America in Focus: This Month in Architecture, Environmental Design, Social Infrastructure, and Practice",
+            "url": "https://www.archdaily.com/1184123/latin-america-in-focus-this-month-in-architecture-environmental-design-social-infrastructure-and-practice"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -354,19 +407,23 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Yayoi Kusama, Artist of Dots, Repetition and Infinity, Dies at 97", "url": "https://www.archdaily.com/1184060/yayoi-kusama-artist-of-dots-repetition-and-infinity-dies-at-97" }
+          {
+            "text": "Yayoi Kusama, Artist of Dots, Repetition and Infinity, Dies at 97",
+            "url": "https://www.archdaily.com/1184060/yayoi-kusama-artist-of-dots-repetition-and-infinity-dies-at-97"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "cardnews": [
     {
       "slug": "hirosaki-castle-relocation",
       "tag": "HERITAGE",
       "title": "1,800명이 옮긴 360톤 목조 성",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 0,
       "photo_query": "traditional Japanese wooden castle architecture heritage",
       "slides": [
@@ -400,7 +457,10 @@
       "slug": "nepal-glacier-flood",
       "tag": "DISASTER",
       "title": "빙하가 무너지자 마을이 사라졌다",
-      "ref": { "section": "intl_feature", "index": 0 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
       "bg": 1,
       "photo_query": "himalayan mountain river valley landscape",
       "slides": [
@@ -434,7 +494,10 @@
       "slug": "terrakota-house-india",
       "tag": "PROJECT",
       "title": "붉은 요새라 부른 테라코타 집",
-      "ref": { "section": "intl_grid", "index": 2 },
+      "ref": {
+        "section": "intl_grid",
+        "index": 2
+      },
       "bg": 2,
       "photo_query": "red brick terracotta house tropical courtyard architecture",
       "slides": [

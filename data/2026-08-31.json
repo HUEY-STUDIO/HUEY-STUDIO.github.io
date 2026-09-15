@@ -2,9 +2,9 @@
   "vol": "VOL.01  NO.015",
   "editor": "HUEY",
   "counts": {
-    "total": 18,
+    "total": 13,
     "intl": 11,
-    "kr": 7
+    "kr": 2
   },
   "outlets": [
     "ESPN",
@@ -19,7 +19,6 @@
     "전매일보",
     "inews24"
   ],
-
   "teasers": [
     {
       "title": "탬파베이 레이스 새 구장에 23억 달러",
@@ -42,7 +41,6 @@
       "label": "COMPETITION"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 스포츠 인프라",
     "lede": "탬파베이 레이스 새 구장에 23억 달러…젠슬러·파퓰러스가 짓는다",
@@ -57,38 +55,65 @@
       "구장 주변에는 사무·상업·주거가 결합된 800만 평방피트 규모의 '챔피언스 쿼터' 복합지구가 함께 조성된다. 2028시즌까지 트로피카나 필드에서 경기를 마친 뒤 **2029시즌** 개장이 목표다."
     ],
     "source": [
-      { "outlet": "ESPN", "links": [{ "text": "Tampa officials approve $2.3 billion deal for new Rays stadium", "url": "https://www.espn.com/mlb/story/_/id/49747707/tampa-officials-approve-23-billion-deal-new-rays-stadium" }] },
-      { "outlet": "Populous", "links": [{ "text": "Tampa Bay Rays Release Interior Renderings for New Ballpark Designed by Populous", "url": "https://populous.com/article/tampa-bay-rays-release-interior-renderings-for-new-ballpark-designed-by-populous" }] }
+      {
+        "outlet": "ESPN",
+        "links": [
+          {
+            "text": "Tampa officials approve $2.3 billion deal for new Rays stadium",
+            "url": "https://www.espn.com/mlb/story/_/id/49747707/tampa-officials-approve-23-billion-deal-new-rays-stadium"
+          }
+        ]
+      },
+      {
+        "outlet": "Populous",
+        "links": [
+          {
+            "text": "Tampa Bay Rays Release Interior Renderings for New Ballpark Designed by Populous",
+            "url": "https://populous.com/article/tampa-bay-rays-release-interior-renderings-for-new-ballpark-designed-by-populous"
+          }
+        ]
+      }
     ],
     "topic": "프로젝트"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "image": "",
-    "image_label": "조달청",
-    "title": "조달청, 설계공모 참가 문턱 낮춘다…건축사사무소 단독 참가 허용",
+    "image_label": "",
+    "title": "위례선 트램 갈등조정안 확정…12월 정상 개통 가능해져",
     "body": [
-      "조달청이 건축 설계공모 참가업체의 행정 부담을 줄이기 위한 '설계공모 운영 개선방안'을 마련해 **8월** 최초 입찰공고분부터 적용한다고 밝혔다."
+      "국토교통부 대도시권광역교통위원회가 **8월 27일** 갈등조정위원회를 열어 위례선 트램 건설사업을 둘러싼 서울시·서울경찰청 간 이견을 조정했다. 트램 선로가 도로에 해당하는지, 교차로·횡단보도 교통안전심의 범위를 어디까지 볼지를 놓고 이견이 있었다."
     ],
     "facts": [
-      "핵심: 공모 단계 참가자격을 **건축사사무소**로 간소화",
-      "이전: 전기·통신·소방 등 전문분야 업체와 공동수급체 구성을 공모 단계부터 요구",
-      "변경: 전문분야 자격 확인은 **당선자 선정 후 계약 단계**로 이동",
-      "배경: 공동수급협정서를 기한 내 제출하지 못해 심사 대상에서 제외되는 사례 발생"
+      "쟁점: 트램 선로의 도로 해당 여부, 교차로·횡단보도 교통안전심의 범위",
+      "조정: 8월 27일 대도시권광역교통위원회 갈등조정위원회 의결",
+      "서울 구간: 구도로 지정 후 서울경찰청 심의 / 성남 구간: 시도로 지정 후 별도 심의"
     ],
     "body_after": [
-      "그동안 소규모 건축사사무소는 설계안을 완성하고도 전문분야 협력업체를 사전에 확보해야 하는 부담 때문에 공모 참여 자체를 포기하는 경우가 많았다. 조달청은 이번 개선으로 설계안 중심의 경쟁이 활성화될 것으로 기대한다고 밝혔다."
+      "서울시는 트램 선로 구간을 구도로로 지정하고 교통안전시설 점검을 거쳐 안전대책을 반영해 서울경찰청에 심의를 요청하기로 했다. 성남시 구간은 경기도·성남시가 시도로로 지정해 별도 심의를 진행한다. 이번 조정으로 **12월** 예정된 개통 일정이 지연 없이 추진될 전망이다."
     ],
-    "source": {
-      "outlet": "대한건설경제",
-      "links": [
-        { "text": "조달청, 설계공모 참가 문턱 낮춘다…건축사 단독 제출 허용", "url": "https://www.kcenews.kr/9082" }
-      ]
-    },
+    "source": [
+      {
+        "outlet": "헤럴드경제",
+        "links": [
+          {
+            "text": "국내 '최초' 위례선 트램 12월 정상개통하나…대광위서 갈등조정안 의결",
+            "url": "https://biz.heraldcorp.com/article/10854529"
+          }
+        ]
+      },
+      {
+        "outlet": "파이낸셜뉴스",
+        "links": [
+          {
+            "text": "위례선 트램 선로 도로 지정…교통안전심의 절차 확정",
+            "url": "https://www.fnnews.com/news/202608271904216867"
+          }
+        ]
+      }
+    ],
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 프로젝트",
@@ -103,7 +128,10 @@
       "source": {
         "outlet": "Metalocus",
         "links": [
-          { "text": "From bank to art center, dialogue with the sea. \"Faro Santander\" by David Chipperfield", "url": "https://www.metalocus.es/en/news/bank-art-center-dialogue-sea-faro-santander-david-chipperfield" }
+          {
+            "text": "From bank to art center, dialogue with the sea. \"Faro Santander\" by David Chipperfield",
+            "url": "https://www.metalocus.es/en/news/bank-art-center-dialogue-sea-faro-santander-david-chipperfield"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -121,13 +149,15 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Alcatraz on the Hill: The Rise and Afterlife of Trieste's Rozzol Melara", "url": "https://www.archdaily.com/1183316/alcatraz-on-the-hill-the-rise-and-afterlife-of-triestes-rozzol-melara" }
+          {
+            "text": "Alcatraz on the Hill: The Rise and Afterlife of Trieste's Rozzol Melara",
+            "url": "https://www.archdaily.com/1183316/alcatraz-on-the-hill-the-rise-and-afterlife-of-triestes-rozzol-melara"
+          }
         ]
       },
       "topic": "도시재생"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 프로젝트",
@@ -140,7 +170,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Casa PB16 / ESPECIE arquitectura", "url": "https://www.archdaily.com/1183846/casa-pb16" }
+          {
+            "text": "Casa PB16 / ESPECIE arquitectura",
+            "url": "https://www.archdaily.com/1183846/casa-pb16"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -156,7 +189,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Public Library in Choszczówka / Ambient", "url": "https://www.archdaily.com/1183710/public-library-in-choszczowka-ambient" }
+          {
+            "text": "Public Library in Choszczówka / Ambient",
+            "url": "https://www.archdaily.com/1183710/public-library-in-choszczowka-ambient"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -172,59 +208,16 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "LPP Rice Bran Oil Refinery / PHTAA", "url": "https://www.archdaily.com/1183945/lpp-rice-bran-oil-refinery-phtaa" }
+          {
+            "text": "LPP Rice Bran Oil Refinery / PHTAA",
+            "url": "https://www.archdaily.com/1183945/lpp-rice-bran-oil-refinery-phtaa"
+          }
         ]
       },
       "topic": "프로젝트"
-    },
-    {
-      "kicker": "국제 · 설계공모",
-      "title": "\"도시·교외·농촌, 당신의 마을을 설계하라\"…UIA-HYP컵 2026",
-      "image": "https://images.adsttc.com/media/images/6a33/ed7b/54d7/6a00/01cc/662e/medium_jpg/English_Poster_UIA-HYP_2026.jpg",
-      "image_label": "ARCHDAILY",
-      "body": [
-        "톈진대·내몽고공업대와 UED매거진이 공동 주최하는 국제학생건축공모 'UIA-HYP컵 2026'이 참가자를 모집 중이다. 국제건축가연맹(UIA) 공인 공모전으로, 올해 주제는 '빌리저스: 도시·교외·농촌'. 세 가지 생활 맥락 중 하나를 골라 정체성과 소속감을 강화하는 지속가능한 커뮤니티를 제안해야 한다.",
-        "등록 마감은 **9월 20일**, 작품 제출은 **10월 10일**까지이며 참가비는 무료다. 1등 상금은 **8만 위안**(약 1,600만 원)이다."
-      ],
-      "source": {
-        "outlet": "ArchDaily",
-        "links": [
-          { "text": "Call for Entries: UIA-HYP CUP 2026 International Student Competition in Architectural Design", "url": "https://www.archdaily.com/1042566/call-for-entries-uia-hyp-cup-2026-international-student-competition-in-architectural-design" }
-        ]
-      },
-      "topic": "설계공모"
     }
   ],
-
   "korea": [
-    {
-      "kicker": "국내 · 제도규제",
-      "title": "위례선 트램 갈등조정안 확정…12월 정상 개통 가능해져",
-      "body": [
-        "국토교통부 대도시권광역교통위원회가 **8월 27일** 갈등조정위원회를 열어 위례선 트램 건설사업을 둘러싼 서울시·서울경찰청 간 이견을 조정했다. 트램 선로가 도로에 해당하는지, 교차로·횡단보도 교통안전심의 범위를 어디까지 볼지를 놓고 이견이 있었다.",
-        "서울시는 트램 선로 구간을 구도로로 지정하고 교통안전시설 점검을 거쳐 안전대책을 반영해 서울경찰청에 심의를 요청하기로 했다. 성남시 구간은 경기도·성남시가 시도로로 지정해 별도 심의를 진행한다. 이번 조정으로 **12월** 예정된 개통 일정이 지연 없이 추진될 전망이다."
-      ],
-      "source": [
-        { "outlet": "헤럴드경제", "links": [{ "text": "국내 '최초' 위례선 트램 12월 정상개통하나…대광위서 갈등조정안 의결", "url": "https://biz.heraldcorp.com/article/10854529" }] },
-        { "outlet": "파이낸셜뉴스", "links": [{ "text": "위례선 트램 선로 도로 지정…교통안전심의 절차 확정", "url": "https://www.fnnews.com/news/202608271904216867" }] }
-      ],
-      "topic": "제도규제"
-    },
-    {
-      "kicker": "국내 · 설계공모",
-      "title": "포항시립박물관 국제설계공모, 작품 제출 9월 7일 마감",
-      "body": [
-        "포항시가 남구 동해면 임곡리 일원 **1만 5,142㎡** 부지에 지역 유물을 수집·보존하고 전시·교육·관광 기능을 아우르는 '포항시립박물관' 건립을 위한 국제설계공모를 진행 중이다. 연면적 **7,640㎡**, 지상 4층 규모로 예정공사비는 **313억 8,000만 원**이다.",
-        "**6월 8일** 공모를 시행해 참가등록을 마감했고, 작품 제출은 **9월 7일** 17시까지, 심사는 **9월 22일** 열린다."
-      ],
-      "source": {
-        "outlet": "vmspace",
-        "links": [
-          { "text": "포항시, '포항시립박물관 건립 국제설계공모' 개최", "url": "https://vmspace.com/news/news_view.html?base_seq=Mzg4MA%3D%3D" }
-        ]
-      },
-      "topic": "설계공모"
-    },
     {
       "kicker": "국내 · 설계공모",
       "title": "대구 신청사 국제설계공모 마감…당선작 9월 18일 발표",
@@ -235,7 +228,10 @@
       "source": {
         "outlet": "inews24",
         "links": [
-          { "text": "대구시 신청사 설계공모 28일 공고…국내외 건축가 참여 기대", "url": "https://www.inews24.com/view/1848150" }
+          {
+            "text": "대구시 신청사 설계공모 28일 공고…국내외 건축가 참여 기대",
+            "url": "https://www.inews24.com/view/1848150"
+          }
         ]
       },
       "topic": "설계공모"
@@ -250,32 +246,26 @@
       "source": {
         "outlet": "전매일보",
         "links": [
-          { "text": "대전선화초 증축공사 착공…미래형 학습공간 조성", "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1156495" }
+          {
+            "text": "대전선화초 증축공사 착공…미래형 학습공간 조성",
+            "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1156495"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "briefs": [
-    {
-      "title": "휴스턴 아스트로돔 재개발 아이디어 공모, 9월 8일 마감",
-      "body": "애스트로돔 컨서번시가 개발업체·투자자 대상 정보요청(RFI)을 접수 중이다.",
-      "source": {
-        "outlet": "Bisnow",
-        "links": [
-          { "text": "Astrodome Conservancy Solicits Redevelopment Ideas", "url": "https://www.bisnow.com/news/houston/construction-development/astrodome-conservancy-solicits-redevelopment-ideas" }
-        ]
-      },
-      "topic": "프로젝트"
-    },
     {
       "title": "중국 타이저우 강변, 물결치는 둔치로 다시 태어나다",
       "body": "TJAD가 산업 유휴부지였던 자오장강 강변 1,691㎡를 완만한 둔덕들로 재구성했다.",
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Ripples Becoming Everyday Ground / TJAD Original Design Studio", "url": "https://www.archdaily.com/1184066/ripples-becoming-everyday-ground-tjad-original-design-studio" }
+          {
+            "text": "Ripples Becoming Everyday Ground / TJAD Original Design Studio",
+            "url": "https://www.archdaily.com/1184066/ripples-becoming-everyday-ground-tjad-original-design-studio"
+          }
         ]
       },
       "topic": "도시재생"
@@ -286,7 +276,10 @@
       "source": {
         "outlet": "파이낸셜뉴스",
         "links": [
-          { "text": "국토부, 서울·대전서 정비사업 설명회…이주비·공공재개발 안내", "url": "https://www.fnnews.com/news/202608291342318756" }
+          {
+            "text": "국토부, 서울·대전서 정비사업 설명회…이주비·공공재개발 안내",
+            "url": "https://www.fnnews.com/news/202608291342318756"
+          }
         ]
       },
       "topic": "제도규제"
@@ -297,7 +290,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Cabin Sande / Helen & Hard architects", "url": "https://www.archdaily.com/1183733/cabin-sande-helen-and-hard-architects" }
+          {
+            "text": "Cabin Sande / Helen & Hard architects",
+            "url": "https://www.archdaily.com/1183733/cabin-sande-helen-and-hard-architects"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -308,30 +304,23 @@
       "source": {
         "outlet": "비전21뉴스",
         "links": [
-          { "text": "국토교통부, 건설현장 폭염 안전 집중 점검", "url": "https://www.vision21.kr/news/article.html?no=606528" }
+          {
+            "text": "국토교통부, 건설현장 폭염 안전 집중 점검",
+            "url": "https://www.vision21.kr/news/article.html?no=606528"
+          }
         ]
       },
       "topic": "제도규제"
-    },
-    {
-      "title": "이탈리아 소도시 보나테소토, 3만㎡ 녹지 재생의 첫 파빌리온",
-      "body": "CN10 아르키테티가 도시 재생 프로젝트 '파르코브롤로'의 250㎡ 파빌리온을 지었다.",
-      "source": {
-        "outlet": "ArchDaily",
-        "links": [
-          { "text": "Pavilion in Brolo Park / CN10 architetti", "url": "https://www.archdaily.com/1183571/pavilion-in-brolo-park-cn10-architetti" }
-        ]
-      },
-      "topic": "도시재생"
     }
   ],
-
   "cardnews": [
     {
       "slug": "rays-ballpark-2-3b",
       "tag": "PROJECT",
       "title": "탬파베이 레이스, 23억 달러 새 구장",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 0,
       "photo_query": "baseball stadium construction rendering skyline dusk",
       "slides": [
@@ -361,7 +350,10 @@
       "slug": "rozzol-melara-alcatraz",
       "tag": "URBAN",
       "title": "언덕 위 알카트라즈, 로촐 멜라라",
-      "ref": { "section": "intl_feature", "index": 1 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
       "bg": 1,
       "photo_query": "brutalist concrete housing complex hillside megastructure",
       "slides": [
@@ -391,7 +383,10 @@
       "slug": "daegu-new-city-hall",
       "tag": "COMPETITION",
       "title": "4,500억 원, 대구 신청사 설계공모",
-      "ref": { "section": "korea", "index": 2 },
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
       "bg": 2,
       "photo_query": "modern city hall civic building glass facade plaza",
       "slides": [

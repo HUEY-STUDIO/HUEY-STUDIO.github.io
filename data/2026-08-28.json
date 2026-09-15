@@ -3,8 +3,8 @@
   "editor": "HUEY",
   "counts": {
     "total": 17,
-    "intl": 11,
-    "kr": 6
+    "intl": 14,
+    "kr": 3
   },
   "outlets": [
     "한국경제",
@@ -16,7 +16,6 @@
     "주택폴리오",
     "대한건설경제"
   ],
-
   "teasers": [
     {
       "title": "LH, 2030년까지 42.6만 가구 발주",
@@ -39,7 +38,6 @@
       "label": "CULTURE"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 공공주택",
     "lede": "LH, 2030년까지 42.6만 가구 발주…내년 7.6만 가구로 확대",
@@ -56,12 +54,14 @@
     "source": {
       "outlet": "한국경제",
       "links": [
-        { "text": "LH, 2030년까지 42.6만 가구 발주…내년 7.6만 가구로 확대", "url": "https://www.hankyung.com/article/2026082775141" }
+        {
+          "text": "LH, 2030년까지 42.6만 가구 발주…내년 7.6만 가구로 확대",
+          "url": "https://www.hankyung.com/article/2026082775141"
+        }
       ]
     },
     "topic": "프로젝트"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "image": "https://wimg.heraldcorp.com/news/cms/2026/08/26/news-p.v1.20251126.2cd4c06552cf43528ad4a3a77e6279c4_P1.jpeg",
@@ -81,12 +81,14 @@
     "source": {
       "outlet": "헤럴드경제",
       "links": [
-        { "text": "서울시, 가로주택·모아주택 조합에 첫 초기사업비 융자 지원", "url": "https://biz.heraldcorp.com/article/10853079" }
+        {
+          "text": "서울시, 가로주택·모아주택 조합에 첫 초기사업비 융자 지원",
+          "url": "https://biz.heraldcorp.com/article/10853079"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 프로젝트",
@@ -100,7 +102,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Pelli Clarke and Partners' City Tower One and Dubai City Life Under the Lens of Ahmad Alnaji", "url": "https://www.archdaily.com/1183975/pelli-clarke-and-partners-city-tower-one-and-dubai-city-life-under-the-lens-of-ahmad-alnaji" }
+          {
+            "text": "Pelli Clarke and Partners' City Tower One and Dubai City Life Under the Lens of Ahmad Alnaji",
+            "url": "https://www.archdaily.com/1183975/pelli-clarke-and-partners-city-tower-one-and-dubai-city-life-under-the-lens-of-ahmad-alnaji"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -117,13 +122,15 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "circularity cabin is designed to be dismantled and moved", "url": "https://www.designboom.com/architecture/takaaki-fuji-yuko-fuji-japanese-home-dismantled-circularity-cabin/" }
+          {
+            "text": "circularity cabin is designed to be dismantled and moved",
+            "url": "https://www.designboom.com/architecture/takaaki-fuji-yuko-fuji-japanese-home-dismantled-circularity-cabin/"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 프로젝트",
@@ -136,7 +143,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "27-square-meter steel and timber pavilion rises in flood-hit Chiang Mai, Thailand", "url": "https://www.designboom.com/architecture/27-square-meter-steel-timber-pavilion-chiang-mai-thailand/" }
+          {
+            "text": "27-square-meter steel and timber pavilion rises in flood-hit Chiang Mai, Thailand",
+            "url": "https://www.designboom.com/architecture/27-square-meter-steel-timber-pavilion-chiang-mai-thailand/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -152,7 +162,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "lens installation uses rhythmic timber slats to frame island's historic churches", "url": "https://www.designboom.com/architecture/lens-installation-rhythmic-timber-slats-kizhi-historic-churches-design-wood-home/" }
+          {
+            "text": "lens installation uses rhythmic timber slats to frame island's historic churches",
+            "url": "https://www.designboom.com/architecture/lens-installation-rhythmic-timber-slats-kizhi-historic-churches-design-wood-home/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -168,7 +181,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "luca fontana gives vancouver's timber factory a roof you can walk on", "url": "https://www.designboom.com/architecture/luca-fontana-gives-vancouvers-timber-factory-a-roof-you-can-walk-on/" }
+          {
+            "text": "luca fontana gives vancouver's timber factory a roof you can walk on",
+            "url": "https://www.designboom.com/architecture/luca-fontana-gives-vancouvers-timber-factory-a-roof-you-can-walk-on/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -184,13 +200,15 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "twelve tanks and dripping aqueduct trace water loss at Mies van der Rohe's Barcelona Pavilion", "url": "https://www.designboom.com/design/twelve-tanks-dripping-aqueduct-water-loss-mies-van-der-rohe-barcelona-pavilion-plou-prou-cierto-estudio-h3o-architects-metronom/" }
+          {
+            "text": "twelve tanks and dripping aqueduct trace water loss at Mies van der Rohe's Barcelona Pavilion",
+            "url": "https://www.designboom.com/design/twelve-tanks-dripping-aqueduct-water-loss-mies-van-der-rohe-barcelona-pavilion-plou-prou-cierto-estudio-h3o-architects-metronom/"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 프로젝트",
@@ -202,7 +220,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "1968 Seoul residence is reshaped with courtyard, annex, and timber frame", "url": "https://www.designboom.com/architecture/1968-seoul-residence-is-reshaped-with-courtyard-annex-and-timber-frame/" }
+          {
+            "text": "1968 Seoul residence is reshaped with courtyard, annex, and timber frame",
+            "url": "https://www.designboom.com/architecture/1968-seoul-residence-is-reshaped-with-courtyard-annex-and-timber-frame/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -216,7 +237,10 @@
       "source": {
         "outlet": "주택폴리오",
         "links": [
-          { "text": "단양시장 주차타워 조성사업 건축설계공모", "url": "https://jootek.com/folio/contests/18838" }
+          {
+            "text": "단양시장 주차타워 조성사업 건축설계공모",
+            "url": "https://jootek.com/folio/contests/18838"
+          }
         ]
       },
       "topic": "설계공모"
@@ -230,13 +254,15 @@
       "source": {
         "outlet": "주택폴리오",
         "links": [
-          { "text": "화성 동부 반다비체육센터 건립사업 기본 및 실시설계 용역 설계공모", "url": "https://jootek.com/folio/contests/18849" }
+          {
+            "text": "화성 동부 반다비체육센터 건립사업 기본 및 실시설계 용역 설계공모",
+            "url": "https://jootek.com/folio/contests/18849"
+          }
         ]
       },
       "topic": "설계공모"
     }
   ],
-
   "briefs": [
     {
       "title": "마이아키스쿨 '아키디자인' 유스 공모전 2026 수상작 발표",
@@ -244,7 +270,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "my archischool announces winners of international youth ARCHIDESIGN competition 2026", "url": "https://www.designboom.com/architecture/my-archischool-winners-international-youth-archidesign-competition-2026/" }
+          {
+            "text": "my archischool announces winners of international youth ARCHIDESIGN competition 2026",
+            "url": "https://www.designboom.com/architecture/my-archischool-winners-international-youth-archidesign-competition-2026/"
+          }
         ]
       },
       "topic": "수상"
@@ -255,7 +284,10 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Sweden's smallest apartments \"make the housing crisis tangible\"", "url": "https://www.dezeen.com/2026/08/26/riksbyggen-swedens-smallest-apartments-housing-crisis-tangible/" }
+          {
+            "text": "Sweden's smallest apartments \"make the housing crisis tangible\"",
+            "url": "https://www.dezeen.com/2026/08/26/riksbyggen-swedens-smallest-apartments-housing-crisis-tangible/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -266,7 +298,10 @@
       "source": {
         "outlet": "Archinect",
         "links": [
-          { "text": "10 standout sustainable projects honored at AIA COTE Top Ten Award 2026", "url": "https://archinect.com/news/bustler/11019/10-standout-sustainable-projects-honored-at-aia-cote-top-ten-award-2026" }
+          {
+            "text": "10 standout sustainable projects honored at AIA COTE Top Ten Award 2026",
+            "url": "https://archinect.com/news/bustler/11019/10-standout-sustainable-projects-honored-at-aia-cote-top-ten-award-2026"
+          }
         ]
       },
       "topic": "수상"
@@ -277,7 +312,10 @@
       "source": {
         "outlet": "Archinect",
         "links": [
-          { "text": "Studio Gang receives 2026 AIA Chicago Firm Award for 'conceptual rigor'", "url": "https://archinect.com/news/bustler/11070/studio-gang-receives-2026-aia-chicago-firm-award-for-conceptual-rigor" }
+          {
+            "text": "Studio Gang receives 2026 AIA Chicago Firm Award for 'conceptual rigor'",
+            "url": "https://archinect.com/news/bustler/11070/studio-gang-receives-2026-aia-chicago-firm-award-for-conceptual-rigor"
+          }
         ]
       },
       "topic": "수상"
@@ -288,7 +326,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "what do we stop seeing at home? ULTRA studio reframes domestic perception in tokyo", "url": "https://www.designboom.com/architecture/ultra-studio-domestic-perception-tokyo-after-image-apartment-uehara-japan/" }
+          {
+            "text": "what do we stop seeing at home? ULTRA studio reframes domestic perception in tokyo",
+            "url": "https://www.designboom.com/architecture/ultra-studio-domestic-perception-tokyo-after-image-apartment-uehara-japan/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -299,19 +340,23 @@
       "source": {
         "outlet": "대한건설경제",
         "links": [
-          { "text": "조달청 시설공사 주간('26.8.24.~'26.8.28.)입찰 동향", "url": "https://www.kcenews.kr/9361" }
+          {
+            "text": "조달청 시설공사 주간('26.8.24.~'26.8.28.)입찰 동향",
+            "url": "https://www.kcenews.kr/9361"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "cardnews": [
     {
       "slug": "lh-housing-plan-2030",
       "tag": "POLICY",
       "title": "LH, 2030년까지 42.6만 가구 발주",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 0,
       "photo_query": "public housing apartment construction site Korea city",
       "slides": [
@@ -341,7 +386,10 @@
       "slug": "dubai-city-tower-one",
       "tag": "PROJECT",
       "title": "두바이 93층 타워 '시티타워 원'",
-      "ref": { "section": "intl_feature", "index": 0 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
       "bg": 1,
       "photo_query": "Dubai skyscraper tower skyline modern architecture",
       "slides": [
@@ -371,7 +419,10 @@
       "slug": "circularity-cabin-japan",
       "tag": "PROJECT",
       "title": "분해해서 옮기는 집, 순환성 캐빈",
-      "ref": { "section": "intl_feature", "index": 1 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
       "bg": 2,
       "photo_query": "wooden cabin timber house forest",
       "slides": [

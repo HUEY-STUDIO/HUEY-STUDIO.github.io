@@ -2,9 +2,9 @@
   "vol": "VOL.01  NO.008",
   "editor": "HUEY",
   "counts": {
-    "total": 18,
-    "intl": 11,
-    "kr": 7
+    "total": 15,
+    "intl": 12,
+    "kr": 3
   },
   "outlets": [
     "헤럴드경제",
@@ -38,7 +38,6 @@
       "label": "INFRA"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 문화유산",
     "lede": "35개월 해체수리 마친 성균관 대성전, 1602년 목수의 기록을 되찾아 시민 곁으로",
@@ -55,12 +54,14 @@
     "source": {
       "outlet": "헤럴드경제",
       "links": [
-        { "text": "성균관 대성전 보수공사 마치고 24일 준공", "url": "https://biz.heraldcorp.com/article/10844530" }
+        {
+          "text": "성균관 대성전 보수공사 마치고 24일 준공",
+          "url": "https://biz.heraldcorp.com/article/10844530"
+        }
       ]
     },
     "topic": "재난유산"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "title": "직접지급 합의해도 원사업자 지급보증 유지…공정위, 건설 하도급 표준계약서 개정",
@@ -79,12 +80,14 @@
     "source": {
       "outlet": "뉴스핌",
       "links": [
-        { "text": "하도급대금 직접지급 합의해도 지급보증 의무…공정위, 건설 표준계약서 개정", "url": "https://www.newspim.com/news/view/20260805000314" }
+        {
+          "text": "하도급대금 직접지급 합의해도 지급보증 의무…공정위, 건설 표준계약서 개정",
+          "url": "https://www.newspim.com/news/view/20260805000314"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 인프라",
@@ -98,7 +101,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Reused Brick and Timber Shape Reiulf Ramstad Arkitekter's New Railway Station in Sweden", "url": "https://www.archdaily.com/1183811/reused-brick-and-timber-shape-reiulf-ramstad-arkitekters-new-railway-station-in-sweden" }
+          {
+            "text": "Reused Brick and Timber Shape Reiulf Ramstad Arkitekter's New Railway Station in Sweden",
+            "url": "https://www.archdaily.com/1183811/reused-brick-and-timber-shape-reiulf-ramstad-arkitekters-new-railway-station-in-sweden"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -115,13 +121,15 @@
       "source": {
         "outlet": "The National",
         "links": [
-          { "text": "Dubai's Al Maktoum airport set for 50km driverless rail network to carry passengers", "url": "https://www.thenationalnews.com/news/uae/2026/08/21/dubais-al-maktoum-airport-set-for-50km-driverless-rail-network-to-carry-passengers/" }
+          {
+            "text": "Dubai's Al Maktoum airport set for 50km driverless rail network to carry passengers",
+            "url": "https://www.thenationalnews.com/news/uae/2026/08/21/dubais-al-maktoum-airport-set-for-50km-driverless-rail-network-to-carry-passengers/"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 비엔날레",
@@ -134,7 +142,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Oslo Architecture Triennale 2026 Announces Programme for 9th Edition Under \"What if Nature Comes First?\"", "url": "https://www.archdaily.com/1183847/oslo-architecture-triennale-2026-announces-programme-for-9th-edition-under-what-if-nature-comes-first" }
+          {
+            "text": "Oslo Architecture Triennale 2026 Announces Programme for 9th Edition Under \"What if Nature Comes First?\"",
+            "url": "https://www.archdaily.com/1183847/oslo-architecture-triennale-2026-announces-programme-for-9th-edition-under-what-if-nature-comes-first"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -150,7 +161,10 @@
       "source": {
         "outlet": "Free Malaysia Today",
         "links": [
-          { "text": "Vietnam approves additional US$3 billion spending for China rail link", "url": "https://www.freemalaysiatoday.com/category/world/2026/08/24/vietnam-approves-additional-us-3-billion-spending-for-china-rail-link" }
+          {
+            "text": "Vietnam approves additional US$3 billion spending for China rail link",
+            "url": "https://www.freemalaysiatoday.com/category/world/2026/08/24/vietnam-approves-additional-us-3-billion-spending-for-china-rail-link"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -166,7 +180,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "C.E. House / Dall'Ovo Magalhães Arquitetura", "url": "https://www.archdaily.com/1183808/ce-house-dallovo-magalhaes-arquitetura" }
+          {
+            "text": "C.E. House / Dall'Ovo Magalhães Arquitetura",
+            "url": "https://www.archdaily.com/1183808/ce-house-dallovo-magalhaes-arquitetura"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -182,13 +199,15 @@
       "source": {
         "outlet": "The Architects' Journal",
         "links": [
-          { "text": "AJ Architecture Awards 2026 shortlists Part 3: Housing and landscape and public realm", "url": "https://www.architectsjournal.co.uk/news/aj-architecture-awards-2026-shortlists-part-3-housing-and-landscape-and-public-realm" }
+          {
+            "text": "AJ Architecture Awards 2026 shortlists Part 3: Housing and landscape and public realm",
+            "url": "https://www.architectsjournal.co.uk/news/aj-architecture-awards-2026-shortlists-part-3-housing-and-landscape-and-public-realm"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 개관",
@@ -202,7 +221,10 @@
       "source": {
         "outlet": "헤럴드경제",
         "links": [
-          { "text": "\"박서보 기념 아닌 동시대 플랫폼\"…박서보미술관 개관", "url": "https://biz.heraldcorp.com/article/10844277" }
+          {
+            "text": "\"박서보 기념 아닌 동시대 플랫폼\"…박서보미술관 개관",
+            "url": "https://biz.heraldcorp.com/article/10844277"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -216,21 +238,10 @@
       "source": {
         "outlet": "한국건축가협회",
         "links": [
-          { "text": "호남선 익산역사 증축 기타 설계 제안설계공모 공고", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20699" }
-        ]
-      },
-      "topic": "설계공모"
-    },
-    {
-      "kicker": "국내 · 설계공모",
-      "title": "제주 보건환경연구원 증축사업, 건축 설계공모 공고",
-      "body": [
-        "**제주특별자치도 보건환경연구원 증축사업** 건축 설계공모가 공고됐다. 참가 등록은 **8월 10일부터 17일까지**, 질의응답은 8월 18~19일 진행된다. 작품 제출 마감은 **9월 30일**이며, 1차 심사는 10월 8일과 22일, 최종 심사는 10월 29일에 열린다. 한국건축가협회가 공모 운영을 맡고 있다."
-      ],
-      "source": {
-        "outlet": "한국건축가협회",
-        "links": [
-          { "text": "「제주특별자치도 보건환경연구원 증축사업」 건축 설계공모 공고", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20679" }
+          {
+            "text": "호남선 익산역사 증축 기타 설계 제안설계공모 공고",
+            "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20699"
+          }
         ]
       },
       "topic": "설계공모"
@@ -244,13 +255,15 @@
       "source": {
         "outlet": "한국건축가협회",
         "links": [
-          { "text": "당진 정원문화지원센터 건립사업 건축설계공모(2단계 설계공모)", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20676" }
+          {
+            "text": "당진 정원문화지원센터 건립사업 건축설계공모(2단계 설계공모)",
+            "url": "https://www.kia.or.kr/news/notice.php?ptype=view&code=notice&idx=20676"
+          }
         ]
       },
       "topic": "설계공모"
     }
   ],
-
   "briefs": [
     {
       "title": "울산 건축상 대상은 '케이지 안전교육센터'",
@@ -258,18 +271,10 @@
       "source": {
         "outlet": "헤럴드경제",
         "links": [
-          { "text": "2026년 울산광역시 건축상 수상작 발표", "url": "https://biz.heraldcorp.com/article/10830221" }
-        ]
-      },
-      "topic": "수상"
-    },
-    {
-      "title": "빌드너 '아키텍츠 스테어' 공모 수상작 발표",
-      "body": "계단을 건축적 스토리텔링의 매체로 다룬 빌드너의 제3회 아키텍츠 스테어 국제 아이디어 공모 수상작이 공개됐다.",
-      "source": {
-        "outlet": "ArchDaily",
-        "links": [
-          { "text": "Buildner's 3rd Architect's Stair Competition Winners Explore the Stair as a Form of Architectural Expression", "url": "https://www.archdaily.com/1181786/buildners-3rd-architects-stair-competition-winners-explore-the-stair-as-a-form-of-architectural-expression" }
+          {
+            "text": "2026년 울산광역시 건축상 수상작 발표",
+            "url": "https://biz.heraldcorp.com/article/10830221"
+          }
         ]
       },
       "topic": "수상"
@@ -280,7 +285,10 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Glazed pavilion with \"distinctly modernist character\" added to Portland Art Museum", "url": "https://www.dezeen.com/2026/08/03/portland-art-museum-oregon-hennebery-eddy-architects-and-vinci-hamp-architects/" }
+          {
+            "text": "Glazed pavilion with \"distinctly modernist character\" added to Portland Art Museum",
+            "url": "https://www.dezeen.com/2026/08/03/portland-art-museum-oregon-hennebery-eddy-architects-and-vinci-hamp-architects/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -291,7 +299,10 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "UUfie organises renovated Ontario chalet \"like a hike\"", "url": "https://www.dezeen.com/2026/08/21/uufie-renovates-ontario-chalet-belfountain/" }
+          {
+            "text": "UUfie organises renovated Ontario chalet \"like a hike\"",
+            "url": "https://www.dezeen.com/2026/08/21/uufie-renovates-ontario-chalet-belfountain/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -302,31 +313,24 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "António Costa Lima adds concrete extension to Lisbon school", "url": "https://www.dezeen.com/2026/08/20/antonio-costa-lima-colegio-de-santa-maria/" }
-        ]
-      },
-      "topic": "프로젝트"
-    },
-    {
-      "title": "노르웨이 해안 산장, 쓰러진 가문비나무로 뼈대를 세우다",
-      "body": "헬렌앤하드가 폭풍에 뿌리째 뽑힌 가문비나무들로 18개의 가지형 기둥을 짜 '캐빈 산데'를 완공했다. 바이킹 시대 조선술에서 이음 방식을 가져왔다.",
-      "source": {
-        "outlet": "Dezeen",
-        "links": [
-          { "text": "Helen & Hard uses uprooted spruce trees to shape Cabin Sande on Norway's Atlantic coast", "url": "https://www.dezeen.com/2026/08/15/cabin-sande-spruce-trees-norway-atlanic-ocean-helen-hard-architects/" }
+          {
+            "text": "António Costa Lima adds concrete extension to Lisbon school",
+            "url": "https://www.dezeen.com/2026/08/20/antonio-costa-lima-colegio-de-santa-maria/"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "cardnews": [
     {
       "slug": "daeseongjeon-restoration-2026",
       "tag": "HERITAGE",
       "photo_query": "korean traditional wooden temple roof",
       "title": "35개월, 성균관 대성전이 돌아왔다",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 0,
       "slides": [
         {
@@ -357,7 +361,10 @@
       "tag": "OPENING",
       "photo_query": "minimalist concrete art gallery interior",
       "title": "연희동에 박서보미술관 열리다",
-      "ref": { "section": "korea", "index": 0 },
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
       "bg": 1,
       "slides": [
         {
@@ -387,7 +394,10 @@
       "tag": "INFRA",
       "photo_query": "modern airport train station interior",
       "title": "두바이, 세계 최장 무인철도를 놓는다",
-      "ref": { "section": "intl_feature", "index": 1 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
       "bg": 2,
       "slides": [
         {

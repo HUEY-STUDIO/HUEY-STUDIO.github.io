@@ -2,9 +2,9 @@
   "vol": "VOL.01  NO.011",
   "editor": "HUEY",
   "counts": {
-    "total": 18,
-    "intl": 12,
-    "kr": 6
+    "total": 17,
+    "intl": 13,
+    "kr": 4
   },
   "outlets": [
     "이투데이",
@@ -17,7 +17,6 @@
     "Dezeen",
     "Archinect"
   ],
-
   "teasers": [
     {
       "title": "캠프킴 2500가구, 정기국회로 넘어갔다",
@@ -40,7 +39,6 @@
       "label": "COMPETITION"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 제도규제",
     "lede": "캠프킴 2500가구 계획, 국회 문턱 못 넘고 정기국회로",
@@ -57,12 +55,14 @@
     "source": {
       "outlet": "이투데이",
       "links": [
-        { "text": "캠프킴 2500가구 들어서나…26일 본회의 '마지막 문턱'", "url": "https://www.etoday.co.kr/news/view/2617926" }
+        {
+          "text": "캠프킴 2500가구 들어서나…26일 본회의 '마지막 문턱'",
+          "url": "https://www.etoday.co.kr/news/view/2617926"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "image": "https://wimg.heraldcorp.com/news/cms/2026/08/20/news-p.v1.20260107.eda1750f15f14300b44876acfaf44702_P1.jpg",
@@ -82,12 +82,14 @@
     "source": {
       "outlet": "헤럴드경제",
       "links": [
-        { "text": "외국인 토허제 1년 연장…울릉도·제주·우도 등 국토 외곽 섬 353곳은 신규지정", "url": "https://biz.heraldcorp.com/article/10847265" }
+        {
+          "text": "외국인 토허제 1년 연장…울릉도·제주·우도 등 국토 외곽 섬 353곳은 신규지정",
+          "url": "https://biz.heraldcorp.com/article/10847265"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 프로젝트",
@@ -101,7 +103,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Steven Holl Architects Selected to Renew Historic Ida Noyes Hall at the University of Chicago", "url": "https://www.archdaily.com/1184002/steven-holl-architects-selected-to-renew-historic-ida-noyes-hall-at-the-university-of-chicago" }
+          {
+            "text": "Steven Holl Architects Selected to Renew Historic Ida Noyes Hall at the University of Chicago",
+            "url": "https://www.archdaily.com/1184002/steven-holl-architects-selected-to-renew-historic-ida-noyes-hall-at-the-university-of-chicago"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -118,13 +123,15 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "sweeping bamboo roof to shape rammed-earth community center in senegal", "url": "https://www.designboom.com/architecture/bamboo-roof-kaira-looro-rammed-earth-community-center-senegal-ioannidou-gligorovski/" }
+          {
+            "text": "sweeping bamboo roof to shape rammed-earth community center in senegal",
+            "url": "https://www.designboom.com/architecture/bamboo-roof-kaira-looro-rammed-earth-community-center-senegal-ioannidou-gligorovski/"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 프로젝트",
@@ -137,7 +144,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "El Trebol House / Engelman Estudio", "url": "https://www.archdaily.com/1184015/el-trebol-house-engelman-estudio" }
+          {
+            "text": "El Trebol House / Engelman Estudio",
+            "url": "https://www.archdaily.com/1184015/el-trebol-house-engelman-estudio"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -153,23 +163,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Japú House / AIA Estúdio", "url": "https://www.archdaily.com/1183980/japu-house-aia-estudio" }
-        ]
-      },
-      "topic": "프로젝트"
-    },
-    {
-      "kicker": "국제 · 프로젝트",
-      "title": "마요르카 재활용 팔레트 지붕 아래 쌓은 돌기둥 파빌리온",
-      "image": "https://static.designboom.com/wp-content/uploads/2026/08/aulets-architectes-futur-habitable-pavilion-mallorca-designboom-600.jpg",
-      "image_label": "DESIGNBOOM",
-      "body": [
-        "스페인 아울레츠 아르키텍테스가 마요르카 포옌사의 연례 축제 '푸투르 아비타블레' 마지막 편으로, 공공 통로를 가로지르는 파빌리온을 완공했다. 깨진 모서리와 톱자국, 색 편차를 그대로 드러낸 거대한 석재 기둥이 건축의 스케일을 이루고, 재활용 나무 팔레트로 짠 지붕의 바깥 띠와 그 사이를 가로지르는 보 구조가 결합됐다."
-      ],
-      "source": {
-        "outlet": "designboom",
-        "links": [
-          { "text": "aulets stacks natural stone beneath a recycled pallet roof in mallorca", "url": "https://www.designboom.com/architecture/aulets-architectes-natural-stone-recycled-pallet-roof-mallorca-futur-habitable-pavilion-pollenca/" }
+          {
+            "text": "Japú House / AIA Estúdio",
+            "url": "https://www.archdaily.com/1183980/japu-house-aia-estudio"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -185,13 +182,15 @@
       "source": {
         "outlet": "Buildner",
         "links": [
-          { "text": "The Oak Moon Pavilion International Architecture Competition", "url": "https://architecturecompetitions.com/oakmoonpavilion/" }
+          {
+            "text": "The Oak Moon Pavilion International Architecture Competition",
+            "url": "https://architecturecompetitions.com/oakmoonpavilion/"
+          }
         ]
       },
       "topic": "설계공모"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 설계공모",
@@ -202,7 +201,10 @@
       "source": {
         "outlet": "부산광역시",
         "links": [
-          { "text": "이기대공원 친환경목조전망대 조성사업 설계공모 현장 안내(설명)", "url": "https://making.busan.go.kr/main/4" }
+          {
+            "text": "이기대공원 친환경목조전망대 조성사업 설계공모 현장 안내(설명)",
+            "url": "https://making.busan.go.kr/main/4"
+          }
         ]
       },
       "topic": "설계공모"
@@ -216,7 +218,10 @@
       "source": {
         "outlet": "주택폴리오",
         "links": [
-          { "text": "울산광역시 광역 재활용품 공공선별장 건립 건축 설계공모", "url": "https://jootek.com/folio/contests/18830" }
+          {
+            "text": "울산광역시 광역 재활용품 공공선별장 건립 건축 설계공모",
+            "url": "https://jootek.com/folio/contests/18830"
+          }
         ]
       },
       "topic": "설계공모"
@@ -230,7 +235,10 @@
       "source": {
         "outlet": "이투데이",
         "links": [
-          { "text": "서대구~신공항 25분으로 단축…대구-경북 광역철도 예타 통과", "url": "https://www.etoday.co.kr/news/view/2618397" }
+          {
+            "text": "서대구~신공항 25분으로 단축…대구-경북 광역철도 예타 통과",
+            "url": "https://www.etoday.co.kr/news/view/2618397"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -244,13 +252,15 @@
       "source": {
         "outlet": "뉴스핌",
         "links": [
-          { "text": "한미글로벌, 美 ENR 글로벌 CM·PM 6위 등극…\"한국 기업 역대 최고\"", "url": "https://www.newspim.com/news/view/20260826000930" }
+          {
+            "text": "한미글로벌, 美 ENR 글로벌 CM·PM 6위 등극…\"한국 기업 역대 최고\"",
+            "url": "https://www.newspim.com/news/view/20260826000930"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "briefs": [
     {
       "title": "ACSA 2026 콘크리트 조적 학생공모전, 아이다호대 '링크드 어셈블리' 1위",
@@ -258,7 +268,10 @@
       "source": {
         "outlet": "Archinect",
         "links": [
-          { "text": "ACSA unveils winners of 2026 Concrete Masonry Student Competition", "url": "https://archinect.com/news/bustler/11102/acsa-unveils-winners-of-2026-concrete-masonry-student-competition" }
+          {
+            "text": "ACSA unveils winners of 2026 Concrete Masonry Student Competition",
+            "url": "https://archinect.com/news/bustler/11102/acsa-unveils-winners-of-2026-concrete-masonry-student-competition"
+          }
         ]
       },
       "topic": "수상"
@@ -269,7 +282,10 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Pearce+ stacks reclaimed materials to create multi-species wildlife tower", "url": "https://www.dezeen.com/2026/08/26/wildlife-tower-reclaimed-honeygar-farm-somerset-pearce/" }
+          {
+            "text": "Pearce+ stacks reclaimed materials to create multi-species wildlife tower",
+            "url": "https://www.dezeen.com/2026/08/26/wildlife-tower-reclaimed-honeygar-farm-somerset-pearce/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -280,7 +296,10 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "robert smithson's entropy leads BEAR architects into the spaces architecture forgot", "url": "https://www.designboom.com/architecture/robert-smithsons-entropy-bear-architects-spaces-architecture/" }
+          {
+            "text": "robert smithson's entropy leads BEAR architects into the spaces architecture forgot",
+            "url": "https://www.designboom.com/architecture/robert-smithsons-entropy-bear-architects-spaces-architecture/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -291,7 +310,10 @@
       "source": {
         "outlet": "Data Center Frontier",
         "links": [
-          { "text": "Meta's Canadian AI Data Center: A New Model for Infrastructure and Energy Integration", "url": "https://www.datacenterfrontier.com/hyperscale/article/55391399/metas-canadian-ai-data-center-a-new-model-for-infrastructure-and-energy-integration" }
+          {
+            "text": "Meta's Canadian AI Data Center: A New Model for Infrastructure and Energy Integration",
+            "url": "https://www.datacenterfrontier.com/hyperscale/article/55391399/metas-canadian-ai-data-center-a-new-model-for-infrastructure-and-energy-integration"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -302,7 +324,10 @@
       "source": {
         "outlet": "OpenAI",
         "links": [
-          { "text": "Building AI infrastructure with the Effingham County community", "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/" }
+          {
+            "text": "Building AI infrastructure with the Effingham County community",
+            "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -313,19 +338,24 @@
       "source": {
         "outlet": "Bisnow",
         "links": [
-          { "text": "Astrodome Conservancy Solicits Redevelopment Ideas", "url": "https://www.bisnow.com/news/houston/construction-development/astrodome-conservancy-solicits-redevelopment-ideas" }
+          {
+            "text": "Astrodome Conservancy Solicits Redevelopment Ideas",
+            "url": "https://www.bisnow.com/news/houston/construction-development/astrodome-conservancy-solicits-redevelopment-ideas"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "cardnews": [
     {
       "slug": "kaira-looro-bamboo-community-senegal",
       "tag": "PROJECT",
       "title": "대나무 지붕이 감싼 세네갈 흙집",
-      "ref": { "section": "intl_feature", "index": 1 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
       "bg": 0,
       "photo_query": "bamboo architecture rammed earth village Africa",
       "slides": [
@@ -355,7 +385,10 @@
       "slug": "casa-el-trebol-patagonia",
       "tag": "PROJECT",
       "title": "파타고니아 산정에 걸린 집",
-      "ref": { "section": "intl_grid", "index": 0 },
+      "ref": {
+        "section": "intl_grid",
+        "index": 0
+      },
       "bg": 1,
       "photo_query": "patagonia forest mountain lake house architecture",
       "slides": [
@@ -385,7 +418,10 @@
       "slug": "igidae-park-wooden-observatory",
       "tag": "COMPETITION",
       "title": "이기대공원 목조전망대 설계공모",
-      "ref": { "section": "korea", "index": 0 },
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
       "bg": 2,
       "photo_query": "wooden observation deck coastal cliff forest",
       "slides": [

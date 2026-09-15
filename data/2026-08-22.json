@@ -3,8 +3,8 @@
   "editor": "HUEY",
   "counts": {
     "total": 19,
-    "intl": 9,
-    "kr": 10
+    "intl": 14,
+    "kr": 5
   },
   "outlets": [
     "이투데이",
@@ -38,7 +38,6 @@
       "label": "CULTURE"
     }
   ],
-
   "top": {
     "kicker": "TOP STORY · 제도",
     "lede": "노후 공공건축물 '그린리모델링' 의무화…녹색건축법 등 3법 국회 통과",
@@ -55,12 +54,14 @@
     "source": {
       "outlet": "이투데이",
       "links": [
-        { "text": "노후 공공건축물 '그린리모델링' 의무화…민간은 지원 확대", "url": "https://www.etoday.co.kr/news/view/2616597" }
+        {
+          "text": "노후 공공건축물 '그린리모델링' 의무화…민간은 지원 확대",
+          "url": "https://www.etoday.co.kr/news/view/2616597"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "side": {
     "label": "실무 직결 · 제도/규제",
     "title": "위반건축물 처벌에 '설계자' 포함…국토부 \"사후 증축, 설계 안 했으면 처벌 대상 아니다\"",
@@ -78,12 +79,14 @@
     "source": {
       "outlet": "대한건축사협회 건축사신문",
       "links": [
-        { "text": "건축법 개정안 팩트체크② 국토부 유권해석으로 매듭", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20976" }
+        {
+          "text": "건축법 개정안 팩트체크② 국토부 유권해석으로 매듭",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=20976"
+        }
       ]
     },
     "topic": "제도규제"
   },
-
   "intl_feature": [
     {
       "kicker": "국제 · 문화시설",
@@ -97,7 +100,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "William Rawn Associates' New Museum of Science Venue Nears Completion in Boston", "url": "https://www.archdaily.com/1183728/william-rawn-associates-new-museum-of-science-venue-nears-completion-in-boston" }
+          {
+            "text": "William Rawn Associates' New Museum of Science Venue Nears Completion in Boston",
+            "url": "https://www.archdaily.com/1183728/william-rawn-associates-new-museum-of-science-venue-nears-completion-in-boston"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -114,13 +120,15 @@
       "source": {
         "outlet": "designboom",
         "links": [
-          { "text": "OFFICEUNTITLED turns a vacant Santa Monica office floor into a school after the Palisades fire", "url": "https://www.designboom.com/readers/officeuntitled-turns-a-vacant-santa-monica-office-floor-into-a-school-after-the-palisades-fire/" }
+          {
+            "text": "OFFICEUNTITLED turns a vacant Santa Monica office floor into a school after the Palisades fire",
+            "url": "https://www.designboom.com/readers/officeuntitled-turns-a-vacant-santa-monica-office-floor-into-a-school-after-the-palisades-fire/"
+          }
         ]
       },
       "topic": "재난유산"
     }
   ],
-
   "intl_grid": [
     {
       "kicker": "국제 · 오피스",
@@ -133,7 +141,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Screened Space Office Building / Studio UF+O", "url": "https://www.archdaily.com/1183677/screened-space-office-building-studio-uf-plus-o" }
+          {
+            "text": "Screened Space Office Building / Studio UF+O",
+            "url": "https://www.archdaily.com/1183677/screened-space-office-building-studio-uf-plus-o"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -149,7 +160,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "Buildner Launches Unbuilt 2026 and Reveals Unbuilt 2025 Winners", "url": "https://www.archdaily.com/1040984/buildner-launches-unbuilt-2026-and-reveals-unbuilt-2025-winners" }
+          {
+            "text": "Buildner Launches Unbuilt 2026 and Reveals Unbuilt 2025 Winners",
+            "url": "https://www.archdaily.com/1040984/buildner-launches-unbuilt-2026-and-reveals-unbuilt-2025-winners"
+          }
         ]
       },
       "topic": "설계공모"
@@ -165,7 +179,10 @@
       "source": {
         "outlet": "ArchDaily",
         "links": [
-          { "text": "MFA House / Simone Jazbik Arquitetura", "url": "https://www.archdaily.com/1183798/mfa-house-simone-jazbik-arquitetura" }
+          {
+            "text": "MFA House / Simone Jazbik Arquitetura",
+            "url": "https://www.archdaily.com/1183798/mfa-house-simone-jazbik-arquitetura"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -181,13 +198,15 @@
       "source": {
         "outlet": "Dezeen",
         "links": [
-          { "text": "Eight pavilion highlights from Jia Curated 2026", "url": "https://www.dezeen.com/2026/08/18/jia-curated-pavilions/" }
+          {
+            "text": "Eight pavilion highlights from Jia Curated 2026",
+            "url": "https://www.dezeen.com/2026/08/18/jia-curated-pavilions/"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "korea": [
     {
       "kicker": "국내 · 용도분류",
@@ -199,7 +218,10 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "건축물 시행령 개정, 대안교육기관 용도 신설", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20981" }
+          {
+            "text": "건축물 시행령 개정, 대안교육기관 용도 신설",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20981"
+          }
         ]
       },
       "topic": "제도규제"
@@ -214,7 +236,10 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "한국건축문화대상 학생설계 공모", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20692" }
+          {
+            "text": "한국건축문화대상 학생설계 공모",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20692"
+          }
         ]
       },
       "topic": "설계공모"
@@ -231,7 +256,10 @@
       "source": {
         "outlet": "뉴스핌",
         "links": [
-          { "text": "'서울창업허브 관악' 설계 공모 당선작 선정…992억 투입, 딥테크 창업 거점", "url": "https://www.newspim.com/news/view/20260813000576" }
+          {
+            "text": "'서울창업허브 관악' 설계 공모 당선작 선정…992억 투입, 딥테크 창업 거점",
+            "url": "https://www.newspim.com/news/view/20260813000576"
+          }
         ]
       },
       "topic": "수상"
@@ -246,7 +274,10 @@
       "source": {
         "outlet": "한국경제",
         "links": [
-          { "text": "영화로 만나는 건축…서울국제건축영화제 오는 9월 5일 개막", "url": "https://www.hankyung.com/article/202608056634i" }
+          {
+            "text": "영화로 만나는 건축…서울국제건축영화제 오는 9월 5일 개막",
+            "url": "https://www.hankyung.com/article/202608056634i"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -260,13 +291,15 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "전라남도건축사회, 행정안전부와 재난피해 주택신축 지원 MOU", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20946" }
+          {
+            "text": "전라남도건축사회, 행정안전부와 재난피해 주택신축 지원 MOU",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20946"
+          }
         ]
       },
       "topic": "재난유산"
     }
   ],
-
   "briefs": [
     {
       "title": "건축사 자격시험, 2027년부터 연 1회로",
@@ -274,7 +307,10 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "건축사 자격제도 개편안", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20847" }
+          {
+            "text": "건축사 자격제도 개편안",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20847"
+          }
         ]
       },
       "topic": "제도규제"
@@ -285,7 +321,10 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "Punch List: Skanska wins $1.2B contract for 4 data centers", "url": "https://www.constructiondive.com/news/punch-list-skanska-data-center-amtrak-tunnel-auburn-air-force/828474/" }
+          {
+            "text": "Punch List: Skanska wins $1.2B contract for 4 data centers",
+            "url": "https://www.constructiondive.com/news/punch-list-skanska-data-center-amtrak-tunnel-auburn-air-force/828474/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -296,7 +335,10 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "Amtrak wraps first phase of $1.6B tunnel", "url": "https://www.constructiondive.com/news/punch-list-skanska-data-center-amtrak-tunnel-auburn-air-force/828474/" }
+          {
+            "text": "Amtrak wraps first phase of $1.6B tunnel",
+            "url": "https://www.constructiondive.com/news/punch-list-skanska-data-center-amtrak-tunnel-auburn-air-force/828474/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -307,7 +349,10 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "위반건축물 양성화 전면 시행", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20691" }
+          {
+            "text": "위반건축물 양성화 전면 시행",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20691"
+          }
         ]
       },
       "topic": "제도규제"
@@ -318,7 +363,10 @@
       "source": {
         "outlet": "Construction Dive",
         "links": [
-          { "text": "Punch List: Auburn, Air Force mass timber barracks", "url": "https://www.constructiondive.com/news/punch-list-skanska-data-center-amtrak-tunnel-auburn-air-force/828474/" }
+          {
+            "text": "Punch List: Auburn, Air Force mass timber barracks",
+            "url": "https://www.constructiondive.com/news/punch-list-skanska-data-center-amtrak-tunnel-auburn-air-force/828474/"
+          }
         ]
       },
       "topic": "프로젝트"
@@ -329,19 +377,23 @@
       "source": {
         "outlet": "대한건축사협회 건축사신문",
         "links": [
-          { "text": "건축사공제조합 창립 10주년", "url": "https://www.ancnews.kr/news/articleView.html?idxno=20970" }
+          {
+            "text": "건축사공제조합 창립 10주년",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=20970"
+          }
         ]
       },
       "topic": "프로젝트"
     }
   ],
-
   "cardnews": [
     {
       "slug": "green-remodeling-mandate",
       "tag": "POLICY",
       "title": "노후 공공건축물 그린리모델링, 의무가 되다",
-      "ref": { "section": "top" },
+      "ref": {
+        "section": "top"
+      },
       "bg": 1,
       "photo_query": "old public building renovation scaffolding facade",
       "slides": [
@@ -375,7 +427,9 @@
       "slug": "designer-criminal-liability",
       "tag": "PRACTICE",
       "title": "위반건축물 처벌에 설계자가 들어왔다",
-      "ref": { "section": "side" },
+      "ref": {
+        "section": "side"
+      },
       "bg": 2,
       "photo_query": "architectural blueprint drawing desk pencil",
       "slides": [
@@ -405,7 +459,10 @@
       "slug": "village-school-three-weeks",
       "tag": "RECOVERY",
       "title": "불탄 학교, 3주 만에 사무실 층으로 돌아오다",
-      "ref": { "section": "intl_feature", "index": 1 },
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
       "bg": 0,
       "photo_query": "bright converted office classroom interior",
       "slides": [
