@@ -773,8 +773,30 @@ def ref_anchor(ref):
     return f"art-{section}-{(ref or {}).get('index')}"
 
 
+def render_carousel(images, root):
+    """스크롤 스냅 캐러셀 마크업. 상세 페이지와 메인 타일이 공유해서 쓴다 — 동작은
+    assets/site.js 가 .cn-carousel-wrap 을 전부 찾아 붙인다(페이지에 여러 개 있어도 됨)."""
+    n = len(images)
+    slides_html = "\n".join(
+        f'      <div class="cn-slide"><img src="{esc(root)}{esc(src)}" alt="" loading="lazy"></div>'
+        for src in images
+    )
+    arrows = ""
+    if n > 1:
+        arrows = ('\n    <button type="button" class="cn-arrow cn-arrow-prev" aria-label="이전 슬라이드">‹</button>'
+                  '\n    <button type="button" class="cn-arrow cn-arrow-next" aria-label="다음 슬라이드">›</button>')
+    dots = '\n  <div class="cn-dots"></div>' if n > 1 else ""
+    return f"""  <div class="cn-carousel-wrap">
+    <div class="cn-carousel">
+{slides_html}
+    </div>{arrows}
+  </div>{dots}"""
+
+
 def render_cardnews_strip(d, root):
-    """TOP STORY 위에 얹는 카드뉴스 3개 스트립. cardnews 필드가 없으면 아무것도 렌더링하지 않는다."""
+    """TOP STORY 위에 얹는 카드뉴스 3개 스트립. cardnews 필드가 없으면 아무것도 렌더링하지 않는다.
+    타일 자체가 캐러셀이라 클릭해 들어가지 않고도 슬라이드를 넘겨 볼 수 있다 — 태그·제목만
+    상세 페이지로 이어지는 링크다."""
     items = d.get("cardnews") or []
     if not items:
         return ""
@@ -782,16 +804,20 @@ def render_cardnews_strip(d, root):
     cells = []
     for it in items:
         slug = it["slug"]
-        cover = f"{root}cardnews/{day}/{slug}/01.{CARDNEWS_EXT}"
+        n = len(it.get("slides") or []) or 1
+        images = [f"cardnews/{day}/{slug}/{i + 1:02d}.{CARDNEWS_EXT}" for i in range(n)]
         href = f"{root}cardnews/{day}/{slug}.html"
-        cells.append(f"""      <a class="cn-tile" href="{esc(href)}">
-        <div class="cn-thumb"><img src="{esc(cover)}" alt="" loading="lazy"></div>
-        <div class="cn-tag">{esc(it.get("tag") or "MAGAZINE")}</div>
-        <h4>{esc(it.get("title"))}</h4>
-      </a>""")
+        carousel = render_carousel(images, root)
+        cells.append(f"""      <div class="cn-tile">
+{carousel}
+        <a class="cn-tile-meta" href="{esc(href)}">
+          <div class="cn-tag">{esc(it.get("tag") or "MAGAZINE")}</div>
+          <h4>{esc(it.get("title"))}</h4>
+        </a>
+      </div>""")
     inner = "\n".join(cells)
     return f"""  <div class="cardnews-strip">
-    <div class="cn-strip-head"><span class="cn-brand">HUEY ARCHI MAGAZINE</span><span class="cn-sub">오늘의 카드뉴스</span></div>
+    <div class="cn-strip-head"><span class="cn-brand">HUEY ARCHI MAGAZINE</span><span class="cn-sub">오늘의 카드뉴스 · 넘겨서 보기</span></div>
     <div class="cn-row">
 {inner}
     </div>
@@ -806,10 +832,8 @@ def render_cardnews_detail(d, item, root):
     aid = ref_anchor(ref)
 
     n = len(item.get("slides") or [])
-    slides_html = "\n".join(
-        f'      <div class="cn-slide"><img src="{esc(root)}cardnews/{esc(day)}/{esc(slug)}/{i + 1:02d}.{CARDNEWS_EXT}" alt="" loading="lazy"></div>'
-        for i in range(n)
-    )
+    images = [f"cardnews/{day}/{slug}/{i + 1:02d}.{CARDNEWS_EXT}" for i in range(n)]
+    carousel = render_carousel(images, root)
 
     orig_title = article.get("title") or article.get("lede") or item.get("title") or ""
     heuy_link = f"{root}issues/{day}.html#{aid}"
@@ -821,14 +845,7 @@ def render_cardnews_detail(d, item, root):
     <span class="cn-editor">Editor {esc(d.get("editor", "HUEY"))}</span>
   </div>
   <h1 class="cn-detail-title">{esc(item.get("title"))}</h1>
-  <div class="cn-carousel-wrap">
-    <div class="cn-carousel" id="cnCarousel">
-{slides_html}
-    </div>
-    <button type="button" class="cn-arrow cn-arrow-prev" id="cnPrev" aria-label="이전 슬라이드">‹</button>
-    <button type="button" class="cn-arrow cn-arrow-next" id="cnNext" aria-label="다음 슬라이드">›</button>
-  </div>
-  <div class="cn-dots" id="cnDots"></div>
+{carousel}
   <div class="cn-infobar">
     <div class="cn-info-row">
       <span class="cn-info-label">원문 출처</span>
@@ -839,69 +856,7 @@ def render_cardnews_detail(d, item, root):
       <a href="{esc(heuy_link)}">{esc(orig_title)} →</a>
     </div>
   </div>
-</div>
-<script>
-(function () {{
-  var car = document.getElementById('cnCarousel');
-  var dotsWrap = document.getElementById('cnDots');
-  var prevBtn = document.getElementById('cnPrev');
-  var nextBtn = document.getElementById('cnNext');
-  var slides = car.querySelectorAll('.cn-slide');
-  var n = slides.length;
-  slides.forEach(function (_, i) {{
-    var dot = document.createElement('span');
-    dot.className = 'cn-dot' + (i === 0 ? ' on' : '');
-    dot.addEventListener('click', function () {{
-      car.scrollTo({{ left: i * car.clientWidth, behavior: 'smooth' }});
-    }});
-    dotsWrap.appendChild(dot);
-  }});
-  var dotEls = dotsWrap.querySelectorAll('.cn-dot');
-
-  function currentIndex() {{
-    return Math.round(car.scrollLeft / car.clientWidth);
-  }}
-  function update() {{
-    var idx = currentIndex();
-    dotEls.forEach(function (el, i) {{ el.classList.toggle('on', i === idx); }});
-    prevBtn.classList.toggle('is-hidden', idx <= 0);
-    nextBtn.classList.toggle('is-hidden', idx >= n - 1);
-  }}
-  car.addEventListener('scroll', update, {{ passive: true }});
-
-  prevBtn.addEventListener('click', function () {{
-    car.scrollTo({{ left: Math.max(0, currentIndex() - 1) * car.clientWidth, behavior: 'smooth' }});
-  }});
-  nextBtn.addEventListener('click', function () {{
-    car.scrollTo({{ left: Math.min(n - 1, currentIndex() + 1) * car.clientWidth, behavior: 'smooth' }});
-  }});
-
-  // 마우스 드래그로 슬라이드 넘기기 (트랙패드/터치 없이도 넘어가도록)
-  var dragging = false, moved = false, startX = 0, startScroll = 0;
-  car.addEventListener('mousedown', function (e) {{
-    dragging = true; moved = false;
-    startX = e.pageX; startScroll = car.scrollLeft;
-    car.classList.add('is-dragging');
-  }});
-  window.addEventListener('mousemove', function (e) {{
-    if (!dragging) return;
-    var dx = e.pageX - startX;
-    if (Math.abs(dx) > 4) moved = true;
-    car.scrollLeft = startScroll - dx;
-  }});
-  window.addEventListener('mouseup', function () {{
-    if (!dragging) return;
-    dragging = false;
-    car.classList.remove('is-dragging');
-    car.scrollTo({{ left: currentIndex() * car.clientWidth, behavior: 'smooth' }});
-  }});
-  car.addEventListener('click', function (e) {{
-    if (moved) {{ e.preventDefault(); e.stopPropagation(); }}
-  }}, true);
-
-  update();
-}})();
-</script>"""
+</div>"""
     cover_slide = (item.get("slides") or [{}])[0]
     desc = clip(cover_slide.get("body") or orig_title or SITE_DESC)
     return shell(f'{item.get("title")} — HUEY ARCHI MAGAZINE', body, css_prefix=root,

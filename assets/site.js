@@ -959,3 +959,80 @@ function heuySupabase() {
     showDenied();
   });
 })();
+
+/* 카드뉴스 캐러셀 — 상세 페이지에 하나, 메인/발행일 페이지 타일에는 여러 개가 동시에
+   있을 수 있어 .cn-carousel-wrap 을 전부 찾아 각각 독립적으로 동작을 붙인다. */
+(function () {
+  "use strict";
+  var wraps = document.querySelectorAll(".cn-carousel-wrap");
+  wraps.forEach(function (wrap) {
+    var car = wrap.querySelector(".cn-carousel");
+    if (!car) return;
+    var prevBtn = wrap.querySelector(".cn-arrow-prev");
+    var nextBtn = wrap.querySelector(".cn-arrow-next");
+    var dotsWrap = wrap.nextElementSibling;
+    if (!dotsWrap || !dotsWrap.classList.contains("cn-dots")) dotsWrap = null;
+    var slides = car.querySelectorAll(".cn-slide");
+    var n = slides.length;
+
+    if (dotsWrap) {
+      slides.forEach(function (_, i) {
+        var dot = document.createElement("span");
+        dot.className = "cn-dot" + (i === 0 ? " on" : "");
+        dot.addEventListener("click", function (e) {
+          e.preventDefault();
+          car.scrollTo({ left: i * car.clientWidth, behavior: "smooth" });
+        });
+        dotsWrap.appendChild(dot);
+      });
+    }
+    var dotEls = dotsWrap ? dotsWrap.querySelectorAll(".cn-dot") : [];
+
+    function currentIndex() {
+      return car.clientWidth ? Math.round(car.scrollLeft / car.clientWidth) : 0;
+    }
+    function update() {
+      var idx = currentIndex();
+      dotEls.forEach(function (el, i) { el.classList.toggle("on", i === idx); });
+      if (prevBtn) prevBtn.classList.toggle("is-hidden", idx <= 0);
+      if (nextBtn) nextBtn.classList.toggle("is-hidden", idx >= n - 1);
+    }
+    car.addEventListener("scroll", update, { passive: true });
+
+    if (prevBtn) {
+      prevBtn.addEventListener("click", function () {
+        car.scrollTo({ left: Math.max(0, currentIndex() - 1) * car.clientWidth, behavior: "smooth" });
+      });
+    }
+    if (nextBtn) {
+      nextBtn.addEventListener("click", function () {
+        car.scrollTo({ left: Math.min(n - 1, currentIndex() + 1) * car.clientWidth, behavior: "smooth" });
+      });
+    }
+
+    // 마우스 드래그로 슬라이드 넘기기 (트랙패드/터치 없이도 넘어가도록. 터치는 스크롤 자체가 이미 처리)
+    var dragging = false, moved = false, startX = 0, startScroll = 0;
+    car.addEventListener("mousedown", function (e) {
+      dragging = true; moved = false;
+      startX = e.pageX; startScroll = car.scrollLeft;
+      car.classList.add("is-dragging");
+    });
+    window.addEventListener("mousemove", function (e) {
+      if (!dragging) return;
+      var dx = e.pageX - startX;
+      if (Math.abs(dx) > 4) moved = true;
+      car.scrollLeft = startScroll - dx;
+    });
+    window.addEventListener("mouseup", function () {
+      if (!dragging) return;
+      dragging = false;
+      car.classList.remove("is-dragging");
+      car.scrollTo({ left: currentIndex() * car.clientWidth, behavior: "smooth" });
+    });
+    car.addEventListener("click", function (e) {
+      if (moved) { e.preventDefault(); e.stopPropagation(); }
+    }, true);
+
+    update();
+  });
+})();
