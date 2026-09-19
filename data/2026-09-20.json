@@ -1,0 +1,254 @@
+{
+  "vol": "VOL.01  NO.035",
+  "editor": "HUEY",
+  "counts": { "total": 20, "intl": 15, "kr": 5 },
+  "outlets": ["ArchDaily", "ENR", "designboom", "Construction Dive", "대한건축사협회", "주택폴리오"],
+
+  "teasers": [
+    { "title": "루카스 뮤지엄, LA에 뜨다", "desc": "마옌쑹이 그린 곡선 매스, 9월 22일 개관", "label": "MUSEUM" },
+    { "title": "4조 원대 야구장 도시", "desc": "모트슨·JE던, 캔자스시티 크라운센터 재개발 착수", "label": "MEGAPROJECT" },
+    { "title": "리히터의 회화, 도하에 파빌리온으로 서다", "desc": "셀도프 아키텍츠와 협업한 육각 파빌리온, 11월 20일 개관", "label": "ART" },
+    { "title": "이제선 건축사 'Lantern No.1', 강원건축문화제 대상", "desc": "2026 강원건축문화제 수상작 발표, 시상식은 10월 7일", "label": "AWARDS" }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "마 옌쑹의 곡선이 로스앤젤레스에 내려앉다, '루카스 내러티브 아트 뮤지엄' 개관",
+    "lede_em": "'루카스 내러티브 아트 뮤지엄'",
+    "image": "https://images.adsttc.com/media/images/6915/b4f2/9d4e/bd01/82e4/a73d/large_jpg/lucas-museum-of-narrative-art-by-mad-architects-to-open-in-los-angeles-in-september-2026_9.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "루카스 내러티브 아트 뮤지엄, 익스포지션 파크 항공뷰 ⓒ MAD Architects (via ArchDaily)",
+    "body": [
+      "조지 루카스와 멜로디 홉슨이 세운 '루카스 내러티브 아트 뮤지엄'이 **9월 22일** 로스앤젤레스 익스포지션 파크에서 문을 연다. 마 옌쑹이 이끄는 MAD건축사무소가 스탠텍과 함께 설계했으며, 연면적 **약 2만 8000㎡**(30만 제곱피트) 규모에 곡선으로 흐르는 조형이 특징이다.",
+      "건물은 지상에서 들어 올려진 매스 아래로 그늘진 공공 공간을 만들어, 옛 주차장 부지였던 **11에이커**를 녹지로 되돌린다. 내부에는 **갤러리 35개**(전시 면적 약 9300㎡)와 극장 두 곳, 도서관, 교육 공간, 카페와 레스토랑이 들어선다.",
+      "소장품은 노먼 록웰, 프리다 칼로, 잭 커비 등이 그린 삽화·만화·회화·사진 등 **4만 점 이상**의 내러티브 아트로, 동굴벽화부터 만화·영화까지 시각적 스토리텔링의 역사를 관통한다. 개관에 앞서 회원 프리뷰(9월 5~11일)와 인근 주민 프리뷰(9월 13일), 오프닝 나이트(9월 19일)가 순차로 열렸다.",
+      "수년간 이어진 공사가 마무리되며 익스포지션 파크는 로스앤젤레스 카운티 자연사박물관, 캘리포니아 사이언스센터에 이어 세 번째 대형 문화시설을 갖추게 됐다."
+    ],
+    "source": [
+      { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1036001/lucas-museum-of-narrative-art-by-mad-architects-set-to-open-september-2026-in-los-angeles" }] },
+      { "outlet": "Lucas Museum of Narrative Art", "links": [{ "text": "보도자료", "url": "https://lucasmuseum.org/press/lucas-museum-of-narrative-art-opens-to-the-public-on-september-22-2026" }] }
+    ],
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "불법하도급, 국토부 장관이 직접 처분한다…건설산업기본법 개정",
+    "body": ["국토교통부가 **9월 15일** 국무회의에서 「건설산업기본법」 「새만금사업법」 시행령 일부개정안을 의결했다. 건설현장 내 중대한 불법하도급에 대해 그동안 지방정부만 갖고 있던 행정처분 권한을, 적발주체·하도급 금액·공종·공정률·관할구역 등을 고려해 국토부 장관이 직접 행사할 수 있는 근거를 신설했다."],
+    "facts": [
+      "신설: 중대 불법하도급 **국토부 장관 직접 처분권**",
+      "감경: 자진신고 시 영업정지·과징금 **2분의 1 범위**에서 감경",
+      "시행: 공포 후 **4개월** 경과일부터"
+    ],
+    "body_after": ["함께 의결된 새만금사업법 시행령 개정안은 지역기업 우대 대상에 건설엔지니어링 용역계약을 추가하고, 조성토지 공급방식에 공모형 설계·디자인 평가를 도입하는 내용으로 공포 즉시 시행된다."],
+    "source": { "outlet": "아주경제", "links": [{ "text": "기사", "url": "https://www.ajunews.com/view/20260915111955390" }] },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "美 프로야구 · 메가프로젝트",
+      "title": "다운타운 한복판에 여는 3만 4000석 야구장, 캔자스시티 로열스의 도박",
+      "image": "https://www.enr.com/ext/resources/2026/09/14/Sept.-14-Resized-KC-Stadium.webp",
+      "image_label": "ENR",
+      "body": [
+        "美 메이저리그 캔자스시티 로열스가 다운타운 크라운센터에 새로 지을 야구장과 복합개발지구의 건설사를 확정했다. **모트슨**과 **맥카운고든**의 합작사가 시공관리자(CMAR)로 3만 4000석 규모 개방형 구장(연면적 약 125만 제곱피트)을 맡고, 캔자스시티 지역 건설사 **JE던**이 주변 85에이커 부지의 주거·상업 복합개발을 담당한다.",
+        "모트슨은 라스베이거스 얼리전트 스타디움과 샌프란시스코 체이스센터를 지은 경험이 있고, 102년 역사의 JE던은 도심 개발에 강점을 지닌다. 사업비는 구장과 복합개발을 합쳐 총 **30억 달러**(약 4조 원대) 규모다.",
+        "모트슨 캠퍼스담당 이사 그렉 후버는 \"도심 좁은 부지에 메이저리그 구장을 짓는 일이 가장 흥미로운 과제\"라고 밝혔다. 착공은 내년으로 예정돼 있으며, **2030년** 개막전에 맞춰 완공하는 것이 목표다."
+      ],
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63649-jv-team-chosen-for-kansas-city-royals-3b-ballpark-and-mixed-use-district" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "네덜란드 · 리노베이션",
+      "title": "1923년 아르데코 창고, 마 옌쑹의 손끝에서 로테르담 댄스센터로",
+      "image": "https://images.adsttc.com/media/images/6aa3/1437/237b/e901/8be9/668a/large_jpg/mad-reveals-design-to-transform-1923-warehouse-into-danshuis-in-rotterdam_4.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "MAD건축사무소가 로테르담의 1923년 아르데코 양식 창고를 댄스 전용 시설 '단하위스'로 개조하는 설계안을 공개했다. 연면적 **9500㎡** 규모로, 무용 스튜디오 **14개**와 오픈 무대, 체육관, 전시 공간, 카페가 들어선다.",
+        "옥상에는 대형 공연이 가능한 '살 데 페트'와 강변을 향한 야외 공간이 배치돼, 옛 항만 창고가 도시의 새로운 공연 무대로 탈바꿈한다. 수직으로 뚫린 로비가 모든 층을 연결하며, 인접한 페닉스 박물관과도 시각적으로 이어지도록 설계됐다.",
+        "MAD 측은 \"움직임은 건축을 넘어 지역의 성격 그 자체가 된다\"고 설명했다. 프로젝트는 **2030년** 개관을 목표로 한다."
+      ],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1184920/mad-reveals-design-for-danshuis-dance-center-in-rotterdam" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "인도네시아 · 커뮤니티",
+      "title": "안데사이트 석재와 테라코타 스크린이 감싼 마로스의 3층 커뮤니티 공간",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/ins-studio-Common-Days-local-stone-brick-terracotta-screens-gathering-space-indonesia-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": ["인도네시아 마로스의 신규 상업지구에 INS스튜디오가 설계한 3층 커뮤니티 공간 '커먼 데이즈'가 들어섰다. 1층은 개방형 카페로 사회적 모임의 중심이 되고, 2층은 업무·회의 공간과 이끼벽 테라스, 3층은 인근 부킷 센라나 능선을 조망하는 옥상정원으로 구성됐다. 현지에서 채취한 안데사이트 석재를 바닥과 내벽에, 테라코타 벽돌 천공 스크린을 외피에 적용해 통풍과 채광을 수동적으로 조절한다."],
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/local-stone-brick-terracotta-screens-three-story-gathering-space-indonesia-ins-studio-common-days/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "카타르 도하 · 파빌리온",
+      "title": "게르하르트 리히터의 회화를 품은 육각 파빌리온, 도하에 서다",
+      "image": "https://images.adsttc.com/media/images/6aab/b04c/8d91/7901/8920/4ff9/newsletter/affordable-housing-in-ibiza-and-gerhard-richters-new-pavilion-in-doha-this-weeks-review_9.jpg",
+      "image_label": "ARCHDAILY",
+      "body": ["도하 이슬람미술관 공원에 화가 게르하르트 리히터와 셀도프 아키텍츠가 함께 만든 육각형 파빌리온이 들어선다. 대형 스트립 회화와 바닥부터 천장까지 이어지는 거울, 중앙 스트립 타워, 실외 석조 조각으로 구성돼 회화·건축·조각이 한 공간에서 겹쳐 보이도록 설계됐다. 개관은 **11월 20일**이다."],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1185283/affordable-housing-in-ibiza-and-gerhard-richters-new-pavilion-in-doha-this-weeks-review" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "美 인프라 · 산업동향",
+      "title": "연 1500억 달러 美 발전소 건설 붐, 장비·인력이 발목 잡는다",
+      "image": "https://www.enr.com/ext/resources/2026/09/15/Power-Boom-Mirage.webp",
+      "image_label": "ENR",
+      "body": ["미국 발전소 건설비가 2030년까지 연간 약 **1500억 달러**로 두 배 뛸 전망이지만, 변압기·가스터빈 등 핵심 장비 부족과 송전망 연결 지연, 인력난이 실제 착공 속도를 좌우할 것이라는 분석이 나왔다. 변압기 납기는 최장 128주까지 늘었고 가스터빈은 5~7년이 걸린다. 리서치업체 모카시스템즈는 2030년까지 누적 **6910억 달러** 규모 발전 설비 건설을 전망하면서도, 데이터센터향 12~16GW가 2026년 납기로 예정된 반면 현재 착공 물량은 약 5GW에 그친다고 지적했다."],
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63655-the-150-billion-power-boom-has-a-reality-problem" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "美 인프라 · 지하철",
+      "title": "697억 달러 2번가 지하철 연장, 마지막 공구 입찰 개시",
+      "image": "https://imgproxy.divecdn.com/kgnmUzrSeNt7LdCAkkyGMis-3664Eileu9FDVZ5qbjs/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjM4Nzc5Nzc1LmpwZw==.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": ["뉴욕 MTA가 **697억 달러** 규모 2번가 지하철 연장사업의 마지막 대형 공사계약에 대한 사전자격심사(RFQ)를 발표했다. 이스트할렘에 106·116·125번가 등 **Q선 신규 역 3곳**을 추가하는 공사로, 역 입구 캐노피와 승강장, 부속건물 6곳, 궤도·전력 설비 설치가 포함된다. MTA는 연말까지 적격 업체에 제안요청서(RFP)를 발행해 2027년 중반 계약자를 선정할 계획이며, 착공은 2027년, 완공은 **2032년 가을** 목표다."],
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/mta-rfq-final-contract-second-avenue-subway-extension-nyc/830704/" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 전시",
+      "title": "설립 30주년 KOMA건축사사무소, '환대'로 그간의 여정을 열다",
+      "image": "https://cdn.ancnews.kr/news/photo/202609/21115_23894_316.jpg",
+      "image_label": "대한건축사협회",
+      "body": ["KOMA건축사사무소가 설립 30주년을 맞아 **10월 9일부터 11월 1일**까지 서울 종로구 새문안 아트갤러리에서 '이은석의 환대(HOSPITALITY): 열린건축을 향하여'전을 연다. 1995년 LA 국제공모 한미예술문화회관(KOMA) 프로젝트부터 현재까지 30년 건축 여정을 10개 주제로 조명한다.", "교회건축·문화시설·주거건축 등 다양한 작업을 '열린 건축, 열린 가치' 개념으로 묶었으며, 이은석 교수가 10월 10일과 24일 직접 전시를 해설한다."],
+      "source": { "outlet": "대한건축사협회", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21115" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "수상 · 강원",
+      "title": "2026 강원건축문화제, 이제선 건축사 'Lantern No.1' 대상",
+      "image": "https://cdn.ancnews.kr/news/photo/202609/21108_23885_533.png",
+      "image_label": "대한건축사협회",
+      "body": ["강원특별자치도건축사회가 2026 강원건축문화제 수상작을 발표했다. 건축문화상 전부문 대상은 스튜디오더원 이제선 건축사의 'Lantern No.1'이, 학생 부문 대상은 가톨릭관동대 한현욱 외 2인 팀이 받았다. 어린이집그리기 대상은 춘천 성림초 4학년 이윤솔 학생이 차지했다.", "시상식은 **10월 7일** 횡성문화예술회관 대공연장에서 열리는 강원건축문화제 개막식과 함께 진행되며, 수상작은 10월 7일부터 11일까지 횡성복합아트센터에 전시된다."],
+      "source": { "outlet": "대한건축사협회", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21108" }] },
+      "topic": "수상"
+    },
+    {
+      "kicker": "설계공모 · 대구",
+      "title": "대구 경북고등학교 공간 재구조화 설계공모, 공사비 84.7억원",
+      "body": ["대구 수성구 경북고등학교 공간 재구조화 사업 설계공모가 공고됐다. 연면적 **1만 1835㎡** 규모로 공사비는 **84억 7000만원**, 설계비는 2억 1000만원이다.", "참가등록 마감은 **9월 29일**, 결과 발표는 10월 28일이며 심사위원 7인이 심사를 맡는다."],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "공고", "url": "https://jootek.com/folio/contests/18916" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경남 사천",
+      "title": "사천 문선초등학교 그린스마트 미래학교 공간재구조화 설계공모, 공사비 140억원",
+      "body": ["경남 사천시 문선초등학교 개축을 위한 '그린스마트 미래학교' 공간재구조화사업 설계공모가 나왔다. 연면적 **3699㎡**에 공사비 **140억원**, 설계비 6억 7000만원 규모로, 심사위원 9인이 참여하는 일반 설계공모 방식이다.", "참가등록 마감은 **9월 28일**이며, 결과는 12월 2일 이내 발표될 예정이다."],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "공고", "url": "https://jootek.com/folio/contests/18914" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 제도",
+      "title": "12년 만에 다시 여는 '특정건축물 정리법', 적용 범위 넓힌다",
+      "body": ["1980년 첫 시행 이후 12년 만에 재정비된 '특정건축물 정리법'이 **12월** 시행을 앞두고 있다. 다가구주택 적용 규모를 660㎡로 확대하고, 근린생활시설을 주거 용도로 쓰는 부분까지 정리 대상에 포함시켜 법과 현실의 괴리를 줄이는 게 목표다.", "다만 단순 양성화에 그쳐서는 안 된다는 지적도 나온다. 생계형 소규모 위반과 수익 목적의 불법 증축을 구분하고 신규 위반에는 엄격히 법을 적용해야 하며, 건축물 매매 시 건축사가 위법 여부를 확인하는 절차를 두자는 제안도 함께 나왔다."],
+      "source": { "outlet": "대한건축사협회", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21107" }] },
+      "topic": "제도규제"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "볼류메트릭 빌딩, 美 합동기지에 모듈러 병영 3000세대 공급",
+      "body": "샌안토니오 합동기지에 모듈형 군인숙소 3000세대를 짓는 10억 달러 규모 계약을 체결했다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/punch-list-bobblehead-museum-turner-stadium-modular/830755/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "스탠텍 차기 CEO, \"북극·핵심광물이 다음 성장동력\"",
+      "body": "수전 라이스보드 신임 CEO가 노라드 현대화와 캐나다 북방 방위 프로젝트 참여 확대를 시사했다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63669-incoming-stantec-ceo-sees-tailwinds-for-firm-in-arctic-critical-minerals-work" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "콘서터스, 캘리포니아 S2엔지니어링 인수",
+      "body": "인프라 서비스 확장을 위한 인수로, 랜초쿠카몽가 소속 직원 약 20명은 그대로 유지된다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63671-consertus-expands-california-footprint-with-buy-of-s2-engineering" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "사우디 아람코, 동서 송유관 손상 구간 우회공사 착수",
+      "body": "핵심 원유 수송관 손상 구간에 대한 우회 시공이 진행 중이다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63668-saudi-aramco-works-to-bypass-damage-on-critical-east-west-oil-pipeline" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "화이팅터너, 시애틀 해안경비대 기지 1억 7400만 달러 공사 수주",
+      "body": "시애틀 소재 해안경비대 기지 개선사업의 시공 계약을 체결했다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/coast-guard-whiting-turner-base-seattle-upgrade/830709/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "STV, 캘리포니아 전력엔지니어링사 챔스 인수",
+      "body": "전력 부문 신사업 확장을 위해 챔스 인크를 인수했다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63663-stv-snaps-up-california-power-engineer-champs-inc-in-new-business-line-expansion" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "\"협력과 소통이 메가프로젝트 성패 가른다\"…뉴욕 교통 인프라 수장들 한목소리",
+      "body": "뉴욕권 교통 인프라 책임자들이 대형 프로젝트 성공 조건으로 기관 간 협업과 주민 소통을 꼽았다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63670-ny-area-transportation-titans-say-collaboration-engaged-communities-unlock-megaprojects" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "lucas-museum-narrative-art-mad",
+      "tag": "MUSEUM",
+      "title": "마옌쑹이 그린 루카스 뮤지엄, LA에 뜨다",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "lucas museum of narrative art los angeles",
+      "slides": [
+        { "heading": "루카스 뮤지엄,\nLA에 내려앉다", "body": "마옌쑹이 그린 곡선 매스, 9월 22일 익스포지션 파크서 개관" },
+        { "heading": "WHAT", "body": "조지 루카스와 멜로디 홉슨이 세운 '루카스 내러티브 아트 뮤지엄'. MAD건축사무소와 스탠텍이 함께 설계했다." },
+        { "heading": "SCALE", "body": "연면적 약 2만 8000㎡, 갤러리 35개(전시 면적 9300㎡)에 극장 두 곳과 도서관, 교육 공간을 갖췄다." },
+        { "heading": "COLLECTION", "body": "노먼 록웰, 프리다 칼로, 잭 커비 등 4만 점이 넘는 삽화·만화·회화가 소장품으로 걸린다." },
+        { "heading": "SITE", "body": "옛 주차장이던 11에이커 부지는 녹지로 바뀌어 익스포지션 파크와 이어진다." },
+        { "heading": "TIMELINE", "body": "9월 5~11일 회원 프리뷰, 13일 주민 프리뷰, 19일 오프닝 나이트를 거쳐 22일 일반 공개된다." }
+      ]
+    },
+    {
+      "slug": "illegal-subcontract-crackdown-2026",
+      "tag": "REGULATION",
+      "title": "불법하도급, 국토부 장관이 직접 처분한다",
+      "ref": { "section": "side" },
+      "bg": 1,
+      "photo_query": "construction site workers rebar",
+      "slides": [
+        { "heading": "불법하도급\n국토부가 직접 처분한다", "body": "건설산업기본법 시행령 개정안, 9월 15일 국무회의 의결" },
+        { "heading": "WHAT", "body": "중대한 불법하도급에 대해 국토부 장관이 직접 행정처분할 수 있는 권한이 신설됐다." },
+        { "heading": "BEFORE", "body": "그동안은 지방정부만 불법하도급 처분 권한을 갖고 있었다." },
+        { "heading": "CRITERIA", "body": "적발주체·하도급 금액·공종·공정률·관할구역 등을 고려해 국토부가 직접 처분할 사안을 정한다." },
+        { "heading": "INCENTIVE", "body": "자진신고자는 영업정지·과징금을 2분의 1 범위에서 감경받을 수 있다." },
+        { "heading": "WHEN", "body": "공포 후 4개월이 지난 날부터 시행된다." }
+      ]
+    },
+    {
+      "slug": "kansas-city-royals-ballpark-crown-center",
+      "tag": "MEGAPROJECT",
+      "title": "4조 원대 야구장 도시, 캔자스시티에 선다",
+      "ref": { "section": "intl_feature", "index": 0 },
+      "bg": 2,
+      "photo_query": "baseball stadium construction",
+      "slides": [
+        { "heading": "4조 원대 야구장 도시\n캔자스시티에 선다", "body": "로열스 새 구장 건설사 확정, 2030시즌 개막 목표" },
+        { "heading": "WHAT", "body": "모트슨·맥카운고든 합작사가 3만 4000석 규모 신축 구장을, JE던이 주변 85에이커 복합개발을 맡는다." },
+        { "heading": "SCALE", "body": "구장 면적만 125만 제곱피트, 구장과 복합개발을 합친 사업비는 30억 달러(약 4조 원대)에 이른다." },
+        { "heading": "LOCATION", "body": "다운타운 크라운센터 부지에 들어서며, 도심 한복판의 좁은 대지가 가장 큰 설계 과제로 꼽힌다." },
+        { "heading": "TIMELINE", "body": "내년 착공해 2030년 메이저리그 개막에 맞춰 완공할 계획이다." }
+      ]
+    }
+  ]
+}
