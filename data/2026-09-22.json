@@ -1,0 +1,233 @@
+{
+  "vol": "VOL.01  NO.037",
+  "editor": "HUEY",
+  "counts": { "total": 18, "intl": 14, "kr": 4 },
+  "outlets": ["Dezeen", "ArchDaily", "Archinect", "designboom", "ENR", "Construction Dive", "건축사신문", "건축사뉴스", "주택폴리오"],
+
+  "teasers": [
+    { "title": "152개국 압축한 '2026 데젠 어워즈'", "desc": "36개국 152개 프로젝트, 건축 부문 최종 후보 공개", "label": "AWARDS" },
+    { "title": "1962년 틀, 이제는 갈아엎는다", "desc": "건축법 전부개정, \"조문 손질 아닌 체계 재설계부터\"", "label": "REGULATION" },
+    { "title": "인우드에 뜬 '보라색 극장'", "desc": "WORKac, 맨해튼 이민자문화센터 '피플스씨어터' 완공", "label": "CULTURE" },
+    { "title": "포틀랜드 강변공원, 3파전 압축", "desc": "BIG·SWA·스튜디오 에그렛 웨스트, 최종 3팀 선정", "label": "COMPETITION" }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 시상",
+    "lede": "36개국 152개 프로젝트, 2026 데젠 어워즈 건축 부문 최종 후보 공개",
+    "lede_em": "36개국 152개 프로젝트",
+    "image": "https://static.dezeen.com/uploads/2025/05/al-mujadilah-centre-and-mosque-diller-scofidio-renfro-hero_dezeen_2364_col_0-852x479.jpg",
+    "image_label": "DEZEEN",
+    "caption": "딜러 스코피디오+렌프로가 설계한 카타르 알무자딜라 센터·모스크 ⓒ Dezeen",
+    "body": [
+      "영국 건축매체 데젠이 '2026 데젠 어워즈' 건축 부문 최종 후보를 발표했다. **19개** 세부 카테고리에 걸쳐 **36개국**에서 온 **152개** 프로젝트가 이름을 올렸다. 심사는 애나벨 셀도프, 다니엘 리베스킨트, 마 옌쑹, 아만다 레베트, 노먼 포스터 등 건축계 거장들이 맡았다.",
+      "후보작 면면도 다양하다. 영국에서는 다지지 않은 흙(unstabilised rammed earth) 벽체로 지은 컨트리하우스가, 우크라이나에서는 유리벽과 초가지붕을 두른 게스트하우스 3동이 이름을 올렸다. 카타르에서는 딜러 스코피디오+렌프로가 설계한 돌마감 스틸 구조에 담요를 닮은 천공 지붕을 얹은 모스크가, 일본에서는 '숨 쉬는' 금속 차양으로 전통 마치야 주거를 재해석한 오피스가 후보에 들었다. 인도에서는 계단식 우물(stepped well)을 본뜬 벽돌 클래딩의 대학 건물도 눈에 띈다.",
+      "최종 수상작은 **11월 16일** 런던 로열오페라하우스에서 열리는 시상식에서 발표된다. 데젠 어워즈는 건축·실내·디자인 3개 부문으로 나뉘어 매년 전 세계 프로젝트를 심사해왔다.",
+      "이번 후보 명단은 팬데믹 이후 재편된 국제 건축 시장의 축소판이라는 평가도 나온다. 유럽·아시아·중동·아프리카를 아우르는 지역 분포와 소규모 실험작부터 대형 문화시설까지 포괄하는 스케일 다양성이 특징이다."
+    ],
+    "source": { "outlet": "Dezeen", "links": [{ "text": "기사", "url": "https://www.dezeen.com/2026/09/21/dezeen-awards-2026-architecture-shortlist/" }] },
+    "topic": "수상"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "1962년 틀, 이제는 갈아엎는다…건축법 전부개정, \"체계 재설계부터\"",
+    "body": ["건축공간연구원(AURI) 한창섭 원장이 건축법 전부개정 방향에 대해 개별 조문 손질이 아닌 법 전체의 체계·구조 재설계부터 시작해야 한다고 제언했다. 1962년 제정된 건축법이 수십 차례 개정을 거치며 절차 규정과 실체적 기준이 뒤섞이고, 관련 규정이 여러 장에 흩어져 있으며, 실제 건축 공정과 조문 배열이 어긋나는 등 체계성이 떨어졌다는 진단이다."],
+    "facts": [
+      "현행: **1962년** 제정 이후 수십 차례 개정",
+      "문제: 절차·실체 규정 혼재, 공정과 조문 배열 불일치",
+      "제안: **절차·계획·안전피난·설비스마트·공간활성화** 5개 장 재편"
+    ],
+    "body_after": ["한 원장은 영국·일본·독일·프랑스 등 주요국이 공통적으로 규제 기능별로 건축 법제를 조직하고 있다는 점을 근거로 들며, 국내 건축법도 기능 중심의 장 구성으로 다시 짜야 한다고 밝혔다. 이번 제언은 국토교통부가 추진 중인 건축법 전부개정 논의에 앞서 나온 것으로, 향후 입법 방향에 영향을 줄 수 있어 업계가 주시하고 있다."],
+    "source": { "outlet": "건축사신문", "links": [{ "text": "특별기고", "url": "https://ancnews.kr/news/articleView.html?idxno=21141" }] },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "美 뉴욕 · 문화시설",
+      "title": "인우드에 뜬 '보라색 극장', WORKac이 완성한 이민자문화센터",
+      "image": "https://archinect.gumlet.io/uploads/50/50b2b94ee341e577f8f86d9dafd11edd.jpg",
+      "image_label": "ARCHINECT",
+      "body": [
+        "뉴욕 맨해튼 인우드 지역에 WORKac이 설계한 '더 피플스씨어터: 센트로 쿨투랄 이민란테'가 문을 열었다. 주거동 '더 미라마르'(설계 바이어 블라인더 벨)의 저층부와 지하층에 들어선 연면적 **1만 9000제곱피트** 규모 공연예술시설로, 극장·음향 컨설팅은 차콜블루가 맡았다.",
+        "메인 극장은 좌석 배치를 25가지로 바꿀 수 있어 **99~208석** 규모를 오가며, 별도 스튜디오 5개를 갖췄다. 이 중 4개는 웨스트206번가 쪽 통유리 파사드에 면해 있어, 지나가는 행인에게 내부 활동이 그대로 드러난다. 층고 차를 해결하는 경사로 '램퍼토리엄'은 40명이 걸터앉을 수 있는 비정형 관람석 역할도 겸한다.",
+        "메인 오디토리엄은 '박스 인 박스' 방식으로 방음을 확보했고, 블랙박스형 극장의 관습을 벗어나 짙은 자주·보라색 마감과 알록달록한 패턴 타일을 곳곳에 썼다. 로비에는 도미니카계 미국인 작가 셰레자드 가르시아의 벽화 '리퀴드 하이웨이'가 걸렸다."
+      ],
+      "source": { "outlet": "Archinect", "links": [{ "text": "기사", "url": "https://archinect.com/news/article/150566601/workac-completes-the-people-s-theatre-in-manhattan-with-vibrant-interior-colors" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "대만 가오슝 · 항만시설",
+      "title": "크루즈터미널·오피스·공공공간을 하나로, RUR의 가오슝 항구",
+      "image": "https://images.adsttc.com/media/images/6aad/8575/066f/0900/0145/7718/large_jpg/Kaohsiung_Port_Terminal_RUR_4693.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "제시 라이저·나나코 우메모토가 이끄는 RUR 아키텍처가 설계한 '가오슝 항 터미널'이 대만 링중촌에 준공됐다. 연면적 **3만 6880㎡** 규모로, 크루즈선 터미널과 오피스타워, 공공공간의 용도를 하나로 엮어 도시와 바다의 경계를 기념하는 복합 인프라로 완성했다.",
+        "유리를 전면에 내세운 매스는 항만이라는 산업적 성격과 시민에게 열린 공공공간의 성격을 동시에 담아낸다. 2023년 완공된 뒤 최근 상세 이미지가 공개됐다."
+      ],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1185397/kaohsiung-port-terminal-rur-architecture-dpc" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "美 포틀랜드 · 설계공모",
+      "title": "포틀랜드 강변공원 설계공모, 3파전으로 압축",
+      "image": "https://archinect.gumlet.io/uploads/kv/kvbaoon4ivz2qyge.jpg?fit=crop&auto=compress&format=&enlarge=true&w=514",
+      "image_label": "ARCHINECT",
+      "body": ["오리건주 포틀랜드 '거버너 톰 매콜 워터프런트 파크' 재설계 공모가 응모작 **50개** 중 최종 3팀으로 좁혀졌다. BIG(제니퍼 보너·MALL과 협업), 스튜디오 에그렛 웨스트(웨스트 오브 웨스트), SWA그룹(PLACE·토머스 파이퍼앤파트너스)이 결선에 올랐다. 다운타운 **30에이커** 부지를 대상으로 강 접근성·생태 복원·포용적 공공공간을 겨루며, 2027년 초 시민 공개를 거쳐 봄에 최종안이 발표된다."],
+      "source": { "outlet": "Archinect", "links": [{ "text": "기사", "url": "https://archinect.com/news/bustler/11136/big-swa-group-studio-egret-west-among-finalists-in-portland-waterfront-park-design-competition" }] },
+      "topic": "수상"
+    },
+    {
+      "kicker": "아르헨티나 부에노스아이레스 · 주택",
+      "title": "옛 '박스 하우스'를 다시 연 파르케 차스의 벽돌집",
+      "image": "https://images.adsttc.com/media/images/6ab1/8679/c765/2000/0134/7162/large_jpg/Copia_de_08_La_Haya__PH_Tipo_Casa_-___Federico_Cairoli.jpg",
+      "image_label": "ARCHDAILY",
+      "body": ["PH티포카사(마르셀로 사소)가 부에노스아이레스 파르케 차스 지구의 전통 '카사 카혼'(상자형 주택)을 리모델링했다. 거의 정방형인 대지 위에 벽돌·콘크리트·목재·유리를 조합해 **232㎡** 규모로 새로 짰다. 2000년대 한 차례 개조됐던 집을 다시 오늘의 생활에 맞게 고쳤다."],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1185519/la-haya-house-ph-tipo-casa" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프랑스 알프스 · 설치작품",
+      "title": "나무 종 1000개가 만든 '숲의 악기', 프랑스 알프스에 서다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/bruit-bois-sound-wood-france-aunave-peyrot-steenhaut-loviton-festival-cabanes-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": ["프랑스 몽펠리에건축대학(ENSA) 학생 4인(앙투안 오나브·플로라 페요·마틸드 스텐오·뤼크 로비통)이 안시호 위 알프스 산자락에 '르 브뤼 뒤 부아'(나무의 소리)를 세웠다. **15㎡** 규모 목구조에 폭 **4cm** 각재를 반복해 뼈대를 짜고, 길이가 제각각인 나무 종 약 **1000개**를 매달아 두드리거나 바람에 흔들리며 소리를 내는 '연주 가능한 정자'로 완성했다. 2026 페스티벌 데 카반 공모(약 200팀 응모)에서 선정됐다."],
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/1000-wooden-chimes-bruit-bois-alpine-instrument-sound-music-festival-cabanes-france/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "일본 오키나와 · 단독주택",
+      "title": "콘크리트 벽·기둥을 겹겹이, 방을 지운 오키나와 주택",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/igarchitects-overlapping-spaces-house-okinawa-concrete-walls-columns-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": ["일본 건축가 이가라시 마사토(IG아키텍츠)가 오키나와에 지은 주택은 콘크리트 벽과 기둥, 커다란 지붕을 겹겹이 배치해 실내외 경계가 흐려지는 연속된 공간을 만들었다. 정해진 방을 나열하는 대신, 다양한 활동과 생활 방식을 담을 수 있는 유연한 틀로 설계됐다."],
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/overlapping-concrete-walls-columns-inside-outside-okinawa-house-igarchitects/" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "건축도면 1억 4800만 장, AI 학습 데이터로 쓰려면…국회서 저작권 해법 논의",
+      "body": ["국회의원 복기왕·이정문 의원실이 공동주최하고 대한건축사협회·건축공간연구원이 주관한 정책포럼이 **9월 14일** 국회도서관에서 열렸다. 세움터에 쌓인 건축도면 약 **1억 4800만 장**(스캔 이미지 약 60%, CAD 기반 벡터데이터 약 40%)을 AI 학습에 활용하면서도 저작권을 보호할 방법을 논의했다.", "발제자들은 도면을 핵심·기초·상세 3단계로 나누고 이용 단계를 9단계로 세분화해, 음원 플랫폼처럼 저작권을 자동 정산하는 통합 관리 체계를 제안했다. 다만 AI 학습에 도면이 쓰였는지 입증하는 문제는 여전히 과제로 남았다."],
+      "source": { "outlet": "건축사뉴스", "links": [{ "text": "기사", "url": "https://a-news.kr/news/articleView.html?idxno=13933" }] },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 부산 부산진",
+      "title": "개금여자중학교 다목적강당 증축 설계공모, 공사비 53.2억원",
+      "body": ["부산시교육청이 부산진구 당감동 개금여자중학교 다목적강당증축 일반 설계공모를 공고했다. 연면적 **1028㎡** 규모로, 예정 공사비는 **53억 2000만원**, 설계비는 2억 1000만원이다.", "참가등록 마감은 **10월 2일**, 작품 제출 마감은 **12월 14일**이며 심사위원 6인이 참여한다."],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "공고", "url": "https://jootek.com/folio/contests/18922" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 강원 횡성",
+      "title": "횡성 스마트 건강문화센터 설계공모, 공사비 124억원",
+      "body": ["강원 횡성군이 우천면 행정복지센터 부지에 지을 '스마트 건강문화센터' 설계 제안공모를 냈다. 연면적 **2480㎡** 규모로, 예정 공사비는 **124억원**(㎡당 500만원), 설계비는 6억 1000만원이다.", "참가등록 마감은 **9월 28일**이며, 심사위원 9인이 참여해 **11월 4일**까지 결과를 발표할 예정이다."],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "공고", "url": "https://jootek.com/folio/contests/18923" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 부산 동래",
+      "title": "온천중학교 다목적강당·급식실 증축 설계공모, 공사비 90.6억원",
+      "body": ["부산시교육청이 동래구 온천중학교 다목적강당 및 급식실 증축사업 일반 설계공모를 공고했다. 연면적 **2112㎡** 규모로, 예정 공사비는 **90억 6000만원**, 설계비는 3억 6000만원이다.", "참가등록 마감은 **10월 2일**, 작품 제출 마감은 **12월 21일**이며 심사위원 10인이 참여한다."],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "공고", "url": "https://jootek.com/folio/contests/18921" }] },
+      "topic": "설계공모"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "한미글로벌, 美 인디애나 SK하이닉스 AI메모리 공장 CM 수주",
+      "body": "40억 달러 규모 HBM 패키징·테스트 공장으로, 2028년 클린룸 완공을 목표로 공사가 한창이다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63680-construction-manager-chosen-for-4b-ai-memory-plant-in-indiana" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 데이터센터 전력비용, 누가 낼까…의회가 들여다본다",
+      "body": "데이터센터발 전력 수요 급증에 따른 인프라 비용 분담 문제를 놓고 연방 입법 논의가 시작됐다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63679-congress-takes-aim-at-who-pays-for-data-center-power-construction" }] },
+      "topic": "제도규제"
+    },
+    {
+      "title": "美 8월 착공 25%↓, 메가프로젝트도 주춤",
+      "body": "8월 한 달 착공 건수가 큰 폭으로 줄었지만, 올해 누적 실적은 작년 동기보다는 여전히 높다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/construction-groundbreakings-plunge-August-2026/830940/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "서울건축사회, 민간 건축 플랫폼 '지음터' 설명회",
+      "body": "10월 정식 출범을 앞두고 건축주·건축사를 잇는 신뢰 기반 플랫폼의 운영 방식을 설명했다.",
+      "source": { "outlet": "건축사신문", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21139" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "대한건설협회, 건설산업 80주년 기념사업 추진",
+      "body": "건설산업연합회가 창립 80주년을 맞아 기념사업추진위원회를 열고 사업 계획을 논의했다.",
+      "source": { "outlet": "대한건설협회", "links": [{ "text": "보도자료", "url": "https://cak.or.kr/lay1/bbs/S1T9C12/A/2/list.do" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "대한건축사협회, 법무법인 성현과 법률서비스 업무협약",
+      "body": "회원 대상 건축 관련 법률·계약 자문, 분쟁 예방 서비스를 제공하는 업무협약을 체결했다.",
+      "source": { "outlet": "건축사신문", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21147" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "dezeen-awards-2026-architecture-shortlist",
+      "tag": "AWARDS",
+      "title": "152개국 압축한 '2026 데젠 어워즈'",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "modern architecture geometric facade detail abstract",
+      "slides": [
+        { "heading": "36개국 152개 프로젝트\n2026 데젠 어워즈 후보", "body": "건축 부문 최종 후보 공개, 심사는 리베스킨드·마 옌쑹·포스터" },
+        { "heading": "WHAT", "body": "데젠 어워즈 건축 부문 최종 후보로 36개국에서 온 152개 프로젝트가 선정됐다." },
+        { "heading": "SCALE", "body": "19개 세부 카테고리에 걸쳐 심사가 진행되며, 유럽·아시아·중동·아프리카를 아우른다." },
+        { "heading": "PICK", "body": "카타르의 천공 지붕 모스크, 우크라이나의 초가지붕 게스트하우스 등 다양한 스케일의 작업이 이름을 올렸다." },
+        { "heading": "JURY", "body": "애나벨 셀도프, 다니엘 리베스킨트, 마 옌쑹, 아만다 레베트, 노먼 포스터가 심사를 맡았다." },
+        { "heading": "WHEN", "body": "최종 수상작은 11월 16일 런던 로열오페라하우스 시상식에서 발표된다." }
+      ]
+    },
+    {
+      "slug": "building-act-full-revision-korea",
+      "tag": "REGULATION",
+      "title": "1962년 틀, 이제는 갈아엎는다",
+      "ref": { "section": "side" },
+      "bg": 1,
+      "photo_query": "government building columns architecture",
+      "slides": [
+        { "heading": "1962년 틀,\n이제는 갈아엎는다", "body": "건축법 전부개정, \"조문 손질 아닌 체계 재설계부터\"" },
+        { "heading": "WHAT", "body": "건축공간연구원 한창섭 원장이 건축법 전부개정은 체계·구조 재설계부터 시작해야 한다고 제언했다." },
+        { "heading": "PROBLEM", "body": "1962년 제정 이후 수십 차례 개정을 거치며 절차·실체 규정이 뒤섞이고 조문 배열이 실제 공정과 어긋났다." },
+        { "heading": "PROPOSAL", "body": "절차·계획·안전피난·설비스마트·공간활성화 등 기능별 5개 장으로 법 체계를 재편하자고 제안했다." },
+        { "heading": "REFERENCE", "body": "영국·일본·독일·프랑스 등 주요국은 이미 규제 기능별로 건축 법제를 조직하고 있다." },
+        { "heading": "WHY IT MATTERS", "body": "국토교통부의 건축법 전부개정 논의에 앞서 나온 제언으로, 향후 입법 방향에 영향을 줄 수 있다." }
+      ]
+    },
+    {
+      "slug": "portland-waterfront-park-finalists",
+      "tag": "COMPETITION",
+      "title": "포틀랜드 강변공원, 3파전 압축",
+      "ref": { "section": "intl_grid", "index": 0 },
+      "bg": 2,
+      "photo_query": "portland oregon waterfront",
+      "slides": [
+        { "heading": "포틀랜드 강변공원\n3파전으로 압축", "body": "BIG·SWA그룹·스튜디오 에그렛 웨스트, 최종 3팀 선정" },
+        { "heading": "WHAT", "body": "거버너 톰 매콜 워터프런트 파크 재설계 공모가 응모작 50개 중 최종 3팀으로 좁혀졌다." },
+        { "heading": "TEAMS", "body": "BIG(제니퍼 보너·MALL), 스튜디오 에그렛 웨스트(웨스트 오브 웨스트), SWA그룹(PLACE·토머스 파이퍼앤파트너스)이 결선에 올랐다." },
+        { "heading": "SCALE", "body": "다운타운 30에이커 부지를 대상으로 강 접근성, 생태 복원, 포용적 공공공간 조성을 겨룬다." },
+        { "heading": "WHEN", "body": "2027년 초 시민 공개를 거쳐 봄에 최종 당선작이 발표될 예정이다." }
+      ]
+    }
+  ]
+}
