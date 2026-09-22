@@ -1,0 +1,245 @@
+{
+  "vol": "VOL.01  NO.038",
+  "editor": "HUEY",
+  "counts": { "total": 20, "intl": 15, "kr": 5 },
+  "outlets": ["Archinect", "ArchDaily", "designboom", "ENR", "Construction Dive", "건축사신문", "주택폴리오"],
+
+  "teasers": [
+    { "title": "40년 만에 손보는 '저드의 창고'", "desc": "치나티재단, 도널드 저드 마파 포병창고 복원 착수", "label": "HERITAGE" },
+    { "title": "다세대·다가구, 44년 만의 규제완화", "desc": "바닥면적 660→1,000㎡, 다가구 4층까지 허용", "label": "REGULATION" },
+    { "title": "배터시 발전소에 뜬 애플의 무대", "desc": "600석 규모 라이브홀 겸 프로덕션 스튜디오 완공", "label": "CULTURE" },
+    { "title": "마감 이틀 전, 설계공모가 사라졌다", "desc": "인천 남동구청 돌연 취소·재공고에 건축사 업계 반발", "label": "CONTROVERSY" }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 재난유산",
+    "lede": "40년 노출 딛고, 도널드 저드의 마파 포병창고 복원에 나선 치나티재단",
+    "lede_em": "도널드 저드의 마파 포병창고",
+    "image": "https://archinect.gumlet.io/uploads/bb/bb4c2acbaeade2a3802d03c9e20aec69.jpg",
+    "image_label": "ARCHINECT",
+    "caption": "텍사스 마파의 옛 포병창고 외관. 도널드 저드가 1980년대 개조해 미니멀리즘 설치작품을 영구 전시해왔다 ⓒ Archinect",
+    "body": [
+      "미국 텍사스 마파의 치나티재단이 도널드 저드가 1980년대 개조한 옛 포병창고 두 동의 복원에 들어간다고 밝혔다. 이 건물은 **1939년** 미 육군공병대가 포트 D.A. 러셀의 일부로 지은 군 시설이었으나, 저드가 사들여 **1982~1986년** 제작한 대표작 '밀 알루미늄으로 만든 100개의 무제 작품'을 영구 설치하는 공간으로 바꿔놓았다. 40년 넘게 외부에 노출되며 지붕·외벽 등의 손상이 누적돼 본격적인 복원이 필요해졌다.",
+      "복원 범위는 지붕·홈통·외벽 보수를 비롯해 저에너지 환기·냉난방 시스템 도입, 태양광 발전 설비, 빗물 수확 체계 구축까지 아우른다. 건물 접근성을 높이기 위한 장애인 편의 통로도 새로 낸다. 특히 창호 유리 교체 면적이 **1만 제곱피트**를 넘는 대규모 공사다.",
+      "복원 설계는 휴스턴 기반 스컴 아키텍츠(트로이 스컴 대표)가 맡았고, 구조 엔지니어링은 TYLin, 조경은 뎁트(Dept. LLC, 짐 마르티네즈 협업)가 참여한다. 공사 기간 중에는 알루미늄 작품 전체를 임시로 옮겨 보존 상태를 분석한 뒤 재설치하는 절차를 거친다.",
+      "치나티재단은 저드가 생전 마파에 조성한 미니멀리즘 예술 단지로, 오늘날 전 세계 미술 순례자들이 찾는 사막 속 예술 도시로 마파를 바꿔놓은 상징적 장소다. 40여 년이 지난 지금 그 유산을 물리적으로 지켜내는 작업이 본격화된 셈이다."
+    ],
+    "source": { "outlet": "Archinect", "links": [{ "text": "기사", "url": "https://archinect.com/news/article/150566888/donald-judd-s-marfa-artillery-sheds-will-be-restored" }] },
+    "topic": "재난유산"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "44년 만에 넓어진 다세대·다가구, 바닥면적 660→1,000㎡로",
+    "body": ["건축법 시행령 개정안이 다세대·다가구주택 규제를 대폭 완화한다. 비아파트 공급을 늘리기 위한 조치로, 대한건축사협회가 지속적으로 건의해온 '건축 양극화 해소' 요구가 구체화된 결과다."],
+    "facts": [
+      "기존: 다세대·다가구 바닥면적 **660㎡ 이하**",
+      "개정: 바닥면적 **1,000㎡ 미만**으로 확대, 다가구 층수 **3층→4층** 허용",
+      "부가: 주민공동시설, 용적률 산정에서 제외 가능"
+    ],
+    "body_after": ["바닥면적 기준이 상향된 것은 **44년** 만이다. 협회는 이번 개정에 이어 주차장 설치기준 완화도 함께 추진 중이라고 밝혔다."],
+    "source": { "outlet": "건축사신문", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21148" }] },
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "英 런던 · 문화시설",
+      "title": "배터시 발전소에 뜬 애플의 무대, 600석 라이브홀 겸 프로덕션 스튜디오",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/apple-music-venue-london-battersea-power-station-designboom-4-copy-2.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "애플이 런던 템스강변의 배터시 발전소 안에 라이브 공연장 겸 종합 미디어 제작시설을 열었다. **600명**을 수용하며 폭 **38피트**의 무대는 정면형 공연 배치와 객석이 무대를 둘러싸는 인더라운드 방식을 오갈 수 있다. **48개** 스피커로 구성된 공간음향 시스템이 객석을 감싼다.",
+        "녹음·믹싱 스튜디오 2곳을 갖춰 멀티트랙 레코딩이 가능하고, 카메라 **16대** 이상을 상시 연결할 수 있는 방송 인프라와 별도 방송 제어실도 마련했다. 한 번의 공연이 그대로 완성된 음원, 방송용 믹스, 다카메라 영상으로 동시에 만들어져 애플의 플랫폼을 통해 전 세계로 송출될 수 있는 구조다. 발전소 특유의 벽돌 마감과 아치, 청동 발코니 등 산업유산의 표정은 그대로 살렸다."
+      ],
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/apple-music-venue-london-battersea-power-station/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "美 뉴욕 · 문화시설",
+      "title": "메트로폴리탄 뮤지엄 '탱 윙' 착공, 에스코베도가 그린 현대미술관 확장",
+      "image": "https://archinect.gumlet.io/uploads/ee/eeef883cdcee162dab21c4ddcf4e97c6.jpg",
+      "image_label": "ARCHINECT",
+      "body": [
+        "뉴욕 메트로폴리탄미술관이 현대미술 전시 공간을 확장하는 '탱 윙' 착공에 들어갔다. 프리다 에스코베도가 설계를 이끌며, 조경은 넬슨 버드 월츠, 구조는 손턴 토마세티, 집행건축은 바이어 블라인더 벨이 맡았다. 연면적 **약 1만 1700㎡**(**12만 6000제곱피트**) 규모 5층 건물로, 기존 갤러리 면적을 **50%** 늘린다.",
+        "에스코베도는 \"여러 시대의 건축양식을 엮어 각 건물의 역사를 존중하면서도 동시대적 성격을 담았다\"고 설명했다. 석회암 모듈과 유리를 조합해 3층 매스에서 뒤로 물러난 2층 옥외 테라스로 이어지는 리듬감 있는 매스를 만들었다. 개관은 **2030년**으로 예정돼 있다."
+      ],
+      "source": { "outlet": "Archinect", "links": [{ "text": "기사", "url": "https://archinect.com/news/article/150566057/met-breaks-ground-on-escobedo-led-tang-wing-expansion" }] },
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "가나 아크라 · 리노베이션",
+      "title": "옛 타일창고, 아프리카 건축교육의 새 거점으로",
+      "image": "https://images.adsttc.com/media/images/6ab2/4dbd/7475/ba01/8b4e/03bd/large_jpg/african-futures-institute-transforms-former-warehouse-into-new-accra-headquarters_2.jpg",
+      "image_label": "ARCHDAILY",
+      "body": ["레슬리 로코가 이끄는 아프리칸 퓨처스 인스티튜트가 가나 아크라 오수 지구의 옛 타일창고를 개조해 첫 상설 본부를 열었다. 부로 가나(패트릭 젠틸레차)와 패티 아나호리, 로렌스 로드, 프레드 스와트가 설계에 참여했다. 강의·전시·상영·워크숍을 여는 '어반룸'을 중심으로 아카이브·연구 공간을 갖췄으며, \"아침엔 학교, 오후엔 스튜디오, 밤엔 공공의 방\"으로 쓰일 수 있는 유연한 프로그램을 지향한다. **2021년** 설립 이후 임시 공간을 떠돌던 재단이 처음으로 갖게 된 고정 거점이다."],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1185536/african-futures-institute-transforms-former-warehouse-into-headquarters-in-accra-ghana" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "中 하이커우 · 문화시설",
+      "title": "'생명의 나무'를 닮은 하이커우 노동자활동센터",
+      "image": "https://images.adsttc.com/media/images/6ab0/8e6b/8d91/7901/8920/5b09/large_jpg/haikou-workers-activity-center-workers-cultural-palace-cadg_6.jpg",
+      "image_label": "ARCHDAILY",
+      "body": ["중국건축설계연구원 산하 CADG(최개 설계총괄, 류헝 책임건축가)가 하이난섬 하이커우에 노동자활동센터를 완공했다. '생명의 나무'를 모티프로 문화·체육·교육 프로그램을 하나로 엮은 연면적 **2만 9215㎡** 규모 복합시설로, 고온다습한 해안 기후에 대응하는 자연환기 구조와 저탄소 운영 시스템을 적용했다."],
+      "source": { "outlet": "ArchDaily", "links": [{ "text": "기사", "url": "https://www.archdaily.com/1185425/haikou-workers-activity-center-workers-cultural-palace-cadg" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "이란 북부 · 주택",
+      "title": "흰 벽돌 사이로 파고든 페르시안 레드, 카스피해 인근 코너빌라",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/nima-mirza-mohamadi-corner-villa-iran-persian-red-brick-white-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": ["건축가 니마 미르자 모하마디가 이란 북부 카스피해 인근에 지은 '코너빌라'는 흰 벽돌 매스에 페르시안 레드로 마감한 보이드를 깎아내 진입로·테라스·중정을 만들었다. 매달린 계단이 지나가는 중앙 보이드가 중정과 뒤편 숲, 하늘, 옥상 마당을 잇는다. 양쪽 경사지붕은 지역 기후에 대응하면서 남쪽 산 전망을 최대한 끌어들인다."],
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/persian-red-voids-villa-white-brick-volume-northern-iran-nima-mirza-mohamadi/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "美 · 시상",
+      "title": "폴링워터부터 댈러스시청까지, '2026 모더니즘 인 아메리카 어워즈' 15인 선정",
+      "image": "https://archinect.gumlet.io/uploads/vu/vu49g5locu0jwc7y.jpg",
+      "image_label": "ARCHINECT",
+      "body": ["도코모모US가 근대 유산 보존에 기여한 인물·프로젝트를 뽑는 '2026 모더니즘 인 아메리카 어워즈' 수상자 **15인**을 발표했다. 우수상에는 I.M.페이가 설계한 **1978년** 댈러스시청 등 **9건**이, 공로상에는 **5건**이 올랐고, 프랭크 로이드 라이트의 '폴링워터'는 지속관리 공로상을 받았다. 시상식은 **11월 5일** 뉴욕에서 열린다."],
+      "source": { "outlet": "Archinect", "links": [{ "text": "기사", "url": "https://archinect.com/news/bustler/11137/modernism-in-america-awards-honor-15-winners-for-protecting-modern-heritage" }] },
+      "topic": "수상"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "마감 이틀 전 돌연 취소…인천 남동구, 설계공모 재공고에 업계 반발",
+      "body": ["인천 남동구청이 '남동온세대 건강문화센터 건립 설계공모'를 마감 이틀 전 취소하고 재공고했다. **7월 20일** 공고돼 **9월 18일** 마감 예정이던 공모를 **9월 16일** 돌연 취소하고 마감을 **10월 19일**로 다시 잡았다. 대지면적 **1362㎡**, 총공사비 **130억 9480만원**, 설계비 **6억 7000만원** 규모로 건축사사무소 약 **40곳**이 참가 신청을 마친 상태였다.", "구청은 도시재생활성화계획 수립 중 기계식 주차장 문제가 제기돼 사업계획 전체 조정이 필요했고, 관계기관 협의에 2~3개월이 걸릴 것으로 예상해 취소했다고 밝혔다. 참가사들은 준비에 투입한 시간·인력·외주비가 헛수고가 됐다며 \"건축사를 기만한 처사\"라고 반발, 대한건축사협회에 공식 지지를 요청했다. 업계에 따르면 설계비 3억원 이상 공모 준비에는 통상 1000만원 이상이 든다."],
+      "source": { "outlet": "건축사신문", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21155" }] },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 도시재생",
+      "title": "국토부, 2027년 도시재생 신규사업 선정 착수…최대 150억원 지원",
+      "body": ["국토교통부가 2027년 도시재생 신규사업 선정 절차를 시작했다. 지방자치단체가 연말까지 사업계획을 수립해 접수하면, 내년 상반기 도시재생특별위원회 심의를 거쳐 최종 선정된다. 공고부터 접수까지 3개월 이상 기간을 두고 사전컨설팅을 **2회** 이상 실시해 지역 내 SOC 중복을 막고 주민 의견을 체계적으로 반영하도록 했다.", "지원 유형은 지역특화재생사업(4년간 최대 **150억원**), 노후주거지정비 지원사업(5년간 최대 **150억원**, 빈집정비형은 4년 최대 50억원), 인정사업(3년간 최대 50억원)으로 나뉜다."],
+      "source": { "outlet": "건축사신문", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21152" }] },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "30년 만의 재단장, 간삼건축이 새로 그린 '오션프런트' 쉐라톤 제주",
+      "body": ["**1994년** 신축 설계를 맡았던 간삼건축이 30년 만에 쉐라톤 제주 리모델링을 완공했다. \"좋은 리모델링은 기존 건축을 지우는 게 아니라, 시간이 지나도 유효한 가치를 계승해 다음 시대와 연결하는 작업\"이라는 원칙 아래, 기존 길이 **200m**에 이르는 대형 아트리움의 가치는 그대로 살렸다.", "로비·라운지·다이닝 등 공용공간의 오션뷰를 넓히고, 길이 **100m** 규모 해안 인피니티풀을 새로 냈다. 제주 관광객이 단체관광(3%)에서 개별여행(96.8%)으로 옮겨간 변화와 방파제 조성으로 개선된 해안 환경에 맞춰, 건물 전체를 바다 중심의 '오션프런트 호텔'로 재정의했다."],
+      "source": { "outlet": "건축사신문", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21151" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 충남 예산",
+      "title": "예산소방서 금오119안전센터 이전신축 설계공모, 설계비 2.3억원",
+      "body": ["예산소방서가 충남 예산군 예산읍 대회리에 지을 금오119안전센터 이전 신축사업 일반 설계공모를 공고했다. 연면적 **997㎡** 규모로, 설계비는 **2억 3000만원**, 예정 공사비는 46억 7000만원이다.", "참가등록 마감은 **10월 1일**, 작품 제출 마감은 **12월 10일**이며 심사위원 5인이 참여한다."],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "공고", "url": "https://jootek.com/folio/contests/18928" }] },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 충남 천안",
+      "title": "병천초등학교 B동 공간재구조화 설계공모, 설계비 2.3억원",
+      "body": ["천안시교육청이 동남구 병천면 병천초등학교 B동 공간재구조화사업 제안 설계공모를 공고했다. 연면적 **2154㎡** 규모로, 설계비는 **2억 3000만원**, 예정 공사비는 67억 6000만원이다.", "참가등록 마감은 **9월 30일**이며, 그린스마트 미래학교 사업의 하나로 추진된다."],
+      "source": { "outlet": "주택폴리오", "links": [{ "text": "공고", "url": "https://jootek.com/folio/contests/18927" }] },
+      "topic": "설계공모"
+    }
+  ],
+
+  "briefs": [
+    {
+      "title": "이탈리아 거장 게타노 페시, 재단으로 남긴다",
+      "body": "건축·디자인을 아우른 실천을 보존하는 비영리 재단이 출범, 아카이브 관리와 리미티드 에디션 승인을 맡는다.",
+      "source": { "outlet": "designboom", "links": [{ "text": "기사", "url": "https://www.designboom.com/architecture/gaetano-pesce-foundation-architect-practice/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "오하이오 대법원, 40억달러 AWS 데이터센터 주민투표 저지",
+      "body": "윌밍턴 시의회 조례로는 규제 권한이 없다며 주민발의 규제안을 무산시켰다. 별도 연방법원 소송전은 계속된다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63684-ohio-supreme-court-blocks-ballot-measure-targeting-4b-aws-data-center" }] },
+      "topic": "제도규제"
+    },
+    {
+      "title": "스칸스카, 1억 1400만달러 포토맥강 다리 개보수 수주",
+      "body": "1950년 준공된 워싱턴DC I-395 교량의 가동교를 고정교로 전환, 공사 후 수명을 75년 연장한다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63685-skanska-to-lead-rehab-of-landmark-potomac-river-bridge" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 하원, 물관리 인프라법(WRDA) 415대9로 통과",
+      "body": "신규 타당성조사 133건, 즉시 시행 가능한 건설사업 14건을 승인했다. 상원 표결과 양원 조정만 남았다.",
+      "source": { "outlet": "ENR", "links": [{ "text": "기사", "url": "https://www.enr.com/articles/63686-water-industry-groups-praise-overwhelming-415-9-house-passage-of-wrda-bill" }] },
+      "topic": "제도규제"
+    },
+    {
+      "title": "오헤어 공항 88억달러 확장 'ORD 넥스트', 활주로 밑 지하터널까지",
+      "body": "콩코스 2개를 신설하고 터미널 규모를 2배로 늘린다. 세계 최다 이착륙 공항에서 운영 중단 없이 공사가 진행 중이다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/manage-ohare-airport-infrastructure-project-construction-newbie/831008/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 FAA, 공항 280곳에 11억달러 보조금…활주로 차량 추적 시스템도",
+      "body": "46개주 공항 대상 지원으로, 차량 3000대에 추적장치를 달아 관제사의 활주로 상황 인지를 돕는다.",
+      "source": { "outlet": "Construction Dive", "links": [{ "text": "기사", "url": "https://www.constructiondive.com/news/faa-greenlights-airport-upgrades/830861/" }] },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "국가건축정책위, '설계공모 소모적 경쟁' 극복 방안 논의한다",
+      "body": "9월 29일 토론회를 열어 설계공모 제도개선과 민간전문가 공공역할 강화 방향을 논의한다. 건축사협회·건축가협회 부회장단이 참여한다.",
+      "source": { "outlet": "건축사신문", "links": [{ "text": "기사", "url": "https://ancnews.kr/news/articleView.html?idxno=21150" }] },
+      "topic": "제도규제"
+    }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "judd-marfa-artillery-sheds-restoration",
+      "tag": "HERITAGE",
+      "title": "40년 만에 손보는 '저드의 창고'",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "marfa texas minimalist desert architecture",
+      "slides": [
+        { "heading": "40년 노출 딛고\n'저드의 창고' 복원 나선다", "body": "치나티재단, 도널드 저드의 마파 포병창고 복원 착수" },
+        { "heading": "WHAT", "body": "치나티재단이 도널드 저드가 1980년대 개조한 옛 포병창고 두 동의 복원에 들어갔다." },
+        { "heading": "HISTORY", "body": "1939년 미 육군공병대가 지은 군 시설을 저드가 사들여 1982~1986년 대표작 '100개의 무제 알루미늄 작품'의 영구 전시공간으로 바꿔놓았다." },
+        { "heading": "SCOPE", "body": "지붕·외벽 보수, 저에너지 냉난방, 태양광, 빗물 수확 체계까지 - 창호 유리 교체 면적만 1만 제곱피트가 넘는다." },
+        { "heading": "TEAM", "body": "휴스턴의 스컴 아키텍츠가 설계를, TYLin이 구조를, 뎁트가 조경을 맡았다." },
+        { "heading": "WHY IT MATTERS", "body": "마파를 사막 속 예술 순례지로 만든 상징적 공간의 물리적 유산을 지켜내는 작업이다." }
+      ]
+    },
+    {
+      "slug": "multi-household-housing-regulation-easing",
+      "tag": "REGULATION",
+      "title": "다세대·다가구, 44년 만의 규제완화",
+      "ref": { "section": "side" },
+      "bg": 1,
+      "photo_query": "seoul low rise residential neighborhood rooftop",
+      "slides": [
+        { "heading": "44년 만에 넓어진\n다세대·다가구", "body": "바닥면적 660→1,000㎡, 다가구 4층까지 허용" },
+        { "heading": "WHAT", "body": "건축법 시행령 개정으로 다세대·다가구주택 규제가 대폭 완화된다." },
+        { "heading": "BEFORE", "body": "다세대·다가구 바닥면적은 660㎡ 이하로 제한돼 있었다." },
+        { "heading": "AFTER", "body": "바닥면적 기준이 1,000㎡ 미만으로 확대되고, 다가구 층수는 3층에서 4층까지 늘어난다." },
+        { "heading": "WHY", "body": "비아파트 공급을 늘리려는 조치로, 건축사협회가 요구해온 '건축 양극화 해소'가 반영됐다." },
+        { "heading": "NEXT", "body": "주민공동시설의 용적률 제외, 주차장 설치기준 완화도 함께 추진되고 있다." }
+      ]
+    },
+    {
+      "slug": "sheraton-jeju-oceanfront-renewal",
+      "tag": "PROJECT",
+      "title": "30년 만의 재단장, 쉐라톤 제주",
+      "ref": { "section": "korea", "index": 2 },
+      "bg": 2,
+      "photo_query": "jeju island ocean infinity pool resort",
+      "slides": [
+        { "heading": "30년 만의 재단장\n쉐라톤 제주", "body": "간삼건축이 새로 그린 '오션프런트' 호텔" },
+        { "heading": "WHAT", "body": "간삼건축이 1994년 신축 설계 이후 30년 만에 쉐라톤 제주 리모델링을 완공했다." },
+        { "heading": "PHILOSOPHY", "body": "\"기존 건축을 지우는 게 아니라, 유효한 가치를 계승해 다음 시대와 연결하는 작업\"이라는 원칙을 지켰다." },
+        { "heading": "WHAT'S NEW", "body": "길이 100m 규모 해안 인피니티풀을 새로 내고, 공용공간의 오션뷰를 크게 넓혔다." },
+        { "heading": "WHY", "body": "단체관광 중심에서 개별여행(96.8%) 중심으로 바뀐 제주 관광 트렌드에 맞춘 재편이다." }
+      ]
+    }
+  ]
+}
