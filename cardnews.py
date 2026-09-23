@@ -9,10 +9,12 @@ HEUY ARCHI MAGAZINE — 카드뉴스 렌더러
 입력  : data/<날짜>.json 의 "cardnews" 배열
 출력  : cardnews/<날짜>/<slug>/01.jpg ... 0N.jpg   (1080x1350, 인스타그램 카드뉴스 규격)
 
-JPEG(품질 90)로 저장한다. 같은 카드가 PNG로는 장당 약 1.6MB인데 JPEG q90은 약 230KB로,
-육안 차이 없이 86%가 줄어든다. 카드뉴스는 매일 3건×6장씩 쌓여 저장소 용량을 가장 빠르게
-먹는 산출물이라 이 차이가 곧 GitHub Pages 1GB 한도까지의 수명을 결정한다. 인스타그램
-업로드 호환성 때문에 WebP가 아니라 JPEG를 쓴다.
+JPEG(품질 76, 4:4:4 크로마, progressive)로 저장한다. Chromium 스크린샷 JPEG는 4:2:0 크로마라
+빨간 글자 가장자리가 번지므로, 무손실 PNG로 찍은 뒤 Pillow로 직접 인코딩한다. 장당 약 145KB로
+기존 Chromium q90(약 215KB)보다 32% 작고 빨간 글자는 오히려 더 선명하다. 카드뉴스는 매일
+3건×6장씩 쌓여 저장소 용량을 가장 빠르게 먹는 산출물이라 이 차이가 곧 GitHub Pages 1GB
+한도까지의 수명을 결정한다. 인스타그램 업로드 호환성 때문에 WebP가 아니라 JPEG를 쓴다.
+필요 패키지: pip install playwright pillow
 
 배경 사진은 두 종류다.
 
@@ -44,12 +46,14 @@ PNG를 먼저 만든 다음 render.py를 돌려야 웹페이지에서 이미지�
 """
 
 import base64
+import io
 import json
 import os
 import sys
 import urllib.parse
 import urllib.request
 
+from PIL import Image
 from playwright.sync_api import sync_playwright
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -59,7 +63,13 @@ OUT = os.path.join(ROOT, "cardnews")
 CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 W, H = 1080, 1350
 EXT = "jpg"        # 저장 포맷. render.py의 카드뉴스 경로와 반드시 같아야 한다.
-QUALITY = 90       # JPEG 품질. 90 아래로 내리면 표지 큰 글자 가장자리가 뭉개진다.
+QUALITY = 76       # JPEG 품질 (4:4:4 크로마 전제 — 4:2:0으로 바꾸면 빨간 글자가 번진다)
+
+
+def save_jpeg(page, path):
+    png = page.screenshot(type="png")
+    Image.open(io.BytesIO(png)).convert("RGB").save(
+        path, "JPEG", quality=QUALITY, subsampling=0, optimize=True, progressive=True)
 
 INK = "#0B0B0C"
 RED = "#9F0F1F"
@@ -369,7 +379,7 @@ def shoot(browser, html_str, path, w, h):
     try:
         page.set_content(html_str, wait_until="load")
         page.evaluate("document.fonts.ready")
-        page.screenshot(path=path, type="jpeg", quality=QUALITY)
+        save_jpeg(page, path)
     finally:
         page.close()
 
@@ -458,7 +468,7 @@ def render_item(browser, day, item):
             page.set_content(html, wait_until="load")
             page.evaluate("document.fonts.ready")
             path = os.path.join(out_dir, f"{i + 1:02d}.{EXT}")
-            page.screenshot(path=path, type="jpeg", quality=QUALITY)
+            save_jpeg(page, path)
             print(f"    {day}/{slug}/{i + 1:02d}.{EXT}" + ("" if photo else " (브랜드 그래픽 폴백)"))
     finally:
         page.close()

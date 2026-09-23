@@ -1694,6 +1694,18 @@ def iter_articles(d):
             yield f"{key}[{i}]", a
 
 
+SITE_SIZE_ALERT_MB = 700
+
+
+def site_size_mb():
+    """게시되는 파일 총량(.git 제외). GitHub Pages 게시 한도는 1GB."""
+    total = 0
+    for dirpath, dirnames, filenames in os.walk(ROOT):
+        dirnames[:] = [d for d in dirnames if d != ".git"]
+        total += sum(os.path.getsize(os.path.join(dirpath, f)) for f in filenames)
+    return total / 1024 / 1024
+
+
 def check(days, verbose=True):
     """지면 데이터를 검증하고 (오류, 경고) 목록을 돌려준다."""
     from difflib import SequenceMatcher
@@ -1835,6 +1847,12 @@ def check(days, verbose=True):
                     f"'{r['entity']}' 이름이 {ENTITY_WINDOW_DAYS}일 내에 반복됩니다 — "
                     f"제목을 다시 쓴 같은 사안인지 확인 "
                     f"· “{clip(r['title'], 38)}” / “{clip(entity_hit['title'], 38)}”")
+
+    site_mb = site_size_mb()
+    if site_mb >= SITE_SIZE_ALERT_MB:
+        warns.append(
+            f"[용량] 사이트 용량 {site_mb:.0f}MB — GitHub Pages 한도 1GB에 가까워졌습니다. "
+            f"카드뉴스 이미지를 외부 저장소로 옮길 시점입니다 (CLAUDE.md '용량 알림' 참조)")
 
     if verbose:
         for e in errors:
