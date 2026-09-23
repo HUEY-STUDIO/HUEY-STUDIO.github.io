@@ -1,0 +1,585 @@
+{
+  "vol": "VOL.01  NO.039",
+  "editor": "HUEY",
+  "counts": {
+    "total": 23,
+    "intl": 15,
+    "kr": 8
+  },
+  "outlets": [
+    "designboom",
+    "ENR",
+    "Construction Dive",
+    "Archinect",
+    "건축사신문",
+    "뉴데일리",
+    "글로벌이코노믹",
+    "건축사뉴스",
+    "이투데이",
+    "jootek",
+    "건축허브",
+    "Young Architects Competitions"
+  ],
+  "teasers": [
+    {
+      "title": "후백제역사문화센터 당선작 발표",
+      "desc": "누아·한들 컨소시엄 '역사의 틈' 당선, 2031년 개관 목표",
+      "label": "AWARDS"
+    },
+    {
+      "title": "$4억5800만 리츠칼튼, 골조 완료",
+      "desc": "에스테로베이 22층 쌍둥이타워, 2027년 최종 입주",
+      "label": "CONSTRUCTION"
+    },
+    {
+      "title": "美 건축사무소 청구지수 8월도 위축",
+      "desc": "ABI 47.2, 신규 계약액 감소세 지속",
+      "label": "INDUSTRY"
+    },
+    {
+      "title": "서울우수한옥 인증제 11회 공모",
+      "desc": "10월 21일까지 접수, 인증패·수선비 지원",
+      "label": "PROGRAM"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 미술관",
+    "lede": "페터 춤토르가 넓힌 폰다시옹 베예엘러, 사유 공원까지 대중에 열다",
+    "lede_em": "폰다시옹 베예엘러",
+    "image": "https://static.designboom.com/wp-content/uploads/2026/09/peter-zumthor-fondation-beyeler-gradual-opening-designboom-500.jpg",
+    "image_label": "DESIGNBOOM",
+    "caption": "스위스 리엔의 폰다시옹 베예엘러 신축동 전경 ⓒ designboom",
+    "body": [
+      "건축가 페터 춤토르가 스위스 바젤 인근 리엔의 폰다시옹 베예엘러를 세 개 신축 건물과 기존 건물 복원으로 확장했다. 신축동은 비스 뮤지엄, 아만 파빌리온, 에를렌 토르하우스로 구성되며, 미술관이 소유해온 약 **1만 sqm** 규모의 사유 공원을 처음으로 대중에 개방했다.",
+      "각 건물은 쥐라 지역산 석회암과 측광 중심의 재료·구법을 택해 주변 풍경에 자연스럽게 스며들도록 설계됐다. 신규 전시공간은 약 **1,500 sqm** 늘었으며, 기존 건물의 톤과 조화를 이루면서도 각 동마다 다른 채광 방식을 실험했다.",
+      "미술관은 **9월 26일**부터 단계적으로 문을 열어 **2027년 1월 15일** 전체 개관을 완료할 계획이다. 단계적 개관 방식을 택해 신축 공간과 공원을 순차적으로 공개하며 관람 동선의 혼잡을 줄인다는 구상이다.",
+      "1997년 렌초 피아노가 설계한 본관 이후 최대 규모 확장으로, 유럽에서 가장 많은 관람객이 찾는 사립 미술관 중 하나가 한 단계 더 커지는 셈이다. 춤토르가 근래 완공한 몇 안 되는 대형 문화시설 프로젝트라는 점에서도 주목된다."
+    ],
+    "source": {
+      "outlet": "designboom",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.designboom.com/architecture/peter-zumthor-fondation-beyeler-gradual-opening-basel-switzerland-wyss-museum/"
+        }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 공사비 조정",
+    "image": "https://image.newdaily.co.kr/site/data/img/2026/09/22/2026092200103_0.png",
+    "image_label": "뉴데일리",
+    "title": "공사비 수천억씩 오른다…계약금액 조정 러시에 착공도 밀린다",
+    "body": [
+      "국내 건설사들이 기체결 공사계약금액을 잇달아 대폭 증액 조정하고 있다. 자재비·인건비 상승분을 계약에 반영하려는 협상이 장기화하면서, 착공·준공 지연은 물론 분양가·추가분담금 상승 압력으로 이어지고 있다는 우려가 나온다."
+    ],
+    "facts": [
+      "9월 변경계약 **12건**에서 **7,144억원** 증액",
+      "GTX-C 노선 4개사 계약액 **4,956억원** 증가",
+      "공공공사 상반기 조정신청액 **6,893억원**(전년 동기의 **3.3배**)",
+      "건설공사비지수 **138.59**(전년 동월 대비 **5.8%↑**)"
+    ],
+    "body_after": [
+      "업계는 공사비 조정 협상이 늦어질수록 사업 전체 일정이 밀리는 만큼, 물가 반영 절차를 더 신속화해야 한다고 지적한다."
+    ],
+    "source": {
+      "outlet": "뉴데일리",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200103.html"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "中 상하이 · 파빌리온",
+      "title": "거울 벽 두 장이 나무 한 그루를 숲으로 바꿨다",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/infinite-grove-traveling-pavilion-tree-endless-forest-chang-hao-studio-shanghai-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "창하오 스튜디오가 상하이에 만든 이동식 파빌리온 '인피니트 그로브'는 곡면 미러 스틸 벽 두 개를 마주 세워 나무 한 그루를 무한히 반사시킨다. **2026년** 상하이 국제 꽃 축제에서 처음 선보였으며, 관람객이 거울 사이를 걸으며 하나의 나무가 끝없는 숲으로 증식하는 시각적 착시를 경험하도록 했다.",
+        "프리패브·무기초 구조로 제작해 트럭 한 대로 운송할 수 있다. 중국 전통 원림에서 실제보다 넓은 풍경을 연출하는 차경(借景) 기법을 거울이라는 현대적 재료로 재해석한 사례로 꼽힌다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/curved-mirrored-steel-walls-one-tree-forest-infinite-grove-pavilion-shanghai-chang-hao-studio/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "스페인 발렌시아 · 오피스",
+      "title": "파란 나선계단이 랜드마크 된 항구 워크스페이스",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/marina-de-empresas-valencia-workspace-erre-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "ERRE 아르퀴텍투라가 스페인 발렌시아 마리나 데 엠프레사스 캠퍼스(총 **2만 7,000 sqm**)에 세 번째 건물(약 **7,600 sqm**)을 완공했다. 약 **1,000명**의 창업가를 수용하는 규모로, **260 sqm** 트리플하이트 아트리움에 놓인 파란색 나선계단이 시각적 랜드마크 역할을 한다.",
+        "조선업에서 영감받은 GRP(유리섬유강화플라스틱) 루버를 외피에 적용해 해안의 염분·풍하중 환경에 대응했고, 지속가능 자재를 두루 사용했다. 발렌시아 항만 지구를 스타트업 생태계 거점으로 키우려는 캠퍼스 확장 계획의 일환이다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/blue-spiral-staircase-erre-harbor-side-workspace-valencia-marina-de-empresas/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "美 워싱턴주 · 건설기술",
+      "title": "매스팀버로 대학 건물 짓고 200만 달러 아꼈다",
+      "image": "https://imgproxy.divecdn.com/HxTG2UDrWulQILIYH5C8nVbtUNyDUG63nOfRS_htK9A/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9jX0tldmluX1Njb3R0Xy1fS2Fpc2VyX0JvcnNhcmlfSGFsbDExOTJfMS5qcGc=.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "시공사 모튼슨이 워싱턴 웨스턴대학교 카이저 보르사리 홀(4층) 건설에 매스팀버 공법과 밸류엔지니어링을 적용해 **200만 달러**를 절감했다. 경량 목구조 덕분에 지하 기초가 필요 없어 콘크리트·인건비가 크게 줄었고, 프리패브와 조기 BIM 협업으로 공기도 **25%** 단축됐다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/mortenson-mass-timber-western-washington-case-study/831168/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "美 플로리다 · 건설",
+      "title": "$4억5800만 리츠칼튼 에스테로베이, 골조 완료",
+      "image": "https://www.enr.com/ext/resources/2026/09/23/Ritz---Orlando.webp?t=1790196246",
+      "image_label": "ENR",
+      "body": [
+        "코스탈 컨스트럭션이 플로리다 보니타스프링스에 짓는 리츠칼튼 레지던스 북측 타워의 골조공사를 마쳤다. 22층 쌍둥이타워는 총 **224세대** 규모로 연면적 약 **193만 sqft**, 사업비 **4억 5,800만 달러**가 투입됐다. 남측 타워는 이미 개관했고 북측 타워는 **2027년 8월** 최종 입주를 목표로 한다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63698-coastal-tops-out-458m-ritz-carlton-estero-bay-towers"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "美 텍사스 · 인프라",
+      "title": "덴턴시 9200만달러 하수처리장 확장 착공",
+      "image": "https://imgproxy.divecdn.com/tt9v-w3WZjrQklfgSJ8mWdLDR-edkRxmc6c-pyLgy5g/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QZWNhbi1DcmVlay1Hcm91bmRicmVha2luZy03LTEtMjA0OHgxMzY1LmpwZw==.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "시공사 선트 컨스트럭션이 텍사스주 덴턴의 피칸크릭 하수처리장 확장공사(GMP 계약, **9,200만 달러**)에 착공했다. 일 **7,500만 갤런** 처리용량의 헤드웍스 시설과 일 **3,000만 갤런** 규모 막생물반응조(MBR) 시스템을 새로 지어, **2030년**까지 인구 **20만** 돌파가 예상되는 지역 성장에 대비한다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/sundt-breaks-ground-texas-water-project-denton/831119/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프랑스 파리 · 인테리어",
+      "title": "거대한 꽃 조형물이 점령한 파리의 실험적 쇼룸",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/zyva-studioparis-apartment-anthony-authie-ornament-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "지바 스튜디오가 창립자 안토니 오티에의 파리 아파트(약 **60 sqm**)를 모더니즘 원칙에 도전하는 쇼룸으로 개조했다. 대형 뾰족한 꽃 오브제, 컬러 체인, 테라조 마감, 팝컬처 레퍼런스가 어우러지며, 화강암 테이블부터 달마시안 무늬 커튼까지 장식을 개념적 토대로 삼아 하나의 세계관으로 엮었다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/oversized-flowers-terrazzo-pop-references-zyva-studio-paris-showroom/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "\"개인 노력으론 한계\"…설계공모, 이제는 '게임의 룰'을 바꿔야",
+      "image": "https://cdn.ancnews.kr/news/photo/202609/21161_23944_3217.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "대한건축사협회 공정건축설계공모추진위원회가 '설계공모 제도와 환경, 이대로 좋은가'를 주제로 토론회를 열었다. 건축사 **4명**과 교수 **1명**이 참여해 과열된 공모 경쟁의 비효율성을 지적하고 구체적 개선안을 논의했다.",
+        "심사위원 데이터베이스 구축, 평판 검증 시스템 도입, 심사위원 구성 비율의 강제화, 심사비 현실화 등이 대안으로 제시됐다. 개별 건축사무소의 자구 노력만으로는 공모 환경을 바꿀 수 없다는 공감대가 형성됐다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://ancnews.kr/news/articleView.html?idxno=21161"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "수상 · 전북 완주",
+      "title": "'후백제역사문화센터' 설계공모 당선작은 '역사의 틈, 자연 사잇공간'",
+      "image": "https://cdn.ancnews.kr/news/photo/202609/21159_23942_3859.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "국립완주문화유산연구소가 시행한 후백제역사문화센터 건립 설계공모에서 ㈜누아건축사사무소·㈜한들종합건축사사무소 컨소시엄의 '역사의 틈, 자연 사잇공간'이 당선작으로 선정됐다. 총 **15개팀**이 참가한 공모(**6월 11일~9월 15일**)에서 후백제 산성의 석재 디자인을 차용하고 주변 주거지와 조화를 이루는 안이 높은 평가를 받았다.",
+        "전주 완산구에 대지면적 **1만 9,903㎡**, 연면적 약 **5,005㎡** 규모로 들어서며, **2027년** 설계 완료·**2031년** 개관을 목표로 한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://ancnews.kr/news/articleView.html?idxno=21159"
+          }
+        ]
+      },
+      "topic": "수상"
+    },
+    {
+      "kicker": "국내 · 인터뷰",
+      "title": "정재욱 모듈러건축위원장 \"모듈러 장점 이해하고 건축사의 창의적 사고 접목해야\"",
+      "image": "https://cdn.ancnews.kr/news/photo/202609/21157_23940_2946.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "대한건축사협회 정재욱 모듈러건축위원장이 2026 대학(원)생 모듈러건축 공모전을 계기로 모듈러건축의 방향을 짚었다. 그는 모듈러건축이 단순한 시공 방식을 넘어 사회문제 해결의 건축적 도구로 확장돼야 한다고 강조했다.",
+        "단독주택 중심이던 적용 범위가 공동주택·의료시설·복합문화시설로 넓어지는 추세라며, 건축사의 창의적·확장적 사고를 모듈러 공법에 접목할 필요가 있다고 밝혔다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://ancnews.kr/news/articleView.html?idxno=21157"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 서울 성수",
+      "title": "성수 뚝섬지구 49층 복합개발, 서울시 건축심의 통과",
+      "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026092312335200530a9fc1439201062458411.jpg",
+      "image_label": "글로벌이코노믹",
+      "body": [
+        "서울시 건축위원회가 성수 뚝섬지구 특별계획구역 복합빌딩 건축심의를 통과시켰다. 지상 **49층** 규모로 공동주택 **383가구**, 숙박시설 **622실**, **903석** 규모 공연장이 들어선다. 장기간 지연됐던 개발이 재개되는 것으로, 서울숲역과 연결되는 보행환경 개선과 개방공간 확대 효과가 기대된다.",
+        "같은 날 송파 문정건영아파트 리모델링(**545→610가구**) 건축심의도 함께 통과했다."
+      ],
+      "source": {
+        "outlet": "글로벌이코노믹",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.g-enews.com/article/Real-Estate/2026/09/20260923123225683a9fc143920_1"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 도시재생",
+      "title": "서울 정비사업 496곳 추진…2031년까지 31만가구 착공 목표",
+      "image": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026092113050407491a9fc1439201062458411.jpg",
+      "image_label": "글로벌이코노믹",
+      "body": [
+        "서울시가 신속통합기획 도입 이후 **214개** 구역·**30만 7,000가구** 규모 정비사업을 추진 중이라고 밝혔다. 모아주택도 **168곳·4만 3,000가구**가 조합설립 단계에 들어섰다.",
+        "정비구역 지정에 걸리는 기간을 5년 이상에서 약 **2년**으로 단축했으며, **2031년**까지 정비사업 주택 **31만가구** 착공을 목표로 한다."
+      ],
+      "source": {
+        "outlet": "글로벌이코노믹",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.g-enews.com/article/Real-Estate/2026/09/202609211304533913a9fc143920_1"
+          }
+        ]
+      },
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "국내 · 제도규제",
+      "title": "신입건축사 10명 중 9명 \"설계비 낮다\"…필요한 건 '사다리'와 '안전망'",
+      "body": [
+        "경기도건축사회 신입건축사지원위원회가 신입회원 **257명** 중 **183명**을 대상으로 실태조사를 진행했다. 응답자의 **94.0%**가 '수주 확보'를 최대 애로로 꼽았고, **91.8%**는 설계비가 낮다고 답했다.",
+        "**61.2%**는 계약서 없이 업무를 진행한 경험이 있다고 응답했다. 협회 차원의 적정 설계비 가이드라인, 경영 아카데미, 법률 자문 등 지원 방안 마련이 필요하다는 제언이 나왔다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://a-news.kr/news/articleView.html?idxno=13939"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 경남 창원",
+      "title": "경화초등학교 미래학교 공간재구조화 증축 설계공모",
+      "body": [
+        "경남 창원시 진해구가 경화초등학교 본관동 미래학교 공간재구조화 증축공사 설계용역을 공모한다. 연면적 **3,902㎡** 규모로 설계비 약 **6.1억원**, 공사비 약 **202억원**이 투입된다.",
+        "접수 마감은 **10월 2일**이며, 심사위원 **9명**이 참여해 **12월 8일** 이내 결과를 발표할 예정이다."
+      ],
+      "source": {
+        "outlet": "jootek",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/18929"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 제주",
+      "title": "제주영지학교 분교장 신축 설계공모 공고",
+      "body": [
+        "제주도교육청이 (가칭)제주영지학교 분교장 신축 설계공모를 **9월 22일** 공고했다. 접수 마감은 **9월 30일**이다.",
+        "건축허브 설계공모 목록을 통해 공고됐으며, 세부 자격 요건과 제출서류는 목록 페이지에서 확인할 수 있다."
+      ],
+      "source": {
+        "outlet": "건축허브",
+        "links": [
+          {
+            "text": "공모 목록",
+            "url": "https://www.hub.go.kr/portal/dps/dsr/idx-dsr-selectDesignPbpPbancList.do"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "무허가 발전기 62대 데이터센터에 벌금 107만달러",
+      "body": "뉴저지 환경당국이 AI 데이터센터 운영사에 123MW 규모 무허가 가스발전 혐의로 과징금을 부과했다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63694-nj-fines-data-center-1m-over-123-mw-of-unpermitted-generation"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "캘리포니아, 데이터센터 규제 7개 법안 서명",
+      "body": "에너지·용수 사용량 공개와 전력망 비용 부담을 의무화해 전국에서 가장 강력한 데이터센터 규제로 평가된다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/cities-get-more-say-in-data-center-development-under-new-california-laws/831114/"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "美 건축사무소 청구지수, 8월도 위축 지속",
+      "body": "AIA 건축청구지수(ABI)가 47.2를 기록해 여전히 50 미만에 머물렀다. 향후 청구 감소를 예상하는 사무소 비율도 늘었다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150567130/architecture-firms-see-another-month-of-declining-billings-in-august"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "서울우수한옥 인증제 11회 공모, 10월 21일까지",
+      "body": "2016년 이후 건축·수선한 한옥이 대상이며, 인증 시 정기점검과 수선비 지원, 설계 건축사 인증패가 주어진다.",
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://ancnews.kr/news/articleView.html?idxno=21160"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "GS건설, 건설로봇 성능 미리 검증하는 'PoC센터' 구축",
+      "body": "경기 용인 기술연구소에 콘크리트 레벨링 로봇 등을 실전 투입 전 검증하는 시설을 마련했다.",
+      "source": {
+        "outlet": "이투데이",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.etoday.co.kr/news/view/2628376"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "시인의 생가를 박물관으로, 이탈리아서 국제 설계공모",
+      "body": "이탈리아 마라디시와 YAC가 공동 주최, 시인 디노 캄파나의 생가를 문화공간으로 전환할 설계안을 공모한다. 상금 총 1만5000유로, 접수는 12월 16일까지다.",
+      "source": {
+        "outlet": "Young Architects Competitions",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://www.youngarchitectscompetitions.com/open-competitions/house-of-poetry"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "수원지역건축사회, '도시·건축 미래제안회' 개최",
+      "body": "건축사들이 낸 정책 아이디어 12개 중 대상 1개·최우수상 2개 등이 시상됐다. 행궁동 체류형 관광, 수원역 하늘정원 구상 등이 수상작에 포함됐다.",
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://a-news.kr/news/articleView.html?idxno=13937"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "fondation-beyeler-zumthor-expansion",
+      "tag": "PROJECT",
+      "title": "춤토르가 넓힌 미술관, 공원까지 열다",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "swiss museum limestone architecture",
+      "slides": [
+        {
+          "heading": "춤토르가 넓힌 미술관\n사유 공원까지 열다",
+          "body": "폰다시옹 베예엘러, 신축 3동 완공"
+        },
+        {
+          "heading": "WHAT",
+          "body": "페터 춤토르가 스위스 리엔의 폰다시옹 베예엘러를 신축 건물 3동과 복원 건물로 확장했다."
+        },
+        {
+          "heading": "PARK",
+          "body": "미술관이 소유해온 약 1만 sqm 규모 사유 공원을 처음으로 대중에 개방했다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "쥐라 지역산 석회암과 측광 중심 구법으로 건물을 풍경에 자연스럽게 통합했다."
+        },
+        {
+          "heading": "SCHEDULE",
+          "body": "9월 26일부터 단계적으로 개관해 2027년 1월 15일 전체 개관을 완료한다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "1997년 렌초 피아노 본관 이후 최대 규모 확장으로, 춤토르가 근래 완공한 몇 안 되는 대형 문화시설이다."
+        }
+      ]
+    },
+    {
+      "slug": "baekje-history-center-competition-winner",
+      "tag": "AWARDS",
+      "title": "'역사의 틈', 후백제역사문화센터 당선",
+      "ref": {
+        "section": "korea",
+        "index": 1
+      },
+      "bg": 1,
+      "photo_query": "korean ancient fortress stone wall texture",
+      "slides": [
+        {
+          "heading": "'역사의 틈'\n후백제역사문화센터 당선",
+          "body": "누아·한들 컨소시엄, 15개팀 제친 설계공모 당선"
+        },
+        {
+          "heading": "WHAT",
+          "body": "국립완주문화유산연구소가 시행한 후백제역사문화센터 건립 설계공모에서 '역사의 틈, 자연 사잇공간'이 당선작으로 선정됐다."
+        },
+        {
+          "heading": "TEAM",
+          "body": "㈜누아건축사사무소와 ㈜한들종합건축사사무소 컨소시엄이 15개팀 중 당선을 차지했다."
+        },
+        {
+          "heading": "SITE",
+          "body": "전주 완산구에 대지면적 약 2만㎡, 연면적 약 5,005㎡ 규모로 들어선다."
+        },
+        {
+          "heading": "CONCEPT",
+          "body": "후백제 산성의 석재 디자인을 차용하고, 주변 주거지와 조화를 이루는 안이 높은 평가를 받았다."
+        },
+        {
+          "heading": "SCHEDULE",
+          "body": "2027년 설계 완료, 2031년 개관을 목표로 한다."
+        }
+      ]
+    },
+    {
+      "slug": "infinite-grove-pavilion-shanghai",
+      "tag": "PROJECT",
+      "title": "거울 두 장이 나무를 숲으로 바꿨다",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "mirror installation art forest reflection",
+      "slides": [
+        {
+          "heading": "거울 두 장이\n나무를 숲으로 바꿨다",
+          "body": "상하이 '인피니트 그로브' 이동식 파빌리온"
+        },
+        {
+          "heading": "WHAT",
+          "body": "창하오 스튜디오가 상하이에 곡면 미러 스틸 벽 두 개로 이루어진 이동식 파빌리온 '인피니트 그로브'를 선보였다."
+        },
+        {
+          "heading": "ILLUSION",
+          "body": "나무 한 그루를 거울 사이에 두어 무한히 반사시켜, 숲처럼 증식하는 시각적 착시를 만들어낸다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "프리패브·무기초 구조로 제작해 트럭 한 대로 운송할 수 있다."
+        },
+        {
+          "heading": "REFERENCE",
+          "body": "중국 전통 원림의 차경(借景) 기법을 거울이라는 현대적 재료로 재해석했다."
+        },
+        {
+          "heading": "WHERE",
+          "body": "2026년 상하이 국제 꽃 축제에서 처음 공개됐다."
+        }
+      ]
+    }
+  ]
+}
