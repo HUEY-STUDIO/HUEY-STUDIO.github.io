@@ -70,7 +70,13 @@ CARDNEWS_EXT = "jpg"
 
 # ------------------------------------------------------------------ helpers
 def esc(s):
-    return html.escape(str(s or ""), quote=False)
+    return html.escape(str(s or ""), quote=True)
+
+
+def safe_url(u):
+    """외부 데이터 URL은 http(s)만 허용 — javascript: 등은 링크·이미지로 쓰지 않는다."""
+    u = str(u or "").strip()
+    return u if re.match(r"https?://", u, re.I) else ""
 
 
 def rich(s):
@@ -96,6 +102,7 @@ def thumb(img, label, extra_cls=""):
     """이미지 블록. 로드 실패 시 매체명 플레이스홀더로 대체."""
     label = esc(label or "IMAGE")
     cls = ("thumb " + extra_cls).strip()
+    img = safe_url(img)
     if not img:
         return f'<div class="{cls} noimg" data-label="{label}"></div>'
     return (
@@ -112,8 +119,8 @@ def first_url(src):
     groups = src if isinstance(src, list) else [src]
     for g in groups:
         for l in (g.get("links") or []):
-            if l.get("url"):
-                return l["url"]
+            if safe_url(l.get("url")):
+                return safe_url(l["url"])
     return None
 
 
@@ -134,8 +141,8 @@ def source(src):
     parts = []
     for g in groups:
         links = " · ".join(
-            f'<a href="{esc(l["url"])}" target="_blank" rel="noopener">{esc(l.get("text") or "기사")}</a>'
-            for l in g.get("links", [])
+            f'<a href="{esc(safe_url(l.get("url")))}" target="_blank" rel="noopener">{esc(l.get("text") or "기사")}</a>'
+            for l in g.get("links", []) if safe_url(l.get("url"))
         )
         parts.append(f'<span class="o">{esc(g.get("outlet"))}</span> · {links}')
     return '<div class="src">' + " &nbsp;|&nbsp; ".join(parts) + "</div>"
@@ -174,7 +181,7 @@ def shell(title, body, css_prefix="", description=None, canonical=None,
     ld = ""
     if jsonld:
         ld = ('\n<script type="application/ld+json">'
-              + json.dumps(jsonld, ensure_ascii=False, separators=(",", ":"))
+              + json.dumps(jsonld, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
               + "</script>")
     robots = '<meta name="robots" content="noindex,nofollow">\n' if noindex else ""
     return f"""<!DOCTYPE html>
@@ -1489,7 +1496,8 @@ def build_feed(index):
     <pubDate>{rfc822(day)}</pubDate>
     <description><![CDATA[{html_body}]]></description>
   </item>""")
-    now = format_datetime(datetime.now(timezone(timedelta(hours=9))))
+    # 빌드 시각이 아니라 최신호 날짜 — 재빌드마다 feed.xml이 바뀌어 봇 커밋이 생기지 않게
+    now = rfc822(index[0]["date"]) if index else rfc822("2026-01-01")
     xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
@@ -1759,7 +1767,7 @@ def check(days, verbose=True):
         n_comp = sum(1 for _l, a in iter_articles(d) if a.get("topic") == "설계공모")
         if n_comp < 2:
             warns.append(f"{day}: 설계공모가 {n_comp}건입니다 (최소 2건)")
-        if kr_actual < 6:
+        if kr_actual < 6 and day >= "2026-09-23":
             warns.append(f"{day}: korea[] 가 {kr_actual}건입니다 (6~8건 권장)")
 
         # 4) 카드뉴스 ref 가 실존 기사를 가리키는지 + PNG/JPG 실물 개수
@@ -1915,7 +1923,12 @@ if __name__ == "__main__":
         errs, _warns = check(targets)
         sys.exit(1 if errs else 0)
 
-    days = all_days if args[0] == "--all" else args
+    if args[0] == "--all":
+        days = all_days
+    else:
+        # 새 호를 발행하면 직전 호의 '다음호' 링크도 바뀌므로 직전 호를 함께 다시 빌드한다
+        prevs = {all_days[all_days.index(d) - 1] for d in args if d in all_days and all_days.index(d) > 0}
+        days = sorted(set(args) | prevs)
 
     # 빌드 전 자동 검증. 오류가 있어도 빌드는 계속하되(부분 수정 중일 수 있으므로)
     # 반드시 눈에 띄게 남긴다.

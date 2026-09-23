@@ -139,7 +139,7 @@
       </div>
       <div class="pane">
         <h3>미리보기 — 실제 지면 CSS로 렌더링</h3>
-        <iframe id="preview-frame" title="지면 미리보기"></iframe>
+        <iframe id="preview-frame" title="지면 미리보기" sandbox></iframe>
         <div class="preview-note">
           왼쪽 JSON을 고치면 0.4초 뒤 자동으로 다시 그립니다. 실제 사이트의 <code>assets/style.css</code>를 그대로 불러와
           쓰므로 발행됐을 때와 거의 같은 모습입니다 — 다만 카드뉴스 스트립·상단 탭 이동은 미리보기에서 빠져 있고,
@@ -251,7 +251,7 @@
       } else {
         showMsg(authMsg, "err", "확인 실패 (HTTP " + r.status + ")");
       }
-    }).catch(function(e){ showMsg(authMsg, "err", "네트워크 오류: " + e.message); });
+    }).catch(function(e){ showMsg(authMsg, "err", "네트워크 오류: " + esc(e.message)); });
   });
   btnLogout.addEventListener("click", setLoggedOut);
 
@@ -283,7 +283,7 @@
         }
         return r.json().then(function(j){ throw new Error("HTTP " + r.status + " " + (j.message||"")); });
       })
-      .catch(function(e){ loadStatus.textContent = ""; showMsg(lintMsg, "err", "불러오기 실패: " + e.message); });
+      .catch(function(e){ loadStatus.textContent = ""; showMsg(lintMsg, "err", "불러오기 실패: " + esc(e.message)); });
   });
 
   var TEMPLATE = {
@@ -331,7 +331,7 @@
     try{
       textArea.value = JSON.stringify(JSON.parse(textArea.value), null, 2);
       clearMsg(lintMsg);
-    }catch(e){ showMsg(lintMsg, "err", "JSON 문법 오류: " + e.message); }
+    }catch(e){ showMsg(lintMsg, "err", "JSON 문법 오류: " + esc(e.message)); }
   });
 
   function lint(data){
@@ -354,7 +354,7 @@
     if(c.total !== undefined && c.total !== n) errors.push("counts.total " + c.total + " ≠ 실제 기사 " + n + "건");
     var krActual = (data.korea || []).length;
     if(c.kr !== undefined && c.kr !== krActual) warns.push("counts.kr " + c.kr + " ≠ korea[] " + krActual + "건");
-    if(krActual < 3 || krActual > 5) warns.push("korea[] 가 " + krActual + "건입니다 (3~5건 권장)");
+    if(krActual < 6) warns.push("korea[] 가 " + krActual + "건입니다 (6~8건 권장)");
     if(data.teasers && data.teasers.length !== 4) warns.push("teasers 가 " + data.teasers.length + "개입니다 (정확히 4개 필요)");
     var compCount = 0;
     (["intl_feature","intl_grid","korea","briefs"]).forEach(function(key){
@@ -368,7 +368,7 @@
   btnLint.addEventListener("click", function(){
     var data;
     try{ data = JSON.parse(textArea.value); }
-    catch(e){ showMsg(lintMsg, "err", "JSON 문법 오류: " + e.message); return; }
+    catch(e){ showMsg(lintMsg, "err", "JSON 문법 오류: " + esc(e.message)); return; }
     var r = lint(data);
     if(r.errors.length === 0 && r.warns.length === 0){
       showMsg(lintMsg, "ok", "이상 없음 (기사 " + r.total + "건)");
@@ -376,7 +376,7 @@
       var lines = [];
       r.errors.forEach(function(x){ lines.push("[오류] " + x); });
       r.warns.forEach(function(x){ lines.push("[경고] " + x); });
-      showMsg(lintMsg, r.errors.length ? "err" : "warn", lines.join("\n"));
+      showMsg(lintMsg, r.errors.length ? "err" : "warn", esc(lines.join("\n")));
     }
   });
 
@@ -385,7 +385,7 @@
     if(!date){ showMsg(saveMsg, "err", "날짜를 먼저 고르세요."); return; }
     var data;
     try{ data = JSON.parse(textArea.value); }
-    catch(e){ showMsg(saveMsg, "err", "JSON 문법 오류가 있어 저장할 수 없습니다: " + e.message); return; }
+    catch(e){ showMsg(saveMsg, "err", "JSON 문법 오류가 있어 저장할 수 없습니다: " + esc(e.message)); return; }
     var r = lint(data);
     if(r.errors.length){
       showMsg(saveMsg, "err", "다음 오류를 먼저 고치세요:\n" + r.errors.map(function(x){return "· "+x;}).join("\n"));
@@ -413,7 +413,7 @@
         if(res.status === 409){
           showMsg(saveMsg, "err", "다른 곳에서 먼저 저장되어 충돌했습니다. '불러오기'로 최신본을 다시 받아 병합한 뒤 저장하세요.");
         } else {
-          showMsg(saveMsg, "err", "저장 실패 (HTTP " + res.status + "): " + (res.json.message || ""));
+          showMsg(saveMsg, "err", "저장 실패 (HTTP " + res.status + "): " + esc(res.json.message || ""));
         }
         return;
       }
@@ -429,7 +429,7 @@
       );
     }).catch(function(e){
       btnSave.disabled = false;
-      showMsg(saveMsg, "err", "네트워크 오류: " + e.message);
+      showMsg(saveMsg, "err", "네트워크 오류: " + esc(e.message));
     });
   });
 
@@ -447,8 +447,8 @@
   // 구조·클래스명이 바뀌면 render.py 쪽도 같이 봐야 한다.
   // ============================================================
   function esc(s){
-    return String(s == null ? "" : s).replace(/[&<>]/g, function(c){
-      return { "&":"&amp;", "<":"&lt;", ">":"&gt;" }[c];
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+      return { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c];
     });
   }
   function rich(s){
@@ -466,8 +466,13 @@
     var arr = Array.isArray(body) ? body : (body ? [body] : []);
     return arr.map(function(p){ return "<p>" + rich(p) + "</p>"; }).join("\n");
   }
+  function safeUrl(u){
+    u = String(u == null ? "" : u).trim();
+    return /^https?:\/\//i.test(u) ? u : "";
+  }
   function thumb(img, label){
     var l = esc(label || "IMAGE");
+    img = safeUrl(img);
     if(!img) return '<div class="thumb noimg" data-label="' + l + '"></div>';
     return '<div class="thumb" data-label="' + l + '">' +
       '<img src="' + esc(img) + '" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'noimg\')"></div>';
@@ -477,7 +482,7 @@
     var groups = Array.isArray(src) ? src : [src];
     for(var i=0;i<groups.length;i++){
       var links = (groups[i] && groups[i].links) || [];
-      for(var j=0;j<links.length;j++) if(links[j].url) return links[j].url;
+      for(var j=0;j<links.length;j++) if(safeUrl(links[j].url)) return safeUrl(links[j].url);
     }
     return null;
   }
@@ -490,8 +495,8 @@
     if(!src) return "";
     var groups = Array.isArray(src) ? src : [src];
     var parts = groups.map(function(g){
-      var links = (g.links || []).map(function(l){
-        return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.text || "기사") + '</a>';
+      var links = (g.links || []).filter(function(l){ return safeUrl(l.url); }).map(function(l){
+        return '<a href="' + esc(safeUrl(l.url)) + '" target="_blank" rel="noopener">' + esc(l.text || "기사") + '</a>';
       }).join(" · ");
       return '<span class="o">' + esc(g.outlet) + '</span> · ' + links;
     });
