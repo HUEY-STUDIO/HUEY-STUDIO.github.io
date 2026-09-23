@@ -1759,8 +1759,8 @@ def check(days, verbose=True):
         n_comp = sum(1 for _l, a in iter_articles(d) if a.get("topic") == "설계공모")
         if n_comp < 2:
             warns.append(f"{day}: 설계공모가 {n_comp}건입니다 (최소 2건)")
-        if kr_actual < 3:
-            warns.append(f"{day}: korea[] 가 {kr_actual}건입니다 (3~5건 권장)")
+        if kr_actual < 6:
+            warns.append(f"{day}: korea[] 가 {kr_actual}건입니다 (6~8건 권장)")
 
         # 4) 카드뉴스 ref 가 실존 기사를 가리키는지 + PNG/JPG 실물 개수
         for cn in d.get("cardnews") or []:

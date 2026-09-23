@@ -96,7 +96,7 @@ python3 render.py --all          # 전체 재생성 (CSS·구조 수정 후)
 - 분량 목표
   - `top` 1건 (그날 가장 큰 뉴스)
   - `side` 1건 — **설계 실무에 영향을 주는 제도·규제·기술 이슈를 반드시 배치**
-  - `intl_feature` 2건, `intl_grid` 4건, **`korea` 3~5건**, `briefs` 6~9건
+  - `intl_feature` 2건, `intl_grid` 4건, **`korea` 6~8건**, `briefs` 6~9건
   - **설계공모 최소 2건** (국내 우선 확보 — 가능하면 국내 2건 이상 + 해외 1건 이상).
     `korea`/`intl_feature`/`intl_grid` 중 알맞은 배열에 넣고 `topic: "설계공모"`만 붙이면
     된다 — 렌더링 시 자동으로 별도 섹션에 모인다 (아래 참조)
@@ -248,7 +248,7 @@ GitHub Pages가 1~2분 뒤 반영한다.
       "body": ["..."], "source": { ... }, "topic": "프로젝트" }
   ],
 
-  "korea": [ /* 3~5건 — image 없으면 좌측 오렌지 보더 텍스트 카드 */
+  "korea": [ /* 6~8건 — image 없으면 좌측 오렌지 보더 텍스트 카드 */
     { "kicker": "...", "title": "...", "body": ["..."], "source": { ... }, "topic": "설계공모" }
   ],
 
