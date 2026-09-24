@@ -1,0 +1,541 @@
+{
+  "vol": "VOL.01  NO.040",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 15,
+    "kr": 6
+  },
+  "outlets": [
+    "Wallpaper*",
+    "Archinect",
+    "중부매일",
+    "ArchDaily",
+    "designboom",
+    "Construction Dive",
+    "ENR",
+    "jootek",
+    "아시아투데이",
+    "건축사신문"
+  ],
+  "teasers": [
+    {
+      "title": "대한건축사협회 35대 회장선거",
+      "desc": "내년 1월 13~14일 온라인투표, 11월 예비후보 등록",
+      "label": "ELECTION"
+    },
+    {
+      "title": "$65억 릴리 휴스턴 공장 착공",
+      "desc": "GLP-1 치료제 생산, '메이드 인 아메리카' 500억달러 투자 중 하나",
+      "label": "MEGAPROJECT"
+    },
+    {
+      "title": "서울강서 A1BL 군관사 설계공모",
+      "desc": "공동주택 설계비 49.8억원, 공사비 4,627억원 규모",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "네팔 홍수 복구, 장기전으로",
+      "desc": "사망 1,399명·실종 5,179명, 조기복구비 48억달러 추산",
+      "label": "RECOVERY"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 수상",
+    "lede": "매립지 캠퍼스부터 모더니즘 타워까지, RIBA 인터내셔널 프라이즈 최종 4파전",
+    "lede_em": "RIBA 인터내셔널 프라이즈 최종 4파전",
+    "image": "https://cdn.mos.cms.futurecdn.net/ebkutappzPFrco3Vo3T84Y.jpg",
+    "image_label": "WALLPAPER",
+    "caption": "방글라데시 다카, 옛 매립지를 되살린 WOHA의 브락대학교 ⓒ Wallpaper*",
+    "body": [
+      "영국왕립건축가협회(RIBA)가 올해로 10주년을 맞는 '인터내셔널 프라이즈' 최종 후보 4곳을 공개했다. 방글라데시 다카의 대학 캠퍼스부터 벨기에 브뤼셀의 모더니즘 오피스타워까지, 서로 다른 대륙과 프로그램의 건물들이 최종 라운드에서 맞붙는다. 심사위원단은 10월 중순 현지 실사를 거쳐 10월 15일 수상작을 발표한다.",
+      "방글라데시에서는 두 프로젝트가 나란히 이름을 올렸다. WOHA가 설계한 **브락대학교**는 옛 매립지를 되살려 2만 명이 이용하는 13층 수직 캠퍼스로 탈바꿈시켰고, 저층부에는 시민에게 개방된 공공공간을 배치했다. 낙샤비드 아키텍츠의 **그린필드 팩토리**는 7층 섬유공장을 벵골 농가의 마당 구조에서 착안해 자연 환기가 되는 노동자 복지 공간으로 재구성했다.",
+      "벨기에의 두 후보는 모두 기존 건물을 되살린 사례다. 카루소 세인트 존과 보벤바우 아키텍투어가 손잡은 **로열 벨지**는 1960년대 모더니즘 보험사 사옥을 호텔·업무·상업 공간이 결합된 복합시설로 개조했고, 프란체스카 토르조가 설계한 **Z33**은 하셀트의 역사적 베긴회 정원 안에 자리한 1958년 뮤지엄을 증개축해 전시·정원 공간으로 넓혔다.",
+      "RIBA 어워드 심사위원장 닐 길레스피는 '네 프로젝트 모두 맥락에 대한 예외적인 이해를 보여준다'고 평했다. 10주년을 맞은 올해 시상식은 예년보다 심사 규모를 키워 진행됐으며, 최종 승자는 재료의 완성도보다 건축이 일상과 공동체에 기여하는 방식을 기준으로 가려질 전망이다."
+    ],
+    "source": [
+      {
+        "outlet": "Wallpaper*",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.wallpaper.com/architecture/riba-international-prize-2026-shortlist"
+          }
+        ]
+      },
+      {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "관련 기사",
+            "url": "https://archinect.com/news/bustler/11138/riba-unveils-shortlist-for-best-international-building-of-2026"
+          }
+        ]
+      }
+    ],
+    "topic": "수상"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "중부매일",
+    "title": "발주자 책임 첫 법제화…건설안전특별법, 석 달 만에 수정 재발의",
+    "body": [
+      "국회 국토교통위원회 문진석 의원(더불어민주당, 천안갑)이 22일 건설안전특별법안을 수정해 다시 발의했다. 지난 6월 대표발의한 법안을 국토교통부와 건설업계, 학계 의견을 반영해 석 달간 보완한 결과다. 법안의 핵심은 공사기간과 공사비를 발주자가 책임지고 산정하도록 의무화한 것으로, 반복되는 건설현장 사망사고의 근본 원인을 발주 단계에서부터 차단하겠다는 취지다."
+    ],
+    "facts": [
+      "적용 범위: 전기·통신·소방시설, 국가유산 수리공사까지 확대",
+      "과징금: 연매출 **3%** 이내, 최대 **1,000억원**(매출 없으면 10억원 한도)",
+      "근로자 제재: 안전수칙 위반 시 최대 **300만원** 과태료 신설",
+      "시행: 공포 후 **1년** 뒤, 공사비 50억원 미만은 2년 유예"
+    ],
+    "body_after": [
+      "이 법안은 지난달 29일 이재명 대통령이 주재한 국무회의 중대재해 근절대책 토론에서 국토부가 건의하며 정부 차원의 핵심 과제로 채택됐다. 수정안에는 안전관리 우수 사업장에 대한 과징금 감경, 건설안전진흥기금 신설, 스마트 안전장비 운영 지원 등 업계 의견을 반영한 완화책도 담겼다."
+    ],
+    "source": {
+      "outlet": "중부매일",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.jbnews.com/news/articleView.html?idxno=1490653"
+        }
+      ]
+    },
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "건축 · 일본",
+      "title": "고정된 외곽선을 지운 사무실, '도미노' 다시 그린 도야마의 목조 본사",
+      "image": "https://images.adsttc.com/media/images/6ab2/8648/472c/aa01/8aa1/51b9/newsletter/stroog-headquarters-mount-fuji-architects-studio_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "마운트후지 건축사무소스튜디오가 일본 도야마현에 완성한 스트로그 본사는 르코르뷔지에의 '도미노' 구조 개념을 반복 가능한 목조 골조로 다시 해석했다. 499㎡ 규모의 건물은 처음부터 완성된 외곽선을 정하지 않고, 공간과 시간 모두에 열려 있는 구조 시스템을 지향했다.",
+        "목재와 유리, 철골을 노출한 구조는 이후 용도 변화에 맞춰 벽과 칸막이를 자유롭게 덧붙이거나 뺄 수 있도록 설계됐다. 사진은 료타 아타라시가 촬영했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1185578/stroog-headquarters-mount-fuji-architects-studio"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축 · 대만",
+      "title": "허물어진 원형 대신 다시 지은 콘크리트 뮤지엄, 가족의 기억을 잇다",
+      "image": "https://images.adsttc.com/media/images/6ab1/4076/c765/2000/0134/6e29/large_jpg/Tianlai_Art_Museum__24_.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "대만 푸쯔시의 '톈라이 아트뮤지엄'은 낡은 옛 건물을 보수하는 대신 완전히 새로 지어 가족이 지켜온 땅과의 연결을 다음 세대까지 이어가기로 한 선택의 결과다. 마오·션치앙 건축스튜디오는 133㎡ 규모의 노출콘크리트 건물로 개인의 기억을 공공 전시 공간으로 바꿔냈다.",
+        "시공은 콘크리트 전문업체 스아오가 맡았으며, 2025년 완공됐다. 사진은 궈민 리가 촬영했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1185463/tianlai-art-museum-mao-shen-chiang-architecture-studio"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "건축 · 일본",
+      "title": "기울어진 기둥이 지진을 흡수한다, 신사 경내에 지은 목조 사무소",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/leaning-timber-shrine-office-japan-sobokuya-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "야마나시현 호쿠토시 후지타케 신사 경내에 소보쿠야 스튜디오가 지은 47.1㎡ 사무소는 두 가지 전통 목조 기법을 겹쳤다. 초석 위에 기둥을 얹는 '이시바다테'와 기둥을 바깥으로 균일하게 기울이는 '니호코로비'로 하중을 대각선으로 분산시키고, 고정되지 않은 기초가 지진의 흔들림을 흡수하도록 했다. 야쓰가타케 산자락에서 벤 낙엽송과 다이코 가공한 적송보, 코르텐강 지붕, 회벽으로 마감해 계절에 따라 달라지는 빛과 그림자를 다다미방 안으로 끌어들인다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/leaning-timber-frame-shrine-office-japanese-mountain-valley-sobokuya/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축 · 그리스",
+      "title": "150년 된 전나무 지붕 드러낸 피레우스 항구 창고, 갤러리 겸 사무실로",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/mpnyc-manhattan-projects-new-york-city-former-port-warehouse-adaptable-cultural-space-piraeus-andreas-kostopoulos-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "그리스 피레우스 항구의 낡은 창고를 안드레아스 코스토풀로스가 이끄는 맨해튼프로젝트뉴욕시티(MPNYC)가 갤러리 겸 사무실 겸 쇼룸으로 되살렸다. 덧대진 마감을 걷어내 원래의 성격을 드러내는 '빼기'의 방식으로 접근했고, 매달린 천장을 철거해 150년 된 전나무 지붕 구조를 노출시켰다. 회의실은 갤러리로, 주방은 워크숍이나 팝업 공간으로 바뀌는 식으로 방마다 용도가 유동적인 '슬라이더' 구조를 지향했다. 10월 개관전에는 사진 작업이 걸린다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/mpnyc-manhattan-projects-new-york-city-former-port-warehouse-adaptable-cultural-space-piraeus-andreas-kostopoulos/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건설업 · 미국",
+      "title": "$65억 투입한 일라이릴리 휴스턴 공장, GLP-1 치료제 생산기지로",
+      "image": "https://imgproxy.divecdn.com/qcagKZZsYy_y5PCYgEkX0uHoR58uvHTQi5WI2Ipdh1I/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9FbGlfTGlsbHlfTWFudWZhY3R1cmluZ19GYWNpbGl0eV9HZW5lcmF0aW9uX1BhcmtfVGV4YXNfdmlaOG93MC5qcGc=.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "제약사 일라이릴리가 23일 텍사스 휴스턴에서 65억달러 규모 신공장 착공식을 열었다. 2020년 이후 미국 내 발표한 10번째 생산시설로, 회사가 추진 중인 500억달러 규모 '메이드 인 아메리카' 투자의 일부다. 공장은 첫 합성경구 GLP-1 비만치료제 '폰다요'를 비롯한 저분자 의약품과 첨단 치료제의 원료의약품을 생산하며, 머신러닝과 AI 기반 데이터 분석을 접목한 디지털 통합 공정을 갖춘다. 벡텔이 시공을 맡았다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.constructiondive.com/news/eli-lilly-breaks-ground-houston-manufacturing-plant/831307/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건설업 · 미국",
+      "title": "$1억2000만 들인 미주리대 에너지혁신센터, 4층 규모로 착공",
+      "image": "https://www.enr.com/ext/resources/2026/09/24/Sept.24paynecenter.webp?t=1790276080",
+      "image_label": "ENR",
+      "body": [
+        "미주리대학교 컬럼비아 캠퍼스에 1억2000만달러를 투입한 '에너지혁신센터'가 착공했다. 11만6000평방피트, 지상 4층 규모로 에너지 소재·인공지능·전력망 보안·발전과 저장·원자력 등을 아우르는 연구공간을 한데 모은다. 화이팅-터너가 시공을, PGAV 아키텍츠가 설계를 맡았으며 2028년 완공 목표다. 건물명은 5000만달러를 기부한 페인크레스트 일렉트릭 회장 데이비드 페인의 이름을 땄다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63690-missouri-breaks-ground-on-120m-energy-innovation-center"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 전남 나주",
+      "title": "세지중학교 본관동 개축, 설계비 2.8억원 제안공모",
+      "body": [
+        "전남 나주시 세지중학교가 본관동 공간재구조화 개축공사 설계용역을 제안공모로 발주했다. 대상지는 나주시 세지면 오봉리 일원, 연면적 2,260㎡ 규모 교육연구시설로 22일 공고됐다. 참가등록은 10월 1일까지이며, 결과는 11월 4일 발표된다."
+      ],
+      "source": {
+        "outlet": "jootek",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18925"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 서울 강서",
+      "title": "군관사 부지에 공동주택, 서울강서 A1BL 위탁개발 설계공모",
+      "body": [
+        "서울 강서구 옛 군관사 부지에 공동주택을 짓는 'A1BL 위탁개발사업' 설계공모가 22일 공고됐다. 설계비 49.8억원, 공사비 4,627억원 규모의 일반 설계공모로 참가등록은 10월 1일까지다. 결과는 11월 20일 발표된다."
+      ],
+      "source": {
+        "outlet": "jootek",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18926"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 재공고 · 대구",
+      "title": "양성자치료센터 설계공모 재공고, 칠곡경북대병원",
+      "body": [
+        "칠곡경북대학교병원이 양성자치료센터 건립사업 설계공모를 다시 공고했다. 대구 북구 학정동 부지에 연면적 1만2800㎡, 설계비 약 18.3억원 규모의 의료시설로 제안공모 방식으로 진행된다. 참가등록 마감은 29일이며, 9인 심사위원단이 11월 3일까지 결과를 발표한다."
+      ],
+      "source": {
+        "outlet": "jootek",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/18793"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "착공 · 광주",
+      "title": "삼성이 인수한 독일 플랙트, 광주에 첫 국내 생산기지 착공",
+      "body": [
+        "금호건설이 21일 광주 삼성전자 3캠퍼스 부지에서 '플랙트' 한국공장 착공식을 열었다. 연면적 2만3588㎡ 단층 규모로 AI 데이터센터·반도체 생산시설용 공조 설비를 생산하며, 2028년 2월 준공 예정이다. 플랙트는 삼성전자가 최근 인수한 독일 공조기업으로, 이번 공장은 국내 첫 생산 거점이다."
+      ],
+      "source": {
+        "outlet": "아시아투데이",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260921010008101"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "협회 소식",
+      "title": "대한건축사협회 35대 회장선거 일정 확정…내년 1월 온라인투표",
+      "body": [
+        "대한건축사협회가 제35대 회장선거 일정을 공고했다. 예비후보 등록은 11월 2~6일, 본후보 등록은 11월 23~27일이며, 투표는 내년 1월 13~14일 온라인(케이보팅)으로 진행된다. 12일에는 17개 지역회에 현장투표소도 설치된다. 당선을 위해서는 유효투표 20% 이상을 득표하거나 결선투표를 거쳐야 한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://ancnews.kr/news/articleView.html?idxno=21153"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "협회 소식 · 서울",
+      "title": "'2026 서울, 건축산책' 공모전 마무리…동네 좋은집·청소년 사진전",
+      "body": [
+        "서울특별시건축사회가 '2026 서울, 건축산책' 공모전을 마무리하고 1일 시상식을 열었다. 랜드마크가 아닌 동네 소규모 건축의 가치를 조명하는 '우리동네 좋은집 찾기'와 청소년이 도시를 기록하는 '청소년 건축사진 공모전' 두 부문으로 진행됐다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://ancnews.kr/news/articleView.html?idxno=21138"
+          }
+        ]
+      },
+      "topic": "수상"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "GSA 공무원, 뇌물수수로 징역 3년",
+      "body": "미국 연방조달청(GSA) 전 감독관이 워싱턴DC 세인트엘리자베스 웨스트캠퍼스 공사에서 특정 하도급업체에 일감을 몰아준 대가로 뇌물을 받아 징역 3년을 선고받았다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63703-gsa-official-gets-three-years-for-steering-construction-work-for-bribes"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "버지니아 주지사, 데이터센터 인센티브 제한 행정명령",
+      "body": "애비게일 스팬버거 버지니아 주지사가 최대수요 25MW 이상 데이터센터를 주 부지개발 지원과 신속 인허가 대상에서 제외하는 행정명령에 서명했다. 소음·배출·수자원 등 환경영향 기준도 새로 마련하도록 했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.constructiondive.com/news/virginia-data-center-executive-order-questions-construction/831237/"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "캘리포니아 고속철도청, 컨설턴트 부정지출 200만달러 적발",
+      "body": "캘리포니아 고속철도청 감사관실이 무관한 출장지 이동, 규정 초과 업그레이드 등 컨설턴트의 부정 지출 200만달러 이상을 적발했다. 사업 현금 고갈 예상 시점은 2027년 12월이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.constructiondive.com/news/california-high-speed-rail-oig-spending/831245/"
+          }
+        ]
+      },
+      "topic": "제도규제"
+    },
+    {
+      "title": "네팔 홍수 복구, 장기 재건 국면으로",
+      "body": "8월 빙하 붕괴로 촉발된 네팔 대홍수의 실종자 수색이 9월 16일 종료되고 장기 재건 국면에 들어갔다. 사망 1,399명·실종 5,179명이며, 교량 105곳이 파손·유실됐다. 정부는 조기복구비를 48억달러로 추산한다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63673-nepals-post-flood-nightmare-shifts-to-broader-recovery"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    },
+    {
+      "title": "헤더 로버지 전 UCLA 건축·도시디자인학과장 별세",
+      "body": "2017~2020년 UCLA 건축·도시디자인학과장을 지낸 헤더 로버지가 타계했다. LA 기반 스튜디오 '머머'를 설립했고, 별세 수 주 전 AIA LA 올해의 교육자상을 받았다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://archinect.com/news/article/150567057/heather-roberge-former-ucla-aud-chair-architect-and-champion-of-innovation-has-passed-away"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "부산·인천건축사회 야구단, 첫 친선경기",
+      "body": "부산·인천 건축사회 소속 건축사들이 부산 기장 현대드림볼파크에서 첫 친선 야구경기를 열었다. 두 지역회는 전국 건축사 야구리그로 확대를 구상하고 있다.",
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://ancnews.kr/news/articleView.html?idxno=21156"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 노스캐롤라이나주립대, 건설현장 안전모 개선 연구",
+      "body": "노스캐롤라이나주립대가 현장안전연구소(JSI) 지원으로 기존 1종 안전모를 턱끈과 측면 보호가 강화된 2종 헬멧으로 전환하는 연구에 나섰다. 미국에서만 매년 약 200명이 외상성 뇌손상으로 사망한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.constructiondive.com/news/study-construction-safety-helmets-jsi-nc-state/831191/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "riba-international-prize-2026-shortlist",
+      "tag": "AWARDS",
+      "title": "RIBA 인터내셔널 프라이즈, 최종 4파전",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "modern university campus dhaka bangladesh architecture",
+      "slides": [
+        {
+          "heading": "매립지 캠퍼스부터\n모더니즘 타워까지",
+          "body": "RIBA 인터내셔널 프라이즈 10주년, 최종 4파전 공개"
+        },
+        {
+          "heading": "WHAT",
+          "body": "영국왕립건축가협회가 인터내셔널 프라이즈 최종 후보 4곳을 공개했다. 수상작은 10월 15일 발표된다."
+        },
+        {
+          "heading": "BRAC UNIVERSITY",
+          "body": "WOHA가 다카의 옛 매립지를 되살려 2만 명이 쓰는 13층 수직 캠퍼스로 바꿨다."
+        },
+        {
+          "heading": "GREEN FIELD FACTORY",
+          "body": "낙샤비드 아키텍츠는 방글라데시 섬유공장을 벵골 농가 마당 구조로 재구성해 노동자 복지 공간을 더했다."
+        },
+        {
+          "heading": "ROYALE BELGE",
+          "body": "카루소 세인트 존과 보벤바우가 1960년대 브뤼셀 보험사 사옥을 호텔·오피스 복합시설로 개조했다."
+        },
+        {
+          "heading": "Z33",
+          "body": "프란체스카 토르조는 하셀트의 1958년 뮤지엄을 베긴회 정원 안에서 증개축했다."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "10주년을 맞은 올해, 심사위원단은 재료의 완성도보다 건축이 일상과 공동체에 기여하는 방식을 기준으로 삼는다."
+        }
+      ]
+    },
+    {
+      "slug": "construction-safety-act-revision-2026",
+      "tag": "제도규제",
+      "title": "발주자 책임 첫 법제화, 건설안전특별법",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "construction site workers safety helmet",
+      "slides": [
+        {
+          "heading": "발주자 책임\n첫 법제화",
+          "body": "건설안전특별법, 석 달 만에 수정 재발의"
+        },
+        {
+          "heading": "WHAT",
+          "body": "문진석 의원이 공사기간·공사비를 발주자가 책임지고 산정하도록 의무화한 건설안전특별법안을 22일 수정 재발의했다."
+        },
+        {
+          "heading": "SCOPE",
+          "body": "적용 범위를 전기·통신·소방시설과 국가유산 수리공사까지 넓혔다."
+        },
+        {
+          "heading": "PENALTY",
+          "body": "위반 시 연매출 3% 이내, 최대 1,000억원의 과징금이 부과된다."
+        },
+        {
+          "heading": "WORKERS",
+          "body": "안전수칙을 어긴 근로자에게도 최대 300만원 과태료가 새로 생긴다."
+        },
+        {
+          "heading": "TIMELINE",
+          "body": "공포 후 1년 뒤 시행되며, 50억원 미만 공사는 2년 유예를 준다."
+        }
+      ]
+    },
+    {
+      "slug": "eli-lilly-houston-glp1-plant",
+      "tag": "CONSTRUCTION",
+      "title": "$65억, 일라이릴리 휴스턴 신공장",
+      "ref": {
+        "section": "intl_grid",
+        "index": 2
+      },
+      "bg": 2,
+      "photo_query": "industrial factory steel construction site",
+      "slides": [
+        {
+          "heading": "$65억 투입\n휴스턴 신공장",
+          "body": "일라이릴리, GLP-1 치료제 생산기지 착공"
+        },
+        {
+          "heading": "WHAT",
+          "body": "일라이릴리가 23일 텍사스 휴스턴에서 65억달러 규모 신공장 착공식을 열었다."
+        },
+        {
+          "heading": "WHY",
+          "body": "2020년 이후 발표한 미국 내 10번째 생산시설로, 500억달러 '메이드 인 아메리카' 투자의 일부다."
+        },
+        {
+          "heading": "PRODUCT",
+          "body": "첫 합성경구 GLP-1 비만치료제 '폰다요' 등 저분자 의약품 원료를 생산한다."
+        },
+        {
+          "heading": "TECH",
+          "body": "머신러닝과 AI 데이터 분석을 접목한 디지털 통합 공정을 갖춘다."
+        }
+      ]
+    }
+  ]
+}
