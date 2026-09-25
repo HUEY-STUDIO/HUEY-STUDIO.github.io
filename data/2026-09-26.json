@@ -1,0 +1,425 @@
+{
+  "vol": "VOL.01  NO.041",
+  "editor": "HUEY",
+  "counts": {
+    "total": 14,
+    "intl": 10,
+    "kr": 4
+  },
+  "outlets": [
+    "ArchDaily",
+    "Dezeen",
+    "Construction Dive",
+    "Hoodline",
+    "Architectural Record",
+    "서프라이즈뉴스",
+    "외교저널",
+    "마실와이드"
+  ],
+  "teasers": [
+    {
+      "title": "부가티, 마이애미 60층 타워",
+      "desc": "브랜드 레지던스 첫 미국 진출, 183세대·펜트하우스 4개",
+      "label": "MEGAPROJECT"
+    },
+    {
+      "title": "제프리 바와 회고전, 비트라서 개막",
+      "desc": "20년 만의 대규모 회고전, 도면·모형 250여 점",
+      "label": "OPENING"
+    },
+    {
+      "title": "서울시 일조사선 규제 완화",
+      "desc": "이격거리 5m로, 11월 12일 시행",
+      "label": "REGULATION"
+    },
+    {
+      "title": "서울시교육청 신청사, 건축상 대상",
+      "desc": "옛 수도여고 터, 더블유아키텍츠 설계",
+      "label": "AWARDS"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "전시면적을 두 배로, 프리다 에스코베도가 그린 말바 미술관의 지하 확장",
+    "lede_em": "프리다 에스코베도가 그린 말바 미술관의 지하 확장",
+    "image": "https://images.adsttc.com/media/images/6ab5/3c85/e78f/b301/883c/f603/large_jpg/frida-escobedo_4.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "부에노스아이레스 말바 미술관 지하 확장 조감도 ⓒ Taller Frida Escobedo",
+    "body": [
+      "멕시코시티와 뉴욕을 기반으로 활동하는 건축가 프리다 에스코베도의 스튜디오가 아르헨티나 부에노스아이레스 라틴아메리카 미술관(MALBA)의 지하 확장 설계를 공개했다. 미술관 앞 페루공화국광장(Plaza República del Perú) 지하를 파고들어 전시 공간을 두 배로 늘리는 프로젝트로, 2029년 말이나 2030년 초 개관을 목표로 한다.",
+      "확장동에는 기획전시실과 오디토리움, 다목적 공간, 옥외 광장형 안뜰, 워크숍실, 수장고, 사무 공간이 들어선다. 기존 건물과 광장을 지하로 잇는 동선을 새로 만들어, 미술관과 도시가 맺는 관계 자체를 재구성하겠다는 구상이다.",
+      "이번 확장은 미술관이 최근 확보한 다로스 라틴아메리카 컬렉션(Daros Latinamerica Collection)을 수용하기 위한 목적도 크다. 기존 건물의 정체성은 유지하면서 지하 공간을 활용해 지상부 경관을 해치지 않는 방식을 택했다.",
+      "에스코베도는 2018년 서펜타인 파빌리온을 설계해 이름을 알린 이후 국제 무대에서 입지를 넓혀왔다. 뉴욕 메트로폴리탄 뮤지엄의 '탱 윙' 확장 설계도 함께 진행 중이어서, 이번 말바 프로젝트로 라틴아메리카와 북미를 아우르는 미술관 건축의 대표 주자로 자리매김하는 모양새다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.archdaily.com/1185701/frida-escobedo-studio-to-design-underground-expansion-for-buenos-aires-malba-museum"
+        }
+      ]
+    },
+    "topic": "프로젝트",
+    "src_date": "2026-09-25"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://imgproxy.divecdn.com/t-V0AvupHVcy1AMJotoWVuY-zkmrxl5qfc9pPRNieOk/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjcwNjM3MTEyLmpwZw==.webp",
+    "image_label": "CONSTRUCTION DIVE",
+    "title": "도로예산 시한 12월로 넘어갔지만…선진예치금 빠져 불확실성 여전",
+    "body": [
+      "미국 연방 도로·교통 예산의 법적 근거인 IIJA(초당적 인프라법)의 임시 재승인 시한이 9월 30일에서 12월 11일로 늦춰졌다. 회계연도 종료에 맞춘 '펀딩 절벽'은 일단 피했지만, 업계는 여전히 불확실성을 지적한다."
+    ],
+    "facts": [
+      "연장 시한: 기존 **9월 30일** → **12월 11일**",
+      "핵심 공백: 교량 등 선진예치금(advance funding) 항목은 연장 대상에서 제외",
+      "영향: 각 주 교통국이 사업을 소규모로 쪼개 발주하며 계약비용 상승 우려",
+      "부작용: 입찰 개시·사업 착수가 줄줄이 지연"
+    ],
+    "body_after": [
+      "업계 단체들은 단기 연장이 다년도 예산 확보라는 근본 요구를 충족하지 못한다며, 다년도 도로·교통 재승인 법안인 'BUILD America 250'의 신속한 입법을 촉구하고 있다."
+    ],
+    "source": {
+      "outlet": "Construction Dive",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.constructiondive.com/news/infrastructure-contractors-funding-dec-11-iija-build-america-250/831433/"
+        }
+      ]
+    },
+    "topic": "제도규제",
+    "src_date": "2026-09-25"
+  },
+  "intl_feature": [
+    {
+      "kicker": "건축 · 미국",
+      "title": "부가티, 마이애미 강변에 60층 브랜드 레지던스 짓는다",
+      "image": "https://static.dezeen.com/uploads/2026/09/bugatti-skyscraper-miami-brandon-haw-yabu-pushelberg_dezeen_2364_col_1-852x479.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "자동차 브랜드 부가티가 미국 첫 브랜디드 레지던스로 마이애미 브릭켈 지구, 마이애미강변에 60층 규모 타워를 짓는다. 브랜든 호 아키텍처가 건축을, 야부 푸셸버그가 인테리어를 맡았으며 183세대 아파트와 펜트하우스 4개로 구성된다.",
+        "타워는 자동차 라인에서 영감을 받은 곡선형 매스를 네 개의 뚜렷한 블록으로 나누고, 층 사이사이 복층 높이의 개방부를 두어 상승하는 입면에 시각적 리듬을 줬다. 분양은 2027년 상반기부터 시작될 예정이다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/20/bugatti-skyscraper-miami-brandon-haw-yabu-pushelberg/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-09-20"
+    },
+    {
+      "kicker": "건축 · 미국",
+      "title": "BIG, 캘리포니아 시랜치 로지에 스파·객실 확장 계획",
+      "image": "https://img.hoodline.com/2026/9/sea-ranch-lodge-to-more-than-double-rooms-with-bold-bjarke-ingels-expansion.webp?max-h=442&w=760&fit=crop&crop=faces,center",
+      "image_label": "HOODLINE",
+      "body": [
+        "캘리포니아 소노마 해안의 시랜치 로지가 비야케 잉엘스 그룹(BIG)에 스파·객실 확장 설계를 맡겼다. 샌프란시스코 조경사무소 럿스코 어소시에이츠와 함께 작업하며, 17개인 객실을 23개 늘려 두 배 이상으로 키운다.",
+        "확장동은 스파·웰니스센터·도서관·식사공간을 포함해 6개 이상의 새 건물로 구성된다. 하이웨이1을 따라 늘어선 53에이커 부지에서, 기존 시랜치 특유의 목재 마감과 낮은 지붕선을 그대로 잇는 형태로 계획해 주변 초원 생태계에 대한 영향을 최소화했다."
+      ],
+      "source": {
+        "outlet": "Hoodline",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://hoodline.com/2026/09/sea-ranch-lodge-to-more-than-double-rooms-with-bold-bjarke-ingels-expansion/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-09-09"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "건축 · 미국",
+      "title": "국회의사당을 담은 유리 지붕, 커맨더스 새 홈구장 내부 공개",
+      "image": "https://static.dezeen.com/uploads/2026/09/commanders-stadium-interior-renderings-hks_dezeen_2364_hero-852x479.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "HKS가 옛 RFK 스타디움 부지에 짓는 워싱턴 커맨더스의 새 홈구장 내부 렌더링을 처음 공개했다. 7만 석 규모로 돌출 박스석이나 처마 없는 연속된 관람석을 택해 통합된 관람 경험을 노리고, 유리 지붕 개구부는 미 국회의사당 돔을 향하도록 설계했다. 개장은 2030년경으로 예정됐다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/17/hks-interior-renderings-commanders-stadium-dc-nfl/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-09-17"
+    },
+    {
+      "kicker": "건설업 · 미국",
+      "title": "피드몬트 헬스케어, 조지아에 6억달러 병원 짓는다",
+      "image": "https://imgproxy.divecdn.com/bKYG061vIAveY8Ox6u49z33sfXWbOGQ0644SNHcnB6Y/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg5OTMwOTMxXzEuanBn.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "피드몬트 헬스케어가 조지아주 뉴턴카운티에 6억달러 규모 신축 병원을 짓기로 했다. 지역 의료 수요 증가에 대응한 투자로, 조지아주에서는 스칸스카가 8400만달러 규모 데이터센터 공사를 별도로 수주하는 등 건설 발주가 잇따르고 있다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.constructiondive.com/news/punch-list-piedmont-georgia-hospital-skanska-data-center/831355/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-09-25"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "정비사업 · 서울 양천",
+      "title": "목동9·13단지 재건축, 서울시 통합심의 통과",
+      "body": [
+        "서울시 정비사업 통합심의위원회가 목동9단지·13단지 재건축을 통과시켰다. 목동9단지는 공동주택 41개동 지상 49층 3,958세대, 목동13단지는 26개동 지상 49층 3,852세대 규모다. 두 사업 모두 공공보행통로 변에 개방형 주민공동시설을 배치해 통학로 겸 생활가로로 조성하고, 그늘보행권 확보를 설계에 반영했다."
+      ],
+      "source": {
+        "outlet": "서프라이즈뉴스",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "http://www.surprisenews.kr/news/articleView.html?idxno=701758"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-09-22"
+    },
+    {
+      "kicker": "제도규제 · 서울",
+      "title": "서울시, 일조사선 이격거리 5m로 완화…11월 12일 시행",
+      "body": [
+        "서울시의회가 박승진 의원이 발의한 건축 조례 개정안을 11일 본회의에서 통과시켰다. 높이 10~17m 구간 건물의 인접대지경계선 이격거리를 법이 허용하는 최대폭인 5m로 완화하는 내용으로, 7월 국회를 통과한 건축법 개정을 반영했다. 서울시 주거용 위반건축물 7만7000여 건 중 58%가 일조사선 규정 위반인 만큼, 비아파트 주택 공급을 옥죄던 규제를 푸는 효과가 기대된다. 시행은 11월 12일부터다."
+      ],
+      "source": {
+        "outlet": "외교저널",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.djournal.co.kr/news/article.html?no=113205"
+          }
+        ]
+      },
+      "topic": "제도규제",
+      "src_date": "2026-09-11"
+    },
+    {
+      "kicker": "수상 · 서울 용산",
+      "title": "옛 수도여고 터에 들어선 서울시교육청 신청사, 서울시 건축상 대상",
+      "body": [
+        "용산구 후암동 옛 수도여자고등학교 터에 지어진 서울특별시교육청 신청사가 2026 서울시 건축상 대상을 받았다. 더블유아키텍츠 이원석 건축가가 설계했으며, 저층부에 도서관 카페·라운지·커뮤니티 계단 등 개방형 공공공간을 두어 후암동 주거지와 용산가족공원을 잇는다. 옛 교사 건물의 바닥판을 조경 재료로 재활용한 '기억의 정원'도 갖췄다."
+      ],
+      "source": {
+        "outlet": "마실와이드",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://masilwide.com/beyond-archi-2609-3/"
+          }
+        ]
+      },
+      "topic": "수상",
+      "src_date": "2026-09-18"
+    },
+    {
+      "kicker": "행사 · 서울",
+      "title": "'서울의 발견'…제18회 서울건축문화제, 10월 11일까지",
+      "body": [
+        "서울도시건축전시관 등지에서 '2026 서울건축문화제'가 열리고 있다. 국형걸 총감독이 이끄는 이번 행사는 '복합밀도·가속진화·글로컬리티'를 키워드로 서울의 도시 경험을 조명하며, 제44회 서울시 건축상 수상작 20점 전시와 건축문화포럼·건축도서전·청년 건축가 프로그램 등을 선보인다. 10월 11일까지 이어진다."
+      ],
+      "source": {
+        "outlet": "더피알",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.the-pr.co.kr/news/articleView.html?idxno=62631"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-09-15"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "레고, 멕시코 몬테레이 공장에 4억달러 증설",
+      "body": "레고가 몬테레이 공장에 포장·창고 기능을 더하는 4억달러 증설을 발표했다. 66만7000평방피트 신규 공간에 일자리 1,300개가 생기며, 2027년 초 착공해 2029년 완공된다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.constructiondive.com/news/lego-monterrey-mexico-manufacturing-facility-expansion-packing-warehouse/831348/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-09-25"
+    },
+    {
+      "title": "포티스건설 산업부 신설, NIBS 회장은 연방 안전위원으로",
+      "body": "포틀랜드의 직원소유 건설사 포티스가 에너지·기술·제조 전담 산업 사업부를 새로 출범했다. 같은 날 NIST는 국가건축과학연구소(NIBS) 회장 조지 구스차를 국가건설안전팀 자문위원회 위원으로 위촉했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.constructiondive.com/news/punch-list-piedmont-georgia-hospital-skanska-data-center/831355/"
+          }
+        ]
+      },
+      "topic": "제도규제",
+      "src_date": "2026-09-25"
+    },
+    {
+      "title": "좌석 줄이고 프리미엄 늘리고…스타디움 설계 트렌드 바뀐다",
+      "body": "버팔로 빌스의 21억달러 하이마크 스타디움은 좌석을 6만 석으로 줄인 대신 프리미엄 시설을 늘렸다. 박스석·라운지 등 고급 편의시설 수가 1990년대 3~5개에서 현재 9~12개로 늘었다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.constructiondive.com/news/stadium-construction-design-evolution-premium-clubs-renovate/831308/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-09-24"
+    },
+    {
+      "title": "제프리 바와 대규모 회고전, 비트라 뮤지엄서 개막",
+      "body": "스리랑카 건축가 제프리 바와의 20년 만의 대규모 회고전이 26일 독일 비트라 디자인 뮤지엄에서 열린다. 도면·모형·사진 등 250여 점으로 그의 50년 경력을 조명하며, 리나 고트메가 전시 공간을 구성했다. 내년 2월 28일까지 이어진 뒤 홍콩으로 순회한다.",
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.architecturalrecord.com/articles/18420-major-retrospective-of-sri-lankan-architect-geoffrey-bawa-opens-at-the-vitra-design-museum"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-09-26"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "malba-museum-underground-expansion",
+      "tag": "PROJECT",
+      "title": "말바 미술관, 지하로 두 배 넓어진다",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "buenos aires modern architecture concrete museum",
+      "slides": [
+        {
+          "heading": "전시면적을\n두 배로 넓힌다",
+          "body": "프리다 에스코베도가 그린 말바 미술관 지하 확장"
+        },
+        {
+          "heading": "WHAT",
+          "body": "부에노스아이레스 말바 미술관 앞 페루공화국광장 지하에 새 전시동이 들어선다."
+        },
+        {
+          "heading": "WHO",
+          "body": "멕시코시티·뉴욕 기반 건축가 프리다 에스코베도의 스튜디오가 설계를 맡았다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "기획전시실, 오디토리움, 다목적 공간, 옥외 안뜰, 수장고까지 더해 전시면적이 두 배로 늘어난다."
+        },
+        {
+          "heading": "WHY",
+          "body": "최근 확보한 다로스 라틴아메리카 컬렉션을 수용하고, 미술관과 도시의 관계를 새로 잇기 위해서다."
+        },
+        {
+          "heading": "WHEN",
+          "body": "2029년 말이나 2030년 초 개관을 목표로 한다."
+        }
+      ]
+    },
+    {
+      "slug": "bugatti-miami-skyscraper",
+      "tag": "PROJECT",
+      "title": "부가티, 마이애미에 60층 타워",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "miami brickell riverfront skyscraper skyline",
+      "slides": [
+        {
+          "heading": "부가티,\n마이애미에 뜬다",
+          "body": "브랜드 첫 미국 레지던스, 60층 타워"
+        },
+        {
+          "heading": "WHAT",
+          "body": "부가티가 마이애미 브릭켈 강변에 60층 브랜디드 레지던스를 발표했다."
+        },
+        {
+          "heading": "WHO",
+          "body": "브랜든 호 아키텍처가 건축을, 야부 푸셸버그가 인테리어를 맡았다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "183세대 아파트와 펜트하우스 4개로 구성된다."
+        },
+        {
+          "heading": "DESIGN",
+          "body": "자동차 라인에서 영감을 받은 곡선형 매스를 네 블록으로 나눠 쌓아 올렸다."
+        },
+        {
+          "heading": "WHEN",
+          "body": "분양은 2027년 상반기 시작 예정이다."
+        }
+      ]
+    },
+    {
+      "slug": "big-sea-ranch-lodge-expansion",
+      "tag": "PROJECT",
+      "title": "BIG, 시랜치 로지 스파·객실 확장",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "sea ranch california redwood coastal architecture",
+      "slides": [
+        {
+          "heading": "객실을\n두 배로 늘린다",
+          "body": "BIG이 그린 캘리포니아 시랜치 로지 확장"
+        },
+        {
+          "heading": "WHAT",
+          "body": "캘리포니아 소노마 해안의 시랜치 로지가 스파·객실 확장 설계를 비야케 잉엘스 그룹(BIG)에 맡겼다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "17개이던 객실을 23개 더해 두 배 이상으로 늘리고, 스파·웰니스센터·도서관을 새로 짓는다."
+        },
+        {
+          "heading": "SITE",
+          "body": "하이웨이1을 따라 늘어선 53에이커 부지에 6개 이상의 새 건물이 들어선다."
+        },
+        {
+          "heading": "DESIGN",
+          "body": "기존 시랜치 특유의 목재 마감과 낮은 지붕선을 그대로 이어, 주변 초원 생태계에 대한 영향을 최소화했다."
+        }
+      ]
+    }
+  ]
+}
