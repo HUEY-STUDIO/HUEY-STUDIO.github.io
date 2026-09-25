@@ -133,8 +133,16 @@ def link_title(title, src):
     return f'<a class="hl" href="{esc(url)}" target="_blank" rel="noopener">{text}</a>'
 
 
-def source(src):
-    """{"outlet": "...", "links":[{"text":"...","url":"..."}]} 또는 목록."""
+def src_date_label(src_date):
+    """원문 발행일(YYYY-MM-DD)을 지면 표기(YYYY.MM.DD)로. 형식이 틀리면 무시한다."""
+    if not src_date or not re.match(r"^\d{4}-\d{2}-\d{2}$", str(src_date)):
+        return ""
+    return str(src_date).replace("-", ".")
+
+
+def source(src, src_date=None):
+    """{"outlet": "...", "links":[{"text":"...","url":"..."}]} 또는 목록.
+    src_date가 있으면 원문 발행일을 작게 덧붙인다."""
     if not src:
         return ""
     groups = src if isinstance(src, list) else [src]
@@ -145,7 +153,9 @@ def source(src):
             for l in g.get("links", []) if safe_url(l.get("url"))
         )
         parts.append(f'<span class="o">{esc(g.get("outlet"))}</span> · {links}')
-    return '<div class="src">' + " &nbsp;|&nbsp; ".join(parts) + "</div>"
+    dt = src_date_label(src_date)
+    date_html = f' &nbsp;·&nbsp;<span class="date">{esc(dt)}</span>' if dt else ""
+    return '<div class="src">' + " &nbsp;|&nbsp; ".join(parts) + date_html + "</div>"
 
 
 def weekday(day):
@@ -337,7 +347,7 @@ def render_top(d):
       <div class="topcols">
 {paras(t.get("body"))}
       </div>
-      {source(t.get("source"))}
+      {source(t.get("source"), t.get("src_date"))}
     </div>"""
 
     if not s:
@@ -356,7 +366,7 @@ def render_top(d):
 {paras(s.get("body"))}
 {facts}
 {paras(s.get("body_after"))}
-      {source(s.get("source"))}
+      {source(s.get("source"), s.get("src_date"))}
     </aside>
   </div>"""
     return main + side
@@ -378,7 +388,7 @@ def render_feature(a, aid=None):
 {paras(a.get("body"))}
         </div>
       </div>
-      {source(a.get("source"))}
+      {source(a.get("source"), a.get("src_date"))}
     </article>"""
 
 
@@ -393,7 +403,7 @@ def render_card(a, aid=None, kr=False):
 {img}      <div class="kicker{' kr' if kr else ''}">{esc(a.get("kicker"))}</div>
       <h3>{link_title(a.get("title"), a.get("source"))}</h3>
 {paras(a.get("body"))}
-      {source(a.get("source"))}
+      {source(a.get("source"), a.get("src_date"))}
     </article>"""
 
 
@@ -445,7 +455,7 @@ def render_briefs(items):
         f"""    <div class="brief" id="art-briefs-{i}">
       <h4>{link_title(b.get("title"), b.get("source"))}</h4>
       <p>{rich(b.get("body"))}</p>
-      {source(b.get("source"))}
+      {source(b.get("source"), b.get("src_date"))}
     </div>"""
         for i, b in enumerate(items)
     )
@@ -856,7 +866,7 @@ def render_cardnews_detail(d, item, root):
   <div class="cn-infobar">
     <div class="cn-info-row">
       <span class="cn-info-label">원문 출처</span>
-      {source(article.get("source"))}
+      {source(article.get("source"), article.get("src_date"))}
     </div>
     <div class="cn-info-row">
       <span class="cn-info-label">HUEY.ARCHI 기사</span>
@@ -1581,7 +1591,7 @@ def render_category_page(slug, label, entries):
           <div class="kicker{' kr' if section == 'korea' else ''}">{esc(a.get("kicker") or topic)}</div>
           <h3>{link_title(a.get("title") or a.get("lede"), a.get("source"))}</h3>
           <p>{rich(body)}</p>
-          {source(a.get("source"))}
+          {source(a.get("source"), a.get("src_date"))}
         </div>
       </li>""")
     empty = '      <li class="cat-empty">아직 등록된 기사가 없습니다.</li>'
@@ -1762,6 +1772,12 @@ def check(days, verbose=True):
         side = d.get("side")
         if side and side.get("topic") != "제도규제":
             warns.append(f"{day} side: topic 이 '제도규제' 가 아닙니다 ({side.get('topic')})")
+
+        # 1b) src_date 형식 — YYYY-MM-DD 가 아니면 지면에 조용히 빠진다
+        for label, a in iter_articles(d):
+            sd = a.get("src_date")
+            if sd and not re.match(r"^\d{4}-\d{2}-\d{2}$", str(sd)):
+                warns.append(f"{day} {label}: src_date '{sd}' 형식이 YYYY-MM-DD 가 아닙니다")
 
         # 2) counts 와 실제 기사 수
         c = d.get("counts") or {}

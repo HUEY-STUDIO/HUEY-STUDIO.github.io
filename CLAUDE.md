@@ -129,6 +129,9 @@ python3 render.py --all          # 전체 재생성 (CSS·구조 수정 후)
 - **모든 기사(top, side, intl_feature[], intl_grid[], korea[], briefs[])에 `topic` 필드를
   반드시 채운다.** 아래 "카테고리 탭" 절 참조. `topic`은 화면에 안 보이는 분류용 필드이며,
   카드에 보이는 `kicker`(자유 텍스트)와는 별개다
+- **모든 기사에 `src_date`(원문 발행일, YYYY-MM-DD)도 채운다.** 2단계에서 기사를 확인할 때
+  같이 확인해두면 된다. source 옆에 작게 표시되며, 확인이 안 되면 비워둔다(그 기사만 날짜
+  표시 없이 나간다)
 
 ### 4단계 · 빌드 & 배포
 
@@ -224,6 +227,7 @@ GitHub Pages가 1~2분 뒤 반영한다.
     "caption": "사진 설명 ⓒ 저작권자",
     "body": ["문단1", "문단2", "문단3", "문단4"],      // 2단 조판, 첫 글자 드롭캡
     "source": { "outlet": "Dezeen", "links": [{ "text": "...", "url": "..." }] },
+    "src_date": "2026-08-17",                          // 원문 발행일(YYYY-MM-DD). source 옆에 작게 표시
     "topic": "프로젝트"                                // 필수. 헤드라인 클릭 시 source 첫 링크로 이동
   },
 
@@ -235,28 +239,36 @@ GitHub Pages가 1~2분 뒤 반영한다.
     "facts": ["적용: ...", "면제: ...", "제재: 최대 **1,500만 유로**"],
     "body_after": ["팩트 박스 아래 문단"],
     "source": { ... },
+    "src_date": "2026-08-17",
     "topic": "제도규제"                                // side는 항상 이 값
   },
 
   "intl_feature": [ /* 2건 — 헤드라인 아래 이미지 좌 / 본문 우 */
     { "kicker": "...", "title": "...", "image": "...", "image_label": "...",
-      "body": ["...", "..."], "source": { ... }, "topic": "프로젝트" }
+      "body": ["...", "..."], "source": { ... }, "src_date": "2026-08-17", "topic": "프로젝트" }
   ],
 
   "intl_grid": [ /* 4건 — 이미지 위 / 본문 아래 */
     { "kicker": "...", "title": "...", "image": "...", "image_label": "...",
-      "body": ["..."], "source": { ... }, "topic": "프로젝트" }
+      "body": ["..."], "source": { ... }, "src_date": "2026-08-17", "topic": "프로젝트" }
   ],
 
   "korea": [ /* 6~8건 — image 없으면 좌측 오렌지 보더 텍스트 카드 */
-    { "kicker": "...", "title": "...", "body": ["..."], "source": { ... }, "topic": "설계공모" }
+    { "kicker": "...", "title": "...", "body": ["..."], "source": { ... },
+      "src_date": "2026-08-17", "topic": "설계공모" }
   ],
 
   "briefs": [ /* 6~9건 — 3열 단신 */
-    { "title": "...", "body": "두 줄 요약", "source": { ... }, "topic": "수상" }
+    { "title": "...", "body": "두 줄 요약", "source": { ... }, "src_date": "2026-08-17", "topic": "수상" }
   ]
 }
 ```
+
+`src_date`는 원문 기사가 실제로 발표된 날짜(YYYY-MM-DD)다. source 줄 옆에 작게(회색, 축소)
+표시된다 — 지면 발행일(그날 호수)과는 다른 값이니 혼동하지 말 것. WebFetch·WebSearch로 기사를
+확인하는 시점에 함께 확인해 채운다. 형식이 틀리면(`YYYY-MM-DD`가 아니면) `render.py --check`가
+경고하고, 화면에는 조용히 빠진다. 확인이 안 되면 필드 자체를 비워두면 된다 — 그 기사만
+날짜 표시 없이 나간다.
 
 `source`는 매체가 둘 이상이면 배열로 넣는다:
 

@@ -398,6 +398,7 @@ figcaption{font-size:10.5px; line-height:1.5; color:var(--ink-3); padding:8px 2p
 .src a{text-decoration:none; border-bottom:1px dotted var(--rule)}
 .src a:hover{color:var(--hot); border-bottom-color:var(--hot)}
 .src .o{font-weight:800; color:var(--ink-2)}
+.src .date{opacity:.7}
 
 /* ---- 톱 블록 ---- */
 .topblock{display:grid; grid-template-columns:2.5fr 1fr; gap:36px; padding-bottom:36px; margin-bottom:8px}
