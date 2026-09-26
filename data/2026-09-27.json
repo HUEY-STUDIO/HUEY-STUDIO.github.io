@@ -1,0 +1,532 @@
+{
+  "vol": "VOL.01  NO.042",
+  "editor": "HUEY",
+  "counts": {
+    "total": 20,
+    "intl": 14,
+    "kr": 6
+  },
+  "outlets": [
+    "ArchDaily",
+    "ENR",
+    "Archinect",
+    "designboom",
+    "Dezeen",
+    "Terraviva Competitions",
+    "뉴스핌",
+    "건축사신문",
+    "서울특별시",
+    "광흥타임즈",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "우크라이나, 옛 학교를 실향민 보금자리로",
+      "desc": "42가구 위한 리모델링, 옥상엔 태양광까지",
+      "label": "PROJECT"
+    },
+    {
+      "title": "광주건축상 수상작 발표",
+      "desc": "국립광주박물관 도자문화관 등 6점 선정",
+      "label": "AWARDS"
+    },
+    {
+      "title": "인니 바자우 수상마을 숙박시설 공모",
+      "desc": "게스트 6~8명 규모, 상금 8,000달러",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "전문배상책임보험, AE기업엔 '초읽기 시계'",
+      "desc": "클레임 신고 시점이 보장 여부 가른다",
+      "label": "REGULATION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 재난",
+    "lede": "장 누벨이 설계한 안도라 '라 께롤라', 입주 앞두고 대형 화재로 전 건물 피해",
+    "lede_em": "대형 화재로 전 건물 피해",
+    "image": "https://images.adsttc.com/media/images/6ab5/10a1/59bf/5a01/8bd6/85ea/large_jpg/fire-severely-damages-jean-nouvels-la-querola-in-andorra_1.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "화재 피해를 입은 안도라 오르디노 '라 께롤라' 주거단지 ⓒ ArchDaily",
+    "body": [
+      "지난 9월 22일 새벽 안도라 오르디노에 위치한 고급 주거단지 '라 께롤라'에서 큰불이 발생해 단지를 구성하는 7개 동 전체로 번졌다. 프랑스 건축가 장 누벨이 리바스&리바스 건축사무소, 조르디 살라와 함께 설계한 이 프로젝트는 준공은 됐지만 아직 입주 전이었다. 화재는 이튿날인 23일 안도라와 프랑스 소방당국의 합동 진화로 진압됐으며 인명피해는 없었다.",
+      "'라 께롤라'는 약 **1만㎡** 주거 면적에 **51세대**(345~690㎡, 분양가 238만~625만 유로)를 배치하고 **1만2,000㎡** 규모 주차장을 갖춘 초고가 레지던스 단지다. 화재로 이 최고급 주거단지의 미래가 불투명해졌다.",
+      "화재 원인은 아직 밝혀지지 않았다. 당국은 정확한 피해 규모와 재시공 여부를 파악하기 위한 조사에 착수했으며, 시행사와 설계팀도 대응 방안을 검토 중인 것으로 전해졌다.",
+      "장 누벨은 파리 아랍세계연구소, 카르티에 재단 등으로 잘 알려진 건축가로, 최근에는 유럽 곳곳에서 고급 주거·문화시설 프로젝트를 다수 진행해왔다. 완공을 목전에 두고 일어난 이번 화재는 그의 경력에서도 이례적인 사건으로 기록될 전망이다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.archdaily.com/1185688/fire-severely-damages-jean-nouvels-la-querola-in-andorra"
+        }
+      ]
+    },
+    "src_date": "2026-09-24",
+    "topic": "재난유산"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "ENR",
+    "title": "전문배상책임보험, AE기업엔 '초읽기 시계'",
+    "body": [
+      "설계·엔지니어링(AE)기업의 전문인배상책임보험은 사고 발생 시점이 아니라 보험사에 알린 시점을 기준으로 보장 여부를 가르는 '청구기준(claims-made)' 방식이다. 문제를 인지하고도 뒤늦게 신고하면 클레임 자체의 정당성과 무관하게 보장이 아예 거절될 수 있다."
+    ],
+    "facts": [
+      "방식: 사고 발생 시점이 아닌 **클레임 신고 시점** 기준 보장(claims-made)",
+      "정의: 소송뿐 아니라 서면·구두 손해배상 요구, 설계 오류 주장, 계약 분쟁까지 '클레임'에 포함",
+      "흔한 실수: 설계 불일치 등을 보험사 통보 없이 사내에서 조용히 해결하려다 뒤늦게 문제가 커지는 경우",
+      "대응책: 보험 기간 중 잠재적 분쟁 소지를 미리 알려두는 '상황통지(notice of circumstances)' 조항 활용"
+    ],
+    "body_after": [
+      "업계 전문가들은 문제가 실제 소송으로 번지기 전, 조짐이 보이는 단계에서부터 보험사에 알리고 초기부터 법률 자문을 받는 습관이 보장 공백을 막는 가장 확실한 방법이라고 조언한다."
+    ],
+    "source": {
+      "outlet": "ENR",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.enr.com/articles/63711-why-professional-liability-insurance-is-ticking-clock-for-ae-firms"
+        }
+      ]
+    },
+    "src_date": "2026-09-24",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "건축 · 우크라이나",
+      "title": "옛 학교를 실향민 42가구 보금자리로…우크라이나 '드비르'",
+      "image": "https://images.adsttc.com/media/images/6ab6/2fd7/8869/1701/89c2/d370/large_jpg/office-for-future-converts-former-school-into-housing-for-displaced-families-in-ukraine_4.jpg?1790324711",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "우크라이나 건축사무소 오피스 포 퓨처가 스타비셰의 옛 학교 건물을 국내 실향민 42가구를 위한 주거단지 '드비르(Dvir)-공유 안뜰'로 개조했다. 약 **1,900㎡** 규모 리모델링을 통해 원룸형부터 방 3개짜리까지 다양한 세대를 만들고 일부는 완전 무장애 설계를 적용했다.",
+        "공용 실내공간 **200㎡**와 새로 놓은 목조 데크, 지붕 위 약 **800㎡** 규모 태양광 패널, 에너지 효율 개선 공사도 함께 이뤄졌다. 기존 아스팔트 마당은 투수성 녹지로 바꾸면서도 보행 동선은 그대로 살려, 공공 문화 프로그램도 열 수 있는 주거 커뮤니티를 지향했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1185741/office-for-future-converts-former-school-into-housing-for-displaced-families-in-ukraine"
+          }
+        ]
+      },
+      "src_date": "2026-09-25",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축 · 미국",
+      "title": "LA 이글록의 작은 주택, 카드레 아키텍츠의 새 스튜디오로",
+      "image": "https://archinect.gumlet.io/uploads/e2/e295c1ad6dd4bff8127af045f9a73f08.JPG",
+      "image_label": "ARCHINECT",
+      "body": [
+        "로스앤젤레스의 건축사무소 카드레 아키텍츠가 이글록 지역의 한 소형 주택을 사무실로 개조했다. 기존 단독주택에 스튜디오·워크숍·야외 자재 실험실·정원을 갖춘 2층 신축동을 더해 하나의 오피스 캠퍼스로 묶었다.",
+        "높은 천장과 북향 창으로 자연광을 끌어들이고, 맞춤 제작한 이동식 유리벽으로 실내와 정원을 연결했다. 내화성 데크와 조경, 거리에서부터 이어지는 그래픽 요소로 외부 공간도 함께 정비했다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://archinect.com/news/article/150567402/inside-kadre-architects-office-in-former-compact-la-home"
+          }
+        ]
+      },
+      "src_date": "2026-09-25",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "건축 · 베트남",
+      "title": "타원형 교실에 컬러 루버…하노이 응이아도 유치원",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/nghia-do-courtyard-kindergarten-sunjin-vietnam-joint-venture-company-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "선진 베트남 조인트벤처가 하노이에 어린이 **600명**, 교실 **20개** 규모의 응이아도 유치원을 설계했다. 삼각형 중정을 둘러싼 타원형 교실 매스로 사각지대 없이 아이들을 살필 수 있게 하고, 다채로운 색상의 루버로 일사와 소음을 줄였다. 옥상에는 놀이공간을 갖춘 녹화 지붕을 얹어 자연 환기와 채광, 야외 활동을 두루 챙겼다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/elliptical-classroom-volumes-colorful-louvers-courtyard-nghia-do-kindergarten-hanoi/"
+          }
+        ]
+      },
+      "src_date": "2026-09-26",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축 · 스페인",
+      "title": "라임그린 리본 파사드로 새 얼굴…무르시아 시립 체육센터",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/ribbed-lime-green-gateway-blue-solar-canopy-municipal-sports-center-spain-meii-estudio-designboom-500.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "스페인 건축사무소 메이이 에스투디오가 무르시아 라우니온의 시립 체육센터를 리모델링했다. 탈의실·사무실·카페테리아가 들어간 새 출입부에는 라임그린 세라믹 타일로 마감한 리본형 파사드를 씌우고, 축구장 관중석 위에는 톱니 모양으로 접힌 파란색 태양광 캐노피 '라 페르골라'를 얹어 재생에너지 생산과 관람 환경 개선을 동시에 노렸다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/ribbed-lime-green-gateway-blue-solar-canopy-municipal-sports-center-spain-meii-estudio/"
+          }
+        ]
+      },
+      "src_date": "2026-09-25",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 국제",
+      "title": "인도네시아 바자우 해상마을에 짓는 소형 숙박시설 공모",
+      "image": "",
+      "image_label": "TERRAVIVA",
+      "body": [
+        "테라비바 컴페티션스가 인도네시아 북술라웨시 토로시아제의 바자우 수상가옥 마을을 무대로 국제 아이디어 공모 'Call of the Sea'를 연다. 게스트 6~8명을 수용하는 소형 수상 숙박시설을 설계하는 과제로, 지역 문화와 해양 생활과의 연결을 핵심 평가 기준으로 삼는다. 상금 총액은 **8,000달러**이며 등록과 작품 제출 마감은 모두 **10월 9일**이다."
+      ],
+      "source": {
+        "outlet": "Terraviva Competitions",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://www.terravivacompetitions.com/call-of-the-sea-competition-2026/"
+          }
+        ]
+      },
+      "src_date": "",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "인물 · 미국",
+      "title": "아넨벨 셀도프, 첫 'TIME100 Art'에 이름 올리다",
+      "image": "https://archinect.gumlet.io/uploads/28/28cb3004253bcfdced7c543184b5045e.jpg",
+      "image_label": "ARCHINECT",
+      "body": [
+        "건축가 아넨벨 셀도프가 타임지가 처음 선정한 'TIME100 Art' 리스트에 이름을 올렸다. 2025년 'TIME100 Influential People'에 이은 2년 연속 수상이다. 타임지는 **2억2,000만달러** 규모로 재개관한 프릭 컬렉션 리노베이션과, 40년 만의 최대 개보수로 꼽히는 **3억1,500만달러** 규모 루브르 그랜드 콜로네이드 재설계를 근거로 그를 '미술계의 비공식 건축가'라 평했다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://archinect.com/news/article/150567403/annabelle-selldorf-makes-inaugural-time100-art-list"
+          }
+        ]
+      },
+      "src_date": "2026-09-25",
+      "topic": "수상"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "건설업 · 정비사업",
+      "title": "정비사업 수주戰, 현대건설 1위…중견사는 '1조 클럽'",
+      "body": [
+        "업황 악화 속에서도 현대건설이 정비사업 누적 수주 **10조1,180억원**으로 1위를 지켰다. 최근 따낸 압구정3구역(**5조5,610억원**)이 결정적이었다. 삼성물산(**7조3,370억원**)·GS건설(**5조5,477억원**)이 강남·한강변 대형 사업지를 나눠 가진 가운데, 호반건설(**1조1,536억원**)·한화 건설부문(**1조3,205억원**) 등 중견사는 소규모 정비사업을 엮은 '타운화 전략'으로 1조원 클럽에 이름을 올렸다."
+      ],
+      "source": {
+        "outlet": "뉴스핌",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.newspim.com/news/view/20260923000306"
+          }
+        ]
+      },
+      "src_date": "2026-09-26",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "수상 · 광주",
+      "title": "제30회 광주건축상, 국립광주박물관 도자문화관 등 6점 선정",
+      "body": [
+        "광주광역시건축사회가 10년 이내 준공 건축물 12점을 심사해 제30회 광주건축상 수상작 6점을 발표했다. 건축사·대학교수·공공기관 관계자 8명이 3단계 심사를 거쳤으며, 사회공공부문 최우수는 '국립 광주박물관 도자문화관', 주거부문 최우수는 '이음재', 비주거부문 최우수는 '코테(COTE)'가 받았다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://ancnews.kr/news/articleView.html?idxno=21135"
+          }
+        ]
+      },
+      "src_date": "2026-09-21",
+      "topic": "수상"
+    },
+    {
+      "kicker": "인프라 · 서울",
+      "title": "서울시 \"GTX-A 삼성역 기둥 보강, 늦어질수록 어려워진다\"",
+      "body": [
+        "서울시 도시기반시설본부가 GTX-A 삼성역 구간 기둥 보강 공사와 관련해 국토교통부에 조속한 결정을 촉구하고 나섰다. 보강 시점이 늦어질수록 시공 여건이 나빠진다는 점을 들어, 국토부의 신속한 의사결정이 필요하다는 입장이다."
+      ],
+      "source": {
+        "outlet": "서울특별시",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.seoul.go.kr/news/news_report.do?nttNo=467058"
+          }
+        ]
+      },
+      "src_date": "2026-09-23",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프로젝트 · 서울 중구",
+      "title": "국립중앙의료원 현대화, 776병상 규모로 건축심의 통과",
+      "body": [
+        "서울시 제17차 건축위원회가 국립중앙의료원 현대화 사업 건축심의를 통과시켰다. 지하 4층, 지상 16층 규모로 국립중앙의료원 526병상, 중앙외상센터 100병상, 중앙감염병병원 150병상을 더해 총 **776병상**을 갖춘다. 기존 499병상의 약 1.5배 규모로, 1958년 준공된 노후 시설을 감염병·중증응급 대응 국가 거점병원으로 재건립하는 사업이다.",
+        "훈련원공원과 이어지는 공공보행통로와 공개공지를 남측에 조성하고, 근현대 건축자산인 '경성소학교'는 헐지 않고 보존해 전시장 겸 공공의료 업무지원시설로 활용한다."
+      ],
+      "source": {
+        "outlet": "뉴스핌",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.newspim.com/news/view/20260923000330"
+          }
+        ]
+      },
+      "src_date": "2026-09-23",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 충북 음성",
+      "title": "무극중학교 학교복합시설 건립 설계공모, 공사비 191억원",
+      "body": [
+        "충북 음성군이 금왕읍 무극리에 짓는 학교복합시설 건립사업 건축설계공모를 공고했다. 연면적 **6,547㎡**, 공사비 약 **191억원** 규모로 참가등록은 **10월 6일**까지이며, 심사위원 9인이 심사해 **12월 18일** 결과를 발표한다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://www.jootek.com/folio/contests/18920"
+          }
+        ]
+      },
+      "src_date": "2026-09-21",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "프로젝트 · 경기 광명",
+      "title": "광명시 모듈러 공공건축물, 전국 첫 '제로에너지 플러스' 예비인증",
+      "body": [
+        "광명시가 하안동에 짓는 '광명 에너지 자립 주민편의시설'이 에너지 자립률 약 **145%**를 확보해 제로에너지건축물(ZEB) 플러스 등급 예비인증을 받았다. 모듈러 공법을 적용한 전국 공공건축물 중 플러스 등급을 받은 첫 사례다.",
+        "연면적 약 **250㎡**, 지상 2층 규모로 9월 16일부터 기초공사를 진행 중이며, 10월 11~12일 공장에서 제작한 모듈을 현장에 설치해 11월 말 준공, 12월 초 개소할 예정이다."
+      ],
+      "source": {
+        "outlet": "광흥타임즈",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.ghtimes.kr/news/article.html?no=115567"
+          }
+        ]
+      },
+      "src_date": "2026-09-23",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "뉴어크공항 터미널A, 1억1,000만달러 규모 증축",
+      "body": "포트오소리티가 2023년 개장한 터미널A에 게이트 2개를 더하는 남측 증축(2027년 착공, 2029년 완공)과 북측 게이트 6개 추가 계획에 각각 1억달러·1,000만달러를 승인했다. 현재 이용객이 설계 용량(연 1,360만명)을 넘어 연 1,800만명에 달하는 데 따른 조치다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63713-port-authority-advances-110m-newark-airport-terminal-a-expansion"
+          }
+        ]
+      },
+      "src_date": "2026-09-25",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "美 해군 조선소 현대화 사업비, 10배 폭증해 2,000억달러 넘어",
+      "body": "GAO 보고서에 따르면 2018년 **210억달러**로 추산됐던 해군 조선소 인프라 최적화 사업(SIOP) 비용이 **2,000억달러**를 넘어 2080년 이후까지 이어질 전망이다. 포츠머스·펄하버·퓨젓사운드 3대 드라이독 사업에만 **217억달러**가 투입된다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63716-gao-us-navy-21b-shipyard-modernization-plan-grows-beyond-200b"
+          }
+        ]
+      },
+      "src_date": "2026-09-25",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "웨스팅하우스·벡텔, 폴란드 520억달러 원전 주요 조건 합의",
+      "body": "웨스팅하우스와 벡텔이 폴란드 초쇼부 인근 루비아토보-코팔리노 부지에 지을 첫 원전(AP1000, 3기·3,750MW)의 주요 상업 조건에 합의했다. 유럽연합 추산 사업비는 **520억달러**로, 2036~2038년 순차 상업운전을 목표로 한다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63714-westinghouse-bechtel-poland-agree-on-main-terms-for-52b-nuclear-plant"
+          }
+        ]
+      },
+      "src_date": "2026-09-25",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "데진 어워즈 2026, 건축부문 152개 프로젝트 숏리스트 공개",
+      "body": "데진이 19개 건축 부문에 걸쳐 36개국 152개 프로젝트로 구성된 2026년 어워즈 숏리스트를 발표했다. 영국의 비정형 흙다짐벽 전원주택, 우크라이나의 초가지붕 게스트하우스, 카타르의 천공 석재 모스크 등이 이름을 올렸으며 부문별 수상작은 **11월 16일** 런던 로열오페라하우스에서 발표된다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/26/dezeen-awards-shortlists-this-week/"
+          }
+        ]
+      },
+      "src_date": "2026-09-26",
+      "topic": "수상"
+    },
+    {
+      "title": "재사용 건축이 휩쓴 스코틀랜드 '올해의 건물' 숏리스트",
+      "body": "왕립스코틀랜드건축사협회(RIAS)가 2026 앤드루 둘런상 숏리스트 3편을 모두 기존 건물 재사용·복원 프로젝트로 채웠다. 옛 병원을 개조한 에든버러 퓨처스 인스티튜트, 복원된 애버딘셔 수영장 파빌리온, 낡은 건물을 되살린 페이즐리 공공도서관이 후보에 올랐으며 수상작은 **11월 26일** 발표된다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/24/rias-andrew-doolan-2026/"
+          }
+        ]
+      },
+      "src_date": "2026-09-24",
+      "topic": "수상"
+    },
+    {
+      "title": "'트럼프 개선문'에 군사 드론·저격수 배치 시설도",
+      "body": "도널드 트럼프 미 대통령이 워싱턴DC 알링턴 기념교 인근에 계획 중인 개선문 모뉴먼트에 군용 드론 운용 장비와 저격 진지도 들어간다고 밝혔다. 인근 레이건공항과의 근접성을 우려한 민주당 의원은 연방항공청(FAA)에 안전성 검토를 요구했다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://archinect.com/news/article/150567263/arc-de-trump-to-hold-military-drones-and-snipers-trump-claims"
+          }
+        ]
+      },
+      "src_date": "2026-09-24",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "jean-nouvel-la-querola-fire-andorra",
+      "tag": "DISASTER",
+      "title": "완공 목전 장 누벨 건축, 화재로 전 동 피해",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "andorra pyrenees mountain village architecture",
+      "slides": [
+        {
+          "heading": "완공 앞둔 건축\n하룻밤 새 잿더미로",
+          "body": "장 누벨이 그린 안도라 '라 께롤라', 대형 화재로 전 동 피해"
+        },
+        {
+          "heading": "WHAT",
+          "body": "9월 22일 새벽 안도라 오르디노의 고급 주거단지 '라 께롤라'에서 큰불이 나 7개 동 전체로 번졌다. 준공은 됐지만 아직 입주 전이었다."
+        },
+        {
+          "heading": "WHO",
+          "body": "프랑스 건축가 장 누벨이 리바스&리바스, 조르디 살라와 함께 설계한 프로젝트다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "약 1만㎡ 면적에 51세대(345~690㎡, 2억~6억원대)와 1만2,000㎡ 규모 주차장을 갖춘 초고가 레지던스였다."
+        },
+        {
+          "heading": "NOW",
+          "body": "화재는 프랑스·안도라 합동 진화로 이튿날 진압됐고 인명피해는 없었다. 다만 원인은 아직 밝혀지지 않았다."
+        },
+        {
+          "heading": "WHAT'S NEXT",
+          "body": "완공을 코앞에 두고 벌어진 화재로 이 초호화 주거단지의 미래는 불투명해졌다."
+        }
+      ]
+    },
+    {
+      "slug": "ukraine-dvir-shared-courtyard-housing",
+      "tag": "PROJECT",
+      "title": "우크라이나, 폐교를 실향민 42가구 보금자리로",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "ukraine countryside renovation courtyard community",
+      "slides": [
+        {
+          "heading": "폐교가 된 학교,\n42가구의 집이 되다",
+          "body": "우크라이나 '드비르-공유 안뜰' 프로젝트"
+        },
+        {
+          "heading": "WHAT",
+          "body": "우크라이나 건축사무소 오피스 포 퓨처가 스타비셰의 옛 학교 건물을 국내 실향민을 위한 주거단지로 개조했다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "약 1,900㎡를 리모델링해 원룸형부터 방 3개짜리까지 42가구를 만들었고, 일부는 완전 무장애 설계를 적용했다."
+        },
+        {
+          "heading": "WHAT ELSE",
+          "body": "공용 실내공간 200㎡, 새 목조 데크, 지붕 위 약 800㎡ 태양광 패널까지 함께 갖췄다."
+        },
+        {
+          "heading": "WHY",
+          "body": "기존 아스팔트 마당은 투수성 녹지로 바꾸되 보행 동선은 그대로 살려, 공공 문화 프로그램도 열 수 있는 주거 커뮤니티를 지향했다."
+        }
+      ]
+    },
+    {
+      "slug": "gwangju-architecture-award-2026",
+      "tag": "AWARDS",
+      "title": "제30회 광주건축상, 수상작 6점 발표",
+      "ref": {
+        "section": "korea",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "korean contemporary museum architecture",
+      "slides": [
+        {
+          "heading": "광주가 뽑은\n올해의 건축 6선",
+          "body": "제30회 광주건축상 수상작 발표"
+        },
+        {
+          "heading": "WHAT",
+          "body": "광주광역시건축사회가 10년 이내 준공 건축물 12점을 심사해 제30회 광주건축상 수상작 6점을 선정했다."
+        },
+        {
+          "heading": "WHO",
+          "body": "건축사·대학교수·공공기관 관계자 8명이 패널·현장 심사 등 3단계로 심사했다."
+        },
+        {
+          "heading": "BEST",
+          "body": "사회공공부문 '국립 광주박물관 도자문화관', 주거부문 '이음재', 비주거부문 '코테(COTE)'가 각 부문 최우수를 받았다."
+        },
+        {
+          "heading": "MORE",
+          "body": "우수작으로는 농식품가공창업보육센터, 모서리 벽돌집, 광주기독병원 카딩턴라파 기념관이 선정됐다."
+        }
+      ]
+    }
+  ]
+}
