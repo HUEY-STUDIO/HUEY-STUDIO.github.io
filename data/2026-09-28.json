@@ -1,0 +1,245 @@
+{
+  "vol": "VOL.01  NO.043",
+  "editor": "HUEY",
+  "counts": { "total": 19, "intl": 14, "kr": 5 },
+  "outlets": ["ArchDaily", "ENR", "Dezeen", "Competitions.archi", "서울신문", "파이낸셜뉴스", "글로벌이코노믹", "한국건축가협회", "외교저널"],
+
+  "teasers": [
+    { "title": "구글, 철거 위기 넘긴 톰프슨 센터 새 렌더링 공개", "desc": "헬무트 얀의 포스트모던 랜드마크, 복합공간으로", "label": "HERITAGE" },
+    { "title": "경상북도건축문화의날, 10월 1일 안동서 개막", "desc": "학생공모전부터 AI건축 경진대회까지", "label": "EVENT" },
+    { "title": "ENR 글로벌 베스트 프로젝트, 21개국 32곳 선정", "desc": "무재해 기록이 선정 전제조건", "label": "AWARDS" },
+    { "title": "글리비체 흐워드니차강 변 설계공모", "desc": "공원으로 되살릴 통합 설계안 구해", "label": "COMPETITION" }
+  ],
+
+  "top": {
+    "kicker": "TOP STORY · 리모델링",
+    "lede": "구글이 그리는 시카고 '톰프슨 센터', 철거 위기 넘긴 포스트모던 랜드마크의 재탄생",
+    "lede_em": "철거 위기 넘긴 포스트모던 랜드마크의 재탄생",
+    "image": "https://images.adsttc.com/media/images/6ab3/15e3/59bf/5a05/a6f0/b4f1/large_jpg/google-unveils-new-renderings-of-chicagos-thompson-center-redesign-marking-its-escape-from-demolition_2.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "재건축 중인 시카고 톰프슨 센터 내부 렌더링 ⓒ A+I·Perkins&Will",
+    "body": [
+      "구글이 시카고 도심의 '톰프슨 센터' 재건축 새 렌더링을 공개했다. 건축가 헬무트 얀이 **1985년** 설계한 포스트모던 랜드마크를 사무·상업·커뮤니티가 뒤섞인 복합공간으로 되살리는 계획이다.",
+      "**17층** 아트리움 중앙 개구부를 넓히고, 계단식 좌석과 상점을 결합한 대형 계단을 새로 놓는다. 광장에는 예술가 샌포드 비거스가 전통 퀼트 무늬를 재해석해 만든 높이 **9m** 조각 '벡터'가 들어선다.",
+      "이 건물은 유지비 부담으로 **2015년** 당시 브루스 라우너 주지사가 매각·철거를 추진하며 존폐 위기를 맞았다. 보존 운동 끝에 **2022년** 개발사 프라임그룹이 매입해 방향을 개보수로 틀었고, 같은 해 구글이 개보수 완료 후 입주를 약속하며 철거 논란에 마침표를 찍었다.",
+      "설계는 A+I(현 퍼킨스&윌 소속)가 맡았다. 구글은 비영리단체 애프터스쿨매터스와 협업해 청소년들이 만든 작품을 아트리움에 전시할 계획이다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        { "text": "기사 원문", "url": "https://www.archdaily.com/1185618/google-unveils-new-renderings-of-chicagos-thompson-center-redesign-marking-its-escape-from-demolition" }
+      ]
+    },
+    "src_date": "2026-09-23",
+    "topic": "프로젝트"
+  },
+
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "ENR",
+    "title": "지하 시설물 손상, 시공사 법적 책임은 '안갯속'",
+    "body": [
+      "지난 **9월 22일** 미국 뉴저지 뉴브런즈윅 인근에서 NJ트랜짓 저장·점검시설 공사를 하던 시공사가 매설된 광케이블을 절단하면서 동부 전역 항공편이 무더기로 결항했다. 시공 현장에서 흔히 벌어지는 지하시설물 손상이 얼마나 큰 파장을 낳고, 그 책임이 시공사에 얼마나 쉽게 돌아갈 수 있는지를 보여준 사고다."
+    ],
+    "facts": [
+      "발생: 9월 22일, 뉴저지 뉴브런즈윅 인근 시공 현장에서 광케이블 절단",
+      "규모: 2025년 한 해 미국 내 지하시설물 손상사고 **24만 5,000건**",
+      "쟁점: 굴착 지점이 표시선에서 약 **3m**(10피트) — 표시 책임이 통신사인지 시공사인지 불분명",
+      "배경: 美 교통부, 항공관제 인프라 현대화에 **300억 달러** 투입 추진 중"
+    ],
+    "body_after": [
+      "굴착 위치가 표시선에서 불과 3m 남짓 떨어져 있었는데도 그 표시를 누가 했는지조차 아직 가려지지 않았다. 업계에서는 이런 사고가 드물지 않다는 점에서, 표시 확인과 사전 협의 절차를 계약 단계부터 명확히 해두는 것이 사실상 유일한 예방책이라는 지적이 나온다."
+    ],
+    "source": {
+      "outlet": "ENR",
+      "links": [
+        { "text": "기사 원문", "url": "https://www.enr.com/articles/63712-liability-still-hazy-for-cut-cable-air-traffic-disruption" }
+      ]
+    },
+    "src_date": "2026-09-25",
+    "topic": "제도규제"
+  },
+
+  "intl_feature": [
+    {
+      "kicker": "건축 · 멕시코",
+      "title": "안뜰로 겹겹이 닫힌 집, 태평양 연안에 내려앉은 콘크리트 저택",
+      "image": "https://images.adsttc.com/media/images/6aad/567e/066f/0900/0145/7657/large_jpg/01_-_CC.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "멕시코 와하카주 푸에르토에스콘디도 해안에 TAC(타예르 알베르토 카예하)가 설계한 주택 '카사 시에노'가 들어섰다. 약 **1,500㎡** 규모로, 바깥으로는 담을 둘러 닫고 안으로는 여러 겹의 중정을 두어 시선과 동선을 집 안쪽으로 끌어들였다.",
+        "대지 한가운데 수영장을 앉혀 공간의 중심을 잡고, 매스를 대각선으로 살짝 틀어 마당마다 서로 다른 채광과 풍경을 만들었다. 지붕에는 녹화를 얹어 해안의 열기를 낮췄다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [ { "text": "기사 원문", "url": "https://www.archdaily.com/1185476/cieno-house-tac-taller-alberto-calleja" } ]
+      },
+      "src_date": "2026-09-21",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축 · 캐나다",
+      "title": "1979년 이후 첫 신축, 트리니티 칼리지가 지은 '농장식탁' 캠퍼스",
+      "image": "https://images.adsttc.com/media/images/6aac/1221/d8c8/8201/89ac/cfde/large_jpg/trinity-colleges-lawson-centre-for-sustainability-officially-opens-to-the-community_3.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "캐나다 토론토대 트리니티 칼리지에 메카누와 RDHA가 설계한 '로슨 지속가능센터'가 문을 열었다. **1979년** 이후 이 칼리지에 처음 들어서는 신축 건물로, 기숙사 **357개** 침상과 공용 공간을 담았다.",
+        "온타리오산 목재를 활용한 하이브리드 구조에 지열 냉난방과 빗물 재활용 설비를 갖췄고, 옥상에는 도시형 농장을 올려 수확한 작물을 그대로 식당 식탁에 올리는 '농장식탁' 운영을 지향한다. **200명** 규모 행사장과 전 객실의 **15%** 무장애 설계도 적용했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [ { "text": "기사 원문", "url": "https://www.archdaily.com/1185316/mecanoo-and-rdhas-lawson-centre-for-sustainability-opens-at-trinity-college-with-a-farm-to-table-approach" } ]
+      },
+      "src_date": "2026-09-18",
+      "topic": "프로젝트"
+    }
+  ],
+
+  "intl_grid": [
+    {
+      "kicker": "리모델링 · 스웨덴",
+      "title": "스벤 마르켈리우스의 유산, 조심스러운 손길로 되살아나다",
+      "image": "https://images.adsttc.com/media/images/6aa7/c7f0/a74d/1200/0125/e127/large_jpg/FOLKETS_HUS_8_Victor_Johansson.jpg",
+      "image_label": "ARCHDAILY",
+      "body": ["스웨덴 문화시설 '포켓츠 후스(민중의 집)' 리모델링을 딘엘요한손이 맡아 완료했다. 원 설계자 스벤 마르켈리우스의 색과 질감을 지우지 않는 선에서 목재와 패브릭을 더해 약 **4,000㎡** 내부를 가다듬었다."],
+      "source": { "outlet": "ArchDaily", "links": [ { "text": "기사 원문", "url": "https://www.archdaily.com/1185028/house-of-people-dinelljohansson" } ] },
+      "src_date": "2026-09-27",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "리모델링 · 콜롬비아",
+      "title": "차고였던 자리, 건축사무소의 목조 사무실로",
+      "image": "https://images.adsttc.com/media/images/6ab1/88d8/c765/2000/0134/71c2/large_jpg/15_OFICINA_A101_ALEJANDRO_ARANGO.jpg",
+      "image_label": "ARCHDAILY",
+      "body": ["콜롬비아 메데인 라우렐레스에서 칼리사 아르키텍투라(마리아나 벨레스)가 인쇄소였다가 차고로 쓰이던 **52㎡** 공간을 건축사무소 공유 오피스로 고쳤다. 기존 구조와 장소의 기억을 지우는 대신, 목재 가구·수납장을 더해 새 쓰임을 얹었다."],
+      "source": { "outlet": "ArchDaily", "links": [ { "text": "기사 원문", "url": "https://www.archdaily.com/1185872/office-101-casa-andina-caliza-arquitectura" } ] },
+      "src_date": "2026-09-27",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 폴란드",
+      "title": "글리비체 흐워드니차강 변, 공원으로 되살릴 설계안 공모",
+      "image": "",
+      "image_label": "COMPETITIONS.ARCHI",
+      "body": ["폴란드 글리비체시가 흐워드니차강 변을 다기능 공공공간으로 바꿀 도시계획·조경·건축 통합 설계공모를 공고했다. 녹색 인프라와 보행·자전거 동선, 기후 대응력을 갖춘 강변 재편안을 구하며 학생·청년 건축가도 참가할 수 있다. 접수와 등록 마감은 **11월 12일**이다."],
+      "source": { "outlet": "Competitions.archi", "links": [ { "text": "공모 정보", "url": "https://competitions.archi/competition/urban-planning-competition-for-the-klodnica-boulevards-in-gliwice/" } ] },
+      "src_date": "",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "재료 · 미국",
+      "title": "폐양모로 만든 단열 타일, 오슬로 트리엔날레에 서다",
+      "image": "",
+      "image_label": "DEZEEN",
+      "body": ["하버드대 그린엄 리서치 그룹이 버려지는 양모로 만든 단열 클래딩 타일을 오슬로 건축 트리엔날레에서 선보였다. 알칼리 용액으로 양모의 단백질 구조를 분해한 뒤 생분해성 첨가제를 더해 판재로 만든 타일로, 벽을 뜯어내지 않고도 건물 외피에 그대로 붙여 단열을 보강할 수 있다."],
+      "source": { "outlet": "Dezeen", "links": [ { "text": "기사 원문", "url": "https://www.dezeen.com/2026/09/27/waste-wool-cladding-harvard-university-oslo-architecture-triennale/" } ] },
+      "src_date": "2026-09-27",
+      "topic": "프로젝트"
+    }
+  ],
+
+  "korea": [
+    {
+      "kicker": "건설 · 경북 포항",
+      "title": "현대건설, 국내 최초 PC공법으로 AI 데이터센터 16.5개월 만에 짓는다",
+      "body": [
+        "현대건설이 경북 포항 광명일반산업단지에 **40㎿**급 AI 전용 데이터센터를 짓고 있다. 발주는 AI팩토리포항PFV, 운영은 네오AI클라우드가 맡는다.",
+        "국내 최초로 프리캐스트 콘크리트(PC) 공법을 적용해 골조 공사 기간을 약 1년에서 **2개월**로 줄였고, 설계·인허가·시공 준비를 동시에 진행하는 패스트트랙 방식도 더했다. 국내 데이터센터 최초로 액체냉각 방식을 도입했으며 전력사용효율(PUE) **1.25**를 확보했다. 지난 6월 착공해 내년 하반기 가동이 목표다."
+      ],
+      "source": { "outlet": "서울신문", "links": [ { "text": "기사 원문", "url": "https://www.seoul.co.kr/news/economy/industry/2026/09/21/20260921500270" } ] },
+      "src_date": "2026-09-21",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건설 · 수주",
+      "title": "대보건설, 9월에만 토목 2건 5,200억원…4년 연속 '1조 클럽'",
+      "body": ["대보건설이 9월 한 달에만 대형 토목공사 2건, 총 **5,200억원** 규모를 확보했다. 이로써 올해 누적 수주액은 약 **1조 1,200억원**으로 늘어 4년 연속 연간 수주액 1조원을 넘어섰다."],
+      "source": { "outlet": "파이낸셜뉴스", "links": [ { "text": "기사 원문", "url": "https://www.fnnews.com/news/202609220910529869" } ] },
+      "src_date": "2026-09-22",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건설 · 서울 성동",
+      "title": "HL D&I한라, 성수동2가 오피스 2단계 신축공사 900억원 수주",
+      "body": ["HL D&I한라가 서울 성동구 성수동2가 236-5번지 일원 오피스·근린생활시설 신축공사 2단계를 **899억 6,500만원**에 수주했다. 지하 6층~지상 14층 규모로, 계약기간은 착공일로부터 **35개월**이다."],
+      "source": { "outlet": "글로벌이코노믹", "links": [ { "text": "기사 원문", "url": "https://www.g-enews.com/article/Securities/2026/09/20260923095847963444093b5d4e_1" } ] },
+      "src_date": "2026-09-23",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 서울대",
+      "title": "서울대 'SNU 커먼스' 종합운동장 조성 설계공모",
+      "body": ["서울대학교가 노후한 종합운동장을 체육활동·관람·소규모 행사가 가능한 다기능 복합공간으로 바꾸는 'SNU 커먼스' 설계공모를 공고했다. 디자인캠퍼스 플랫폼을 통해 접수한다."],
+      "source": { "outlet": "한국건축가협회", "links": [ { "text": "공모 정보", "url": "https://www.kia.or.kr/news/notice.php?ptype=view&idx=20727&page=1&code=notice" } ] },
+      "src_date": "2026-09-08",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "행사 · 경북 안동",
+      "title": "2026 경상북도건축문화의날, 10월 1일 안동서 개막",
+      "body": ["경상북도와 안동시가 주최하고 한국건축가협회 경북건축가회가 주관하는 '2026 경상북도건축문화의날'이 **10월 1일**부터 4일까지 안동문화예술의전당에서 열린다. 학생공모전, 경북건축문화상, 초청건축가전, 신진건축가 설계공모 수상작 등을 전시하며 공공건축 설계공모 선정작과 AI건축 경진대회 결과도 함께 선보인다."],
+      "source": { "outlet": "외교저널", "links": [ { "text": "기사 원문", "url": "https://www.djournal.co.kr/news/article.html?no=117923" } ] },
+      "src_date": "2026-09-22",
+      "topic": "프로젝트"
+    }
+  ],
+
+  "briefs": [
+    { "title": "ENR 글로벌 베스트 프로젝트 어워즈, 21개국 32곳 선정", "body": "21개국 111개 프로젝트 중 무재해 기록을 전제로 32곳을 17개 부문에서 선정했다. 인도 뭄바이 해안도로가 교량·터널 부문 최우수를 받았다.", "source": { "outlet": "ENR", "links": [ { "text": "기사 원문", "url": "https://www.enr.com/blogs/13-critical-path/post/63717-safety-innovation-central-to-success-of-winners-in-enr-worldwide-competition" } ] }, "src_date": "2026-09-25", "topic": "수상" },
+    { "title": "뉴햄프셔 퀸시티 브리지, 나흘 만에 재개통", "body": "녹·균열 의심으로 폐쇄됐던 맨체스터의 1,175피트 다리가 안전 재점검 끝에 재개통했다. 하루 통행량 3만대 규모다.", "source": { "outlet": "ENR", "links": [ { "text": "기사 원문", "url": "https://www.enr.com/articles/63719-new-hampshire-bridge-reopens-after-inspection-clears-structural-safety-concerns" } ] }, "src_date": "2026-09-27", "topic": "제도규제" },
+    { "title": "美 8개주, 해상풍력 리스 환수에 소송", "body": "캘리포니아·뉴욕 등 8개주 연합이 내무부의 15억달러 규모 해상풍력 리스 환수 조치에 소송을 제기했다. 10GW 이상 발전용량이 영향권에 놓였다.", "source": { "outlet": "ENR", "links": [ { "text": "기사 원문", "url": "https://www.enr.com/articles/63699-state-coalition-sues-trump-administration-over-15b-in-offshore-wind-lease-buyouts" } ] }, "src_date": "2026-09-24", "topic": "제도규제" },
+    { "title": "유럽 18개국, '주거권' 시민발의 서명운동 시작", "body": "EU 차원의 주거권 입법을 요구하는 시민발의 '지금 그리고 영원히, 주거권'이 7개국 이상에서 최소 100만명, 목표 120만명 서명을 모은다. 유럽 내 빈 주택 4,700만 채가 방치된 가운데 공급이 아닌 접근성이 문제라는 진단이다.", "source": { "outlet": "ArchDaily", "links": [ { "text": "기사 원문", "url": "https://www.archdaily.com/1185409/the-homes-of-tomorrow-are-already-built-european-citizens-initiative-for-the-right-to-housing-opens-signature-collection" } ] }, "src_date": "2026-09-21", "topic": "제도규제" },
+    { "title": "페마른벨트 해저터널 준설토로 덴마크에 새 해안 생겼다", "body": "18km 페마른벨트 해저터널 굴착 준설토로 축구장 42개 넓이 신규 해안 부지가 조성됐다. 터널이 완공되는 2029년 함부르크~코펜하겐 열차 이동시간은 2.5시간으로 줄어든다.", "source": { "outlet": "Dezeen", "links": [ { "text": "기사 원문", "url": "https://www.dezeen.com/2026/09/17/denmark-land-reclamation-fehmarnbelt-tunnel/" } ] }, "src_date": "2026-09-17", "topic": "프로젝트" },
+    { "title": "루카스뮤지엄에 각 없는 레스토랑, 록웰그룹이 그렸다", "body": "MAD가 설계한 루카스내러티브아트뮤지엄 안에 록웰그룹이 직각을 지운 레스토랑 '스카이워커 그릴'을 완성했다. 곡면 벽과 좌석으로 전시 동선과 자연스럽게 이어지도록 했다.", "source": { "outlet": "Dezeen", "links": [ { "text": "기사 원문", "url": "https://www.dezeen.com/2026/09/26/skywalker-grill-lucas-museum-narrative-art-los-angeles-rockwell-group/" } ] }, "src_date": "2026-09-26", "topic": "프로젝트" }
+  ],
+
+  "cardnews": [
+    {
+      "slug": "thompson-center-google-redesign",
+      "tag": "HERITAGE",
+      "title": "철거 위기 넘긴 톰프슨 센터, 구글 사옥으로",
+      "ref": { "section": "top" },
+      "bg": 0,
+      "photo_query": "postmodern architecture chicago glass atrium",
+      "slides": [
+        { "heading": "철거 위기 넘긴\n포스트모던 랜드마크", "body": "구글이 그리는 시카고 톰프슨 센터의 새 얼굴" },
+        { "heading": "WHAT", "body": "구글이 헬무트 얀이 1985년 설계한 톰프슨 센터를 사무·상업·커뮤니티 복합공간으로 되살리는 새 렌더링을 공개했다." },
+        { "heading": "HISTORY", "body": "유지비 부담으로 2015년 주 정부가 매각·철거를 추진하며 존폐 위기를 맞았지만, 보존 운동 끝에 2022년 개발사 프라임그룹이 매입해 개보수로 방향을 틀었다." },
+        { "heading": "DESIGN", "body": "17층 아트리움 중앙 개구부를 넓히고 계단식 좌석을 결합한 대형 계단을 새로 놓는다. 광장엔 샌포드 비거스의 9m 조각 '벡터'가 선다." },
+        { "heading": "WHO", "body": "설계는 A+I(현 퍼킨스&윌)가 맡았고, 구글은 개보수 완료 후 입주해 철거 논란에 마침표를 찍었다." },
+        { "heading": "NOW", "body": "구글은 비영리단체 애프터스쿨매터스와 협업해 청소년들이 만든 작품을 아트리움에 전시할 계획이다." }
+      ]
+    },
+    {
+      "slug": "hyundai-pohang-ai-datacenter-pc",
+      "tag": "PROJECT",
+      "title": "16.5개월 만에 완공, 현대건설의 AI 데이터센터",
+      "ref": { "section": "korea", "index": 0 },
+      "bg": 1,
+      "photo_query": "data center server room construction industrial",
+      "slides": [
+        { "heading": "16.5개월 만에\nAI 데이터센터 짓기", "body": "현대건설, 국내 최초 PC공법으로 공기 단축" },
+        { "heading": "WHAT", "body": "현대건설이 경북 포항 광명일반산업단지에 40㎿급 AI 전용 데이터센터를 짓고 있다. 발주는 AI팩토리포항PFV, 운영은 네오AI클라우드가 맡는다." },
+        { "heading": "HOW", "body": "국내 최초로 프리캐스트 콘크리트(PC) 공법을 적용해 골조 공사 기간을 약 1년에서 2개월로 줄였다. 설계·인허가·시공 준비를 동시에 진행하는 패스트트랙 방식도 더했다." },
+        { "heading": "TECH", "body": "국내 데이터센터로는 처음으로 액체냉각 방식을 도입했고, 전력사용효율(PUE) 1.25로 에너지 손실을 최소화했다. 전력밀도는 일반 클라우드센터의 약 10배다." },
+        { "heading": "WHEN", "body": "지난 6월 착공해 내년 하반기 가동을 목표로 한다." }
+      ]
+    },
+    {
+      "slug": "trinity-college-lawson-centre-sustainability",
+      "tag": "PROJECT",
+      "title": "46년 만의 신축, 트리니티 칼리지의 '농장식탁' 기숙사",
+      "ref": { "section": "intl_feature", "index": 1 },
+      "bg": 2,
+      "photo_query": "university dormitory timber sustainable rooftop farm",
+      "slides": [
+        { "heading": "옥상 텃밭에서\n식탁까지", "body": "토론토대 트리니티 칼리지, 46년 만의 첫 신축" },
+        { "heading": "WHAT", "body": "메카누와 RDHA가 설계한 '로슨 지속가능센터'가 트리니티 칼리지에 문을 열었다. 1979년 이후 이 칼리지의 첫 신축 건물이다." },
+        { "heading": "SCALE", "body": "기숙사 357개 침상, 200명 규모 행사장을 갖췄고 전 객실의 15%에 무장애 설계를 적용했다." },
+        { "heading": "GREEN", "body": "온타리오산 목재 하이브리드 구조에 지열 냉난방, 빗물 재활용 설비를 더했다." },
+        { "heading": "FARM TO TABLE", "body": "옥상엔 도시형 농장을 올려 수확한 작물을 그대로 식당 식탁에 올리는 순환을 지향한다." }
+      ]
+    }
+  ]
+}
