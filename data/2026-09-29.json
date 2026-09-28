@@ -1,0 +1,547 @@
+{
+  "vol": "VOL.01  NO.044",
+  "editor": "HUEY",
+  "counts": {
+    "total": 20,
+    "intl": 14,
+    "kr": 6
+  },
+  "outlets": [
+    "Architectural Record",
+    "Archinect",
+    "ENR",
+    "Dezeen",
+    "Construction Dive",
+    "건축사뉴스",
+    "뉴스핌",
+    "시사오늘",
+    "Jootek"
+  ],
+  "teasers": [
+    {
+      "title": "프리 베르사유 2026, 세계에서 가장 아름다운 역 7곳",
+      "desc": "멜버른 타운홀·리옹 파르디외 등 선정",
+      "label": "AWARDS"
+    },
+    {
+      "title": "파샤드 무사비, 2026 소안 메달 수상",
+      "desc": "하버드 GSD 교수, 10번째 수상자",
+      "label": "AWARDS"
+    },
+    {
+      "title": "익산 원불교문화체험관 설계공모 접수",
+      "desc": "연면적 3,374㎡, 10월 6일 마감",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "목동 재건축 30조 시장, 시공사 경쟁 본격화",
+      "desc": "14개 단지, 중견사는 금융비용에 발목",
+      "label": "MARKET"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 보존",
+    "lede": "트럼프, 케네디센터에 \"이름 안 붙이면 헐린다\"…법원은 철거 30일 전 통지 명령",
+    "lede_em": "법원은 철거 30일 전 통지 명령",
+    "image": "https://www.architecturalrecord.com/ext/resources/news/2026/Kennedy/Edited-JFK.webp",
+    "image_label": "ARCHITECTURAL RECORD",
+    "caption": "워싱턴 D.C. 케네디센터 ⓒ Architectural Record",
+    "body": [
+      "도널드 트럼프 미국 대통령이 워싱턴 케네디센터를 재정적·구조적으로 \"엉망\"이라 부르며 자신의 이름을 건물에 붙이는 조건으로 개보수 자금을 대겠다고 압박했다. \"그렇게 하지 않으면 문을 닫고 결국 철거될 것\"이라는 발언도 했다. 대통령이 에어포스원에서 철거 계획도를 검토하는 사진도 공개됐다.",
+      "에드워드 듀렐 스톤이 설계해 **1971년** 문을 연 이 건물은 포토맥강변 **17에이커** 부지에 있다. 개관 **55년**째라 노후 흔적이 있지만, 철거 논의가 나올 만한 상태는 아니라는 게 보존 진영의 시각이다.",
+      "법적 제동도 걸렸다. 연방 판사는 임시 폐쇄 중인 센터의 본관을 '철거'하기 전 **30일 이상** 사전 통지를 하라고 판결했다. 지난 3월 보존·건축 단체 **8곳**이 제기한 소송의 결과다. 스티븐 홀 아키텍츠가 2019년 설계한 확장동 '리치'는 계속 열어둔다.",
+      "**9월 18일**에는 수천 명이 \"손 떼라\"를 외치며 시위했고, 조엘 샤피로의 조각 '블루'는 별다른 설명 없이 철거됐다."
+    ],
+    "source": {
+      "outlet": "Architectural Record",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.architecturalrecord.com/articles/18425-trump-hurls-new-threats-at-the-kennedy-center"
+        }
+      ]
+    },
+    "src_date": "2026-09-21",
+    "topic": "재난유산"
+  },
+  "side": {
+    "label": "실무 직결 · 시공 안전",
+    "image": "https://www.enr.com/ext/resources/2026/09/28/I-10-Traffic-Deaths.webp",
+    "image_label": "ENR",
+    "title": "캘리포니아 I-10 공사구간서 근로자 3명 사망, 충돌완충차 들이받혀",
+    "body": [
+      "지난 **9월 25일** 새벽 캘리포니아 블라이드 인근 I-10 동쪽 방향 공사구간에서 트랙터 트레일러가 정차한 충돌완충차를 들이받아 건설 근로자 세 명이 숨졌다. 사고 차량은 이어 무인 픽업트럭과 급수차까지 충돌했다."
+    ],
+    "facts": [
+      "일시·장소: 9월 25일 오전 5시 17분경, I-10 동쪽 방향 블라이드 인근",
+      "사망: 근로자 **3명**(27세·39세·50세), 트럭 운전자(44세)는 중상",
+      "현장: 캘트랜스 I-10 개보수, 사업비 **2억 3,223만 달러**, 공정률 **88%**",
+      "원인: 조사 중 — 음주·약물은 요인으로 보지 않으며 속도는 미공개"
+    ],
+    "body_after": [
+      "충돌완충차는 작업자를 보호하려고 도로 위에 세워두는 마지막 방벽이다. 공정 막바지(완공 예정 12월 4일)에도 도로 공사구간의 교통 통제·완충 계획은 계약 단계부터 점검이 필요하다는 점을 다시 일깨우는 사고다."
+    ],
+    "source": {
+      "outlet": "ENR",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.enr.com/articles/63722-three-workers-killed-in-tractor-trailer-crash-in-calif-i-10-work-zone"
+        }
+      ]
+    },
+    "src_date": "2026-09-25",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "CAMPUS · 미국",
+      "title": "기숙사·로스쿨·칼리지…텐버크가 지은 미국 대학 캠퍼스 4곳",
+      "image": "",
+      "image_label": "ARCHINECT",
+      "body": [
+        "아키넥트가 텐버크(TenBerke)의 대학 프로젝트 네 곳을 소개했다. 케임브리지 루이스 국제법센터는 **1957년** 건물을 재활용해 기존 콘크리트 기초와 철골의 **80%**를 살리고, 석회석 외장을 걷어내 채광을 늘렸다.",
+        "프린스턴 뉴칼리지 웨스트·예 칼리지는 연면적 **48만 5,000sf**에 학생 **1,020명**을 수용하며, 회색 금속 '트리하우스'와 칼슘실리케이트 벽돌로 전통 조적을 재해석했다. 프로비던스 브룩스트리트 기숙사는 철골+CLT 하이브리드 구조다.",
+        "시애틀 해깃홀은 **9층** 규모에 학생 **800명**이 살며, 숲 능선의 **45피트** 고저차를 소화하도록 U자형으로 앉혔다(머룸 아키텍츠 협업)."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://archinect.com/news/article/150567649/four-new-university-campus-projects-by-tenberke-your-next-employer"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "INFRA · 캐나다 온타리오",
+      "title": "190억 달러 피커링 원전 대수선, 에이컨·아트킨스레알리스 주도",
+      "image": "",
+      "image_label": "ENR",
+      "body": [
+        "캐나다 온타리오주 피커링 원전 5~8호기(칸두 4기, **2.1GW**) 대수선을 에이컨과 아트킨스레알리스가 이끈다. 사업비 **190억 달러**, 공사는 최대 10년이며 2027년 초 규제 승인 후 본격화된다.",
+        "5호기 연료채널·급수관·보일러 교체는 두 회사 50대 50 합작사가 **12억 4,000만 달러**, 터빈발전기 교체는 에이컨·지멘스에너지가 **9억 2,200만 달러**에 맡았다. 연료채널 **1,520개**와 보일러 **48기**를 바꿔 용량을 100MW 늘리고 수명을 최대 38년 연장한다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63718-aecon-atkinsrealis-lead-ontario-19b-pickering-nuclear-plant-overhaul"
+          }
+        ]
+      },
+      "src_date": "2026-09-27",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "AWARDS · 교통건축",
+      "title": "프리 베르사유 2026, 세계에서 가장 아름다운 역 7곳",
+      "image": "",
+      "image_label": "ARCHINECT",
+      "body": [
+        "프리 베르사유가 올해의 '세계에서 가장 아름다운 역' 7곳을 발표했다. 멜버른 타운홀역(하셀·RSHP), 리옹 파르디외역(AREP·L'AUC), 로마 콜로세오 포리 임페리알리역, 나폴리 몬테 산탄젤로역(아니시 카푸어·AL_A 등), 리야드 국립박물관역(아룹)·서역(옴라니아), 로스앤젤레스 LAX/메트로 환승센터(그림쇼)다.",
+        "나폴리 몬테 산탄젤로역은 지하 **48m**에 코르텐강 개구부 두 곳을 냈고, LAX 환승센터는 태양광으로 실내 에너지 수요의 약 **절반**을 댄다. 이 중 3곳은 12월 최종 심사에서 '월드 타이틀'을 받는다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://archinect.com/news/bustler/11140/world-s-most-beautiful-stations-of-2026-named-by-prix-versailles"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "수상"
+    },
+    {
+      "kicker": "AWARDS · 건축가",
+      "title": "파샤드 무사비, 2026 소안 메달 수상",
+      "image": "",
+      "image_label": "DEZEEN",
+      "body": [
+        "영국·이란계 건축가 파르시드 무사비가 올해 소안 메달을 받았다. 건축 실무와 교육, 저술에 걸친 \"지속적이고 엄정한\" 기여를 인정받았다.",
+        "무사비는 2011년 파르시드 무사비 아키텍츠를 세웠고 하버드대 GSD 교수로 재직 중이다. **2017년** 제정된 이 상의 **10번째** 수상자다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/28/farshid-moussavi-2026-soane-medal/"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "수상"
+    },
+    {
+      "kicker": "NUCLEAR · 미국 와이오밍",
+      "title": "테라파워, 40억 달러 나트륨 원전 EPC 재입찰…벡텔과 결별",
+      "image": "",
+      "image_label": "ENR",
+      "body": [
+        "테라파워가 와이오밍주 케머러 나트륨 원전(**345MW**, 용융염 저장으로 피크 **500MW**)의 설계·조달·시공(EPC)을 다시 입찰에 부친다. 2020년부터 EPC를 맡아온 벡텔과 본공사 착수 **5개월** 만에 갈라섰다.",
+        "벡텔은 나트륨 시험·충전시설만 마무리한다. 9월 15일 제출된 WARN 통지로 협력 인력 약 **200명**이 영향을 받는다. 목표 준공은 **2030년**, 미 에너지부가 약 **20억 달러**를 지원한다. 지난 8월 현대건설이 향후 최대 8기의 건설 파트너로 선정됐다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63689-terrapower-reopens-epc-competition-for-4b-natrium-nuclear-project"
+          }
+        ]
+      },
+      "src_date": "2026-09-22",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "DATA CENTER · 미국 뉴멕시코",
+      "title": "오라클, 2.45GW AI 데이터센터에 불가항력 통지",
+      "image": "",
+      "image_label": "ENR",
+      "body": [
+        "오라클이 뉴멕시코 산타테레사 인근 AI 데이터센터 캠퍼스 '프로젝트 주피터'에 **9월 24일** 불가항력 통지를 냈다. **2.45GW** 규모로 2028년 가동이 목표다.",
+        "**2,462MW** 블룸에너지 연료전지 마이크로그리드는 주 건설허가(11월 23일 시한)를 기다리고, 가스관 준공은 원래 목표(2026년 8월)에서 **2027년 2월**로 밀렸다. 오라클은 \"대규모 개발에선 흔한 통지이며 지연을 뜻하지 않는다\"고 밝혔다. 현장에는 근로자 **3,600명** 이상이 일한다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63720-oracle-invokes-force-majeure-as-new-mexico-project-jupiter-power-work-faces-hurdles"
+          }
+        ]
+      },
+      "src_date": "2026-09-27",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "경기도건축문화상 · 성남",
+      "title": "피에스케이 그룹 판교 캠퍼스, 제30회 경기도건축문화상 수상",
+      "image": "",
+      "image_label": "건축사뉴스",
+      "body": [
+        "간삼건축(김태집·오동희·고성완)이 설계한 '피에스케이 그룹 판교 캠퍼스'가 제30회 경기도건축문화상을 받았다. 판교테크노밸리 일대 대지 **4,544㎡**에 연면적 **4만 1,726㎡**, 지하 7층~지상 10층 규모다.",
+        "지하 1층부터 4층까지 이어진 아트리움과 옥상 테라스, 선큰 정원으로 청계산에서 금토천으로 이어지는 녹지와 연결된다. 알루미늄 수직 루버와 투명 커튼월이 외관을 이루고, 주차 **396대**, 에너지효율 1등급이다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://a-news.kr/news/articleView.html?idxno=13941"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "수상"
+    },
+    {
+      "kicker": "제도 · 경기도",
+      "title": "경기도, 개발제한구역 주민지원사업 국비 123억 확보",
+      "image": "",
+      "image_label": "건축사뉴스",
+      "body": [
+        "경기도가 2027년 개발제한구역 주민지원사업 국비 **123억원**을 확보했다. 전년보다 **31억원**(33.3%) 늘었고 전국 총액 약 **539억원**의 23%다.",
+        "고양·광주·군포·남양주·부천·수원·시흥·안산·양평·의왕·의정부·하남·화성 **13개** 시군에 돌아가며 도로·하천 정비, 누리길·여가녹지 등에 쓰인다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://a-news.kr/news/articleView.html?idxno=13940"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "재건축 · 서울 양천",
+      "title": "목동 재건축 '30조 큰 장' 섰지만…중견사는 금융비용에 '그림의 떡'",
+      "image": "",
+      "image_label": "뉴스핌",
+      "body": [
+        "서울 양천구 목동 **14개** 단지가 시공사 선정에 들어가며 시장 규모가 약 **30조원**으로 커졌다. DL이앤씨가 6단지(**2조 6,135억원**)에서, 현대건설이 10단지에서 자리를 굳혔고 GS건설은 12단지에 단독 입찰했다. 삼성물산은 13단지로 첫 래미안 깃발을 꽂았다.",
+        "7단지는 삼성물산·현대건설·롯데건설이, 14단지(2,023가구)는 현대·대우·DL·포스코이앤씨가 다툰다. AA-급 대형사는 프로젝트파이낸싱을 4~5%에 조달하지만 A·BBB급 중견사는 6~8%대라 가구당 이주비 대출 부담 차이가 커 사실상 참여가 어렵다. 2030년 11월 고도제한(30층) 시행 전 인허가를 마쳐야 해 대관 역량도 변수다."
+      ],
+      "source": {
+        "outlet": "뉴스핌",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.newspim.com/news/view/20260923000505"
+          }
+        ]
+      },
+      "src_date": "2026-09-27",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "정비사업 · 서울·수도권",
+      "title": "이번 주 시공사 현장설명회 23곳…오금현대·목동4단지 등",
+      "image": "",
+      "image_label": "시사오늘",
+      "body": [
+        "9월 28일~10월 2일 전국에서 시공사 현장설명회 **23건**이 열리고, 이 중 **13건**이 서울이다. 29일에는 군포 산본 9-2(**3,376가구**, 최고 35층)와 목동한신청구 1,738가구 리모델링(27층, AA- 신용등급 요구)이 열린다.",
+        "30일에는 오금현대(**1조 6,642억원**, 19개동 **2,436가구**, 삼성물산·DL이앤씨·포스코이앤씨 경쟁)와 목동4단지(최고 **49층**)가 이어지며, 10월 2일에는 마포로 1구역·여의도 은하·화랑 아파트가 예정돼 있다."
+      ],
+      "source": {
+        "outlet": "시사오늘",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=204707"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 전북 익산",
+      "title": "익산 원불교문화체험관 건립 설계공모, 10월 6일 참가등록 마감",
+      "image": "",
+      "image_label": "JOOTEK",
+      "body": [
+        "익산시 신용동 일원에 짓는 원불교문화체험관 일반 설계공모가 **9월 28일** 공고됐다. 문화및집회시설로 연면적 **3,374㎡**, 공사비 **116억원**, 설계비 **6.9억원** 규모다.",
+        "참가등록 마감은 **10월 6일**, 심사위원은 **9명**이며 결과는 **12월 3일** 이내 발표된다."
+      ],
+      "source": {
+        "outlet": "Jootek",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.jootek.com/folio/contests/18932"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 강원 태백",
+      "title": "「태백학림타운 조성사업」 설계 용역 일반 설계공모",
+      "image": "",
+      "image_label": "JOOTEK",
+      "body": [
+        "태백시 철암동 일원에 조성하는 태백학림타운 설계 용역이 **9월 28일** 일반 설계공모로 공고됐다. 대상 면적은 **1,680㎡**, 설계비는 **8.3억원**이다.",
+        "등록 마감은 **10월 6일**, 심사위원 **9명**, 결과 발표는 **12월 23일** 이내다."
+      ],
+      "source": {
+        "outlet": "Jootek",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.jootek.com/folio/contests/18931"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "데진 어워즈 2026 대중 투표 시작",
+      "body": "40여 개국 392개 숏리스트 프로젝트를 대상으로 10월 16일까지 진행된다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.dezeen.com/2026/09/28/dezeen-awards-2026-public-vote-open/"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "수상"
+    },
+    {
+      "title": "플루어·밸푸어비티, 6억 7,700만 달러 오크힐 파크웨이 완공",
+      "body": "텍사스 오스틴 남서부 US 290·SH 71 약 7마일을 편도 3차로로 넓히고 단일점 인터체인지로 바꿨다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.constructiondive.com/news/fluor-balfour-beatty-completion-texas-highway-project/831538/"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "월드트레이드센터에 추모물 둘, 9·11 25주년",
+      "body": "HNTB가 설계한 항만청 직원 추모비는 희생자 84명과 1993년 폭탄테러 희생자 6명을 기린다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63638-two-new-wtc-memorials-give-permanent-form-to-9-11-history"
+          }
+        ]
+      },
+      "src_date": "2026-09-10",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "USC 건축대학, 10월 실무 모델 심포지엄 2건",
+      "body": "16일 티후아나-LA 국경 실무, 20일 집단 실무 '하이퍼프랙티스 LA'를 다룬다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://archinect.com/news/article/150567723/usc-architecture-hosts-two-october-symposia-exploring-expanded-and-collective-models-of-practice"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "송산그린시티 우음도공원 건축물 설계공모, 9월 29일 등록 마감",
+      "body": "화성 송산면 연면적 2,535㎡ 관광휴게시설, 공사비 105억원, 심사위원 10명.",
+      "source": {
+        "outlet": "Jootek",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.jootek.com/folio/contests/18930"
+          }
+        ]
+      },
+      "src_date": "2026-09-21",
+      "topic": "설계공모"
+    },
+    {
+      "title": "경상국립대병원 임상교육훈련센터 제안공모",
+      "body": "진주 연면적 4,648㎡, 설계비 6.7억원. 10월 6일 등록, 결과는 11월 5일 발표.",
+      "source": {
+        "outlet": "Jootek",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.jootek.com/folio/contests/18933"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "설계공모"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "kennedy-center-demolition-threat",
+      "tag": "HERITAGE",
+      "title": "'이름 안 붙이면 헐린다'…케네디센터 철거 논란",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "kennedy center washington",
+      "slides": [
+        {
+          "heading": "케네디센터,\n철거 위기?",
+          "body": "트럼프의 압박과 법원의 30일 통지 명령"
+        },
+        {
+          "heading": "WHAT",
+          "body": "트럼프 대통령이 케네디센터를 '엉망'이라 부르며, 자신의 이름을 붙이지 않으면 문을 닫고 철거될 것이라고 압박했다."
+        },
+        {
+          "heading": "BUILDING",
+          "body": "에드워드 듀렐 스톤이 설계해 1971년 개관했다. 포토맥강변 17에이커 부지이며 2019년 스티븐 홀의 확장동 '리치'가 더해졌다."
+        },
+        {
+          "heading": "COURT",
+          "body": "보존·건축 단체 8곳이 3월 낸 소송에서, 연방 판사는 본관 '철거' 전 30일 이상 사전 통지를 하라고 판결했다."
+        },
+        {
+          "heading": "NOW",
+          "body": "9월 18일 수천 명이 '손 떼라'를 외치며 시위했다. 리치 확장동은 계속 열어둔다."
+        }
+      ]
+    },
+    {
+      "slug": "psk-pangyo-campus-gyeonggi-award",
+      "tag": "AWARDS",
+      "title": "경기도건축문화상 받은 피에스케이 판교 캠퍼스",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "modern office building atrium glass louver",
+      "slides": [
+        {
+          "heading": "청계산에서\n금토천까지",
+          "body": "간삼건축의 피에스케이 그룹 판교 캠퍼스"
+        },
+        {
+          "heading": "WHAT",
+          "body": "제30회 경기도건축문화상 수상작. 판교테크노밸리 일대에 들어선 사무·연구 시설이다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "대지 4,544㎡, 연면적 4만 1,726㎡, 지하 7층~지상 10층. 주차 396대, 에너지효율 1등급."
+        },
+        {
+          "heading": "SPACE",
+          "body": "지하 1층~4층을 잇는 아트리움, 옥상 테라스, 선큰 정원으로 임직원 소통과 협업을 유도한다."
+        },
+        {
+          "heading": "SKIN",
+          "body": "알루미늄 수직 루버와 투명 커튼월로 청계산~금토천 녹지와 열린 시선을 만든다."
+        }
+      ]
+    },
+    {
+      "slug": "mokdong-reconstruction-bidding",
+      "tag": "MARKET",
+      "title": "목동 재건축 30조 시장, 시공사 경쟁",
+      "ref": {
+        "section": "korea",
+        "index": 2
+      },
+      "bg": 2,
+      "photo_query": "apartment complex seoul high-rise",
+      "slides": [
+        {
+          "heading": "목동 재건축\n30조 큰 장",
+          "body": "14개 단지 시공사 선정, 중견사는 어디로"
+        },
+        {
+          "heading": "WHAT",
+          "body": "서울 양천구 목동 14개 단지가 시공사 선정에 들어가며 시장이 약 30조원으로 커졌다."
+        },
+        {
+          "heading": "WHO",
+          "body": "DL이앤씨가 6단지(2조 6,135억원), 현대건설이 10단지를 확보했다. 7단지와 14단지는 대형사 간 경합이다."
+        },
+        {
+          "heading": "GAP",
+          "body": "대형사는 PF를 4~5%에 조달하지만 중견사는 6~8%대다. 가구당 이주비 대출 부담 격차가 크다."
+        },
+        {
+          "heading": "CLOCK",
+          "body": "2030년 11월 고도제한(30층) 시행 전 인허가를 마쳐야 해 대관 역량도 변수다."
+        }
+      ]
+    }
+  ]
+}
