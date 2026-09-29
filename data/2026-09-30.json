@@ -1,0 +1,504 @@
+{
+  "vol": "VOL.01  NO.045",
+  "editor": "HUEY",
+  "outlets": [
+    "Designboom",
+    "ArchDaily",
+    "ENR",
+    "건축사신문",
+    "건축사뉴스",
+    "건축공간연구원",
+    "뉴스핌",
+    "Jootek"
+  ],
+  "teasers": [
+    {
+      "title": "제31회 경기도건축문화상, 대상에 '코트야드 바이 메리어트 평택'",
+      "desc": "시상식 10월 24일",
+      "label": "AWARDS"
+    },
+    {
+      "title": "미 DOT, RAISE 보조금 7건 6,580만달러 회수",
+      "desc": "보스턴·앨버커키 소송",
+      "label": "POLICY"
+    },
+    {
+      "title": "지심도 산마루문화놀이터 설계공모 공고",
+      "desc": "거제, 10월 13일 등록 마감",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "송파 오금현대 재건축, 공사비 1.66조 시공사 경쟁",
+      "desc": "삼성물산·포스코이앤씨·DL이앤씨",
+      "label": "MARKET"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 시장·공공건축",
+    "lede": "'몰이 아닌 아프리카 시장'…킨샤사 8만 1,500㎡ 중앙시장 자도, 벽돌로 다시 서다",
+    "lede_em": "아프리카 시장",
+    "image": "https://images.adsttc.com/media/images/6aa9/6f6b/c1eb/5301/897f/22f3/large_jpg/kinshasa-zando-central-market-think-tank-architecture_7.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "킨샤사 자도 중앙시장 ⓒ Martin Argyroglo 외 / ArchDaily",
+    "body": [
+      "콩고민주공화국 수도 킨샤사의 **자도 중앙시장(Zando Central Market)**이 **THINK TANK architecture**의 설계로 완성됐다. 프로젝트 면적은 **8만 1,500㎡**에 이른다.",
+      "설계진이 내세운 원칙은 '쇼핑몰이 아니라 아프리카 시장'이다. 대규모 인프라의 규모감을 갖추되 도시의 기후와 일상에 열려 있어야 시장다운 공공 만남의 장소가 된다는 것이다.",
+      "주재료는 **벽돌**이다. 구조·토목은 EGIS Bâtiment International이, 발주는 Sogema가 맡았다.",
+      "재래시장을 폐쇄형 상업시설로 바꾸지 않고 공공성을 유지하려 했다는 점이 이 프로젝트의 핵심이다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.archdaily.com/1185165/kinshasa-zando-central-market-think-tank-architecture"
+        }
+      ]
+    },
+    "src_date": "2026-09-24",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://www.enr.com/ext/resources/2026/09/29/RAISE---Boston.webp?t=1790711770",
+    "image_label": "ENR",
+    "title": "DOT, 선정 확정된 RAISE 보조금 7건 6,580만달러 회수…보스턴·앨버커키 소송",
+    "body": [
+      "미 교통부(DOT)가 바이든 정부 때 선정됐지만 협약이 체결되지 않은 RAISE 프로젝트 **7건**의 보조금 **6,580만달러**를 회수했다. 2025년 3월 교통부 지침에 따른 재검토 결과다."
+    ],
+    "facts": [
+      "보스턴 록스버리 회랑: **2,000만달러** — 전기차 충전이 사업의 1% 미만이나 우선순위와 충돌한다는 이유",
+      "앨버커키 레일 트레일: **1,147만달러** — 다중 교통 사업이 '차량 통행 우선' 기조에 어긋난다는 이유",
+      "그 밖에 델라웨어 1,225만·앨라배마 1,175만·코네티컷 573만달러 등"
+    ],
+    "body_after": [
+      "보스턴은 9월 28일 소송을 냈고, 앨버커키 소송에서는 연방 판사가 교통부의 기각 신청을 받아들이지 않았다. 연방 보조금에 기대는 공공 설계·시공 프로젝트는 협약 체결 전까지 재원 불확실성을 감안해야 한다."
+    ],
+    "source": {
+      "outlet": "ENR",
+      "links": [
+        {
+          "text": "기사 원문",
+          "url": "https://www.enr.com/articles/63731-dot-review-pulled-658m-from-seven-previously-selected-raise-projects"
+        }
+      ]
+    },
+    "src_date": "2026-09-29",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "HOUSING · 파리",
+      "title": "옛 주차장 자리에 어긋나게 앉힌 네 개 블록, 파리 로무엘 학생 레지던스",
+      "image": "https://images.adsttc.com/media/images/6ab2/484b/325b/9100/01c4/5e4d/large_jpg/28---MARS-Architectes---R_sidence-_tudiante---Paris-XV---_-Charly-Broyez_HD.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "MARS Architectes가 파리 15구의 옛 주차 구조물을 **2,100㎡** 규모 학생 주거로 바꿨다. 콘크리트·유리·목재를 썼고 2025년 준공됐다.",
+        "서로 살짝 어긋난 **네 개 블록**이 기존 건물과 중앙 정원 사이의 '중간 형상'을 이룬다. 어긋남이 프라이버시와 시선, 이격 거리를 조절하고 대각선 조망과 채광을 만든다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1185535/residence-lourmel-mars-architectes"
+          }
+        ]
+      },
+      "src_date": "2026-09-25",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "REGENERATION · 친황다오",
+      "title": "호텔·주거·상업을 광장으로 엮은 마이크로 커뮤니티, 아란야 유이베이 재생",
+      "image": "https://images.adsttc.com/media/images/6ab6/830f/7a66/c501/8bc5/700b/large_jpg/aranya-youyi-bay-community-regeneration-genarchitects_8.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "genarchitects가 중국 친황다오에서 호텔·주거·상업 공간을 서로 이어진 공공 광장 중심으로 재구성했다. 규모는 **1,046㎡**, 2025년 준공이다.",
+        "이용자가 광장을 지나며 '활기에서 고요로, 공공에서 사적으로' 서서히 옮겨가도록 설계했고, 커뮤니티가 쓰면서 자라나는 방식을 강조한다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1185755/aranya-youyi-bay-community-regeneration-genarchitects"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "도시재생"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "REUSE · 낭트",
+      "title": "1960년대 철도 신호소, 붉은 주황색 키오스크 바 '레기유즈'로",
+      "image": "https://www.designboom.com/twitterimages/uploads/2026/09/laiguilleuse-studio-tere-railway-signal-box-kiosk-bar-jardins-de-lestuaire-ile-de-nantes-france-designboom-1200-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "스튜디오 테레가 낭트 일 드 낭트의 옛 신호소(**36㎡**)를 공원 속 키오스크 바로 바꿨다. 세 면의 접이식 창과 금속 셔터를 열면 공원과 이어진 개방형 파빌리온이 된다.",
+        "시계와 신호등을 그대로 남겼고 이름은 옛 신호수를 여성형으로 부른 것이다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.designboom.com/architecture/former-railway-signal-box-laiguilleuse-red-orange-kiosk-bar-nantes-studio-tere/"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "HOUSE · 포르투갈",
+      "title": "소나무 숲과 해변 사이 146㎡ 단층집, '라이스 허스크 하우스'",
+      "image": "https://images.adsttc.com/media/images/6aba/7466/5c4d/8600/0165/6dd6/large_jpg/e4d1b3bb-image.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "SUMMARY가 포르투갈 에스모리스의 남북축 정방형 대지에 **146㎡** 단층 주택을 지었다. 소나무 숲과 해변 가까운 저밀 주거지의 이웃 주택 규모에 맞췄다. 2024년 준공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1185918/rice-husk-house-summary"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HOTEL · 갈라파고스",
+      "title": "다윈의 관찰에서 출발한 목조 리조트, 에콰도르 핀치 베이 호텔",
+      "image": "https://images.adsttc.com/media/images/6aba/96c9/0762/9c00/01cf/e728/large_jpg/BICUBIK_0090.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "알프레도 리바데네이라 아키텍토스가 갈라파고스 푸에르토 아요라에 **3만 6,802㎡** 규모 호텔을 완성했다. 방문객과 지구에서 가장 특별한 자연환경을 잇는 '다리'를 목표로, 목재를 주재료로 삼았다. 2025년 준공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1185929/finch-bay-hotel-alfredo-ribadeneira-arquitectos"
+          }
+        ]
+      },
+      "src_date": "2026-09-28",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "INFRASTRUCTURE · 미국",
+      "title": "앨라배마 모바일강 교량, 30년 만에 착공 앞두고 최종 자금 확보",
+      "image": "",
+      "image_label": "ENR",
+      "body": [
+        "앨라배마 역대 최대 인프라 사업인 모바일강 교량이 **25억 2,000만 달러** TIFIA 대출(9월 18일 확정)로 마지막 재원 문턱을 넘었다. 시공은 키위트·매스만·트레일러 브로스의 KMT 합작사가 맡는 **32억 달러** 설계·시공 계약이다.",
+        "**2.5마일** 사장교로 **10월 2일** 착공하며 2031년 말 개통 목표다. 통행료는 개통과 함께 부과되고 10년간 매년 5% 또는 물가상승률 중 큰 값만큼 오른다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63723-long-delayed-32b-alabama-bridge-project-clears-final-funding-hurdle"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "수상 · 경기도",
+      "title": "제31회 경기도건축문화상 대상에 '코트야드 바이 메리어트 평택'",
+      "image": "",
+      "image_label": "건축사뉴스",
+      "body": [
+        "경기도건축문화상 사용승인부문 대상에 정림건축(정용교·이명진·김용만)의 **코트야드 바이 메리어트 평택**이 선정됐다. 금상은 운정다누림 노인장애인 복지관·양평군 체육센터·구미동 성남물빛정원·자강헌 4점, 은상은 서운면 행정복지센터 등 4점이다.",
+        "계획부문 대상은 순천향대 염미르 학생의 '**Unfinished Return**'(6·25 신원미상 유해 안치시설)이다. 시상식은 **10월 24일**, 수상작 전시는 **10월 23~25일** 파주 지혜의 숲에서 열린다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13942"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "수상"
+    },
+    {
+      "kicker": "정비사업 · 서울 송파",
+      "title": "송파 오금현대 재건축, 공사비 1조 6,642억원 시공사 3파전",
+      "image": "",
+      "image_label": "뉴스핌",
+      "body": [
+        "오금현대 재건축은 **2,436가구**, 최고 **37층** 규모로 평당 공사비 **962만원**이다. 현장설명회는 **9월 30일**, 입찰 마감은 **11월 25일**이며 입찰보증금은 **1,000억원**이다.",
+        "삼성물산은 입주 시 분담금 납부, 포스코이앤씨는 가구당 **2억원** 즉시 지급, DL이앤씨는 분담금 최대 **4~7년** 유예를 앞세운다."
+      ],
+      "source": {
+        "outlet": "뉴스핌",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.newspim.com/news/view/20260922000887"
+          }
+        ]
+      },
+      "src_date": "2026-09-22",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "공공건축 · 건축공간연구원",
+      "title": "2050년 노후 청사 1만 444동…'짓기'에서 '오래 쓰기'로",
+      "image": "",
+      "image_label": "건축공간연구원",
+      "body": [
+        "건축공간연구원은 국·공유 업무시설 **1만 2,411동**(2024년 12월) 가운데 2050년 30년 이상 노후 청사가 **1만 444동**(국유 5,388·공유 5,056)에 이를 것으로 전망했다.",
+        "향후 25년 운영·유지비는 약 **14조원**으로 추정되며, 예방적 유지관리로 최대 **3조 6,113억원**을 줄일 수 있다고 봤다. 실태조사부터 성과평가까지 순환형 관리체계와 규제·지원 결합형 법률안을 제안했다."
+      ],
+      "source": {
+        "outlet": "건축공간연구원",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7520&tag=&nPage=1"
+          }
+        ]
+      },
+      "src_date": "2026-09-07",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 경남 거제",
+      "title": "지심도 산마루문화놀이터 명소화 사업 설계공모, 10월 13일 등록 마감",
+      "image": "",
+      "image_label": "JOOTEK",
+      "body": [
+        "경남 거제시 일운면 옥림리 일원에 짓는 문화및집회시설 제안공모가 **9월 29일** 공고됐다. 연면적 **1,387㎡**, 공사비 **84.6억원**, 설계비 **6.1억원** 규모다.",
+        "참가등록 마감은 **10월 13일**, 심사위원은 **9인**이며 결과는 **12월 4일** 발표된다."
+      ],
+      "source": {
+        "outlet": "Jootek",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.jootek.com/folio/contests/18938"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 전북 전주",
+      "title": "전주 K-문화콘텐츠 지원센터 건립 기본·실시설계 공모",
+      "image": "",
+      "image_label": "JOOTEK",
+      "body": [
+        "전주시 덕진구 만성동에 짓는 **연면적 5,000㎡** 규모 센터의 일반 설계공모가 **9월 29일** 공고됐다. 공사비 **171억원**, 설계비 **8.3억원**이다.",
+        "등록 마감은 **10월 7일**, 심사위원은 **11인**이며 결과는 **11월 1일** 발표된다."
+      ],
+      "source": {
+        "outlet": "Jootek",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.jootek.com/folio/contests/18935"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "정비사업 · 서울 여의도",
+      "title": "여의도 삼익·은하 재건축 시공사 입찰 유찰…GS건설 단독 참여",
+      "image": "",
+      "image_label": "뉴스핌",
+      "body": [
+        "시공사 현장설명회에 GS건설 한 곳만 참여해 입찰이 유찰됐다. 양 단지 소유주 **90%** 이상이 통합 시공에 찬성해 재공고 뒤 수의계약 가능성이 높다.",
+        "시범아파트(공사비 2조원대)를 비롯한 여의도 단지 대부분이 단독 응찰로 수의계약에 들어갔다. 업계는 고금리·원자재 상승에 따른 선별 수주 전략으로 본다."
+      ],
+      "source": {
+        "outlet": "뉴스핌",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.newspim.com/news/view/20260921000940"
+          }
+        ]
+      },
+      "src_date": "2026-09-21",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "스타트업 모티프, AI 에이전트 내장 브라우저 BIM 플랫폼 공개",
+      "body": "오토데스크 출신이 만든 클라우드 BIM. 자연어로 벽·마감을 생성하고 Revit·IFC를 손실 없이 불러온다. 투자금 **4,600만달러**.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63682-motif-debuts-browser-based-bim-design-platform-that-uses-ai-for-skills-not-scripts"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "덴마크건축센터, 얀 겔 90세 기념…10월 5일 '사람을 위한 도시전'",
+      "body": "세계건축의 날 개막. 공공공간 **12개** 품질 기준을 참여형으로 체험하는 전시와 대담이 열린다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.archdaily.com/1185868/danish-architecture-center-celebrates-urbanist-jan-gehls-90th-birthday-with-a-calendar-of-activities-and-an-exhibition"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "메사비 메탈릭스, 아이오와에 150억달러 제철소 계획",
+      "body": "연 **750만t**(2030년)에서 **1,000만t**으로 확대하는 전기로 제철소. 건설 인력 **6,000명** 이상이 투입된다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63726-mesabi-metallics-plans-15b-iowa-steel-mill-has-3b-minnesota-iron-ore-mine-investment"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "자이언트 마젤란 망원경, 시공사 선정 준비 착수",
+      "body": "22층 구조물 중 상부 18층이 360° 회전한다. 업계 설명회는 **11월 3~4일**, 시공사 선정은 2027년 말, 착공은 2028년이다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사 원문",
+            "url": "https://www.enr.com/articles/63725-giant-magellan-telescope-project-prepares-for-contractor-selection"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "프로젝트"
+    }
+  ],
+  "counts": {
+    "total": 18,
+    "kr": 6,
+    "intl": 12
+  },
+  "cardnews": [
+    {
+      "slug": "kinshasa-zando-market",
+      "tag": "MARKET",
+      "title": "'몰이 아닌 시장'…킨샤사 자도 중앙시장",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "kinshasa market",
+      "slides": [
+        {
+          "heading": "몰이 아닌\n아프리카 시장",
+          "body": "THINK TANK가 지은 킨샤사 자도 중앙시장"
+        },
+        {
+          "heading": "WHAT",
+          "body": "콩고민주공화국 킨샤사의 자도 중앙시장이 완성됐다. 프로젝트 면적은 8만 1,500㎡에 이른다."
+        },
+        {
+          "heading": "CONCEPT",
+          "body": "설계진의 원칙은 '쇼핑몰이 아니라 아프리카 시장'. 대규모 인프라이되 도시의 기후와 일상에 열려 있어야 한다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "주재료는 벽돌. 구조·토목은 EGIS, 발주는 Sogema가 맡았다."
+        }
+      ]
+    },
+    {
+      "slug": "ogeum-hyundai-bidding",
+      "tag": "MARKET",
+      "title": "송파 오금현대, 1.66조 시공사 3파전",
+      "ref": {
+        "section": "korea",
+        "index": 1
+      },
+      "bg": 1,
+      "photo_query": "apartment complex seoul high-rise",
+      "slides": [
+        {
+          "heading": "1.6조 원\n오금현대 쟁탈전",
+          "body": "삼성물산·포스코이앤씨·DL이앤씨의 금융조건 경쟁"
+        },
+        {
+          "heading": "SCALE",
+          "body": "2,436가구, 19개 동, 최고 37층. 총공사비 1조 6,642억원, 평당 962만원이다."
+        },
+        {
+          "heading": "OFFERS",
+          "body": "삼성물산은 입주 시 분담금 납부, 포스코이앤씨는 가구당 2억원 즉시 지급, DL이앤씨는 분담금 최대 4~7년 유예를 내걸었다."
+        },
+        {
+          "heading": "WORRY",
+          "body": "조합원들은 건축비가 평당 100만원 오르면 분담금이 1억원씩 늘 것이라며 불안해한다."
+        },
+        {
+          "heading": "SCHEDULE",
+          "body": "현장설명회 9월 30일, 입찰 마감 11월 25일. 입찰보증금은 1,000억원이다."
+        }
+      ]
+    },
+    {
+      "slug": "aranya-youyi-bay",
+      "tag": "REGENERATION",
+      "title": "아란야 유이베이, 광장으로 엮은 마이크로 커뮤니티",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "chinese seaside town plaza",
+      "slides": [
+        {
+          "heading": "활기에서\n고요로",
+          "body": "genarchitects의 아란야 유이베이 커뮤니티 재생"
+        },
+        {
+          "heading": "WHAT",
+          "body": "중국 친황다오에서 호텔·주거·상업 공간을 서로 이어진 공공 광장 중심으로 재구성했다."
+        },
+        {
+          "heading": "FLOW",
+          "body": "광장을 지나며 활기에서 고요로, 공공에서 사적으로 서서히 옮겨가도록 짰다."
+        },
+        {
+          "heading": "GROW",
+          "body": "1,046㎡ 규모로 2025년 준공. 커뮤니티가 쓰면서 자라나는 방식을 강조한다."
+        }
+      ]
+    }
+  ]
+}
