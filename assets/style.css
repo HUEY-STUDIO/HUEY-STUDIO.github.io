@@ -775,12 +775,12 @@ article .src{margin-top:auto}
   .cn-tile .cn-arrow{width:32px; height:32px; font-size:17px}
   .cn-tile .cn-dots{margin-top:10px}
 }
-}
 @media (max-width:680px){
   body{padding:0 12px 48px; font-size:15.5px}
   .site-nav{margin:0 -12px 20px; padding:10px 16px}
   .sheet{padding:0 18px 28px; border-radius:var(--r-md)}
   .sheet.sheet--home{padding-right:18px}
+  .home-main .brandbar,.home-main .paper-foot{margin-right:-18px}
   .brandbar{margin:0 -18px 18px; padding:8px 18px; letter-spacing:.12em; border-radius:var(--r-md) var(--r-md) 0 0}
   .topstrip{grid-template-columns:repeat(2,1fr); gap:10px}
   .topcols{column-count:1}
@@ -792,7 +792,8 @@ article .src{margin-top:auto}
   .ar-go{display:none}
   .site-nav{gap:8px}
   .site-nav nav{gap:12px}
-  .site-nav nav a{font-size:10px; letter-spacing:.05em}
+  .site-nav nav a{font-size:10px; letter-spacing:.05em; white-space:nowrap}
+  .site-nav__visits{display:none}
   .fr-form{flex-direction:column}
   .fr-form button{padding:10px 0}
   .issue-nav{grid-template-columns:1fr 1fr; gap:10px}
