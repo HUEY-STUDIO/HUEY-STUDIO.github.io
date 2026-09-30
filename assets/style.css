@@ -760,12 +760,13 @@ article .src{margin-top:auto}
   .briefs{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:560px){
-  .cn-row{gap:12px}
-  .cn-tile-meta{margin-top:7px}
-  .cn-tag{font-size:8.5px}
-  .cn-tile h4{font-size:12px}
-  .cn-tile .cn-arrow{width:22px; height:22px; font-size:13px}
-  .cn-tile .cn-dots{margin-top:6px}
+  /* 모바일: 카드뉴스를 세로로 한 장씩 크게 (3열 축소 → 1열 전폭) */
+  .cn-row{grid-template-columns:1fr; gap:28px}
+  .cn-tile-meta{margin-top:10px}
+  .cn-tag{font-size:11px}
+  .cn-tile h4{font-size:17px}
+  .cn-tile .cn-arrow{width:34px; height:34px; font-size:18px}
+  .cn-tile .cn-dots{margin-top:10px}
 }
 @media (max-width:680px){
   body{padding:0 12px 48px; font-size:15.5px}
