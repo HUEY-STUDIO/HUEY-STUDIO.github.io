@@ -111,6 +111,11 @@ python3 render.py --all          # 전체 재생성 (CSS·구조 수정 후)
 - Dezeen: `https://static.dezeen.com/.../*_hero-852x479.jpg` 형태가 적합
 - ArchDaily: `https://images.adsttc.com/.../large_jpg/...` 형태가 적합
 
+매체 CDN(ENR 등 Cloudflare)은 독자의 지역·브라우저에 따라 핫링크를 막기도 한다(curl로는 200인데
+독자 화면엔 안 뜨는 경우). 그래서 `render.py`가 만드는 `<img>`는 원본이 실패하면 이미지 프록시
+**wsrv.nl**(원본을 대신 받아 캐시해 전달)로 한 번 더 시도하고, 그래도 실패하면 매체명
+플레이스홀더로 바뀐다. `image`에는 평소처럼 **원본 URL만** 넣으면 된다(프록시 URL을 직접 넣지 말 것).
+
 이미지를 못 구하면 해당 기사의 `image`를 비워둔다.
 `render.py`가 매체명 플레이스홀더로 대체하고, `korea` 항목은 자동으로 텍스트 카드가 된다.
 

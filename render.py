@@ -98,6 +98,14 @@ def paras(body, cls=""):
     return "\n".join(f"      <p{c}>{rich(p)}</p>" for p in (body or []))
 
 
+IMG_PROXY = "https://wsrv.nl/?w=1400&we&url="
+
+
+def esc_js(v):
+    """onerror 속성 안 JS 문자열 리터럴용 이스케이프(작은따옴표·역슬래시), 그 뒤 HTML 이스케이프."""
+    return esc(str(v).replace("\\", "\\\\").replace("'", "\\'"))
+
+
 def thumb(img, label, extra_cls=""):
     """이미지 블록. 로드 실패 시 매체명 플레이스홀더로 대체."""
     label = esc(label or "IMAGE")
@@ -105,10 +113,14 @@ def thumb(img, label, extra_cls=""):
     img = safe_url(img)
     if not img:
         return f'<div class="{cls} noimg" data-label="{label}"></div>'
+    # 매체 CDN(Cloudflare 등)이 지역·브라우저에 따라 외부 사이트 핫링크를 막는 경우가 있다.
+    # 원본이 실패하면 이미지 프록시(wsrv.nl — 원본을 대신 받아 캐시해 전달)로 한 번 더 시도하고,
+    # 그래도 실패하면 매체명 플레이스홀더로 대체한다. 저장소에 이미지를 복사하지는 않는다.
     return (
         f'<div class="{cls}" data-label="{label}">'
-        f'<img src="{esc(img)}" alt="" loading="lazy" '
-        f'onerror="this.parentNode.classList.add(\'noimg\')"></div>'
+        f'<img src="{esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" '
+        f'onerror="if(!this.dataset.p){{this.dataset.p=1;this.src=\'{esc(IMG_PROXY)}\'+encodeURIComponent(\'{esc_js(img)}\')}}'
+        f'else{{this.parentNode.classList.add(\'noimg\')}}"></div>'
     )
 
 
