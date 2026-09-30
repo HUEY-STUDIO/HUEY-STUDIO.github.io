@@ -1,0 +1,536 @@
+{
+ "vol": "VOL.01  NO.046",
+ "editor": "HUEY",
+ "outlets": [
+  "ArchDaily",
+  "ENR",
+  "Dezeen",
+  "건축사신문",
+  "아시아투데이",
+  "파이낸셜뉴스",
+  "Jootek"
+ ],
+ "teasers": [
+  {
+   "title": "설계도서 작성기준 개정안 행정예고, 10월 2일까지 의견 수렴",
+   "desc": "전자도면·법규검토 표준화",
+   "label": "REGULATION"
+  },
+  {
+   "title": "2025년 완성공사 원가, 재료비 비중 23.6%로 상승",
+   "desc": "외주비 55.8%, 노무비 7.8%",
+   "label": "INDUSTRY"
+  },
+  {
+   "title": "NRC, TVA 클린치리버 SMR 건설허가 발급",
+   "desc": "美 첫 소형모듈원전 300MW",
+   "label": "INFRA"
+  },
+  {
+   "title": "Buildner 아이슬란드 '슬로 사우나' 공모 결과 발표",
+   "desc": "1등 '리니어 리추얼'",
+   "label": "AWARDS"
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 시공·분쟁",
+  "lede": "8년 걸린 루카스 내러티브 아트 박물관, 공사 끝나자 시공 소송 6건이 한 재판으로 묶였다",
+  "lede_em": "시공 소송 6건이 한 재판으로 묶였다",
+  "image": "https://www.enr.com/ext/resources/2026/09/29/Lucas_Museum-opens.jpg",
+  "image_label": "ENR",
+  "caption": "2026년 9월 개관한 로스앤젤레스 루카스 내러티브 아트 박물관 ⓒ ENR",
+  "body": [
+   "마 얀송(MAD 아키텍츠)이 설계한 로스앤젤레스 **루카스 내러티브 아트 박물관**이 2026년 5월 준공, 9월 개관했지만 공사 분쟁은 이제 본격화됐다. 원도급사 **해서웨이 디윈디**와 하도급사들이 제기한 소송 **6건**을 담당 판사가 **9월 19일** 병합 심리하라고 명령했다. 전기 하도급사 J.R. 스나이더 일렉트릭은 병합이 '상상할 수 없이 복잡한 소송의 늪'을 만든다고 반대했다.",
+   "이 프로젝트는 원래 **15억 달러** 규모로 추정됐고 연면적 약 **30만 평방피트** 규모로 2018년 착공해 36개월을 예상했으나 실제로는 **8년**이 걸렸다. 빌딩 자동제어를 맡은 지멘스 인더스트리는 계약 **31개월** 공정이 **90개월**로 늘었고 설계변경 **300건 이상**, 정보요청(RFI) **1만 2,000건**이 쏟아졌다고 주장한다.",
+   "J.R. 스나이더는 3년 예정 공사가 5년 더 걸렸고, 노무비 인상과 자재가 20~30% 급등을 떠안았다고 호소한다. 지멘스가 '해서웨이가 안 줬다', 해서웨이가 '루카스가 안 줬다'며 대금을 미루는 지급 사슬이 문제의 핵심이다. 부지가 주정부 소유 임대지라 **유치권(mechanic's lien)** 을 걸 수 없어 공공공사 수준의 지급보증을 요구하는 것도 쟁점이다.",
+   "루카스 박물관 측 변호인은 '이 정도 규모의 공사에서는 거의 매번 있는 분쟁'이라고 선을 그었다. 그러나 설계변경 폭주와 공기 지연이 하도급 단계에서 어떻게 금전 분쟁으로 번지는지, 대형 문화시설 발주·설계 관리에 주는 교훈이 크다."
+  ],
+  "source": {
+   "outlet": "ENR",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.enr.com/articles/63730-lucas-museum-is-target-of-lawsuits-from-hathaway-dinwiddie-and-subcontractors"
+    }
+   ]
+  },
+  "src_date": "2026-09-30",
+  "topic": "프로젝트"
+ },
+ "side": {
+  "label": "실무 직결 · 제도/규제",
+  "image": "https://image.fnnews.com/resource/media/image/2026/09/10/202609101313342768_l.png",
+  "image_label": "파이낸셜뉴스",
+  "title": "설계도서 작성기준 개정 행정예고…전자도면·법규검토 표준화",
+  "body": [
+   "국토교통부가 **'건축물의 설계도서 작성기준'** 개정안을 9월 10일 행정예고했다. 건축사마다 달랐던 도면 표현을 통일하고 법규 검토 과정의 오류·누락을 줄이는 것이 목적이다. 의견 수렴은 **10월 2일**까지다."
+  ],
+  "facts": [
+   "근거: 대한건축사협회 '전자설계도서 작성지침'·'한국건축규정 기반 설계도서 품질확인 지침'",
+   "전자도면: CAD 레이어·도면번호·표시방법 공통 기준",
+   "품질확인: 허가 시 확인할 관계 법령 체크리스트 제공",
+   "표준설계도서: 다세대·업무시설·근린생활시설 등 **6종** 보급",
+   "시행일: 행정예고 단계로 **미정**"
+  ],
+  "body_after": [
+   "협회 측은 지침이 제도권에 들어오면 설계 변경이 줄고, 설계도서 품질을 근거로 더 현실적인 설계대가를 주장할 수 있을 것으로 기대한다. 반면 전문가 칼럼은 표현 획일화·시스템 종속·보안·도입비용·현장 실용성 저하를 우려 요인으로 짚었다."
+  ],
+  "source": [
+   {
+    "outlet": "파이낸셜뉴스",
+    "links": [
+     {
+      "text": "행정예고 보도",
+      "url": "https://www.fnnews.com/news/202609101313168780"
+     }
+    ]
+   },
+   {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "전문가 칼럼",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21191"
+     }
+    ]
+   }
+  ],
+  "src_date": "2026-09-10",
+  "topic": "제도규제"
+ },
+ "intl_feature": [
+  {
+   "kicker": "MUSEUM · 독일",
+   "title": "쌍곡포물면 쉘 아래 진주조개를 모신다, 아도르프 '진주 체험 박물관'",
+   "image": "https://images.adsttc.com/media/images/6ab6/aa25/5cd0/3901/88de/4b41/large_jpg/mother-of-pearl-experience-museum-adorf-vogtland-schulz-und-schulz_5.jpg",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "독일 포크틀란트 지방 아도르프에 슐츠 운트 슐츠가 설계한 **진주 체험 박물관**이 문을 열었다. 민물 진주조개와 진주 채취, 진주층 공예를 전담하는 세계 최초의 박물관이다.",
+    "연면적 **2,013㎡**(순바닥면적 1,112㎡). 목재·석재·콘크리트를 쓰고 **쌍곡포물면 쉘** 구조가 눈에 띈다. 설계진은 이 건물을 농촌 쇠퇴 지역의 정체성 상징이자 지역 발전 동력으로 설정했다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "프로젝트",
+      "url": "https://www.archdaily.com/1185837/mother-of-pearl-experience-museum-adorf-vogtland-schulz-und-schulz"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "RENOVATION · 아일랜드",
+   "title": "'필요가 발명을 낳는다'…아일랜드가 리노베이션 실험실이 된 까닭",
+   "image": "https://images.adsttc.com/media/images/6abb/84e5/21f2/b512/ac86/a755/large_jpg/building-and-rebuilding-irelands-laboratory-of-renovation_5.jpg?1790674154",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "주택 부족과 높은 집값, 방대한 기존 건물 스톡, 계획·문화재 규제, 그리고 철거를 정당화하기 어려워진 **체화 탄소** 문제가 겹치며 아일랜드 건축가들이 리노베이션에서 가장 창의적인 전략을 내놓고 있다는 분석이다.",
+    "구조체를 잘라 빛을 끌어들이거나 오래된 재료 옆에 새 재료를 병치하는 식이다. 대표 사례로 Courtney McDonnell의 **Griffith Avenue House**, Donal Colfer의 **Ballymorris House**, Wrkshop의 **Urban Cottage**, **Hanging Gardens Office Building** 등이 소개됐다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1185958/necessity-as-invention-irelands-laboratory-of-renovation"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "HOUSE · 브라질",
+   "title": "닫힌 측벽, 열린 뒷면…베스파시아누의 '마트리즈 하우스'",
+   "image": "https://images.adsttc.com/media/images/6aba/7066/5c4d/8600/0165/6cd4/large_jpg/Est_dio_Zargos_-_Casa_Matriz_-_Manuel_S___34_.jpg",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "에스튜디오 자르고스가 브라질 베스파시아누에 지은 **550㎡** 주택. 밀집 주거지의 일반 해법 대신 측면 파사드를 닫아 프라이버시를 확보하고, 조망은 뒤쪽 정원으로 열었다. 수영장 수면이 배경 숲을 비추며 실내·물·풍경의 경계를 흐린다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "프로젝트",
+      "url": "https://www.archdaily.com/1185997/matriz-house-estudio-zargos"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "ENERGY · 미국",
+   "title": "NRC, TVA에 첫 SMR 건설허가…클린치리버 300MW",
+   "image": "https://www.enr.com/ext/resources/2026/09/30/TVA---Verona-Approval.jpg",
+   "image_label": "ENR",
+   "body": [
+    "미 원자력규제위원회(NRC)가 **9월 29일** 테네시밸리공사(TVA)의 클린치리버 부지 소형모듈원전(GE 버노바 히타치 **BWRX-300**, **300MW**)에 건설허가를 발급했다. 미국 첫 상업용 SMR 건설허가다.",
+    "TVA는 자체 **3억 5,000만 달러**를 승인했고 에너지부(DOE)가 최대 **4억 달러**를 분담한다. 기존 목표였던 2032년 상업운전은 이번에 재확인되지 않았다."
+   ],
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.enr.com/articles/63737-federal-nuclear-regulator-oks-tva-to-build-first-us-small-modular-reactor"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "BIENNALE · 룩셈부르크",
+   "title": "'과잉!' 룩셈부르크관, 2027 베니스 비엔날레에서 주거 면적의 과소비를 묻는다",
+   "image": "https://images.adsttc.com/media/images/6abc/16ea/b2b8/9801/8835/a20e/newsletter/the-luxembourg-pavilion-examines-overconsumption-of-living-space-through-excess-at-the-2027-venice-architecture-biennale_1.jpg?1790711552",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "큐레이터 셀린 치머, 부이 꾸이 선, 폴앙투안 뤼카가 전시 **'Excess! On the Overconsumption of Living Space'** 를 꾸린다. 1인당 주거 면적이 큰 룩셈부르크와 급성장하는 베트남을 대비해 주거 면적의 불평등을 다룬다. 전시는 **2027년 5월 8일~11월 21일** 아르세날레 살라 다르미."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186027/the-luxembourg-pavilion-examines-overconsumption-of-living-space-through-excess-at-the-2027-venice-architecture-biennale"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "AI · 설계 실무",
+   "title": "아르카디스·오토데스크, 설계·엔지니어링용 AI 어시스턴트 공동 개발",
+   "image": "",
+   "image_label": "ENR",
+   "body": [
+    "글로벌 설계사 아르카디스가 오토데스크와 협력해 **오토데스크 어시스턴트**를 프로젝트 전반에 확대한다. 아르카디스의 MCP(모델 컨텍스트 프로토콜) 기능을 연결해 데이터 소유권은 유지하면서 Revit·Civil 3D·Forma 위에서 AI 보조 도구를 함께 개발한다. 협약은 **9월 28일** 발표됐다."
+   ],
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.enr.com/articles/63741-arcadis-to-collaborate-with-autodesk-on-ai-tools-for-design-and-engineering"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "건설산업 · 원가",
+   "title": "2025년 완성공사 원가 재료비 비중 23.6%…외주비·노무비는 하락",
+   "body": [
+    "대한건설협회가 **9월 30일** 공표한 '2025년 기준 완성공사 원가통계'에 따르면 공사원가 중 외주비가 **55.8%**, 재료비 **23.6%**, 현장경비 **12.9%**, 노무비 **7.8%**였다. 재료비 비중은 전년 22.7%에서 **0.9%p** 올랐다.",
+    "대기업은 외주비 58.6%·노무비 4.7%, 소기업은 외주비 34.2%·노무비 20.7%로 구조 차이가 컸다. 협회는 누적된 자재가 상승과 환율 영향을 원인으로 꼽았다. 집계는 계약금액 3억원 이상 **5,214건** 기준이다."
+   ],
+   "source": {
+    "outlet": "아시아투데이",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260930010010872"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "제도 · 건축법",
+   "title": "건축법 체계개편, 새 규제보다 '운영 불명확성' 먼저 고쳐야",
+   "body": [
+    "건축사신문 특별기고에서 한창섭 연구원장은 건축법 전면 개편에 앞서 운영상 불명확성부터 손봐야 한다고 주장했다. 구속력 있는 '사전결정' 대신 자문 성격의 **'사전검토'** 로 대지 제약을 미리 파악하게 하고, 설계자·시공자·감리자 책임을 실제 운영에 맞게 재정립하자는 제안이다.",
+    "상주·비상주 감리 구분 기준, 통합 인허가 시스템, AI 서류 검증 도구, 위반 조사·시정 절차 명확화도 함께 제시했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "특별기고",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21190"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "건축사회 · 연구",
+   "title": "서울특별시건축사회, 제6기 서울건축산업연구원 출범",
+   "body": [
+    "서울특별시건축사회가 표준설계도서 연구·개발을 이어온 **서울건축산업연구원** 제6기를 출범시켰다. 발대식은 **8월 6일** 열렸고 이광한 건축사(건축법연구원)가 원장을 이어 맡으며 건축사 **8명**이 연구를 수행한다. 첫 회의에서는 연구계획 공유와 향후 과제, 연구 일정이 논의됐다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21187"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "설계공모 · 충남 홍성",
+   "title": "홍주종합경기장 시설 개보수공사 설계공모, 10월 6일 참가등록 마감",
+   "body": [
+    "충남 홍성군 **8,665㎡** 규모 경기장 개보수 **제안공모**. 예정 설계비 **14.9억원**, 공사비 **227억원**, 심사위원 6인. 공고일 9월 30일, 결과 발표는 **11월 3일**이다."
+   ],
+   "source": {
+    "outlet": "Jootek",
+    "links": [
+     {
+      "text": "공모 공고",
+      "url": "https://www.jootek.com/folio/contests/18939"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 충남 논산",
+   "title": "논산시 양지추모원 제2봉안당 증축 설계공모, 10월 8일 등록 마감",
+   "body": [
+    "**744㎡** 봉안당 증축 기본·실시설계 **제안공모**. 예정 설계비 **2.7억원**, 공사비 **32.4억원**, 심사위원 6인. 결과 발표는 **11월 2일**."
+   ],
+   "source": {
+    "outlet": "Jootek",
+    "links": [
+     {
+      "text": "공모 공고",
+      "url": "https://www.jootek.com/folio/contests/18936"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 경북 문경",
+   "title": "경북 소방장비기술센터 신축 일반 설계공모, 공사비 160억원",
+   "body": [
+    "문경시 산양면 진정리 **6,780㎡** 규모 업무시설. 예정 설계비 **7.3억원**, 공사비 **160억원**의 **일반 설계공모**로 심사위원 9인이다. 참가등록은 **10월 6일**까지, 결과 발표는 12월 22일까지 예정이다."
+   ],
+   "source": {
+    "outlet": "Jootek",
+    "links": [
+     {
+      "text": "공모 공고",
+      "url": "https://www.jootek.com/folio/contests/18934"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "설계공모"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "Buildner 아이슬란드 '슬로 사우나' 공모, 1등에 '리니어 리추얼'",
+   "body": "미바튼 호수 화산 지형에 사우나·온실 복합 휴식처를 제안하는 공모. 1등은 칼머스공대 팀 **'Linear Ritual'**, 2등 'Descent into Stillness', 3등 'The Fourfold Ritual'.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1185437/how-buildners-iceland-slow-sauna-competition-winners-respond-to-a-volcanic-landscape"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "수상"
+  },
+  {
+   "title": "캔자스시티 니그로리그 야구박물관 확장, 러셀건설 선정",
+   "body": "박물관 **3,500만 달러** 확장과 144실 펜넌트 호텔 **5,500만 달러** 등 총 **9,000만 달러** 사업. 설계는 멀티스튜디오, 기존 1만 sq ft 시설의 3배 이상으로 커진다.",
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.enr.com/articles/63734-contractor-selected-for-negro-leagues-baseball-museum-expansion-in-kansas-city"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "라틴아메리카 이달의 건축: 부에노스아이레스 비엔날레 40주년",
+   "body": "부에노스아이레스 국제건축비엔날레가 **40주년**을 맞아 '거주(HABITAR)'를 주제로 열리고, 멕시코 디자인위크는 10월 5~11일 칠레를 주빈국으로 연다.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1185977/latin-america-in-focus-this-month-in-architecture-inhabitation-memory-and-cultural-exchange"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "노먼 포스터, 데진 어워즈 2026 파티서 기조연설",
+   "body": "포스터는 **11월 16일** 런던 로열 오페라 하우스에서 열리는 시상 파티에서 건축의 미래를 주제로 연설한다.",
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/09/30/norman-foster-dezeen-awards-2026-party-keynote/"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "수상"
+  },
+  {
+   "title": "데진 선정 9월 인기 주택 5선",
+   "body": "북아일랜드의 회색 벽돌 주택, 교토의 좁은 주택, 멕시코 석회 마감 주택, 스웨덴 CLT 별장, 망고나무 곁의 인도 주택이 뽑혔다.",
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/09/30/top-houses-september-2026/"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "건축사협회 '주요 입법·제도 변경 대응 현황' 9월 하반기 정리",
+   "body": "대한건축사협회가 9월 하반기 주요 입법·제도 변경 사항과 협회의 대응 현황을 건축사신문에 공개했다.",
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21183"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "제도규제"
+  }
+ ],
+ "counts": {
+  "total": 20,
+  "kr": 6,
+  "intl": 14
+ },
+ "cardnews": [
+  {
+   "slug": "lucas-museum-lawsuits",
+   "tag": "DISPUTE",
+   "title": "8년 걸린 루카스 박물관, 소송 6건이 하나로",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "photo_query": "museum los angeles",
+   "slides": [
+    {
+     "heading": "8년 공사 끝,\n소송 6건 병합",
+     "body": "루카스 내러티브 아트 박물관 시공 분쟁"
+    },
+    {
+     "heading": "SCALE",
+     "body": "15억 달러, 30만 평방피트. 36개월 예상이 실제로는 8년, 2026년 5월 준공·9월 개관."
+    },
+    {
+     "heading": "CLAIMS",
+     "body": "지멘스는 31개월 계약이 90개월로 늘고 설계변경 300건, RFI 1만 2,000건이 쏟아졌다고 주장한다."
+    },
+    {
+     "heading": "PAYMENT CHAIN",
+     "body": "지멘스는 해서웨이, 해서웨이는 루카스를 탓하는 지급 사슬. 주정부 임대지라 유치권도 걸 수 없다."
+    },
+    {
+     "heading": "LESSON",
+     "body": "설계변경과 공기 지연은 결국 하도급 단계의 금전 분쟁으로 번진다. 발주·설계 관리의 교훈이다."
+    }
+   ]
+  },
+  {
+   "slug": "design-doc-standard",
+   "tag": "REGULATION",
+   "title": "설계도서 작성기준 개정, 도면이 표준화된다",
+   "ref": {
+    "section": "side"
+   },
+   "bg": 1,
+   "photo_query": "architectural drawings blueprint",
+   "slides": [
+    {
+     "heading": "도면 표현\n하나로 맞춘다",
+     "body": "국토부, 설계도서 작성기준 개정안 행정예고"
+    },
+    {
+     "heading": "WHY",
+     "body": "건축사마다 달랐던 도면 표현을 통일하고 법규 검토의 오류·누락을 줄이기 위한 개정이다."
+    },
+    {
+     "heading": "E-DRAWING",
+     "body": "CAD 레이어·도면번호·표시방법 등 전자설계도서 공통 기준을 제시한다."
+    },
+    {
+     "heading": "CHECKLIST",
+     "body": "허가 시 확인할 관계 법령 체크리스트를 담은 품질확인 지침과 표준설계도서 6종을 보급한다."
+    },
+    {
+     "heading": "NEXT",
+     "body": "의견 수렴은 10월 2일까지. 시행일은 미정이다. 표현 획일화·도입 비용 우려도 나온다."
+    }
+   ]
+  },
+  {
+   "slug": "completed-cost-2025",
+   "tag": "INDUSTRY",
+   "title": "공사원가의 23.6%가 자재비, 4년 만에 최고",
+   "ref": {
+    "section": "korea",
+    "index": 0
+   },
+   "bg": 2,
+   "photo_query": "construction materials steel rebar",
+   "slides": [
+    {
+     "heading": "공사원가\n4분의 1이 자재비",
+     "body": "2025년 기준 완성공사 원가통계"
+    },
+    {
+     "heading": "STRUCTURE",
+     "body": "외주비 55.8%, 재료비 23.6%, 현장경비 12.9%, 노무비 7.8%."
+    },
+    {
+     "heading": "CHANGE",
+     "body": "재료비 비중은 22.7%에서 23.6%로 0.9%p 상승. 외주비·노무비는 하락했다."
+    },
+    {
+     "heading": "GAP",
+     "body": "대기업은 노무비 4.7%, 소기업은 20.7%. 기업 규모별 원가 구조 차이가 크다."
+    },
+    {
+     "heading": "WHY",
+     "body": "협회는 누적된 자재가격 상승과 환율 변동, 건설경기 부진에 따른 노임 둔화를 원인으로 꼽았다."
+    }
+   ]
+  }
+ ]
+}
