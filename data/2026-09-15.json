@@ -84,7 +84,9 @@
         }
       ]
     },
-    "topic": "제도규제"
+    "topic": "제도규제",
+    "image": "https://www.kcenews.kr/imgdata/kcenews_kr/202609/2026091418543397.png",
+    "image_label": "대한건설경제"
   },
   "intl_feature": [
     {
@@ -206,7 +208,8 @@
           }
         ]
       },
-      "topic": "설계공모"
+      "topic": "설계공모",
+      "image": "https://archinect.gumlet.io/uploads/su/suiptanm1bvxggov.jpg?fit=crop&auto=compress%2Cformat&w=1200"
     }
   ],
   "korea": [

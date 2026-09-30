@@ -86,7 +86,9 @@
         }
       ]
     },
-    "topic": "제도규제"
+    "topic": "제도규제",
+    "image": "https://img.newspim.com/news/2026/08/05/2608050951107110_t1.jpg",
+    "image_label": "뉴스핌"
   },
   "intl_feature": [
     {
@@ -112,7 +114,7 @@
     {
       "kicker": "국제 · 인프라",
       "title": "두바이 알막툼공항, 세계 최장 50㎞ 무인철도 낸다",
-      "image": "",
+      "image": "https://www.thenationalnews.com/resizer/v2/CCAP65QHEVCERJYH2CD5RAGHHI.jpg?auth=c3caf0acb337cd8afb16f230277df87bc27870b742e4fff3b9676225e7335fc8&smart=true&width=1200&height=630",
       "image_label": "THE NATIONAL",
       "body": [
         "두바이 알막툼국제공항이 세계 최대 규모의 **자동무인철도(APM)** 시스템을 갖추게 된다. **미쓰비시중공업(MHI)**과 인도 **L&T(Larsen & Toubro)** 컨소시엄이 공사를 수주했으며, 1단계로 **9개 역**을 잇는 지하 노선을 건설하고 향후 전체 확장이 끝나면 **14개 역**, 총 **50㎞** 노선으로 늘어난다. 현재 가장 긴 공항 APM인 댈러스포트워스공항 스카이링크(약 8㎞)의 여섯 배가 넘는 규모다.",
