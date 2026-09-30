@@ -49,7 +49,10 @@ import base64
 import io
 import json
 import os
+import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -86,7 +89,9 @@ FONT_FAMILY = "'Pretendard Variable', Pretendard, 'Apple SD Gothic Neo', sans-se
 
 # ------------------------------------------------------------------ 배경 사진
 # 1순위는 item의 "official_photos"(공공누리 등 확인된 정부·공공기관 이미지, 실사진 그대로).
-# 그걸로 못 채운 슬라이드는 "photo_query"로 Unsplash를 검색해 채운다 — 이 경우 기사와
+# 2순위는 item의 "commons_photos"(위키미디어 커먼즈 파일명) — 라이선스를 API로 자동 확인해
+# 퍼블릭 도메인·CC0·CC BY만 쓴다(BY-SA·ND·NC는 거부). 실제 그 건물 사진이라 문구 없이 출처만 단다.
+# 그걸로도 못 채운 슬라이드는 "photo_query"로 Unsplash를 검색해 채운다 — 이 경우 기사와
 # 무관한 연출컷이라는 문구가 자동으로 붙는다. 키 없음/검색 실패면 브랜드 그래픽으로 폴백한다.
 UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
@@ -127,6 +132,97 @@ def download_official(entry):
     return photo
 
 
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+# 위키미디어는 식별 가능한 User-Agent를 요구한다.
+COMMONS_UA = "HEUY.ARCHI-cardnews/1.0 (https://huey-studio.github.io/)"
+_commons_cache = {}  # title -> photo | None
+
+
+def commons_license_ok(name):
+    """카드뉴스(사진 위에 글자를 얹은 2차 저작물)에 쓸 수 있는 라이선스인지.
+    BY-SA는 카드 전체를 같은 라이선스로 풀어야 하고, ND는 변형 금지, NC는 비영리 한정이라 제외한다."""
+    n = (name or "").strip().lower()
+    if n.startswith("public domain") or n in {"pd", "cc0", "cc0 1.0", "cc-zero"} or n.startswith("pd-"):
+        return True
+    return bool(re.fullmatch(r"cc[ -]by \d(\.\d)?", n))
+
+
+def _strip_html(v):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", v or "")).strip()
+
+
+def _commons_query(params, thumb=False):
+    params = {"action": "query", "format": "json", "prop": "imageinfo",
+              "iiprop": "url|extmetadata|size",
+              "iiextmetadatafilter": "LicenseShortName|Artist|ObjectName|ImageDescription|Restrictions",
+              **params}
+    if thumb:  # 썸네일 URL은 실제로 받을 파일에만 요청한다(검색 20건에 걸면 429가 난다)
+        params["iiurlwidth"] = 1600
+    req = urllib.request.Request(f"{COMMONS_API}?{urllib.parse.urlencode(params)}",
+                                 headers={"User-Agent": COMMONS_UA})
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return list((json.load(resp).get("query") or {}).get("pages", {}).values())
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or attempt == 3:
+                raise
+            time.sleep(2 ** (attempt + 1))
+
+
+def _commons_meta(page):
+    info = (page.get("imageinfo") or [{}])[0]
+    meta = info.get("extmetadata") or {}
+    get = lambda k: _strip_html((meta.get(k) or {}).get("value", ""))
+    return info, get("LicenseShortName"), get("Artist") or "작자 미상", get
+
+
+def download_commons(title):
+    """커먼즈 파일(예: "File:Kennedy Center.jpg")을 라이선스 확인 후 받아온다."""
+    if not title.startswith("File:"):
+        title = "File:" + title
+    if title in _commons_cache:
+        return _commons_cache[title]
+    photo = None
+    try:
+        pages = _commons_query({"titles": title}, thumb=True)
+        if not pages or "missing" in pages[0]:
+            print(f"    [commons] 파일 없음: {title}", file=sys.stderr)
+        else:
+            info, lic, artist, get = _commons_meta(pages[0])
+            if not commons_license_ok(lic):
+                print(f"    [commons] 라이선스 불가({lic or '미상'}) — 건너뜀: {title}", file=sys.stderr)
+            else:
+                if get("Restrictions"):
+                    print(f"    [commons] 주의: 추가 제한 {get('Restrictions')!r} — {title}", file=sys.stderr)
+                req = urllib.request.Request(info.get("thumburl") or info["url"],
+                                             headers={"User-Agent": COMMONS_UA})
+                with urllib.request.urlopen(req, timeout=30) as resp:
+                    data = base64.b64encode(resp.read()).decode()
+                    ctype = resp.headers.get_content_type() or "image/jpeg"
+                photo = {"data_uri": f"data:{ctype};base64,{data}", "kind": "commons",
+                         "credit_name": f"{artist} / Wikimedia Commons · {lic}"}
+    except Exception as e:
+        print(f"    [commons] 실패({title!r}): {e}", file=sys.stderr)
+    _commons_cache[title] = photo
+    return photo
+
+
+def commons_search(query, limit=20):
+    """후보 탐색용: python3 cardnews.py --commons-search "kennedy center"
+    라이선스 적합 여부(✓/✗)·크기·설명을 보여준다. 설명을 읽고 실제 기사 속 그 건물인지
+    확인한 뒤 파일명을 commons_photos에 넣는다."""
+    pages = _commons_query({"generator": "search", "gsrsearch": f"{query} filetype:bitmap",
+                            "gsrnamespace": 6, "gsrlimit": limit})
+    pages.sort(key=lambda p: p.get("index", 0))
+    for pg in pages:
+        info, lic, artist, get = _commons_meta(pg)
+        mark = "✓" if commons_license_ok(lic) else "✗"
+        desc = (get("ImageDescription") or get("ObjectName"))[:70]
+        print(f"{mark} {lic or '?':<14} {info.get('width')}x{info.get('height')}  {pg['title']}\n"
+              f"      {artist[:40]} — {desc}")
+
+
 def search_unsplash(query, count=1):
     """query로 최대 count장의 서로 다른 사진을 받아온다. 결과는 관련도순(1순위가 먼저)."""
     # Playwright의 크로미움은 이 환경의 HTTPS 프록시(커스텀 CA)를 신뢰하지 않아
@@ -161,7 +257,7 @@ def credit_block(photo):
     """사진 출처 표시. Unsplash 사진에는 '기사와 무관한 이미지'라는 문구를 함께 남긴다."""
     if not photo:
         return ""
-    if photo.get("kind") == "official":
+    if photo.get("kind") in ("official", "commons"):
         return f'<div class="foot"><div class="credit">ⓒ {esc(photo["credit_name"])}</div></div>'
     return (
         '<div class="foot">'
@@ -408,6 +504,7 @@ def photos_for_item(item, slides):
     우선순위:
       1. item의 "official_photos"(공공누리 등 확인된 정부·공공기관 이미지) — 앞 슬라이드부터 채운다.
          표지(0번)에 실제 취재 사진이 들어가는 가장 좋은 경우다.
+      1-2. item의 "commons_photos"(위키미디어 커먼즈 파일명) — 라이선스 자동 확인 후 다음 빈 칸부터.
       2. 슬라이드 자신에게 photo_query가 있으면 그 슬라이드만 Unsplash에서 단독 검색.
       3. 나머지는 item의 photo_query 하나로 슬라이드 수만큼 한 번에 검색한 Unsplash 결과
          (API 호출 1회)에서 순서대로 채운다.
@@ -420,6 +517,11 @@ def photos_for_item(item, slides):
         if i >= n:
             break
         photos[i] = download_official(entry)
+    commons = [download_commons(t) for t in (item.get("commons_photos") or [])]
+    commons = [c for c in commons if c]
+    for i in range(n):
+        if photos[i] is None and commons:
+            photos[i] = commons.pop(0)
 
     empty_idx = [i for i in range(n) if photos[i] is None]
     for i in empty_idx:
@@ -457,8 +559,12 @@ def render_item(browser, day, item):
     os.makedirs(out_dir, exist_ok=True)
     photos = photos_for_item(item, slides)
     n_found = len([p for p in photos if p])
-    if item.get("photo_query"):
-        print(f"    [unsplash] {n_found}/{len(slides)}장 확보 (기본 검색어 {item['photo_query']!r})")
+    n_real = len([p for p in photos if p and p["kind"] != "unsplash"])
+    if item.get("commons_photos") or item.get("official_photos"):
+        print(f"    [실사진] {n_real}/{len(slides)}장 (공공누리·커먼즈)")
+    n_unsplash = len([p for p in photos if p and p["kind"] == "unsplash"])
+    if item.get("photo_query") and n_unsplash:
+        print(f"    [unsplash] {n_unsplash}/{len(slides)}장 (기본 검색어 {item['photo_query']!r})")
     page = browser.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
     try:
         for i, slide in enumerate(slides):
@@ -513,6 +619,9 @@ def run(days, force, og_default=False):
 
 
 if __name__ == "__main__":
+    if sys.argv[1:2] == ["--commons-search"]:
+        commons_search(" ".join(sys.argv[2:]))
+        sys.exit(0)
     flags = {"--force", "--og-default"}
     args = [a for a in sys.argv[1:] if a not in flags]
     force = "--force" in sys.argv[1:]
