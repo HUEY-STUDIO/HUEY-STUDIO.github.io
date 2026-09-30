@@ -752,7 +752,10 @@ article .src{margin-top:auto}
   .home-side{position:static; top:auto; padding-left:0; min-width:0}
   .home-resizer{display:none}
   .home-main .brandbar{margin-right:-32px}
-  .home-main .paper-foot{margin-right:-32px}
+  /* 사이드바가 지면 아래로 내려오면 푸터의 음수 하단 여백(지면 끝까지 붙이는 용도)이
+     사이드바 카드를 끌어올려 겹친다 — 스택 레이아웃에서는 여백을 되돌리고 간격을 준다. */
+  .home-main .paper-foot{margin-right:-32px; margin-bottom:0; border-radius:0}
+  .home-side{margin-top:24px}
   .topblock{grid-template-columns:1fr; gap:24px}
   .topmain{padding:0}
   .topside{padding:22px}
