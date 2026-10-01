@@ -1,0 +1,549 @@
+{
+  "vol": "VOL.01  NO.047",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "Designboom",
+    "Dezeen",
+    "ArchDaily",
+    "ENR",
+    "Construction Dive",
+    "건축사뉴스",
+    "건축사신문",
+    "건축공간연구원",
+    "Jootek"
+  ],
+  "teasers": [
+    {
+      "title": "뉴욕시 주민투표 11월 3일, 인허가 40건을 한 창구로",
+      "desc": "건설 인허가 간소화 3개 안건",
+      "label": "REGULATION"
+    },
+    {
+      "title": "2025년 전국 건축허가 면적 8.4% 감소",
+      "desc": "비수도권 -18.7%, 수도권 +4.0%",
+      "label": "INDUSTRY"
+    },
+    {
+      "title": "데이터센터 건설지출 8월 전년 대비 73% 급증",
+      "desc": "ABC \"속도 가늠하기 어렵다\"",
+      "label": "INFRA"
+    },
+    {
+      "title": "2027 코펜하겐 건축 비엔날레 주제 '엘리먼츠'",
+      "desc": "2027.9.9~10.15 개최",
+      "label": "EVENT"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "쓰레기로 구운 벽돌 8만 2,000장, 10월 3일 문을 여는 벨기에 겐트 디자인 뮤지엄 신관",
+    "lede_em": "쓰레기로 구운 벽돌 8만 2,000장",
+    "image": "https://www.designboom.com/twitterimages/uploads/2026/09/design-museum-gent-new-wing-locally-made-waste-brick-re-st-carmody-groarke-atama-ghent-belgium-designboom-1800.jpg",
+    "image_label": "DESIGNBOOM",
+    "caption": "재개관을 앞둔 겐트 디자인 뮤지엄 신관 ⓒ Michiel De Cleene / Design Museum Gent",
+    "body": [
+      "카모디 그로크(Carmody Groarke)·아타마(ATAMA)·레스트(RE-ST)가 설계한 벨기에 **겐트 디자인 뮤지엄**이 **10월 3일** 재개관한다. 새로 지은 **2,200㎡** 규모 신관이 기존 역사 건물 **6,400㎡** 에 더해져 벨기에 최대 디자인 박물관이 된다.",
+      "신관의 외벽은 목구조 위에 흰 벽돌을 쌓았다. 이 벽돌이 '겐트 폐기물 벽돌'이다. 시 폐기물을 저에너지 석회 양생 방식으로 굳혀 겐트 아르세날에서 직접 만든 지역 생산 자재로, 사용량이 **8만 2,000장** 이 넘는다. 자재 순환을 건물 자체로 보여주는 선택이다.",
+      "박물관은 **1903년** 장인과 관람객에게 영감을 주려고 모범 사례를 모은 '모델 박물관'으로 출발했다. 이번 개편은 이 유산을 오늘의 관점으로 다시 읽어, 디자인이 사물·도시·사회 시스템을 어떻게 빚는지 묻는 열린 시민 공간으로 위치를 바꾼다.",
+      "개관 전시는 소장품 **500점** 을 주제별로 엮은 〈컬렉션: 미래를 위한 과거의 모델〉과 〈공공의 문제: 디자인과 민주주의〉이며, 협업 프로젝트 CO-LAB과 AI 검색 도구도 선보인다. 구조는 네이앤파트너스, 설비는 보이덴스 엔지니어링, 음향은 다이달로스 퓌츠가 맡았다."
+    ],
+    "source": {
+      "outlet": "Designboom",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.designboom.com/architecture/design-museum-gent-new-wing-locally-made-waste-brick-re-st-carmody-groarke-atama-ghent-belgium/"
+        }
+      ]
+    },
+    "src_date": "2026-10-01",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://www.enr.com/ext/resources/2026/WEB-NYC-Bike-Lane.webp",
+    "image_label": "ENR",
+    "title": "뉴욕시 11월 3일 주민투표, 건설 인허가 40건을 한 포털로 모은다",
+    "body": [
+      "뉴욕시가 인허가 절차를 현대화하는 **5개 안건**을 11월 3일 주민투표에 부친다. 개발·시공에 직접 관련된 것은 2·3·4번 안건이다."
+    ],
+    "facts": [
+      "2번: 계약자 질의서 간소화, 보고서 의무 청문 폐지 → 소규모 업체 입찰 유도",
+      "3번: 가로 안전사업 심사 간소화, 공중권 처분 가속 (현재 약 **2년** 소요)",
+      "4번: **18개** 기관에 흩어진 인허가 **40건** 을 온라인 포털로 통합, 수변 인허가는 건축국으로 이관"
+    ],
+    "body_after": [
+      "빌딩 의회 등 업계는 '시공자가 관료제를 헤매는 시간이 줄 것'이라며 지지한다. 인허가 창구 일원화가 설계 일정과 사전 협의 방식에 미칠 영향을 지켜볼 만하다."
+    ],
+    "source": {
+      "outlet": "ENR",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.enr.com/articles/63743-new-york-city-ballot-proposals-designed-to-streamline-construction"
+        }
+      ]
+    },
+    "src_date": "2026-10-01",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "ADAPTIVE REUSE · 덴마크",
+      "title": "1888년 정신병원 병동이 박물관으로, CF 묄러의 '마인드 뮤지엄'",
+      "image": "https://static.dezeen.com/uploads/2026/09/mind-museum-cf-moller-architecture-adaptive-reuse-public-leisure_dezeen_2364_sq-852x852.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "덴마크 미델파트의 옛 정신병원(1888~1999) 환자동을 **CF 묄러**가 덴마크 정신의학사 박물관 **마인드(MIND)** 로 바꿨다. 부지는 100년 넘게 수많은 환자가 머문 곳이다.",
+        "건물은 1888년 고전주의 원형, 1960년대 현대화 증축, 이번 전환의 세 시기를 겹쳐 보이게 했고, 설계진은 '명확한 공간 구조'를 살리는 데 무게를 뒀다. 전시장과 회의실·로비는 정신건강 단체의 모임 장소로도 쓰인다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/10/01/cf-moller-mind-museum/"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "도시재생 · 시카고",
+      "title": "시카고 첫 오피스→주거 전환 완공, 121년 된 14층 '벨웨더' 117세대",
+      "image": "https://imgproxy.divecdn.com/q0GWm93HCWfeAl_Riyth5mrLB7TwBl4PMs14F-DDVF8/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfOTM3OC5qcGVn.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "시카고 루프의 옛 렉터 빌딩(웨스트 먼로가 79번지)이 **117세대** 혼합소득 주거 '벨웨더'로 전환됐다. 시 '라살 스트리트 리이매진드' 프로그램의 첫 완공작이며, **41세대** 는 지역 중위소득 60% 가구용이다.",
+        "재원은 시 조세증분금융 **2,800만 달러** 와 역사 랜드마크 지정에 따른 연방 세액공제 **780만 달러**. 프로그램은 6개 전환 사업으로 **1,765세대** 를 목표로 하고, 민간 전환까지 합치면 약 **4,000세대** 가 예정돼 있다. 시카고는 미국 도시 중 리모델링 전환 3위다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/office-to-housing-conversion-chicago-downtown/831867/"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "도시재생"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "INSTALLATION · 오스트리아",
+      "title": "산 정상역 지붕 위에 설치한 스뇌헤타의 '레흐 마운틴 미러'",
+      "image": "https://images.adsttc.com/media/images/6abd/0e28/4c0c/5301/88f7/4606/newsletter/lech-mountain-mirror-snohetta_15.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스뇌헤타가 오스트리아 레흐의 추크베르크반 산악열차 정상역 지붕에 풍경 설치물을 완성했다. 발주는 레흐 베르크반 AG, 재료는 목재와 석재다. 방문객의 지각을 흔들어 레흐를 사계절 목적지로 굳히겠다는 의도다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186060/lech-mountain-mirror-snohetta"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "INFRA · 미국",
+      "title": "데이터센터 건설지출 8월 7.5%↑, 전년 대비 73%…'속도 가늠하기 어렵다'",
+      "image": "https://www.enr.com/ext/resources/2026/10/01/ABC-August-Backlog.webp",
+      "image_label": "ENR",
+      "body": [
+        "미국 시공사협회(ABC) 분석에서 데이터센터 건설지출이 8월 한 달 **7.5%** 늘어 전년 대비 **73%** 높아졌다. 3월 이후 연환산 증가율은 **149%** 다. 전체 비주거 건설은 **1조 3,090억 달러**, 제조업 건설은 **19.2%** 줄었다.",
+        "ABC 회원사 6곳 중 1곳이 데이터센터 공사를 수주했고 이들의 수주잔고는 **9.9개월**(없는 업체 8.3개월)이다. 자재 투입가격은 전년 대비 **8.9%** 올랐다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63746-data-center-construction-spending-accelerates-at-149-annualized-pace"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HERITAGE · 근대건축",
+      "title": "아키데일리·세계기념물기금, 글로벌 사우스 근대건축 보존 협력",
+      "image": "https://snoopy.archdaily.com/images/archdaily/media/images/6aba/c913/e2f1/2801/8aba/a63d/slideshow/a-new-lens-on-modern-heritage-archdaily-partners-with-the-world-monuments-fund_18.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "아키데일리가 세계기념물기금(WMF)과 손잡고 WMF의 프로젝트 아카이브를 디지털화하고 보존 사례 콘텐츠를 만든다. 2027년에는 공동 지원 보존 프로젝트도 시작한다.",
+        "인도 파텔 스타디움, 부르키나파소 국민의 집, 2026 WMF/놀 모더니즘상을 받은 에티오피아 유엔 아프리카홀이 사례로 거론됐다. 근대건축은 나이가 아니라 정치적 맥락과 문화적 의미로 유산 가치를 증명해야 한다는 문제의식이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1185940/a-new-lens-on-modern-heritage-archdaily-partners-with-the-world-monuments-fund"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "HOUSE · 멕시코",
+      "title": "박공 셋에 석조 벙크하우스, 체인+시만의 '카사 아니'",
+      "image": "https://static.dezeen.com/uploads/2026/09/casa-ani-mexico-city-chain-siman_dezeen_2364_col_0-852x852.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "멕시코 건축가 체인+시만이 발레 데 브라보에 지은 **689㎡** 주말 주택. 박공지붕 세 동과 석재로 감싼 벙크하우스를 짝지어 '재료와 시간을 가로지르는 대화'를 만들었다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/10/01/casa-ani-mexico-valle-de-bravo-chain-siman/"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "건축 통계 · 인허가",
+      "title": "2025년 전국 건축허가 면적 8.4% 감소…비수도권 18.7% 급감",
+      "body": [
+        "국토교통부 통계로 2025년 전국 건축허가 면적은 **1억 1,482만㎡** 로 전년보다 **8.4%** 줄었다. 허가 동수는 **6.5%**, 착공 면적은 **9.6%**, 준공 면적은 **15.4%** 각각 감소해 전 단계가 동반 하락했다.",
+        "수도권 허가가 **4.0%** 늘어난 반면 비수도권은 **18.7%** 줄어 격차가 컸다. 주거용은 전 단계 감소, 아파트는 허가 4.9%·착공 21.0% 줄었고 상업용은 착공 13.3%, 준공 2.3% 늘었다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13943"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축문화 · 행사",
+      "title": "'2026 진주건축문화제', 10월 14~21일 '도시 사용법' 주제로",
+      "body": [
+        "올해 5회째인 진주건축문화제가 10월 14일부터 21일까지 진주시청 1층과 물빛나루쉼터 등에서 열린다. 주제는 '도시 사용법: 도시탐험'으로, 시민이 도시 공공건축을 새로운 시선으로 만나게 하는 것이 목표다.",
+        "전시·세미나·도시건축 투어·북토크로 구성되며 매일 오전 9시~오후 7시 무료 관람이다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21205"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "재난 복구 · 건축사회",
+      "title": "경남건축사회, 호우피해 입은 거제·통영에 복구 성금 1,607만원",
+      "body": [
+        "경상남도건축사회와 18개 지역건축사회가 8월 15~18일 집중호우로 피해를 본 거제시에 **1,000만원**, 통영시에 **607만원** 등 총 **1,607만원** 을 기탁했다. 전달식은 9월 7일 경남도청에서 열렸다.",
+        "정일현 경남건축사회장은 회원들이 자발적으로 낸 성금이 주민들의 일상 회복에 도움이 되길 바란다고 밝혔다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21204"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "AURI · 도시공원",
+      "title": "스마트파크 정책모델 설계, 1만㎡ 근린공원에 스마트 그린인프라 11종",
+      "body": [
+        "건축공간연구원이 auri brief 313호에서 도시공원을 '실시간으로 시민 건강·안전을 돕는 지능형 생활 인프라'로 바꾸는 방안을 제시했다. 3기 신도시 기준의 **1만㎡** 근린공원에 기후위기 대응 5종, 고령사회 대응 3종, 첨단 모빌리티 3종 등 솔루션 **11종** 을 넣은 모델이다.",
+        "32년 생애주기 분석에서 편익비용비율(B/C) **1.067**, 순현재가치 약 **4억원** 이 나왔고 연간 편익은 일반 공원의 약 **3.7배** 다. AI 통합센터가 환경·시설 데이터를 모아 관수·냉방·조명·안전을 자동 제어하는 운영 모델도 함께 제안했다."
+      ],
+      "source": {
+        "outlet": "건축공간연구원",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7567"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "건축상 · 부산",
+      "title": "2026 부산건축상, 대상 없이 금상 '롯데의 숲'…출품작 51점",
+      "body": [
+        "2026 부산건축상 심사 결과 **대상은 선정되지 않았다.** 심사위원단은 51점의 출품작 가운데 대상 수준에 이른 작품이 없다고 판단해 금상 1점과 은상 2점, 장려상 4점을 골랐다.",
+        "금상은 동래 온천 지역의 근린생활시설로, 인접한 동래별장의 전통 건축 형태와 공간 특성을 현대적으로 재해석해 기존과 신축의 공존을 보여줬다는 평을 받았다. 전시는 10월 27~31일 벡스코에서 열리고 시상식은 10월 31일 열린다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21197"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "수상"
+    },
+    {
+      "kicker": "설계공모 · 문화시설",
+      "title": "국립국악원 강원분원 건립 설계 제안공모, 공사비 221억원",
+      "body": [
+        "강릉시 홍제동 부지에 짓는 문화및집회시설 설계 제안공모. 연면적 **4,446㎡**, 예정 공사비 **221억원**, 설계비 **11.3억원** 이다. 심사위원은 9명이다.",
+        "참가등록 마감 **10월 14일**, 결과 발표는 12월 1일 이내다."
+      ],
+      "source": {
+        "outlet": "Jootek",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://www.jootek.com/folio/contests/18940"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 공공주거",
+      "title": "구미경찰서 직원관사 재건축 설계 제안공모, 10월 6일 등록 마감",
+      "body": [
+        "경북 구미시 칠성로2길 30 부지의 직원관사 재건축 설계 제안공모. 연면적 **4,103㎡**, 공사비 **55.8억원**, 설계비 **2.6억원** 이며 심사위원은 7명이다.",
+        "참가등록 마감 **10월 6일**, 결과 발표는 11월 24일 이내다."
+      ],
+      "source": {
+        "outlet": "Jootek",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://www.jootek.com/folio/contests/18937"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "2027 코펜하겐 건축 비엔날레, 주제 '엘리먼츠'로 9월 9일 개막",
+      "body": "2027.9.9~10.15. 불·흙·공기·물 네 요소로 전시를 짜고 쿠마 설계 파피외 등 4곳에서 연다. 신규 파빌리온 공모도 병행.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186121/the-copenhagen-architecture-biennial-announces-theme-and-dates-for-its-second-edition"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "GAO, FEMA 재해경감 사업 심사 평균 7~9개월 지적",
+      "body": "BRIC 예산 48억 달러 중 절반만 집행, 11개월 중단 뒤 10억 달러 재개. 심사 대기 약 700건.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63742-gao-report-finds-too-lengthy-a-review-process-for-hazard-mitigation-projects-across-us"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "제도규제"
+    },
+    {
+      "title": "아마존 20년 전력계약 690MW, 칼버트 클리프스 원전 30억 달러 증설",
+      "body": "190MW 증출력을 2030~32년 가동 목표로 추진. 현재 용량 1.79GW.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63745-amazon-deal-backs-3b-plus-calvert-cliffs-nuclear-upgrade"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "루이빌 공항, 개항 이래 첫 국제선 터미널 6만 평방피트 추가",
+      "body": "11월 입찰, 2027~2029년 시공. 10억 달러 'SDF 넥스트' 프로그램의 일부.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63744-louisville-muhammad-ali-international-airport-adds-international-concourse"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "샌프란시스코, 라엘 산 프라텔로 '급진적 상상력' 전시",
+      "body": "예르바부에나 예술센터에서 3D 프린팅과 실험적 재료, 사회운동을 엮은 중견 회고전.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/10/01/rael-san-fratello-san-francisco-exhibition-yerba-buena-broom-roof/"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "경북건축사회, 'AI 건축문화경진대회' 개최…101명 참가",
+      "body": "9월 5일 천마아트센터에서 고교생·대학생·일반인이 AI로 미래 건축 아이디어를 겨뤘다.",
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21199"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "수상"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "design-museum-gent-waste-brick",
+      "tag": "PROJECT",
+      "title": "쓰레기로 구운 벽돌 8만 2,000장, 겐트 디자인 뮤지엄",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "ghent belgium",
+      "slides": [
+        {
+          "heading": "쓰레기로 구운\n흰 벽돌 신관",
+          "body": "10월 3일 재개관하는 겐트 디자인 뮤지엄"
+        },
+        {
+          "heading": "SCALE",
+          "body": "새 신관 2,200㎡가 기존 건물 6,400㎡에 더해져 벨기에 최대 디자인 박물관이 된다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "시 폐기물을 저에너지 석회 양생으로 굳힌 '겐트 폐기물 벽돌' 8만 2,000장을 지역에서 생산했다."
+        },
+        {
+          "heading": "HISTORY",
+          "body": "1903년 모범 사례를 모은 '모델 박물관'으로 출발해 이제 디자인과 민주주의를 묻는 시민 공간이 된다."
+        },
+        {
+          "heading": "EXHIBITION",
+          "body": "소장품 500점 전시, 협업 CO-LAB, AI 검색 도구로 개관한다."
+        }
+      ]
+    },
+    {
+      "slug": "nyc-permit-ballot",
+      "tag": "REGULATION",
+      "title": "뉴욕, 인허가 40건을 한 포털로 모은다",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "new york city skyline",
+      "slides": [
+        {
+          "heading": "인허가 40건,\n창구는 하나로",
+          "body": "뉴욕시 11월 3일 주민투표"
+        },
+        {
+          "heading": "VOTE",
+          "body": "건설 절차를 현대화하는 5개 안건 중 2·3·4번이 개발·시공과 직결된다."
+        },
+        {
+          "heading": "PORTAL",
+          "body": "4번 안건: 18개 기관에 흩어진 인허가 40건을 온라인 포털 하나로 통합한다."
+        },
+        {
+          "heading": "FASTER",
+          "body": "3번 안건: 약 2년 걸리던 공중권 처분 등을 가속하고 가로 안전사업 심사를 간소화한다."
+        },
+        {
+          "heading": "BIDDING",
+          "body": "2번 안건: 계약자 질의서를 간소화해 소규모 업체의 입찰 참여를 유도한다."
+        }
+      ]
+    },
+    {
+      "slug": "permits-2025-decline",
+      "tag": "INDUSTRY",
+      "title": "2025년 건축허가 8.4% 감소, 수도권만 버텼다",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "apartment construction crane",
+      "slides": [
+        {
+          "heading": "건축허가\n8.4% 줄었다",
+          "body": "2025년 전국 건축 통계"
+        },
+        {
+          "heading": "PERMITS",
+          "body": "허가 면적 1억 1,482만㎡, 동수는 6.5% 감소했다."
+        },
+        {
+          "heading": "PIPELINE",
+          "body": "착공 면적 9.6%, 준공 면적 15.4% 감소해 전 단계가 동반 하락했다."
+        },
+        {
+          "heading": "REGIONS",
+          "body": "수도권 허가는 4.0% 늘었지만 비수도권은 18.7% 급감했다."
+        },
+        {
+          "heading": "SECTORS",
+          "body": "아파트 착공은 21.0% 줄었고 상업용은 착공 13.3%, 준공 2.3% 늘었다."
+        }
+      ]
+    }
+  ]
+}
