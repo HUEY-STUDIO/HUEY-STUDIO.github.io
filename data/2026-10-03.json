@@ -1,0 +1,523 @@
+{
+  "vol": "VOL.01  NO.048",
+  "editor": "HUEY",
+  "counts": {
+    "total": 20,
+    "intl": 14,
+    "kr": 6
+  },
+  "outlets": [
+    "Designboom",
+    "ArchDaily",
+    "ENR",
+    "건축사신문",
+    "건축사뉴스",
+    "Jootek"
+  ],
+  "teasers": [
+    {
+      "title": "국건위, 설계공모 제도 개선안",
+      "desc": "간편공모 의무화·건축사 사전등록제·PM 도입",
+      "label": "REGULATION"
+    },
+    {
+      "title": "허드슨 터널 TBM 2기 굴진 시작",
+      "desc": "사업비 160억달러, 팰리세이즈 5,100피트",
+      "label": "INFRA"
+    },
+    {
+      "title": "9월 미 건설고용 1만 9,000명 증가",
+      "desc": "데이터센터가 비주거 일자리 견인",
+      "label": "INDUSTRY"
+    },
+    {
+      "title": "암만 디자인 위크 2026 개막",
+      "desc": "10월 2~17일, 주제 '축적'",
+      "label": "EVENT"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 인프라",
+    "lede": "160억달러 허드슨 터널, 터널보링머신 2기가 팰리세이즈 암반 굴진을 시작했다",
+    "lede_em": "터널보링머신 2기",
+    "image": "https://www.enr.com/ext/resources/2026/09/29/GatewayTBMlaunch1.webp",
+    "image_label": "ENR",
+    "caption": "뉴저지 노스버겐에서 발진한 허드슨 터널 TBM ⓒ ENR",
+    "body": [
+      "뉴욕~뉴저지를 잇는 철도 병목을 푸는 **허드슨 터널 프로젝트**(게이트웨이 프로그램, 사업비 약 **160억달러**)에서 **9월 28일** 뉴저지 노스버겐에서 터널보링머신(TBM) 2기가 발진했다. 시공은 스키아보네·레인·드라가도스 합작법인이다.",
+      "장비는 헤렌크네히트의 단일 실드형으로 커터헤드 지름이 **28피트 8인치**다. 팰리세이즈 암반 구간 약 **5,100피트**를 하루 약 **30피트**씩 파 들어가 이 구간에만 **약 1년**이 걸릴 것으로 보인다.",
+      "전체 공사는 10개 패키지 중 **1개**가 끝났고 **6개**가 진행 중이다. 맨해튼 쪽에서는 접근 수직구와 강바닥 지반 안정화 작업이 준비되고 있다.",
+      "이 사업은 연방 정부가 법원 항소를 접으면서 약 한 달 전 공사가 재개됐다. 뉴욕 게이트웨이 개발위원회 공동의장은 이 터널이 지역 철도망의 핵심 약점을 해소할 것이라고 밝혔다."
+    ],
+    "source": {
+      "outlet": "ENR",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.enr.com/articles/63732-tbms-begin-digging-for-hudson-tunnel-project"
+        }
+      ]
+    },
+    "src_date": "2026-09-29",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "국건위, 설계공모 제도 개선…건축사 사전등록제·건축사업총괄(PM) 도입",
+    "body": [
+      "국가건축정책위원회가 **9월 29일** 설계공모 및 민간전문가 제도 개선 토론회를 열고 개선 방향을 공개했다. 국토교통부는 건축산업혁신촉진법·건축기본법 개정안 발의를 준비 중이다."
+    ],
+    "facts": [
+      "간편공모: 설계비 **2억원 미만** 사업은 권장에서 **의무**로",
+      "사전등록제: 광역지자체 설계비 **1억~3억 3천만원** 사업, **2년 단위** 풀 운영",
+      "신진건축사: **만 45세 이하** 또는 개설 **5년 이내**로 재정의",
+      "심사 비리: **3년 이하 징역 또는 3천만원 이하 벌금**"
+    ],
+    "body_after": [
+      "이와 별도로 기획부터 유지관리까지 단계별 업무를 조정하는 **건축사업총괄(PM)** 제도, 광역 단위 공공건축심의위원회·지원센터 설치 의무화, 사업 전 과정의 일관성을 맡는 사업담당 공공건축가가 신설된다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.ancnews.kr/news/articleView.html?idxno=21213"
+        }
+      ]
+    },
+    "src_date": "2026-10-02",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "주거 · 보존",
+      "title": "1960년 파리 알베르 타워에 남은 샤를로트 페리앙의 붙박이 인테리어",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/charlotte-perriand-built-in-interiors-1960-paris-tower-edouard-albert-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "파리 13구의 **에두아르 알베르** 설계 타워(**1960년**)에는 **샤를로트 페리앙**이 짠 붙박이 수납장·주방·가구가 그대로 남은 아파트가 있다. 전용 약 **102㎡**(총 106㎡)다.",
+        "타워는 콘크리트를 채운 강관 기둥의 규칙적 금속 그리드 구조라 내부를 자유롭게 짤 수 있었고, 페리앙은 수납과 주방 같은 주거 기능을 건축 골조 안으로 끌어들였다. 건물은 현재 역사 기념물로 지정돼 있다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/charlotte-perriand-built-in-interiors-1960-paris-tower-edouard-albert/"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "문화시설",
+      "title": "디아스포라 청년을 위한 6헥타르 정원, 모로코 케니트라 사회문화센터",
+      "image": "https://images.adsttc.com/media/images/6abc/bdeb/b2b8/9858/8224/a540/large_jpg/kenitra-socio-cultural-center-aga-studio_5.jpg?1790754335",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "AGA 스튜디오(이스마일 게디라·리타 알라우이)가 설계한 모로코 케니트라의 **사회문화센터**(**3,200㎡**, 2024년 준공)는 해외 거주 모로코인을 위한 하산 2세 재단이 만들었다.",
+        "**6헥타르** 조경 부지에 목재·유리·콘크리트로 지은 복합 문화시설로, 디아스포라 젊은 세대가 문화를 잇고 교류하는 장소를 목표로 한다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186048/kenitra-socio-cultural-center-aga-studio"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "공공공간",
+      "title": "모래를 걷어내지 않고 품은 스페인 코미야스 해안 산책로",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/hector-navarro-arkhitekton-seafront-comillas-spain-sand-vegetation-limestone-designboom-1800-2-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "에히토르 나바로와 arkhitekton이 칸타브리아 해안 마을 코미야스의 바다 앞을 바꿨다. 모래를 제거하지 않고 식재·투수 포장·석회암 석축으로 시가지와 해변 사이 전이 구역을 만들었고, 차량을 줄이고 보행 공간을 넓혔다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/dune-inspired-promenade-sand-vegetation-comillas-waterfront-hector-navarro-arkhitekton/"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "종교건축",
+      "title": "A45 고속도로변 흰 목조 격자 곡면, 독일 지겔란트 고속도로 교회",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/david-altrath-timber-world-germany-motorway-chapel-autobahnkirche-siegerland-schneider-schumacher-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "슈나이더+슈마허가 설계한 빌스도르프의 고속도로 교회(2013년)를 사진가 다비트 알트라트가 담았다. 뾰족한 첨탑 둘의 흰 외관과 달리 내부는 **66개** 집성재 단면이 벽과 천장으로 이어지는 목재 그리드 쉘이다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/david-altrath-timber-world-germany-motorway-chapel-autobahnkirche-siegerland-schneider-schumacher/"
+          }
+        ]
+      },
+      "src_date": "2026-09-30",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설치",
+      "title": "바람에 움직이는 목재 슁글 500장, 루나노의 6m 탑 '돌이 속삭이는 것'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/collectif-magma-what-stones-whisper-timber-tower-installation-lunano-italy-designboom-1800-1.jpeg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "콜렉티프 마그마가 이탈리아 마르케 주 루나노에 높이 **6m** 목재 탑을 세웠다. 삼각 프레임 **8개**에 **10겹**의 목재 슁글을 황마 로프로 매달아, 지역 석조 건축의 영속성을 가볍고 움직이는 목재로 다시 해석했다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/moving-shingles-timber-tower-lunano-stone-architecture-collectif-magma-what-stones-whisper/"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "숙박",
+      "title": "코츠월드 석조 두 동을 유리 통로로 잇다, 미도스 부티크 호텔",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/meadows-hotel-cotswolds-uk-pardini-hall-architecture-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "파르디니 홀 아키텍처가 영국 코츠월드에서 기존 건물을 개보수하고 증축한 **1,580㎡** 호텔이다. 탄소를 줄이려 현지 석재를 썼고, 지붕에 태양광 패널을 깐 유리 통로가 두 석조 동을 잇는다. 빗물 재활용과 중수 재이용도 적용했다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/stone-built-meadows-boutique-hotel-gardens-rural-uk-pardini-hall-architecture/"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 농촌",
+      "title": "합덕읍 농촌중심지활성화사업(합덕마음모듬센터) 건축설계공모, 10월 8일 등록 마감",
+      "body": [
+        "충남 당진시 합덕읍 운산리 부지에 **1,800㎡** 규모로 짓는 일반 설계공모. 공사비 **99.8억원**, 설계비 **5.8억원**이다.",
+        "10월 2일 공고, 참가등록 마감 **10월 8일**, 결과 발표는 12월 7일이다."
+      ],
+      "source": {
+        "outlet": "Jootek",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://www.jootek.com/folio/contests/18941"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "건축통계 · 노후화",
+      "title": "건축물 동수 증가율 0.2%로 둔화…허가 8.4%·착공 9.6%·준공 15.4% 감소",
+      "image": "",
+      "image_label": "",
+      "body": [
+        "2025년 말 전국 건축물은 **743만 8,642동**(0.2%↑), 연면적 **4억 3,750만㎡**(1.4%↑), 1인당 **85.59㎡** 다. 건축허가 면적은 **8.4%**, 착공 **9.6%**, 준공 **15.4%** 줄어 신규 시장 위축이 이어졌다.",
+        "30년 이상 된 건축물이 전체의 **46.3%**, 주거용은 **55.5%** 에 달해 노후 건축물 관리 수요가 커지고 있다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21211"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "도시재생 · 경기",
+      "title": "폐철도 터널의 변신, 남양주 '빛터널 공원'은 국내 첫 터널형 LED 미디어 파사드",
+      "body": [
+        "남양주 와부읍 도심역 인근의 폐터널 약 **250m** 를 사업비 약 **80억원** 으로 바꿔 **2026년 3월 31일** 개장했다. 터널 안에서 고래·우주·사계절 꽃 등 LED 미디어아트가 오전 11시~오후 8시 상영된다.",
+        "건축사뉴스는 이 시설을 국내 첫 터널형 LED 미디어 파사드로 소개하며 유휴 인프라 재생의 가능성을 짚었다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13947"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "건축계 · 신진건축사",
+      "title": "2026 신진건축사 워크숍 'TAKEOFF 2026', 17개 지회 130여 명 참가",
+      "body": [
+        "한국건축가협회 대강당에서 열린 워크숍에 17개 지회 신진건축사 **130여 명** 이 모였다. 사전 설문(**1,437명**)에서는 사무소 운영 확장 **68.2%**, 제도 개선 **58.6%**, 공공사업 참여 **56.7%** 순으로 요구가 높았다.",
+        "설계계약 관리와 법적 리스크, 발주처 신뢰 구축 사례가 발표됐고, 협회는 후속 실무 가이드와 교육을 만들기로 했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21214"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축계 · 인력",
+      "title": "부산건축사회, '2026 부산건축취업박람회' 개최…21개 기업 참가",
+      "body": [
+        "부산광역시건축사회가 부산시와 함께 **9월 8~9일** 3회째 취업박람회를 열었다. 대기업과 지역 중소기업 **21곳** 이 채용 상담 부스를 운영했다.",
+        "강미숙 회장은 지역 건축·건설 인력 수급 문제를 풀고 청년 인재를 지역에 붙잡는 것이 목적이라고 밝혔다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21195"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "기고 · AI",
+      "title": "[THE (A.I.) RCHITECT] 기술의 파도 앞에서 건축사의 본질을 묻다",
+      "body": [
+        "유재천(동우에이앤지건축사사무소) 건축사는 'AI가 건축사를 대체하는가'보다 'AI의 무한한 가능성을 물리 현실·인간 감각과 어떻게 조화시킬 것인가'를 물어야 한다고 쓴다.",
+        "대지 분석과 대안 생성은 AI에 맡기되, 도면의 선을 무게 있는 구조물로 옮기는 일은 인간의 영역으로 남는다는 주장이다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13944"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "美 상원, 인허가 개혁 초당 법안 공개…환경심사 기간·소송 제기기간 단축",
+      "body": "NEPA 심사 중 국가사적보존법 협의 병행, 송전선 연방 승인 권한 부여. 11월 3일 중간선거 직후 표결 목표.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63761-senate-releases-bipartisan-permitting-reform-bill-negotiated-with-the-white-house"
+          }
+        ]
+      },
+      "src_date": "2026-09-30",
+      "topic": "제도규제"
+    },
+    {
+      "title": "설계도면 오류 잡는 AI 빌드체크, 1,200만달러 시리즈A",
+      "body": "텔레스코프 파트너스 주도, DPR 계열 WND 벤처스 참여. 컴퓨터 비전으로 도면의 누락·간섭을 찾는다. 누적 투자 1,800만달러.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63747-design-review-platform-buildcheck-raises-12m-dpr-wnd-among-backers"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "9월 미국 건설업 일자리 1만 9,000개 증가…주거는 감소",
+      "body": "비주거 1만 6,100개 증가, 주거 4,900개 감소. 시간당 평균 임금 41.69달러(4.2%↑). 데이터센터가 견인.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63749-data-centers-drive-construction-hiring-in-september-as-residential-jobs-slide"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "암만 디자인 위크 2026, 10월 2~17일 '축적' 주제로 개막",
+      "body": "1930년대 발전소를 개조한 '행어'를 중심으로 220여 명 참가. 올해 처음 아카바로 확대.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186204/amman-design-week-2026-accumulations"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "LNG 캐나다 2단계 230억달러 최종투자결정…열차 2기 추가",
+      "body": "연 1,400만→2,800만톤. 150억달러 EPC는 플루어·JGC 합작. 저장탱크·선적부두도 증설.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63754-lng-canada-developers-give-final-ok-to-23b-bc-export-facility-expansion"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "Vancouver Tall Challenge, '다운타운에서 더 높게'…총상금 1만 5,000캐나다달러",
+      "body": "Buildner·밴쿠버시·UBC 건축·조경대학 공동 주최. 등록 10월 29일, 제출 11월 30일(런던 23:59), 수상자 발표 2027년 1월 26일. 1등 7,000캐나다달러.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://bustler.net/competitions/10563/vancouver-tall-challenge"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "hudson-tunnel-tbm",
+      "tag": "INFRA",
+      "title": "160억달러 허드슨 터널, TBM 2기 발진",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "tunnel boring machine",
+      "slides": [
+        {
+          "heading": "허드슨 터널,\n굴착이 시작됐다",
+          "body": "TBM 2기가 팰리세이즈 암반으로 들어갔다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "9월 28일 뉴저지 노스버겐에서 터널보링머신 2기가 발진했다. 사업비는 약 160억달러다."
+        },
+        {
+          "heading": "MACHINE",
+          "body": "헤렌크네히트 단일 실드형, 커터헤드 지름 28피트 8인치. 시공은 스키아보네·레인·드라가도스 JV다."
+        },
+        {
+          "heading": "PACE",
+          "body": "팰리세이즈 5,100피트를 하루 약 30피트씩, 이 구간만 약 1년이 걸린다."
+        },
+        {
+          "heading": "STATUS",
+          "body": "10개 패키지 중 1개 완료, 6개 진행 중. 연방 항소 철회로 약 한 달 전 공사가 재개됐다."
+        }
+      ]
+    },
+    {
+      "slug": "design-competition-reform",
+      "tag": "REGULATION",
+      "title": "설계공모 제도, 이렇게 바뀐다",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "architect drawing blueprint",
+      "slides": [
+        {
+          "heading": "설계공모,\n제도가 바뀐다",
+          "body": "국가건축정책위원회 개선 방향 공개"
+        },
+        {
+          "heading": "간편공모",
+          "body": "설계비 2억원 미만 사업의 간편공모가 권장에서 의무로 바뀐다."
+        },
+        {
+          "heading": "사전등록제",
+          "body": "광역지자체 설계비 1억~3억 3천만원 사업에 2년 단위 건축사 사전등록 풀을 운영한다."
+        },
+        {
+          "heading": "PM·공공건축가",
+          "body": "기획부터 유지관리까지 조정하는 건축사업총괄(PM)과 사업담당 공공건축가를 신설한다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "심사 비리는 3년 이하 징역 또는 3천만원 이하 벌금. 국토부가 법 개정안 발의를 준비 중이다."
+        }
+      ]
+    },
+    {
+      "slug": "perriand-albert-tower",
+      "tag": "PROJECT",
+      "title": "1960년 파리 타워에 남은 페리앙의 부엌",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "paris apartment interior",
+      "slides": [
+        {
+          "heading": "페리앙의 부엌이\n그대로 남은 아파트",
+          "body": "1960년 파리 알베르 타워"
+        },
+        {
+          "heading": "WHERE",
+          "body": "파리 13구, 에두아르 알베르가 설계한 1960년 타워. 현재 역사 기념물이다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "콘크리트를 채운 강관 기둥의 규칙적 그리드라 내부를 자유롭게 짤 수 있었다."
+        },
+        {
+          "heading": "INTERIOR",
+          "body": "샤를로트 페리앙의 붙박이 수납장·주방·가구가 약 102㎡ 안에 보존돼 있다."
+        }
+      ]
+    }
+  ]
+}
