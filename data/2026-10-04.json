@@ -1,0 +1,559 @@
+{
+  "vol": "VOL.01  NO.049",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 15,
+    "kr": 6
+  },
+  "outlets": [
+    "Benthem Crouwel",
+    "Designboom",
+    "ArchDaily",
+    "Construction Dive",
+    "건축사신문",
+    "건축사뉴스",
+    "건축공간연구원"
+  ],
+  "teasers": [
+    {
+      "title": "아프슬라위트다이크 준공",
+      "desc": "32km 제방 2m 증고·거대 펌프 6기·어도",
+      "label": "PROJECT"
+    },
+    {
+      "title": "국토부 설계도서 작성기준 개정",
+      "desc": "협회 품질확인·전자설계도서 지침 제도화 근거",
+      "label": "REGULATION"
+    },
+    {
+      "title": "LACMA '미래의 집 1925–1985'",
+      "desc": "260여 점으로 읽는 60년의 주거 유토피아",
+      "label": "EXHIBITION"
+    },
+    {
+      "title": "에어컨이 바꾼 아시아 도시",
+      "desc": "홍콩 전력의 약 30%가 냉방",
+      "label": "ESSAY"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 인프라 건축",
+    "lede": "32km 제방을 2m 높였다, 네덜란드 아프슬라위트다이크가 8년 만에 새 얼굴을 얻었다",
+    "lede_em": "32km 제방을 2m 높였다",
+    "image": "https://cms.benthemcrouwel.com/dynamic/images/Afsluitdijk/853_Versterken_Afsluitdijk_N61_websitenew.jpg",
+    "image_label": "BENTHEM CROUWEL",
+    "caption": "아프슬라위트다이크 보강 사업 ⓒ Benthem Crouwel Architects",
+    "body": [
+      "네덜란드의 상징적 방조제 **아프슬라위트다이크**(Afsluitdijk)의 보강·개조 사업이 **2018년부터 2026년까지 8년**에 걸쳐 마무리됐다. 발주처는 수자원관리청 Rijkswaterstaat, 건축 설계는 Levvel 설계팀의 일원인 Benthem Crouwel Architects가 맡았다. 코른베르더잔트–덴오버 구간 **32km**의 제방을 전 구간에 걸쳐 **2m** 높였다.",
+      "새로 더해진 시설은 배수 수문 2곳, 폭풍해일 방벽, 그리고 초당 **27만 5,000리터**를 내보낼 수 있는 **초대형 펌프 6기**다. 펌프는 지름 9m·높이 4m·무게 30톤의 유리 돔 아래에 놓여, 기술 설비를 숨기면서도 제방의 핵심 기능이 눈에 보이도록 했다. 설계팀은 이를 '형태는 추상적이고 디테일은 미니멀한 눈부신 단순함'이라 설명한다.",
+      "제방 사면에는 **6,500kg짜리 특수 블록 'Levvel-bloc' 7만 개**를 깔았다. 기존 블록 대비 콘크리트 사용량은 **25%**, CO₂ 배출량은 **56%** 줄였다. 바덴해 쪽에는 철새 어류가 오가는 어도(魚道)와 전망대가 딸린 새 자전거·보행 경로가 생겼고, 부채꼴 태양광 단지가 설비 전력을 댄다.",
+      "방재 인프라를 '숨겨야 할 설비'가 아니라 경관과 공공 이용의 일부로 설계한 사례다. 하나의 사업 안에서 안전·생태·에너지·보행 경험을 함께 풀었다는 점이 건축계의 주목을 받고 있다."
+    ],
+    "source": {
+      "outlet": "Benthem Crouwel",
+      "links": [
+        {
+          "text": "프로젝트 페이지",
+          "url": "https://www.benthemcrouwel.com/projects/afsluitdijk"
+        }
+      ]
+    },
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "건축물의 설계도서 작성기준 개정, 품질확인·전자설계도서 지침이 제도로 들어온다",
+    "body": [
+      "국토교통부가 행정예고한 「건축물의 설계도서 작성기준」 개정안은 대한건축사협회가 마련한 두 가지 지침을 제도적으로 활용할 근거를 담았다. 건축사신문은 사설을 통해 이를 설계 실무의 품질 기준을 세우는 계기로 짚었다."
+    ],
+    "facts": [
+      "대상: 「건축물의 설계도서 작성기준」 개정(국토교통부 행정예고)",
+      "신설 근거: 협회의 **설계도서 품질확인 지침**·**전자설계도서 작성 지침** 활용",
+      "목표: 법령 검토의 체계화, CAD 도면 작성의 표준화로 **오류 감소·완성도 향상**",
+      "과제: 기준 정립을 **적정 설계대가**를 요구할 객관적 근거로 연결"
+    ],
+    "body_after": [
+      "사설은 설계도서의 품질 향상이 건축사 업무의 전문성을 드러내고, 정당한 대가 인정으로 이어져야 한다고 강조했다. 실무에서는 법령 검토 이력과 도면 표준 관리 체계를 미리 정비해 두는 것이 과제가 될 전망이다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "사설",
+          "url": "http://www.ancnews.kr/news/articleView.html?idxno=21192"
+        }
+      ]
+    },
+    "src_date": "2026-09-30",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "EXHIBITION · LOS ANGELES",
+      "title": "LACMA, 60년간의 '미래의 집'을 펼치다 — 주거 유토피아 260여 점",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/carousel-lacma-db3.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "로스앤젤레스카운티미술관(LACMA)이 **'Home of the Future, 1925–1985: Designing Domestic Utopias'** 전을 **2027년 3월 14일**까지 레스닉 파빌리온에서 연다. 데코러티브 아트·디자인 큐레이터 웬디 캐플런이 기획했고 **260여 점**의 오브제와 이미지가 나온다.",
+        "1920년대 '엔지니어링된 기계'로서의 부엌부터 전후의 플라스틱·프리팹(몬산토 '미래의 집', 이임스 케이스스터디 하우스 8호), 냉전기 핵 불안과 우주 개발, 1965~85년의 환경의식과 초기 스마트홈까지 이어진다. 기술 낙관론이 소외된 계층을 배제했다는 점도 짚는다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/lacma-exhibition-strange-optimistic-homes-future-domestic-utopian/"
+          }
+        ]
+      },
+      "src_date": "2026-09-30",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "ESSAY · ASIAN CITY",
+      "title": "에어컨은 아시아 도시를 어떻게 바꿨나 — 냉방이 도시의 '바깥'을 지운다",
+      "image": "",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "2023년 홍콩 전력 소비의 약 **30%**가 냉방이었다. 글은 이를 연속 가동되는 2kW 히터 약 **80만 대**가 내는 폐열에 견준다. 아시아 거대도시는 철도·쇼핑몰·주거·오피스를 하나로 잇는 복합 단지를 발전시켰고, 홍콩에서는 주거 타워에서 상가 포디엄, MTR역까지 실외에 거의 나서지 않고 이동할 수 있다.",
+        "저자는 냉방이 '피난처'에서 기후로부터의 완전한 철수 수단이 되면 거리를 쾌적하게 만들 압력도 사라진다고 본다. 세대가 지날수록 인공 환경이 기본값이 되어, 야외 공간을 설계하는 건축 지식 자체가 약해질 수 있다는 것이다. 대안으로 덮개 보행로·그늘진 공공 공간·개방형 아케이드 같은 중간 해법을 제안하고, 폐쇄형 네트워크와 개방형 덮개 보행로 설치를 함께 요구하는 싱가포르를 예로 든다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1185653/escapism-from-the-streets-how-air-conditioning-reshaped-the-asian-city"
+          }
+        ]
+      },
+      "src_date": "2026-10-03",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "HOUSE · OSAKA",
+      "title": "도장 같은 '자유 공간'을 품은 오사카의 목조 2세대 주택",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/osaka-house-shioya-flexible-open-sports-space-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "시오야 타이치(SHIOYA DESIGN)가 설계한 약 **183㎡** 목조 주택. 유도 연습실로 구상된 체육관 같은 방이 스포츠·놀이·가족 생활을 모두 받아낸다. 천장 높이를 조절하고 다다미를 **15분** 안에 재배치할 수 있으며, 농구 코트 마킹·접이식 골프 네트·볼더링 벽을 갖췄다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/wood-framed-family-home-osaka-flexible-open-sports-space-taichi-shioya/"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "르 코르뷔지에의 '부아쟁 계획' vs 쉬글로프의 '표류' — 질서의 도시와 감정의 도시",
+      "body": [
+        "1925년 마레 지구에 오피스 타워 **18동**을 세우려던 질서의 도시와, 1953년 '새로운 도시주의 선언'이 내건 끝없는 표류의 도시를 견준다. 계획은 실현되지 않았지만 빌 라디외즈와 아테네 헌장 등 근대 도시계획에 영향을 남겼다. 쉬글로프는 코르뷔지에식 접근을 '공장과 병원, 결국 감옥에나 맞는 것'이라 비판했다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/le-corbusier-plan-voisin-paris-ivan-chtcheglov-ville-radieuse-formulary-new-urbanism/"
+          }
+        ]
+      },
+      "src_date": "2026-09-30",
+      "topic": "프로젝트",
+      "kicker": "ESSAY · URBANISM",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/le-corbusier-plan-voisin-paris-ivan-chtcheglov-ville-radieuse-formulary-new-urbanism-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM"
+    },
+    {
+      "kicker": "INTERIOR · LISBON",
+      "title": "색과 투명함으로 44㎡를 확장한 리스본 '라일락 아파트'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/09/lilac-apartment-lisbon-bureau-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "BUREAU(다니엘 사마르비데 외)가 **44㎡** 아파트를 순환 동선으로 재편했다. 현관 홀은 주방, 중앙 침실은 욕실이 되고 하나의 카운터가 주방과 욕실을 잇는다. 고다르의 영화 <경멸>(1963)에서 착안해 흰색과 색, 거울과 반투명 칸막이로 공간과 인물을 구분했다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/bureau-color-translucency-44-sqm-lilac-apartment-lisbon/"
+          }
+        ]
+      },
+      "src_date": "2026-09-30",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "PAVILION · FOSHAN",
+      "title": "말리는 그물을 형상화한 포산의 180㎡ 파빌리온 '건조 그물 아래'",
+      "image": "https://images.adsttc.com/media/images/6abc/0e16/b2b8/9801/8835/a1ee/newsletter/under-the-drying-nets-multi-architecture_1.jpg?1790709304",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "Multi-Architecture(진위안)가 광둥성 포산 난하이 '예술 들판'에 지은 **180㎡** 철골 파빌리온. 뽕나무를 제방에 심고 연못에서 물고기를 기르는 상오어당(桑基魚塘) 순환 농업 체계에서 착안해, 어구인 그물을 건축 언어로 옮겼다. 맞춤 직물은 치치가 디자인했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.archdaily.com/1186023/under-the-drying-nets-multi-architecture"
+          }
+        ]
+      },
+      "src_date": "2026-10-03",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "COMPETITION · BRAZIL",
+      "title": "브라질 세아라연방대 '예술·문화·행사 센터' 전국 공개 설계공모, 10월 21일 마감",
+      "image": "https://images.adsttc.com/media/images/6aa2/6a88/05b6/9900/01b5/3732/newsletter/CACE__banner_site_DN_2560_x_1059_.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "세아라연방대(UFC)와 브라질건축가협회 세아라지부(IAB/CE)가 포르탈레자 이라세마 지구의 옛 상페드루 빌딩 부지에 들어설 센터의 건축·도시·조경 설계안을 모집한다. 장소의 역사와 기억을 존중하는 제안을 요구하며, **등록 10월 6일**, **작품 접수 10월 21일**까지다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "http://www.archdaily.com/1184851"
+          }
+        ]
+      },
+      "src_date": "2026-09-10",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "COMPETITION · POLAND",
+      "title": "폴란드 글리비체 '크워드니차 강변 대로' 도시설계 공모, 11월 12일 마감",
+      "image": "",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "글리비체시가 시내 구간 **14km**의 크워드니차강 계곡을 활기찬 다기능 공공공간으로 바꿀 구상을 모집한다. 녹지, 안전한 보행·자전거 동선, 기후 회복력 강화를 통합하는 제안을 요구하며 참가는 무료다. 마감은 **11월 12일 오후 4시**."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "http://www.archdaily.com/1185568"
+          }
+        ]
+      },
+      "src_date": "2026-09-22",
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 프로젝트",
+      "title": "인천 미추홀 숭의동 84㎡ 교회, 문화공간으로 — SML '숭의교회 문화공간'",
+      "image": "https://images.adsttc.com/media/images/6abb/c68c/3bc5/c600/01c9/5632/medium_jpg/_____-02.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "임승모의 SML가 인천 미추홀구 숭의동의 **84㎡** 교회를 동네 문화공간으로 고쳐 **2025년** 완성했다. 이름은 성경 속 이스라엘 민족의 첫 야영지 '숙곳'에서 따왔다.",
+        "'잠시 멈춰 쉬고 다시 나아갈 채비를 하는 곳'이라는 뜻을 오래된 동네의 도시 맥락에 맞게 풀었다. 콘크리트·벽돌·유리·목재를 썼다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1185983/sungui-church-cultural-space-sg-sml"
+          }
+        ]
+      },
+      "src_date": "2026-10-03",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "연구 · 도시",
+      "title": "건축공간연구원·팜한농 '도심형 팜' 포럼…옥상온실 제도화 모색",
+      "body": [
+        "건축공간연구원과 팜한농이 **9월 18일** 서울 성동구 헤이그라운드 브릭스홀에서 「도심형 팜이 만드는 새로운 도시 문화」 포럼을 열었다. 이수연 서울시립대 교수, 김세훈 서울대 교수, 이은석 건축공간연구원 연구위원 등 **5명**이 발표했다.",
+        "박환용 원장은 도시 녹색공간을 도시문화경제학적으로 활용하는 방안을 강조했고, 포럼은 옥상온실 제도화와 민관 협력 방안을 모색하는 자리로 마련됐다."
+      ],
+      "source": {
+        "outlet": "건축공간연구원",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7552"
+          }
+        ]
+      },
+      "src_date": "2026-09-16",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "건축계 · 협회",
+      "title": "경기도건축사회 제30대 회장선거, 허영권·조영수·김종기 3파전",
+      "image": "",
+      "image_label": "건축사뉴스",
+      "body": [
+        "경기도건축사회가 **11월 3일** 제30대 회장 선거를 치른다. 허영권·조영수·김종기 건축사 **3명**이 9월 17일 후보 등록을 마쳤다.",
+        "**10월 12일·19일** 권역별 토론회가 유튜브로 중계되고, 온라인 투표는 11월 3일 오전 9시부터 오후 6시까지 진행된다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13946"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축문화 · 경남",
+      "title": "경남건축사회 '도민건축대학' 통영·고성 답사, 시민 130명 참여",
+      "image": "",
+      "image_label": "건축사신문",
+      "body": [
+        "경상남도건축사회가 제24기 도민건축대학 현장 답사를 열어 시민 약 **130명**이 통영·고성의 건축을 둘러봤다. 통영국제음악당, 통영리스타트플랫폼, 고성청년예술촌부터 천년 고찰까지 이어졌다.",
+        "정일현 회장은 일상 속 건축물의 역사와 문화적 가치를 새롭게 발견하는 시간이 되길 바란다고 말했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21203"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축계 · 교류",
+      "title": "경북건축사회, 중국 연길 조선족 자치주 감찰설계협회 방문",
+      "image": "",
+      "image_label": "건축사신문",
+      "body": [
+        "경상북도건축사회가 **9월 10~13일** 중국 연길의 조선족 자치주 감찰설계협회를 방문했다. 송동훈 회장 등이 참여해 양국 우호관계 증진과 건축문화 발전, 설계기법 논의를 진행했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21201"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축계 · 교육시설",
+      "title": "강원건축사회, 도교육감과 간담회 — 업무대가 현실화·학교시설 운영 논의",
+      "image": "",
+      "image_label": "건축사신문",
+      "body": [
+        "강원특별자치도건축사회가 **9월 15일** 강원도교육청에서 도교육감과 간담회를 열었다. 교육시설 현안과 건축사 업무대가 현실화 방안, 학생 수 감소에 따른 학교시설 운영 방안이 의제였다.",
+        "정병거 회장은 지속적인 소통과 협력으로 지역 교육환경 발전에 기여하겠다고 밝혔다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21198"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "데이터센터 소음 막으려면 벽 두께 4.5피트…이격거리 1,500피트 제안",
+      "body": "연구자는 저주파 소음 차단에 **4.5피트** 벽이 필요하다며 최소 이격 **1,500피트**를 권고했다. 2026년 운영 중인 데이터센터 소송 6건 중 5건이 소음 문제였다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/thick-walls-needed-absorb-data-center-noise-research/831999/"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "제도규제"
+    },
+    {
+      "title": "그래니트 JV, 클리블랜드 빅크릭 터널 3.25억달러 수주",
+      "body": "지름 **20피트**·길이 **2만 2,300피트** 터널로 연 **5억 5,000만 갤런**의 합류식 하수 월류를 막는다. 2030년 겨울 완공 예정.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/granite-jv-big-creek-tunnel-cleveland-ohio/832047/"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "LOEWE 파리 SS27 런웨이, 카스퍼 뮐러 크니어의 원형 아레나",
+      "body": "관객이 위와 맞은편에서 컬렉션을 보는 원형 런웨이를 미니멀한 구조 요소로 구성했다.",
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/loewe-paris-runway-ethereal-arena-casper-mueller-kneer-spring-summer-ss27/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "아일랜드 이동식 가구 설치 'Settle', 임시 공공 실내공간",
+      "body": "옮길 수 있는 가구로 아일랜드 곳곳에 지역 모임 공간을 만드는 프로젝트.",
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/settle-movable-furniture-installation-temporary-public-interior-ireland-trestle/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "건축공간연구원, 부산 WSCE에서 '스마트+빌딩 정책 컨퍼런스' 개최",
+      "body": "**9월 11일** 벡스코에서 로봇·자율주행·UAM·AI를 건축물과 통합하는 정책을 학계·업계·언론 3개 분야가 논의한다. 2025년에 이어 두 번째다.",
+      "source": {
+        "outlet": "건축공간연구원",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7506"
+          }
+        ]
+      },
+      "src_date": "2026-09-04",
+      "topic": "제도규제"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "afsluitdijk-reborn",
+      "tag": "INFRASTRUCTURE",
+      "title": "32km 제방을 2m 높인 아프슬라위트다이크",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "afsluitdijk",
+      "slides": [
+        {
+          "heading": "32km 방조제,\n2m 높아졌다",
+          "body": "8년 만에 새 얼굴을 얻은 네덜란드 아프슬라위트다이크"
+        },
+        {
+          "heading": "SCALE",
+          "body": "2018~2026년, 코른베르더잔트–덴오버 32km 구간 전체를 2m 증고했다. 발주처는 Rijkswaterstaat, 건축은 Benthem Crouwel이 참여했다."
+        },
+        {
+          "heading": "PUMPS",
+          "body": "초당 27만 5,000리터를 배수하는 초대형 펌프 6기를 지름 9m 유리 돔 아래 두었다. 설비를 숨기되 제방의 기능은 보이게 했다."
+        },
+        {
+          "heading": "BLOCKS",
+          "body": "6,500kg짜리 Levvel-bloc 7만 개를 깔아 콘크리트 25%, CO₂ 56%를 줄였다."
+        },
+        {
+          "heading": "PEOPLE & FISH",
+          "body": "바덴해 쪽에 어도와 전망대 딸린 자전거·보행 경로가 생겼고, 부채꼴 태양광 단지가 전력을 댄다."
+        }
+      ]
+    },
+    {
+      "slug": "sungui-church-cultural-space",
+      "tag": "PROJECT",
+      "title": "84㎡ 교회가 동네 문화공간이 되기까지",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "brick church interior light",
+      "slides": [
+        {
+          "heading": "84㎡,\n쉬어가는 천막",
+          "body": "인천 숭의동 교회가 문화공간으로 거듭났다"
+        },
+        {
+          "heading": "WHO",
+          "body": "임승모의 SML가 설계해 2025년 완성했다. 위치는 인천 미추홀구 숭의동."
+        },
+        {
+          "heading": "NAME",
+          "body": "이름은 성경의 '숙곳', 이스라엘 민족이 광야에서 처음 머문 곳에서 따왔다."
+        },
+        {
+          "heading": "IDEA",
+          "body": "잠시 멈춰 쉬고 다시 나아갈 채비를 하는 곳. 오래된 동네의 맥락에 맞춰 풀었다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "콘크리트, 벽돌, 유리, 목재로 작지만 단단한 공간을 만들었다."
+        }
+      ]
+    },
+    {
+      "slug": "lacma-home-of-the-future",
+      "tag": "EXHIBITION",
+      "title": "60년의 '미래의 집', LACMA에 모이다",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "mid century modern house",
+      "slides": [
+        {
+          "heading": "1925–1985,\n미래의 집",
+          "body": "LACMA가 주거 유토피아 260여 점을 펼친다"
+        },
+        {
+          "heading": "WHEN",
+          "body": "2026년 9월 27일부터 2027년 3월 14일까지, LACMA 레스닉 파빌리온에서 열린다."
+        },
+        {
+          "heading": "1925–40s",
+          "body": "부엌은 엔지니어링된 기계로 그려졌다. 코헬러의 1926년 전기 싱크와 길브레스의 인체공학 설계가 나온다."
+        },
+        {
+          "heading": "POST-WAR",
+          "body": "플라스틱과 프리팹의 시대. 몬산토 '미래의 집', 이임스 케이스스터디 하우스 8호, 바비 드림하우스."
+        },
+        {
+          "heading": "1965–85",
+          "body": "환경의식과 초기 스마트홈. 기술 낙관론이 소외 계층을 배제했다는 점도 짚는다."
+        }
+      ]
+    }
+  ]
+}
