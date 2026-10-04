@@ -1,0 +1,485 @@
+{
+  "vol": "VOL.01  NO.050",
+  "editor": "HUEY",
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "Designboom",
+    "Construction Dive",
+    "Buildner",
+    "Sightline",
+    "NW Construction News",
+    "더쎈뉴스",
+    "문화뉴스"
+  ],
+  "teasers": [
+    {
+      "title": "호찌민 7만 석 국립경기장",
+      "desc": "포풀러스 설계, 니파야자 닮은 다이아몬드 파사드",
+      "label": "PROJECT"
+    },
+    {
+      "title": "헴프크리트 박물관 '폭크'",
+      "desc": "재활용 CLT·석회 마감, 아인트호번 신축",
+      "label": "BIO-BASED"
+    },
+    {
+      "title": "라트비아 '조용한 탑' 국제공모",
+      "desc": "코르카 곶 전망탑, 총상금 1만 유로",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "워싱턴주 가위계단 입법",
+      "desc": "2027 코드 개정 거쳐 2030년 적용 전망",
+      "label": "REGULATION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 스포츠 건축",
+    "lede": "베트남 최대 7만 석, 호찌민 '락치엑' 국립경기장은 니파야자 모양 다이아몬드 껍질을 쓴다",
+    "lede_em": "베트남 최대 7만 석",
+    "image": "https://static.dezeen.com/uploads/2026/09/vietnam-national-stadium-rach-chiec-ho-chi-minh-city_dezeen_2364_hero9-852x479.jpg",
+    "image_label": "DEZEEN",
+    "caption": "락치엑 국립경기장 조감 ⓒ Populous / Dezeen",
+    "body": [
+      "영국계 스포츠 건축사무소 **포풀러스**(Populous)가 호찌민시 외곽에 들어설 **락치엑 국립경기장**(Rach Chiec Stadium) 설계를 공개했다. 관람석은 **7만 석**으로, 현재 베트남 최대인 미딘 국립경기장보다 약 **3만 석** 많다.",
+      "외피는 강변에 자라는 **니파야자**에서 착안한 다이아몬드 패턴이다. 지붕은 완전히 열고 닫을 수 있어 경기장 환경을 제어하고, 인접 주거지로 새어 나가는 소음도 줄이도록 했다. 올림픽 종목의 **90%**와 구기 종목을 모두 치를 수 있게 설계했다.",
+      "경기장은 부지 **200헥타르**의 락치엑 국립스포츠단지의 중심이며, 단지에는 **1만 8,000석** 규모 아레나도 함께 들어선다. 사업비와 준공 시기는 공개되지 않았다.",
+      "베트남이 동남아시안게임·아시안컵 같은 국제대회 유치, 나아가 올림픽 유치까지 겨냥하는 흐름 속에서 나온 계획이다. 초대형 경기장을 지역 식생에서 끌어온 외피와 가변 지붕으로 풀어 소음·기후 대응까지 건축 요소로 흡수했다는 점이 눈에 띈다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/09/29/vietnam-national-stadium-rach-chiec/"
+        }
+      ]
+    },
+    "src_date": "2026-09-29",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "SIGHTLINE",
+    "title": "미국 워싱턴주, 가위계단·소형 승강기 허용 — 중층 공동주택 코드가 바뀐다",
+    "body": [
+      "워싱턴주가 올해 공동주택 코드를 잇따라 손봤다. 하원법안 2228호(HB 2228)는 서로 얽힌 두 계단을 각각 별도 출구와 내화벽으로 분리한 **가위계단**을, 일정 공동주택의 '2개 직통계단' 요건 충족 수단으로 인정하는 길을 열었다. 상·하원 모두 만장일치로 통과했다."
+    ],
+    "facts": [
+      "내용: 가위계단을 2개 직통계단 요건의 대안으로 허용(**HB 2228**)",
+      "조건: 층마다 **별도 출구**, 두 계단 사이 **내화구조 벽**, 계단끼리 교차·혼용 금지",
+      "절차: 주 건축코드위원회 기술자문그룹 권고 → **2027년 코드 개정** 반영",
+      "소형 승강기: 6층 이하·**24세대** 이하 건물 대상 법안 SB 5156 통과(NW Construction News)",
+      "효과: 밴쿠버 사례 기준 순환 공간이 시애틀 대비 **46%** 적음"
+    ],
+    "body_after": [
+      "실제 현장 적용은 코드 개정 절차를 거친 **2030년께**로 전망된다. 단일 계단(2023년 허용)과 함께 코어 면적을 줄이는 설계 선택지가 넓어지는 만큼, 중층 주거 설계에서는 채광·환기와 피난 동선을 새 기준에 맞춰 다시 짜 보는 시도가 늘 것으로 보인다."
+    ],
+    "source": [
+      {
+        "outlet": "Sightline",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.sightline.org/2026/05/13/washington-passes-first-statewide-scissor-stair-reform/"
+          }
+        ]
+      },
+      {
+        "outlet": "NW Construction News",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://nwconstructionnews.com/washington-just-rewrote-the-rules-for-mid-rise-apartment-buildings-smaller-elevators-scissor-stairs-and-single-staircases-are-all-now-legal-is-oregon-keeping-up/"
+          }
+        ]
+      }
+    ],
+    "src_date": "2026-05-13",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "프로젝트 · 바이오 소재",
+      "title": "헴프크리트와 재활용 CLT로 지은 아인트호번 '박물관 폭크'",
+      "image": "https://static.dezeen.com/uploads/2026/10/vonk-museum-studio-marco-vemeulen-architecture-public-eindhoven_dezeen_2364_hero-852x479.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "네덜란드 **스튜디오 마르코 페르메일런**이 아인트호번 옛 운전학원 부지에 쐐기 모양 역사박물관 **폭크**(Vonk)를 완성했다. 선사마을 박물관과 아인트호번 박물관이 합쳐지며 **1만 년** 지역사를 체험형으로 보여준다.",
+        "구조는 2019년 더치디자인위크 파빌리온 '바이오베이스캠프'에서 회수한 **CLT**, 외벽은 프리팹 **헴프크리트**에 안료 석회 플라스터를 입혔다. 새·박쥐 둥지, 빗물 집수, 자연환기 냉방, 기존 아스팔트 재사용 기초까지 더했다.",
+        "마르코 페르메일런은 이 건물을 '저렴한 바이오 기반 시공과 자연형 기후 조절의 시험장'이라 설명했다. 관람객은 인접 공원에서 진입해 중앙의 '만들기 헛간'에서 전시물을 함께 만든다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/10/04/museum-vonk-studio-marco-vermeulen/"
+          }
+        ]
+      },
+      "src_date": "2026-10-04",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "분석 · 데이터센터",
+      "title": "데이터센터는 잘 지을 수 있을까 — 건축가가 비껴나 있던 거대 인프라",
+      "image": "https://static.dezeen.com/uploads/2026/09/data-centers-corgan_dezeen_2364_hero-852x479.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "Dezeen은 AI 수요로 폭증하는 초대형 데이터센터의 건축을 짚었다. 미국인 약 **70%**가 자기 지역의 데이터센터 건설에 반대하고, 관련 인프라 지출은 2026년 **8,000억 달러**를 넘길 전망이다. 미국은 건설 역량을 두 배로 늘릴 계획이다.",
+        "스페인 연구자 마리나 오테로 베르지에는 '데이터센터는 대체로 나쁜 디자인의 사례'라고 말한다. 초기에는 건축이 아닌 엔지니어링 사업으로 취급돼 건축가가 배제된 탓이다.",
+        "젠슬러는 사막 지역의 줄무늬 파사드와 내후성 강판 마감으로 경관 적응을 시도하고, 그림쇼는 주택·상점·도시농장을 묶은 복합개발의 촉매로 데이터센터를 제안했다. 폐열을 주변 건물에 돌려 쓰는 안도 나온다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/29/data-centres-design-architecture-hyperscale-ai/"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "프로젝트 · 일본",
+      "title": "논 한가운데 쉼터, 스튜디오 아미티지의 나라 '필드 셸터'",
+      "image": "https://static.dezeen.com/uploads/2026/10/field-shelter-studio-armitage-nara-japan-architecture-pavilion-wood-polycarbonate_dezeen_1704_hero-852x479.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "런던의 스튜디오 아미티지가 나라 아마가쓰지 지구 논·텃밭 사이에 해체 가능한 목조 쉼터를 지었다. **들어 올린 바닥, 지붕, 벤치 둘**이 전부다.",
+        "폴리카보네이트 골판 지붕, 콘크리트 블록 기초, 중앙 **물탱크**가 밸러스트 겸 공용 급수 역할을 한다. 벤치는 동쪽(아침 햇살)·서쪽(저녁)을 향한다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/10/03/studio-armitage-field-shelter/"
+          }
+        ]
+      },
+      "src_date": "2026-10-03",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프로젝트 · 일본",
+      "title": "무라노 도고의 유산을 잇다 — 닛켄세케이 '야에스 다이비루'",
+      "image": "https://images.adsttc.com/media/images/6abd/243e/c30d/0000/01d4/8f6e/newsletter/_005_North_Elevation_8969_SS.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "도쿄역 인근 야에스도리에 닛켄세케이가 설계한 오피스 재개발이 **2025년** 완공됐다. 연면적 오피스 **2만 2,655㎡**, 시공은 가지마다.",
+        "원 건물을 설계한 **무라노 도고**의 유산을 존중하며 재료의 풍부함과 파사드 구성의 정밀함을 강조했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186086/yaesu-daibiru-office-building-nikken-sekkei"
+          }
+        ]
+      },
+      "src_date": "2026-10-04",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프로젝트 · 주거",
+      "title": "401세대가 만든 '도시 속 마을', 암스테르담 노르트 '싱겔블록'",
+      "image": "https://images.adsttc.com/media/images/6a9d/6d10/15d8/6f00/01a2/f466/newsletter/Jordi_Huisman_Singelblok_3.jpg?1788702013",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "BureauVanEig와 INBO가 암스테르담 노르트역 인근 엘전하헌싱얼에 곡선형 주거 블록을 완성했다. **4만 1,500㎡**에 임대주택·돌봄주택·상업시설 등 **401세대**를 담았다.",
+        "'도시 속 마을'을 표방한 2025년 준공작이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1184623/singelblok-bureauvaneig-plus-inbo"
+          }
+        ]
+      },
+      "src_date": "2026-10-04",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프로젝트 · 아이슬란드",
+      "title": "지붕 없는 노출콘크리트 예배당 '더 템플', 아이슬란드 쇼스아르흐레푸르",
+      "image": "https://images.adsttc.com/media/images/6a8e/7684/4253/0500/01ca/0c64/newsletter/entrance__1_.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "아이슬란드 쇼스아르흐레푸르에 들어선 **252㎡**, 약 **18×14m**의 노출 콘크리트 조각 겸 예배당이다. 하늘에 열려 있는 구조로, 2025년 완성됐다. 설계자로 스쿨리 모겐센이 소개됐다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1183988/the-temple-skuli-mogensen"
+          }
+        ]
+      },
+      "src_date": "2026-09-29",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 라트비아",
+      "title": "발트해 코르카 곶의 '조용한 탑' 국제공모, 총상금 1만 유로",
+      "image": "",
+      "image_label": "BUILDNER",
+      "body": [
+        "Buildner가 라트비아 리보니아 해안 코르카 곶 인근 **전망탑** 아이디어 공모를 열었다. 랜드마크보다 분위기와 감정적 연결을 앞세운 '수직 경험'을 요구하며, 산불감시탑·북유럽 은신처 문화를 참고하라고 안내한다.",
+        "**등록 마감 2027년 1월 13일**, 제출 마감 2월 15일, 결과 발표 4월 6일. 상금은 1위 **5,000유로** 등 총 1만 유로이며 자격 제한은 없다(팀 최대 4명)."
+      ],
+      "source": {
+        "outlet": "Buildner",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://architecturecompetitions.com/quiettower/"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 미국",
+      "title": "뉴욕 로체스터 하이폴스 강변 시장 국제공모, 등록 12월 10일 마감",
+      "image": "",
+      "image_label": "BUILDNER",
+      "body": [
+        "Buildner가 뉴욕주 로체스터 하이폴스 주립공원 '스모크스택 포털' 부지에 들어설 **강변 시장과 공공 게이트웨이**를 공모한다. 지형과 산업유산에 응답하는 안을 요구한다.",
+        "**등록 마감 12월 10일**, 제출 마감 2027년 1월 18일, 발표 3월 9일. 총상금 **1만 달러**, 자격 제한 없음. 조기 등록 요금은 10월 7일까지 적용된다."
+      ],
+      "source": {
+        "outlet": "Buildner",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://architecturecompetitions.com/newyorkmarket/"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 건축상",
+      "title": "대구 서구, '제35회 대구시 건축상' 다관왕 — 대상 '미래 비즈니스 인큐베이팅센터'",
+      "image": "",
+      "image_label": "더쎈뉴스",
+      "body": [
+        "대구시 서구가 제35회 대구시 건축상에서 3개 작품으로 수상했다. 옛 이현 농산물창고를 고친 **미래 비즈니스 인큐베이팅센터**가 대상을 받았다.",
+        "**내당도서관**(지하 1층·지상 4층, **2,800㎡**)은 높은 옹벽을 걷어내고 열린 진입계단을 둔 점이, **비룡경로당**(**150㎡**)은 주변 주거 풍경과 어울리는 지붕이 평가돼 각각 우수상을 받았다."
+      ],
+      "source": {
+        "outlet": "더쎈뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.mhns.co.kr/news/articleView.html?idxno=762513"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "수상"
+    },
+    {
+      "kicker": "국내 · 건축상",
+      "title": "강남구 '아름다운 건축물' 대상은 논현동 '원스퀘어' — 15점 선정",
+      "image": "",
+      "image_label": "문화뉴스",
+      "body": [
+        "강남구가 대상 1점, 최우수상 2점, 우수상 3점, 아름다운 건축상 9점 등 **15점**을 뽑았다. 대상 **원스퀘어**는 지하 2층·지상 5층의 근린생활·다가구 복합 건물로, 골목 풍경과 어우러지는 붉은 벽돌 파사드의 질감을 인정받았다.",
+        "수상작 전시는 10월 1~5일 코엑스 동편 로비에서 열리며 10월 2일 시상식과 건축 심포지엄이 이어졌다. 강남구는 2006년부터 해마다 이 상을 시행하고 있다."
+      ],
+      "source": {
+        "outlet": "문화뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.mhns.co.kr/news/articleView.html?idxno=761882"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "수상"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "뉴욕 브라운즈빌 다목적센터, 예산 1,000만 달러 아끼고 2년 앞당겨 준공",
+      "body": "길베인·마블 설계시공 일괄로 **1억 2,800만 달러**, **6만 평방피트** 4층 건물을 완공했다. 전면 전기화에 LEED 골드 이상을 목표로 한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/gilbane-marvel-complete-sustainable-nyc-job-design-build/831943/"
+          }
+        ]
+      },
+      "src_date": "2026-10-01",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "제넨텍 7.5억 달러 오리건 증설·엔비디아-제이콥스 데이터센터 디지털 트윈",
+      "body": "힐스버러에 **21만 1,000평방피트** 공장을 더해 2031년 가동한다. 엔비디아는 제이콥스와 3년 SaaS 계약을 맺었고, CMAA 신임 CEO에는 AIA 출신 케빈 왓킨스가 선임됐다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "펀치리스트",
+            "url": "https://www.constructiondive.com/news/punch-list-750m-biotech-project-breaks-ground-nvidia-taps-jacobs-for-dat/831991/"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "RIBA, 앨런 존스 전 회장과 소송 합의에 15만 파운드 지급",
+      "body": "2020년 사건 보고서 유출로 불거진 분쟁이 2025년 마무리됐고, 합의금은 협회 재무보고서 초안에 기재됐다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/09/30/riba-alan-jones-legal-dispute/"
+          }
+        ]
+      },
+      "src_date": "2026-09-30",
+      "topic": "제도규제"
+    },
+    {
+      "title": "비트라 디자인 뮤지엄, 제프리 바와 회고전 '감각을 위한 건축'",
+      "body": "열대 모더니즘 거장 바와(1919~2003)의 작업을 룬우강가·11번지 자택 등과 함께 조명한다.",
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/geoffrey-bawa-and-the-materialization-of-an-architects-gaze-on-his-country/"
+          }
+        ]
+      },
+      "src_date": "2026-10-04",
+      "image": "",
+      "topic": "프로젝트"
+    }
+  ],
+  "counts": {
+    "total": 16,
+    "kr": 2,
+    "intl": 14
+  },
+  "cardnews": [
+    {
+      "slug": "rach-chiec-stadium",
+      "tag": "STADIUM",
+      "title": "베트남 최대 7만 석, 락치엑 국립경기장",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "stadium roof architecture",
+      "slides": [
+        {
+          "heading": "7만 석,\n베트남 최대 경기장",
+          "body": "포풀러스가 그린 호찌민 락치엑 국립경기장"
+        },
+        {
+          "heading": "SCALE",
+          "body": "현재 최대인 미딘 경기장보다 약 3만 석 많은 7만 석. 호찌민 외곽 200헥타르 스포츠단지의 중심이다."
+        },
+        {
+          "heading": "SKIN",
+          "body": "강변의 니파야자에서 따온 다이아몬드 패턴 외피로 지역성을 입혔다."
+        },
+        {
+          "heading": "ROOF",
+          "body": "완전 개폐식 지붕으로 환경을 제어하고 주변 주거지로 나가는 소음도 줄인다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "올림픽 종목 90%를 소화하고, 1만 8,000석 아레나가 함께 들어선다. 국제대회 유치가 겨냥점이다."
+        }
+      ]
+    },
+    {
+      "slug": "museum-vonk-hempcrete",
+      "tag": "BIO-BASED",
+      "title": "헴프크리트 박물관 '폭크'",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "timber architecture museum",
+      "slides": [
+        {
+          "heading": "헴프크리트로\n지은 박물관",
+          "body": "아인트호번 '폭크', 저렴한 바이오 시공의 시험장"
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "2019년 파빌리온에서 회수한 CLT를 구조로 다시 썼다."
+        },
+        {
+          "heading": "SKIN",
+          "body": "프리팹 헴프크리트 외벽에 안료 석회 플라스터를 입혔다."
+        },
+        {
+          "heading": "CLIMATE",
+          "body": "자연환기 냉방, 빗물 집수 녹지붕, 새·박쥐 둥지, 현장 아스팔트 재사용 기초."
+        },
+        {
+          "heading": "MAKING",
+          "body": "중앙 '만들기 헛간'에서 방문객이 전시물을 함께 만든다. 1만 년 지역사를 체험형으로 푼다."
+        }
+      ]
+    },
+    {
+      "slug": "wa-scissor-stairs",
+      "tag": "REGULATION",
+      "title": "워싱턴주 가위계단 허용",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 2,
+      "photo_query": "apartment building staircase",
+      "slides": [
+        {
+          "heading": "가위계단,\n코드로 들어온다",
+          "body": "미국 워싱턴주 HB 2228"
+        },
+        {
+          "heading": "WHAT",
+          "body": "얽힌 두 계단을 각각 별도 출구·내화벽으로 분리하면 2개 직통계단 요건 충족 수단으로 인정한다."
+        },
+        {
+          "heading": "HOW",
+          "body": "기술자문그룹 권고를 거쳐 2027년 건축코드 개정에 반영한다. 적용은 2030년께로 전망된다."
+        },
+        {
+          "heading": "WHY",
+          "body": "밴쿠버 건물은 순환 공간이 시애틀 대비 46% 적다. 코어가 줄면 채광·환기가 좋아진다."
+        },
+        {
+          "heading": "ALSO",
+          "body": "6층·24세대 이하 건물엔 소형 승강기도 허용하는 법안이 통과했다."
+        }
+      ]
+    }
+  ]
+}
