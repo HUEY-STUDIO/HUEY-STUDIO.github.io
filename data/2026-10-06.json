@@ -1,0 +1,478 @@
+{
+  "vol": "VOL.01  NO.051",
+  "editor": "HUEY",
+  "counts": {
+    "total": 17,
+    "intl": 14,
+    "kr": 3
+  },
+  "outlets": [
+    "Designboom",
+    "ArchDaily",
+    "Buildner",
+    "ENR",
+    "Construction Dive",
+    "건축사신문"
+  ],
+  "teasers": [
+    {
+      "title": "빌바오 미술관 '아그라비타스'",
+      "desc": "55m 스팬 전시동, 2,300㎡ 전시 공간",
+      "label": "PROJECT"
+    },
+    {
+      "title": "울산·서울 건축사회 협약",
+      "desc": "표준계약서·설계업무 견적서 연구성과 공유",
+      "label": "REGULATION"
+    },
+    {
+      "title": "감정 박물관 #9 공모",
+      "desc": "글 없이 그리는 박물관, 총상금 8,000유로",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "폰다시옹 바이엘러 확장",
+      "desc": "줌터의 새 앙상블, 26,500㎡",
+      "label": "MUSEUM"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 미술관 증축",
+    "lede": "빌바오 미술관 위에 55m 스팬의 전시동이 떴다, 포스터+파트너스 '아그라비타스'",
+    "lede_em": "55m 스팬의 전시동이 떴다",
+    "image": "https://www.designboom.com/twitterimages/uploads/2026/10/foster-partners-bilbao-fine-arts-museum-completes-designboom-FB.jpg",
+    "image_label": "DESIGNBOOM",
+    "caption": "빌바오 미술관 증축 '아그라비타스' ⓒ Foster + Partners",
+    "body": [
+      "포스터+파트너스가 스페인 **빌바오 미술관**(Bilbao Fine Arts Museum) 위에 떠 있는 전시동 **'아그라비타스'(Agravitas)**를 완성했다. 건축가 루이스 마리아 우리아르테와 함께 **2019년** 국제 설계공모에서 당선된 뒤 **7년**여 만에 문을 연다. 개관일은 **10월 6일**이다.",
+      "새 전시동은 **1945년**과 **1970년**에 지어진 기존 건물을 가리지 않고 그 위를 가로지른다. 지지 구조는 **55m**를 건너뛰는 V자형 대형 강재 기둥이며, 그 아래 옛 아리아가 광장을 덮어 **1,000㎡** 넘는 지붕 있는 공공 아트리움으로 바꿨다.",
+      "증축 면적은 전시 공간 **2,300㎡**를 포함해 약 **6,000㎡**다. 상설 컬렉션 전시장이 **1,635㎡** 늘었고, 기존 공간 약 **8,000㎡**도 함께 정비해 서로 다른 세대의 건물을 잇는 새 동선을 만들었다.",
+      "환경 설계도 눈에 띈다. 북향 채광창으로 자연광을 들이고 자연 환기를 쓰며, **500㎡** 넘는 태양광 패널을 얹었다. 자재는 바스크 지역의 산업 유산을 반영해 현지 생산품을 썼다."
+    ],
+    "source": {
+      "outlet": "Designboom",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.designboom.com/architecture/foster-partners-completes-floating-addition-bilbao-fine-arts-museum-spain/"
+        }
+      ]
+    },
+    "src_date": "2026-10-05",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://cdn.ancnews.kr/news/photo/202609/21185_23966_838.jpg",
+    "image_label": "건축사신문",
+    "title": "울산·서울 건축사회 업무협약 — 설계의도 구현 기준·표준계약서·설계업무 견적서 연구성과 공유",
+    "body": [
+      "울산광역시건축사회와 서울특별시건축사회가 **9월 22일** '건축사의 업무환경 개선과 건축산업의 건전한 발전'을 위한 업무협약을 맺었다."
+    ],
+    "facts": [
+      "공유 대상: **설계의도 구현 기준**, **표준계약서**, **설계업무 견적서** 연구성과",
+      "협력: 회원 업무지원과 **제도개선**",
+      "체결일: **2026년 9월 22일**, 울산·서울 건축사회"
+    ],
+    "body_after": [
+      "지역 건축사회가 각자 만든 계약·견적 기준을 서로 공유하기 시작했다는 점에서, 업무 범위와 설계대가를 설명하는 근거 자료가 실무에서 더 폭넓게 쓰일 가능성이 있다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.ancnews.kr/news/articleView.html?idxno=21185"
+        }
+      ]
+    },
+    "src_date": "2026-09-30",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "MUSEUM · SWITZERLAND",
+      "title": "렌초 피아노의 미술관 곁에 피터 줌터의 새 앙상블 — 폰다시옹 바이엘러 확장",
+      "image": "https://images.adsttc.com/media/images/6abf/a607/27ac/8d01/89cb/b112/large_jpg/the-expanded-ensemble-of-the-fondation-beyeler-atelier-peter-zumthor_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스위스 리엔의 **폰다시옹 바이엘러**가 **아틀리에 피터 줌터**의 설계로 확장됐다. 대지 면적은 **26,500㎡**, 2026년 완성이며 목재·석재·콘크리트를 주 재료로 썼다.",
+        "기존 렌초 피아노의 미술관 건물과 어우러지는 새 건물을 더하고, 역사적 건물을 복원했으며, 바이엘러 공원도 다시 설계했다. 시험 개방 기간은 **2026년 9월 26일~2027년 1월 14일**이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186229/the-expanded-ensemble-of-the-fondation-beyeler-atelier-peter-zumthor"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "CAMPUS · USA",
+      "title": "위 광장과 아래 녹지를 잇는 십자로, 헤어초크 & 드 뫼롱의 애머스트대 학생센터",
+      "image": "https://images.adsttc.com/media/images/6abe/b05b/27ac/8d01/89cb/ae66/medium_jpg/ambherst-college-herzog-and-de-meuron-plus-sasaki_9.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "헤어초크 & 드 뫼롱이 설계하고 사사키가 실시설계를 맡은 매사추세츠 애머스트대 **학생센터·식당동**이 2026년 완성됐다. 역사적 상부 쿼드와 하부 그린웨이 사이에서 수직·수평 공유 공간 네트워크가 만나는 '교차로'로 구상했고 목재와 콘크리트를 썼다.",
+        "건축 사진은 이완 바안이 촬영했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186190/ambherst-college-herzog-and-de-meuron-plus-sasaki"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "HOTEL · PARIS",
+      "title": "전설의 록 클럽을 5성급 호텔로, 스튜디오 KO의 파리 '버스 팔라디움'",
+      "image": "https://www.designboom.com/twitterimages/uploads/2026/10/studio-ko-paris-bus-palladium-five-star-hotel-rock-n-roll-designboom-designboom-19.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "**1965년** 문을 연 파리 피갈의 나이트클럽 버스 팔라디움 자리에 스튜디오 KO가 지상 **6층 35실** 호텔을 지어 **4월 10일** 열었다. 기존 건물은 철거하고 입구의 리듬과 수평선 등만 새 건물에 옮겼으며, 지하 **14m**를 파 **4개 층**을 더했다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/studio-ko-paris-bus-palladium-nightclub-five-star-hotel/"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "ADAPTIVE REUSE · LATVIA",
+      "title": "200년 된 건물에 들어선 쿨디가 도심 부티크 호텔, 필드 스튜디오 '아우스마'",
+      "image": "https://images.adsttc.com/media/images/6abe/3826/07c3/d100/017f/c318/large_jpg/ausma_hotel_field_studio_20.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "필드 스튜디오가 라트비아 쿨디가 도심의 **200년 넘은** 건물을 연면적 **2,000㎡** 부티크 호텔로 고쳤다. 2026년 완성했고, 원래의 성격을 보존하면서 현대적 요소와 지역 공예를 더했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186130/ausma-hotel-field-studio"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "COMPETITION · ITALY",
+      "title": "피에몬테 와이너리 협동조합 '발리 우니테'의 시음장 국제 설계공모",
+      "image": "",
+      "image_label": "ARCHITECTURECOMPETITIONS",
+      "body": "피에몬테 콜리 토르토네시 와인 산지, 코스타 베스코바토 인근 기존 와인 저장시설에 잇는 **시음장** 증축안을 받는다. 상금은 1위 **5,000유로**, 2위 **2,500유로**, 3위 **1,000유로**이며 등록 마감은 **2027년 1월 14일**, 제출 마감은 **2월 15일**, 결과 발표는 **3월 30일**이다.",
+      "source": {
+        "outlet": "Buildner",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://architecturecompetitions.com/valliwinetastingroom/"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "COMPETITION · OPEN",
+      "title": "'감정 박물관 #9' — 부정과 긍정의 전시실을 건축으로 쓰는 무문자 공모",
+      "image": "https://storage.architecturecompetitions.com/upload/25.06.2026/6cca9bfb68e3656c1fc7d4213f259daa.jpg",
+      "image_label": "ARCHITECTURECOMPETITIONS",
+      "body": "상반된 감정을 일으키는 두 전시실을 가진 박물관을 **글 없이 이미지로만** 제안하는 공모다. 총상금 **8,000유로**(1위 **4,000유로**), 등록 마감 **2027년 1월 21일**, 제출 마감 **2월 22일**, 결과 발표 **4월 13일**.",
+      "source": {
+        "outlet": "Buildner",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://architecturecompetitions.com/museumofemotions9/"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국내 · 직능",
+      "title": "서울시건축사회 '지음건축학교' — 예비건축주에게 건축 과정·법규·도면 읽는 법 교육",
+      "image": "https://cdn.ancnews.kr/news/photo/202609/21189_23970_1237.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "서울특별시건축사회가 예비건축주를 위한 실무 교육을 건축사회관 7층에서 연다. '건축 진행 과정의 이해', '꼭 알아야 할 건축 법규', '집 짓기에 궁금한 것들', '건축도면의 이해' 등 **4개 강좌**다.",
+        "**10월** 오픈 예정인 건축 플랫폼 '지음터'의 실효성 있는 추진과 건강한 건축문화 조성이 목표다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21189"
+          }
+        ]
+      },
+      "src_date": "2026-09-30",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 직능",
+      "title": "충청권 4개 건축사회 공주 워크숍 — 설계·감리비 기준과 용역대가 기준 논의",
+      "image": "https://cdn.ancnews.kr/news/photo/202609/21186_23967_950.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "대전·세종·충북·충남 건축사회가 **9월 10일** 공주시에서 발전 워크숍을 열었다. 대한건축사협회 부회장과 건축사공제조합 임원진이 참석해 **설계·감리비 기준** 마련과 **용역대가 기준**을 논의했고, 정보 공유와 협력 체계 강화를 약속했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21186"
+          }
+        ]
+      },
+      "src_date": "2026-09-30",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 연구",
+      "title": "서울시건축사회 북한개발연구원 제2기 발대식 — 건축사 10명 위촉",
+      "image": "https://cdn.ancnews.kr/news/photo/202609/21188_23969_1141.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "서울특별시건축사회가 **8월 5일** 북한개발연구원 제2기 발대식을 열었다. 성치호 연구원장을 포함한 선임연구위원·연구위원·자문위원 **10명**이 위촉됐고, 1기 연구 결과를 공유하며 2기 연구과제와 운영 방안을 논의했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21188"
+          }
+        ]
+      },
+      "src_date": "2026-09-30",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "텍사스 빅벤드 국경 공사 75억 달러 계약에 연방법원 금지명령",
+      "body": "카르도네 판사가 **10월 2일** 환경·문화자원 요건 우회 면제를 정지하고 모든 공사·굴착을 금지했다. 바너드·피셔·키위트 등 **5건 약 75억 달러** 계약이 영향을 받는다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63777-federal-injunction-hits-75b-in-big-bend-border-construction-contracts"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "제도규제"
+    },
+    {
+      "title": "8월 미국 데이터센터 건설지출 한 달 새 7.5% 급증",
+      "body": "미국 전체 건설지출은 **0.9%** 늘어 연율 **2.2조 달러**. 데이터센터는 1년 새 **73%**, 3월 대비 **149%** 늘었다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/data-center-construction-spending-august/831954/"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "바이엘, 오하이오 뉴올버니에 22억 달러 모듈형 제약 캠퍼스",
+      "body": "**2027년 중반** 착공해 **2031·2034년** 단계 완공을 목표로 한다. 건설 인력 약 **1,500명**, 상시 고용 약 **600명**.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63773-bayer-sets-22b-ohio-pharma-campus-for-2027-start"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "캐터필러 노스캐롤라이나 10억 달러 공장, 얼티엄 셀즈 테네시 10억 달러 재설비",
+      "body": "캐터필러는 샌퍼드에 소형 건설장비 공장을, 얼티엄 셀즈(GM·LG에너지솔루션)는 스프링힐 공장 개조를 추진한다. Avio USA는 버지니아에 **5억 달러** 로켓모터 시설을 착공했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/caterpillar-ultium-cells-1b-facility-investments-avio-usa-genentech/832097/"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "암스테르담 '암모도 건축의 날' 11월 9~10일 첫 개최",
+      "body": "웨스터가스에서 심포지엄·전시·시상식을 연다. 2024·2025 암모도 건축상 **49개** 프로젝트를 다루며 안드레스 하케, 아누파마 쿤두 등이 연사다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186296/ammodo-architecture-announces-first-edition-of-architecture-days-in-amsterdam"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "수상"
+    },
+    {
+      "title": "리스본 대성당 복원·고고학센터 — 아달베르투 디아스, 6,690㎡",
+      "body": "성당 복원, **고고학센터** 설치, 상하 회랑 정비를 **2025년** 마쳤다. 로마네스크·고딕·바로크·신마누엘 양식을 보존하며 현대적 해설 공간을 더했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1034427/restoration-and-enhancement-of-the-patriarchal-cathedral-of-lisbon-installation-of-the-archaeological-center-and-restoration-of-the-upper-and-lower-cloisters-adalberto-dias-arquitecto-lda"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "재난유산"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "bilbao-agravitas",
+      "tag": "MUSEUM",
+      "title": "빌바오 미술관 위에 뜬 전시동 '아그라비타스'",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:Bilbao - Museo de Bellas Artes 05.jpg",
+        "File:Bilbao - Museo de Bellas Artes 04.jpg",
+        "File:Bilbao - Museo de Bellas Artes 03.jpg",
+        "File:Bilbao - Museo de Bellas Artes 15.jpg"
+      ],
+      "photo_query": "bilbao architecture",
+      "slides": [
+        {
+          "heading": "빌바오 미술관 위에\n전시동이 떴다",
+          "body": "포스터+파트너스의 '아그라비타스' 개관"
+        },
+        {
+          "heading": "WHAT",
+          "body": "1945년·1970년 기존 건물 위를 가로지르는 전시동. 증축 면적 약 6,000㎡, 전시 공간 2,300㎡다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "V자형 대형 강재 기둥이 55m를 건너뛴다. 아래 옛 아리아가 광장은 1,000㎡ 넘는 공공 아트리움이 됐다."
+        },
+        {
+          "heading": "GREEN",
+          "body": "북향 채광, 자연 환기, 500㎡ 넘는 태양광 패널. 자재는 바스크 지역 산업 유산을 반영한 현지 생산품이다."
+        },
+        {
+          "heading": "TIMELINE",
+          "body": "2019년 국제 설계공모 당선, 7년 만에 10월 6일 개관한다."
+        }
+      ]
+    },
+    {
+      "slug": "beyeler-zumthor",
+      "tag": "MUSEUM",
+      "title": "줌터가 더한 폰다시옹 바이엘러",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "commons_photos": [
+        "File:Riehen - Fondation Beyeler 5387.jpg"
+      ],
+      "photo_query": "swiss museum garden architecture",
+      "slides": [
+        {
+          "heading": "피아노 곁에\n줌터가 서다",
+          "body": "스위스 리엔 폰다시옹 바이엘러의 확장"
+        },
+        {
+          "heading": "WHO",
+          "body": "아틀리에 피터 줌터가 설계했다. 기존 건물은 렌초 피아노의 작품이다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "26,500㎡ 규모, 2026년 완성. 목재·석재·콘크리트를 주 재료로 썼다."
+        },
+        {
+          "heading": "PARK",
+          "body": "새 건물 추가와 함께 역사적 건물을 복원하고 바이엘러 공원을 다시 설계했다."
+        },
+        {
+          "heading": "PREVIEW",
+          "body": "2026년 9월 26일부터 2027년 1월 14일까지 시험 개방한다."
+        }
+      ]
+    },
+    {
+      "slug": "seoul-architects-jieum",
+      "tag": "PRACTICE",
+      "title": "예비건축주를 위한 '지음건축학교'",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "architect reviewing house plans",
+      "slides": [
+        {
+          "heading": "집 짓기 전에\n건축학교부터",
+          "body": "서울시건축사회, 예비건축주 교육 '지음건축학교' 운영"
+        },
+        {
+          "heading": "WHO",
+          "body": "서울특별시건축사회가 예비건축주를 대상으로 실무 중심 교육을 연다."
+        },
+        {
+          "heading": "CURRICULUM",
+          "body": "건축 진행 과정의 이해, 꼭 알아야 할 건축 법규, 집 짓기에 궁금한 것들, 건축도면의 이해 등 4개 강좌."
+        },
+        {
+          "heading": "WHERE",
+          "body": "건축사회관 7층에서 진행한다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "10월 오픈 예정인 건축 플랫폼 '지음터'의 실효성 있는 추진과 건강한 건축문화 조성이 목표다."
+        }
+      ]
+    }
+  ]
+}
