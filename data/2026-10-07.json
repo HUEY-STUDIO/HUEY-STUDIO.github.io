@@ -1,0 +1,546 @@
+{
+ "vol": "VOL.01  NO.052",
+ "editor": "HUEY",
+ "counts": {
+  "total": 20,
+  "intl": 14,
+  "kr": 6
+ },
+ "outlets": [
+  "ArchDaily",
+  "Dezeen",
+  "Competitions.archi",
+  "Buildner",
+  "Holland & Knight",
+  "Mining Weekly",
+  "Construction Dive",
+  "건축사신문",
+  "건축사뉴스",
+  "주택폴리오"
+ ],
+ "teasers": [
+  {
+   "title": "헨트 디자인 박물관 재개관",
+   "desc": "폐기물 벽돌 8만 2천 장으로 지은 신관",
+   "label": "MUSEUM"
+  },
+  {
+   "title": "미 상원 인허가 개혁안",
+   "desc": "NEPA 면제·심의 기한·소송 150일 제한",
+   "label": "REGULATION"
+  },
+  {
+   "title": "서울 주택 인허가 604%↑",
+   "desc": "비수도권은 36.6% 감소, 엇갈린 공급",
+   "label": "STATS"
+  },
+  {
+   "title": "밴쿠버 톨 챌린지",
+   "desc": "총상금 1.5만 캐나다달러, 11월 30일 마감",
+   "label": "COMPETITION"
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 박물관 증축",
+  "lede": "폐기물로 구운 벽돌 8만 2천 장, 헨트 디자인 박물관이 새 날개를 달고 다시 문을 열었다",
+  "lede_em": "폐기물로 구운 벽돌 8만 2천 장",
+  "image": "https://images.adsttc.com/media/images/6ac4/0777/27ac/8d01/89cb/ba19/newsletter/design-museum-gent_1.jpg",
+  "image_label": "ARCHDAILY",
+  "caption": "디자인 박물관 헨트 신관 ⓒ ArchDaily",
+  "body": [
+   "벨기에 헨트의 **디자인 박물관 헨트**가 **10월 3일** 신관과 함께 재개관했다. 영국 카모디 그로크(Carmody Groarke)와 현지 **ATAMA**가 **2019년 11월** 설계공모에서 당선된 뒤 약 **4년**에 걸쳐 완성했고, 기존 건물 복원은 RE-ST 건축사사무소가 맡았다.",
+   "신관 외벽은 이 프로젝트를 위해 개발한 **'헨트 폐기물 벽돌'**로 마감했다. 지역에서 나온 도시 폐기물을 석회로 양생해 만든 벽돌이며, 헨트의 '아르세날'에서 **8만 2,000장** 넘게 현지 생산했다. 가능한 곳마다 기존 자재를 재사용하는 방식도 함께 적용했다.",
+   "부지에는 18세기 로코코 저택 **오텔 드 코닌크**와 16세기 핵심부를 지닌 **레텐 하우스**, 1992년 증축동이 이미 자리하고 있다. 신관은 이들 사이를 이어 안내·상점 '스타츠카머', 강연장 '포럼', 워크숍 '아틀리에', 기획전 '비트린', 수장·반입 구역, 4층 행사장 '로프트'까지 **6개 기능 구역**을 배치했다.",
+   "14세기부터 현재까지의 디자인 오브제를 소장한 박물관이 지역 폐기물을 외피로 삼았다는 점이 눈에 띈다. 전시 내용뿐 아니라 건물 자체가 '순환하는 디자인'의 사례가 되도록 한 접근이다."
+  ],
+  "source": {
+   "outlet": "ArchDaily",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.archdaily.com/1186376/design-museum-gent-reopens-with-new-wing-by-carmody-groarke-and-atama"
+    }
+   ]
+  },
+  "src_date": "2026-10-06",
+  "topic": "프로젝트"
+ },
+ "side": {
+  "label": "실무 직결 · 제도/규제",
+  "title": "미 상원 초당적 인허가 개혁안 공개 — NEPA 면제·심의 기한·소송 150일 제한",
+  "body": [
+   "상원 위원회 의원 4명(카피토·리·화이트하우스·하인리히)이 **9월 30일** '2026 초당적 경제적 부담 완화·일자리법안(Bipartisan American Affordability and Jobs Act of 2026)'을 공개했다. 송전선·데이터센터·광산·발전 사업의 연방 인허가를 빠르게 하겠다는 취지다."
+  ],
+  "facts": [
+   "대상 법: NEPA·수질법·멸종위기종법·연방전력법·국가역사보존법 등",
+   "핵심: 다수 활동을 **NEPA 요건에서 면제**, 기관별 **결정 기한** 신설",
+   "소송: 사법심사 제기 기간을 **150일**로 단축, 흠이 있어도 무효화 없이 **환송** 우선",
+   "일정: 표결은 **중간선거 이후** 전망"
+  ],
+  "body_after": [
+   "연방 인허가 문턱이 낮아지면 데이터센터·에너지 시설 등 대형 인프라의 착수 시점이 앞당겨질 수 있어, 설계·시공사의 수주 일정과 환경 검토 업무에 직접 영향을 준다. 다만 법안은 아직 의회 표결 전이다."
+  ],
+  "source": [
+   {
+    "outlet": "Holland & Knight",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/10/bipartisan-senate-committee-leaders-release-permitting-reform-text"
+     }
+    ]
+   },
+   {
+    "outlet": "Mining Weekly",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.miningweekly.com/article/us-senators-hit-deal-on-energy-project-permitting-bill-vote-after-midterm-elections-2026-10-01"
+     }
+    ]
+   }
+  ],
+  "src_date": "2026-10-01",
+  "topic": "제도규제"
+ },
+ "intl_feature": [
+  {
+   "kicker": "CHINA · 문화체육시설",
+   "title": "흩어진 열린 공간이 만남을 만든다 — 선전 웨하이 문화체육센터, 멍옌|우르바너스",
+   "image": "https://images.adsttc.com/media/images/6abb/c917/3ec8/914a/2137/6cf4/newsletter/yuehai-culture-and-sports-center-meng-yan-urbanus_5.jpg",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "중국 선전 난산구 웨하이 커뮤니티에 들어선 **5,761㎡** 규모 문화체육센터다. 멍옌(MENG YAN)|우르바너스가 강재와 콘크리트 구조로 2025년 완성했다.",
+    "문화시설과 체육시설을 따로 가르는 기존 복합센터 방식을 벗어나, 건물 둘레에 **우연한 만남을 받아내는 열린 공간**을 흩어 놓은 것이 핵심이다. 밀도 높은 도심 속에서 건물 바깥이 도시의 활기를 만드는 장치가 된다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1185982/yuehai-culture-and-sports-center-meng-yan-urbanus"
+     }
+    ]
+   },
+   "src_date": "2026-10-02",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "BRAZIL · 공모 당선",
+   "title": "파울리스타 대로에 서는 19층 얇은 탑 — 에스투디우 모듈루의 이타우 문화원 신사옥",
+   "image": "https://static.dezeen.com/uploads/2026/10/estudio-modulo-itau-cultural-sao-paolo_dezeen_2364_hero-852x479.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "브라질 에스투디우 모듈루(Estúdio Módulo)가 **6개 설계팀**이 겨룬 공모에서 **이타우 문화원** 상파울루 신사옥 설계를 따냈다. 부지는 MASP와 FIESP 문화센터가 이웃한 파울리스타 대로다.",
+    "**총 12,275㎡**, 지상·지하 합쳐 **19개 층**(지하 8개 층)의 얇은 직사각형 타워다. 흰 루버와 반투명 스크린으로 감싸고, 유리 너머로 테라코타색 계단이 비친다. 지하에는 **100석** 이상 강당과 **400석** 이상 극장을 둔다. 준공 목표는 **2031년**이다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/10/05/estudio-modulo-itau-cultural-sao-paulo-design/"
+     }
+    ]
+   },
+   "src_date": "2026-10-05",
+   "topic": "프로젝트"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "UK · 보존·재생",
+   "title": "콘크리트 골조를 드러내는 '절제된' 개조 — 왕립예술대학 켄싱턴 캠퍼스",
+   "image": "https://static.dezeen.com/uploads/2026/10/royal-college-art-renovation-witherford-watson-mann-clementine-blakemore-architects-london-architecture_dezeen_1704_hero-852x479.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "위더포드 왓슨 만과 클레멘타인 블레이크모어가 런던 **왕립예술대학(RCA) 켄싱턴 캠퍼스** 개조를 진행 중이다. 캐드버리 브라운이 1962년 설계한 2등급 보존건물 '다윈 빌딩'이 중심이며 **2032년** 완료를 목표로 단계적으로 공사해 수업을 이어간다.",
+    "콘크리트 골조와 벽돌 벽의 원래 마감을 드러내고 1980년대 선형 갤러리의 강재 골조를 노출한다. 저탄소·자연 소재 위주의 접근이다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/10/06/royal-college-art-kensington-campus-renovation/"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "USA · 종교건축",
+   "title": "2층 예배당에서 숲 능선을 마주한다 — 샌라파엘 로데프 숄롬 회당",
+   "image": "https://static.dezeen.com/uploads/2026/10/congregation-rodef-sholom-san-rafael-california-herman-coliver-locus-architecture-_dezeen_2364_hero-852x479.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "허먼 콜리버 로커스 건축사무소가 캘리포니아 샌라파엘의 회당을 새로 지었다. 이전의 묵직한 벽돌 건물을 대신해 밝은 모래색 석재로 외벽을 감쌌다.",
+    "L자형 평면이 중정을 둘러싸고, 2층에 예배당과 소예배실을 두어 숲으로 덮인 언덕을 바라보게 했다. 예배당에는 목재 볼트 천장과 큰 창이 있다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/10/06/herman-coliver-locus-congregatio-rodef-sholom-synagogue/"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "CANADA · 설계공모",
+   "title": "밴쿠버 도심 고층, 어떻게 지어야 하나 — 빌드너 '밴쿠버 톨 챌린지', 11월 30일 마감",
+   "image": "https://competitions.archi/wp-content/uploads/2026/06/COMP.ARCH-2-750x750.jpg",
+   "image_label": "COMPETITIONS.ARCHI",
+   "body": [
+    "빌드너가 밴쿠버시·UBC 건축대학과 함께 여는 국제 아이디어 공모다. 밴쿠버 도심에서 고층 건물이 어떻게 더 활기차고 지속가능하며 포용적인 도시에 기여할 수 있는지를 묻는다.",
+    "건축가·디자이너·학생 등 누구나 참가할 수 있다. 총상금 **15,000 캐나다달러**(1위 7,000달러), **등록 10월 29일**, **제출 11월 30일**, 발표는 2027년 1월 26일이다."
+   ],
+   "source": {
+    "outlet": "Competitions.archi",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://competitions.archi/competition/vancouver-tall-challenge/"
+     }
+    ]
+   },
+   "src_date": "2026-06-22",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "ITALY · 국제 설계공모",
+   "title": "옛 산 세바스티아노 교도소를 사법 허브로 — 사사리 국제 2단계 공모, 2027년 2월 19일 마감",
+   "image": "https://competitions.archi/wp-content/uploads/2026/09/San-Sebastiano-Eng.jpeg",
+   "image_label": "COMPETITIONS.ARCHI",
+   "body": [
+    "이탈리아 국유재산청(Agenzia del Demanio)이 사르데냐 사사리 구도심의 **1859년 교도소**(약 **17,000㎡**, 2013년 폐쇄)를 법원 인근 사법 허브로 바꾸는 국제 공모를 연다. 법률 사무소·기억 박물관·직원 서비스·상업 기능을 담는다.",
+    "익명 2단계 방식이다. 1단계에서 순위 없이 **5개 안**을 고르고, 2단계에서 5개 팀이 기술경제 타당성 설계를 발전시켜 최종 순위를 정한다. 설계 용역 총액은 약 **670만 유로**, 전체 사업비는 약 **7,700만 유로**다."
+   ],
+   "source": {
+    "outlet": "Competitions.archi",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://competitions.archi/competition/san-sebastiano-design-competition-for-the-new-judicial-hub-of-sassari/"
+     }
+    ]
+   },
+   "src_date": "2026-09-28",
+   "topic": "설계공모"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "국내 · 설계공모",
+   "title": "제주 '용담 국민체육센터' 기본·실시설계 일반공모 — 공사비 69.6억, 10월 12일 마감",
+   "body": [
+    "제주시 용담삼동 531-51번지 일대에 들어설 **용담 국민체육센터** 건립사업의 기본 및 실시설계 용역 일반 설계공모다. 신축 운동시설이다.",
+    "추정 공사비 **69.6억 원**, 설계비 **3.5억 원**. 참가등록 마감은 **10월 12일**이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공모 공고",
+      "url": "https://jootek.com/folio/contests/18948"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "국내 · 설계공모",
+   "title": "서산 석남동 '국립국악원 서산분원' 설계용역 — 제안공모 공고, 10월 12일 마감",
+   "body": [
+    "충남 서산시 석남동 286-13번지 일원에 짓는 **국립국악원 서산분원** 건립사업의 설계용역 제안공모다. 신축 문화 및 집회시설이다.",
+    "공사비 **221억 원**, 설계비 **11.3억 원**. 목록상 접수 마감은 **10월 12일**이다. 같은 규모의 강원분원 공모가 앞서 공고된 바 있다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공모 공고",
+      "url": "https://jootek.com/folio/contests/18946"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "국내 · 설계공모",
+   "title": "상주 '외답농공단지 청년문화센터' 건축 설계공모 — 공사비 44.1억, 10월 13일 마감",
+   "body": [
+    "경북 상주시 헌신동 266-1에 신축하는 제1종 근린생활시설 **외답농공단지 청년문화센터**의 일반 설계공모다.",
+    "공사비 **44.1억 원**, 설계비 **2.1억 원**. 참가등록 마감은 **10월 13일**이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공모 공고",
+      "url": "https://jootek.com/folio/contests/18945"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "국내 · 주택통계",
+   "title": "서울 주택 인허가 8월 604%↑, 비수도권은 36.6%↓ — 국토부 8월 주택통계",
+   "image": "https://cdn.ancnews.kr/news/thumbnail/202610/21217_24000_4858_v150.jpg",
+   "image_label": "건축사신문",
+   "body": [
+    "국토교통부의 8월 주택통계에 따르면 전국 인허가는 **2만 1,607호**로 전년동월 대비 **25.6%** 늘었다. 서울은 **1만 1,306호**로 **604.4%** 급증했지만 비수도권은 **6,137호**로 **36.6%** 줄었다.",
+    "8월 전국 미분양은 **6만 9,134호**이고 수도권 분양은 40.6% 늘고 비수도권은 57.1% 줄었다. 국토부는 '25년 주택건설실적 확정치를 내면서 준공 집계 방식을 개선해 정확도를 높였다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21217"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "국내 · 직능",
+   "title": "파주지역건축사회 '사랑의 집 고치기' — 취약가구 5곳에 4천만 원 투입",
+   "body": [
+    "파주지역건축사회가 10월 1일 경기건축문화제의 일환으로 주거환경 취약계층 **5가구**의 집을 고치는 '사랑의 집 고치기' 행사를 열었다. 2021년에 이어 두 번째다.",
+    "경기도건축사회 지원으로 도배·장판, 창호·싱크대, 화장실 개선에 총 **4천만 원**이 들어갔다."
+   ],
+   "source": {
+    "outlet": "건축사뉴스",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://a-news.kr/news/articleView.html?idxno=13950"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "도시재생"
+  },
+  {
+   "kicker": "국내 · 건축행정",
+   "title": "안성시·안성지역건축사회, 청렴도 향상 간담회 — 민원 처리 단축·위반건축물 근절 논의",
+   "body": [
+    "안성시와 안성지역건축사회가 9월 30일 하반기 청렴도 향상 간담회를 열고 **6개 안건**을 논의했다.",
+    "친환경 녹색건축물 조성, 건축민원 처리기간 단축, 건축사 재능기부, 장기 미사용승인 건축물 정비 안내, 무단증축·용도변경·방쪼개기 등 위반건축물 근절, 안전예방 핫라인 안내가 올랐다."
+   ],
+   "source": {
+    "outlet": "건축사뉴스",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://a-news.kr/news/articleView.html?idxno=13948"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "제도규제"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "메가프로젝트, 비주거 건설 지출 4분의 1 차지",
+   "body": "10억 달러 이상 대형 사업이 약 25%. 8월 건설 투입재 가격은 전월 대비 1.2%, 전년 대비 8.9% 올랐다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/megaprojects-grab-1-in-4-nonresidential-construction-dollars/832256/"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "미 교통부 INFRA 보조금 4.26억 달러, 12개 주",
+   "body": "켄터키 8,510만·플로리다 8,500만 달러가 최대. 고속도로·화물 인프라 지원.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/dot-awards-critical-infrastructure-projects/832265/"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "제도규제"
+  },
+  {
+   "title": "튜터 페리니·스칸스카, 해안경비대 부두 5.86억 달러 수주",
+   "body": "코디액 연료 부두 3.15억, 뉴포트 모항 부두 2.71억 달러. 준공 목표 2030년.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/tutor-perini-skanska-win-coast-guard-jobs/832227/"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "서폭, 스타디움·경기장 전담 '스포츠 센터 오브 엑설런스' 신설",
+   "body": "나이키 출신 맷 스웨임이 총괄. 프리콘·일정 관리 역량을 집중한다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/suffolk-targets-sports-stadiums-division/832304/"
+     }
+    ]
+   },
+   "src_date": "2026-10-01",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "MVRDV, 에스코펫과 모듈형 콘크리트 거리 가구 '바코드'",
+   "body": "트리뷴·듄·데스크 3종, 8가지 색, 72가지 구성. 시민이 점유하는 거리 가구.",
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/10/05/mvrdv-barcode-street-furniture-escofet/"
+     }
+    ]
+   },
+   "src_date": "2026-10-05",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "자카르타 1,100㎡ '미트 오블리크 가든' — 고밀도 속 인간 척도",
+   "body": "RAD+ar가 구조·자연·환경 경계를 허문 상업 건축으로 설계, 2026년 완공.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186064/mitte-oblique-garden-rad-plus-ar-research-artistic-design-plus-architecture"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "프로젝트"
+  }
+ ],
+ "cardnews": [
+  {
+   "slug": "gent-design-museum",
+   "tag": "MUSEUM",
+   "title": "쓰레기로 구운 벽돌 8만 장, 헨트 디자인 박물관",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "photo_query": "ghent belgium",
+   "slides": [
+    {
+     "heading": "폐기물 벽돌로\n지은 신관",
+     "body": "헨트 디자인 박물관이 10월 3일 다시 문을 열었다"
+    },
+    {
+     "heading": "WHO",
+     "body": "영국 카모디 그로크와 현지 ATAMA가 2019년 공모에서 당선, 약 4년 만에 완성했다."
+    },
+    {
+     "heading": "BRICK",
+     "body": "도시 폐기물을 석회로 양생한 '헨트 폐기물 벽돌' 8만 2,000장 이상을 현지에서 생산했다."
+    },
+    {
+     "heading": "SITE",
+     "body": "18세기 로코코 저택, 16세기 핵심부의 레텐 하우스, 1992년 증축동 사이를 신관이 이어준다."
+    },
+    {
+     "heading": "ZONES",
+     "body": "스타츠카머·포럼·아틀리에·비트린·수장·로프트까지 6개 기능 구역으로 구성했다."
+    }
+   ]
+  },
+  {
+   "slug": "itau-cultural-paulista",
+   "tag": "COMPETITION",
+   "title": "파울리스타 대로의 19층 얇은 탑, 이타우 문화원",
+   "ref": {
+    "section": "intl_feature",
+    "index": 1
+   },
+   "bg": 1,
+   "photo_query": "sao paulo avenida paulista",
+   "slides": [
+    {
+     "heading": "파울리스타 대로에\n얇은 탑이 선다",
+     "body": "에스투디우 모듈루의 이타우 문화원 신사옥"
+    },
+    {
+     "heading": "COMPETITION",
+     "body": "6개 설계팀이 겨룬 공모에서 에스투디우 모듈루가 당선됐다."
+    },
+    {
+     "heading": "SCALE",
+     "body": "총 12,275㎡, 지상·지하 합쳐 19개 층. 그중 8개 층이 지하다."
+    },
+    {
+     "heading": "FACADE",
+     "body": "흰 루버와 반투명 스크린 너머로 테라코타색 계단이 비친다."
+    },
+    {
+     "heading": "PROGRAM",
+     "body": "지하에 100석 강당과 400석 극장을 두고 2031년 준공을 목표로 한다."
+    }
+   ]
+  },
+  {
+   "slug": "august-housing-stats",
+   "tag": "STATS",
+   "title": "서울 인허가 604%↑, 비수도권 36.6%↓",
+   "ref": {
+    "section": "korea",
+    "index": 3
+   },
+   "bg": 2,
+   "photo_query": "apartment construction crane",
+   "slides": [
+    {
+     "heading": "서울 인허가\n7배 껑충",
+     "body": "국토부 8월 주택통계, 지역별로 엇갈렸다"
+    },
+    {
+     "heading": "NATIONAL",
+     "body": "8월 전국 주택 인허가는 2만 1,607호로 전년동월 대비 25.6% 늘었다."
+    },
+    {
+     "heading": "SEOUL",
+     "body": "서울은 1만 1,306호로 604.4% 급증했다. 전년동월은 1,605호였다."
+    },
+    {
+     "heading": "NON-CAPITAL",
+     "body": "비수도권은 6,137호로 36.6% 줄었고 인허가 감소세가 이어졌다."
+    },
+    {
+     "heading": "UNSOLD",
+     "body": "8월 전국 미분양은 6만 9,134호. 수도권 분양은 40.6%↑, 비수도권은 57.1%↓다."
+    }
+   ]
+  }
+ ]
+}
