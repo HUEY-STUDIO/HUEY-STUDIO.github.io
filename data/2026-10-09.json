@@ -1,0 +1,522 @@
+{
+  "vol": "VOL.01  NO.054",
+  "editor": "HUEY",
+  "counts": {
+    "total": 20,
+    "intl": 14,
+    "kr": 6
+  },
+  "outlets": [
+    "designboom",
+    "ArchDaily",
+    "Competitions.archi",
+    "Construction Dive",
+    "건축사신문",
+    "건축사뉴스",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "자하 하디드 옛 사무실, 공공 허브로",
+      "desc": "런던 클러큰웰 10 볼링그린레인, 11월 3일 개관",
+      "label": "PROJECT"
+    },
+    {
+      "title": "연방 계약업체 최저임금 인상",
+      "desc": "시간당 13.65달러 → 14.05달러, 90일 뒤 발효",
+      "label": "REGULATION"
+    },
+    {
+      "title": "상반기 건축착공 증가세",
+      "desc": "주거용 +24.2%, 기성 회복은 2027년 하반기 이후",
+      "label": "MARKET"
+    },
+    {
+      "title": "하우스 오브 포에트리 공모",
+      "desc": "디노 캄파나의 집, 제출 12월 16일",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 프로젝트",
+    "lede": "자하 하디드가 30년 일한 런던 학교 건물, 타계 10년 만에 공공 건축·예술 허브로 문을 연다",
+    "lede_em": "타계 10년 만에 공공 건축·예술 허브로 문을 연다",
+    "image": "https://static.designboom.com/wp-content/uploads/2026/10/zaha-hadid-former-london-headquarters-public-hub-architecture-art-1.jpg",
+    "image_label": "DESIGNBOOM",
+    "caption": "자하 하디드 옛 런던 본사 외관 ⓒ Studio KA, 사진 Fred Howarth",
+    "body": [
+      "자하 하디드 재단이 건축가의 옛 런던 본사인 클러큰웰 **10 볼링그린레인**을 일반에 개방한다. **1870년대 초** 지어진 2등급 문화재 빅토리아풍 학교 건물로, 그의 사무소가 **30년 넘게** 사용했다. 프리뷰는 **10월 29일**, 정식 개관은 **11월 3일**이다.",
+      "리노베이션은 스튜디오 KA(캐서린 놀런·알렉스 버터워스)가 맡았다. 1층 동선을 재정리하고 원래의 벽난로와 출입구를 되살렸으며, 하디드의 회화에서 가져온 색을 마감에 입혔다. Z자 문손잡이와 파편 모양 바닥 인레이 등 그가 쓰던 시절의 디테일은 그대로 남겼다.",
+      "개관전 《자하 하디드: 퍼포먼스의 건축》은 재단 소장품 기반 첫 전시로, 무대·세트 디자인을 다룬다. 1989년 안무가 로즈메리 버처와의 협업, 흐로닝언 뮤직비디오 파빌리온, 펫 숍 보이즈 월드투어, 월트 디즈니 콘서트홀 《코지 판 투테》 작업이 나온다.",
+      "공간에는 갤러리와 강연장, 교육 시설, 소장품 전시, 워크숍, 창작 레지던시가 들어선다. 10월 30~31일에는 건축협회(AA)·서펜타인과 함께 심포지엄 《89° of Zaha Hadid》를 연다. 10월 31일은 그의 76번째 생일이 되었을 날이다."
+    ],
+    "source": {
+      "outlet": "designboom",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.designboom.com/architecture/zaha-hadid-former-london-headquarters-public-hub-architecture-art/"
+        }
+      ]
+    },
+    "src_date": "2026-10-08",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "미 노동부, 연방 계약업체 최저임금 시간당 14.05달러로 인상",
+    "body": [
+      "미 노동부가 연방 계약 근로자의 최저임금을 인상하는 고시를 연방관보에 게재한다. 연방 발주 공사·용역에 인건비 상승 요인이 된다."
+    ],
+    "facts": [
+      "최저임금: **13.65달러 → 14.05달러**",
+      "팁 노동자: **9.55달러 → 9.85달러**",
+      "발효: 고시 후 **90일** (게재일 기준 2027년 1월 초 전후)",
+      "대상: 2015년 1월 1일~2022년 1월 29일 체결, 2022년 1월 30일 이후 갱신·연장되지 않은 일부 계약"
+    ],
+    "body_after": [
+      "현행 요율은 5월 11일 적용됐다. 바이든 시절 15달러 수준에는 못 미치며, 오바마 행정명령 13658호는 유지된다. 트럼프 대통령은 2025년 3월 14일 바이든 행정명령을 폐지했다."
+    ],
+    "source": {
+      "outlet": "Construction Dive",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.constructiondive.com/news/dol-to-up-minimum-wage-federal-contractors/832509/"
+        }
+      ]
+    },
+    "src_date": "2026-10-08",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "인프라 · 파리",
+      "title": "기차역 위에 얹은 태양광 지붕 — AREP의 파리 북역 '솔라 자전거 홀'",
+      "image": "https://images.adsttc.com/media/images/6ac3/cabf/07c3/d100/017f/d26d/medium_jpg/_H0A4054__G.Satre_Non-libre-de-droits.jpg?1791216420",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "AREP가 SNCF 가르 에 코넥시옹을 위해 설계한 파리 북역의 자전거 홀. 건축가는 이를 **공동의 지붕**을 실험하는 프로젝트로 설명한다. 시공은 샹티에 모데른, 사진은 기욤 사트르다.",
+        "태양광 지붕으로 용도를 하나로 묶고 절제된 생활방식을 장려하며, 대도시 역사에서 자전거를 연계 교통수단으로 키우는 것이 목표다. 2024년 완공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186356/solar-bicycle-hall-paris-nord-station-arep"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "문화시설 · 프랑스",
+      "title": "포도밭 위에 들어선 안으로 향한 문화센터 — 테크토니크의 바종라로멘",
+      "image": "https://images.adsttc.com/media/images/6ac3/9b3a/07c3/d100/017f/cf92/newsletter/01-TECTONIQUES_VAISON__MVerret_0235-libre_de_droits.jpg?1791204179",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "프랑스 바종라로멘의 **1,500㎡** 문화센터. 옛 포도밭이 주택단지로 바뀐 파편적 교외 부지라 공공 영역과 직접 닿지 않아, 건축가는 안쪽을 향한 배치를 택했다.",
+        "설계는 수도원 회랑과 로마 도무스, 프로방스의 농가 '마스'에서 착안했다. 대지 경계에서 물러나 식재된 앞마당을 두고, 공연장·무용실·리셉션·파티오를 짰다. 목재·강재·석재를 썼고 2026년 완공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186298/cultural-center-in-vaison-la-romaine-tectoniques"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "재사용 · 이탈리아",
+      "title": "임시 목조 파빌리온을 상설 커뮤니티 허브로 — 페드랄리 본사",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/pedrali-pavilion-permanent-designboom1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "페드랄리가 2023년 창립 60주년용으로 지은 길이 **50m**, 폭 12m, 높이 9m의 스프루스 파빌리온(AMDL CIRCLE·미켈레 데 루키)을 해체 대신 상설 시설로 남겼다. 지붕은 목재 질감을 낸 황동 마감으로 바꿨고, 위층은 강당, 아래층은 쇼룸이 됐다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/pedrali-pavilion-temporary-wooden-permanent-community-hub/"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설치 · 시애틀",
+      "title": "기마상을 여덟 조각의 놀이터로 — 스튜디오 덩 '플랫랜드 호스'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/flatland-horse-studio-deng-eight-horse-doubles-activity-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "2026 시애틀 디자인 페스티벌(레이크유니언 공원)에 선보인 설치. 기마상을 벤치·문·미끄럼틀 등 기능을 가진 **8개의 말**로 쪼갰고, 이 중 두 점 '게이트 호스'와 '슬라이드 호스'를 **13겹 자작합판**으로 지었다. 행사 뒤 분해해 이사콰 안뜰로 옮겼다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/plywood-horse-doubles-monument-public-playground-seattle-design-festival-flatland-horse-studio-deng/"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "도시재생 · 타이베이",
+      "title": "고가도로에 갇힌 북문, 광장으로 되살아나다 — 타이베이 베이먼",
+      "image": "https://images.adsttc.com/media/images/68d4/ff38/47eb/f701/80b8/9b47/medium_jpg/integrating-heritage-and-modernity-beimen-and-taipeis-urban-planning-strategy-in-taiwan_12.jpg?1758789513",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "청나라 변경 성문이던 타이베이 북문(베이먼)은 일제강점기 철거를 면했지만 전후 고가도로와 고속도로에 둘러싸였다. 최근 주변에 광장이 조성되며 도시의 닻으로 재부상했다. 글은 문화유산 보존이 건물뿐 아니라 **주변 열린 공간**에도 적용돼야 한다고 짚는다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1034420/shifting-urban-perspectives-beimens-journey-from-obstacle-to-urban-anchor-in-taipei"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "설계공모 · 이탈리아",
+      "title": "시인 디노 캄파나의 집을 되살려라 — YAC '하우스 오브 포에트리' 공모",
+      "image": "https://competitions.archi/wp-content/uploads/2026/09/CA_post-1080x1080-3.jpg",
+      "image_label": "COMPETITIONS.ARCHI",
+      "body": [
+        "YAC와 마라디시가 토스카나-로마냐 아펜니노의 시인 캄파나 생가를 열린 성장·참여 공간으로 바꿀 제안을 구한다. 학생·청년 건축가도 응모할 수 있다. 등록 마감 12월 13일, **제출 12월 16일**, 1등 상금 **8,000유로**."
+      ],
+      "source": {
+        "outlet": "Competitions.archi",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://competitions.archi/competition/house-of-poetry/"
+          }
+        ]
+      },
+      "src_date": "2026-09-21",
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "건설경기 · 착공",
+      "title": "상반기 건축착공 2분기 연속 증가 — 기성 회복은 2027년 하반기 이후",
+      "body": [
+        "건산연 건설동향브리핑에 따르면 건축착공면적이 1분기 **9.7%**, 2분기 **8.6%** 늘었다. 주거용 착공은 **24.2%** 증가한 1,417만㎡로 3분기 연속 회복했지만 2020~22년 상반기 평균의 약 60% 수준이다.",
+        "건축기성은 상반기 **6.4%** 감소했다. 비거주용은 2분기 **6.9%** 반등했는데 반도체 공장·데이터센터 영향으로 분석된다. 주거용은 착공~준공에 2~3년이 걸려 2027년 하반기 이후에야 회복이 가시화될 전망이다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21222"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "주택공급 · 국토부",
+      "title": "수도권 공공주택 6만 2천 호 연내 착공 — 4분기에 4만 5천 호 몰렸다",
+      "body": [
+        "국토교통부 김이탁 1차관이 10월 2일 제3차 공공주택 공급점검 TF를 열었다. 올해 수도권 공공주택 착공은 3분기 기준 **1만 7,000호**로, 연말 목표 **6만 2,000호**를 채우려면 4분기에 4만 5,000호 안팎을 착공해야 한다.",
+        "2027년 목표는 소규모정비 5,000호를 포함한 약 **8만 4,000호**로, 2차 TF의 7만 호 이상에서 상향됐다. 서울의 8월까지 인허가는 3만 9,940호(+40.4%), 착공은 2만 679호(+41.1%)다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21219"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "리모델링 · LH",
+      "title": "LH 비주택 리모델링 매입 신청 2,125호 — 목표 2천 호 넘었다",
+      "body": [
+        "LH가 '2026년 비주택 리모델링 사업(약정 방식)'에 목표 2,000호를 웃도는 **2,125호**가 접수됐다고 밝혔다. 공실 상가·오피스·숙박시설·지식산업센터를 청년·신혼부부 공공임대로 바꾸는 사업이다.",
+        "접수 마감을 9월 9일에서 30일로 늦추고 간소화된 접수의향서를 도입한 것이 주효했다. 10월 서류심사, 11월 매입 심의를 거쳐 연말부터 약정을 맺는다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13954"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "설계공모 · 국가",
+      "title": "국립경남권청소년디딤센터 건립 설계 제안공모 — 공사비 238억, 10월 20일 등록 마감",
+      "body": [
+        "경남 의령읍 하리 일원에 연면적 **5,550㎡** 노유자시설을 짓는 설계용역. 예정 설계비 **11억 원**, 예정 공사비 **238억 원**, 심사위원 9인의 제안공모다.",
+        "참가등록은 **10월 20일**까지, 결과 발표는 12월 9일 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/18965"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 한국전력",
+      "title": "한전 속초연수원 설악동 리모델링 일반 설계공모 — 연면적 5,105㎡, 10월 15일 등록 마감",
+      "body": [
+        "강원 속초시 노학동 573-4 교육연구시설 리모델링. 연면적 **5,105㎡**, 예정 설계비 **4.4억 원**, 예정 공사비 **104억 원**이며 심사위원은 8인이다.",
+        "참가등록 마감은 **10월 15일**, 결과 발표는 12월 16일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/18968"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경찰청",
+      "title": "경찰청 세검정로 별관동 재건축 설계 제안공모 — 공사비 217억, 10월 13일 등록 마감",
+      "body": [
+        "서울 서대문구 홍제동 283-25 일원 업무시설 재건축. 연면적 **8,201㎡**, 예정 설계비 **10.1억 원**, 예정 공사비 **217억 원**의 제안공모(심사위원 9인)다.",
+        "참가등록은 **10월 13일**까지, 결과는 12월 2일 이내 발표된다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/18964"
+          }
+        ]
+      },
+      "src_date": "2026-10-07",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "AI 건설 붐에 걸린 '6조 달러' 질문 — 베인 분석",
+      "body": "2030년까지 데이터센터 누적 투자 **5~6.5조 달러** 전망. 전력·전기 인력이 병목이고, 1분기에만 약 **1,300억 달러** 규모 75개 프로젝트가 지역 반대로 차단·지연됐다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/a-question-hangs-over-ai-construction-boom/832470/"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "앤두릴·미 해군, 볼티모어에 66억 달러 조선소 '아스널-2'",
+      "body": "187에이커 부지 약 200만 ft², 버지니아급 잠수함 부품 생산. 앤두릴 37억·해군 29억 달러, 2030년 가동 목표.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/anduril-industries-u-s-navy-arsenal-2-shipyard-baltimore-county-maryland/832467/"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "컨스텔레이션–구글, 890MW 원전 전력구매계약",
+      "body": "PJM 권역 11개 기존 원자로 출력 증강, 20년 계약·43억 달러 투자. 첫 증강분은 2028년 가동. 임시 건설 일자리 약 7,200개.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/"
+          }
+        ]
+      },
+      "src_date": "2026-10-06",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "9월 닷지 모멘텀 지수 2.4%↑ — 교육·의료 기획이 견인",
+      "body": "비주거 기획 단계 프로젝트 지표가 전월 대비 **2.4%**, 전년 대비 3.7% 상승. 기관 건축 **9.4%** 급증, 데이터센터·창고는 약세.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/education-healthcare-projects-boosted-construction-planning-september/832535/"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "HITT, 5억 달러 고체로켓모터 공장 착공",
+      "body": "버지니아 허트의 아비오 USA 90만 ft² 부지, 35개 이상 동. 2028년 완공, 2029년 초 생산 개시.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/hitt-groundbreaking-avio-usa/832480/"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "스칸스카, 교육시설 4.18억 달러 수주",
+      "body": "메리워싱턴대 1.63억 달러, 렌턴 학군 고교 1.1억 달러(35만 ft², 1,600명), 시애틀 섬너고 2단계 6,710만 달러 등.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/skanska-wins-education-builds-college-high-school-construction/832347/"
+          }
+        ]
+      },
+      "src_date": "2026-10-07",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "zaha-hadid-bowling-green-lane",
+      "tag": "PROJECT",
+      "title": "자하 하디드의 옛 사무실이 공공 허브로",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "zaha hadid architecture",
+      "slides": [
+        {
+          "heading": "자하 하디드의\n옛 사무실이 열린다",
+          "body": "런던 클러큰웰 10 볼링그린레인, 11월 3일 개관"
+        },
+        {
+          "heading": "WHAT",
+          "body": "하디드가 30년 넘게 쓴 1870년대 빅토리아풍 학교 건물이 갤러리·강연장·레지던시를 갖춘 공공 허브로 바뀐다."
+        },
+        {
+          "heading": "HOW",
+          "body": "스튜디오 KA가 1층 동선을 정리하고 벽난로·출입구를 복원했다. Z자 문손잡이 등 하디드 시절의 디테일은 그대로 살렸다."
+        },
+        {
+          "heading": "SHOW",
+          "body": "개관전 《퍼포먼스의 건축》은 무대·세트 디자인을 다룬다. 디즈니 콘서트홀 《코지 판 투테》, 펫 숍 보이즈 월드투어 작업이 나온다."
+        },
+        {
+          "heading": "WHEN",
+          "body": "프리뷰 10월 29일, 개관 11월 3일. 10월 30~31일 AA·서펜타인과 심포지엄을 연다."
+        }
+      ]
+    },
+    {
+      "slug": "solar-bicycle-hall-paris-nord",
+      "tag": "INFRA",
+      "title": "파리 북역 위의 태양광 자전거 홀",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "paris gare du nord station",
+      "slides": [
+        {
+          "heading": "기차역 위에\n태양광 지붕을 얹다",
+          "body": "AREP의 파리 북역 '솔라 자전거 홀'"
+        },
+        {
+          "heading": "IDEA",
+          "body": "건축가는 이 프로젝트를 새로운 '공동의 지붕' 실험으로 설명한다. 여러 용도를 하나로 묶는 지붕이다."
+        },
+        {
+          "heading": "WHY",
+          "body": "절제된 생활방식을 장려하고, 대도시 역사에서 자전거를 연계 교통수단으로 키우는 것이 목표다."
+        },
+        {
+          "heading": "WHO",
+          "body": "AREP가 SNCF 가르 에 코넥시옹을 위해 설계했다. 시공은 샹티에 모데른, 2024년 완공."
+        }
+      ]
+    },
+    {
+      "slug": "public-housing-62k-start",
+      "tag": "POLICY",
+      "title": "수도권 공공주택 6만 2천 호, 연내 착공 가능할까",
+      "ref": {
+        "section": "korea",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "apartment construction crane seoul",
+      "slides": [
+        {
+          "heading": "공공주택 6.2만 호\n연내 착공 점검",
+          "body": "국토부 제3차 공공주택 공급점검 TF"
+        },
+        {
+          "heading": "NOW",
+          "body": "올해 수도권 공공주택 착공은 3분기 기준 1만 7,000호다. 연말 목표는 6만 2,000호."
+        },
+        {
+          "heading": "GAP",
+          "body": "목표를 채우려면 4분기에 4만 5,000호 안팎을 착공해야 한다. 국토부는 착공 예정 물량이 4분기에 몰려 있어 대부분 달성 가능하다고 본다."
+        },
+        {
+          "heading": "2027",
+          "body": "내년 목표는 소규모정비 5,000호를 포함해 약 8만 4,000호로, 지난 6월 TF의 7만 호 이상보다 높아졌다."
+        },
+        {
+          "heading": "SEOUL",
+          "body": "서울의 8월까지 인허가는 3만 9,940호(+40.4%), 착공은 2만 679호(+41.1%)다."
+        }
+      ]
+    }
+  ]
+}
