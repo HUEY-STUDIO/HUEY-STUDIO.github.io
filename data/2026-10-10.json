@@ -1,0 +1,555 @@
+{
+  "vol": "VOL.01  NO.055",
+  "editor": "HUEY",
+  "outlets": [
+    "ArchDaily",
+    "Competitions.archi",
+    "Terraviva",
+    "Construction Dive",
+    "HousingWire",
+    "건축사신문",
+    "건축공간연구원",
+    "대한건설협회",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "게리의 콜번 스쿨 신관, 2027년 9월 개관",
+      "desc": "1,000석 코올 홀 · 핑크빛 금속 외장",
+      "label": "PROJECT"
+    },
+    {
+      "title": "HUD, 공장제작 다세대주택 제도 정비",
+      "desc": "12개월 이니셔티브, 5세대 이상 대상",
+      "label": "REGULATION"
+    },
+    {
+      "title": "UN-해비타트 스크롤 오브 아너 2026",
+      "desc": "101개 후보 중 5곳 선정",
+      "label": "AWARDS"
+    },
+    {
+      "title": "영산포여중·포항서 설계 제안공모",
+      "desc": "국내 설계공모 4건 접수 중",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "프랭크 게리의 콜번 스쿨 신관, 1,000석 코올 홀과 핑크빛 외장으로 2027년 9월 25일 문을 연다",
+    "lede_em": "2027년 9월 25일 문을 연다",
+    "image": "https://images.adsttc.com/media/images/6ac8/04e2/90e2/9d01/89d2/efad/medium_jpg/colburn-center_1.jpg?1791493399",
+    "image_label": "ARCHDAILY",
+    "caption": "콜번 스쿨 신관 조감 ⓒ Gehry Partners",
+    "body": [
+      "프랭크 게리(Gehry Partners)가 설계한 로스앤젤레스 콜번 스쿨 캠퍼스 확장동이 **2027년 9월 25일** 1,000석 규모 **테리&제리 코올 홀**의 개관 갈라 콘서트와 함께 문을 연다. 총 **10만 제곱피트** 규모이며, 다음 날 지역 주민을 위한 기념행사와 테이프 커팅이 이어진다.",
+      "건물은 불투명 볼륨과 투명 볼륨이 맞물리며 대지의 경사를 따라 내려오는 구성이다. 불투명 볼륨은 자동차 캔디 도장에서 착안해 이 건물을 위해 개발한 알루미늄 플레이크 불소수지 도료 **'핑크 캔디'** 로 마감한다. 넓고 밝은 입구가 거리 레벨과 옥상 정원을 연결한다.",
+      "코올 홀은 무대를 둘러싼 원형 객석 구조에 오케스트라 피트를 갖췄고, 공연자 위로 구름처럼 뜬 가변 음향 반사판이 달린다. 음향은 디즈니 콘서트홀을 함께 만든 **도요타 야스히사**(나가타 음향)와 마이클 퍼거슨이 맡았다. 콜번 오케스트라의 상설 전용 홀이 된다.",
+      "무용동은 학생 무용 공간을 **3배**로 늘려 트루들 지퍼 무용 학원을 수용하고, 100석 스튜디오 극장과 전문가용 스튜디오 4개를 둔다. 2027-28 학년도가 시작되는 **2027년 8월** 먼저 문을 열 예정이다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1186601/frank-gehrys-new-colburn-school-concert-hall-to-open-on-september-25-2027"
+        }
+      ]
+    },
+    "src_date": "2026-10-09",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "미 HUD, 공장제작 다세대주택 제도 정비에 착수 — NIBS·MOD X와 12개월 이니셔티브",
+    "body": [
+      "미 주택도시개발부(HUD)가 국립건축과학원(NIBS)을 선정해 공장제작 방식의 다세대주택 확대를 위한 12개월 이니셔티브를 시작한다. 건축 기준·금융·보험·인허가 승인 등 제도 장벽을 정리해 HUD의 향후 정책 판단 근거를 마련하는 것이 목적이다."
+    ],
+    "facts": [
+      "기간: **12개월**",
+      "대상: **5세대 이상** 공장제작(매뉴팩처드·모듈러) 다세대 개발",
+      "산출물: 안전·품질·성능 기대치를 정의한 **성능 기반 프레임워크**, 설계 문서화·독립 기술 검토 절차",
+      "역할: 실증사업은 HUD가 주도, NIBS는 기술 검토·자문만 수행",
+      "효력: 기존 연방 요건을 바꾸지는 않음"
+    ],
+    "body_after": [
+      "매뉴팩처드 주택은 연방 HUD 코드로, 모듈러 주택은 대체로 주·지방 건축 기준으로 심사받는 이원 구조라 설계·인허가 단계의 불확실성이 크다. 프레임워크가 채택되면 소프트 코스트와 불확실성이 줄 수 있다는 것이 기사의 설명이다. NIBS 회장은 \"표준·금융·보험·승인 절차가 맞물려야 혁신이 성공한다\"고 밝혔다."
+    ],
+    "source": {
+      "outlet": "HousingWire",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.housingwire.com/articles/hud-nibs-factory-built-multifamily-housing/"
+        }
+      ]
+    },
+    "src_date": "2026-10-07",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "인프라 · 스위스",
+      "title": "콘크리트 한 덩어리로 짜 넣은 서버실 — 펜첼 발리어의 ETH 취리히 데이터센터",
+      "image": "https://images.adsttc.com/media/images/6ac4/e93a/07c3/d100/017f/d802/medium_jpg/111_260719_PTI_ETH_0130_mer.jpg?1791289684",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "펜첼 발리어가 취리히 회닝베르크 캠퍼스에 연면적 **4,488㎡** 규모 ETH 취리히 데이터센터를 완공했다. 흩어져 있던 낡은 전산 시설을 하나로 모아 IT 서비스와 여러 학과의 서버·스토리지·통신 시스템을 수용하며, 장래 확장을 염두에 두었다.",
+        "설계팀은 구조·설비·디자인을 처음부터 함께 구상한 '통합된 건물'을 내세운다. 주재료는 콘크리트이며 조경은 비쇼프 조경이 맡았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186404/data-center-eth-zurich-penzel-valier"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "공공공간 · 스페인",
+      "title": "주차장과 좁은 보도를 바다로 열다 — 코미야스 해안 산책로",
+      "image": "https://images.adsttc.com/media/images/6ac6/5c21/07c3/d100/017f/ddca/medium_jpg/010.jpg?1791384720",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "엑토르 나바로와 ARKHITEKTON이 스페인 칸타브리아의 코미야스에 **5,400㎡** 규모 해안 산책로를 완공했다. 좁은 보도와 넓은 주차장이던 자리를 보행자 중심의 새 해안 공공공간으로 바꾸고, 마을의 기존 공공공간 네트워크와 이었다.",
+        "기존 산책로를 보수한 것이 아니라 '탁월한 해안선을 보행자에게 되돌리는' 새 해안 전면을 만든 것이 핵심이다. 강재·석재·콘크리트를 주로 썼고 조경은 디에고 하르디네리아가 맡았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186487/comillas-waterfront-promenade"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "도시재생"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "파빌리온 · 일본",
+      "title": "천황 부부의 자리, 80㎡ 가설 의례 건축 — 제76회 전국식수제 '오노다테쇼'",
+      "image": "https://images.adsttc.com/media/images/6abf/797f/07c3/d100/017f/cb1f/medium_jpg/040_Spectators_View_.jpg?1790933435",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "야노 아오야마 건축설계가 마쓰야마에서 열린 제76회 전국식수제를 위해 연면적 **80㎡**의 오노다테쇼를 지었다. 천황 부부가 머무는 행사의 중심 가설 건축이며 행사 직후 해체된다.",
+        "삼나무·편백 지붕면과 칸막이 벽, 강재 기둥이 서로 엇갈리며 빛과 그림자를 만든다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186227/onodatesho-pavilion-at-the-76th-japans-national-tree-planting-festival-yano-aoyama-architecture-design"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "문화유산 · 중국",
+      "title": "천 년의 단면을 거리에서 보다 — 징저우 성벽 고고유적 전시관",
+      "image": "https://images.adsttc.com/media/images/698c/a970/ad00/0f62/0459/41ad/medium_jpg/jingzhou-city-wall-archaeological-site-exhibition-pavilion-qing-studio_12.jpg?1770826163",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "칭 스튜디오가 징저우 성벽 11호 적대 발굴지에 **330㎡** 전시관을 지었다. 2016년부터 지반 침하와 균열로 긴급 보수 대상이던 구간에서 오대·송·명·청 시대 성벽이 겹겹이 쌓인 구조가 드러나 국가문물국이 체계적 발굴을 승인했다.",
+        "전시관은 이 발굴 단면을 살아 있는 거리 위에서 볼 수 있게 보호하고 드러내는 구조다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1038713/jingzhou-city-wall-archaeological-site-exhibition-pavilion-qing-studio"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "주거 · 프랑스",
+      "title": "바르 평야의 지리에 뿌리내린 학생 기숙사 — 니스 '오아시스'",
+      "image": "https://images.adsttc.com/media/images/6ac3/caea/07c3/d100/017f/d28c/medium_jpg/__Vladimir_de_Mollerat_du_Jeu_-_St_phane_Fernandez_-_M_ridia-1_libre.jpg?1791216416",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "아틀리에 스테판 페르낭데스가 니스 바르 평야의 그랑 파르크 메리디아 인근에 연면적 **4,500㎡** 학생 기숙사를 완공했다. 도시·강·지중해·언덕 사이의 전이적 지형을 설계 출발점으로 삼았다.",
+        "건축가는 인간의 거주와 자연, 도시 밀도와 생태 시스템 사이의 대화를 목표로 설명한다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186358/oasis-student-residence-atelier-stephane-fernandez"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "어워드 · UN-해비타트",
+      "title": "대나무에서 흙벽돌까지 — 2026 스크롤 오브 아너 수상 5곳",
+      "image": "https://images.adsttc.com/media/images/6ac4/f949/90e2/9d01/89d2/e406/newsletter/un-habitat-recognizes-five-approaches-to-adequate-housing-with-2026-scroll-of-honour_3.jpg?1791293778",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "UN-해비타트가 후보 **101건** 중 올해 스크롤 오브 아너 5곳을 선정했다. 미얀마 바고의 대나무 건축 단체 '하우징 나우', 브라질 마리카의 과라니 음비아 원주민 마을, 파키스탄 펀자브 주택도시계획청, 튀니지 SOIB(압축 안정화 흙벽돌), 런던 시장 사디크 칸이 이름을 올렸다.",
+        "펀자브 청은 자기 토지를 가진 저소득 가구에 무이자 융자를 주는 10만 호 프로그램을 운영한다. UN-해비타트는 약 **34억 명**이 적정 주거를 누리지 못하고 있다고 본다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186425/un-habitat-recognizes-five-approaches-to-adequate-housing-with-2026-scroll-of-honour"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "수상"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 지자체",
+      "title": "단양읍 농촌중심지활성화사업 세부설계 제안공모 — 공사비 112억, 10월 15일 등록",
+      "body": [
+        "충북 단양군 단양읍 별곡리 일원 연면적 **2,554㎡** 제1종근린생활시설 설계용역. 예정 설계비 **5.6억 원**, 예정 공사비 **112억 원**, 심사위원 9인의 제안공모다.",
+        "참가등록은 **10월 15일**까지, 결과 발표는 11월 20일 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/18961"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 교육부",
+      "title": "서울 성동 '마음치유학교' 리모델링 설계 제안공모 — 공사비 56.5억, 10월 13일 마감",
+      "body": [
+        "서울 성동구 행당동 일원 교육연구시설 리모델링 설계용역. 학교폭력 피해학생 치유교육기관으로, 예정 설계비 **3.2억 원**, 예정 공사비 **56.5억 원**, 심사위원 8인의 제안공모다.",
+        "참가등록은 **10월 13일**까지, 결과 발표는 11월 24일 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/18963"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 군",
+      "title": "포항서 함정 승조원 지원시설 신축 설계 제안공모 — 공사비 102억, 10월 19일 등록 마감",
+      "body": [
+        "포항시 북구 흥해읍 용한리에 연면적 **2,877㎡** 업무시설을 짓는 설계용역. 예정 설계비 **4.7억 원**, 예정 공사비 **102억 원**, 심사위원 7인의 제안공모다.",
+        "참가등록은 **10월 19일**까지, 결과는 12월 1일 이내 발표한다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/18960"
+          }
+        ]
+      },
+      "src_date": "2026-10-07",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 교육청",
+      "title": "영산포여중 공간재구조화 개축 설계 제안공모 — 설계비 2.6억, 10월 16일 등록 시작",
+      "body": [
+        "나주시 이창1길 영산포여중 개축 설계용역. 연면적 **5,811㎡**, 예정 설계비 **2.6억 원**, 심사위원 9인의 제안공모다(공사비는 목록에 '551만'으로 표기돼 원문 확인이 필요하다).",
+        "참가등록은 **10월 16일**부터, 결과 발표는 11월 30일 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/18969"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "도시재생 · 연구",
+      "title": "체류형 생활인구를 정주로 잇는다 — 건축공간연구원 '생활거점' 제언",
+      "body": [
+        "건축공간연구원 auri brief 314호는 체류 경험자 **500명** 설문을 바탕으로 생활인구를 방문형·체험형·관계형·장기형 4유형으로 나누고, 체류·업무·생활편의·교류 기능을 연계한 '생활거점' 조성을 제안했다.",
+        "도심 복합형·마을 연계형·생활권 연계형으로 적용하고, 숙박 관련 규제를 손보며 '(가칭)생활거점 특별구역' 도입을 검토하자는 내용이다. 조성 단계부터 운영주체와 재원을 함께 설계해야 한다고 짚었다."
+      ],
+      "source": {
+        "outlet": "건축공간연구원",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7584"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "인터뷰 · 설계대가",
+      "title": "\"법령 해석·인허가 사례가 쌓일수록 예측 가능해진다\" — 신진 건축사가 꼽은 민간 설계대가 문제",
+      "body": [
+        "2025년 사무소를 연 노대민 건축사는 같은 사안도 해석이 달라 협의가 길어지는 점을 실무 애로로 꼽고, 협회가 법령 해석·인허가 사례를 모아 공유하고 지자체와의 소통 창구가 돼 달라고 요청했다.",
+        "가장 큰 어려움은 민간 설계 대가다. 타 사무소의 낮은 견적을 근거로 설계비 인하를 요구받는 일이 반복된다며, 업무 범위와 난이도에 따른 세부 대가 가이드라인이 계약에 반영돼야 한다고 제안했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "인터뷰",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21221"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "인터뷰 · 건축사 시의원",
+      "title": "창원시의회 오춘근 의원 \"건축에선 속도보다 정확성과 안전이 먼저\"",
+      "body": [
+        "6·3 지방선거에서 당선된 건축사 출신 의원 시리즈. 오춘근 의원은 1974년 국가산단으로 출발한 계획도시 창원의 노후화를 짚고 교통·주차·안전·생활환경 개선을 우선 과제로 들었다.",
+        "건축사에게 책임을 묻는 만큼 적정 업무대가와 업무 여건이 보장돼야 하며, 설계부터 시공·유지관리까지 건축사 역할이 발휘될 제도가 필요하다고 주장했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "인터뷰",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21220"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "제도규제"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "테라비바 '농촌주택 II' 공모 — 롬바르디아 외양간을 두 채의 듀플렉스로",
+      "body": "이탈리아 파비아 카시나 마에스타의 옛 외양간 개조안. 1등 **5,000유로**(총 상금 8,000유로), 등록·제출 마감 **12월 11일**, 결과 발표 2027년 1월 25일.",
+      "source": {
+        "outlet": "Competitions.archi",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://competitions.archi/competition/rural-housing-ii/"
+          }
+        ]
+      },
+      "src_date": "2026-07-15",
+      "topic": "설계공모"
+    },
+    {
+      "title": "소피아 '윌리엄 글래드스턴' 18중 신관 국제 설계공모 — 1등 3만 유로",
+      "body": "학교 증축 개념설계와 교정 조경까지 요구. 1·2·3등 **3만·2만·1만 유로**, 등록 2027년 1월 27일, 제출 **2027년 2월 1일**. 7인 국제 심사단.",
+      "source": {
+        "outlet": "Competitions.archi",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://competitions.archi/competition/international-competition-for-a-new-academic-wing-of-18-comprehensive-school-william-gladstone-sofia-bulgaria/"
+          }
+        ]
+      },
+      "src_date": "2026-10-05",
+      "topic": "설계공모"
+    },
+    {
+      "title": "피스크 일렉트릭, 휴스턴 데이터센터 2,400만 달러 모듈러 계약",
+      "body": "튜터 페리니 자회사가 **7만 5천 제곱피트** 신규 시설에서 액체냉각 배관 등 모듈형 컨테인먼트를 선제작한다. 2027년 1분기 실질 준공 목표, 전기 인력난이 현장 밖 제작 수요를 키운다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/fisk-electric-tutor-perini-data-center-modular/832658/"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "펀치 리스트 — 헨셀 펠프스 신사옥 착공, 벡텔은 LNG 현장에 4족 로봇",
+      "body": "헨셀 펠프스가 콜로라도 러브랜드에 젠슬러 설계 **14.3만 제곱피트** 4층 사옥을 9월 30일 착공했다. 벡텔은 루이지애나 LNG 현장(트레인 3기)에서 4족 로봇·자동 용접 등 기술을 공개했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/punch-list-bechtel-ted-danson-hensel-phelps-hq/832590/"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "대한건설협회, 연세대서 '미래 건설인 타운홀 미팅'",
+      "body": "10월 8일 건설학과 학생 **200여 명**이 참석. 건산연 연구진이 AI 접목 강연을 하고 SK에코플랜트·HL디앤아이한라 대표가 청년층의 건설업 기피 현상을 두고 대화했다.",
+      "source": {
+        "outlet": "대한건설협회",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.cak.or.kr/lay1/bbs/S1T9C12/A/2/view.do?article_seq=161702"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "미실현 '아동 공간' 6선 — ArchDaily 커뮤니티 제안",
+      "body": "브라질 과이바의 '카자 다스 크리안사스', 인도 완카네르의 엘립시스 스쿨, 우크라이나 보르젤의 아동 재활 허브 등 미건축 제안 6건. 학습·놀이·자연 연계를 키워드로 한다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186558/architecture-of-care-6-unbuilt-spaces-for-childhood-from-the-archdaily-community"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "프로젝트"
+    }
+  ],
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "cardnews": [
+    {
+      "slug": "gehry-colburn-school-kohl-hall",
+      "tag": "PROJECT",
+      "title": "게리의 콜번 스쿨 신관, 핑크빛 콘서트홀",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:ColburnSchoolFront.jpg"
+      ],
+      "photo_query": "frank gehry architecture",
+      "slides": [
+        {
+          "heading": "게리의 핑크빛\n콘서트홀이 온다",
+          "body": "LA 콜번 스쿨 신관, 2027년 9월 25일 개관"
+        },
+        {
+          "heading": "WHAT",
+          "body": "1,000석 코올 홀과 무용동을 갖춘 10만 제곱피트 캠퍼스 확장동. 불투명·투명 볼륨이 대지 경사를 따라 내려온다."
+        },
+        {
+          "heading": "LOOK",
+          "body": "자동차 캔디 도장에서 착안한 알루미늄 플레이크 불소수지 도료 '핑크 캔디'로 금속 외장을 마감한다."
+        },
+        {
+          "heading": "SOUND",
+          "body": "원형 객석에 구름처럼 뜬 가변 음향판. 디즈니 콘서트홀을 함께 만든 도요타 야스히사가 음향을 맡았다."
+        },
+        {
+          "heading": "DANCE",
+          "body": "무용 공간이 3배로 늘고 100석 스튜디오 극장과 스튜디오 4개가 들어선다. 2027년 8월 먼저 개관한다."
+        }
+      ]
+    },
+    {
+      "slug": "comillas-waterfront-promenade",
+      "tag": "URBAN",
+      "title": "주차장이던 자리가 바다를 향한 산책로로",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 1,
+      "commons_photos": [
+        "File:Comillas - 01.jpg",
+        "File:Vista de Comillas.jpg"
+      ],
+      "photo_query": "seaside promenade spain",
+      "slides": [
+        {
+          "heading": "주차장이 바다를\n향한 산책로로",
+          "body": "스페인 코미야스 해안 산책로"
+        },
+        {
+          "heading": "BEFORE",
+          "body": "좁은 보도와 넓은 주차장이 해안선을 가로막고 있었다."
+        },
+        {
+          "heading": "AFTER",
+          "body": "5,400㎡ 규모 보행자 중심 해안 전면이 마을의 공공공간 네트워크와 이어진다."
+        },
+        {
+          "heading": "HOW",
+          "body": "강재·석재·콘크리트로 짠 새 해안 전면. 엑토르 나바로와 ARKHITEKTON이 설계했고 2026년 완공했다."
+        }
+      ]
+    },
+    {
+      "slug": "un-habitat-scroll-of-honour-2026",
+      "tag": "AWARDS",
+      "title": "UN-해비타트가 뽑은 적정 주거 5곳",
+      "ref": {
+        "section": "intl_grid",
+        "index": 3
+      },
+      "bg": 2,
+      "photo_query": "bamboo house construction",
+      "slides": [
+        {
+          "heading": "적정 주거를 바꾼\n다섯 가지 방식",
+          "body": "2026 UN-해비타트 스크롤 오브 아너"
+        },
+        {
+          "heading": "101 → 5",
+          "body": "101건의 후보 중 단체·기업·시장 5곳이 선정됐다. 1989년 시작된 상이다."
+        },
+        {
+          "heading": "BAMBOO & EARTH",
+          "body": "미얀마 하우징 나우는 대나무를 프리패브로, 튀니지 SOIB는 채석 잔재를 쓴 압축 흙벽돌을 짓는다."
+        },
+        {
+          "heading": "POLICY",
+          "body": "펀자브 주택도시계획청은 자기 땅을 가진 저소득 가구에 무이자 융자로 10만 호를 지원한다."
+        },
+        {
+          "heading": "WHY",
+          "body": "UN-해비타트는 약 34억 명이 적정 주거를 누리지 못한다고 본다."
+        }
+      ]
+    }
+  ]
+}
