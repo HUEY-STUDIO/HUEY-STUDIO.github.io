@@ -1,0 +1,558 @@
+{
+ "vol": "VOL.01  NO.056",
+ "editor": "HUEY",
+ "outlets": [
+  "Commercial Observer",
+  "ENR",
+  "6sqft",
+  "ArchDaily",
+  "Designboom",
+  "Architects' Journal",
+  "서울건축사신문",
+  "대한건설협회",
+  "MTN",
+  "주택폴리오"
+ ],
+ "teasers": [
+  {
+   "title": "크라이슬러 빌딩, 150년 지상권 임대 체결",
+   "desc": "티시먼 스파이어, 2.35억 달러 개보수",
+   "label": "PROJECT"
+  },
+  {
+   "title": "설계사 배상보험에 AI 면책 조항은 아직 없다",
+   "desc": "ISO는 1월 AI 면책 문구 발표",
+   "label": "REGULATION"
+  },
+  {
+   "title": "뉴욕 서민주택 패스트트랙 12개 구역 확정",
+   "desc": "2027년 1월 시행, 공공심의 90일",
+   "label": "URBAN"
+  },
+  {
+   "title": "길안웰빙센터·회현동 복합화 설계 제안공모",
+   "desc": "국내 설계공모 3건 접수 중",
+   "label": "COMPETITION"
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 도시 랜드마크",
+  "lede": "크라이슬러 빌딩, 150년 지상권 임대로 티시먼 스파이어 품에 — 2억 3,500만 달러 개보수 착수",
+  "lede_em": "2억 3,500만 달러 개보수",
+  "image": "https://commercialobserver.com/wp-content/uploads/sites/3/2026/10/Rob-Speyer-Chrysler-Building-credit-Getty-Images.jpg",
+  "image_label": "COMMERCIAL OBSERVER",
+  "caption": "롭 스파이어 티시먼 스파이어 CEO와 크라이슬러 빌딩 ⓒ Getty Images",
+  "body": [
+   "뉴욕의 아르데코 랜드마크 **크라이슬러 빌딩**이 티시먼 스파이어와 건물 부지를 소유한 쿠퍼 유니언 사이의 **150년 지상권(ground lease)** 계약으로 새 운영 주체를 맞았다. 커머셜 옵저버는 10월 7일 이 계약이 체결됐다고 전했다. 지대 조건은 공개되지 않았다.",
+   "티시먼 스파이어는 지대와 별도로 **2억 3,500만 달러**를 건물 개선에 투입한다. 현재와 곧 비게 될 공간의 약 **75%**를 입주 즉시 쓸 수 있는 사무실 스위트로 미리 만들어 두는 방식이며, 6 그랜드 센트럴에서 쓴 전략과 비슷하다고 매체는 설명했다. 캐나다 연기금 PSP 인베스트먼트가 투자자로 참여한다.",
+   "배경에는 전 임차인 RFR 홀딩(아비 로젠·마이클 푹스)이 있다. 쿠퍼 유니언은 **2,100만 달러**의 지대 체납을 이유로 2024년 11월 RFR을 퇴거시켰고, 이후 지대 재협상이 길어지며 임대가 멈춰 공실이 커졌다. 이번 계약으로 쿠퍼 유니언은 안정적인 수입원을 확보해 모든 학부생 전액 장학 제도를 복원할 수 있게 된다.",
+   "롭 스파이어 CEO는 \"맨해튼 사무실 시장의 역사적으로 강한 시점\"이라고 말했고, 스티븐 맥러플린 쿠퍼 유니언 총장은 \"학교의 약속을 지키는 관리자가 될 책임이 있다\"고 밝혔다. 준공 시점은 공개되지 않았다."
+  ],
+  "source": {
+   "outlet": "Commercial Observer",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://commercialobserver.com/2026/10/tishman-speyer-ground-lease-signed-chrysler-building/"
+    }
+   ]
+  },
+  "src_date": "2026-10-07",
+  "topic": "프로젝트"
+ },
+ "side": {
+  "label": "실무 직결 · 제도/규제",
+  "image": "https://www.enr.com/ext/resources/2026/10/09/Artificial-intelligence-and-insurance.webp?t=1791587986",
+  "image_label": "ENR",
+  "title": "설계사 배상책임보험, 생성형 AI 면책 조항은 당분간 없다 — 단 CGL·사이버 보험은 별개",
+  "body": [
+   "ENR에 따르면 보험사들은 건축사·엔지니어용 전문직 배상책임 보험과 시공사 전문직 보험에 생성형 AI 면책 조항을 넣지 않았고, 곧 넣을 것으로도 보이지 않는다. AXA XL의 미셸 치아 최고인수책임자는 \"AI 면책을 적용하지 않는다\"며 \"건축사·엔지니어 보험 약관은 문제가 어떤 방식으로 발생했는지와 무관하다\"고 말했다."
+  ],
+  "facts": [
+   "ISO: 1월 모델 약관에 **AI 면책** 문구 발표",
+   "갤러거: 상업용 일반배상책임(CGL)에서 면책이 등장 중, **계약·입찰상 보장 공백** 우려",
+   "버클리: 자회사 한 곳이 이사·임원 배상책임에 **절대적 AI 면책** 사용 (설계·시공 보험에는 미사용)",
+   "AXA XL 등: AI 오용 보장을 **별도 사이버 보험**에서 일부 제공"
+  ],
+  "body_after": [
+   "법률회사 슈메이커는 AI가 평범한 위험을 \"더 크고 빠르고 측정하기 어려운 위험으로 바꿀 수 있다\"며, 보장이 약관에 암묵적으로 묻혀 있는 상태는 전용 AI 보장이 표준이 되면서 사라질 것으로 내다봤다. 갤러거는 면책 특약이 \"당장 드러나지 않는 보장 공백을 만들 수 있다\"고 경고했다. 설계사무소는 갱신 시 전문직·CGL·사이버 약관의 AI 관련 문구를 따로 점검할 필요가 있다."
+  ],
+  "source": {
+   "outlet": "ENR",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.enr.com/articles/63800-ai-exclusions-wont-soon-be-popping-up-in-designer-liability-insurance-policies"
+    }
+   ]
+  },
+  "src_date": "2026-10-09",
+  "topic": "제도규제"
+ },
+ "intl_feature": [
+  {
+   "kicker": "PAVILION · 스페인",
+   "title": "덩굴처럼 자라 풍경으로 돌아가는 '우븐' — 700개 생분해 모듈로 엮은 가바레스 파빌리온",
+   "image": "https://static.designboom.com/wp-content/uploads/2026/10/woven-regenerative-pavilion-atelier-darn-designboom-1800-1.jpg",
+   "image_label": "DESIGNBOOM",
+   "body": [
+    "아틀리에 DARN이 스페인 지로나의 가바레스 숲에서 열린 제9회 '아트 & 가바레스 국제 랜드아트 페스티벌'에 선보인 임시 파빌리온이다. 9월 5일 개막했다. 목재와 **미스칸서스 기반 생분해 필라멘트**로 3D 프린트한 약 **700개** 모듈이 접착제·로프·합성 재료 없이 맞물린다.",
+    "모듈 단면은 카탈루냐 건축과 바르셀로나 파빌리온 기둥을 떠올리게 하는 십자형이고, 네 방향 연결로 직조 구조로 확장된다. 덩굴식물이 구조물을 타고 오르며 풍경에 스며들고, 시간이 지나면 풍화·분해돼 땅으로 돌아가도록 설계됐다."
+   ],
+   "source": {
+    "outlet": "Designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/interlocking-biodegradable-modules-regenerative-pavilion-gavarres-landscape-spain-woven-atelier-darn/"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "RETAIL · 중국",
+   "title": "남은 집성목으로 지은 120㎡ 숲속 매장 — 우한 '위키 월드 포레스트 스토어'",
+   "image": "https://images.adsttc.com/media/images/6ac7/14df/07c3/d100/017f/e141/newsletter/02.jpg?1791431947",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "위키 월드가 중국 우한의 숲 가장자리 캠프 입구에 지은 **120㎡** 규모 판매 건물이다. 2026년 완공했다. 버려질 뻔한 잔여 목재가 집과 흥미로운 목제품이 될 수 있는지에서 출발했다.",
+    "핀란드산 등 집성목과 유리를 결합했고, 복잡한 장인 기술 없이 재활용 가능한 방식을 택했다. 시공은 위키 월드와 나퉁자주 목재가 맡았다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186540/wiki-world-forest-store-wiki-world"
+     }
+    ]
+   },
+   "src_date": "2026-10-10",
+   "topic": "프로젝트"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "EDUCATION · 네덜란드",
+   "title": "숲속의 목조 어린이집 — 퓌흐트 '마우글리'",
+   "image": "https://images.adsttc.com/media/images/6ac8/ab6a/b2c4/c300/0178/e49c/newsletter/IMG_7790_300.jpg?1791536181",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "나트루파이드 아키텍처가 네덜란드 퓌흐트에 지은 **1,550㎡** 규모 어린이집이다. 숲 환경 속에서 놀이 같은 공간과 자연과의 연결을 동시에 살렸다. 목구조에 모소 대나무 제품과 리그나투르 패널 등을 썼고, 시공은 목골조 전문업체 V&S가 맡았다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186615/childcare-centre-mowgli-natrufied-architecture"
+     }
+    ]
+   },
+   "src_date": "2026-10-10",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "ESSAY · 카자흐스탄",
+   "title": "미래를 선전하다 — 소비에트 건축이 카자흐스탄에 남긴 우주시대의 이미지",
+   "image": "https://images.adsttc.com/media/images/6ab6/b006/5068/a60f/5eb3/345d/newsletter/the-future-as-propaganda-soviet-architecture-in-kazakhstan-and-the-imagery-of-a-new-era_5.jpg?1790357521",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "가가린의 1961년 비행이 시작된 바이코누르 기지에서 출발해, 소련이 카자흐스탄 건축으로 근대적·사회주의적 미래를 어떻게 투사했는지 짚는 글이다. 돔과 원형 볼륨, 유르트에서 따온 요소가 모더니즘과 섞였고, 알마티의 지진 조건은 계단식 타워 같은 구조 실험을 낳았다.",
+    "1997년 아스타나 천도 이후에는 칸 샤티르 같은 국제 설계 프로젝트가 같은 미래 이미지를 이어받았다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1185733/the-future-as-propaganda-soviet-architecture-in-kazakhstan-and-the-imagery-of-a-new-era"
+     }
+    ]
+   },
+   "src_date": "2026-10-10",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "HOUSE · 일본",
+   "title": "유리 통로로 호수를 끌어들인 70㎡ 1인 주택 — 시가 '미니멀리스트 하우스'",
+   "image": "https://static.designboom.com/wp-content/uploads/2026/10/minimalist-house-form-kouichi-kimura-architects-lakeside-shiga-japan-designboom-1800-1.jpg",
+   "image_label": "DESIGNBOOM",
+   "body": [
+    "폼 / 기무라 고이치 건축설계사무소가 일본 시가현 호숫가 마을 위 비탈에 지은 1인 주택이다. 연면적 **71.56㎡**, 대지 **271.10㎡**. 개인을 설계의 기본 단위로 삼아 필수 공간만 남겼다.",
+    "2층 본채와 단층 별채를 유리 통로로 잇고, 액자처럼 잘라낸 전망과 스킵플로어, 이중 높이 공간으로 빛·바람·소리를 들인다."
+   ],
+   "source": {
+    "outlet": "Designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/glazed-passage-lake-views-compact-japanese-house-form-kouichi-kimura-architects/"
+     }
+    ]
+   },
+   "src_date": "2026-10-05",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "POLICY · 뉴욕",
+   "title": "서민주택 패스트트랙 적용 12개 구역 공개 — 시의회 표결 없이 90일 심의",
+   "image": "",
+   "image_label": "6SQFT",
+   "body": [
+    "뉴욕시 도시계획국이 10월 1일 '서민주택 패스트트랙' 적용 대상 12개 커뮤니티 구역을 발표했다. 2025년 11월 주민투표로 승인된 제도로 **2027년 1월 1일** 시행되며, 해당 구역의 용도지역 변경은 시의회 최종 표결 없이 시 계획위원회가 결정하고 공공심의는 **90일**로 줄어든다.",
+    "12개 구역은 전체 59개의 약 5분의 1이며, 최근 5년간 신규 서민주택 6만 3,870호 중 **883호(약 1.1%)**만 만들어낸 곳이다. 브루클린 10구역(베이리지)이 생산율 최저로 맨 앞에 놓였다."
+   ],
+   "source": {
+    "outlet": "6sqft",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.6sqft.com/these-12-nyc-neighborhoods-will-see-affordable-housing-projects-fast-tracked/"
+     }
+    ]
+   },
+   "src_date": "2026-10-01",
+   "topic": "제도규제"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "건설경제 · 임금",
+   "title": "건설업 일평균 임금 28만 2,737원 — 상승률 1.40%, 10년 새 최저",
+   "body": [
+    "대한건설협회가 공표한 2026년 하반기 적용 건설업 임금실태조사(5월 기준, 132개 직종) 결과 일 평균임금은 **282,737원**으로 직전 반기보다 **0.98%**, 전년 동기보다 **1.40%** 올랐다. 전년 동기 대비 상승률은 2023년 6.71%, 2024년 3.30%, 2025년 1.66%에 이어 3년째 둔화했고 최근 10년 중 가장 낮다.",
+    "건설기성액이 2025년 **15.7%** 감소하고 5월 건설업 취업자가 192만 명으로 전년 동월보다 2.2% 줄어든 것이 배경이다. 9월 1일부터 건설공사 원가계산에 적용할 수 있다."
+   ],
+   "source": {
+    "outlet": "대한건설협회",
+    "links": [
+     {
+      "text": "보도자료",
+      "url": "https://www.cak.or.kr/lay1/bbs/S1T9C12/A/2/view.do?article_seq=160600"
+     }
+    ]
+   },
+   "src_date": "2026-09-01",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "건설경제 · 원가",
+   "title": "2025년 완성공사 원가 — 외주비 55.8%, 재료비 비중은 올랐다",
+   "body": [
+    "대한건설협회가 9월 30일 공표한 「2025년 기준 완성공사 원가통계」에서 공사원가는 외주비 **55.8%**, 재료비 **23.6%**, 현장경비 **12.9%**, 노무비 **7.8%** 순이다.",
+    "전년보다 재료비 비중이 올랐다. 협회는 누적된 자재가격 상승과 환율 변동이 반영된 결과로 보며, 외주비·노무비 비중 하락은 원가구조 변화와 건설경기 부진에 따른 노임 상승세 둔화로 풀이했다."
+   ],
+   "source": {
+    "outlet": "대한건설협회",
+    "links": [
+     {
+      "text": "보도자료",
+      "url": "https://www.cak.or.kr/lay1/bbs/S1T9C12/A/2/view.do?article_seq=161502"
+     }
+    ]
+   },
+   "src_date": "2026-09-30",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "국정감사 · GTX-A",
+   "title": "홍지선 후보자 \"삼성역 철근 누락, 서울시에 구상권 청구\" — 운영 보전금 최대 400억대",
+   "body": [
+    "홍지선 국토교통부 장관 후보자가 9월 16일 인사청문회에서 GTX-A 삼성역 철근 누락과 관련해 \"올해 말까지 기간별로 나눠 손실분을 서울시에 구상권으로 청구하겠다\"고 밝혔다. 서울시의 시공 관리 미흡을 주된 원인으로 꼽았고 시공사·감리사에도 책임이 있다고 봤다.",
+    "누락된 철근은 현대건설의 설계도면 해석 오류로 약 **178t**에 이른다. 무정차 통과가 늦어지면 정부가 민자사업자 SG레일에 추가 지급할 운영 보전금이 최대 **400억 원대**로 예상된다."
+   ],
+   "source": {
+    "outlet": "MTN",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://news.mtn.co.kr/news-detail/2026091616371172296"
+     }
+    ]
+   },
+   "src_date": "2026-09-16",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "건축문화 · 서울",
+   "title": "2026 서초 건축문화제 성황 — 7일간 회원 작품전·현장 투어·무료 건축상담",
+   "body": [
+    "서초구건축사회가 **9월 14~20일** 7일간 연 '2026 서초 건축문화제'가 마무리됐다. 회원 작품과 청소년 건축교육 프로그램 '서리풀건축학교' 작품을 전시했다.",
+    "어린이 건축교실, 지역 내 우수 건축물 현장 투어, 무료 건축상담도 함께 운영했다."
+   ],
+   "source": {
+    "outlet": "서울건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.siranews.co.kr/news/articleView.html?idxno=2581"
+     }
+    ]
+   },
+   "src_date": "2026-10-07",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "설계공모 · 지자체",
+   "title": "회현동 공영주차장 및 주민공동이용시설 복합화 제안설계공모 — 공사비 100억, 10월 19일 등록",
+   "body": [
+    "서울 중구 회현동1가 100-72 일원 연면적 **1,779㎡** 복합화 사업. 예정 설계비 **5.1억 원**, 예정 공사비 **100억 원**, 심사위원 9인의 제안공모다.",
+    "참가등록은 **10월 19일**까지, 결과 발표는 12월 4일 예정이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공모",
+      "url": "https://jootek.com/folio/contests/18957"
+     }
+    ]
+   },
+   "src_date": "2026-10-07",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 지자체",
+   "title": "길안웰빙센터 체력단련실 리모델링 설계 제안공모 — 안동, 공사비 26.5억",
+   "body": [
+    "경북 안동시 길안면 천지리 일원 연면적 **527㎡** 리모델링. 예정 설계비 **1.4억 원**, 예정 공사비 **26.5억 원**, 심사위원 6인의 제안공모로 공고일은 10월 8일이다.",
+    "참가등록은 **10월 16일**부터이고 결과 발표는 11월 20일 예정이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공모",
+      "url": "https://jootek.com/folio/contests/18966"
+     }
+    ]
+   },
+   "src_date": "2026-10-08",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 지자체",
+   "title": "통영 패류부산물 산업화 지원센터 신축 제안공모 — 연면적 7,340㎡, 공사비 125억",
+   "body": [
+    "통영시 인평동 117-4(경상국립대학교) 일원 연면적 **7,340㎡**의 신축 사업. 예정 설계비 **6.5억 원**, 예정 공사비 **125억 원**, 심사위원 9인의 제안공모다.",
+    "참가등록은 **10월 15일**까지이고 결과는 11월 23일 이내 발표한다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공모",
+      "url": "https://jootek.com/folio/contests/18953"
+     }
+    ]
+   },
+   "src_date": "2026-10-07",
+   "topic": "설계공모"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "HKS, 병원 설계 오류로 330만 달러 배상 판결 — 구조엔지니어와 소송 계속",
+   "body": "플로리다 연방판사가 레이크메리 150병상 병원의 철근 누락·슬래브 처짐 등을 설계 결함으로 보고 HKS에 오를란도 헬스에 **330만 달러** 지급을 명령했다(9월 30일 판결). HKS는 구조엔지니어 BBM을 상대로 한 소송이 진행 중이다.",
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.enr.com/articles/63816-judge-hits-hks-with-33m-hospital-design-error-damages"
+     }
+    ]
+   },
+   "src_date": "2026-10-08",
+   "topic": "제도규제"
+  },
+  {
+   "title": "연방 교통 보조금에 출생·혼인율 연동 — FTA 자본투자보조 지침안",
+   "body": "FTA의 CIG 정책 지침안(10월 1일)은 출생·혼인율이 모두 전국 평균을 1% 넘게 웃도는 회랑에 연방 분담률을 최대 **10%p** 더 얹고, 대형 사업은 비CIG 재원 확보 요건을 **30%→50%**로 높인다. 47개 사업, **345억 달러**가 영향권이며 의견 마감은 11월 16일.",
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.enr.com/articles/63818-transit-funding-plan-ties-federal-grants-to-birth-marriage-rates"
+     }
+    ]
+   },
+   "src_date": "2026-10-09",
+   "topic": "제도규제"
+  },
+  {
+   "title": "메이크 아키텍츠, 3년 만에 흑자 전환 — 매출은 7% 감소",
+   "body": "영국 메이크 아키텍츠의 2025년 세전이익은 **2만 9,500파운드**로 2023·2024년 적자에서 돌아섰지만 매출은 1,580만→**1,470만 파운드**로 줄었다. 아시아 매출은 43.5% 감소했고 평균 인원은 124명에서 95명으로 줄었다.",
+   "source": {
+    "outlet": "Architects' Journal",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.architectsjournal.co.uk/news/make-returns-to-profit-but-turnover-slides-again"
+     }
+    ]
+   },
+   "src_date": "2026-10-09",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "폴 클레망스의 렌즈로 다시 보는 롱샹 성당",
+   "body": "프랑스 오트손 부르를몽 언덕의 노트르담 뒤 오 성당(르 코르뷔지에, 1955 축성)을 사진가 폴 클레망스의 사진 에세이로 되짚는다. 지붕은 두께 약 **6cm**의 콘크리트 막 두 장이며 2016년 유네스코 세계유산에 올랐고 2022~2025년 대규모 복원을 마쳤다.",
+   "source": {
+    "outlet": "Designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/le-corbusiers-ronchamp-chapel-modern-architecture/"
+     }
+    ]
+   },
+   "src_date": "2026-10-06",
+   "topic": "재난유산"
+  },
+  {
+   "title": "블래트너, 미주리 650MW '스완' 태양광 15억 달러 공사 착수",
+   "body": "강관 제조사 제켈만이 전국 TV·전문지 광고를 시작했다. 짐 마시 임원은 데이터센터 수요가 \"2년 전의 **5배**\"라며 말뚝 기초용 파이프 파일 등 HSS를 주력으로 내세웠다. 국내 조달·빠른 납기·공장 프리팹을 강조한다.",
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.enr.com/articles/63814-steel-manufacturer-zekelman-promotes-alternate-steel-forms-for-data-center-construction"
+     }
+    ]
+   },
+   "src_date": "2026-10-08",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "블래트너, 미주리 6.5억W급 아닌 650MW '스완' 태양광 15억 달러 공사 착수",
+   "body": "콴타 계열 블래트너가 클리어웨이가 개발하는 미주리주 베이츠카운티 **650MW** 스완 에너지센터(**15억 달러**, 2028년 완공 예정)에 착공했다. 옛 노천광 부지를 활용하며 피크 고용은 500명이다. 인근에서는 농지 잠식을 우려하는 반대 청원이 나왔다.",
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.enr.com/articles/63819-quanta-unit-blattner-starts-work-on-15b-solar-project-in-missouri"
+     }
+    ]
+   },
+   "src_date": "2026-10-09",
+   "topic": "프로젝트"
+  }
+ ],
+ "cardnews": [
+  {
+   "slug": "chrysler-building-tishman-ground-lease",
+   "tag": "LANDMARK",
+   "title": "크라이슬러 빌딩, 150년 임대로 새 주인",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "commons_photos": [
+    "File:Chrysler Building, Manhattan, New York City, 20231005 115102.jpg",
+    "File:Chrysler-Building-New-York-September-2014.jpg",
+    "File:Chrysler-Building-View-New-York.jpg"
+   ],
+   "photo_query": "chrysler building new york",
+   "slides": [
+    {
+     "heading": "크라이슬러 빌딩\n150년 임대 체결",
+     "body": "티시먼 스파이어가 2억 3,500만 달러를 들여 되살린다"
+    },
+    {
+     "heading": "DEAL",
+     "body": "부지 소유주 쿠퍼 유니언과 150년 지상권 계약. 지대 조건은 비공개다."
+    },
+    {
+     "heading": "$235M",
+     "body": "지대와 별도로 2억 3,500만 달러를 개선에 투입한다. 현재·예정 공실의 약 75%는 바로 입주 가능한 스위트로 선제 조성한다."
+    },
+    {
+     "heading": "BACKSTORY",
+     "body": "쿠퍼 유니언은 2,100만 달러 지대 체납을 이유로 2024년 11월 전 임차인 RFR을 퇴거시켰다. 재협상이 길어지며 공실이 커졌다."
+    },
+    {
+     "heading": "WHY IT MATTERS",
+     "body": "쿠퍼 유니언은 안정적 수입으로 모든 학부생 전액 장학을 복원한다. 아르데코 랜드마크의 운영이 다시 궤도에 오른다."
+    }
+   ]
+  },
+  {
+   "slug": "woven-gavarres-pavilion",
+   "tag": "PAVILION",
+   "title": "덩굴처럼 자라 흙으로 돌아가는 파빌리온",
+   "ref": {
+    "section": "intl_feature",
+    "index": 0
+   },
+   "bg": 1,
+   "photo_query": "wooden pavilion forest",
+   "slides": [
+    {
+     "heading": "자라다 사라지는\n생분해 파빌리온",
+     "body": "아틀리에 DARN의 '우븐', 스페인 가바레스"
+    },
+    {
+     "heading": "700",
+     "body": "목재와 생분해 필라멘트로 3D 프린트한 약 700개 모듈이 접착제도 로프도 없이 맞물린다."
+    },
+    {
+     "heading": "MATERIAL",
+     "body": "미스칸서스 기반 생분해 필라멘트를 쓴다. 합성 재료는 하나도 없다."
+    },
+    {
+     "heading": "FORM",
+     "body": "십자형 단면의 모듈이 네 방향으로 이어지며 직조 구조로 확장된다."
+    },
+    {
+     "heading": "LIFECYCLE",
+     "body": "덩굴식물이 타고 오르면 풍경에 스며들고, 시간이 지나면 풍화·분해돼 땅으로 돌아간다."
+    }
+   ]
+  },
+  {
+   "slug": "construction-wage-survey-2026-h2",
+   "tag": "INDUSTRY",
+   "title": "건설 임금 상승률 10년 만에 최저",
+   "ref": {
+    "section": "korea",
+    "index": 0
+   },
+   "bg": 2,
+   "photo_query": "construction workers site",
+   "slides": [
+    {
+     "heading": "건설 임금\n10년 새 가장 느리게 올랐다",
+     "body": "2026년 하반기 적용 임금실태조사"
+    },
+    {
+     "heading": "282,737원",
+     "body": "132개 직종 일 평균임금. 전년 동기보다 1.40%, 직전 반기보다 0.98% 올랐다."
+    },
+    {
+     "heading": "TREND",
+     "body": "상승률은 6.71%(2023) → 3.30% → 1.66% → 1.40%로 3년 연속 둔화했다."
+    },
+    {
+     "heading": "WHY",
+     "body": "건설기성액은 2025년 15.7% 줄었고, 5월 건설업 취업자는 192만 명으로 2.2% 감소했다."
+    },
+    {
+     "heading": "NEXT",
+     "body": "9월 1일부터 건설공사 원가계산에 적용할 수 있다. 조사 기준은 5월 임금이다."
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "total": 21,
+  "intl": 14,
+  "kr": 7
+ }
+}
