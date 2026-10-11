@@ -1,0 +1,506 @@
+{
+  "vol": "VOL.01  NO.057",
+  "editor": "HUEY",
+  "counts": {
+    "total": 19,
+    "intl": 14,
+    "kr": 5
+  },
+  "outlets": [
+    "Archinect",
+    "Designboom",
+    "ArchDaily",
+    "ENR",
+    "Bustler",
+    "건축사신문",
+    "서울건축사신문",
+    "한국건축가협회",
+    "정책브리핑"
+  ],
+  "teasers": [
+    {
+      "title": "BIG, 벤턴빌 공과대학 착공",
+      "desc": "44만 4천 평방피트 1단계, 기존 월마트 본사 부지",
+      "label": "PROJECT"
+    },
+    {
+      "title": "WDC 부산 2028 파빌리온 공모",
+      "desc": "고정형+이동형, 10월 26일 마감",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "안도·헤어초크&드뫼롱, 일본 빌라 공개",
+      "desc": "NOTA의 키이 해안·오키나와 신작",
+      "label": "PROJECT"
+    },
+    {
+      "title": "COTE 학생공모·팀버 인 더 시티 발표",
+      "desc": "학생 지속가능·목조 설계 24작 선정",
+      "label": "AWARDS"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 교육시설",
+    "lede": "BIG, 아칸소 벤턴빌 공과대학 착공 — 대학 광장을 에워싸는 44만 4천 평방피트 세 동",
+    "lede_em": "44만 4천 평방피트",
+    "image": "https://archinect.gumlet.io/uploads/ac/acec428598643f800c3878c8f0973488.jpg",
+    "image_label": "ARCHINECT",
+    "caption": "벤턴빌 공과대학(BIT) 조감 ⓒ Bjarke Ingels Group",
+    "body": [
+      "BIG와 폴크 스탠리 윌콕스가 아칸소주 벤턴빌의 **STEM 중심 대학** '벤턴빌 공과대학'을 착공했다. 1단계 규모는 **44만 4천 평방피트**이며, 월마트 옛 본사 부지에 들어서는 복합 개발의 일부다. 세 동의 건물을 공공 광장과 조경 공간이 잇는 구성이다.",
+      "대학 광장의 중심은 **13만 3천 평방피트**의 메이커스페이스다. 내후성 강판으로 마감한 어긋난 볼륨을 쌓아 올리고, 테라스가 광장을 향해 계단식으로 내려온다. 실험과 프로젝트 기반 학습을 위한 유연한 공간을 담는다.",
+      "길 건너 **15만 5천 평방피트** 학술동은 곡면 구리 외장이 특징이다. 강의실·실험실·교수 연구실·행정 공간을 두고, 오자크 지역 건축에서 따온 내부 테라스와 브리즈웨이를 넣었다. 채광이 드는 중앙 아트리움과 계단이 교육·연구 공간을 잇는다.",
+      "기숙사는 **400명**을 수용하는 8자형 평면이다. 식당과 공용 시설 위에 두 개의 띄운 중정을 얹었고, 학생 방은 바깥 캠퍼스와 인근 공원을 향한다."
+    ],
+    "source": {
+      "outlet": "Archinect",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://archinect.com/news/article/150568784/big-and-polk-stanley-wilcox-design-bentonville-institute-of-technology-behind-sloping-facades"
+        }
+      ]
+    },
+    "src_date": "2026-10-06",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "도면 위의 디테일은 왜 현장에서 사라지는가 — 프랑스 '비자(Visa)' 제도가 던지는 제언",
+    "body": [
+      "착공 뒤 공사비와 시공성을 이유로 외장재가 바뀌고 접합부 상세가 단순해지는 일이 흔하다. 건축사신문 기고는 국내 제도의 빈틈을 짚고 프랑스의 시공도서 검토·승인 절차를 참고 모델로 제시했다."
+    ],
+    "facts": [
+      "국내 현행: 건축법 시행규칙상 착공신고 도서에 주요 마감재의 **품명·규격·재질·색상** 표시. 일정 규모 공공건축·지정감리 건축물은 원설계자 시공 참여 의무",
+      "한계: 일반 **민간건축**엔 원설계자 참여 의무 없음, 회신 전 공정 착수를 막는 규정·미반영 제재 없음",
+      "소규모 건축: 상세시공도면은 시공자가 필요하다고 볼 때 또는 연면적 **5,000㎡ 이상**에서 감리자가 요청할 때만 작성",
+      "프랑스: 시공자 실행도서는 설계·공사관리자의 **적합성 검토(비자)** 후에야 착수, 회신 기간 **15일**"
+    ],
+    "body_after": [
+      "필자는 외장재·창호·난간·주요 노출 상세만이라도 시공 전 원설계자 확인을 받게 하고, 건축적 적합성 확인을 감리 고유 업무와 분리해 검토 대상·횟수·회신 기간·책임·대가를 계약서에 명시할 것을 제안한다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21178"
+        }
+      ]
+    },
+    "src_date": "2026-09-30",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "RESIDENTIAL · 뉴욕",
+      "title": "철도 위의 줄무늬를 외벽에 — ODA의 롱아일랜드시티 '래디언트 LIC'",
+      "image": "https://archinect.gumlet.io/uploads/bc/bcbf2942f3b73b206ec560c12cf4ba2e.jpg",
+      "image_label": "ARCHINECT",
+      "body": [
+        "ODA가 퀸스 플라자 인근에 주거 개발 **'래디언트 LIC'**를 완공했다. 북·동측 입면에 수평 띠를 두르고 물결무늬 알루미늄 패널로 마감해, 인접한 고가 철도를 달리는 열차의 수평성과 움직임을 건물로 옮겼다.",
+        "알루미늄은 아침엔 밝은 갈색, 저녁엔 따뜻한 금빛으로 보이도록 설계됐다. 층층이 물러서는 테라스는 맨해튼 전망을 주고 건물 주변의 풍속도 줄인다. 주변의 직각 일색 주거동과 선을 긋는 외관이다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150569192/oda-completes-nyc-residential-tower-with-cascading-aluminum-facade"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HOSPITALITY · 일본",
+      "title": "안도 다다오의 원형 지붕, 헤어초크 & 드뫼롱의 절벽 슬래브 — NOTA의 신작 빌라",
+      "image": "https://archinect.gumlet.io/uploads/df/df83e5493594234748652d7fe32a4583.jpg",
+      "image_label": "ARCHINECT",
+      "body": [
+        "숙박 운영사 NOTA(구 NOT A HOTEL)가 일본의 신규 프로젝트 둘을 공개했다. **안도 다다오**의 키이 해안 빌라는 원형 지붕과 유기적인 반사 수조를 갖췄고, 직선과 곡선이 섞인 콘크리트 형태가 시간과 계절에 따른 빛에 반응한다.",
+        "**헤어초크 & 드뫼롱**의 오키나와 빌라는 두 장의 수평 슬래브가 절벽에서 바다를 향해 뻗어 수평선을 액자처럼 잡고, 세 번째 슬래브에 인피니티 풀과 테라스를 얹는다. 장 누벨의 야쿠시마 프로젝트는 갱신된 이미지도 함께 나왔다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150569064/nota-unveils-new-designs-by-tadao-ando-and-herzog-de-meuron"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "PAVILION · 에스토니아",
+      "title": "소란한 거리에서 비껴선 마당 — 탈린 건축 비엔날레 설치 '레조낭스'",
+      "image": "https://images.adsttc.com/media/images/6ac8/ace4/b2c4/c300/0178/e4c4/newsletter/IMG_9828.jpg?1791536587",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "아루 마 아키텍츠(총괄 정청하오)가 탈린 건축 비엔날레를 위해 **59㎡** 설치물을 지었다. 상업화가 빠르게 진행되는 거리에서 떨어진 '감싸인 마당'을 만들어, 바닷바람이 석재 사이로 지나고 햇빛이 곡면 합판 스크린 위에 내려앉게 했다.",
+        "합판·목구조·에스토니아 석회암·철봉 같은 평범한 재료로 도시 소음을 걸러내는 조용한 분위기를 연출했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186616/resonance-tallinn-architecture-biennale-installation-aru-ma-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-11",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "REUSE · 프랑스",
+      "title": "철도 신호소가 키오스크 바로 — 낭트 '레기유즈'",
+      "image": "https://images.adsttc.com/media/images/6ac6/1386/07c3/d100/017f/dc57/medium_jpg/studio-tere-architecte-aiguilleuse-2.jpg?1791366071",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스튜디오 테레가 낭트 일 드 낭트의 신생 공원 '쟈르댕 드 레스튀에르'에서 1960년대 철도 신호소를 **36㎡** 키오스크 바로 바꿨다. 열차 진입을 통제하던 작은 산업 유산을 남기고, 접이식 셔터 상세를 도면으로 공개했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186469/laiguilleuse-renovation-of-a-former-railway-signal-box-into-a-kiosk-bar-studio-tere"
+          }
+        ]
+      },
+      "src_date": "2026-10-11",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "INSTALLATION · 프랑스",
+      "title": "갈대를 감각의 건축으로 — 몽펠리에 '쇼므 쉬블리메'",
+      "image": "https://images.adsttc.com/media/images/6ac6/12f6/07c3/d100/017f/dc34/medium_jpg/01_23B3714_photoarchitecture.com.jpg?1791365911",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "COAT(쥘리아 프라올리니·펠릭스 슈타인바허)가 몽펠리에 '살아 있는 건축 축제 2025'를 위해 **10㎡** 임시 설치물을 지었다. 흔한 갈대를 엮어 촉각적이고 분위기 있는 공간으로 끌어올린 작업으로, 소박한 지역 재료와 수공의 가치를 보여 준다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186468/chaume-sublime-coat"
+          }
+        ]
+      },
+      "src_date": "2026-10-11",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "RESIDENTIAL · 미국",
+      "title": "대지 예술을 닮은 낮은 집 — 우즈+당가란의 유타 사막 주택",
+      "image": "https://archinect.gumlet.io/uploads/76/76bf67d3ca263f6faad2372dd40dc7a7.jpg",
+      "image_label": "ARCHINECT",
+      "body": [
+        "로스앤젤레스의 우즈+당가란이 자이언 국립공원 인근에 주택을 완공했다. 메사에 기대 지형에 박힌 낮고 긴 형태로, 유리 브리지가 잇는 **세 볼륨**이 주 침실·거실·별채를 나눈다. 마이클 하이저의 '시티'와 리처드 세라의 작업에서 착안했다.",
+        "도로 쪽 입면은 창과 문이 없는 덩어리이고, 뒤쪽은 사막을 향해 크게 열린다. 깊은 처마와 테라스가 그늘을 만들고, 대지의 기존 바위는 토양 유실을 막도록 그대로 남겼다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150569196/inside-a-minimalist-desert-residence-in-utah-inspired-by-land-art"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 부산",
+      "title": "WDC 부산 2028 파빌리온 국제 설계공모 — 고정형과 이동형을 한 시스템으로",
+      "body": [
+        "부산시와 디자인카운슬 부산이 월드디자인캐피털 부산 2028의 거점 파빌리온 공모를 낸다. **고정형 파빌리온과 이동형 파빌리온**을 통합 제안해 부산의 정체성을 담되 장소·규모·프로그램에 적응할 수 있어야 한다.",
+        "1단계 익명 심사로 **2개 팀**을 뽑고, 2단계 개발 뒤 최종 발표로 1팀을 선정한다. 2단계 팀당 **2,000만 원**, 당선작 보완 **5,000만 원**을 지급하고 참가비는 없다. 등록·제출 마감은 **10월 26일 17시**."
+      ],
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://bustler.net/competitions/latest/10670/wdc-busan-2028-pavilion-international-design-competition"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 건축HUB",
+      "title": "미래내 반다비체육센터 건립 일반설계공모 — 오늘 18시 참가등록 마감",
+      "body": [
+        "한국건축가협회가 공고를 안내한 일반설계공모다. 참가등록은 **10월 12일 18시**까지이며 질의는 13~14일 건축HUB로 받는다. 작품 제출은 **11월 23일**, 기술검토 12월 1일, 1·2차 심사는 12월 10일·17일이다.",
+        "위치·규모·공사비는 공고 첨부(공고문·지침서·과업지시서)에 있어 본 지면에서는 확인하지 못했다."
+      ],
+      "source": {
+        "outlet": "한국건축가협회",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://www.kia.or.kr/news/notice.php?ptype=view&idx=20813&category=9"
+          }
+        ]
+      },
+      "src_date": "2026-10-07",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "문화유산 · 근현대건축",
+      "title": "'헤이!모던시티' — 광주·대구·영덕·부산·대전 근현대건축 유산 현장 탐방",
+      "body": [
+        "국가유산청이 전국 **5개 지역**(광주·대구·영덕·부산·대전)의 근현대건축 문화유산을 전문가 해설과 함께 걷는 탐방 프로그램을 연다. 기간은 **10월 24일~12월 12일**, 참가 신청은 10월 8일 오후 1시부터 선착순이다."
+      ],
+      "source": {
+        "outlet": "정책브리핑",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784613"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "기고 · 공공건축",
+      "title": "'공공의 씨앗, 소규모 공공건축' — 마을회관·경로당이야말로 섬세해야 한다",
+      "body": [
+        "이진영 건축사는 마을회관·작은 도서관·경로당·돌봄센터 같은 소규모 공공건축이 주민 삶에 가장 직접 닿는다며, 획일적 기준을 기계적으로 적용하면 '아무도 찾지 않는 공간'이 된다고 지적한다.",
+        "기획·설계 초기부터 주민 참여와 전문가 협업을 제도로 보장하고, 폴딩 도어·가변 가구로 쓰임을 바꿀 수 있게 하며, 저가 입찰이 낳는 높은 수선비를 경계하자고 제안한다."
+      ],
+      "source": {
+        "outlet": "서울건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.siranews.co.kr/news/articleView.html?idxno=2572"
+          }
+        ]
+      },
+      "src_date": "2026-10-07",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "인테리어 · 서울",
+      "title": "흔들려도 뿌리내리는 나무처럼 — RVMN의 316㎡ '와이즈 상담실'",
+      "image": "https://images.adsttc.com/media/images/6abf/76fe/07c3/d100/017f/caec/medium_jpg/2Q3A9625_1.jpg?1790933041",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "RVMN(권용현·김효주)이 서울에 **316㎡** 규모의 상담 공간을 완공했다. 흔들리되 쓰러지지 않는 나무를 유연한 곡선과 공간 흐름으로 번역해, 대기 고객과 상담 고객의 동선과 시선이 서로 간섭하지 않게 갈랐다. 철과 콘크리트가 주재료다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186225/wise-consultation-office-rvmn"
+          }
+        ]
+      },
+      "src_date": "2026-10-11",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "RIBA 'Proud Architecture' — LGBTQIA+ 건축가 전시 공모",
+      "body": "2027년 LGBT+ 히스토리 먼스 전시용 오픈콜. 학생부터 대형 사무소까지 일상 작업을 받으며 건축 자체에 초점을 둔다. 마감 **11월 27일**.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://bustler.net/competitions/10664/proud-architecture-open-call-for-lgbtqia-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-09",
+      "topic": "설계공모"
+    },
+    {
+      "title": "'더 콰이어트 타워' — 라트비아 콜카 곶 발트해 해안 부지 공모",
+      "body": "라트비아 발트해 연안 콜카 곶 인근 부지가 대상. 등록 **10월 15일**, 제출 **2027년 2월 15일**.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://bustler.net/competitions/latest/10555/the-quiet-tower"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "2026 COTE 톱텐 학생 공모 — 기후 대응 학생 프로젝트 10곳 선정",
+      "body": "AIA와 ACSA가 기후위기에 대응한 지속가능 학생 프로젝트 10곳을 두 부문으로 나눠 발표했다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11150/ten-sustainable-student-projects-honored-at-2026-cote-top-ten-competition"
+          }
+        ]
+      },
+      "src_date": "2026-10-08",
+      "topic": "수상"
+    },
+    {
+      "title": "'Timber in the City 6' — 학생 목구조 14작 선정",
+      "body": "Think Wood와 ACSA가 소·중·대형 건물 부문에서 학생 목조 설계 **14작**을 뽑았다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11149/14-innovative-student-timber-projects-selected-as-timber-in-the-city-6-urban-habitats-winners"
+          }
+        ]
+      },
+      "src_date": "2026-10-07",
+      "topic": "수상"
+    },
+    {
+      "title": "ENR 환경 부문 200대 기업 — 매출 약 10%↑ 1,963억 달러",
+      "body": "순위에 오른 기업의 글로벌 매출이 **1,963억 달러**로 10% 가까이 늘었지만, 연방 정책 변화와 빠듯한 인력이 프로젝트 수행을 압박한다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63802-enr-top-200-environmental-firms-assessing-market-give-and-take"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "title": "에네르벤, 호주 400MW 배터리 저장 프로젝트 시공",
+      "body": "아트모스 리뉴어블스의 계통급 배터리 저장 사업에 에네르벤이 이달 투입된다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63826-enerven-to-build-400-mw-australian-battery-storage-project"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "big-bentonville-institute-of-technology",
+      "tag": "CAMPUS",
+      "title": "BIG의 벤턴빌 공과대학, 착공",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "bentonville arkansas",
+      "slides": [
+        {
+          "heading": "BIG의 새 캠퍼스\n벤턴빌에 착공",
+          "body": "월마트 옛 본사 부지에 들어서는 STEM 대학"
+        },
+        {
+          "heading": "444,000 SQ FT",
+          "body": "1단계는 세 동의 건물이 공공 광장과 조경으로 이어지는 구성이다."
+        },
+        {
+          "heading": "MAKERSPACE",
+          "body": "13만 3천 평방피트. 내후성 강판의 어긋난 볼륨과 광장으로 내려오는 테라스가 대학 광장의 중심을 잡는다."
+        },
+        {
+          "heading": "ACADEMIC",
+          "body": "15만 5천 평방피트 학술동은 곡면 구리 외장과 채광 아트리움, 오자크 건축에서 따온 테라스를 갖춘다."
+        },
+        {
+          "heading": "HOUSING",
+          "body": "400명이 사는 8자형 기숙사. 식당 위에 띄운 두 개의 중정이 캠퍼스를 향해 열린다."
+        }
+      ]
+    },
+    {
+      "slug": "wdc-busan-2028-pavilion",
+      "tag": "COMPETITION",
+      "title": "WDC 부산 2028 파빌리온 국제공모",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "busan korea",
+      "slides": [
+        {
+          "heading": "부산의 얼굴이 될\n파빌리온을 찾습니다",
+          "body": "WDC 부산 2028 국제 설계공모, 10월 26일 마감"
+        },
+        {
+          "heading": "WHAT",
+          "body": "고정형 파빌리온과 이동형 파빌리온을 하나의 시스템으로 제안한다. 장소·규모·프로그램에 적응해야 한다."
+        },
+        {
+          "heading": "HOW",
+          "body": "1단계 익명 심사로 2개 팀을 뽑고, 2단계 개발과 최종 발표로 1팀을 선정한다."
+        },
+        {
+          "heading": "PRIZE",
+          "body": "2단계 팀당 2,000만 원, 당선작 보완 5,000만 원. 참가비는 없다."
+        },
+        {
+          "heading": "WHO",
+          "body": "건축·공간·전시·서비스·산업디자인 등 국내외 기업과 단체가 지원할 수 있다."
+        }
+      ]
+    },
+    {
+      "slug": "nota-ando-herzog-demeuron",
+      "tag": "VILLA",
+      "title": "NOTA, 안도와 헤어초크 & 드뫼롱의 일본 빌라 공개",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "tadao ando",
+      "slides": [
+        {
+          "heading": "일본 해안에 놓일\n두 개의 빌라",
+          "body": "NOTA가 안도 다다오와 헤어초크 & 드뫼롱의 신작을 공개했다"
+        },
+        {
+          "heading": "ANDO",
+          "body": "키이 해안의 빌라는 원형 지붕과 유기적인 반사 수조를 갖췄다. 직선과 곡선의 콘크리트가 빛의 변화를 받는다."
+        },
+        {
+          "heading": "H&DM",
+          "body": "오키나와 빌라는 두 장의 수평 슬래브가 절벽에서 바다로 뻗어 수평선을 액자처럼 잡는다."
+        },
+        {
+          "heading": "NOUVEL",
+          "body": "장 누벨의 야쿠시마 프로젝트는 바위와 유리의 구성으로 갱신된 이미지를 선보였다."
+        }
+      ]
+    }
+  ]
+}
