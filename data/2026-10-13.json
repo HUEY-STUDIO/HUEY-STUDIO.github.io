@@ -1,0 +1,507 @@
+{
+ "vol": "VOL.01  NO.058",
+ "editor": "HUEY",
+ "counts": {
+  "total": 19,
+  "intl": 14,
+  "kr": 5
+ },
+ "outlets": [
+  "Construction Dive",
+  "ENR",
+  "Designboom",
+  "ArchDaily",
+  "Bustler",
+  "건축사신문",
+  "주택폴리오"
+ ],
+ "teasers": [
+  {
+   "title": "파나마 규모 7.7 지진, 교량 14곳 피해",
+   "desc": "주택 약 900채 피해, 비상사태로 최대 1억 달러 집행",
+   "label": "DISASTER"
+  },
+  {
+   "title": "OMA, 휴스턴 커피 공장을 학교로",
+   "desc": "6,050㎡ 차터 스쿨 FLAMA 재생",
+   "label": "PROJECT"
+  },
+  {
+   "title": "김중업 설계 안양공장 등 등록 예고",
+   "desc": "국가등록문화유산 4건, 30일간 의견 수렴",
+   "label": "HERITAGE"
+  },
+  {
+   "title": "김해 외국인 근로자 복합센터 설계공모",
+   "desc": "공사비 70억, 10월 19일 등록 시작",
+   "label": "COMPETITION"
+  }
+ ],
+ "cardnews": [
+  {
+   "slug": "saronic-port-alpha-shipyard",
+   "tag": "INFRA",
+   "title": "전후 첫 그린필드 조선소, 텍사스에서 착공",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "photo_query": "shipyard crane harbor",
+   "slides": [
+    {
+     "heading": "전후 첫\n그린필드 조선소",
+     "body": "텍사스 브라운즈빌에서 32억 달러 공사가 시작됐다"
+    },
+    {
+     "heading": "WHAT",
+     "body": "군수업체 사로닉의 '포트 알파'. 유인·자율운항 선박을 만드는 조선소로, 제2차 세계대전 이후 미국 최초의 신규 부지 조선소다."
+    },
+    {
+     "heading": "SCALE",
+     "body": "초기 부지는 835에이커. 최대 약 4,400에이커까지 넓힐 수 있는 선택권을 확보했다."
+    },
+    {
+     "heading": "PHASING",
+     "body": "부지 조성·인프라, 1단계 조립 건물, 제조·해안·진수 시설 순으로 세 단계가 겹쳐 진행된다."
+    },
+    {
+     "heading": "WHO",
+     "body": "JE Dunn–Alberici 합작법인이 프로그레시브 설계-시공으로 수행하고, 설계는 Stantec과 KPFF가 맡는다."
+    }
+   ]
+  },
+  {
+   "slug": "anyang-yuyu-factory-heritage",
+   "tag": "HERITAGE",
+   "title": "김중업의 안양공장, 문화유산이 된다",
+   "ref": {
+    "section": "korea",
+    "index": 0
+   },
+   "bg": 1,
+   "photo_query": "korean modern architecture concrete factory",
+   "slides": [
+    {
+     "heading": "김중업의 공장이\n문화유산이 된다",
+     "body": "국가유산청, 구 유유산업 안양공장 등 4건 등록 예고"
+    },
+    {
+     "heading": "안양공장",
+     "body": "공장동·연구동·수위실. 1950년대 말 형성된 제약 시설 복합단지로, 김중업 건축사가 설계했다."
+    },
+    {
+     "heading": "광주극장·대전공회당",
+     "body": "1935년 민족자본으로 개관한 현존 유일의 단관극장 광주극장, 지방에 남은 유일한 일제강점기 공회당인 구 대전공회당(원형회복 조건)."
+    },
+    {
+     "heading": "알뜨르 격납고",
+     "body": "제주 모슬포 비행기 격납고에 8기를 추가해 총 18기. 명칭도 '일제 비행기 격납고'로 바꿨다."
+    },
+    {
+     "heading": "NEXT",
+     "body": "30일간 의견을 수렴하고 국가유산위원회 심의를 거쳐 최종 등록한다."
+    }
+   ]
+  },
+  {
+   "slug": "oma-houston-flama",
+   "tag": "SCHOOL",
+   "title": "OMA, 커피 공장을 음악·예술 학교로",
+   "ref": {
+    "section": "intl_feature",
+    "index": 0
+   },
+   "bg": 2,
+   "photo_query": "houston texas industrial building",
+   "slides": [
+    {
+     "heading": "커피 공장이\n음악 학교가 되다",
+     "body": "OMA의 휴스턴 FLAMA"
+    },
+    {
+     "heading": "WHAT",
+     "body": "1930년대 J.A. Folger & Co. 커피 공장을 학비 없는 공립 차터 학교로 바꿨다. 연면적 6,050㎡, 3층."
+    },
+    {
+     "heading": "PLAN",
+     "body": "교실과 연습실을 '이웃'이라 부르는 공용 공간 주위에 배치했다. 층마다 중앙 모임 공간이 둘 있다."
+    },
+    {
+     "heading": "LIGHT",
+     "body": "원형 천창이 중앙부에 빛을 끌어들이고, 2층 높이 카페토리움이 급식·행사·공연을 맡는다."
+    },
+    {
+     "heading": "RESTORE",
+     "body": "원래의 가로면 창을 복원해 에너지 기준에 맞췄고, 내부 중정에는 색채 있는 창 분할을 넣었다."
+    }
+   ]
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 산업·인프라",
+  "lede": "전후 첫 그린필드 조선소 — JE Dunn–Alberici, 텍사스 브라운즈빌 32억 달러 '포트 알파' 착공",
+  "lede_em": "32억 달러",
+  "image": "https://imgproxy.divecdn.com/FZW9R6LYQhMHvHb2nLfrJQiJwE0648fbfhmRy0tXDRg/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TYXJvbmljLVBvcnRBbHBoYS0xNTUtMjA0OHgxMzk2LmpwZw==.webp",
+  "image_label": "CONSTRUCTION DIVE",
+  "caption": "사로닉 '포트 알파' 조선소 현장 ⓒ Saronic",
+  "body": [
+   "JE Dunn과 Alberici의 합작법인이 군수업체 사로닉의 **'포트 알파' 조선소** 초기 공정에 착공했다. 총 사업비는 **32억 달러** 이상이며, 텍사스주 브라운즈빌 항구에 들어선다. 합작법인은 제2차 세계대전 이후 미국에서 처음 짓는 **그린필드 조선소**라고 밝혔다.",
+   "초기 부지는 **835에이커**이고 사로닉은 약 **4,400에이커**까지 넓힐 수 있는 선택권을 확보했다. 이곳에서는 유인·자율운항·완전 자율 선박을 생산할 계획이다.",
+   "공사는 세 단계가 겹쳐 진행된다. 먼저 토목 정지·지반 개량·배수·진입로·유틸리티를 깔고, 이어 초기 조립 건물과 자재 운반 시스템, 지원 시설을 짓는다. 마지막으로 제조 시설과 창고, 해안 시설, 선박 진수 인프라, 직원 지원 시설이 들어선다.",
+   "계약 방식은 프로그레시브 설계-시공이며 설계 파트너는 Stantec과 KPFF다. 같은 합작법인은 루이지애나 프랭클린의 사로닉 조선소 **3억 달러** 확장공사도 맡아 8월 상량식을 마쳤다."
+  ],
+  "source": {
+   "outlet": "Construction Dive",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.constructiondive.com/news/je-dunn-alberici-jv-breaks-ground-texas-shipyard/832709/"
+    }
+   ]
+  },
+  "src_date": "2026-10-12",
+  "topic": "프로젝트"
+ },
+ "side": {
+  "label": "재난·복구",
+  "image": "https://www.enr.com/ext/resources/2026/10/12/LasMinasPanamaQuake.webp",
+  "image_label": "ENR",
+  "title": "파나마 규모 7.7 지진 — 교량 14곳·주택 약 900채 피해, 비상사태로 최대 1억 달러 집행",
+  "body": [
+   "10월 9일 규모 7.7 지진이 파나마 중남부와 남동부를 강타했다. 사망자는 보고되지 않았고 부상자는 최소 27명이다. 여진이 수백 차례 이어지고 있다."
+  ],
+  "facts": [
+   "피해: 주택 약 **900채**, 베라과스·로스산토스주 교량 최소 **14곳**",
+   "정부: 비상사태 선포로 입법 승인 없이 최대 **1억 달러** 구호 자금 집행",
+   "국제 지원: 미국 최소 **500만 달러**, 20명 규모 인프라 평가팀 파견 예정",
+   "파나마 운하: 진앙에서 멀어 운영에 영향 없음"
+  ],
+  "body_after": [
+   "헤레라주의 학교와 교육시설도 광범위한 피해를 입어 보수·재건이 필요하다. 정부 장관은 2003년 지진 때 단기간에 300채 이상의 주택을 지은 사례를 언급했다."
+  ],
+  "source": {
+   "outlet": "ENR",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.enr.com/articles/63895-earthquake-rattles-southern-panama-damaging-bridges-and-destroying-homes"
+    }
+   ]
+  },
+  "src_date": "2026-10-12",
+  "topic": "재난유산"
+ },
+ "intl_feature": [
+  {
+   "kicker": "교육 · 보존 재생",
+   "title": "1930년대 커피 공장이 음악·예술 학교로 — OMA의 휴스턴 FLAMA",
+   "image": "https://static.designboom.com/wp-content/uploads/2026/10/oma-historic-houston-coffee-plant-music-arts-academy-frank-liu-jr-flama-designboom-1800.jpg",
+   "image_label": "DESIGNBOOM",
+   "body": [
+    "OMA 뉴욕이 텍사스 휴스턴의 1930년대 J.A. Folger & Co. 커피 공장을 **프랭크 리우 주니어 음악·예술 아카데미(FLAMA)**로 바꿨다. 학비가 없는 공립 차터 학교로, 연면적은 **6,050㎡**, 3층 구조다.",
+    "몬테소리 원칙에 따라 교실과 연습실을 '이웃'이라 부르는 공용 공간 주위에 배치했다. 층마다 중앙 모임 공간이 둘 있고, 2층 높이 카페토리움이 급식·행사·공연을 맡는다. 원형 천창이 중앙부에 빛을 끌어들인다.",
+    "원래의 가로면 창을 복원해 에너지 기준에 맞췄고, 내부 중정에는 색채 있는 기하학적 창 분할을 적용했다. 시공 중인 프로젝트다."
+   ],
+   "source": {
+    "outlet": "Designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/oma-historic-houston-coffee-plant-music-arts-academy-frank-liu-jr-flama/"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "문화 · 전시",
+   "title": "목재·유리·철골로 민가를 품다 — 반 시게루의 도요타 시립 박물관",
+   "image": "https://images.adsttc.com/media/images/6ac4/f717/27ac/8d01/89cb/bc42/large_jpg/toyota-city-museum-shigeru-ban-architects_4.jpg?1791293246",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "시게루 반 건축사무소가 일본 도요타시의 **도요타 시립 박물관**을 완공했다. 연면적은 약 **7,891㎡**, 지상 4개 층이다. 이웃한 도요타 시립미술관과 부지를 함께 쓰도록 부지 동측에 배치했고, 서측에는 두 시설을 잇는 연속 조경을 두었다.",
+    "미술관·수장고·전시 공간으로 구성되며 전시 환경은 Tanseisha가 설계했다. 구조·설비는 오브 아룹 재팬이 맡았다. 부지 안의 기존 민가와 창고, 묘소를 복원하는 작업도 포함됐다.",
+    "주요 재료는 목재와 유리, 철골이다. 사진은 Hiroyuki Hirai."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186423/toyota-city-museum-shigeru-ban-architects"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "프로젝트"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "공공건축 · 방재",
+   "title": "녹색 안료 단열 콘크리트로 빚은 소방서 — 오리스 시민 방재센터",
+   "image": "https://images.adsttc.com/media/images/6ac6/10d8/07c3/d100/017f/dc02/medium_jpg/_DR62441B.jpg?1791365405",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "롤란드 발디 아키텍츠가 이탈리아 오리스의 베노스타 계곡 숲 비탈에 자원봉사 소방대를 위한 **시민 방재센터**를 완공했다. 연면적 약 **1,404㎡**. 녹색 안료를 넣은 단열 콘크리트의 일체형 외관이 주변 숲 색과 어우러진다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186466/civil-protection-centre-in-oris-roland-baldi-architects"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "공공공간 · 기념",
+   "title": "보스턴 최초의 상설 원주민 기념물 — '화이트 파인 게더링 플레이스'",
+   "image": "https://www.enr.com/ext/resources/2026/WEB-white-pine-gathering.webp",
+   "image_label": "ENR",
+   "body": [
+    "프랭클린 파크 스캐로 힐에 와삼폰 부족의 역사를 기리는 기념물이 계획됐다. 설계는 SmokeSygnals. 바깥은 살아 있는 백송, 안쪽은 풍화강 기둥이 두 겹의 원을 이루고 중앙에 코일 점토 항아리를 둔다. 예상 비용 약 **200만 달러**."
+   ],
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.enr.com/articles/63868-boston-plans-first-permanent-indigenous-monument"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "도시재생"
+  },
+  {
+   "kicker": "교육 · 도시",
+   "title": "피셔맨스 벤드의 첫 '수직 학교' — 포트 멜버른 중등학교",
+   "image": "https://images.adsttc.com/media/images/6ac5/6096/27ac/8d01/89cb/bdf2/medium_jpg/port-melbourne-secondary-college-billard-leece-partnership_15.jpg?1791320263",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "빌러드 리스 파트너십(BLP)이 호주 최대 도시 재생 사업 지구 피셔맨스 벤드에서 첫 **버티컬 스쿨**을 완성했다. 이 지구는 30년간 약 **8만 명**이 거주·근무·학습하도록 계획됐고, 도서관·체육관·미술 공간은 방과 후 주민과 공유한다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186451/port-melbourne-secondary-college-billard-leece-partnership"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "도시재생"
+  },
+  {
+   "kicker": "재난 · 인프라",
+   "title": "리야드 공항 공격으로 터미널 피해 — 72억 달러 확장 현장도 영향권",
+   "image": "https://www.enr.com/ext/resources/2026/10/12/Airport_attack_Riyadh_ENRwebready.webp",
+   "image_label": "ENR",
+   "body": [
+    "10월 10~11일 이어진 공격으로 리야드 킹 칼리드 국제공항 터미널 3·4 단지에서 사망 14명, 부상 320명 이상이 보고됐다. 일요일 예정 항공편의 **99.7%**가 취소됐다. 인근 **72억 달러** 킹 살만 공항 확장 현장의 피해 여부는 아직 확인되지 않았다."
+   ],
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.enr.com/articles/63869-riyadh-airport-attacks-damage-terminals-at-72b-expansion-site"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "재난유산"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "문화유산 · 국가유산청",
+   "title": "김중업 설계 '구 유유산업 안양공장' 등 4건 국가등록문화유산 등록 예고",
+   "image": "https://cdn.ancnews.kr/news/photo/202610/21225_24011_5352.png",
+   "image_label": "건축사신문",
+   "body": [
+    "국가유산청이 10월 12일 **구 유유산업 안양공장**(공장동·연구동·수위실), 광주극장, 구 대전공회당, 제주 모슬포 알뜨르비행장 일제 비행기 격납고를 등록 예고했다. 30일간 의견 수렴 뒤 국가유산위원회 심의를 거친다.",
+    "안양공장은 김중업 건축사가 설계한 1950년대 말 제약 시설 복합단지다. 알뜨르비행장은 기존 10기에 **8기**를 추가해 총 18기가 된다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21225"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "재난유산"
+  },
+  {
+   "kicker": "행사 · 대한건축사협회",
+   "title": "제21회 한국건축산업대전, 10월 28~30일 코엑스 — 주제 'TRANSFORM'",
+   "body": [
+    "대한건축사협회 주최로 코엑스 D홀에서 열리며 약 **198개 부스**가 친환경 자재와 신기술, IT, 신재생에너지를 선보인다. 28~30일 KAFF 포럼과 건축자재설명회, 28~29일 건축사 실무교육(AI 활용·건축저작권 등), 30일 오후 1시 시상식이 이어진다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21224"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "설계공모 · 복합센터",
+   "title": "김해시 외국인 근로자 정착지원 복합센터 건립 일반설계공모 — 공사비 70억",
+   "body": [
+    "경남 김해시 진례면 고모리 일원, 연면적 **1,830㎡**. 예정 설계비 **3.4억 원**, 공사비 **70억 원**, 심사위원 7인. 공고는 10월 12일, 참가등록은 **10월 19일** 시작, 결과는 12월 24일 이내 발표된다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공고",
+      "url": "https://jootek.com/folio/contests/18971"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 교육연구시설",
+   "title": "울산수학문화관 신설 대체 이전 설립공사 일반설계공모 — 연면적 3,900㎡",
+   "body": [
+    "울산 북구 호계동 서측 부지, 용도는 교육연구시설이다. 예정 설계비 **5.2억 원**, 심사위원 2인. 공고는 10월 12일, 참가등록은 **10월 22일** 시작, 결과는 12월 23일 이내 발표된다. 목록상 공사비 표기가 연면적에 비해 지나치게 작아 원문 확인이 필요하다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공고",
+      "url": "https://jootek.com/folio/contests/18973"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 학교",
+   "title": "초연중학교 다목적강당 증축 설계공모 — 공사비 53.3억",
+   "body": [
+    "예정 설계비 **2.2억 원**, 공사비 **53.3억 원**. 공고는 10월 12일이며 참가등록 마감 10월 19일, 결과는 12월 23일 발표 예정이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공고",
+      "url": "https://jootek.com/folio/contests/18902"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "설계공모"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "Buildner '언빌트 어워드 2027' — 상금 5만 유로",
+   "body": "등록 마감 **2027년 2월 4일**, 제출 마감 2027년 10월 18일.",
+   "source": {
+    "outlet": "Bustler",
+    "links": [
+     {
+      "text": "공고",
+      "url": "https://bustler.net/competitions/10673/buildner-s-unbuilt-award-2027"
+     }
+    ]
+   },
+   "topic": "설계공모"
+  },
+  {
+   "title": "Kinderspace 4회 — 어린이 발달을 위한 건축 공모",
+   "body": "등록 마감 **10월 28일**, 제출 마감 11월 30일.",
+   "source": {
+    "outlet": "Bustler",
+    "links": [
+     {
+      "text": "공고",
+      "url": "https://bustler.net/competitions/10503/kinderspace-architecture-for-children-s-development-competition-edition-4"
+     }
+    ]
+   },
+   "topic": "설계공모"
+  },
+  {
+   "title": "유토피안 아워스 2026 — 토리노서 10월 16~17일",
+   "body": "10주년 에디션. **피터 쿡** 마스터클래스와 헤르조그 & 드뫼롱 CEO 빔 발샵 등이 참여한다.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186668/cities-are-mental-weapons-utopian-hours-2026-returns-to-turin-with-sir-peter-cook-and-a-program-on-city-making"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "블루 오리진 5.5억 달러 텍사스 캠퍼스 등 제조시설 투자 잇따라",
+   "body": "블루 오리진은 텍사스 허토에 **130만 평방피트** 제조 캠퍼스를 짓고 2,000명 이상을 고용한다. 클리블랜드-클리프스는 펜실베이니아 2억 달러 확장을 2028년 초 완공 예정.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/blue-origin-ppg-cleveland-cliffs-more-facility-investments/832728/"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "13㎡ 도예 공방 — 코펜하겐 발비의 목재 오두막",
+   "body": "예스페르 쿠스크 아르키텍터가 대지 모서리에 지은 **약 13㎡** 공방. 낮에는 녹지가 창에 비치고 저녁엔 조명이 주변을 밝힌다.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186614/ceramics-workshop-in-copenhagen-jesper-kusk-arkitekter"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "『Starving for Innovation』 — AI로 건설 폐목재를 연료로",
+   "body": "우드척은 AI 이미지 인식으로 폐자재 속 목재를 골라 바이오매스로 판다. 세미트럭 한 대에 **25~30톤**을 싣는다.",
+   "source": {
+    "outlet": "ENR",
+    "links": [
+     {
+      "text": "서평",
+      "url": "https://www.enr.com/articles/63870-starving-for-innovation-finds-lessons-in-constructions-waste"
+     }
+    ]
+   },
+   "src_date": "2026-10-12",
+   "topic": "프로젝트"
+  }
+ ]
+}
