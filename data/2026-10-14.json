@@ -1,0 +1,545 @@
+{
+  "vol": "VOL.01  NO.059",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "Designboom",
+    "ArchDaily",
+    "Archinect",
+    "Construction Dive",
+    "건축사신문",
+    "건축사뉴스",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "BIG, 티라나 '분수 광장' 공모 당선",
+      "desc": "건물을 들어 올려 1층을 공원으로",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "민간 설계대가 기준, 2027년 3월 적용",
+      "desc": "건축사법 19조의3 개정 시행 예정",
+      "label": "POLICY"
+    },
+    {
+      "title": "조달청, 평가위원 통합관리 강화",
+      "desc": "접촉 신고·모니터링 위반 시 6개월 협상 정지",
+      "label": "PROCUREMENT"
+    },
+    {
+      "title": "케이프타운 디스트릭트 식스 108세대",
+      "desc": "강제 이주 60년 만에 돌아오는 주거",
+      "label": "HOUSING"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 국제설계공모",
+    "lede": "건물을 들어 올려 광장을 돌려준다 — BIG, 티라나 '분수 광장' 국제공모 당선",
+    "lede_em": "건물을 들어 올려 광장을 돌려준다",
+    "image": "https://static.designboom.com/wp-content/uploads/2026/10/big-bjarke-ingels-group-floating-terraces-green-public-space-tirana-fountain-plaza-albania-designbom-1800.jpg",
+    "image_label": "DESIGNBOOM",
+    "caption": "BIG의 티라나 분수 광장(Fountain Plaza Tirana) 당선안 ⓒ BIG",
+    "body": [
+      "비야케 잉겔스의 건축사무소 **BIG**이 알바니아 수도 **티라나**의 '분수 광장(Fountain Plaza Tirana)' **국제 설계공모**에서 당선됐다. 공모는 AKPT와 Atelier Albania가 지원했다.",
+      "당선안의 핵심은 건물 볼륨을 **지상에서 띄우는 것**이다. 가늘고 촘촘한 기둥 위에 반투명 파사드를 두른 볼륨을 올리고, 1층은 걸어서 통과할 수 있는 **공원형 공공 공간**으로 비워 둔다. 상층부는 층마다 뒤로 물러서(셋백) 채광과 식재 공간을 확보한다.",
+      "프로그램은 열린 도서관, 커뮤니티 시설, 지붕이 있는 공공 강당으로 구성된다. 건물 아래를 통과하는 시민의 동선이 곧 공공 공간이 되도록 짠 것이 특징이다.",
+      "제안은 건물 밖으로도 이어진다. 인접한 교통 도로를 **보행자 전용**으로 바꾸고, 공원을 주변 지역으로 확장하며, 옆을 지나는 **운하**를 미기후와 환경 요소로 끌어들이는 방안이다. 원문에는 부지 면적·층수·공사비 등 구체적 수치가 공개돼 있지 않다."
+    ],
+    "source": {
+      "outlet": "Designboom",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.designboom.com/architecture/big-bjarke-ingels-group-floating-terraces-green-public-space-tirana-fountain-plaza-albania/"
+        }
+      ]
+    },
+    "src_date": "2026-10-12",
+    "topic": "수상"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "건축정책 논의 20년 — 민간 설계대가 기준 2027년 3월 적용, 표준계약 의무화 과제",
+    "body": [
+      "국회입법조사처가 10월 8일 보고서 「건축정책 논의 20년, 성과와 과제」를 냈다. 2005년 대통령 자문위원회에서 시작된 건축정책 논의가 건축기본법·건축서비스산업 진흥법 제정 이후 어떤 성과와 한계를 남겼는지 짚었다."
+    ],
+    "facts": [
+      "개정: 3월 17일 통과된 건축사법 제19조의3 — 민간 발주자도 공공 공사의 **업무범위·대가 기준**을 적용 가능",
+      "시행: **2027년 3월 18일**",
+      "제안: 건축법 제15조상 **표준계약 의무화**, 제11조 허가 신청 시 표준계약서 제출",
+      "통계: 설계비·기간·인력 등 산업 통계 **부재** — 승인통계·전수조사 미실시"
+    ],
+    "body_after": [
+      "보고서는 사업기획 역량 부족, 경직된 건축사 선정, 불명확한 대가 기준을 지속되는 문제로 꼽았다. 건축문화 진흥 예산은 2018년 **7억 9천만 원**에서 2021년 **72억 원**으로 크게 출렁였고, 대부분이 공공건축가·설계공모 운영에 쓰인다며 R&D·인재 양성·기록 사업으로 확대를 권고했다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21228"
+        }
+      ]
+    },
+    "src_date": "2026-10-13",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "주거단지 · 홍콩",
+      "title": "네 번째 클럽하우스로 완성된 '공유 공간의 네트워크' — 스뇌헤타의 홍콩 파빌리아 팜",
+      "image": "https://archinect.gumlet.io/uploads/e2/e205473df0166b5937909394dc05ae7d.jpg",
+      "image_label": "ARCHINECT",
+      "body": [
+        "**스뇌헤타**가 홍콩 타이와이의 주거단지 **파빌리아 팜(Pavilia Farm)**의 마지막 네 번째 클럽하우스를 완공했다. 2017년 의뢰받은 이 프로젝트는 주거단지 곳곳에 흩어진 공유 공간의 네트워크를 목표로 했다.",
+        "티 하우스(수영장·폭포·캔틸레버 파빌리온), 웰 하우스(헬스·스파·배드민턴 코트), 팜 하우스(공용 주방과 **도시 농장**), 어린이와 노년층을 위한 **스카이 하우스**(놀이터·음악실·로프 클라이밍 타워)가 서로 연결된다. 앞의 세 곳은 2022년 문을 열었다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150569554/sn-hetta-completes-hong-kong-recreation-and-urban-farming-pavilion"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "오피스 · 상파울루",
+      "title": "정원 층이 둘로 나눈 타워 — 퍼킨스앤윌의 상파울루 '제로니무 파리아 리마'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/jeronimo-faria-lima-perkins-will-corporate-tower-sao-paulo-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "**퍼킨스앤윌**이 상파울루 파리아 리마 대로와 제로니무 다 베이가 거리 모서리에 오피스 타워를 완공했다. 중간의 **정원 층**이 수직 매스를 두 개의 적층 볼륨으로 나누고, 밀집한 도시에 식생을 끌어들인다.",
+        "지하 1층 **선큰 플라자**(카페·협업 공간)에서 보행자 다리를 건너 로비로 이어지는 진입 시퀀스가 거리와 건물을 부드럽게 잇는다. 유리 외피에는 **그래픽 패턴을 인쇄**해 수직선을 강조했고, 햇빛에 따라 외관이 달라진다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/garden-perkinswill-sao-paulo-office-tower-two-stacked-volumes-jeronimo-faria-lima/"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "주거 · 케이프타운",
+      "title": "강제 이주 60년 만의 귀환 — 디스트릭트 식스 반환 주택 108세대",
+      "image": "https://images.adsttc.com/media/images/6ac6/4bab/07c3/d100/017f/dd29/medium_jpg/01_-_Hero_Image.jpg?1791380427",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "자쿠파 아키텍츠가 케이프타운 도심에 토지 반환 청구인을 위한 **108세대**(연면적 **17,370㎡**)를 완공했다. 1966년 강제 이주 이전 디스트릭트 식스의 아늑한 가로와 활발한 공공 생활에서 영감을 얻었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186482/district-six-restitution-housing-jakupa-architects-and-urban-designers"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "스포츠·문화 · 체코",
+      "title": "도심 한가운데의 5,650석 — 지흘라바 시립 아레나",
+      "image": "https://images.adsttc.com/media/images/6abd/47bf/961f/6d01/8908/0f78/medium_jpg/jihlava-municipal-arena-chybik-plus-kristof_3.jpg?1790789629",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "히비크+크리슈토프가 설계공모로 따낸 아이스하키 홈구장이자 시민 허브. **5,650석**, 연면적 **25,000㎡**의 철골·콘크리트 건물로 2025년 완공됐다. 7층 지붕에는 러닝 트랙이 있다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186100/jihlava-municipal-arena-chybik-plus-kristof"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "공공공간 · 이탈리아",
+      "title": "참나무 50그루가 서는 포르피리 광장 — 기젤리니의 '포레스트 점프'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/ghisellini-architetti-public-square-madre-francesca-cabrini-italian-piazza-designboom-1800-2.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "롬바르디아 소도시의 마드레 프란체스카 카브리니 광장에 **참나무 50그루**를 7×7 격자로 심고 이탈리아산 포르피리 석재로 포장했다. 포장면에 모은 빗물은 지하 저류 시스템에 담아 나무와 잔디 관수에 재사용한다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/fifty-oak-trees-stone-paved-clearing-contemporary-italian-piazza-ghisellini-architetti/"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "교육 · 오스트리아",
+      "title": "목재와 유리로 이어붙인 마을 학교 — 슈트라덴 초등학교 증축",
+      "image": "https://images.adsttc.com/media/images/6ab6/47c9/e944/b300/0137/3aac/medium_jpg/1M9A8803.jpg?1790330853",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "강골리 & 크리스티너 아키텍츠가 오스트리아 슈트라덴 초등학교를 **1,530㎡** 규모로 증축·리노베이션해 2024년 완공했다. 목재와 유리를 주재료로 썼다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1185753/primary-school-straden-gangoly-and-kristiner-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "제도 · 조달청",
+      "title": "조달청, 평가위원 통합관리 규정 개정 — 사전접촉 조사 중 협상 정지, 전 분야 징계 이력 확인",
+      "body": [
+        "조달청이 10월 12일 「평가위원 통합관리 규정」 개정을 시행했다. 사전접촉 조사가 진행되는 동안 해당 평가위원과의 협상을 정지하고, 접촉이 확인되면 해촉한다. 공정성 항목 **2회** 또는 전체 **3회** 이상 미흡하면 **6개월** 협상 정지, 정지 2회면 해촉이다.",
+        "소속 기관 징계 이력 조회는 건설 분야에서 **모든 평가 분야**로 넓어졌다. 설계공모·용역 심사위원 풀을 쓰는 설계사무소는 평가 환경 변화를 눈여겨볼 만하다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21227"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "건축문화 · 인천",
+      "title": "건축으로 만나는 인천의 미래와 변화 — 인천건축문화제 16일 개막",
+      "image": "https://cdn.ancnews.kr/news/photo/202610/21230_24014_4628.png",
+      "image_label": "건축사신문",
+      "body": [
+        "제28회 인천건축문화제가 **10월 16~21일** 열린다. 주제는 '변화'. 개막식은 16일 오후 2시 인천문화예술회관 소공연장에서 열리며, 인천시 건축상 수상작 **9점**(대상 SML건축 임승모 건축사의 'ㅅㄱ' 등)과 인천 건축사 작품전, 신진건축상 작품을 전시한다.",
+        "올해 처음 국제 건축작품 전시와 인천 조각가협회 전시가 더해졌고, 건축 음악회와 실무 교육도 열린다. 관람은 매일 오전 10시~오후 6시, 무료·사전등록 없음."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21230"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "전시 · 김중업건축박물관",
+      "title": "한·프랑스 수교 140주년 — '주한프랑스대사관' 특별전 15일 개막",
+      "image": "https://cdn.ancnews.kr/news/photo/202610/21231_24015_525.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "김중업건축박물관이 **10월 15일**부터 주한프랑스대사관의 건축적 가치를 조명하는 특별전을 연다. 김중업 건축가와 초대 주한 프랑스 대사 로제 샹바르의 관계, 대사관 설계 과정을 다룬다.",
+        "르 코르뷔지에 아틀리에 시절 자료와 대사관 설계도면, 프랑스 국가공로훈장 등이 나오며, 전시는 **2027년 8월 말**까지 이어진다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21231"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "시민참여 · 수원",
+      "title": "종이상자로 세운 화홍문 — 수원지역건축사회와 시민 500명의 63회 수원화성문화제",
+      "image": "https://www.a-news.kr/news/photo/202610/13955_20124_1021.jpg",
+      "image_label": "건축사뉴스",
+      "body": [
+        "수원지역건축사회가 제63회 수원화성문화제에서 시민과 함께 종이상자 구조물 **'화홍문'**을 세웠다. 지난해 60% 크기의 '팔달문'에 이어 올해는 **80% 규모**로 키웠고, 일곱 홍예 위에 누각을 올려 처마 곡선까지 살렸다.",
+        "3월 기획위원회 구성, 7월 시민건축가 모집(만 7세 이상, 목표 약 **500명**), 10월 1~8일 모듈 제작 워크숍을 거쳐 9일 세웠다. 10일 제막식, 11일 해체 퍼포먼스로 마무리했다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13955"
+          }
+        ]
+      },
+      "src_date": "2026-10-12",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 양양",
+      "title": "의기양양 커뮤니티복합센터 건립사업 설계공모 — 공사비 201억, 10월 21일 등록 마감",
+      "body": [
+        "강원 양양군 양양읍 서문리 일원, 연면적 **3,949㎡**의 일반 설계공모. 공사비 **201억 원**(㎡당 510만 원), 설계비 8.8억 원이다. 참가등록은 **10월 21일**까지, 결과 발표는 12월 16일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18976"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 영월",
+      "title": "영월첨단소재센터 건립사업 설계공모 — 연면적 2,510㎡, 공사비 120억",
+      "body": [
+        "강원 영월군 산솔면 녹전리, 연면적 **2,510㎡**의 일반 설계공모. 공사비 **120억 원**(㎡당 478만 원), 설계비 6.6억 원이며 참가등록은 **10월 20일** 마감, 결과 발표는 12월 14일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18977"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 서울",
+      "title": "전농중 그린스마트 미래학교 개축 설계공모 — 연면적 1만 687㎡, 공사비 351억",
+      "body": [
+        "서울 동대문구 전농동 전농중학교 개축을 위한 일반 설계공모. 연면적 **10,687㎡**, 공사비 **351억 원**, 설계비 13.1억 원이다. 참가등록은 **10월 19일** 마감, 결과 발표는 12월 14일, 심사위원은 8인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18981"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "부안 청호수 스마트 복합쉼터 기본·실시설계 제안공모 — 공사비 43.2억",
+      "body": "전북 부안 하서면, 연면적 **606㎡** 관광휴게시설. 참가등록 **10월 19일** 시작, 심사위원 7인.",
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18983"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "설계공모"
+    },
+    {
+      "title": "양산동부경찰서 신설 신축 설계 제안공모 — 연면적 8,504㎡, 공사비 150억",
+      "body": "경남 양산 명동 일원. 참가등록 마감 **10월 19일**, 결과 발표 12월 9일 이내.",
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18975"
+          }
+        ]
+      },
+      "src_date": "2026-10-12",
+      "topic": "설계공모"
+    },
+    {
+      "title": "DPR, 콜로라도 카이저 퍼머넌트 2.3억 달러 병원 착공",
+      "body": "연면적 약 **12,300㎡** 3층. 철골·외피·MEP에 프리팹·모듈러 적용, 2028년 개원.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/dpr-breaks-ground-kaiser-permanente-project-colorado/832793/"
+          }
+        ]
+      },
+      "src_date": "2026-10-12",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "무학초 본관동 미래학교 공간재구조화 증축 설계공모 — 공사비 168억",
+      "body": "참가등록 마감 **10월 21일**. 주택폴리오 공고 기준.",
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18974"
+          }
+        ]
+      },
+      "src_date": "2026-10-12",
+      "topic": "설계공모"
+    },
+    {
+      "title": "진남롤러경기장 전천후시설·트랙 개보수 건축설계 제안공모 — 공사비 64.9억",
+      "body": "공고 10월 13일, 참가등록은 **10월 15일** 전후 시작(공고 목록 기준).",
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18980"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "설계공모"
+    },
+    {
+      "title": "2026 AR 에머징 어워즈 최종 후보 10개 사무소 발표",
+      "body": "중국·프랑스·**한국**·멕시코·폴란드·스페인·스위스·영국 사무소가 포함됐다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11159/10-promising-architecture-firms-shortlisted-for-2026-ar-emerging-awards"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "수상"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "big-tirana-fountain-plaza",
+      "tag": "COMPETITION",
+      "title": "BIG, 티라나 분수 광장 공모 당선",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "tirana albania",
+      "slides": [
+        {
+          "heading": "건물을 들어 올려\n광장을 돌려준다",
+          "body": "BIG의 티라나 '분수 광장' 당선안"
+        },
+        {
+          "heading": "WHAT",
+          "body": "알바니아 티라나 분수 광장 국제 설계공모에서 BIG이 당선됐다. 건물 볼륨을 높이 띄워 1층을 걸어서 지나는 공원형 공공 공간으로 비운다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "가늘고 촘촘한 기둥 위에 반투명 파사드의 볼륨이 얹힌다. 상층부는 층마다 뒤로 물러나 채광과 식재 공간을 만든다."
+        },
+        {
+          "heading": "PROGRAM",
+          "body": "열린 도서관과 커뮤니티 시설, 지붕이 있는 공공 강당. 건물 아래를 지나는 시민의 동선이 곧 공공 공간이 된다."
+        },
+        {
+          "heading": "CITY",
+          "body": "인접 도로를 보행자 전용으로 바꾸고, 공원을 주변으로 넓히며, 옆 운하를 미기후 요소로 끌어들인다."
+        }
+      ]
+    },
+    {
+      "slug": "arch-policy-design-fee",
+      "tag": "POLICY",
+      "title": "건축정책 20년, 민간 설계대가 기준이 온다",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "architect blueprint",
+      "slides": [
+        {
+          "heading": "건축정책 20년\n설계대가는 어디까지 왔나",
+          "body": "국회입법조사처 보고서가 짚은 성과와 과제"
+        },
+        {
+          "heading": "NEW RULE",
+          "body": "건축사법 제19조의3 개정으로 민간 발주자도 공공 공사의 업무범위·대가 기준을 쓸 수 있다. 시행은 2027년 3월 18일."
+        },
+        {
+          "heading": "CONTRACT",
+          "body": "보고서는 건축법 제15조상 표준계약 의무화와, 허가 신청 시 표준계약서 제출을 제안했다."
+        },
+        {
+          "heading": "DATA GAP",
+          "body": "설계비·기간·인력 같은 산업 통계가 비어 있다. 승인통계와 전수조사는 아직 이뤄지지 않았다."
+        },
+        {
+          "heading": "BUDGET",
+          "body": "건축문화 진흥 예산은 2018년 7.9억 원에서 2021년 72억 원으로 출렁였다. 보고서는 R&D·인재 양성·기록 사업으로 넓히라고 권고한다."
+        }
+      ]
+    },
+    {
+      "slug": "district-six-housing",
+      "tag": "HOUSING",
+      "title": "강제 이주 60년 만의 귀환, 108세대",
+      "ref": {
+        "section": "intl_grid",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "cape town",
+      "slides": [
+        {
+          "heading": "강제 이주 60년\n돌아오는 사람들",
+          "body": "케이프타운 디스트릭트 식스 반환 주택"
+        },
+        {
+          "heading": "WHAT",
+          "body": "자쿠파 아키텍츠가 케이프타운 도심에 토지 반환 청구인을 위한 108세대를 완공했다. 연면적 17,370㎡."
+        },
+        {
+          "heading": "MEMORY",
+          "body": "1966년 강제 이주 이전 디스트릭트 식스의 아늑한 가로와 활발한 공공 생활, 긴밀한 공동체 유대가 설계의 출발점이다."
+        },
+        {
+          "heading": "BUILD",
+          "body": "유리·철골·콘크리트로 지었고, 아파트와 로우하우스가 섞여 있다. 조경은 CNDV, 시공은 Haw & Inglis."
+        }
+      ]
+    }
+  ]
+}
