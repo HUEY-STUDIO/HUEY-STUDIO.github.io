@@ -1,0 +1,515 @@
+{
+  "vol": "VOL.01  NO.060",
+  "editor": "HUEY",
+  "outlets": [
+    "Archinect",
+    "Designboom",
+    "ArchDaily",
+    "Construction Dive",
+    "Bustler",
+    "건축사신문",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "Carter Manny 어워드 2026",
+      "desc": "그레이엄 재단, 건축 연구자 수상자 발표",
+      "label": "AWARDS"
+    },
+    {
+      "title": "Icon, 2억 달러 투자 유치",
+      "desc": "다층 3D 프린팅 로봇 '타이탄' 양산 자금",
+      "label": "TECH"
+    },
+    {
+      "title": "서울교대 도서관 개축 제안공모",
+      "desc": "공사비 173억, 10월 19일 등록 마감",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "설계의도 구현 대가 16% 제안",
+      "desc": "건축사협회 연구, 해외 평균 수준",
+      "label": "POLICY"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "게리의 마지막 로스앤젤레스 작품, 핑크빛 콜번 신관이 2027년 9월 문을 연다",
+    "lede_em": "핑크빛 콜번 신관",
+    "image": "https://archinect.gumlet.io/uploads/23/237cd9a8d2120099b80dadd3e9704d99.jpg?fit=crop&auto=compress&format=&enlarge=true&crop=faces&w=1200&h=707",
+    "image_label": "ARCHINECT",
+    "caption": "프랭크 게리가 설계 중인 콜번 캠퍼스 신관 ⓒ Archinect",
+    "body": [
+      "프랭크 게리(Gehry Partners)가 설계한 다운타운 LA 콜번 캠퍼스 확장동이 **2027년 9월 25일** 개관한다. 연면적 약 **10만 평방피트**, 월트디즈니 콘서트홀과 더 그랜드가 이웃한 그랜드 애비뉴 문화 클러스터의 마지막 퍼즐로, 게리의 다운타운 LA 마지막 작품으로 소개된다.",
+      "유리와 불투명 볼륨이 맞물려 대지를 따라 단차를 두며 내려앉는 구성이다. 2020년 초기 렌더링보다 한결 절제된 형태이며, 유리로 감싼 큰 출입구가 볼륨들을 잇고 지상과 옥상에 정원이 놓인다. 외장은 게리 파트너스와 셔윈-윌리엄스가 고광택 자동차 도장에서 착안해 공동 개발한 불소수지 마감 **'핑크 칸디(Pink Kandi)'** 다.",
+      "중심은 **1,000석** 규모의 테리 앤드 제리 콜 홀이다. 원형(in the round) 배치가 가능하고, 관객과 연주자 위에 조절식 음향 요소가 매달린다. 오케스트라·오페라·무용·재즈를 모두 소화하도록 설계됐고 음향은 나가타 어쿠스틱스, 극장 컨설팅은 TheatreDNA가 맡았다.",
+      "무용 센터에는 프로 규격 스튜디오 **4개**와 **100석** 스튜디오 극장이 들어선다. 구조체 실질 준공은 2027년 여름, 무용 센터는 2027–28 학년도에 문을 열며, 개관 주간에는 공연 축제가 열린다."
+    ],
+    "source": {
+      "outlet": "Archinect",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://archinect.com/news/article/150569017/peek-inside-frank-gehry-s-colburn-expansion-under-construction-in-downtown-la"
+        }
+      ]
+    },
+    "src_date": "2026-10-07",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "'설계의도 구현' 법적 근거는 있으나 현장 정착은 제자리 — 대가 기준 16% 제안",
+    "body": [
+      "공공건축은 「건축서비스산업진흥법」 제22조에 따라 설계공모로 발주한 경우 설계자를 건축 과정에 참여시켜야 하고, 민간건축은 허가권자가 감리자를 지정하는 건축물에 한해 「건축법」상 설계자 참여 계획서·계약서를 내야 한다. 그러나 예산 누락과 대가 산정의 어려움, 공사감리와의 역할 중복 인식으로 정착이 더디다."
+    ],
+    "facts": [
+      "근거: 건축서비스산업진흥법 제22조, 국토부 「공공건축 설계의도 구현 업무수행지침」",
+      "해외 대가율: 미국 **13%**, 영국 **15%**, 프랑스 **23%**, 독일 **9.6%**, 일본 **20.5%**",
+      "국내 선행연구: 2015년 **8%**, 2020년 **10.15%**",
+      "연구 제안: 설계비 대비 **16%** 수준 (확정 요율 아님)"
+    ],
+    "body_after": [
+      "연구는 설계의도 구현을 감리의 중복이 아닌 상호보완 업무로 정립하고, 계약예규·예산편성 지침 반영과 표준품셈 마련, 표준 업무계획서·계약서 도입을 제언했다. 서울시립 마포실버케어센터, 춘천시청사가 설계자 참여로 설계 취지를 지킨 사례로 꼽혔다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.ancnews.kr/news/articleView.html?idxno=21234"
+        }
+      ]
+    },
+    "src_date": "2026-10-14",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "CONSTRUCTION TECH",
+      "title": "3D 프린팅 건설 선두 Icon, 시리즈 D로 2억 달러 — 다층 로봇 '타이탄' 양산",
+      "image": "https://imgproxy.divecdn.com/jloI_ViuwG4Va27tkMzM-2ZXDPK3sG1eSO1smU8zQDk/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9pY29uLXRpdGFuLWF0LXJuZC1wcmludGxhbmQtZmFjaWxpdHktYXVzdGluLXR4LTEuanBn.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "텍사스의 건설 3D 프린팅 기업 Icon이 베일리 기포드와 블랙록 운용 펀드 주도로 **2억 달러** 시리즈 D를 유치했다. 자금은 다층 로봇 프린터 **'타이탄(Titan)'** 생산과 오스틴의 대규모 R&D 시설 개설에 쓰인다.",
+        "타이탄은 정가 **89만 9,000달러**, 출력 높이 약 **27피트**다. Icon은 지금까지 5개 주·2개국에서 **270여 채**를 지었고, 올해 1월 미 육군과 포트블리스 병영 10동(**6,280만 달러**)을 출력하는 계약도 따냈다. 출력 재료 포름크리트(FormCrete)는 세제곱야드당 620달러다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/3d-printing-giant-icon-raises-funding/833001/"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "MEMORIAL · 재난과 기억",
+      "title": "272명을 기리는 브루마지뉴 추모관 — 유족과 함께 만든 1,220㎡",
+      "image": "https://images.adsttc.com/media/images/6acf/8ec6/b2c4/c300/0178/f330/newsletter/02_Pedro_Mascaro_DJI_20250221081134_0859_D.jpg?1791987438",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "브라질 미나스제라이스 브루마지뉴, 코헤구두페이정 광산 댐 붕괴 현장에 구스타부 페나 건축사무소(Gustavo Penna Arquiteto e Associados)가 추모관을 완공했다. 연면적 **1,220㎡**, 희생자 **272명**을 기린다.",
+        "프로젝트는 유가족의 동원에서 출발해 유족과 함께 개발됐다. 애도의 공간이자 개인의 이야기를 보존하는 곳, 성찰과 교육, 망각에 맞서는 저항의 장소를 지향한다. 크리스털 조각, 인공 호수와 습지, 전망대 등이 프로그램에 포함된다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186835/brumadinho-memorial-gustavo-penna-arquiteto-e-associados"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "재난유산"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "MILITARY · 산업시설",
+      "title": "노스럽 그러먼·공군, 45억 달러 B-21 조립 라인 착공",
+      "image": "https://imgproxy.divecdn.com/FYsqzkKm4JzNQZgARqai91m9PHLkfwvtXFlVwaGa2Vs/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8yNjA5MjktRi1GMzIyNy01MTI2LmpwZWc=.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "캘리포니아 팜데일 공군 플랜트 42에 B-21 레이더 스텔스 폭격기 최종 조립 라인이 착공했다. **100만 평방피트** 이상이 추가되며 총 투자는 **45억 달러**로, 재원은 ‘One Big Beautiful Bill’이다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/northrop-grumman-air-force-expansion-plant-42/832833/"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "SCHOOL · 독일",
+      "title": "고가교 철거 콘크리트를 되쓴 빌른스도르프 초등학교",
+      "image": "https://images.adsttc.com/media/images/6ac7/f66c/b2c4/c300/0178/e3a1/newsletter/09__SebastianSchels.jpg?1791491626",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "BUERO BB가 독일 서부 숲 비탈에 연면적 **4,600㎡** 초등학교·체육관을 지었다. 목재, 지역산 프리캐스트 콘크리트, 인근 고가교 철거에서 나온 재활용 콘크리트를 한 덩어리의 콤팩트한 학습 건물로 묶었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186599/wilnsdorf-primary-school-and-sports-hall-buero-bb"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "FACADE · 노르웨이",
+      "title": "지그재그 태양광 파사드로 연 10만 kWh — 하우게순 브라이다블릭 오피스",
+      "image": "https://images.adsttc.com/media/images/6ac2/fc1f/27ac/8d01/89cb/b5b2/newsletter/geometry-that-generates-energy-the-solar-facade-of-breidablikk-garden-norway_28.jpg?1791163453",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "아스플란 비아크(Asplan Viak) 설계, 솔라랩(SolarLab) 파사드. 동·서면에 남향으로 기울인 PV 패널이 창마다 최대 **30cm**씩 들락거리는 지그재그를 이루고, 파사드에서만 연 약 **10만 kWh**를 생산한다. BREEAM-NOR Excellent를 획득했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186285/geometry-that-generates-energy-the-solar-facade-of-breidablikk-garden-norway"
+          }
+        ]
+      },
+      "src_date": "2026-10-12",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HOUSE · 벨기에",
+      "title": "CLT 볼륨 네 개를 사흘 만에 조립 — 코크세이데의 '하우스 오브 카드'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/house-of-cards-coastal-residence-koksijde-belgium-vantieghem-talebi-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "반티헴 탈레비(Vantieghem Talebi)가 기존 기초의 비대칭 십자형을 따라 프리패브 CLT 볼륨 **4개**를 현장에서 **사흘** 만에 조립했다. 더글러스 퍼 루버 외장과 열회수 환기, 빗물 재사용, 복원한 사구 조경이 더해졌다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/four-pitched-roof-volumes-timber-clad-coastal-house-of-cards-belgium/"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "제도 · 행복청",
+      "title": "행복청, 제11기 기술자문위원 모집 — 건축계획 분야 15명 내외",
+      "body": [
+        "행정중심복합도시건설청이 **225명** 이내, 21개 분야 기술자문위원을 모집한다. 건축계획 분야는 **15명** 내외다. 접수 마감은 **11월 2일 17시**, 이메일 접수만 가능하다.",
+        "임기는 2027년 1월 1일부터 2년이며 1회 연임할 수 있다. 건축사 자격자, 조교수급 이상, 박사 3년·석사 9년 이상 경력자 등 9가지 요건 중 하나를 충족해야 한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21235"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 제안공모",
+      "title": "서울교육대학교 도서관 개축사업 제안공모 — 공사비 173억, 10월 19일 등록 마감",
+      "body": [
+        "서울 서초구 서초동 1650, 연면적 **4,480㎡** 교육연구시설. 예정 공사비 **173억**, 설계비 **9.2억**. 참가등록 마감은 **10월 19일**, 결과 발표는 **11월 27일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18986"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 제안공모",
+      "title": "대구한의대 글로컬대학30 컨벤션센터 설계 제안공모 — 공사비 500억",
+      "body": [
+        "경북 경산 삼성캠퍼스 부지, 연면적 **17,700㎡**. 예정 공사비 **500억**, 설계비 **22.5억**. 참가등록 **10월 23일**, 결과 발표 **12월 15일**."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18984"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 일반공모",
+      "title": "수성구 농악 전수교육관 건립 설계공모 — 대구 삼덕동, 공사비 58.1억",
+      "body": [
+        "대구 수성구 삼덕동 360-4 외환들주차장 부지, 연면적 **1,500㎡** 문화및집회시설. 예정 공사비 **58.1억**, 참가등록은 **10월 21일** 시작, 심사위원 7인, 결과 발표 **12월 16일**."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18991"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 제안공모",
+      "title": "(가칭)청평초 어울림 문화센터 건립 설계공모 — 연면적 9,789㎡, 공사비 117억",
+      "body": [
+        "경기 가평 청평면 잠곡로 27. 예정 공사비 **117억**, 설계비 **5억**. 참가등록은 **10월 15일**부터 **22일**까지, 심사위원 11인, 결과 발표 **11월 27일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18978"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 간이공모",
+      "title": "창원충혼탑 봉안각 지상 건립 설계공모 — 400㎡, 공사비 17.9억",
+      "body": [
+        "경남 창원 성산구 대원동 504, 연면적 **400㎡**. 간이공모로 예정 공사비 **17.9억**, 설계비 **8,880만 원**. 참가등록 **10월 21일** 시작, 결과 발표 **12월 21일**."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18992"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "Carter Manny 2026 — 건축 연구 신진 학자 수상자 발표",
+      "body": "그레이엄 재단. 집필상 **2.5만 달러** 보응예진(토론토대), 연구상 **2만 달러** 멜리나 구라이(노스웨스턴대) 외 인용 4명.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11160/emerging-architectural-scholars-recognized-with-graham-foundation-s-2026-carter-manny-awards"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "수상"
+    },
+    {
+      "title": "미 교통부, 교통 사업 보조율에 혼인·출산율 반영 추진",
+      "body": "FTA 자본투자보조금 지침안. 혼인·출산율이 전국 평균 이상이면 각각 **5%p** 가산. 의견 접수 **11월 16일**까지.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/dot-funding-construction-marriage-birth-rates/832874/"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "제도규제"
+    },
+    {
+      "title": "The Oak Moon Pavilion 아이디어 공모",
+      "body": "Bustler 게재. 등록 **2026년 11월 5일**, 제출 **2027년 3월 1일**.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://bustler.net/competitions/10598/the-oak-moon-pavilion"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "2027 Skyscraper Competition 접수",
+      "body": "eVolo 고층 건축 아이디어 공모. 등록 **2027년 2월 23일**, 제출 **3월 9일**.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://bustler.net/competitions/10678/2027-skyscraper-competition"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "1983년 목욕탕을 남성 전용 시설로 — 오사카 '시즈노유 후쿠시마'",
+      "body": "MABI ARCHITECTS. 다케하라 요시지의 원래 곡면과 타일을 최대한 살리고 냉탕·사우나·바를 더했다.",
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/renewed-1983-bathhouse-japan-tilework-curved-interiors-mabi-architects-shizunoyu-fukushima/"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "건축 보존의 거장 도널드 인설 경, 100세로 별세",
+      "body": "영국 보존 건축의 대표 인물. 그가 세운 Donald Insall Associates는 유산 복원 분야를 이끌어왔다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "부고",
+            "url": "https://www.archdaily.com/1186771/sir-donald-insall-architect-and-figure-in-modern-architectural-conservation-passes-away-at-100"
+          }
+        ]
+      },
+      "topic": "재난유산"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "gehry-colburn-expansion",
+      "tag": "PROJECT",
+      "title": "게리의 마지막 LA 작품, 콜번 신관",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "walt disney concert hall gehry",
+      "slides": [
+        {
+          "heading": "게리의 마지막\nLA 작품",
+          "body": "2027년 9월 개관하는 콜번 캠퍼스 신관"
+        },
+        {
+          "heading": "WHAT",
+          "body": "다운타운 LA 그랜드 애비뉴에 들어서는 약 10만 평방피트 확장동. 월트디즈니 콘서트홀 옆에 놓이는 게리의 마지막 다운타운 작품이다."
+        },
+        {
+          "heading": "FORM",
+          "body": "유리와 불투명 볼륨이 맞물려 대지를 따라 단차를 두며 내려앉는다. 2020년 초기안보다 절제된 형태다."
+        },
+        {
+          "heading": "SKIN",
+          "body": "외장은 고광택 자동차 도장에서 착안해 셔윈-윌리엄스와 개발한 '핑크 칸디'. 지상과 옥상에는 정원이 놓인다."
+        },
+        {
+          "heading": "HALL",
+          "body": "1,000석 콜 홀은 원형 배치가 가능하고 조절식 음향 요소가 천장에 매달린다. 무용 스튜디오 4개와 100석 극장도 함께 들어선다."
+        }
+      ]
+    },
+    {
+      "slug": "design-intent-fee",
+      "tag": "POLICY",
+      "title": "설계의도 구현, 대가 16%는 적정한가",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "architect construction site blueprint",
+      "slides": [
+        {
+          "heading": "설계는 이러지\n않았는데?",
+          "body": "설계의도 구현이 현장에 정착하지 못하는 이유"
+        },
+        {
+          "heading": "WHY",
+          "body": "시공 중 자재 수급과 시공성 때문에 설계가 바뀌지만 설계자가 대안 검토에서 빠지면 완성도가 떨어진다."
+        },
+        {
+          "heading": "LAW",
+          "body": "공공건축은 건축서비스산업진흥법 제22조, 민간은 건축법상 설계자 참여 계획서가 근거다. 그러나 예산 누락이 잦다."
+        },
+        {
+          "heading": "FEE",
+          "body": "미국 13%, 영국 15%, 프랑스 23%, 독일 9.6%, 일본 20.5%. 해외 평균 약 16%이며 연구는 16%를 제안했다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "계약예규와 예산편성 지침 반영, 표준품셈과 표준 계약서 마련이 과제다. 감리와는 중복이 아닌 상호보완으로 정립해야 한다."
+        }
+      ]
+    },
+    {
+      "slug": "brumadinho-memorial",
+      "tag": "MEMORIAL",
+      "title": "브루마지뉴 추모관",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "memorial brazil minas gerais",
+      "slides": [
+        {
+          "heading": "272명을\n기억하는 건축",
+          "body": "브라질 브루마지뉴 추모관"
+        },
+        {
+          "heading": "WHERE",
+          "body": "코헤구두페이정 광산 댐 붕괴 현장에 들어선 연면적 1,220㎡ 추모관. 설계는 구스타부 페나 건축사무소."
+        },
+        {
+          "heading": "WITH FAMILIES",
+          "body": "유가족의 동원에서 출발해 유족과 함께 개발했다. 애도와 교육, 망각에 맞서는 저항의 공간을 지향한다."
+        },
+        {
+          "heading": "SPACE",
+          "body": "크리스털 조각, 인공 호수와 습지, 전망대가 프로그램을 이룬다."
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "total": 20,
+    "intl": 14,
+    "kr": 6
+  }
+}
