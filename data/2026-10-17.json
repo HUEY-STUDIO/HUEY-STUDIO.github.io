@@ -1,0 +1,587 @@
+{
+  "vol": "VOL.01  NO.062",
+  "editor": "HUEY",
+  "counts": {
+    "total": 23,
+    "intl": 16,
+    "kr": 7
+  },
+  "outlets": [
+    "ArchDaily",
+    "Designboom",
+    "Archinect",
+    "Construction Dive",
+    "건축사신문",
+    "건축사뉴스",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "AR 에머징 어워즈 2026",
+      "desc": "프랑스 Atelier Julien Boidot 수상",
+      "label": "AWARDS"
+    },
+    {
+      "title": "ESS 시설 분류 기준 일원화",
+      "desc": "인허가 2~4개월→0.5~1.5개월 단축 기대",
+      "label": "POLICY"
+    },
+    {
+      "title": "광주극장 등 4건 문화유산 등록 예고",
+      "desc": "30일 의견 수렴 후 최종 결정",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "미 건설 자재가 연 11.2% 상승",
+      "desc": "거의 4년 만의 최대 상승폭",
+      "label": "INDUSTRY"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 프로젝트",
+    "lede": "180m 거울 벽이 세토 내해를 두 배로 — 반 시게루의 '시모세 미술관 & 오베르주'",
+    "lede_em": "180m 거울 벽",
+    "image": "https://images.adsttc.com/media/images/6ac5/00c9/90e2/9d01/89d2/e43b/newsletter/simose-museum-and-auberge-shigeru-ban-architects_16.jpg?1791295705",
+    "image_label": "ARCHDAILY",
+    "caption": "일본 오타케의 시모세 미술관 & 오베르주 ⓒ Hiroyuki Hirai / ArchDaily",
+    "body": [
+      "일본 오타케, 세토 내해를 마주한 **4.6ha** 부지에 반 시게루 건축사무소(Shigeru Ban Architects)가 설계한 **시모세 미술관 & 오베르주(SIMOSE Museum & Auberge)**가 ArchDaily에 소개됐다. 연면적은 **7,421㎡**, 2023년 완공작으로 미술관과 빌라형 숙소 **10채**, 레스토랑으로 구성된다.",
+      "건축의 중심은 해안선과 나란히 선 **길이 180m, 높이 8.5m**의 거울 유리벽이다. 벽면에 비친 바다와 하늘이 풍경을 두 배로 보이게 만드는 장치로, 방문객은 반사된 수평선을 따라 걸으며 건물에 들어선다.",
+      "빌라는 '이중 지붕의 집', '벽 없는 집', '십자 벽의 집', '가구의 집', '종이의 집', '킬슈테크 하우스' 등 서로 다른 여섯 가지 유형으로 풀렸다. 주요 재료는 목재·강재·콘크리트이며, 시공은 미술관을 가지마, 빌라를 다이와건설이 맡았다.",
+      "구조·토목은 KAP과 료마 무라타 빌딩 스튜디오, 조경은 Earthscape, 조명은 Lumimedia Lab, 빌라 텍스타일은 NUNO가 참여했다. 단일 건물이 아니라 풍경 속 여러 건물의 조합으로 호스피탈리티와 전시를 엮은 사례다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1186422/simose-museum-and-auberge-shigeru-ban-architects"
+        }
+      ]
+    },
+    "src_date": "2026-10-16",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://cdn.a-news.kr/news/photo/202610/13978_20195_3843.jpg",
+    "image_label": "건축사뉴스",
+    "title": "옥외 ESS 시설, 건축물·가설건축물·공작물 분류 기준 전국 일원화 — 인허가 기간·비용 대폭 감축",
+    "body": [
+      "기후에너지환경부와 국무조정실은 국토교통부와 협의해 에너지저장장치(ESS) 시설물의 분류 기준 가이드라인을 마련하고 **10월 15일**부터 전국 지자체에 전달했다. 그동안 옥외 ESS는 지자체마다 건축물, 가설건축물, 공작물로 제각각 분류돼 인허가 절차와 기간, 비용이 들쭉날쭉했다."
+    ],
+    "facts": [
+      "건축물로 분류 시: 인허가 약 **2~4개월**, 비용 약 **3,000만~8,000만 원**",
+      "공작물로 분류 시: 약 **0.5~1.5개월**, 약 **200만~1,000만 원** (건폐율·용적률 등 건축 기준 적용 제외)",
+      "내부 출입이 불가한 밀폐형 유닛: **공작물**",
+      "점검·유지보수용 제한적 출입: **가설건축물**",
+      "상시 출입 가능한 비컨테이너형: **건축물**로 제안"
+    ],
+    "body_after": [
+      "가이드라인은 건축법 제2조 외에 사람의 출입 가능성과 구조·용도를 함께 따지며, 인허가 담당자가 쓸 판단 도표를 제공한다. 부처는 현장 이행 상황을 점검하고 관계 기관과 추가 규제 이슈도 풀 계획이다."
+    ],
+    "source": {
+      "outlet": "건축사뉴스",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.a-news.kr/news/articleView.html?idxno=13978"
+        }
+      ]
+    },
+    "src_date": "2026-10-16",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "도시 · 그리스 공개공모 당선",
+      "title": "70여 개 유적을 하나의 보행망으로 — 테살로니키 '아르모시' 마스터플랜",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/armosi-masterplan-apostolopoulos-tasoulis-expandable-urban-network-thessaloniki-greece-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "아포스톨로풀로스 타술리스(Apostolopoulos Tasoulis)가 그리스 테살로니키의 **70여 개** 기념물·고고학 유적을 하나로 잇는 '아르모시(Armosi)' 마스터플랜으로 공개공모 1등에 올랐다. 주관은 Anaplasi consulting engineers, 협력은 그리스 문화부와 테살로니키시다.",
+        "로마·비잔틴·오스만·유대·근현대 층위를 하나의 공공 경관으로 묶고, 유네스코 역사도시경관(HUL) 접근을 따른다. 밝은 포장과 통일된 조명·사인·가로시설로 중립적인 바탕을 깔고, 로툰다와 갈레리우스 복합단지에서 제국의 축을 복원한다.",
+        "기존 녹지를 확장한 연속 녹지 회랑을 지하철·대중교통과 연결해 차량이 줄어든 보행로로 만든다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/thessaloniki-greece-layered-historic-center-expandable-pedestrian-network-armosi-masterplan-apostolopoulos-tasoulis/"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "도서관 · 미국 오리건",
+      "title": "집성목 3개 층, 10만 평방피트 — 벤드 스티븐스 랜치 중앙도서관",
+      "image": "https://images.adsttc.com/media/images/6acf/e41e/b2c4/c300/0178/f467/newsletter/FyV4SfJA.jpg?1792009345",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "미국 오리건주 벤드의 스티븐스 랜치에 밀러헐 파트너십(Miller Hull Partnership)과 스틸 어소시에이츠가 설계한 **중앙도서관**이 2026년 완공됐다. 규모는 **10만 평방피트(약 9,300㎡)**, 3개 층이다.",
+        "집성목(mass timber) 구조를 전면에 내세운 건물은 학습·창작·코워킹·커뮤니티를 한 지붕 아래 모으고, 연구하는 사람부터 독서, 코딩하는 이용자까지 서로 다른 집단을 모두 수용하도록 짰다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186856/central-library-at-stevens-ranch-miller-hull-partnership-plus-steele-associates-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "공원 · 포르투갈",
+      "title": "쓸모 없던 2만㎡ 땅이 도심 공원으로 — 곤도마르 어반 파크",
+      "image": "https://images.adsttc.com/media/images/6ad0/ff2f/aadf/a000/01e3/a58c/medium_jpg/20240524-PAULO-MERLINI-PARQUE-URBANO-GONDOMAR-004.jpg?1792081732",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "파울루 메를리니 건축사무소가 포르투갈 곤도마르 상 코즈메 중심부의 약 **2만㎡** 부지에 여가·레크리에이션과 연계한 넓은 녹지의 도시공원을 조성했다. 당시 뚜렷한 용도가 없던 땅이다. 2023년 완공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186962/gondomar-urban-park-paulo-merlini-arquitetos"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "학교 · 인도",
+      "title": "고밀도 대지 위 6층 '학교 속의 학교' — 시티 프라이드 스쿨",
+      "image": "https://images.adsttc.com/media/images/6acc/fe20/c599/0e01/8860/0e4e/medium_jpg/city-pride-school-a-threshold_18.jpg?1791819332",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "인도 핌프리-친츠와드(푸네)의 A Threshold가 공간이 부족한 도심 대지에 **6층** 학교를 지었다. '학교 속의 학교' 개념으로 규모를 아늑하게 쪼개 자기완결적인 교육 환경과 공동체 의식을 노렸다. 2025년 완공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186698/city-pride-school-a-threshold"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "파빌리온 · 미국 피츠버그",
+      "title": "카니발 관문에서 동네 찻집으로 — '프레임 투 폴리'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/frame-to-folly-modular-timber-pavilion-pittsburgh-architectural-crafts-collective-partlab-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "카네기멜런대 학생 설계·시공 단체 Architectural Crafts Collective와 PARTlab이 만든 모듈식 목재 파빌리온이다. 수직 목재 프레임 사이 밝은 **주황색** 패널이 좌석·테이블·등받이·차양으로 쓰이며, 탈착 가능한 철물로 고정돼 장소와 용도에 따라 재구성된다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/frame-to-folly-carnival-gateway-neighborhood-teahouse-pittsburgh-architectural-crafts-collective-partlab/"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해설 · 바르셀로나",
+      "title": "1987년부터 바뀐 해안 — 바르셀로나 워터프런트는 누구의 것인가",
+      "image": "https://images.adsttc.com/media/images/6acd/2a16/7887/fb01/8910/69ed/newsletter/transforming-barcelonas-waterfront-a-historical-overview-of-urban-renewal_7.jpg?1791830558",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "1980년대까지 철도·공장·비공식 주거지가 막고 있던 바르셀로나 해안은 **1987년** Port Vell 계획과 **1992년** 올림픽을 거치며 산책로와 해변으로 바뀌었다. 20세기 중반 이곳에 살던 약 **1만 5,000명**의 이주 문제와 연 약 **3만㎥**의 모래 유실, 2025년 크루즈터미널 3곳 철거 계획까지 짚는다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186700/transforming-barcelonas-waterfront-a-story-of-urban-renewal"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "도시재생"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "문화유산 · 등록 예고",
+      "title": "광주극장·구 대전공회당 등 4건 국가등록문화유산 등록 예고",
+      "image": "https://cdn.a-news.kr/news/photo/202610/13981_20198_504.png",
+      "image_label": "건축사뉴스",
+      "body": [
+        "국가유산청이 「구 유유산업 안양공장」, 「광주극장」, 「구 대전공회당」, 「제주 모슬포 알뜨르비행장 일제 비행기 격납고」 4건의 등록을 예고하고 **30일** 의견 수렴에 들어갔다. 이후 국가유산위원회가 최종 결정한다.",
+        "유유산업 공장은 1950년대 말 형성된 제약 산업 시설로 건축가 **김중업**이 설계했다. 광주극장은 **1935년** 개관해 광주에 남은 유일한 단관극장이고, 구 대전공회당은 1930년대 지은 철근콘크리트 모더니즘 건물로 원형 복원을 조건으로 한다. 알뜨르 격납고는 기존 **10기**에 **8기**가 더해져 18기가 된다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13981"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "기획연재 · 영국 건축 산책",
+      "title": "가장 친환경적인 건물은 '이미 지어진 건물'이다 — 런던의 철거 억제 제도",
+      "image": "https://cdn.ancnews.kr/news/photo/202610/21274_24069_1551.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "영국건축사 손원일이 건축사신문 연재에서 영국 상업용 오피스가 평균 **30~45년** 만에 철거되는 현실과, 이를 억제하는 런던시의 순환경제 선언문 제도를 소개했다. 일정 규모 이상 개발은 철거 필요성과 리모델링 불가 사유를 입증해야 하고, 내재탄소를 정량 비교해야 한다.",
+        "영국은 개발 후 생물다양성 가치를 개발 전보다 최소 **10%** 늘리는 의무(BNG)도 법제화했다. 필자는 한국 정책이 운영 탄소와 ZEB 점수에 치우쳐 있다고 비판한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21274"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "행사 · 경북",
+      "title": "2026 경상북도건축문화의날, 안동문화예술의전당에서 4일간",
+      "image": "https://cdn.ancnews.kr/news/photo/202610/21270_24064_2127.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "경상북도와 안동시가 주최하고 경북건축사회가 주관한 행사가 10월 1일부터 4일까지 안동문화예술의전당에서 열렸다. 전시·강연·체험 프로그램으로 구성됐다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21270"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 전남",
+      "title": "화순제일중 공간재구조화 개축 제안공모 — 연면적 3,235㎡, 공사비 86.7억",
+      "body": [
+        "전남 화순읍 칠충로에 중학교를 개축하는 제안공모다. 연면적 **3,235㎡**, 예정 공사비 **86.7억 원**, 설계비 **3.7억 원**.",
+        "참가등록 마감은 **10월 30일**, 결과는 11월 27일 전후로 알려졌다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18999"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 인천",
+      "title": "(가칭)계양2유치원 신축 설계 일반 설계공모 — 공사비 129억",
+      "body": [
+        "인천 계양구 계산동 1079-1에 유치원을 신축하는 일반 설계공모다. 연면적 **6,568㎡**, 예정 공사비 **129억 원**, 설계비 **6.3억 원**.",
+        "참가등록 마감은 **10월 23일**, 결과 발표는 12월 22일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18996"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 성남",
+      "title": "단대초 공간재구조화 개축 및 리모델링 설계공모 — 공사비 154억",
+      "body": [
+        "경기 성남시 수정구 단대동 77 초등학교의 개축·리모델링 제안공모다. 연면적 **9,850㎡**, 예정 공사비 **154억 원**, 설계비 **7.2억 원**.",
+        "참가등록은 10월 26일 마감, 결과 발표는 12월 2일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18998"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 순창",
+      "title": "쉴랜드 쉴스테이 조성사업 설계 제안공모 — 숙박시설 7,651㎡",
+      "body": [
+        "전북 순창군 인계면에 숙박시설을 짓는 제안공모다. 연면적 **7,651㎡**, 예정 공사비 **28.8억 원**, 설계비 **2억 원**, 심사위원 8인.",
+        "참가등록 마감은 **10월 23일**, 결과 발표는 11월 27일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/18994"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "2026 AR 에머징 어워즈, 프랑스 Atelier Julien Boidot 수상",
+      "body": "심사단은 물량산출가·엔지니어·인테리어 디자이너를 사내에 둔 '영리한 실무 모델'을 평가했다. 특별언급은 Rodríguez + De Mitri, 피터 데이비 상은 A-A Collective.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11163/atelier-julien-boidot-wins-2026-ar-emerging-award-with-savvy-model-for-practice"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "수상"
+    },
+    {
+      "title": "WMF '2027 워치' 추천 372건 — 긴축·기후·기술 인력 부족이 3대 위협",
+      "body": "**84개** 국가·지역에서 접수됐다. 기후를 가장 큰 문제로 꼽은 비율이 54%로 급증했고, 최종 **25곳**은 2027년 2월 발표된다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186995/world-monuments-watch-2027-nominations-point-to-government-austerity-climate-impact-and-skills-shortages-as-main-threats-to-heritage"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "재난유산"
+    },
+    {
+      "title": "미 건설 자재가 9월 연 11.2% 상승 — 거의 4년 만의 최대 폭",
+      "body": "ABC가 PPI를 분석한 결과 이란 분쟁발 연료비와 관세가 원인이다. 시공사 4곳 중 1곳 넘게 향후 6개월 이익률 축소를 예상한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/construction-prices-jumped-annually-september/833217/"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "조지워싱턴 다리 보수 11개 사업 중 8번째 완료 — 총 20억 달러",
+      "body": "스칸스카가 맡은 **4억 5,200만 달러** 규모 서스펜더 로프 교체 등 13년짜리 보수 사업이 진행 중이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/nyc-george-washington-bridge-rehab-completes-8th-11-projects/833265/"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "오클라호마시티 NBA 아레나, 콘크리트 데크 공사 착수",
+      "body": "플린트코-모텐슨 JV가 **9억 달러** 규모 아레나의 콘크리트 데크 작업을 시작했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/flintco-mortenson-jv-concrete-oklahoma-city-nba-arena/833271/"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "Re:Paris Prize — 탈식민 도시의 '회복적 도시주의' 공모, 11월 22일 마감",
+      "body": "반 앨런 인스티튜트가 2026 범아프리카 비엔날레 참가자 중 아프리카 기반 2명과 미국 기반 1명을 선정한다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11165/new-architecture-and-design-competitions-skyscraper-competition-re-paris-prize-paul-gunther-prize-and-sofia-school-expansion"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "설계공모"
+    },
+    {
+      "title": "폴 건서 포용적 공공공간상 — 뉴욕 대상 제안, 상금 2만 달러",
+      "body": "개인·팀 누구나 연구·설계 제안·정책 권고로 응모할 수 있다. 등록·제출 마감은 **12월 16일**.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11165/new-architecture-and-design-competitions-skyscraper-competition-re-paris-prize-paul-gunther-prize-and-sofia-school-expansion"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "설계공모"
+    },
+    {
+      "title": "소피아 윌리엄 글래드스턴 종합학교 신학술동 국제 공개공모",
+      "body": "학습 자원 확충과 단일 교대 수업 전환을 위한 개념 설계다. 등록 **2027년 1월 27일**, 제출 2월 1일.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11165/new-architecture-and-design-competitions-skyscraper-competition-re-paris-prize-paul-gunther-prize-and-sofia-school-expansion"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "설계공모"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "simose-shigeru-ban-mirror-wall",
+      "tag": "PROJECT",
+      "title": "180m 거울 벽, 반 시게루의 시모세",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "seto inland sea japan coast",
+      "slides": [
+        {
+          "heading": "세토 내해를\n두 배로 만드는 벽",
+          "body": "반 시게루의 시모세 미술관 & 오베르주"
+        },
+        {
+          "heading": "WHERE",
+          "body": "일본 오타케, 세토 내해를 마주한 4.6ha 부지. 연면적 7,421㎡에 미술관과 빌라 10채, 레스토랑을 앉혔다."
+        },
+        {
+          "heading": "MIRROR",
+          "body": "해안선과 나란히 선 길이 180m, 높이 8.5m의 거울 유리벽이 풍경을 두 배로 보이게 한다."
+        },
+        {
+          "heading": "VILLAS",
+          "body": "이중 지붕, 벽 없는 집, 종이의 집 등 여섯 가지 유형으로 풀어낸 빌라형 숙소."
+        },
+        {
+          "heading": "TEAM",
+          "body": "시공은 가지마와 다이와건설, 구조는 KAP과 료마 무라타. 2023년 완공작이다."
+        }
+      ]
+    },
+    {
+      "slug": "heritage-4-registration-notice",
+      "tag": "HERITAGE",
+      "title": "광주극장·구 대전공회당 등 문화유산 등록 예고",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "korean traditional architecture old building",
+      "slides": [
+        {
+          "heading": "근대 건축 4건\n문화유산 등록 예고",
+          "body": "국가유산청, 30일간 의견 수렴"
+        },
+        {
+          "heading": "유유산업 안양공장",
+          "body": "1950년대 말 형성된 제약 산업 시설. 건축가 김중업이 설계했다."
+        },
+        {
+          "heading": "광주극장",
+          "body": "1935년 개관해 광주에 남은 유일한 단관극장으로 지금도 시민들이 찾는다."
+        },
+        {
+          "heading": "구 대전공회당",
+          "body": "1930년대 철근콘크리트 모더니즘 건물. 원형 복원을 조건으로 등록이 추진된다."
+        },
+        {
+          "heading": "알뜨르 격납고",
+          "body": "기존 10기에 8기가 더해져 18기. 강제노역의 역사가 깃든 현장이다."
+        }
+      ]
+    },
+    {
+      "slug": "thessaloniki-armosi-masterplan",
+      "tag": "URBAN",
+      "title": "테살로니키, 70여 유적을 잇는 보행망",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "commons_photos": [
+        "File:Rotunda of Galerius (February 2009).jpg"
+      ],
+      "photo_query": "thessaloniki greece",
+      "slides": [
+        {
+          "heading": "70여 유적을\n하나의 길로",
+          "body": "테살로니키 '아르모시' 마스터플랜"
+        },
+        {
+          "heading": "WHO",
+          "body": "아포스톨로풀로스 타술리스가 그리스 문화부·테살로니키시 주관 공개공모에서 1등을 차지했다."
+        },
+        {
+          "heading": "LAYERS",
+          "body": "로마·비잔틴·오스만·유대·근현대 층위를 유네스코 역사도시경관 접근으로 하나의 공공 경관에 묶는다."
+        },
+        {
+          "heading": "DETAIL",
+          "body": "밝은 포장과 통일된 조명·사인·가로시설로 중립적인 바탕을 만들고, 로툰다 일대에서 제국의 축을 복원한다."
+        },
+        {
+          "heading": "GREEN",
+          "body": "연속 녹지 회랑을 지하철·대중교통과 연결해 차량이 줄어든 보행로를 만든다."
+        }
+      ]
+    }
+  ]
+}
