@@ -1,0 +1,569 @@
+{
+  "vol": "VOL.01  NO.063",
+  "editor": "HUEY",
+  "counts": {
+    "total": 22,
+    "intl": 14,
+    "kr": 8
+  },
+  "outlets": [
+    "ArchDaily",
+    "Designboom",
+    "Archinect",
+    "Construction Dive",
+    "건축사신문",
+    "건축사뉴스",
+    "주택폴리오",
+    "Bustler"
+  ],
+  "teasers": [
+    {
+      "title": "2026 Design for Aging",
+      "desc": "모건주립대 'Common Ground' 1위",
+      "label": "AWARDS"
+    },
+    {
+      "title": "애드벤트헬스 콜로라도 병원",
+      "desc": "150병상·4.75억 달러, 터너-FH 착공",
+      "label": "CONSTRUCTION"
+    },
+    {
+      "title": "The Architect's Chair",
+      "desc": "의자 공모, 제출 2027년 1월 5일",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "부산 하얀지붕 사업",
+      "desc": "폭염 취약 36개소에 쿨루프",
+      "label": "URBAN"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 공연장",
+    "lede": "흰 지붕이 나선으로 올라 옥상까지 시민에게 열린다 — 스뇌헤타의 상하이 대극장 개관",
+    "lede_em": "옥상까지 시민에게 열린다",
+    "image": "https://static.designboom.com/wp-content/uploads/2026/10/snohetta-shanghai-grand-opera-house-spiraling-staircase-public-rooftop-designboom-2.jpg",
+    "image_label": "DESIGNBOOM",
+    "caption": "상하이 대극장, 황푸강변 ⓒ Snøhetta",
+    "body": [
+      "스뇌헤타(Snøhetta)가 설계한 **상하이 대극장(Shanghai Grand Opera House)**이 **10월 17일** 문을 열었다. 황푸강 연안, 엑스포 후탄(Expo Houtan) 지구와 공원이 이어지는 자리에 연면적 **146,786㎡**로 들어섰다.",
+      "극장은 공연장 세 곳, 총 **4,200석**으로 구성된다. 5개 층으로 짙은 붉은색 내부를 두른 **하모니 홀(Harmony Hall) 2,000석**, **소어 극장(Soar Theatre) 1,200석**, 좌석과 무대 구성을 바꿀 수 있는 **오픈 스테이지(Open Stage) 1,000석**이다. 음향 컨설팅은 나가타 어쿠스틱스(Nagata Acoustics)가 맡았다.",
+      "건물의 가장 큰 특징은 지붕이다. 흰색 곡선 지붕이 나선형으로 솟아오르고, 나선형 계단을 따라 지상에서 옥상까지 오를 수 있다. 옥상은 전망대이자 비공식 무대, 연중 모임 공간으로 쓰이며 **입장권 없이** 이용할 수 있다.",
+      "설계진은 이 건물을 세계 수준의 공연예술 공간과 누구나 접근할 수 있는 공공 영역을 한데 묶은 '열린 문화 경관(open cultural landscape)'이라 설명한다. 공연을 보지 않는 시민에게도 건물 전체를 도시의 일부로 내어준 셈이다."
+    ],
+    "source": [
+      {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/snohetta-shanghai-grand-opera-house-spiraling-staircase-public-rooftop/"
+          }
+        ]
+      },
+      {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186819/shanghai-grand-opera-house-snohetta"
+          }
+        ]
+      }
+    ],
+    "src_date": "2026-10-17",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "건축 품격 높이려면 설계의 가치부터 — 입법조사처 '건축정책 20년 성과와 과제'",
+    "body": [
+      "국회입법조사처가 10월 8일 건축기본법·건축서비스산업진흥법 시행 20년을 돌아본 보고서를 냈다. 설계 실무와 직결되는 대목은 민간 설계 대가와 계약이다."
+    ],
+    "facts": [
+      "통계: 설계비·기간·인력에 관한 공식 통계 없음 — 건축산업 정의와 생애주기 기초 데이터 구축 필요",
+      "예산: 건축문화 진흥 예산 **2018년 약 7.9억 원 → 2021년 72억 원**, 지속 사업 지원은 고르지 않음",
+      "대가: 민간 사업 설계 대가 기준이 없어 최저가 계약이 굳어진다고 진단",
+      "제안: 영국 RIBA **8단계** 표준계약을 참고해 업무범위·대가 기준 정립, 표준계약서를 건축허가 때 제출"
+    ],
+    "body_after": [
+      "보고서는 지원이 공모·공공건축가 사업에 치우쳤다며, 통계와 기록물 구축까지 아우르는 장기 지원을 권고했다."
+    ],
+    "source": {
+      "outlet": "건축사뉴스",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.a-news.kr/news/articleView.html?idxno=13971"
+        }
+      ]
+    },
+    "src_date": "2026-10-15",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "해안 마스터플랜 · 인도",
+      "title": "단절된 해안선을 하나의 산책로로 — 구자라트 두마스 해변 마스터플랜",
+      "image": "https://images.adsttc.com/media/images/6abe/c5f7/07c3/d100/017f/c996/medium_jpg/Dumas_Sea_Face_Masterplan-01.jpg?1790887454",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "INI 디자인 스튜디오(INI Design Studio)가 인도 구자라트주 수라트 인근 두마스 해안에 **1,020,618㎡** 규모의 해안 마스터플랜을 완공했다.",
+        "단절돼 활용도가 낮던 해안선을 하나로 이어 연속된 해변 산책 공간으로 만들고, 생태·시민 생활·도시 정체성이 만나는 공공 공간으로 재구성했다. 도시와 바다를 다시 연결하는 것이 목표다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186210/dumas-sea-face-masterplan-ini-design-studio"
+          }
+        ]
+      },
+      "src_date": "2026-10-17",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "보존 · 뉴욕",
+      "title": "뉴욕 플라자 호텔, 2027년 1월부터 최소 4년 휴업 — 랜드마크 외벽 보수",
+      "image": "https://imgproxy.divecdn.com/a47tIygFgPaumBzdmdmKNknWpr777nwPiSbcWDCgCjU/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy01MTE2MDkyMy5qcGc=.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "1907년 문을 연 맨해튼의 **플라자 호텔(The Plaza)**이 **2027년 1월**부터 **최소 4년간** 문을 닫고 랜드마크로 보호받는 외벽을 보수한다. 호텔 측은 전체 공사 범위와 복잡성을 아직 검토 중이라고 밝혔다.",
+        "운영상 큰 지장이 불가피하고 이해관계자와의 세부 조율, 역사 보존 규정 준수가 필요하다는 이유다. 연회장과 팜코트(Palm Court) 레스토랑도 1월에 닫으며, 고급 콘도 입주자의 이주 여부는 분명치 않다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/plaza-hotel-nyc-closure-facade-restoration/833216/"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "주거 · 포르투",
+      "title": "배치 자체가 패시브 전략 — 포르투 '파드레 루이스 카브랄' 공동주택",
+      "image": "https://images.adsttc.com/media/images/6ac0/188a/07c3/d100/017f/cd7e/medium_jpg/hori-zonteCoralFN0000-HEAD.jpg?1790974130",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "오리존트(Hori-zonte)가 포르투에 지은 **870㎡**, 3층 규모의 공동주택이다. 일사 방향, 맞통풍, 프라이버시, 자연과의 연결을 건물 배치 단계에서 함께 풀어 수동형 전략을 평면에 녹였다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186822/padre-luis-cabral-building-hori-zonte"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "인테리어 · 상파울루",
+      "title": "곡선과 흙빛으로 빚은 215㎡ — 카자코르 상파울루 'MAGMA House'",
+      "image": "https://images.adsttc.com/media/images/6ad1/15a9/aadf/a000/01e3/a5c9/newsletter/00__foto_de_capa__Suite_CasaCor_2026_SF_Fotos_Pedro_Ocanhas42.jpg?1792087616",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스위트(SUITE)가 카자코르 상파울루 2026의 주제 '마음과 심장(Mind and Heart)'에 맞춰 만든 **215㎡** 주거 공간이다. 곡선 형태, 촉각적 질감, 흙빛 색조로 따뜻함과 내면 성찰의 분위기를 만들었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187028/magma-house-suite"
+          }
+        ]
+      },
+      "src_date": "2026-10-17",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "바이오소재 · 파빌리온",
+      "title": "균사체 모듈이 방문자의 움직임을 빛과 소리로 — 하이파-루메 파빌리온",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/hypha-lume-adaptive-modular-pavilion-mycelium-human-movement-light-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "균사체(mycelium) 기반 생체소재 모듈로 만든 조립식 파빌리온이다. **20°·40°·60°** 곡률의 모듈 세 종을 수직 지지대 둘레에 이어 현장 조건에 맞춰 형태를 바꿀 수 있다.",
+        "센서가 방문객의 이동·멈춤·모임을 읽어 실시간 빛과 소리로 바꾸고, 밤에는 앞선 활동의 흔적을 외벽에 투사한다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/mycelium-hypha-lume-pavilion-human-movement-light/"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "에세이 · 건축과 종말론",
+      "title": "벙커와 방주 — 우리가 만든 미래에서 탈출하려는 건축",
+      "image": "https://images.adsttc.com/media/images/6abe/e95c/87ec/5401/8809/f797/newsletter/bunkers-and-arks-escaping-the-future-we-built-ourselves_6.jpg?1790896479",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "미사일 사일로를 개조한 캔자스의 '서바이벌 콘도'(**15층**, 5년치 식량·연료), 사우스다코타의 Vivos xPoint 같은 사례로 부유층의 생존주의 건축을 짚는다.",
+        "글은 이런 구조물 대부분이 군사시설의 적응형 재사용에서 왔다는 점을 지적하며, 벙커 대신 기후 대응과 공존으로 종말을 늦춰야 한다고 말한다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186212/bunkers-and-arks-escaping-the-future-we-built-ourselves"
+          }
+        ]
+      },
+      "src_date": "2026-10-17",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 신진 건축사",
+      "title": "윤학용 건축사 \"아이디어와 디자인 중심의 공정한 경쟁 기회 마련돼야\"",
+      "body": [
+        "공공 입찰과 설계공모의 참가자격이 최근 수년간 실적·일정 규모 이상 수행 경험을 요구해 신진 건축사에게 높은 문턱이 된다는 지적이다. 개소한 지 얼마 안 된 소규모 사무소는 설계 역량이 있어도 참가 자격조차 얻기 어렵다고 말했다.",
+        "사업 성격에 따라 실적 기준이 필요할 수 있음은 인정하되, 실무 중심 교육 확대도 협회에 주문했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21255"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "지역 · 공공기관 이전",
+      "title": "대구건축사회 \"2차 공공기관 이전, 공정한 원칙으로 신속히\" 성명",
+      "body": [
+        "대구광역시건축사회는 10월 13일 성명에서 정부의 2차 공공기관 이전을 국가균형발전의 핵심 정책으로 규정하고, 공정하고 합리적인 원칙에 따라 서두르라고 촉구했다.",
+        "대구가 제조업 기반 위에 AI·로봇·미래모빌리티·헬스케어·반도체로 전환 중이라며, 공간 전문가로서 이전 과정에 적극 참여하겠다고 밝혔다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21259"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "시론 · 건축사사무소",
+      "title": "장롱 산업의 쇠퇴에서 건축사사무소의 생존을 묻다",
+      "body": [
+        "붙박이장이 장롱 수요를 줄였듯, 비용 절감만으로는 시장 변화에 답할 수 없다는 시론이다. 소규모 사무소가 매입 전 부동산 검토, 리모델링·단계별 컨설팅, 상가 공간계획 같은 유상 서비스로 영역을 넓히자고 제안한다.",
+        "컨설팅은 설계 수주용 무상 서비스가 되어선 안 되며, 현장 방문 전에 업무범위와 대가를 합의하고 협회가 표준계약·교육·책임보험을 지원해야 한다고 주장한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21264"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "도시재생 · 부산",
+      "title": "부산건축사회 '하얀지붕 설치 지원사업' — 폭염 취약 36개소에 쿨루프",
+      "body": [
+        "부산광역시건축사회가 부산시와 함께 폭염에 취약한 주거환경을 개선하고 탄소중립을 지원하는 '2026 하얀지붕 설치 지원사업'을 진행했다. 규모는 **36개소**다.",
+        "노루페인트가 차열 도료를 기부하고 BNK부산은행이 후원금을, 대한적십자사가 행정을 지원했으며 한국생산성본부인증원이 사업 효과를 검증한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21266"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "포럼 · 부산",
+      "title": "초고령도시 부산의 주거 대안 — 건축사회, 비엔나 사회주택 모델 논의",
+      "body": [
+        "부산광역시건축사회가 부산대 건설관 대강당에서 '초고령도시 부산의 주거 대안 모색' 포럼을 열었다. 시민의 **70% 이상**이 사회주택에 사는 오스트리아 비엔나 사례를 바탕으로, 공공이 고품질의 저렴한 주거를 어떻게 공급할지 논의하고 '부산형' 대안을 찾았다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21265"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "행사 · 강원",
+      "title": "2026 강원건축문화제 횡성서 5일간 — 건축사·건축직 공무원 350여 명 참석",
+      "body": [
+        "강원특별자치도건축사회가 **10월 7~11일** 횡성에서 강원건축문화제를 열었다. 개막식에는 김재록 대한건축사협회장 등 내빈 20여 명과 도내 건축사·시군 건축직 공무원 **350여 명**이 참석했다. 강원 건축의 가치를 알리고 지역 공간과 건축의 미래를 함께 생각하자는 취지다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21267"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 전남 나주",
+      "title": "국립목포대 GSP 교육·연구·산학협력 공간 재조성 설계 제안공모 — 공사비 17.7억",
+      "body": [
+        "나주 혁신산단1길의 교육·연구 시설 **4,160㎡**를 재조성하는 제안공모다. 공사비 **17.7억 원**, 설계비 **9,271만 원**, 심사위원 5인이며 참가등록은 **10월 19일** 시작, 결과는 **11월 4일** 발표한다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/18982"
+          }
+        ]
+      },
+      "src_date": "2026-10-13",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 강원 강릉",
+      "title": "동부지방산림청 관사 신축 기본·실시설계 간이공모 — 공사비 28.2억",
+      "body": [
+        "강릉 홍제동 1032-3에 공동주택 관사 **664㎡**를 짓는 간이공모다. 공사비 **28.2억 원**, 설계비 **1.3억 원**, 심사위원 7인이며 참가등록은 **10월 21일** 시작, 결과는 **11월 27일** 발표한다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/18987"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "The Architect's Chair — 건축가의 사고를 담은 의자 공모",
+      "body": "Buildner·스톡홀름 가구박람회 협력, 총상금 8,000유로. 등록 12월 3일, 제출 2027년 1월 5일, 당선작 일부 박람회 전시.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://bustler.net/competitions/10576//the-architect-s-chair-stockholm-furniture-fair-edition"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "설계공모"
+    },
+    {
+      "title": "뉴욕 로체스터 High Falls 리버프론트 마켓 공모",
+      "body": "Genesee 협곡변 Smokestack Portal 부지. 총상금 1만 달러, 제출 2027년 1월 18일.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://bustler.net/competitions/10546//new-york-high-falls-riverfront-market"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "설계공모"
+    },
+    {
+      "title": "2026 Design for Aging — 모건주립대 'Common Ground' 1위",
+      "body": "AIA·ACSA 주최, 대학 연계 세대 통합 주거 과제. 2위 오클라호마주립대, 3위 텍사스공대.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11162/student-designs-for-multi-generational-living-honored-at-2026-design-for-aging-competition"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "수상"
+    },
+    {
+      "title": "테네시대 의대 학제간 건물 3.5억 달러 착공 — 2029년 준공",
+      "body": "멤피스, 연면적 30만 ft². 주 지원금 3.11억 달러, 시공 Flintco·설계 HOK.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/university-tennessee-breaks-ground-college-medicine-memphis/833095/"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "애드벤트헬스 콜로라도 병원 착공 — 150병상, 터너·FH JV",
+      "body": "루이빌 40에이커 캠퍼스, 5층 37.3만 ft². 보도된 공사비 4.75억 달러, 2029년 초 준공.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/turner-fh-joint-venture-adventhealth-hospital-colorado/833167/"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "'2026 서울, 건축산책' 수상작 설명회 — 서울시건축사회, 시민 50명 참석",
+      "body": "'우리동네 좋은 집, 좋은 건축사를 만나다'를 주제로 공모 결과와 수상작의 건축적 의미를 시민과 나눴다.",
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21261"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "수상"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "snohetta-shanghai-grand-opera",
+      "tag": "PROJECT",
+      "title": "상하이 대극장, 옥상까지 열린 4,200석",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "shanghai huangpu river",
+      "slides": [
+        {
+          "heading": "옥상까지\n시민에게 열린 극장",
+          "body": "스뇌헤타의 상하이 대극장 개관"
+        },
+        {
+          "heading": "WHERE",
+          "body": "황푸강변 엑스포 후탄 지구. 연면적 146,786㎡로 10월 17일 문을 열었다."
+        },
+        {
+          "heading": "HALLS",
+          "body": "하모니 홀 2,000석, 소어 극장 1,200석, 가변형 오픈 스테이지 1,000석. 총 4,200석이다."
+        },
+        {
+          "heading": "ROOF",
+          "body": "흰 곡선 지붕이 나선으로 솟고, 계단으로 옥상까지 오른다. 입장권 없이 쓰는 전망대이자 무대다."
+        },
+        {
+          "heading": "IDEA",
+          "body": "공연 예술과 누구나 접근 가능한 공공 영역을 한데 묶은 '열린 문화 경관'을 내세운다."
+        }
+      ]
+    },
+    {
+      "slug": "nars-architecture-policy-20y",
+      "tag": "POLICY",
+      "title": "건축정책 20년, 입법조사처의 진단",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "seoul architecture city",
+      "slides": [
+        {
+          "heading": "건축정책 20년,\n무엇이 비었나",
+          "body": "국회입법조사처 보고서의 세 가지 제안"
+        },
+        {
+          "heading": "DATA",
+          "body": "설계비·기간·인력에 관한 공식 통계가 없다. 건축산업의 정의와 생애주기 기초 데이터가 먼저다."
+        },
+        {
+          "heading": "BUDGET",
+          "body": "건축문화 진흥 예산은 2018년 약 7.9억 원에서 2021년 72억 원으로 늘었지만 지속 사업 지원은 고르지 않다."
+        },
+        {
+          "heading": "FEE",
+          "body": "민간 설계 대가 기준이 없어 최저가 계약이 굳는다. 업무범위와 대가 기준 정립이 필요하다."
+        },
+        {
+          "heading": "CONTRACT",
+          "body": "영국 RIBA의 8단계 표준계약을 참고해 표준계약서를 건축허가 때 제출하도록 하자는 제안이다."
+        }
+      ]
+    },
+    {
+      "slug": "busan-white-roof",
+      "tag": "URBAN",
+      "title": "부산 36개소, 지붕을 하얗게",
+      "ref": {
+        "section": "korea",
+        "index": 3
+      },
+      "bg": 2,
+      "photo_query": "white rooftop city heat",
+      "slides": [
+        {
+          "heading": "지붕을 하얗게,\n폭염을 식히다",
+          "body": "부산건축사회 '하얀지붕 설치 지원사업'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "폭염에 취약한 주거환경을 개선하고 탄소중립을 지원하는 쿨루프 사업. 규모는 36개소다."
+        },
+        {
+          "heading": "WHO",
+          "body": "건축사회와 부산시가 이끌고, 노루페인트가 차열 도료를, BNK부산은행이 후원금을 냈다."
+        },
+        {
+          "heading": "HOW",
+          "body": "대한적십자사가 행정을 맡고, 한국생산성본부인증원이 사업 효과를 검증한다."
+        }
+      ]
+    }
+  ]
+}
