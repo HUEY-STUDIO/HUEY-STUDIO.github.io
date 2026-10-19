@@ -1,0 +1,556 @@
+{
+  "vol": "VOL.01  NO.065",
+  "editor": "HUEY",
+  "counts": {
+    "total": 22,
+    "intl": 14,
+    "kr": 8
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "Designboom",
+    "Bustler",
+    "Construction Dive",
+    "건축사뉴스",
+    "건축사신문",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "OMA 릴 법원",
+      "desc": "보방 요새 옆에 색유리 육각 법원 준공",
+      "label": "COMPLETED"
+    },
+    {
+      "title": "키퍼 전용 파빌리온",
+      "desc": "치퍼필드가 높이 11m 그림 한 점을 위해 지은 집",
+      "label": "PAVILION"
+    },
+    {
+      "title": "용인시 건축허가 안내문",
+      "desc": "3개 구청 표준서식 통일, 착공신고는 안전 중심",
+      "label": "REGULATION"
+    },
+    {
+      "title": "국립공원 팔공산 서부",
+      "desc": "신설 사무소 설계공모, 10월 26일 등록 마감",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 공공건축",
+    "lede": "보방의 별 모양 요새 옆에 색유리 다면체가 올랐다 — OMA의 릴 법원",
+    "lede_em": "색유리 다면체",
+    "image": "https://static.dezeen.com/uploads/2026/10/palais-de-justice-de-lille-oma-architecture-france_dezeen_2364_hero2-852x479.jpg",
+    "image_label": "DEZEEN",
+    "caption": "프랑스 릴 법원 전경 ⓒ François-Xavier Gbré",
+    "body": [
+      "OMA가 프랑스 북부 릴에 **법원(Palais de Justice)**을 준공했다. 릴의 고등법원과 지방법원을 한 건물에 담은 법무부 발주 시설로, OMA는 **2018년 설계 공모**에서 당선됐고 당초 준공 목표는 2023년이었다.",
+      "평면은 뾰족한 **육각형**이고 입면은 모두 **색유리**로 마감했다. 부지는 **1667년 보방이 세운 별 모양 요새**와 맞닿은 녹지로, 인근 성채의 면 분할을 유리 다면체로 다시 해석했다.",
+      "건물은 세 덩어리로 나뉜다. 시민이 오르내리는 **기단부**에는 주요 법정이 들어가고, 그 위 **삼각형 중앙 타워**에는 소규모 법정이 놓인다. 타워를 두른 **다면체 사무 링**은 내부 깊숙이 빛을 끌어들인다.",
+      "덩어리마다 재료와 공간 성격은 다르지만 밝은 마감재와 가구로 하나로 묶었다. OMA는 법원이 주는 위압감을 덜어내는 데 초점을 맞췄다고 설명한다. 지상에는 공공 광장을, 옥상에는 도시를 내려다보는 정원을 마련했다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/10/19/oma-palais-de-justice-de-lille/"
+        }
+      ]
+    },
+    "src_date": "2026-10-19",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "용인시, 건축허가·신고 안내문 통일 — 구청마다 달랐던 기준 하나로",
+    "body": [
+      "용인특례시는 구청별로 제각각이던 건축허가·건축신고 안내기준을 통일하고 불필요한 내용을 덜어낸 새 안내문을 18일 발표했다. **처인·기흥·수지구** 3개 구청이 같은 표준안을 쓴다."
+    ],
+    "facts": [
+      "서식: 건축허가와 건축신고의 절차 차이를 반영해 **표준서식을 각각 분리**",
+      "착공신고 안내: 현장 안전관리 중심으로 재구성 — 추락·낙하물 예방, 굴착·흙막이 등 공종별 수칙, 보행자·인근 주민 보호, 악천후 대응, 비상연락·사고 조치 포함",
+      "공사 표지판: 최소 **가로 420mm × 세로 594mm** 이상, '용인시 공사안내표시 디자인 가이드라인' 적용"
+    ],
+    "body_after": [
+      "시행일은 기사에 명시되지 않았다. 용인 관내 허가·착공 업무를 하는 설계·감리 실무자는 표지판 규격과 안전 안내 항목을 미리 확인해 둘 만하다."
+    ],
+    "source": {
+      "outlet": "건축사뉴스",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.a-news.kr/news/articleView.html?idxno=13983"
+        }
+      ]
+    },
+    "src_date": "2026-10-19",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "MUSEUM · 독일",
+      "title": "높이 11m 그림 한 점을 위한 집 — 치퍼필드의 키퍼 파빌리온",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/david-chipperfield-architects-anselm-kiefer-pavillon-studio-menges-tugushi-germany-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "데이비드 치퍼필드 아키텍츠가 독일 퀸첼자우의 뷔르트 미술관 조각 정원에 안젤름 키퍼의 《Schwarze Flocken》(2007)만을 위한 **140㎡ 콘크리트 파빌리온**을 지었다. 그림은 **높이 11m, 너비 7m** 이상으로 뷔르트 컬렉션의 키퍼 작품 중 가장 크며, 10월 13일 일반에 공개됐다.",
+        "외벽은 거친 **보석 다듬질 콘크리트**이고 내부는 노출 목재 보와 천창으로 채웠다. 콘크리트 뒤에 벽돌을 쌓고 안쪽을 점토 플라스터로 마감했으며, 능동 공조 없이 동결을 막는 온도만 유지한다. 비례와 개구부 위치, 벽 색은 키퍼가 직접 정했다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/anselm-kiefer-monumental-painting-pavilion-david-chipperfield-schwarze-flocken/"
+          }
+        ]
+      },
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HERITAGE · 미국",
+      "title": "라이트가 남긴 유일한 천문관, 2004년 폐쇄 뒤 복원",
+      "image": "https://static.dezeen.com/uploads/2026/10/planetarium-frank-lloyd-wright-florida-southern-college_dezeen_2364_hero-852x479.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "플로리다 사우던 칼리지의 프랭크 로이드 라이트 설계 **천문관**이 복원을 마쳤다. 라이트가 설계한 유일한 천문관으로, 투사 시스템이 멈춘 **2004년** 이후 대부분 닫혀 있었다. 외부 공사는 **2021년**, 내부 공사는 **2023년**에 시작됐다.",
+        "지붕과 플래싱, 파손된 스터코를 교체하고 둘레의 수제 타일 **280개 이상**을 새로 만들었다. 내부는 짙은 파랑 벽과 '체로키 레드' 바닥을 되살리고 1980년대 컴퓨터실을 철거했으며, 합판·비닐 좌석은 원래 원형 배열로 복원했다. 캠퍼스는 2012년 국가역사랜드마크로 지정됐다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/10/15/florida-southern-college-frank-lloyd-wright-planetarium-restoration/"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "재난유산"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "SCHOOL · 이탈리아",
+      "title": "천공 알루미늄 외피 속 2층 높이 '아고라' — 사르데냐 시나이 학교",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/leicho-architettura-via-caravaggio-school-sinnai-sardinia-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "Leicho architettura가 사르데냐 시나이에서 노후 건물을 헐고 2층 학교를 지었다. 외피는 미세 천공 주름 알루미늄 패널이고, 중심은 **계단식 좌석이 있는 2층 높이 아고라**다. 가변 벽 너머 음악실이 붙고 교실과 실험실이 둘레를 감싼다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/sardinian-school-perforated-aluminum-facade-flexible-agora-leicho-architettura/"
+          }
+        ]
+      },
+      "src_date": "2026-10-18",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "CAMPUS · 캐나다",
+      "title": "UBC 캠퍼스 입구에 목재와 유리 — SHL의 맥아이작 보건동",
+      "image": "https://images.adsttc.com/media/images/6acf/5e19/b2c4/c300/0178/f2a9/medium_jpg/412007_000_N89_highres.jpg?1791975001",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "Schmidt Hammer Lassen Architects가 밴쿠버 UBC 포인트 그레이 캠퍼스 입구에 **25,000㎡** 규모 맥아이작 보건동을 2026년 준공했다. 포용성과 지속가능성, 학생 웰빙을 목표로 목재와 유리를 주재료로 썼고, Perkins&Will 등이 참여했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186815/macisaac-health-building-shl"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "COAST · 인도",
+      "title": "맹그로브는 방파제가 아니다 — 인도 해안 보호와 도시 개발",
+      "image": "https://images.adsttc.com/media/images/6ad1/77aa/c720/ac01/8896/25e3/newsletter/the-mangrove-as-a-wall-coastal-protection-and-urban-development-in-india_11.jpg?1792112571",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "맹그로브는 뿌리와 가지로 물의 흐름을 늦추지만 제방을 **대체하지는 못한다**. 광역 뭄바이에서는 1973년 이후 맹그로브의 **36%**가 도시 토지로 바뀌었고, 2012~2022년 복원에 **500만 달러** 이상이 들어갔다. 식생 면적 회복만으로 조수·퇴적 기능 회복이 입증되지는 않는다는 지적이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186718/the-mangrove-as-a-wall-coastal-protection-and-urban-development-in-india"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "OFFICE · 태국",
+      "title": "헌 쌀 협동조합 목재로 지은 바닷가 사무실 — 분섬 프렘타다의 카오락",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/boonserm-premthada-bangkok-project-studio-coastal-office-thailand-reclaimed-timber-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "Bangkok Project Studio가 태국 카오락에 Matalay 사무실 'Traces by the Sea'를 지었다. 연면적 **440.7㎡**, 데크로 이은 목조 4동이다. 파타룽의 옛 쌀 협동조합과 팡아의 목조 학교에서 회수한 목재, 대나무 트레이 차양, **코끼리 분변 벽돌**을 썼다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/boonserm-premthada-bangkok-project-studio-coastal-office-thailand-reclaimed-timber/"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "건축문화 · 경남",
+      "title": "2026 경남건축문화제 10월 28일 진주시청에서 — 주제 'Re:act'",
+      "body": [
+        "경상남도건축사회가 **10월 28일~11월 1일** 5일간 진주시청에서 경남건축문화제를 연다. 주제는 'Re:act(함께하는 미래)'이며 **3개 부문 6개 섹션 21개 전시 프로그램**으로 꾸린다. 개막일에는 경상남도가 공공건축의 현황과 비전을 다루는 공공건축 포럼을 연다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21276"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건설기술 · 국토교통부",
+      "title": "전국 730만 동 건물 에너지 데이터를 한곳에 — 건설연 '데이터넷' 구축",
+      "body": [
+        "한국건설기술연구원이 전국 약 **730만 동** 건물의 에너지 사용량을 행정데이터와 연결한 '데이터넷'을 15일 발표했다. 행정데이터 17종 중 **13종**을 연계했고 평균 매칭률은 **94.8%**다. 월별 사용량을 난방·냉방·기저부하로 나누고 형태·그늘 지수와 기온 민감도를 계산한다.",
+        "국토교통부가 지원하는 2023년 4월~2026년 12월 사업으로 16개 기관, 연구자 130여 명이 참여했다. 결과는 학술지 Energy & Buildings에 실렸다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13979"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "건축사회 · 경북",
+      "title": "경북건축사회, 봉화군수와 간담회 — 건축행정 개선과 지역 건축문화 지원 논의",
+      "body": [
+        "경상북도건축사회는 9월 28일 최기영 봉화군수와 간담회를 열고 지역 건축계 현안, **봉화 건축행정 개선** 협력, 지역 건축문화 성장을 위한 제도적 지원을 논의했다. 송동훈 경북건축사회장과 정유진 봉화건축사회장이 참석했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21269"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "건축사회 · 제주",
+      "title": "제주건축사회 여성위원회, 여대생 멘토링 — 강연·대화·작품 전시",
+      "body": [
+        "제주특별자치도건축사회 여성위원회가 10월 9일 제주 문화공간 '레미콘'에서 도내 여대생 대상 멘토링 행사를 열었다. 인류학 박사의 강연과 여성 건축사-학생 대화, 여성 건축사 작품 전시, 자유 네트워킹으로 구성했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21272"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 국내",
+      "title": "국립해양생물자원관 해양생물보존연구동 건립 설계공모 — 공사비 238억",
+      "body": [
+        "국립해양생물자원관 해양생물보존연구동 건립사업 설계공모가 공고됐다. 예정 설계비 **13.2억 원**, 공사비 **238억 원**이며 참가등록 마감은 **10월 26일**, 결과 발표는 12월 7일 이내다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19002"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 국내",
+      "title": "완도 가용 자연휴양림 건축설계공모 — 공사비 55.2억",
+      "body": [
+        "완도 가용 자연휴양림 건축설계공모가 공고됐다. 설계비 **2.8억 원**, 공사비 **55.2억 원**, 참가등록 마감 **10월 26일**, 결과 발표 12월 15일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19006"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 국내",
+      "title": "국립공원공단 팔공산 서부 관리사무소 신설 건축설계 — 공사비 56.8억",
+      "body": [
+        "팔공산국립공원서부사무소 신축사업 설계공모가 공고됐다. 설계비 **2.5억 원**, 공사비 **56.8억 원**, 참가등록 마감 **10월 26일**, 결과 발표 12월 17일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19001"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 국내",
+      "title": "경산 제2일반산업단지 다목적 체육관 건립 설계공모 — 공사비 104억",
+      "body": [
+        "경산 제2일반산업단지 다목적 체육관 건립 사업 설계공모가 공고됐다. 설계비 **4.9억 원**, 공사비 **104억 원**, 참가등록 마감 **10월 27일**, 결과 발표 12월 21일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19003"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "순천성남초 본관동 개축 설계용역 공고 — 공사비 37.7억",
+      "body": "설계비 1.6억 원, 참가등록 마감 10월 26일, 결과 발표 11월 27일. 주택폴리오 공고 기준.",
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19004"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "설계공모"
+    },
+    {
+      "title": "Open Chair Design Competition — 3D 프린트로 만드는 의자",
+      "body": "실물 크기 의자를 공개 설계 방식으로 제안하는 국제 공모. 등록 10월 22일, 제출 11월 6일. 1등 £600, 당선 발표는 2027년 1월 12일.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://bustler.net/competitions/latest/10611/open-chair-design-competition"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "홀마, 뉴욕 지하철 양키스타디움역 접근성 공사 완료",
+      "body": "MTA 첫 대중교통 P3인 13개역 개선 사업(약 9.65억 달러) 중 하나. 나머지 12개 역은 2027년 초 완료 예정.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/halmar-completes-yankee-stadium-stop-subway-upgrades/833390/"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "밸푸어 비티, 홍콩 개몬 건설 지분 50%를 2.5억 파운드에 매각",
+      "body": "합작 파트너 자딘 매시선이 100% 소유주가 된다. 지급은 3회 분할, 마지막은 2028년 12월 31일. 미국·영국 사업 집중이 배경.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/balfour-beatty-sells-stake-gammon-construction/833376/"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "미 건설 기능공 35%가 외국 출생 — 이민 단속에 인력난 심화",
+      "body": "2024년 기능공 620만 명. AGC 9월 조사에서 87%가 공석 보유, 12%는 이민 단속으로 근로자가 이탈했다고 답했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/immigration-crackdown-trades-workers-older-foreign/833121/"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "미 교통부, 노스캐롤라이나 S-Line 여객철도에 5.5억 달러 확정",
+      "body": "리치먼드~롤리 노선. 일부 구간 최고 110mph, 완공 시 이동시간 최대 90분 단축. 역세권 개발 계획 대상은 95마일.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/usdot-north-carolina-550m-passenger-rail-s-line/833329/"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "oma-lille-courthouse",
+      "tag": "PROJECT",
+      "title": "별 모양 요새 옆 색유리 법원 — OMA 릴",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "courthouse glass architecture",
+      "slides": [
+        {
+          "heading": "보방의 요새 옆에\n색유리 법원이 올랐다",
+          "body": "OMA가 준공한 프랑스 릴 법원"
+        },
+        {
+          "heading": "BRIEF",
+          "body": "릴의 고등법원과 지방법원을 한 건물에 담았다. 2018년 설계 공모 당선작이며 당초 준공 목표는 2023년이었다."
+        },
+        {
+          "heading": "SITE",
+          "body": "1667년 보방이 세운 별 모양 요새 옆 녹지. 성채의 면 분할을 유리 다면체로 다시 해석했다."
+        },
+        {
+          "heading": "THREE VOLUMES",
+          "body": "시민이 오르는 기단부에 주요 법정, 삼각형 타워에 소규모 법정, 그 둘레에 사무 링을 얹었다."
+        },
+        {
+          "heading": "OPEN",
+          "body": "밝은 마감과 가구로 위압감을 덜었다. 지상에는 공공 광장, 옥상에는 도시를 내려다보는 정원이 있다."
+        }
+      ]
+    },
+    {
+      "slug": "yongin-permit-guide",
+      "tag": "REGULATION",
+      "title": "용인시 건축허가·신고 안내문 통일",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "architecture blueprint construction site",
+      "slides": [
+        {
+          "heading": "구청마다 달랐던\n허가 안내가 하나로",
+          "body": "용인특례시 건축허가·신고 안내문 표준화"
+        },
+        {
+          "heading": "WHO",
+          "body": "처인·기흥·수지구 3개 구청이 같은 표준안을 쓴다. 18일 발표됐다."
+        },
+        {
+          "heading": "FORMS",
+          "body": "허가와 신고의 절차 차이를 반영해 표준서식을 각각 분리하고, 중복 내용은 덜어냈다."
+        },
+        {
+          "heading": "SAFETY",
+          "body": "착공신고 안내는 현장 안전관리 중심으로 재구성했다. 추락·낙하물, 굴착·흙막이, 보행자 보호, 악천후 대응을 담는다."
+        },
+        {
+          "heading": "SIGN",
+          "body": "공사 표지판은 최소 가로 420mm × 세로 594mm 이상, 용인시 디자인 가이드라인을 따른다."
+        }
+      ]
+    },
+    {
+      "slug": "chipperfield-kiefer-pavilion",
+      "tag": "MUSEUM",
+      "title": "그림 한 점을 위한 집 — 치퍼필드의 키퍼 파빌리온",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "concrete museum interior light",
+      "slides": [
+        {
+          "heading": "그림 한 점을 위해\n지은 콘크리트 집",
+          "body": "치퍼필드가 독일 퀸첼자우에 세운 키퍼 파빌리온"
+        },
+        {
+          "heading": "THE WORK",
+          "body": "안젤름 키퍼의 《Schwarze Flocken》(2007)은 높이 11m, 너비 7m 이상으로 뷔르트 컬렉션 최대의 키퍼 작품이다."
+        },
+        {
+          "heading": "THE BOX",
+          "body": "140㎡ 독립형 콘크리트 파빌리온. 건물의 크기와 높이를 그림의 요구에 맞췄다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "거친 보석 다듬질 콘크리트 외벽, 노출 목재 보, 벽돌 위 점토 플라스터 마감. 천창이 계절의 빛을 들인다."
+        },
+        {
+          "heading": "ARTIST",
+          "body": "비례와 개구부 위치, 벽 색을 키퍼가 직접 정했다. 10월 13일 일반에 공개됐다."
+        }
+      ]
+    }
+  ]
+}
