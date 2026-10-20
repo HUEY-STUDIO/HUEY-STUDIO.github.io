@@ -1,0 +1,553 @@
+{
+  "vol": "VOL.01  NO.066",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "ArchDaily",
+    "Designboom",
+    "Construction Dive",
+    "건축사신문",
+    "주택폴리오",
+    "Internshala"
+  ],
+  "teasers": [
+    {
+      "title": "타리에신 웨스트 폐쇄",
+      "desc": "지붕 잔해로 방문객 1명 사망, 무기한 휴관",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "다세대·다가구 완화",
+      "desc": "바닥면적 660→1,000㎡, 다가구 4층까지 연내 개정",
+      "label": "REGULATION"
+    },
+    {
+      "title": "2027 베니스 한국관",
+      "desc": "'카타볼리즘'으로 도시 수축을 다룬다",
+      "label": "BIENNALE"
+    },
+    {
+      "title": "건축법 전부개정 토론회",
+      "desc": "10월 26일 국회도서관, 허가절차·AI·책임 논의",
+      "label": "POLICY"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화유산",
+    "lede": "라이트의 겨울 주택 타리에신 웨스트, 지붕 잔해 사고로 문을 닫았다",
+    "lede_em": "지붕 잔해 사고",
+    "image": "https://images.adsttc.com/media/images/6ad7/3b4a/c720/ac01/8896/31b1/newsletter/frank-lloyd-wrights-taliesin-west-closes-after-fatal-accident_1.jpg?1792490341",
+    "image_label": "ARCHDAILY",
+    "caption": "타리에신 웨스트 전경 ⓒ ArchDaily",
+    "body": [
+      "프랭크 로이드 라이트의 겨울 주택이자 건축 스튜디오였던 미국 애리조나 스코츠데일의 **타리에신 웨스트**가 **10월 16일** 방문객 1명이 숨진 사고 뒤 일반 공개를 **무기한 중단**했다. 사망자는 브라질 파라나 가톨릭 대학교 총장 호헤리우 레나투 마테우치(**55세**)다.",
+      "소방 당국에 따르면 강풍이 지붕 자재를 떨어뜨린 것으로 보이며, 당국은 기상 관련 사고로 조사하고 있다. 당시 미 남서부 일부 지역에는 강풍 경보가 내려져 있었다. 프랭크 로이드 라이트 재단은 폐쇄를 확인했고, 조사가 끝날 때까지 추가 정보를 공개하지 않겠다고 밝혔다. 재개장 일정도 발표되지 않았다.",
+      "타리에신 웨스트는 **1937년** 사막 환경에 맞춰 현지 석재와 캔버스 지붕으로 지었다. 지붕 시스템은 1960년대 화재 이후와 1990년대에 바뀌었고, 재단은 원래의 개폐식 지붕을 복원하는 작업을 연구해 왔다.",
+      "이 건물은 유네스코 세계유산 '20세기 프랭크 로이드 라이트의 건축물'의 일부이자 국가사적지다. 가볍고 개방적인 지붕이 건축의 핵심인 문화유산에서 극한 기상에 대한 안전과 원형 보존을 어떻게 양립시킬지 묻는 사건이다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1187183/frank-lloyd-wrights-taliesin-west-closes-after-fatal-accident"
+        }
+      ]
+    },
+    "src_date": "2026-10-20",
+    "topic": "재난유산"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "다세대·다가구 바닥면적 기준 완화, 연내 건축법 시행령 개정",
+    "body": [
+      "정부가 **10월 16일** 국토교통부·국무조정실 제1차 주택공급 브리핑에서 다세대·다가구주택 기준을 완화하는 건축법 시행령 개정을 **연내** 마무리하겠다고 밝혔다."
+    ],
+    "facts": [
+      "다세대·다가구 바닥면적: 현행 **660㎡ → 1,000㎡ 미만**으로 확대",
+      "다가구주택 층수: **3층 이하 → 4층 이하**로 완화",
+      "착공: 10월 둘째 주 기준 수도권 **9만 9,000호** 이상, 연말까지 최대 **23만 5,000호** 이상 전망",
+      "입주: 2026년 4분기~2027년 말 수도권 공적 주택 약 **10만 호** 추진"
+    ],
+    "body_after": [
+      "주택공급 브리핑은 월 2회 열리며 착공·분양·입주 단계별 일정을 공개한다. 소규모 주택 설계 실무에서는 시행령 개정안이 입법예고되면 바닥면적·층수 산정 기준부터 확인해 볼 만하다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.ancnews.kr/news/articleView.html?idxno=21277"
+        }
+      ]
+    },
+    "src_date": "2026-10-20",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "BIENNALE · 이탈리아",
+      "title": "\"건축은 본질로 돌아가야 한다\" — 왕슈·루원위의 2027 베니스 건축 비엔날레",
+      "image": "https://images.adsttc.com/media/images/6ad7/3e5a/8008/f401/8ba5/48bd/newsletter/architecture-must-return-to-its-essence-wang-shu-and-lu-wenyu-on-the-2027-venice-architecture-biennale_8.jpg?1792491114",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "제20회 베니스 국제건축전이 **2027년 5월 8일~11월 21일** 지아르디니·아르세날레와 베네치아 전역에서 열린다. 큐레이터는 **왕슈와 루원위**, 주제는 'Do Architecture – For the Possibility of Coexistence Facing a Real Reality'다.",
+        "두 큐레이터는 과도한 추상화·상업화·디지털화로 건축이 현실과 멀어졌다고 본다. 미래상보다 현재에 집중해 재료, 시공, 지역 지식, 직접적 경험으로 건축 행위를 다시 묻고, 기술과 장인정신, 도시와 농촌처럼 상반된 조건의 공존 가능성을 탐구한다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187187/architecture-must-return-to-its-essence-wang-shu-and-lu-wenyu-on-the-2027-venice-architecture-biennale"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "EDUCATION · 영국",
+      "title": "644년 남학교에 생긴 '확실히 그들의 집' — 스탠턴 윌리엄스의 윈체스터 칼리지 여학생 기숙사",
+      "image": "https://images.adsttc.com/media/images/6acf/3632/b2c4/c300/0178/f122/medium_jpg/Stanton_Williams_Winchester_College__JackHobhouse_012.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스탠턴 윌리엄스가 영국 윈체스터 칼리지에 **5,450㎡** 규모의 여학생 기숙사를 준공했다. 2022년 여학생 통학생 입학으로 시작된 남녀공학 전환의 다음 단계로, 학교 **644년** 역사에서 여학생에게 '칼리지 안에서 분명히 자기 것'인 공간을 준다.",
+        "재료는 목재·콘크리트·벽돌이며, 윈체스터의 건축 전통과 교육 철학에 뿌리를 두면서 지속가능성을 함께 다뤘다. 사진은 잭 홉하우스가 찍었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186793/winchester-college-girls-boarding-houses-stanton-williams"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "HOUSE · 브라질",
+      "title": "층마다 이어지는 화단 — 이자이 와인펠드의 상파울루 '111 하우스'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/continuous-vertical-gardens-layered-planters-111-house-sao-paulo-isay-weinfeld-rodrigo-oliveira-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "이자이 와인펠드가 미술품 수집가 가족을 위해 상파울루에 지은 4층 주택이다. 연면적 **517㎡**, 정원 **280㎡**. 좁은 대지 한쪽 경계에 건물을 붙이고 반대편에 전체 깊이의 정원을 남겼으며, 각 층 슬래브를 감싼 **연속 화단**이 옥상 테라스와 수영장까지 이어진다. 조경은 로드리구 올리베이라가 맡았다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/continuous-vertical-gardens-layered-planters-111-house-sao-paulo-isay-weinfeld-rodrigo-oliveira/"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "PAVILION · 멕시코",
+      "title": "큐브가 풍경 속으로 사라진다 — errre taller의 '스푸마토' 파빌리온",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/mirrored-acrylic-skin-cube-pavilion-surroundings-mexico-errre-taller-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "멕시코 과달라하라 ITESO 캠퍼스의 조각적 랜드마크 'Cubo MEM'을 **3mm 거울 아크릴**로 감싼 임시 파빌리온이다. 한 변 **6.4m** 큐브의 형태는 그대로 두되 시각적으로 지워, 기존 구조물이 눈에 띄지 않게 되는 방식을 실험한다. 서쪽 단일 출입구로 들어가면 햇빛 각도에 따라 그림자가 움직인다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/mirrored-acrylic-skin-cube-pavilion-surroundings-mexico-errre-taller/"
+          }
+        ]
+      },
+      "src_date": "2026-10-18",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "MUSEUM · 포르투갈",
+      "title": "옛 법원에 14세기 성벽을 품다 — 브라가 'MUZEU'",
+      "image": "https://images.adsttc.com/media/images/6ad6/5656/aadf/a000/01e3/b17e/medium_jpg/NUDO_CA_MUZEU_7362.jpg?1792431722",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "카르발류 아라우주가 포르투갈 브라가의 옛 법원 건물을 현대미술과 사상을 위한 **약 3,000㎡** 공간으로 바꿨다. 기존 파사드를 보존하고 **14세기 중세 성벽**을 내부에 통합했으며, 새 구조로 실내를 재구성했다. 큐레이터는 수사나 모레이라다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187215/muzeu-thought-and-contemporary-art-carvalho-araujo"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HOUSE · 미국",
+      "title": "가족과 함께 자라는 집 — 헤네시 아키텍처의 '코트야드 하우스'",
+      "image": "https://images.adsttc.com/media/images/6ad1/338b/aadf/a000/01e3/a6d9/medium_jpg/11.jpg?1792095137",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "미국 캘리포니아 밀밸리의 교외 주택을 **약 174㎡(1,870ft²)** 규모로 리노베이션했다. 건축가는 집을 과거와 현재, 한 풍경과 다른 풍경, 가족이 원하는 것과 가능한 것을 잇는 '다리'로 보았다. 어린 두 자녀를 둔 부부를 위해 가족의 성장에 맞춰 함께 자라도록 계획했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186975/courtyard-house-hennessey-architecture"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "정책 · 건축법",
+      "title": "건축법 전부개정 국회토론회 10월 26일 — 허가절차·AI·책임 명확화 논의",
+      "body": [
+        "국회 국토교통위원회 유의동 위원장 등이 공동 주최하고 대한건축사협회·건축공간연구원이 주관하는 토론회가 **10월 26일 오후 2시** 국회도서관 대강당에서 열린다. 1962년 **8개 장 58개 조문**으로 시작한 건축법이 부분개정을 거듭하며 조문 체계가 복잡해져 행정 혼선과 절차 지연이 생겼다는 문제의식이다.",
+        "유광흠 박사(건축공간연구원)가 법제 정비 방향을, 한창섭 박사(건축사협회 건축연구원장)가 전부개정안을 발표한다. 현행 규정은 최대한 유지하되 중복·공백·책임 불일치를 보완하고 장·절을 기능과 절차 중심으로 재배열하는 것이 목표다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21280"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "도시계획 · 서울",
+      "title": "서울 준공업·준주거지역 데이터센터 제한 추진 — 시의회 11월 2일 심의",
+      "body": [
+        "박무영 서울시의원이 **10월 15일** 데이터센터 입지를 조례로 정할 수 있도록 국토계획법과 시행령을 개정하라는 건의안과, 주거지역 내 데이터센터를 금지하는 서울도시계획조례 개정안을 발의했다. 두 안건은 **11월 2일** 제340회 정례회에서 심의한다.",
+        "현행 건축법은 데이터센터를 일반 방송통신시설로 분류해 별도 입지 심의 없이 지을 수 있고, 건축허가가 기속행위라 허가권자의 재량도 작다. 24시간 냉각 가동의 소음·열과 대규모 전력 사용에 따른 화재·전력망 부담이 우려로 꼽힌다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21279"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "전시 · 베니스",
+      "title": "2027 베니스 건축 비엔날레 한국관 — '카타볼리즘'으로 도시 수축을 본다",
+      "image": "https://images.adsttc.com/media/images/6ad6/be95/8008/f401/8ba5/46b3/newsletter/the-korean-pavilion-to-explore-urban-shrinkage-through-catabolism-at-the-2027-venice-architecture-biennale_7.jpg?1792458414",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "한국문화예술위원회가 위촉한 이장환 큐레이터팀이 2027 베니스 건축 비엔날레 한국관에서 **'카타볼리즘(Catabolism)'**을 선보인다. 인구 감소와 고령화가 가속화된 한국의 '초수축'을 다루며, 복잡한 분자가 단순한 단위로 분해되며 에너지를 내는 대사 과정을 비유로 삼았다.",
+        "참여 건축가는 배윤경·이교석·고재협이다. 중소도시 포럼 현장 조사를 바탕으로 빈 필지가 주차장이나 텃밭이 되는 '도시 천공' 현상을 짚고, 대규모 신축 대신 기존 구조물을 분해·재사용하는 작은 개입을 제안한다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187154/the-korean-pavilion-to-explore-urban-shrinkage-through-catabolism-at-the-2027-venice-architecture-biennale"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 전남",
+      "title": "빛그린산단 종합비즈니스센터(청년문화센터) 건립 설계공모 — 공사비 72.5억",
+      "body": [
+        "광주 인근 함평군 월야면 외치리 일원에 연면적 **1,569㎡** 제2종 근린생활시설을 짓는 일반 설계공모다. 예정 공사비 **72.5억 원**, 설계비 **3.8억 원**, 심사위원 7인이며 참가등록 시작은 **11월 3일**, 결과 발표는 **12월 18일**이다.",
+        "주택폴리오 공고 기준이며 발주기관 원문 공고는 따로 확인해야 한다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19010"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경기",
+      "title": "남양주왕숙2 공원문화건축물 설계 제안공모 재공고 — 공사비 16.2억",
+      "body": [
+        "남양주 일패동 392-7에 연면적 **330㎡** 제1종 근린생활시설을 짓는 제안공모 재공고다. 예정 공사비 **16.2억 원**, 설계비 **9,776만 원**, 심사위원 9인이다.",
+        "참가등록은 **10월 28일** 마감, 결과 발표는 **11월 30일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19008"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 군 시설",
+      "title": "지능형센서 Spin-on 군 적합성 검증 기술지원센터 건립 설계 — 공사비 95억",
+      "body": [
+        "연면적 **2,560㎡**, 예정 공사비 **95억 원** 규모 설계용역으로 공고일은 10월 20일, 참가등록 마감은 **10월 26일**이다.",
+        "주택폴리오 공고 기준이며 세부 조건은 원문 공고 확인이 필요하다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19011"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 전북",
+      "title": "남원 그린바이오소재 산업화지원센터 건립 설계용역 — 공사비 58억",
+      "body": [
+        "연면적 **1,462㎡**, 예정 공사비 **58억 원** 규모 설계용역으로 참가등록은 **10월 26일** 시작한다.",
+        "주택폴리오 공고 기준이며 세부 조건은 원문 공고 확인이 필요하다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19012"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "주이탈리아대사관 관저 리모델링 설계 제안공모 — 공사비 660만 유로",
+      "body": "로마 소재 연면적 2,765㎡ 업무시설, 설계비 51만 유로. 참가등록 10월 27일 마감, 결과 12월 9일 이내.",
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19007"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "설계공모"
+    },
+    {
+      "title": "TCK 시빅 키오스크 공모 2026 — 상금 8,000달러",
+      "body": "일반 등록은 11월 6일, 최종 등록·제출은 12월 4일까지이며 팀 참가가 가능하다.",
+      "source": {
+        "outlet": "Internshala",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://internshala.com/competitions/the-civic-kiosk-competition-2026-win-from-an-8000-prize-pool/"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "오클라호마시티 윌로저스 공항, 25년 확장안 '이륙 허가' 공개",
+      "body": "연간 승객 460만 명을 최대 2,000만 명까지 늘리는 3단계 계획. 게이트는 17개에서 40개로, 도심 경전철도 구상한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/oklahoma-city-unveils-multibillion-dollar-airport-expansion/833513/"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "포트로더데일 6.66억 달러 정수장 개장 — 키위트 설계·시공",
+      "body": "하루 최대 5,000만 갤런을 처리하며 5등급 허리케인 풍속을 견디도록 설계했다. 1953년 지은 기존 정수장을 대체한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/fort-lauderdale-opens-new-water-treatment-plant/833476/"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "글로벌파운드리스, 일본 지원 최대 210억 달러로 뉴욕 몰타에 팹 2기",
+      "body": "1차 팹은 올해 착공해 2029년 개소 예정. 팹당 연 90만 장의 300mm 웨이퍼 생산능력을 더한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/globalfoundries-us-japan-trade-deal-chips-malta-new-york-fabs/833382/"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "쿠마 겐고가 고른 음악 — 'designboom listens'",
+      "body": "사카모토 류이치와의 친분과 브라이언 이노의 앰비언트에서 '사물보다 분위기를 만드는 건축'의 영감을 이야기했다.",
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/designboom-listens-kengo-kuma-interview/"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "taliesin-west-closure",
+      "tag": "HERITAGE",
+      "title": "라이트의 사막 스튜디오, 문을 닫다 — 타리에신 웨스트",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:Taliesin West, view of the southside.jpg",
+        "File:TaliesinWest2010.JPG",
+        "File:Taliesin West Complex DSCN2137.jpg",
+        "File:TaliesinWest03 gobeirne.jpg",
+        "File:Taliesin West pool & fountain.jpg"
+      ],
+      "photo_query": "frank lloyd wright architecture",
+      "slides": [
+        {
+          "heading": "라이트의 사막 스튜디오\n무기한 휴관",
+          "body": "지붕 잔해 사고로 방문객 1명이 숨진 타리에신 웨스트"
+        },
+        {
+          "heading": "WHAT",
+          "body": "10월 16일 강풍에 지붕 자재가 떨어져 방문객 1명이 숨졌다. 당국은 기상 관련 사고로 조사 중이다."
+        },
+        {
+          "heading": "CLOSED",
+          "body": "프랭크 로이드 라이트 재단은 조사가 끝날 때까지 일반 공개를 무기한 중단한다고 밝혔다. 재개장 일정은 없다."
+        },
+        {
+          "heading": "ROOF",
+          "body": "1937년 현지 석재와 캔버스 지붕으로 지은 건물. 지붕은 1960년대 화재와 1990년대에 바뀌었다."
+        },
+        {
+          "heading": "HERITAGE",
+          "body": "유네스코 세계유산이자 국가사적지. 재단은 원래의 개폐식 지붕 복원을 연구해 왔다."
+        }
+      ]
+    },
+    {
+      "slug": "multifamily-floor-area",
+      "tag": "REGULATION",
+      "title": "다세대·다가구 기준 완화 — 연내 시행령 개정",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "apartment building korea",
+      "slides": [
+        {
+          "heading": "다세대·다가구\n기준이 풀린다",
+          "body": "바닥면적 1,000㎡ 미만, 다가구 4층까지"
+        },
+        {
+          "heading": "AREA",
+          "body": "다세대·다가구주택의 바닥면적 기준을 현행 660㎡에서 1,000㎡ 미만으로 넓힌다."
+        },
+        {
+          "heading": "FLOORS",
+          "body": "다가구주택 층수 기준은 3층 이하에서 4층 이하로 완화된다. 건축법 시행령을 연내 개정할 계획이다."
+        },
+        {
+          "heading": "SUPPLY",
+          "body": "10월 둘째 주 기준 수도권 착공은 9만 9,000호 이상. 연말까지 최대 23만 5,000호 이상이 전망된다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "주택공급 브리핑은 월 2회 열린다. 입법예고 때 산정 기준부터 확인해 볼 만하다."
+        }
+      ]
+    },
+    {
+      "slug": "korea-pavilion-catabolism",
+      "tag": "BIENNALE",
+      "title": "2027 베니스 한국관 — 카타볼리즘",
+      "ref": {
+        "section": "korea",
+        "index": 2
+      },
+      "bg": 2,
+      "photo_query": "small city korea apartment aerial",
+      "slides": [
+        {
+          "heading": "줄어드는 도시를\n건축으로 묻다",
+          "body": "2027 베니스 건축 비엔날레 한국관 '카타볼리즘'"
+        },
+        {
+          "heading": "CURATOR",
+          "body": "한국문화예술위원회가 위촉한 이장환 큐레이터팀. 배윤경·이교석·고재협이 참여한다."
+        },
+        {
+          "heading": "CATABOLISM",
+          "body": "복잡한 분자가 단순한 단위로 분해되며 에너지를 내는 대사 과정에서 따온 이름이다."
+        },
+        {
+          "heading": "PERFORATION",
+          "body": "빈 필지가 주차장이나 텃밭이 되는 '도시 천공'을 중소도시 현장 조사로 짚는다."
+        },
+        {
+          "heading": "SMALL",
+          "body": "대규모 신축 대신 기존 구조물을 분해·재사용하는 작은 개입을 제안한다."
+        }
+      ]
+    }
+  ]
+}
