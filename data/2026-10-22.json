@@ -1,0 +1,550 @@
+{
+  "vol": "VOL.01  NO.067",
+  "editor": "HUEY",
+  "outlets": [
+    "Designboom",
+    "ArchDaily",
+    "Architectural Record",
+    "Archinect",
+    "Construction Dive",
+    "Bustler",
+    "건축사신문",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "디자인 뮤지엄 겐트",
+      "desc": "폐기물 벽돌 8.2만 장, CLT 목구조 증축",
+      "label": "MATERIAL"
+    },
+    {
+      "title": "해체감리 분쟁 조정",
+      "desc": "서울시 조례 개정안 발의, 11월 본회의 의결 예정",
+      "label": "REGULATION"
+    },
+    {
+      "title": "미 건축 수주지수 44.7",
+      "desc": "9월 ABI 하락, 설계계약 지수 급락",
+      "label": "INDUSTRY"
+    },
+    {
+      "title": "경기도건축사회 회장선거",
+      "desc": "11월 3일 전자투표, 남부 토론회 열려",
+      "label": "ASSOCIATION"
+    }
+  ],
+  "top": {
+    "title": "폐기물 벽돌 82,000장으로 쌓은 타워 — 카모디 그로크의 디자인 뮤지엄 겐트 증축",
+    "image": "https://www.architecturalrecord.com/ext/resources/news/2026/%2AOctober/Design-Museum-Gent/Design-Museum-Gent_View-from-the-Zuivelbrug.-Photo-Michiel-De-Cleene-voor-Design-Museum-Gent.webp?t=1791945401",
+    "image_label": "ARCHITECTURAL RECORD",
+    "body": [
+      "카모디 그로크가 벨기에 겐트 역사 지구의 **디자인 뮤지엄 겐트**에 약 **2,200㎡**, 5층 규모의 새 윙을 더했다. 흩어져 있던 기존 건물군을 하나로 잇고 공공 토론의 장으로 다시 짰다. 설계는 카모디 그로크, 실시는 ATAMA, 협력 건축가는 RE-ST가 맡았고 **2026년 10월** 완공됐다.",
+      "건물은 겐트 주택의 박공 전면을 변형한 묵직한 타워다. 지역의 교회와 공공건물을 떠올리게 하는 이 덩어리를 감싸는 것은 **'겐트 폐기물 벽돌'** **82,000장**이다. 반경 약 8km 안에서 모은 콘크리트·유리·도자기 폐기물로 빚어 수경성 석회로 굳힌 미소성 벽돌로, 일반 벽돌 대비 내재 탄소가 약 **3분의 1**이다.",
+      "구조는 벽·계단·엘리베이터 코어에 **CLT**, 넓은 공간에 **LVL** 보를 쓴 목구조다. 초기에는 콘크리트 골조였으나 화재 규정을 충족할 수 있다고 판단해 목재로 바꿨다. 재활용 알루미늄을 3D 프린팅한 입구 게이트, 폐목재 모자이크 로비, 흙과 재활용 조적으로 만든 기둥이 지속가능성을 숨기지 않고 건축 언어로 드러낸다.",
+      "이 건물은 벨기에의 준제로에너지 기준(BEN) 면제를 받았다. 대신 에너지 효율 설비와 저탄소 재료로 지속가능성을 추구했다. 공사비는 공개되지 않았다. 기준 충족 대신 재료의 출처와 탄소를 설계의 중심에 둔 선택이라는 점에서 눈여겨볼 만하다."
+    ],
+    "source": {
+      "outlet": "Architectural Record",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.architecturalrecord.com/articles/18468-carmody-groarkes-addition-to-design-museum-gent-reads-as-a-manifesto-on-sustainable-design"
+        }
+      ]
+    },
+    "src_date": "2026-10-13",
+    "topic": "프로젝트",
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "폐기물 벽돌 82,000장으로 쌓은 타워 — 카모디 그로크의 디자인 뮤지엄 겐트 증축",
+    "lede_em": "폐기물 벽돌 82,000장",
+    "caption": "디자인 뮤지엄 겐트 증축 ⓒ Michiel De Cleene / Architectural Record"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "해체공사 감리비·감리기간 분쟁, 조정위에서 다룬다 — 서울시 건축물관리 조례 개정안 발의",
+    "body": [
+      "공우석 서울시의원이 **10월 19일** 「서울특별시 건축물관리 조례 일부개정조례안」을 발의했다. 해체공사감리조정위원회가 서울시 건축 조례 제18조의3을 준용해 운영되고 있으나 감리비와 감리기간 분쟁이 조정 대상으로 명확히 규정돼 있지 않아, 분쟁 해결 절차가 불분명하고 유사 민원이 반복된다는 지적에 따른 것이다."
+    ],
+    "facts": [
+      "조정 대상: 제10조제2항에 **감리비 산정·지급과 감리기간** 추가",
+      "구청장이 해체공사감리와 관련해 조정이 필요하다고 인정하는 사항 포함",
+      "신청: 제10조제3항 신설, '해체공사감리 조정 신청서'(별지 제10호서식)를 구청장에게 제출",
+      "체계: 기존 공사감리 분쟁조정 체계는 유지, 대상과 절차만 구체화"
+    ],
+    "body_after": [
+      "도시안전건설위원회 심사를 거쳐 **11월 3~4일** 본회의에서 최종 의결될 예정이다. 공 의원은 해체공사가 시민 안전과 직결되는 만큼 감리가 현장 분쟁에 흔들리지 않도록 제도적 기반을 마련하려는 취지라고 밝혔다. 해체감리를 맡는 건축사는 감리비 산정 분쟁의 해결 경로가 생기는 셈이다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21281"
+        }
+      ]
+    },
+    "src_date": "2026-10-21",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "CIVIC · 네덜란드",
+      "title": "합병 지자체의 새 시청사는 순환 건설의 실험 — 엑토르 호흐스타트의 크림펜어르바르트 시청사",
+      "image": "https://images.adsttc.com/media/images/6acd/e5f2/b2c4/c300/0178/eb6a/newsletter/IMG_8423_300.jpg?1791878689",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "엑토르 호흐스타트 아키텍텐이 네덜란드 베르감바흐트에 연면적 **9,000㎡**의 크림펜어르바르트 시청사를 완공했다. 지자체 합병으로 출범한 시가 하나의 중앙 청사를 원했고, 주민과 기업가가 찾기 쉬운 공간, 협업형 업무 공간, 그리고 순환 건설을 앞당기는 저렴한 건물을 요구했다.",
+        "건물은 목재와 유리가 중심이다. 리그나투어 목재 바닥판, 모소 대나무 등 재료 목록이 순환·재사용 중심의 설계 방향을 보여준다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186716/circular-town-hall-krimpenerwaard-ector-hoogstad-architecten"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HOUSE · 미국 매사추세츠",
+      "title": "언덕에 반쯤 묻힌 상자 — 슬레이드 아키텍처의 롱뷰 하우스",
+      "image": "https://www.architecturalrecord.com/ext/resources/Issues/2026/10-October/2610-House-of-the-Month-F.webp?t=1792149584",
+      "image_label": "ARCHITECTURAL RECORD",
+      "body": [
+        "슬레이드 아키텍처가 매사추세츠 이그리먼트의 버크셔 산자락에 약 **439㎡(4,730sf)** 주택을 지었다. 언덕에 반쯤 묻힌 단순한 상자에 넓게 돌출한 지붕을 얹어, 도로 쪽에서는 삼나무 외장의 소박한 오두막으로, 반대편에서는 리본 창이 있는 도시적 인상으로 읽힌다.",
+        "공기열원 히트펌프와 태양광 어레이로 **근사 넷제로** 에너지를 목표로 했다. 자녀 방은 하층에 별도 출입구와 함께 두고 부모 침실은 상층에 둬 가족의 사생활과 공동생활을 함께 풀었다. 공사비는 **390만 달러**다."
+      ],
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architecturalrecord.com/articles/18469-slade-architecture-realizes-a-nearnet-zero-house-in-the-berkshires-for-a-couple-and-their-children"
+          }
+        ]
+      },
+      "src_date": "2026-10-12",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "CIVIC · 미국 워싱턴주",
+      "title": "30년 만의 새 소방서 — BCJ의 벨뷰 소방서 10호",
+      "image": "https://www.architecturalrecord.com/ext/resources/news/2026/%2AOctober/Fire-Station-10-Bellevue/Bellevue-FS10_Kirk-Hostetter_17.webp?t=1792541069",
+      "image_label": "ARCHITECTURAL RECORD",
+      "body": [
+        "보흘린 시윈스키 잭슨이 벨뷰시에 약 **2,464㎡**, 2층 규모의 소방서를 지었다. 차고를 주택가 반대편에 두고 복원 습지로 소음을 완충했으며, 공원 쪽 입면은 유리로 열어 소방차를 보여 준다. 빗물 재이용과 전기차 충전, Salmon-Safe 인증 설계가 적용됐다."
+      ],
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architecturalrecord.com/articles/18467-bohlin-cywinski-jackson-creates-a-low-slung-fire-station-in-bellevue-washington"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "RENEWAL · 중국 톈진",
+      "title": "100년 된 도시 조직 위에 '네 구역 융합' — 믹스 아키텍처의 TAFA 아트 블록",
+      "image": "https://images.adsttc.com/media/images/6ac8/958c/7887/fb21/1c77/dbea/newsletter/renovation-of-the-core-area-of-tafa-art-block-mix-architecture_50.jpg?1791530410",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "믹스 아키텍처가 톈진미술학원 서쪽 약 **17,894㎡**의 낡은 도시 조직을 개방형 예술 지구로 고쳤다. 2022년 허베이구와 미술학원이 맺은 협약에서 시작된 도시재생 사업으로, 이웃·캠퍼스·명소·커뮤니티를 엮는 것이 목표다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186609/renovation-of-the-core-area-of-tafa-art-block-mix-architecture"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "CAMPUS · 프랑스 낭테르",
+      "title": "2004년부터 비어 있던 1971년 건축학교가 캠퍼스로 — IT'S 스튜디오의 캠퍼스 뒤 파르크",
+      "image": "https://images.adsttc.com/media/images/6ad0/d77b/7887/fb01/8910/778e/newsletter/campus-du-parc-its-studio_1.jpg?1792071586",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "IT'S 스튜디오가 낭테르 앙드레말로 공원 안에 있던 옛 낭테르 건축학교(1971, 칼리즈·살렘 설계)를 **18,000㎡** 대학 캠퍼스로 되살렸다. 2004년 이후 방치된 건물의 공간적 힘을 살려 공학·경영·디지털 분야 학생 **4,500명**을 위한 드 방시 고등교육 그룹 본부 캠퍼스로 바꿨다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186926/campus-du-parc-its-studio"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "OFFICE · 일본 사이타마",
+      "title": "'먹거리와 건강'을 짓는 본사 — UENOA의 YUKI 오피스",
+      "image": "https://images.adsttc.com/media/images/6ad6/0b46/c720/ac01/8896/2d04/newsletter/yuki-office-uenoa_1.jpg?1792412529",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "UENOA가 사이타마현 쿠키에 유기농 채소 판매 회사의 본사 **740㎡**를 목재와 유리로 지었다. 안전한 농산물을 전하고 일본의 전통 식문화를 지킨다는 회사 철학을 방문자가 바로 읽을 수 있게 했고, 재해 시 지역사회를 지원하는 거점 기능도 요구받았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187102/yuki-office-uenoa"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 경기도교육청",
+      "title": "(가칭)경기도교육청동부유아체험교육원 설립 설계공모 — 공사비 250억",
+      "body": [
+        "경기 광주시 경안동에 연면적 **5,388㎡**, 교육연구시설로 짓는다. 공사비 **250억 원**, 설계비 **10억 원**. 심사위원은 11인이며 참가등록은 **10월 22~29일**, 결과 발표는 **12월 4일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19016"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 울릉군",
+      "title": "울릉군 가족센터 건립 건축설계 제안공모 — 공사비 58.4억",
+      "body": [
+        "경북 울릉읍 도동리에 연면적 **1,250㎡**, 노유자시설로 지은다. 공사비 **58.4억 원**, 설계비 **3.2억 원**. 심사위원 7인, 참가등록은 **10월 28일** 시작, 결과 발표는 **12월 11일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19013"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경북",
+      "title": "영천경찰서 이전신축 설계용역 제안공모 — 공사비 312억",
+      "body": [
+        "경북 영천시 망정동에 연면적 **11,819㎡** 업무시설로 이전·신축한다. 공사비 **312억 원**, 설계비 **14.3억 원**. 심사위원 9인, 참가등록 마감 **10월 26일**, 결과 발표는 12월 14일 이내다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19014"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 분당서울대병원",
+      "title": "분당서울대병원 1동 2층 외래 재배치 설계용역 제안공모 — 공사비 50.5억",
+      "body": [
+        "경기 성남시 분당구 분당서울대학교병원 1동 2층, 연면적 **1,424㎡** 의료시설의 외래 공간을 재배치한다. 공사비 **50.5억 원**, 설계비 **1.9억 원**. 건축·기계설비 설계용역으로, 참가등록은 **10월 28일** 시작한다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19015"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "협회 · 경기도건축사회",
+      "title": "경기도건축사회 제30대 회장선거 남부 토론회 — 투표는 11월 3일 전자투표",
+      "body": [
+        "경기도건축사회 선거관리위원회가 **10월 19일** 경기도건축사회관에서 남부 토론회를 열었다. 허영권·조영수·김종기 세 후보가 회비 감면과 교육비 지원, 직할·지역 회원 화합, 설계 대가에 대한 관점, 협회 상근 체계를 두고 공약을 겨뤘다. 조영수 후보는 계획설계 대가와 신고건 감리 의무화 추진을 내세웠다.",
+        "투표는 **11월 3일** 오전 9시~오후 6시, 한국전자투표서비스로 진행된다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13987"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "봉사 · 용인",
+      "title": "용인지역건축사회·명지대, 경로당 주방 새로 고쳤다 — '마음모아드림'",
+      "body": [
+        "용인지역건축사회와 명지대 건축대학 봉사단이 **10월 12~16일** 용인 기흥구 상미마을 경로당의 낡은 주방을 개선했다. 싱크대와 바닥을 철거해 새로 깔고 가스레인지를 교체했으며 건물 주변 쌓인 폐기물도 치웠다. 2014년 시작해 10년 넘게 이어 온 사업이다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13985"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "도시재생"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "미 건축 수주지수 9월 44.7 — 8월 47.2에서 하락",
+      "body": "AIA/Deltek 지수 50 미만이 이어졌다. 프로젝트 문의 53.2는 소폭 올랐지만 설계계약 지수는 43.7로 급락했다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150570746/architecture-firms-face-increasingly-difficult-environment-as-billings-decline-further-in-september"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "2026 아키텍처 마스터프라이즈 — 스뇌헤타 루스벨트 대통령 도서관이 올해의 건축",
+      "body": "올해의 사무소는 KPF, 지속가능 디자인은 오스트리아 빈트크라프트 시모스펠트 본사 증축이다. 시상식은 11월 빌바오 구겐하임에서 열린다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11167/architecture-masterprize-honors-top-buildings-and-firms-of-2026"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "수상"
+    },
+    {
+      "title": "미 다세대 주택 착공 9월 34.9만 호 — 전년 대비 25.9% 감소",
+      "body": "건설 투입 가격은 전년 대비 11.2% 올라 약 4년 만에 최대 상승폭을 기록했다. 남부만 착공이 11% 늘었다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/multifamily-starts-fell-september-construction-costs/833562/"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "건설 AI, 감원보다 팀 재편 — BRG 보고서",
+      "body": "북미 응답자의 46%가 팀 구조를 바꿨고 AI로 인력을 줄인 곳은 11%였다. 도입 장애 1위는 AI 오류의 책임 소재(43%)다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/construction-ai-reshape-teams-replace-jobs/833612/"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "소피아 18학교 신관 국제 설계공모 — 총상금 6만 유로",
+      "body": "불가리아 최대 학교(2,200명+)의 신관 개념설계. 1위 3만·2위 2만·3위 1만 유로, 출품 마감 2027년 2월 1일, 결과는 4월 16일.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://bustler.net/competitions/10677/international-competition-for-a-new-academic-wing-of-18-comprehensive-school-william-gladstone-sofia-bulgaria"
+          }
+        ]
+      },
+      "src_date": "2026-10-07",
+      "topic": "설계공모"
+    },
+    {
+      "title": "반 앨런 'Re:Paris Prize' — 탈식민 도시 연구에 3.5만 달러 펠로십",
+      "body": "아프리카 기반 2명과 미국 기반 1명을 선정. 등록·제출 마감은 11월 22일이다.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://bustler.net/competitions/10681/re-paris-prize-by-van-alen-institute"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "설계공모"
+    },
+    {
+      "title": "RMIT, 커피 찌꺼기로 3D 프린팅 소재 개발",
+      "body": "멜버른 디자인 위크의 모듈형 설치물에 시험 적용했다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150570592/rmit-turns-coffee-waste-into-3d-printing-material-for-architectural-installations"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "대티너 아키텍츠 직원 100여 명, 노조 결성 추진",
+      "body": "뉴욕 사무소의 디자이너·건축가·운영 직원 대부분이 건축노동자연합을 통해 노조 대표권을 요구했다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150570437/over-100-workers-at-dattner-architects-seeking-to-form-a-union"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    }
+  ],
+  "counts": {
+    "total": 22,
+    "intl": 16,
+    "kr": 6
+  },
+  "cardnews": [
+    {
+      "slug": "design-museum-gent-brick",
+      "tag": "MATERIAL",
+      "title": "폐기물로 쌓은 타워 — 디자인 뮤지엄 겐트 증축",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "brick wall facade belgium",
+      "slides": [
+        {
+          "heading": "폐기물 벽돌\n82,000장",
+          "body": "카모디 그로크의 디자인 뮤지엄 겐트 증축"
+        },
+        {
+          "heading": "BRICK",
+          "body": "반경 약 8km 안의 콘크리트·유리·도자기 폐기물로 만든 미소성 벽돌. 내재 탄소는 일반 벽돌의 약 3분의 1이다."
+        },
+        {
+          "heading": "TIMBER",
+          "body": "벽과 코어는 CLT, 큰 공간은 LVL 보. 초기 콘크리트 골조를 목재로 바꿨다."
+        },
+        {
+          "heading": "FORM",
+          "body": "겐트 주택의 박공 전면을 변형한 5층 타워. 흩어진 건물군을 하나로 잇는다."
+        },
+        {
+          "heading": "DETAILS",
+          "body": "재활용 알루미늄을 3D 프린팅한 입구 게이트, 폐목재 모자이크 로비로 지속가능성을 드러냈다."
+        }
+      ]
+    },
+    {
+      "slug": "campus-du-parc-nanterre",
+      "tag": "REUSE",
+      "title": "20년 비어 있던 건축학교, 캠퍼스로 — 낭테르 캠퍼스 뒤 파르크",
+      "ref": {
+        "section": "intl_grid",
+        "index": 2
+      },
+      "bg": 1,
+      "photo_query": "paris university campus modern building",
+      "slides": [
+        {
+          "heading": "20년 비어 있던\n건축학교의 변신",
+          "body": "IT'S 스튜디오의 낭테르 캠퍼스 뒤 파르크"
+        },
+        {
+          "heading": "BEFORE",
+          "body": "1971년 칼리즈와 살렘이 설계한 옛 낭테르 건축학교. 2004년 이후 방치됐다."
+        },
+        {
+          "heading": "AFTER",
+          "body": "18,000㎡ 대학 캠퍼스로 재생. 공학·경영·디지털 분야 학생 4,500명을 수용한다."
+        },
+        {
+          "heading": "WHY",
+          "body": "헐고 새로 짓는 대신 건물의 공간적 힘을 살렸다. 대규모 사회 재개발의 첫 공공건물이었다."
+        }
+      ]
+    },
+    {
+      "slug": "demolition-supervision-seoul",
+      "tag": "REGULATION",
+      "title": "해체공사 감리비 분쟁, 조정위에서 다룬다",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 2,
+      "photo_query": "building demolition construction site",
+      "slides": [
+        {
+          "heading": "해체공사 감리비\n분쟁 조정",
+          "body": "서울시 건축물관리 조례 개정안 발의"
+        },
+        {
+          "heading": "WHY",
+          "body": "감리비·감리기간 분쟁을 풀 절차가 불분명해 같은 민원이 반복됐다."
+        },
+        {
+          "heading": "WHAT",
+          "body": "조정 대상에 감리비 산정·지급과 감리기간을 추가한다. 구청장이 필요하다고 인정한 사항도 포함한다."
+        },
+        {
+          "heading": "HOW",
+          "body": "신청인은 '해체공사감리 조정 신청서'를 구청장에게 낸다. 기존 조정 체계는 그대로다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "도시안전건설위원회 심사를 거쳐 11월 3~4일 본회의 의결 예정이다."
+        }
+      ]
+    }
+  ]
+}
