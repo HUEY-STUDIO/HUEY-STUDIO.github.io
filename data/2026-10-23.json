@@ -1,0 +1,544 @@
+{
+  "vol": "VOL.01  NO.068",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "Designboom",
+    "ArchDaily",
+    "Architectural Record",
+    "Archinect",
+    "Construction Dive",
+    "Bustler",
+    "건축사신문",
+    "건축사뉴스",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "페로 박물관 확장안",
+      "desc": "모포시스·MVVA, 전시 공간 두 배로",
+      "label": "EXPANSION"
+    },
+    {
+      "title": "옥외 ESS 시설물 분류 지침",
+      "desc": "인허가 최대 3개월·비용 7,000만 원 단축",
+      "label": "REGULATION"
+    },
+    {
+      "title": "공공건축물 그린리모델링 의무화",
+      "desc": "내년 3월 9일 시행, 올해 150동 지원",
+      "label": "POLICY"
+    },
+    {
+      "title": "야마모토, 요코하마 시장 낙선",
+      "desc": "프리츠커 수상자 첫 대도시 시장 도전",
+      "label": "PEOPLE"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "title": "전시 공간을 두 배로 — 모포시스·MVVA의 댈러스 페로 박물관 확장안",
+    "lede": "전시 공간을 두 배로 — 모포시스·MVVA의 댈러스 페로 박물관 확장안",
+    "lede_em": "전시 공간을 두 배로",
+    "image": "https://archinect.gumlet.io/uploads/b8/b8bb493085e2cdca4eee7d512af865b1.jpg",
+    "image_label": "ARCHINECT",
+    "caption": "페로 자연과학박물관 확장안 렌더링 ⓒ Morphosis · MVVA / Archinect",
+    "body": [
+      "댈러스 페로 자연과학박물관이 **10월 21일** 캠퍼스 확장안을 공개했다. 설계는 모포시스, 조경은 MVVA(마이클 반 발켄버그 어소시에이츠), 건축 기록 설계는 벡 그룹이 맡는다. 대지 약 **16,000㎡(4에이커)** 위에 야외 과학 전시와 조경 공간 약 **5,570㎡(60,000sf)**를 더해 전시 공간을 **두 배**로 늘린다.",
+      "새로 생기는 것은 건물 증축보다 '바깥의 전시'다. 수분 곤충을 위한 정원과 고생물학 정원, 날씨·물·자연의 힘을 몸으로 겪게 하는 체험형 전시가 들어서고, 숲 전망대와 공중 산책로가 이를 잇는다. 입구와 로비를 다시 짜고 교육·식당 시설을 개선하며 주차 건물도 새로 짓는다.",
+      "사업비는 모금 캠페인 '큐리오시티 언바운드'로 조성하는 **1억 8,500만 달러**다. **2027년 초** 착공해 **2028년 말** 개관할 예정이다. 기존 건물은 2012년 모포시스가 설계해 개관했는데, 같은 건축가가 13년 만에 건물이 아니라 대지 전체를 전시장으로 확장한다는 점이 눈에 띈다.",
+      "박물관 확장이 건축보다 조경과 야외 체험을 중심에 둔 것은 최근 문화시설 설계의 흐름과도 맞닿아 있다. 공공 공간의 질이 곧 전시의 질이 되는 구조다."
+    ],
+    "source": {
+      "outlet": "Archinect",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://archinect.com/news/article/150570830/perot-museum-unveils-185-million-expansion-designed-by-morphosis-and-mvva"
+        }
+      ]
+    },
+    "src_date": "2026-10-21",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "옥외 ESS, 지자체마다 달랐던 분류 기준 하나로 — '시설물 분류 지침서' 전국 배포",
+    "body": [
+      "기후에너지환경부가 국무조정실, 국토교통부와 협의해 「옥외형 에너지저장장치(ESS) 시설물 분류 지침서」를 만들어 **10월 15일**부터 전국 지자체에 배포했다. 같은 ESS를 어떤 곳은 건축물로, 어떤 곳은 가설건축물이나 공작물로 달리 봐 인허가 절차와 기간, 비용을 예측하기 어려웠던 문제를 정리하려는 것이다."
+    ],
+    "facts": [
+      "건축물 인허가: 약 **2~4개월**, 비용 **3천만~8천만 원**",
+      "공작물 신고: 약 **2~6주**, 비용 **200만~1,000만 원**, 건폐율·용적률 부담 적음",
+      "건축물: 대지에 고정, 지붕·기둥·벽을 갖추고 내부 출입이 가능한 컨테이너형이 아닌 시설",
+      "가설건축물: 컨테이너형 등 점검·유지보수용 출입만 제한적으로 가능한 시설",
+      "효과: 인허가 최대 **3개월**, 설치비 최대 **7,000만 원** 절감 목표"
+    ],
+    "body_after": [
+      "판단 기준은 건축법 제2조의 정의에 따른 구조·용도·출입 가능 여부다. 상시 출입이 가능한 ESS 전용 건물은 '건축물'로 본다. 설계자는 ESS 계획 단계에서 출입 방식과 구조 형태에 따라 허가·신고 대상이 갈린다는 점을 먼저 확인해야 한다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21278"
+        }
+      ]
+    },
+    "src_date": "2026-10-20",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "TIMBER · 미국 워싱턴주",
+      "title": "목재의 출처까지 추적한 R&D 캠퍼스 — ZGF의 HP 밴쿠버 시설",
+      "image": "https://www.architecturalrecord.com/ext/resources/Issues/2026/10-October/2610-Forest-to-Frame-F.webp?t=1792179193",
+      "image_label": "ARCHITECTURAL RECORD",
+      "body": [
+        "ZGF 아키텍츠가 워싱턴주 밴쿠버의 옛 채석장 분지에 연면적 약 **20,900㎡(225,000sf)** HP 연구개발 시설을 지었다. 접힌 지붕을 가진 매스팀버 구조로, 옥상을 '다섯 번째 입면'으로 다뤘다. 시공은 스위너턴과 팀버랩이 맡아 **2026년 3월** 준공했다.",
+        "핵심은 목재 이력이다. 목재 **100%**를 토지 소유 유형별로 추적했고 **85%**는 특정 산림 단위까지, **44%**는 부족 소유 산림에서 조달했다. 야키마 포레스트 프로덕츠가 공급한 더글러스 전나무 글루램 약 **100만 보드피트**는 북미에서 단일 출처 부족 목재 사용량으로 최대 규모로 소개된다."
+      ],
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architecturalrecord.com/articles/18463-hps-new-r-and-d-facility-in-washington-state-traces-all-its-timber-to-the-source"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HOSPITALITY · 페로 제도",
+      "title": "어촌 도시에 만든 마을의 거실 — 헤닝 라르센의 KG 호텔",
+      "image": "https://www.architecturalrecord.com/ext/resources/news/2026/%2AOctober/Hotel-KG/Hotel-KG-_lead.webp?t=1792441850",
+      "image_label": "ARCHITECTURAL RECORD",
+      "body": [
+        "헤닝 라르센이 인구 약 5,000명의 페로 제도 클락스비크에 5층 호텔을 지었다. 콘크리트 기단 위에 세로 전나무 슬랫을 두른 3층 볼륨을 얹어 석조 선착장과 목조 보트하우스를 닮게 했다. 하부 두 층은 레스토랑·바·연회장·스파로 지역 주민에게 열려 있고, 이 사업은 **154개** 출품작 중 선정된 클락스비크 마스터플랜의 일부다."
+      ],
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architecturalrecord.com/articles/18461-henning-larsens-kg-hotel-brings-community-space-to-a-faroese-fishing-hub"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "EDUCATION · 이탈리아 알프스",
+      "title": "해발 2,173m 마멋의 굴 — 오피치나 82의 코르텐 강관 교육 공간",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/officina-82-tana-delle-marmotte-corten-steel-tubes-plywood-ribs-subterranean-learning-space-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "오피치나 82가 몽블랑 스카이웨이 중간역 인근 해발 **2,173m**에 어린이·청소년용 지하 교육 공간을 지었다. 프리패브 코르텐 강관 3개(중앙 **8m**)를 콘크리트 기초 없이 자갈층 위에 헬기로 운반해 건식 조립했고, 내부는 두께 **40mm** 가문비 합판 리브가 벤치·선반·계단 역할을 한다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/corten-steel-tubes-spruce-plywood-ribs-alpine-learning-burrow-officina-82-tana-delle-marmotte/"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "RENOVATION · 스페인 말라가",
+      "title": "상업 공간을 네 가구 주택으로 — 크레아르티브의 AA 아파트먼트",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/crearctive-aa-apartments-reuse-commercial-space-malaga-four-residential-units-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "크레아르티브가 말라가의 개방형 상업 공간을 독립된 주거 **4가구**로 바꿨다. 층고 약 **4m**를 살려 중앙에 설비 코어를 두고 그 위에 중층을 얹었으며, 중층과 거실 사이 원형 개구부로 빛이 안쪽 침실까지 닿는다. 상부 고측창은 거리에서의 사생활을 지키고, 가넷 레드가 금속 구조와 목공에 포인트를 준다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/garnet-red-accents-high-clerestories-aa-apartments-malaga-crearctive/"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "HOUSE · 브라질",
+      "title": "경사지에 세 단으로 앉힌 집 — 24 7 아르키테투라의 댐 하우스",
+      "image": "https://images.adsttc.com/media/images/6ad6/59c4/aadf/a000/01e3/b1aa/newsletter/represa-100.jpg?1792432780",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "24 7 아르키테투라가 브라질 피라카이아의 약 **24,000㎡** 부지에 연면적 **1,107㎡** 주택을 지었다. 경사지를 따라 3단 테라스에 여러 볼륨을 나눠 앉혀 토공을 최소화하고 주변 자연과의 관계를 유지했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187148/casa-da-represa-24-7-arquitetura"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HOUSE · 칠레",
+      "title": "바다를 향해 도는 집 — 로드리고 데 라 세르다의 미라도르 하우스",
+      "image": "https://images.adsttc.com/media/images/6ad8/7913/3271/8400/01d0/d734/newsletter/30_Casa_Mirador.jpg?1792571711",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "로드리고 데 라 세르다 아르키텍토가 칠레 파푸도의 해발 240m 급경사지에 **200㎡** 주택을 완성했다. 파노라마 바다 전망을 극대화하도록 평면을 회전시켰고, 바람을 막으면서 경사지에 맞춰 앉혔다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187341/mirador-house-rodrigo-de-la-cerda-arquitecto"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "제도 · 한국부동산원",
+      "title": "4개월 앞둔 공공건축물 그린리모델링 의무화 — 올해 150동에 253억 지원",
+      "body": [
+        "「녹색건축물 조성 지원법」 제27조의2에 따른 공공건축물 그린리모델링 의무화가 **2027년 3월 9일** 시행된다. 한국부동산원은 **10월 16일** 국토안전관리원과 서울에서 기술지원 사업 설명회를 열었다. 올해는 전문 수행기관 10곳이 의무화 대상 **150동**을 지원하며 총사업비는 **253억 원**이다. 수행기관 모집은 **11월 3일 18시**까지다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21283"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "협회 · 대한건축사협회",
+      "title": "대가기준 확대부터 규제 개선까지 — 대한건축사협회 제도개선 성과 정리",
+      "body": [
+        "건축사법 개정으로 업무대가기준이 공공에서 민간 건축물로 확대 적용되고 명의·명칭 보호가 강화됐다. 개정안은 지난 2월 국회 본회의에서 재석 **156인** 전원 찬성으로 가결됐다. 건축사 의무가입 헌법소원은 2025년 12월 18일 승소했다. 설계공모 심사위원 사전 접촉 방지, 가설구조물 구조검토 부담 완화 등도 성과로 꼽히며, 설계비 지급보증 등 후속 입법은 국회 계류 중이다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21282"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "전시 · 서울시",
+      "title": "건축문화로 시민과 세대를 잇다 — 제18회 서울건축문화제 성료",
+      "image": "",
+      "image_label": "",
+      "body": [
+        "서울시가 주최한 제18회 서울건축문화제가 **9월 15일~10월 11일** 서울도시건축전시관에서 열렸다. 지난해 2주였던 기간을 약 한 달로 늘렸고 시민과 건축사 약 **4만 명**이 참여했다. 주제는 'Assembling Seoul: 서울의 발견'. 제44회 서울시 건축상 수상작 10점이 전시됐고 대상작은 더시스템랩 건축사사무소의 '서울시립 서서울미술관'이다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21284"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "행사 · 경기도",
+      "title": "제14회 경기건축문화제 10월 23~25일 파주에서 — '치유의 경계'",
+      "body": [
+        "경기도와 파주시, 경기도건축사회 등 9개 기관이 주최하는 제14회 경기건축문화제가 **10월 23~25일** 파주 아시아출판문화정보센터 일원에서 열린다. 주제는 '치유의 경계: 생태적 재생, 자연과 공생하는 미래를 짓다'. 제31회 경기건축문화상 시상식과 수상작 전시, 24일 오전 11시 어린이건축물그리기대회 등이 이어진다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.a-news.kr/news/articleView.html?idxno=13989"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "협회 · 경기도건축사회",
+      "title": "경기도건축사회·명지대, 건축 인재 양성 협약 — 현장실습·특강·우수 학생 발굴",
+      "body": [
+        "경기도건축사회와 명지대 건축대학이 **10월 19일** 명지대 건축대학장실에서 협력 협약을 맺었다. 학생 현장실습과 인턴십, 건축사 대상 전문 교육·특강, 우수 학생 발굴 지원, 지역 건축문화 활성화가 협력 분야다. 협회는 경기건축문화제에 대학 부스를 마련해 졸업 작품을 전시하는 방안도 검토한다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.a-news.kr/news/articleView.html?idxno=13991"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 경북교육청",
+      "title": "(가칭)경상북도교육청 봉화도서관 신축 설계공모 — 공사비 78.6억",
+      "body": [
+        "경북 봉화군 봉화읍 삼계리에 연면적 **2,998㎡** 교육연구시설로 짓는다. 공사비 **78.6억 원**, 설계비 **5.1억 원**. 심사위원 9인, 참가등록 마감 **10월 29일**, 결과 발표는 **2027년 1월 12일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19019"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 진안군",
+      "title": "진안고원 친환경 목조전망대 조성사업 설계공모 — 공사비 84.5억",
+      "body": [
+        "전북 진안군 진안읍 군하리 일원에 연면적 **1,300㎡** 목조전망대를 짓는다. 공사비 **84.5억 원**, 설계비 **4.6억 원**. 심사위원 9인, 참가등록은 **10월 29일**, 결과 발표는 **12월 17일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19021"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "요코하마 시장 선거, 프리츠커 수상자 야마모토 7위 낙선",
+      "body": "10월 19일 선거에서 리켄 야마모토는 약 4.9만 표로 7위, 당선자는 55.2만 표를 얻었다. 대도시 시장에 출마한 첫 프리츠커 수상자였다.",
+      "source": {
+        "outlet": "Architectural Record",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architecturalrecord.com/articles/18481-japanese-pritzker-laureate-riken-yamamoto-loses-bid-for-mayor-of-yokohama"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "페이 코브 프리드, 'PCF 아키텍츠'로 사명 변경",
+      "body": "1955년 I. M. 페이가 세운 회사가 협업 구조를 반영해 이름을 바꿨다. 새 아이덴티티에는 팀 전체를 뜻하는 더하기(+) 기호가 들어갔다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150570878/pei-cobb-freed-partners-rebrands-as-pcf-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "ETH 취리히, 박테리아로 모래를 굳히는 3D 프린팅",
+      "body": "미생물 탄산칼슘 침전(MICP)으로 시멘트 없이 모래를 건축 부재로 만든다. 젤 프린팅 후 2~5일 미네랄화하는 방식과 로봇 적층 방식을 개발했다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150570922/eth-zurich-researcher-develops-bacteria-based-3d-printing-method"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "2026 프릭스 베르사유 '아레나' 부문 후보 7곳 발표",
+      "body": "치퍼필드의 밀라노 유니폴 돔, 포풀러스의 라바트 경기장 등이 올랐다. 12월에 3곳이 타이틀을 받는다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11166/world-s-most-beautiful-arenas-of-2026-named-by-prix-versailles"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "수상"
+    },
+    {
+      "title": "MIT 건축학과, 초기 경력자 대상 벨루스키 펠로십 모집",
+      "body": "MArch 이상 학위자가 대상이며 2027년 9월 시작하는 1년 임용(최대 3년 연장)이다. 마감은 12월 15일.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150570677/mit-architecture-opens-belluschi-fellowship-for-early-career-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "컨테크 6개사, 1.54억 달러 투자 유치",
+      "body": "미터(4,000만 달러), 윈트(3,600만 달러) 등이 인력 관리·회계·수질 모니터링에 AI를 접목한다. 3D 프린팅 아이콘은 별도로 2억 달러를 유치했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/contech-funding-miter-wint-civilgrid-buildcheck/833503/"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "perot-museum-expansion",
+      "tag": "PROJECT",
+      "title": "건물 밖이 전시장이 된다 — 페로 박물관 확장안",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "dallas texas museum",
+      "slides": [
+        {
+          "heading": "건물 밖이\n전시장이 된다",
+          "body": "모포시스·MVVA의 댈러스 페로 박물관 확장안"
+        },
+        {
+          "heading": "SCALE",
+          "body": "대지 약 16,000㎡에 야외 전시와 조경 공간 약 5,570㎡를 더해 전시 공간을 두 배로 늘린다."
+        },
+        {
+          "heading": "GARDENS",
+          "body": "수분 곤충 정원과 고생물학 정원, 숲 전망대와 공중 산책로가 들어선다."
+        },
+        {
+          "heading": "HANDS-ON",
+          "body": "날씨·물·자연의 힘을 몸으로 겪는 체험형 전시. 입구와 로비, 교육·식당 시설도 새로 짠다."
+        },
+        {
+          "heading": "SCHEDULE",
+          "body": "사업비 1억 8,500만 달러. 2027년 초 착공, 2028년 말 개관 예정이다."
+        }
+      ]
+    },
+    {
+      "slug": "ess-classification-guideline",
+      "tag": "REGULATION",
+      "title": "옥외 ESS, 건축물인가 공작물인가",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "solar battery energy storage container",
+      "slides": [
+        {
+          "heading": "옥외 ESS,\n건축물일까 공작물일까",
+          "body": "지자체마다 달랐던 분류 기준이 하나로 정리됐다"
+        },
+        {
+          "heading": "PROBLEM",
+          "body": "같은 ESS를 건축물, 가설건축물, 공작물로 달리 봐 인허가 기간과 비용을 예측하기 어려웠다."
+        },
+        {
+          "heading": "GAP",
+          "body": "건축물은 허가에 2~4개월·3천만~8천만 원, 공작물은 2~6주·200만~1,000만 원이 든다."
+        },
+        {
+          "heading": "RULE",
+          "body": "건축법 제2조 정의에 따라 구조·용도·출입 가능 여부로 판단한다. 상시 출입 가능한 전용 건물은 건축물이다."
+        },
+        {
+          "heading": "EFFECT",
+          "body": "인허가 최대 3개월, 설치비 최대 7,000만 원 절감이 목표다. 지침서는 10월 15일부터 전국에 배포됐다."
+        }
+      ]
+    },
+    {
+      "slug": "hp-vancouver-mass-timber",
+      "tag": "MATERIAL",
+      "title": "목재의 출처까지 추적한 HP 연구개발 캠퍼스",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "wooden architecture",
+      "slides": [
+        {
+          "heading": "목재의 출처를\n끝까지 추적했다",
+          "body": "ZGF가 설계한 HP 밴쿠버 R&D 시설"
+        },
+        {
+          "heading": "SITE",
+          "body": "옛 채석장 분지에 연면적 약 20,900㎡. 접힌 지붕의 매스팀버 구조다."
+        },
+        {
+          "heading": "TRACEABLE",
+          "body": "목재 100%를 토지 소유 유형별로 추적했고, 85%는 특정 산림 단위까지 확인했다."
+        },
+        {
+          "heading": "TRIBAL",
+          "body": "44%는 부족 소유 산림에서 조달했다. 더글러스 전나무 글루램 약 100만 보드피트는 단일 출처 부족 목재로 북미 최대 규모다."
+        },
+        {
+          "heading": "DETAIL",
+          "body": "설비 관통부를 모델 단계에서 미리 조정해 현장 변경 비용을 줄였다."
+        }
+      ]
+    }
+  ]
+}
