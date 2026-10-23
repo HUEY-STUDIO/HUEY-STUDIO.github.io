@@ -1,0 +1,571 @@
+{
+  "vol": "VOL.01  NO.069",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "ArchDaily",
+    "Designboom",
+    "Archinect",
+    "Construction Dive",
+    "Bustler",
+    "건축사뉴스",
+    "MTN",
+    "대한건설협회",
+    "뉴스웨이",
+    "이비엔뉴스",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "보이만스 미술관 재개관 준비",
+      "desc": "마카노, 2019년 폐관 뒤 첫 렌더링 공개",
+      "label": "RENOVATION"
+    },
+    {
+      "title": "반도체 산단 패스트트랙",
+      "desc": "인허가·보상·설계 병행, 조성 10년→5년 목표",
+      "label": "REGULATION"
+    },
+    {
+      "title": "유럽 집합주택상 2회",
+      "desc": "192개 출품작 중 파리 두 곳 수상",
+      "label": "AWARDS"
+    },
+    {
+      "title": "모스크바 슈호프 타워",
+      "desc": "철거 임박, 보존 호소 공개서한",
+      "label": "HERITAGE"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화시설 리노베이션",
+    "lede": "폐관 7년째, 석면과 화재 위험을 걷어낸 보이만스 미술관이 새 얼굴을 드러냈다",
+    "lede_em": "보이만스 미술관이 새 얼굴",
+    "image": "https://images.adsttc.com/media/images/6ada/4ae7/20d6/d80c/d572/ccb1/newsletter/mecanoo-releases-new-images-of-the-museum-boijmans-van-beuningen-renovation-in-rotterdam_1.jpg?1792690967",
+    "image_label": "ARCHDAILY",
+    "caption": "마카노가 공개한 보이만스 판 뵈닝언 미술관 리노베이션 렌더링 ⓒ Mecanoo",
+    "body": [
+      "네덜란드 건축사무소 마카노(Mecanoo)가 로테르담 **보이만스 판 뵈닝언 미술관**의 리노베이션 신규 이미지를 공개했다. 미술관은 화재 위험과 누수, 밀린 유지보수, 상당량의 석면 때문에 **2019년**부터 문을 닫고 있다. 부지는 국가기념물이며, 복합 단지의 규모는 **25,000㎡**에 이른다.",
+      "단지에는 서로 다른 시대의 보호 건축물 세 동이 섞여 있다. 아드리안 판 데르 스퇴르의 **1935년** 본관, 알렉산더 보돈의 **1972년** 동, 위베르 얀 헨케의 **1991년** 판 뵈닝언-더 프리스 파빌리온이다. 로비에서 가장 불편했던 출입구와 동선, 잦은 층 차이, 작품 반입 문제를 풀어야 했다. 로버크트 앤 다엠이 **2003년**에 지은 증축부는 지하층과 일부 콘크리트 구조만 남기고 대부분 철거된다.",
+      "새 주출입구는 판 데르 스퇴르의 옛 정문을 지나 바깥마당(Buitenhof)으로 이어진다. 네 번째 입면은 '커넥터'라 불리는 투명한 외피가 된다. 안마당(Binnenhof)은 패턴 유리 지붕으로 덮고, 중앙의 지하 원형 파티오는 햇빛을 지하 입구 홀까지 끌어내린다. 사람과 작품의 동선은 완전히 분리해 하역과 물류를 동쪽에 모았다.",
+      "보돈 동은 기획전 중심의 전시관으로 쓰고, 헨케의 파빌리온은 투명한 정원 레스토랑이 된다. 신진 작가를 위한 2층 규모의 비공조 전시 공간은 기존 건물과 같은 벽돌로 마감한다. 세 건물 모두 가능한 한 에너지 성능을 끌어올리는 개보수를 거친다. 공개 시점에 재개관 일정은 밝혀지지 않았다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1187399/mecanoo-releases-new-images-of-the-museum-boijmans-van-beuningen-renovation-in-rotterdam"
+        }
+      ]
+    },
+    "src_date": "2026-10-23",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "반도체 산단 '패스트트랙' — 인허가·보상·설계를 한꺼번에, 조성 기간 10년에서 5년으로",
+    "body": [
+      "정부가 **10월 23일** 대통령 주재 제2차 규제합리화위원회에서 '메가프로젝트 반도체 투자 신속 이행을 위한 규제 합리화방안'을 내놨다. 산업통상부 주관으로 관세청·국토교통부 등이 함께하는 **13개** 개선 과제 가운데 건축·설계 실무와 가장 가까운 것은 산업단지 조성 절차의 병행 추진이다."
+    ],
+    "facts": [
+      "목표: 반도체 첨단국가산단 조성 기간 **10년 이상 → 5년 이내**",
+      "기존: 산단계획·환경영향평가 등 인허가를 마친 뒤 토지보상·설계·시공을 순차 진행",
+      "변경: 인허가·토지보상·설계를 **병행**하고, 전력·용수·도로 등 기반시설 인허가도 일괄 처리 범위 확대",
+      "법적 근거: 산업입지법 개정안(**7월 30일** 발의, 소관위 계류) — 정식 지정 전에 **예비사업시행자**를 선정해 토지 협의 착수",
+      "인센티브: 일정 기간 내 협의에 응한 토지주에게 보상금 외 가산금 지급 가능"
+    ],
+    "body_after": [
+      "설계자 입장에서는 부지 확정 전 단계에서 설계가 먼저 움직일 수 있다는 뜻이다. 다만 개정안이 아직 국회를 통과하지 않았고, 5년 목표는 산단 조성 기간에 대한 것이어서 개별 공장 건설과 전력·용수 공급은 별도 일정이 남는다. 용인 산단의 통합용수공급 우선시공구간은 **9월 18일** 착공해 하루 **31만 톤**의 공업용수를 공급할 계획이다."
+    ],
+    "source": [
+      {
+        "outlet": "뉴스웨이",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.newsway.co.kr/news/view?ud=2026102316411924343"
+          }
+        ]
+      },
+      {
+        "outlet": "이비엔뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1728968"
+          }
+        ]
+      }
+    ],
+    "src_date": "2026-10-23",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "교육시설 · 뉴욕",
+      "title": "브롱크스에 선 첫 신축 차터스쿨 — SOM의 석세스 아카데미 K–12 캠퍼스",
+      "image": "https://images.adsttc.com/media/images/6ada/4c6d/db5c/2001/882c/fba0/medium_jpg/success-academy-bronx-k-12-campus-som_18.jpg?1792691345",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "SOM이 설계한 석세스 아카데미 브롱크스 K–12 캠퍼스가 2026년 준공됐다. 뉴욕시 **60개** 학교에서 학생 약 **22,000명**을 가르치는 차터스쿨 네트워크가 처음으로 맨땅에서 지은 교사(校舍)다.",
+        "연면적은 **310,247평방피트**(약 28,800㎡)이고 LEED 실버 인증을 받았다. 네트워크의 교수법을 건축으로 뒷받침하는 '미래의 학교'가 설계 의도였으며, 학업·예술·체육·대학 진학 준비 프로그램을 한 건물에 담았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187400/success-academy-bronx-k-12-campus-som"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "교육시설 · 스위스",
+      "title": "여섯 개의 배움 방 — 스뇌헤타·바르트의 르 로제 임팩트 스페이스",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/hires.tobias.kaser_.020-1.jpeg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "스위스 롤에 있는 기숙학교 르 로제(1880년 설립, 학생 약 **450명**·**70개국**)의 임팩트 스페이스 안에 스뇌헤타가 학습 공간 **6곳**을 만들었다. 실내 제작과 설치는 인테리어 시공사 바르트(barth)가 맡았다.",
+        "방마다 배우는 방식이 다르다. 숲에서 영감을 얻은 지식의 방은 기울어진 나무 기둥에 책장과 좌석을 매달았고, 하크니스식 토론을 위한 방에는 큰 타원 탁자와 매달린 의자를 두었다. 찻집을 본뜬 명상 방, 거울의 방, S자 커튼으로 시야를 가렸다 여는 호기심의 방, 주황빛 소극장 형태의 발표 연습 방이 이어진다. 평행한 벽이 거의 없는 불규칙한 구조라 대부분의 가구를 맞춤 제작해야 했다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/snohetta-barth-spaces-le-rosey-boarding-school/"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "리테일 · 인도네시아",
+      "title": "짚 파사드와 다짐 흙벽 — OMA가 발리에 연 '굿 타임스 제너럴 스토어'",
+      "image": "https://static.designboom.com/wp-content/uploads/2026/10/oma-potato-head-good-times-general-store-bali-indonesia-designboom-4.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "포테이토 헤드 비치 클럽의 첫 상설 매장을 OMA가 설계했다. 알랑알랑 짚 파사드, 현지 점토 다짐 흙벽, 대나무 자투리를 섞은 테라조 바닥으로 지었고, 다섯 개의 베이에 천연염색 스튜디오와 플라스틱 성형 작업장을 함께 넣었다. 직조·업사이클링 공방은 **2027년** 추가된다."
+      ],
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/oma-potato-head-good-times-general-store-bali-indonesia/"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "산업유산 · 러시아",
+      "title": "철거 임박한 슈호프 타워 — 건축가·역사학자들이 푸틴에게 보낸 공개서한",
+      "image": "https://archinect.gumlet.io/uploads/fb/fb687012eb75712d64738399104cd1df.jpg",
+      "image_label": "ARCHINECT",
+      "body": [
+        "건축가·엔지니어·보존 전문가들이 모스크바 샤볼롭카 라디오 타워(**1922년** 완공, 블라디미르 슈호프 설계)의 보존을 요청하는 공개서한을 보냈다. 소유주 방송망 회사가 곧 해체할 계획이라는 것이다. 서한은 철거 중단, 구조 전문가 재평가, 앞서 하향된 문화재 보호 등급의 재검토를 요구한다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150571107/open-letter-to-save-moscow-s-iconic-shukhov-tower-sent-to-putin"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "인프라 · 미국",
+      "title": "변전소가 타일 패턴을 입다 — 아틀리에 만페르디니의 크리스털 변전소 'inVisible'",
+      "image": "https://archinect.gumlet.io/uploads/89/89d556664efb10fe262fe95e709c1491.jpg?auto=compress%2Cformat",
+      "image_label": "ARCHINECT",
+      "body": [
+        "버지니아 크리스털시티의 도미니언 에너지 변전소 입면을 도자 타일(**2·4·6인치**, **10색**)과 접힌 아노다이징 알루미늄 패널로 감쌌다. 타일 크기는 전압 변환을, 패턴은 보이지 않는 송배전 과정을 은유하고, 밤에는 프로그래머블 LED가 색을 바꾼다."
+      ],
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150571104/atelier-manferdini-wraps-virginia-substation-in-patterned-facade"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "수상 · 유럽",
+      "title": "유럽 집합주택상 2회 — 파리의 '라 메트로폴리텐'과 차고 개조 주택",
+      "image": "https://images.adsttc.com/media/images/6ad0/0f4d/7887/fb01/8910/7445/medium_jpg/two-projects-in-paris-win-the-european-collective-housing-award_1.jpg?1792020384",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "출품작 **192건**(36개국) 가운데 신축 부문은 이그나시오 프레고·티보 바블레의 '라 메트로폴리텐', 리노베이션 부문은 아틀리에 테키의 1957년 차고 개조 주택(**63세대**+상가)이 뽑혔다. 심사위원장은 카르메 피노스다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186870/two-projects-in-paris-win-the-european-collective-housing-award"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "수상"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "건축행정 · 광주",
+      "title": "광주지역건축사회, 시청 건축과와 하반기 간담회 — 건축법 개정·불법건축 단속 공유",
+      "image": "",
+      "body": [
+        "광주지역건축사회가 **10월 22일** 광주시청 선암홀에서 건축과와 간담회를 열었다. 건축사 약 **40명**이 참석해 일조권 보호 높이 제한 완화, 불법건축물 단속 강화, 특정건축물 정비 법률 제정 등 건축법 개정 내용과 경기도 녹색건축 설계기준 변경 사항을 공유했다. 시는 공장·창고 화재안전 실태조사에 대한 협조도 요청했다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13998"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계실무 · 저작권",
+      "title": "건축물 사진의 저작권은 누구 것인가 — 촬영 비용을 냈어도 권리는 사진가에게",
+      "body": [
+        "건축사뉴스 아카이빙 연재 마지막 회는 건물 사진에 건축저작물과 사진저작물 두 권리가 겹친다고 짚는다. 계약에 따로 정하지 않으면 촬영비를 치러도 저작권은 사진가에게 남고, 사무소는 약정 범위의 이용권만 갖는다. 하늘 교체나 생성형 AI 보정은 동일성유지권 침해가 될 수 있다. 저작권은 저작자 사후 **70년**이며, 계약에는 매체·목적·기간·지역·크레딧·RAW 인도 여부를 명시하라고 권한다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13996"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "건설산업 · 주택공급",
+      "title": "LH·대한건설협회 주택공급 간담회 — 민참사업 자재 선정 자율권·공사비 현실화 건의",
+      "body": [
+        "대한건설협회 한승구 회장과 LH 이성훈 사장이 **10월 22일** 건설회관에서 만났다. 협회는 민참사업의 자재 선정 자율권과 공사비 현실화, 매입임대 자금지원 대상 확대, 인허가·착공 지연 리스크의 합리적 분담, 협의체 정례화를 건의했고, LH는 적극 검토하겠다고 답했다."
+      ],
+      "source": {
+        "outlet": "대한건설협회",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.cak.or.kr/lay1/bbs/S1T9C12/A/2/view.do?article_seq=161952"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "엔지니어링 · 규제",
+      "title": "건설엔지니어링협회, 11월 26일 '과잉·중복 규제' 정책포럼 — 설계자 안전관리 의무 확대 논의",
+      "body": [
+        "한국건설엔지니어링협회와 엄태영 의원실이 **11월 26일** 오후 2시 국회의원회관 제3세미나실에서 '건설엔지니어링 과잉·중복 규제 도출 및 개선 방안' 포럼을 연다. 설계자 안전관리 의무 확대처럼 늘어나는 규제를 진단하고 정부·업계 패널토론을 진행한다."
+      ],
+      "source": {
+        "outlet": "MTN",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://news.mtn.co.kr/news-detail/2026101411031647573"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 서해지방항공청",
+      "title": "서해청 회전익 항공기 격납고 신축 설계공모 — 공사비 112억",
+      "body": [
+        "전남 무안 항공특화산업단지(무안군 망운면 피서리)에 연면적 **3,600㎡** 업무시설로 짓는다. 공사비 **112억 원**, 설계비 **5.1억 원**의 제안설계공모로 심사위원은 7인이다. 참가등록 마감 **10월 30일**, 결과 발표는 **12월 10일** 이내다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/19023"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경기 화성",
+      "title": "화남초 교실 증축 설계공모 — 공사비 23.4억",
+      "body": [
+        "경기 화성시 동탄구 장지동 화남초등학교에 연면적 **679㎡** 교육연구시설을 증축한다. 공사비 **23.4억 원**, 설계비 **1.2억 원**의 제안공모로 심사위원 11인이다. 참가등록은 **10월 26일~11월 2일**, 결과 발표는 **12월 10일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/19022"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 강원 춘천",
+      "title": "퇴계산업단지 청년문화센터 건립 설계공모 — 설계비 2.7억",
+      "body": [
+        "강원 춘천시 퇴계동 864번지 일원에 연면적 **850㎡**, 제2종근린생활시설로 짓는다. 설계비 **2.7억 원**의 제안공모(심사위원 7인)이며 참가등록 마감은 **10월 26일**, 결과 발표는 **12월 23일**이다. 공고 목록의 공사비 표기는 오류로 보여 싣지 않는다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/19005"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "미 건설 착공 9월 1.5% 감소, 상업용 18.4% 급감",
+      "body": "닷지 집계로 9월 전체 착공은 전월 대비 1.5% 줄어 연율 1.33조 달러. 제조·데이터센터가 줄고 교육·고속도로는 늘었다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/commercial-groundbreakings-plunged-september/833741/"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "해외 설계공모·펠로십 모음 — 로마 프라이즈·W 어워즈 2027 등",
+      "body": "로마 프라이즈와 RIBA 인도 건축 공모는 11월 15일, W 어워즈 2027은 11월 27일, 라이시엄 펠로십(미시시피 타운하우징)은 2027년 5월 27일 마감이다.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11169/new-architecture-and-design-competitions-w-awards-rome-prize-lyceum-fellowship-and-riba-architecture-in-india-exhibition"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "설계공모"
+    },
+    {
+      "title": "나사, 화성 식량·거주 콘셉트 'AEGIS Mars'에 5만 달러",
+      "body": "113개 제출작 중 5개 팀이 뽑힌 '마즈 투 테이블' 챌린지. 승무원 15명, 500솔 임무 가정이며 개념 설계 단계다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150570832/nasa-awards-50-000-to-aegis-mars-food-and-habitat-design-concept"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "수상"
+    },
+    {
+      "title": "데이터센터 지속가능성이 지역 수용성 열쇠 — USGBC",
+      "body": "LEED 등록 데이터센터는 전 세계 2,000곳 이상(5.91억 평방피트). 4개 주는 데이터센터 전용 성능 공시를 의무화했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/data-center-sustainability-presents-an-opportunity-usgbc-official-says/833701/"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "제도규제"
+    },
+    {
+      "title": "뉴포마, 토론토 AI 스타트업 루미 인수",
+      "body": "20년 치 RFI·제출물 데이터를 가진 뉴포마의 AI 비서 보조에 루미의 에이전트 AI를 결합한다. 인수 금액은 비공개.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/newforma-acquires-lumi-ai/833635/"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "프루베 1944년 이동식 주택이 일본 다실로",
+      "body": "갤러리 파트릭 세갱이 디자인 마이애미 파리에서 6×6m 조립식 주택을 다실 공간으로 재해석해 선보였다.",
+      "source": {
+        "outlet": "Designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/jean-prouve-1944-demountable-house-japanese-tea-pavilion-design-miami-paris-2026-galerie-patrick-seguin/"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "boijmans-mecanoo-reopening",
+      "tag": "RENOVATION",
+      "title": "7년째 닫힌 보이만스 미술관, 마카노가 다시 연다",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:Museum Boijmans Van Beuningen @ Rotterdam (29951271164).jpg",
+        "File:Museum Boijmans Van Beuningen @ Rotterdam (30283690770).jpg",
+        "File:Museum Boijmans Van Beuningen @ Rotterdam (29951273624).jpg"
+      ],
+      "photo_query": "rotterdam museum",
+      "slides": [
+        {
+          "heading": "7년째 닫힌\n미술관이 돌아온다",
+          "body": "마카노의 보이만스 판 뵈닝언 미술관 리노베이션"
+        },
+        {
+          "heading": "WHY CLOSED",
+          "body": "화재 위험, 누수, 밀린 유지보수, 상당량의 석면. 국가기념물인 25,000㎡ 단지는 2019년부터 문을 닫았다."
+        },
+        {
+          "heading": "THREE ERAS",
+          "body": "1935년 판 데르 스퇴르 본관, 1972년 보돈 동, 1991년 헨케 파빌리온. 서로 다른 시대의 보호 건축물이 한 단지에 있다."
+        },
+        {
+          "heading": "NEW ENTRANCE",
+          "body": "옛 정문을 지나 바깥마당으로. 투명한 커넥터 외피와 지하 원형 파티오가 입구 홀에 햇빛을 내린다."
+        },
+        {
+          "heading": "CIRCULATION",
+          "body": "사람과 작품의 동선을 분리하고 하역은 동쪽에 모은다. 2003년 증축부는 대부분 철거된다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "헨케 파빌리온은 정원 레스토랑으로, 신진 작가용 벽돌 전시관이 새로 들어선다. 재개관 일정은 아직 미공개."
+        }
+      ]
+    },
+    {
+      "slug": "shukhov-tower-open-letter",
+      "tag": "HERITAGE",
+      "title": "철거 앞둔 슈호프 타워, 100년 된 쌍곡면 철탑",
+      "ref": {
+        "section": "intl_grid",
+        "index": 1
+      },
+      "bg": 1,
+      "commons_photos": [
+        "File:Moscow Shukhov Tower 2003-09 1063640428.jpg",
+        "File:Shukhov Tower in 1963.jpg",
+        "File:Shukhov Tower, 1925 photo by Wide World.jpg",
+        "File:Moscow Shukhov Tower 2004-06 1086902657.jpg"
+      ],
+      "photo_query": "lattice steel tower",
+      "slides": [
+        {
+          "heading": "철거 앞둔\n100년 철탑",
+          "body": "모스크바 슈호프 타워 보존을 위한 공개서한"
+        },
+        {
+          "heading": "WHAT",
+          "body": "1922년 완공된 샤볼롭카 라디오 타워. 블라디미르 슈호프가 설계했고 20세기 공학의 걸작으로 꼽힌다."
+        },
+        {
+          "heading": "THREAT",
+          "body": "소유주인 방송망 회사가 수일~수주 안에 해체할 계획이라고 서한은 전한다."
+        },
+        {
+          "heading": "ARGUMENT",
+          "body": "현대 소재로 만든 복제품은 '가짜 사본'일 뿐이며, 원래 강재는 수명이 충분히 남아 있다는 주장이다."
+        },
+        {
+          "heading": "DEMAND",
+          "body": "철거 중단, 전문가 재평가, 이전에 하향된 문화재 보호 등급의 재검토를 요구한다."
+        }
+      ]
+    },
+    {
+      "slug": "semiconductor-industrial-park-fasttrack",
+      "tag": "REGULATION",
+      "title": "반도체 산단 5년 승부 — 인허가·보상·설계 병행",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 2,
+      "photo_query": "microchip wafer",
+      "slides": [
+        {
+          "heading": "산단 조성\n10년을 5년으로",
+          "body": "반도체 첨단국가산단 패스트트랙의 핵심"
+        },
+        {
+          "heading": "WHAT",
+          "body": "10월 23일 규제합리화위원회가 13개 개선 과제를 발표했다. 산단 조성 목표는 10년 이상에서 5년 이내."
+        },
+        {
+          "heading": "HOW",
+          "body": "인허가를 마친 뒤 보상·설계·시공으로 가던 순서를 버리고 인허가·토지보상·설계를 동시에 진행한다."
+        },
+        {
+          "heading": "LAW",
+          "body": "7월 30일 발의된 산업입지법 개정안이 근거다. 정식 지정 전에 예비사업시행자를 선정해 토지 협의에 착수할 수 있다."
+        },
+        {
+          "heading": "CAVEAT",
+          "body": "법안은 아직 국회 계류 중이다. 5년은 산단 조성 기간일 뿐, 전력·용수 공급과 개별 공장 건설은 별도 일정이다."
+        }
+      ]
+    }
+  ]
+}
