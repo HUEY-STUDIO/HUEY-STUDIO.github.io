@@ -1,0 +1,543 @@
+{
+  "vol": "VOL.01  NO.070",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 16,
+    "kr": 5
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "ENR",
+    "Bustler",
+    "Archinect",
+    "건축사뉴스",
+    "건축사신문"
+  ],
+  "teasers": [
+    {
+      "title": "예레반 월드트레이드센터",
+      "desc": "포스터+파트너스, 두 타워를 정원 브리지로",
+      "label": "PROJECT"
+    },
+    {
+      "title": "오바마 센터 총비용 10억 달러",
+      "desc": "당초 3억 5천만 달러의 두 배 넘어",
+      "label": "COST"
+    },
+    {
+      "title": "알바니아 보호구역 개발 허용법",
+      "desc": "쿠슈너 후원 사잔섬 리조트 논란",
+      "label": "REGULATION"
+    },
+    {
+      "title": "벨라노 면방직 공장 박물관",
+      "desc": "코모 호수 옛 공장 전환 설계공모",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 고층 복합",
+    "lede": "두 타워를 정원 브리지로 잇다 — 포스터+파트너스의 예레반 월드트레이드센터",
+    "lede_em": "정원 브리지로 잇다",
+    "image": "https://static-2026.dezeen.com/uploads/2026/10/world-trade-center-yerevan-foster-partners-armenia_dezeen_2364_col_1.jpg",
+    "image_label": "DEZEEN",
+    "caption": "예레반 월드트레이드센터 렌더링 ⓒ Foster + Partners",
+    "body": [
+      "포스터+파트너스가 아르메니아 수도 예레반에 **두 개의 고층 타워**를 세 개의 브리지 요소로 연결하는 월드트레이드센터를 설계했다. 한 타워는 오피스, 다른 타워는 아파트와 호텔로 계획됐다.",
+      "타워는 지상에서 띄워 올려 대지의 **50%**를 열린 공간으로 확보한다. 구조는 콘크리트 프레임에 강재 브레이싱을 더하고 유리 외피로 감쌌으며, 코어를 분리해 내부를 개방적이고 유연하게 쓸 수 있게 했다.",
+      "브리지 안에는 옥외 테라스를 포함한 편의시설이 들어가고, 타워는 국회의사당·오페라 극장·아르메니아 제노사이드 기념관·아라라트산을 바라보도록 각도를 틀었다. 타워 아래 저층부에는 엔터테인먼트·숙박·쇼핑 공간이 공공 광장을 둘러싼다.",
+      "도시 공간은 **1924년** 알렉산데르 타마니안이 세운 마스터플랜의 정원도시 구상을 참고했고, 북쪽 이벤트 광장은 성 요한 세례자 교회와 이어진다. 높이·연면적·공사 시기는 아직 공개되지 않았다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/10/23/world-trade-center-yerevan-foster-partners-armenia/"
+        }
+      ]
+    },
+    "src_date": "2026-10-23",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://static-2026.dezeen.com/uploads/2026/10/sazan-island-flamingo-revolution-news_dezeen_2364_sq.jpg",
+    "image_label": "DEZEEN",
+    "title": "알바니아, 보호구역 '전략적 투자자' 개발 허용법 논란 — 쿠슈너 후원 사잔섬 리조트",
+    "body": [
+      "알바니아 정부가 '전략적 투자자'가 보호 지역에 건설할 수 있도록 하는 법을 통과시키면서, 해안 생태 민감 지역에 수천 채의 고급 빌라를 짓는 리조트 계획이 속도를 내고 있다. 대상지는 알바니아 유일의 섬 사잔과 플라밍고가 서식하는 습지 비오사나르타이며, 재러드 쿠슈너와 이방카 트럼프가 후원한다."
+    ],
+    "facts": [
+      "법: 보호 지역 개발을 '전략적 투자자'에게 허용하는 법 통과 — 유럽의회가 **6월** 폐지 요구",
+      "쟁점: 2030년 EU 가입이 예상되는 후보국이 EU 환경 규정의 구속을 받기 전에 절차를 끝내려 한다는 의혹",
+      "설계: 현재 공식 연결된 사무소 없음 — LAVA는 빠졌고, BIG는 더 이상 관여하지 않는다고 밝힘",
+      "프레임워크 참여로 보도된 곳: 켄고 쿠마 & 어소시에이츠, 아틀리에 장 누벨, K-studio, 엠레 아롤라트",
+      "반발: 티라나 반정부 시위, 6월 공사 시작 후 환경운동 '플라밍고 혁명'"
+    ],
+    "body_after": [
+      "건축가 입장에서는 법적 보호 지위가 사업 중에 바뀌는 프로젝트에 이름을 올릴 때 평판 위험을 따져야 한다는 사례다. 이방카는 5월 팟캐스트에서 규모가 '압도적'이라고 말했고, 쿠슈너는 최고 수준의 설계·환경 기준을 지키겠다고 밝혔다. BirdLife Albania의 생태학자는 이 사업이 야생 지역을 완전히 파괴할 것이라고 BBC에 말했다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/10/22/albania-sazan-island-resort/"
+        }
+      ]
+    },
+    "src_date": "2026-10-22",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "공사비 · 미국",
+      "title": "오바마 대통령 센터 총비용 10억 달러 — 당초 3억 5천만 달러의 두 배 넘어",
+      "image": "https://www.enr.com/ext/resources/2025/09/30/Obama-Library-%282%29-Resized.webp?t=1785347863",
+      "image_label": "ENR",
+      "body": [
+        "시카고 잭슨 공원의 오바마 대통령 센터 캠퍼스 전체 비용이 약 **10억 달러**에 이른 것으로 집계됐다. 9월 기준 **9억 900만 달러**에서 약 **9,100만 달러**가 더 붙은 금액이며, 공공 자금으로 조달한 인프라 개선비 **1억 2,300만 달러**는 포함되지 않는다.",
+        "예산은 당초 **3억 5천만 달러**, 2017년 설계 완료 시 **5억 달러**, 2026년 9월 초 **8억 5천만 달러**로 불어왔다. 증액 요인으로는 약 **6,000㎡**(6만 sq ft) 규모 농구 센터 '홈 코트' 등 추가 공사 범위, 공공미술, 보험비가 거론된다. 재단은 전액 민간 기부금으로 충당한다고 밝혔고, 유사 규모의 대형 프로젝트에서 변경 지시는 흔하다는 입장이다.",
+        "터너 건설이 주도하는 합작법인 레이크사이드 얼라이언스가 본관을 완공했다. 다만 하도급업체들은 최신 증액분이 유치권·분쟁 해결에 쓰일지 통보받지 못했다고 밝혔다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64021-obama-presidential-center-reaches-1b-in-total-costs"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "재생 · 영국",
+      "title": "비틀즈 스토리, 1969년 쇼핑센터와 라디오 시티 타워로 이전 — 리버풀 2028년",
+      "image": "https://static-2026.dezeen.com/uploads/2026/10/radio-city-tower-liverpool-the-beatles-story_dezeen_2364_col_1.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "리버풀 로열 앨버트 독에서 **1990년** 문을 연 비틀즈 박물관 '더 비틀즈 스토리'가 옛 세인트 존스 시장·쇼핑센터와 옛 라디오 시티 타워로 옮긴다. 면적은 약 **9,300㎡**로 현재 부두 부지의 4배 이상이다.",
+        "세인트 존스 쇼핑센터는 영국 건축가 제임스 A. 로버츠가 설계해 **1969년** 리버풀 라임 스트리트 역 맞은편에 지은 건물이다. 등급 II 지정 건물인 높이 **138m**의 라디오 시티 타워는 '옐로 서브마린' 테마의 전망대로 바뀐다.",
+        "이전은 **2028년**으로 예정돼 곧 개봉할 비틀즈 영화 일정에 맞췄고, 애플 코프스가 현 운영사로부터 소유권을 인수해 이전을 이끈다. 전시 공간 설계자와 타워 리모델링 설계자는 기사에 나오지 않는다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/10/22/the-beatles-story-liverpool-relocation/"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "재생 · 스페인",
+      "title": "1600년 예수회 대학에서 바스크 박물관으로 — 바이요 아키텍츠의 빌바오 바스크 박물관 개보수",
+      "image": "https://images.adsttc.com/media/images/6ad8/93dc/20d6/d801/8852/00db/medium_jpg/basque-museum-bilbao-vaillo-plus-architects_5.jpg?1792578535",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스페인 바이요 아키텍츠(VAILLO + ARCHITECTS)가 빌바오 역사 지구에 있는 바스크 문화 민속박물관 에우스칼 무세오아(Euskal Museoa)의 건축·전시 계획 전반을 재생해 **2026년** 준공했다. 설계공모로 선정된 프로젝트다.",
+        "건물군의 기원은 **1600년** 빌바오에 세워진 예수회 대학으로 거슬러 올라간다. 설계진은 이 오래된 도시 블록의 건축과 전시 방식을 함께 손보는 '종합 개보수'로 접근했다. 주요 재료는 목재·철강·석재다.",
+        "발주처는 빌바오 비스카이아 박물관 재단(Bilbao Bizkaia Museoak), 사진은 이냐키 베르헤라가 맡았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187258/basque-museum-bilbao-vaillo-plus-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "보건 · 스페인",
+      "title": "주거지 속 공공시설 용지에 앉힌 보건소 — 에스투디오 수아레스 코르체테의 카포소토 보건센터",
+      "image": "https://images.adsttc.com/media/images/6a8e/ac0a/4253/0500/01ca/0d5d/medium_jpg/9834_11_Fernando_Alda.jpg?1787735085",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "에스투디오 수아레스 코르체테가 스페인 산 페르난도에 연면적 **2,167㎡** 규모의 카포소토 보건센터를 **2026년** 완공했다. 어느 정도 자리잡은 도시 확장 지역에서 주거 환경 속 공공시설 용지로 지정된 블록에 들어섰다. 사진은 페르난도 알다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187184/camposoto-health-center-estudio-suarez-corchete"
+          }
+        ]
+      },
+      "src_date": "2026-10-24",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "주거 · 인도네시아",
+      "title": "기존 나무를 감싸 올린 트리하우스 — 케이브 어반의 레곰방 트리하우스",
+      "image": "https://images.adsttc.com/media/images/6acf/83d8/51c8/2d01/89ac/0499/medium_jpg/legombang-treehouse-cave-urban_12.jpg?1791984628",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "케이브 어반의 제드 롱이 자신의 가족을 위해 발리 케테웰에 **198㎡** 주택을 지었다. 전통 발리 건축을 열대 가족 주택으로 재해석했고, 부지에 있던 나무를 감싸는 트리하우스 형태에 패시브 디자인을 적용했다. **재활용 목재**와 유리를 썼다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186813/legombang-treehouse-cave-urban"
+          }
+        ]
+      },
+      "src_date": "2026-10-24",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "시공 · 미국",
+      "title": "10일에 한 층씩 — 플로리다 첫 슈퍼톨, 마이애미 월도프 애스토리아의 시공 기술",
+      "image": "https://www.enr.com/ext/resources/2026/10/21/Downtown-Photos---Ground-Photos-16_ENRready.webp?height=334&t=1792859857&width=640",
+      "image_label": "ENR",
+      "body": [
+        "카를로스 오트가 설계한 마이애미 다운타운의 월도프 애스토리아 호텔&레지던스는 최종 높이 **1,049ft(약 320m)**로 플로리다 최초의 슈퍼톨이 된다. 유리 볼륨 **9개**가 엇갈려 쌓였고 최상층은 구조체에서 **25ft** 캔틸레버로 나온다. 상부에는 약 **1,000톤** 강재 질량의 동조질량감쇠기를 단다.",
+        "기초 매트는 두께 **18ft**, 콘크리트 **12,400 cu yd**를 연속 타설했다. 현재 약 **10일에 한 층**씩 올리며 2026년 후반 톱아웃, 2028년 완공이 목표다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64026-miami-supertall-towers-daring-design-takes-builders-to-new-heights"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "국제교류 · 상하이",
+      "title": "한국 신진건축사 6개 팀, 상하이 아시아 신진건축사 포럼에서 작업 선보여",
+      "image": "",
+      "body": [
+        "**10월 23일** 중국 상하이 퉁지대학교에서 ARCASIA 주최 '아시아 신진건축사 포럼'이 열렸다. 대한건축사협회(KIRA)가 선정한 한국 신진건축사 팀이 발표했고, 서울대 백진 교수가 '한국의 압축된 근대성과 새로운 세대의 건축'을 주제로 기조 발표를 했다. 올봄 건축 전문지 'Architecture Asia'가 낸 한국 신진건축사 특별호 'Korean Young Architects'의 연장선에 있는 행사다. KIRA는 국제 교류를 넓히고 해외 진출을 지원하겠다고 밝혔다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21287"
+          }
+        ]
+      },
+      "src_date": "2026-10-24",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "신입회원 · 경기",
+      "title": "경기도건축사회, 신입회원 환영회 — 회원증·배지 전달하고 현장 애로 청취",
+      "image": "",
+      "body": [
+        "경기도건축사회가 **10월 19일** 신입회원 환영회를 열었다. 신입회원에게 회원증과 배지를 전달하고 협회 주요 활동과 운영 방향을 소개했으며, 현장의 어려움과 건의를 들었다. 양정식 회장은 신입회원의 고충을 직접 듣는 자리라 뜻깊다고 말했고, 협회는 선배 건축사의 경험을 살린 멘토링과 실무 지원을 이어가겠다고 밝혔다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13992"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "월례회 · 화성오산",
+      "title": "화성오산지역건축사회, 통합월례회·임시총회 — 2027~2028년 제15기 임원 선출",
+      "image": "",
+      "body": [
+        "화성오산지역건축사회가 **10월 13일** 화성시 팔탄면에서 통합월례회와 제1차 임시총회를 열었다. 화성시의 공장·창고 화재안전 점검 민간전문가 역할 설명, 한국산업안전보건공단 강사의 건설현장 안전사고 예방 강의가 진행됐고, 특정건축물 정비 특별법을 주제로 시 건축 담당자와 정책 간담도 했다. 임시총회에서는 2027~2028년 제15기 임원으로 회장 정남수, 수석부회장 김민식, 부회장 차용주, 감사 한준희를 선출했다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13966"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "답사 · 시흥",
+      "title": "건축연구동호회 아키토크, 인천 개항장과 성수동 답사 — 낡은 공장·창고의 재생 현장",
+      "image": "",
+      "body": [
+        "2022년 결성된 건축연구동호회 '아키토크'가 2026년 상·하반기 답사를 마쳤다. **4월**에는 인천 차이나타운과 개항장 일대(근대건축유산 재생사업 첫 사례 '개항장 이음 1977' 등)를, **10월**에는 서울 성수동의 옛 공장·창고를 재활용한 건물과 리모델링·신축이 공존하는 현장을 돌았다. 연 1회로 계획했으나 회원들이 좋아해 하반기 답사를 추가했다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13957"
+          }
+        ]
+      },
+      "src_date": "2026-10-14",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "선거 · 경기",
+      "title": "경기도건축사회 제30대 회장선거 — 기호 3번 김종기 후보, 통합 TF와 연회비 10% 인하 공약",
+      "image": "",
+      "body": [
+        "기호 3번 김종기 건축사는 건축사회·복지회·지역건축사회·직할 회원을 아우르는 통합 TF를 구성하겠다고 밝혔다. 연회비 **10%** 인하, 매년 외부 회계감사, 허가권자 지정감리·해체감리의 협회 이관 요구, AI·BIM 실무교육 등을 공약으로 내놨다. 31개 시·군 조례와 행정 사례를 비교하는 법제위원회 기능 강화도 포함됐다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13974"
+          }
+        ]
+      },
+      "src_date": "2026-10-15",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "이탈리아 벨라노 면방직 공장 박물관 설계공모 — 코모 호수 옛 칸토니 공장",
+      "body": "Buildner 주최. 단지 내 작은 건물을 박물관·문화 시설로 전환하는 과제. 제출 **2027년 5월 24일**, 당선자 발표 7월 6일.",
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://bustler.net/competitions/10701/bellano-cotton-mill-museum"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    },
+    {
+      "title": "키프로스 리마솔 아트센터 설계·감리 공모 — 리마솔 문화전략 2024–2034 핵심 사업",
+      "body": "유연하고 지속가능한 문화시설을 요구. 공연·행사장, 교육·창작 공간, 예술가 레지던시, 사회·공공 공간으로 구성된다. 마감일은 공고에 명시되지 않았다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://www.archdaily.com/1187254/architectural-competition-for-the-design-and-supervision-of-the-construction-of-the-project-limassol-arts-centre"
+          }
+        ]
+      },
+      "topic": "설계공모",
+      "src_date": "2026-10-23"
+    },
+    {
+      "title": "AS+GG, 마이애미 에지워터에 193m '릴리' 타워 — 117세대 곡면 주거",
+      "body": "53층 **636ft(193m)**. 곡면 모서리와 금속 바닥판, 비스케인만 조망 테라스가 특징이다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/10/23/adrian-smith-gordon-gill-lilli-skyscraper-miami/"
+          }
+        ]
+      },
+      "topic": "프로젝트",
+      "src_date": "2026-10-23"
+    },
+    {
+      "title": "브레이먼, 포토맥 터널 말뚝 콘크리트 '너무 강했다'며 손해배상 소송",
+      "body": "워싱턴 D.C. 8억 1,900만 달러 하수터널의 하도급사가 설계 예상 2,000psi보다 높은 **3,000~6,500psi** 콘크리트를 만났다고 주장.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64011-brayman-seeks-damages-over-alleged-too-strong-potomac-tunnel-pile-concrete-mix"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "제도규제"
+    },
+    {
+      "title": "OSHA, 뉴욕 몬로 현장 75ft 굴착에 64.8만 달러 벌금 제안",
+      "body": "고의 위반 **5건**·중대 위반 **23건**. 굴착 설계를 등록 전문기술자가 하지 않은 점도 지적됐다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/63994-osha-proposes-648k-in-fines-over-75-ft-excavation-at-new-york-project"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "제도규제"
+    },
+    {
+      "title": "맨해튼 호텔 스터코 외장 낙하 소송, 사고 6년째 재판 못 열어",
+      "body": "2020년 강풍에 38층 호텔 스터코가 떨어진 사건. 개발사가 약 **280만 달러**를 청구했고 재판은 2027년 중으로 예상된다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64063-how-lawsuits-over-failed-manhattan-hotel-stucco-cladding-section-became-stuck"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "제도규제"
+    },
+    {
+      "title": "허드베이·미쓰비시, 애리조나 '코퍼 월드' 구리 광산 20.7억 달러 건설 승인",
+      "body": "투손 남동쪽 약 50km. 선광장 일 처리량 **6만 톤**, 생산 목표 2029년 하반기. 투손 시의회와 피마 카운티는 반대 입장이다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64075-hudbay-mitsubishi-approve-207b-arizona-copper-mine-construction"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "콘크리트 메가스트럭처를 짓는 샌드박스 게임 '타이니 브루털리즘'",
+      "body": "개발자 마티 에른스트의 게임. 블록으로 타워·다리·계단을 쌓고 조명·날씨·식생을 바꿔 볼 수 있다. itch.io에서 **5달러**.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150570580/tiny-brutalism-lets-players-design-and-explore-concrete-megastructures"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "yerevan-wtc-foster",
+      "tag": "PROJECT",
+      "title": "두 타워를 정원 브리지로 — 포스터의 예레반 WTC",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "yerevan armenia",
+      "slides": [
+        {
+          "heading": "두 타워를\n정원 브리지로",
+          "body": "포스터+파트너스의 예레반 월드트레이드센터"
+        },
+        {
+          "heading": "WHAT",
+          "body": "오피스 타워와 아파트·호텔 타워를 세 개의 브리지 요소로 잇는 고층 복합 계획."
+        },
+        {
+          "heading": "GROUND",
+          "body": "타워를 지상에서 띄워 올려 대지의 50%를 열린 공간으로 확보한다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "콘크리트 프레임과 강재 브레이싱, 유리 외피, 분리형 코어로 유연한 내부를 만든다."
+        },
+        {
+          "heading": "VIEWS",
+          "body": "국회의사당, 오페라 극장, 제노사이드 기념관, 아라라트산을 향해 각도를 틀었다. 도시 구상은 1924년 타마니안 마스터플랜의 정원도시를 참고했다."
+        }
+      ]
+    },
+    {
+      "slug": "obama-center-cost-1b",
+      "tag": "COST",
+      "title": "오바마 센터 총비용 10억 달러, 당초의 두 배 넘어",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "chicago jackson park",
+      "slides": [
+        {
+          "heading": "3.5억에서\n10억 달러로",
+          "body": "오바마 대통령 센터 총공사비 변천"
+        },
+        {
+          "heading": "NUMBERS",
+          "body": "당초 3억 5천만 달러, 2017년 5억, 9월 초 8억 5천만, 최신 집계 약 10억 달러. 공공 인프라 개선비 1억 2,300만 달러는 별도다."
+        },
+        {
+          "heading": "WHY",
+          "body": "약 6,000㎡ 규모 농구 센터 '홈 코트' 등 추가 범위, 공공미술, 보험비가 증액 요인으로 거론된다."
+        },
+        {
+          "heading": "WHO",
+          "body": "터너 건설 주도 합작법인이 본관을 완공했다. 재단은 전액 민간 기부금이라고 밝혔다."
+        },
+        {
+          "heading": "OPEN QUESTION",
+          "body": "하도급업체들은 9,100만 달러 증액분이 유치권·분쟁 해결에 쓰일지 통보받지 못했다고 말한다."
+        }
+      ]
+    },
+    {
+      "slug": "albania-sazan-protected-law",
+      "tag": "REGULATION",
+      "title": "보호구역에 리조트를? 알바니아 '전략적 투자자' 법 논란",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 2,
+      "photo_query": "albania coast",
+      "slides": [
+        {
+          "heading": "보호구역에\n수천 채 빌라",
+          "body": "알바니아 사잔섬 리조트와 개발 허용법"
+        },
+        {
+          "heading": "WHAT",
+          "body": "알바니아 유일의 섬 사잔과 플라밍고 서식 습지 비오사나르타에 고급 빌라 수천 채를 짓는 계획. 쿠슈너와 이방카 트럼프가 후원한다."
+        },
+        {
+          "heading": "LAW",
+          "body": "정부가 '전략적 투자자'의 보호 지역 건설을 허용하는 법을 통과시켰고, 유럽의회는 6월 폐지를 요구했다."
+        },
+        {
+          "heading": "ARCHITECTS",
+          "body": "공식 연결된 사무소는 없다. LAVA는 빠졌고 BIG는 관여하지 않는다고 밝혔다."
+        },
+        {
+          "heading": "BACKLASH",
+          "body": "티라나 시위와 '플라밍고 혁명'이 이어지고 있다. 생태학자는 야생 지역이 완전히 파괴될 것이라고 경고했다."
+        }
+      ]
+    }
+  ]
+}
