@@ -1,0 +1,434 @@
+{
+  "vol": "VOL.01  NO.071",
+  "editor": "HUEY",
+  "counts": {
+    "total": 15,
+    "intl": 12,
+    "kr": 3
+  },
+  "outlets": [
+    "ArchDaily",
+    "Construction Dive",
+    "세계일보",
+    "뉴스웨이",
+    "헤럴드경제",
+    "서울시 미디어허브",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "타이베이 둔화 타워",
+      "desc": "오일러 우, L자 평면 17층 주거 타워",
+      "label": "PROJECT"
+    },
+    {
+      "title": "건설사 폐업 17년 만에 최다",
+      "desc": "1~9월 3,274건, 지방·중소업체 한계",
+      "label": "INDUSTRY"
+    },
+    {
+      "title": "부산 세계디자인수도 파빌리온",
+      "desc": "고정형·이동형 국제 디자인 공모",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "모아통합기획 후보지 공모",
+      "desc": "착공까지 6년→4.5년 단축 목표",
+      "label": "REGULATION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 고층 주거",
+    "lede": "L자 평면으로 두 얼굴을 만든 타이베이 17층 — 오일러 우 콜라보레이티브의 둔화 타워",
+    "lede_em": "두 얼굴을 만든",
+    "image": "https://images.adsttc.com/media/images/6ada/54a3/20d6/d801/8852/0953/medium_jpg/dunhua-tower-oyler-wu-collaborative_7.jpg?1792693442",
+    "image_label": "ARCHDAILY",
+    "caption": "둔화 타워 ⓒ Omni Multimedia LTD., Poyao Shih",
+    "body": [
+      "대만 타이베이의 주요 가로 가운데 하나를 내려다보는 **17층** 주거 타워가 완공됐다. 미국 로스앤젤레스 기반의 오일러 우 콜라보레이티브(Dwayne Oyler·Jenny Wu)가 설계한 **둔화 타워**로, 연면적은 약 **99,700ft²**(약 9,260㎡), 세대 수는 **45세대**다.",
+      "건물의 핵심은 **L자형 평면**이다. 한쪽은 가늘고 한쪽은 넓은 두 개의 입면이 생기는데, 가로 쪽에서는 슬림하게, 다른 방향에서는 넓은 면으로 도시 맥락에 반응하면서 채광과 조망을 함께 확보한다. 설계팀은 이를 두고 주거 고층 건물의 유형을 다시 정의하는 시도라고 설명한다.",
+      "주재료는 **강재**이며, 설계는 재료성·기하·지속가능성에 초점을 뒀다. 45세대라는 규모는 타이베이의 일반적인 주거 밀도보다 훨씬 아담해 한 세대 한 세대에 입면과 평면의 개성을 담기 쉬운 조건이다.",
+      "프로젝트는 2026년 준공으로 기록됐고, 사진은 Omni Multimedia LTD.와 Poyao Shih가 촬영했다. 대형 단지가 주류인 도심 주거 시장에서 소규모 고층 주거가 어떤 외피와 단면으로 차별화할 수 있는지 보여주는 사례다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1187401/dunhua-tower-oyler-wu-collaborative"
+        }
+      ]
+    },
+    "src_date": "2026-10-25",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "서울시",
+    "title": "착공까지 6년에서 4.5년으로 — 서울시 '모아통합기획' 후보지 공모",
+    "body": [
+      "서울시가 노후 저층주거지 모아타운의 사업 기간을 줄이는 '모아통합기획 추진계획'을 마련하고 10월 13일부터 후보지 공모에 들어갔다. 신속통합기획을 모아타운에 맞게 도입한 민관협력형 방식으로, 관리계획 수립과 조합 설립을 동시에 진행한다."
+    ],
+    "facts": [
+      "목표: 후보지 선정~착공 **약 6년 → 약 4.5년**(1.5년 단축)",
+      "후보지 요건: 면적 **2만㎡ 이상 10만㎡ 미만**, 노후도 **50% 이상**(사업예정지별 포함)",
+      "신청 동의: 사업예정 구역별 토지등소유자 **60%**, 토지면적 **1/2 이상**",
+      "핵심: 법정 필수 항목만 담은 관리계획을 먼저 고시하는 '모아타운 선지정', 주민공람 단계에서 조합 설립용 동의서 부여",
+      "투기 방지: 분양권 산정 기준일을 접수일에서 **구역계 공개일**로 앞당김"
+    ],
+    "body_after": [
+      "서울시는 2030년까지 후보지 **100곳**을 선정해 모아주택 공급 기반을 넓힌다는 계획이다(추가 공급 규모는 보도마다 달라 서울시 공고 확인이 필요하다). 주민 설명회는 강남·성동·용산·마포·영등포 등에서 순차로 열린다."
+    ],
+    "source": {
+      "outlet": "서울시 미디어허브",
+      "links": [
+        {
+          "text": "보도자료",
+          "url": "https://mediahub.seoul.go.kr/archives/2019652"
+        }
+      ]
+    },
+    "src_date": "2026-10-12",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "공공공간 · 사라고사",
+      "title": "주차장 슬래브 붕괴 위험을 도시공원으로 — 엘로르사의 살라메로 광장",
+      "image": "https://images.adsttc.com/media/images/6a8e/ab83/4253/0500/01ca/0d33/medium_jpg/Plaza_Salamero_in_Zaragoza_Spain___He_ctor_F_Elorza___photo___Montse_Zamorano_05.jpg?1787734934",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스페인 사라고사의 살라메로 광장은 지하 주차장의 지붕 슬래브에서 **2020년** 구조 결함이 발견되면서 전면 재조성이 필요해진 곳이다. 에크토르 페르난데스 엘로르사(Héctor Fernández Elorza)는 이 결함을 제약이 아닌 공공공간을 새로 정의할 기회로 삼았다.",
+        "계획은 사라고사 시의회가 연 **공개 설계공모**에서 나왔고, 대지 **11,000㎡**를 구도심의 새 도시공원으로 바꿨다. 인프라(주차장 구조)·조경·도시의 관계를 하나의 계획으로 푼 개보수 사례다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187180/plaza-salamero-infrastructure-landscape-and-city-hector-fernandez-elorza"
+          }
+        ]
+      },
+      "src_date": "2026-10-25",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "스포츠 · 안성",
+      "title": "건물이 대지를 중재한다 — LJL 아키텍츠의 안성 크레아스밸리 클럽하우스",
+      "image": "https://images.adsttc.com/media/images/6ad5/f21e/aadf/a000/01e3/ae4a/newsletter/creasvalley_cc_clubhouse_ljl_architects_29.jpg?1792406136",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "경기도 안성에 들어선 **크레아스밸리 CC 클럽하우스**(연면적 **11,576㎡**, 2025년 준공)는 주변을 바라보는 대상물이 아니라 대지를 중재하는 건물을 지향한다. 설계는 LJL 아키텍츠(이승진)가 맡았다.",
+        "설계팀은 인공으로 조성된 골프장이 시간이 지나며 풍경으로 자라난다고 보고, 지형·식생·빛·계절 변화가 만드는 질서에 건물이 반응하도록 했다. 지형과 시선, 안팎의 전이가 방문 경험을 결정한다. 재료는 목재·유리·강재이며, 사진은 노경이 촬영했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187088/creasvalley-cc-clubhouse-ljl-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-25",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "호스피탈리티 · 포르투갈",
+      "title": "150헥타르 구릉지에 앉힌 리조트 — 프로몬토리오의 알가르브 옴브리아",
+      "image": "https://images.adsttc.com/media/images/6ad6/077e/aadf/a000/01e3/aee6/newsletter/20261019_ArchDaily_Ombria23_PROMONTORIO.jpg?1792411611",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "포르투갈 알가르브 내륙 룰레(Loulé)의 **150헥타르** 부지에 골프장·호텔·클럽하우스와 빌라 등 주거 유닛이 들어선 **옴브리아 호텔&아파트**(연면적 **19,800㎡**, 2024년)다. 감귤 과수원, 수로, 초기 농경·수리 시설 유적이 남은 산악 지형과 생물다양성을 계획의 바탕으로 삼았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187100/ombria-hotel-and-apartments-loule-promontorio"
+          }
+        ]
+      },
+      "src_date": "2026-10-25",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건설 인력 · 조지아",
+      "title": "50억 달러 리비안 공장이 만드는 현장 인력 — 클레이코의 20일 사전 도제 프로그램",
+      "image": "https://imgproxy.divecdn.com/om20eUKC1jQn5HPKZ8iauEcvT5xqlqoCXrrylhczHdU/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9DbGF5Y28tQ0NESS1FeHBhbmRlZC1Ta2lsbGVkLVRyYWRlcy1UcmFpbmluZy1Qcm9ncmFtLUdyb3VwLVBob3RvLXNjYWxlZC0tMTUwMC53ZWJw.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "조지아 스탠턴스프링스의 **50억 달러**, **450만 ft²** 리비안 공장 현장에서 시공사 클레이코가 지역 주민 대상 **20일** 사전 도제 프로그램을 운영한다. 리비안이 **5만 달러**를 출연했고 클레이코와 협력업체가 **22만 달러**를 모았다. 첫 기수 **24명**이 최대 8개 업계 자격을 딸 수 있으며 총 3기수로 진행된다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/help-wanted-clayco-rivian-factory-training/833364/"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "건설산업 · 폐업",
+      "title": "건설사 폐업 17년 만에 최다 — 1~9월 3,274건, 대형사는 정비사업 수주 쏠림",
+      "body": [
+        "국토교통부 자료 기준 올해 **1~9월** 건설업 폐업 신고는 **3,274건**으로 전년 동기(2,569건)보다 **27.4%** 늘며 2009년 이후 같은 기간 최다를 기록했다. 10월 16일까지는 3,454건으로, 이 추세면 연간 **4,000건**에 이를 전망이다.",
+        "양극화도 뚜렷하다. 9대 건설사가 서울 정비사업에서 **43.5조 원**을 수주했고 현대건설·삼성물산·GS건설이 **64.1%**를 차지한 반면, 지방·중소업체는 수주 공백과 미분양, 금융비용에 시달린다. 건설산업연구원은 외감 건설사 2,004곳 중 한계기업 비중이 2021년 4.5%에서 2025년 **11.3%**로 늘었고, 건축 부문은 **12.1%**라고 분석했다."
+      ],
+      "source": [
+        {
+          "outlet": "세계일보",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://www.segye.com/newsView/20261020519034"
+            }
+          ]
+        },
+        {
+          "outlet": "뉴스웨이",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://www.newsway.co.kr/news/view?ud=2026102115101855073"
+            }
+          ]
+        }
+      ],
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 부산",
+      "title": "2028 세계디자인수도 부산 파빌리온 국제공모 — 고정형·이동형을 하나의 디자인 체계로",
+      "image": "",
+      "body": [
+        "부산시와 부산디자인진흥원이 2028 세계디자인수도의 정체성을 공간으로 보여줄 파빌리온 국제 디자인 공모를 열었다. 접수는 **10월 2일~26일**(온라인, 한·영 가능)이며, 1단계 개념 제안에서 **2개 팀**을 뽑아 약 **4주** 설계를 발전시킨 뒤 최종 1개 팀을 정한다. 고정형 파빌리온과 최소 **3곳**의 이동 시나리오를 요구한다."
+      ],
+      "source": {
+        "outlet": "헤럴드경제",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://biz.heraldcorp.com/article/10891481"
+          }
+        ]
+      },
+      "src_date": "2026-10-02",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 교육시설",
+      "title": "월평초 공간재구조화 개축 설계용역 — 공사비 83.5억",
+      "body": [
+        "월평초등학교 공간재구조화 개축 설계용역 공모가 **10월 16일** 공고됐다. 예정 설계비는 **3.6억 원**, 예정 공사비는 **83.5억 원**이다. 접수 일정과 심사 방식 등 세부 내용은 주택폴리오 공고 원문에서 확인해야 한다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/19000"
+          }
+        ]
+      },
+      "src_date": "2026-10-16",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "미 인프라 수주 줄줄이 — 조지워싱턴교 20억 달러, LNG 캐나다 2단계 150억 달러",
+      "body": "Construction Dive가 정리한 최근 수주: 조지워싱턴교 13년 보수(스칸스카 계약 **4.52억 달러**), 메릴랜드 아스널-2 조선소 **66억 달러**, 클리블랜드 빅크릭 터널 **3.25억 달러** 등.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/constructions-other-news-infrastructure-projects-funding-keep-coming/833176/"
+          }
+        ]
+      },
+      "src_date": "2026-10-20",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "『라스베이거스의 교훈』 이후 — 포스트모더니즘은 어떻게 미국 기업의 언어가 됐나",
+      "body": "1972년 벤투리·스콧 브라운·이즈너의 책이 제시한 '오리'와 '장식된 헛간' 구분을 출발점으로, 모더니즘의 유리 타워 이후 기업이 건물로 소통한 방식을 짚은 에세이다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187113/learning-from-capitalism-how-postmodern-architecture-became-the-language-of-american-business"
+          }
+        ]
+      },
+      "src_date": "2026-10-25",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "알리박의 주말 별장 — 아키텍처 브리오의 두아 빌라",
+      "body": "인도 알리박에 지은 연면적 **2,087㎡** 별장. 뭄바이 도시 밀도에 지친 부부와 세 자녀가 자연 가까이서 압도되지 않는 휴식을 원해 유리·석재·콘크리트로 지었다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186756/dua-villa-architecture-brio"
+          }
+        ]
+      },
+      "src_date": "2026-10-19",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "아르헨티나 캄파나의 승마 시설 — 에스투디오 발사노의 몬타나 농장",
+      "body": "쇼점핑 말 사육·훈련 시설. 건축·조경·말의 요구를 하나로 묶고 동물 복지와 기능, 공간의 질을 앞세웠다. 목재·석재·콘크리트.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187040/montana-farm"
+          }
+        ]
+      },
+      "src_date": "2026-10-25",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "브라질 여름 별장 — 파트리시아 마르티네스의 바이아 하우스",
+      "body": "건축가 본인의 여름 별장(**263㎡**, 2026년). 형태와 재료, 감수성의 균형으로 개인적 건축관을 응축했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187298/bahia-house-patricia-martinez-arquitetura"
+          }
+        ]
+      },
+      "src_date": "2026-10-21",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "이케부쿠로역 앞 트램 정류장 가구 — 사고시 요스케 아틀리에",
+      "body": "도시마구 이케부쿠로역~마루노우치 방향 대로에 놓인 **28㎡** 공공공간 가구. 과거 도덴 노면전차 종점의 기억을 참조했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186237/ikebukuro-living-furniture-tram-stop-yosuke-sagoshi-atelier"
+          }
+        ]
+      },
+      "src_date": "2026-10-24",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "dunhua-tower-oyler-wu",
+      "tag": "PROJECT",
+      "title": "L자 평면으로 두 얼굴을 만든 타이베이 17층",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "taipei city apartment",
+      "slides": [
+        {
+          "heading": "L자 평면이 만든\n두 개의 얼굴",
+          "body": "오일러 우 콜라보레이티브의 타이베이 둔화 타워"
+        },
+        {
+          "heading": "WHAT",
+          "body": "타이베이 주요 가로를 내려다보는 17층 주거 타워. 45세대, 연면적 약 9,260㎡ 규모로 2026년 준공됐다."
+        },
+        {
+          "heading": "FORM",
+          "body": "L자형 평면 덕에 한쪽은 가늘고 한쪽은 넓은 두 입면이 생긴다. 가로에는 슬림하게, 다른 방향에는 넓은 면으로 반응한다."
+        },
+        {
+          "heading": "LIGHT & VIEW",
+          "body": "입면을 둘로 나눠 채광과 조망을 함께 확보했다. 45세대라는 규모는 타이베이의 일반 주거 밀도보다 아담하다."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "주재료는 강재. 설계팀은 재료성·기하·지속가능성으로 주거 고층 건물의 유형을 다시 정의하려 했다고 말한다."
+        }
+      ]
+    },
+    {
+      "slug": "plaza-salamero-zaragoza",
+      "tag": "PUBLIC SPACE",
+      "title": "주차장 슬래브 결함을 도시공원으로 바꾼 사라고사 광장",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "zaragoza spain plaza",
+      "slides": [
+        {
+          "heading": "구조 결함을\n공원으로",
+          "body": "에크토르 페르난데스 엘로르사의 사라고사 살라메로 광장"
+        },
+        {
+          "heading": "TRIGGER",
+          "body": "2020년 지하 주차장 지붕 슬래브에서 구조 결함이 발견되며 광장 전체를 다시 지어야 했다."
+        },
+        {
+          "heading": "COMPETITION",
+          "body": "사라고사 시의회가 연 공개 설계공모로 안이 선정됐다. 설계팀은 결함을 제약이 아닌 기회로 봤다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "대지 11,000㎡를 구도심의 새 도시공원으로 조성했다. 인프라·조경·도시를 하나의 계획으로 풀었다."
+        }
+      ]
+    },
+    {
+      "slug": "korea-builder-closures",
+      "tag": "INDUSTRY",
+      "title": "건설사 폐업 17년 만에 최다",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "construction site cranes",
+      "slides": [
+        {
+          "heading": "건설사 폐업\n17년 만에 최다",
+          "body": "1~9월 폐업 신고 3,274건"
+        },
+        {
+          "heading": "NUMBERS",
+          "body": "1~9월 폐업 신고는 전년 동기 대비 27.4% 늘었다. 10월 16일까지 3,454건으로 연간 4,000건 전망이다."
+        },
+        {
+          "heading": "SPLIT",
+          "body": "9대 건설사가 서울 정비사업 43.5조 원을 수주했고, 상위 3사가 64.1%를 차지했다. 지방·중소업체는 수주 공백에 시달린다."
+        },
+        {
+          "heading": "RISK",
+          "body": "외감 건설사 중 한계기업 비중이 2021년 4.5%에서 2025년 11.3%로, 건축 부문은 12.1%로 늘었다."
+        }
+      ]
+    }
+  ]
+}
