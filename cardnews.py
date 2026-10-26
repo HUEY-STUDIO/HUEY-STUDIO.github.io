@@ -63,7 +63,12 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
 OUT = os.path.join(ROOT, "cardnews")
 
+import glob
 CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
+if not os.path.exists(CHROME):   # 컨테이너마다 Chromium 빌드 번호가 다르다
+    _found = sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"))
+    if _found:
+        CHROME = _found[-1]
 W, H = 1080, 1350
 EXT = "jpg"        # 저장 포맷. render.py의 카드뉴스 경로와 반드시 같아야 한다.
 QUALITY = 76       # JPEG 품질 (4:4:4 크로마 전제 — 4:2:0으로 바꾸면 빨간 글자가 번진다)

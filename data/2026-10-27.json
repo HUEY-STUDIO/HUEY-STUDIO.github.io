@@ -1,0 +1,503 @@
+{
+  "vol": "VOL.01  NO.072",
+  "editor": "HUEY",
+  "counts": {
+    "total": 18,
+    "intl": 14,
+    "kr": 4
+  },
+  "outlets": [
+    "ArchDaily",
+    "Construction Dive",
+    "Bustler",
+    "건축사신문",
+    "건축사뉴스",
+    "대한건설협회"
+  ],
+  "teasers": [
+    {
+      "title": "티빌리시 '로코 파크'",
+      "desc": "보리 건축사무소, 옛 기관차 공장 부지 12만㎡ 재생안",
+      "label": "MASTERPLAN"
+    },
+    {
+      "title": "건축법 62년 만의 전부개정 논의",
+      "desc": "10장 179개 조문 재구성안, 국회 토론회",
+      "label": "REGULATION"
+    },
+    {
+      "title": "서울 국회대로 11만㎡ 공원화",
+      "desc": "2032년 완공 목표, 광화문광장의 3배",
+      "label": "URBAN"
+    },
+    {
+      "title": "카모니카 계곡 문화거점 당선",
+      "desc": "유네스코 암각화 인근 옛 방직공장 전환",
+      "label": "AWARDS"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 도시재생 마스터플랜",
+    "lede": "옛 소련 기관차 공장을 녹지 주거지로 — 스테파노 보에리의 티빌리시 '로코 파크'",
+    "lede_em": "녹지 주거지로",
+    "image": "https://images.adsttc.com/media/images/6add/5d6e/db5c/2001/882d/0195/medium_jpg/stefano-boeri-architetti-selected-to-transform-former-locomotive-factory-into-green-neighbourhood-in-tbilisi_5.jpg?1792892339",
+    "image_label": "ARCHDAILY",
+    "caption": "로코 파크 마스터플랜 ⓒ Stefano Boeri Architetti",
+    "body": [
+      "스테파노 보에리 아키텍티(Stefano Boeri Architetti)가 조지아 티빌리시의 옛 소련 시대 전기기관차 제조 공장 부지를 녹지 중심 주거 지구로 바꾸는 마스터플랜 공모에서 선정됐다. LOCO Alliance가 **10월 18일** 선정 결과를 발표했고, 계획안 이미지는 **10월 23일** 공개됐다.",
+      "대상지는 티빌리시 '템카' 주거 지역의 브라운필드 **73,600㎡**로, 계획은 **9개 동·연면적 120,000㎡** 규모다. 상층부에는 다양한 유형의 주거를, 저층부에는 상점·카페·작업장 등 지역 서비스와 커뮤니티 시설을 둔다. 스포츠 숲, 공원, 공유 정원, 선형 보행 대로가 주변 동네와 이어진다.",
+      "설계의 핵심은 공장의 산업유산을 현대 건축과 잇는 방식이다. 벽돌로 재료의 연속성을 유지하고, 입면 팔레트는 도시를 찍은 사진의 색상 매핑에서 뽑은 청회색·테라코타·초록·토프·미네랄 화이트로 구성했다. 지붕은 옛 공장과 작업장의 실루엣을 잇되 온실, 테라스, 태양광 패널, 로프트 주거와 공유 공간으로 활용한다.",
+      "이 부지는 이미 대규모 문화 행사가 열리는 장소이기도 하다. 소련 시대 산업 부지의 재생이 주거 공급과 녹지, 유산 보존을 한 번에 풀 수 있는지 보여줄 시험대다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1187468/stefano-boeri-architetti-selected-to-transform-former-locomotive-factory-into-green-neighbourhood-in-tbilisi"
+        }
+      ]
+    },
+    "src_date": "2026-10-26",
+    "topic": "도시재생"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://cdn.ancnews.kr/news/photo/202610/21289_24093_5148.jpg",
+    "image_label": "건축사신문",
+    "title": "'누더기 건축법' 62년 만의 대수술 — 10장 179개 조문 전부개정안, 국회 토론회서 공개",
+    "body": [
+      "10월 26일 국회도서관 대강당에서 '국민편의와 신속행정을 위한 건축법 전부개정 국회토론회'가 열렸다. 국토교통위원회 위원들이 주최하고 대한건축사협회와 건축공간연구원이 주관했다. 1962년 제정된 건축법이 거듭된 개정으로 해석이 불명확해지고 행정 혼선·절차 지연이 커졌다는 진단이 출발점이다."
+    ],
+    "facts": [
+      "개정 현황: 2000년 이후 **50회** 개정(전체의 76.9%), 실질조문 155개 외 가지조문 **49개**",
+      "재구성안: 총 **10개 장·179개 조문**으로 재배치",
+      "사전결정 → **사전검토제**: 행정처분을 행정서비스로 바꾸고 대상을 핵심 쟁점으로 한정",
+      "심의: 법령·기준에서 정한 사항 외 조건을 달 수 없도록 해 반복심의·부당 조건 통제",
+      "책임: 설계자는 법령 적합성 확인, 시공자는 설계도서 준수, 감리는 상주·수시로 구분",
+      "AI 보조 심사 도입(최종 처분은 행정기관), 지능형건축물 인증을 '스마트 인증'으로 전환"
+    ],
+    "body_after": [
+      "패널들은 방향에는 공감하면서도 설계대가 체계, 안전 최소기준, 법령 간 정합성을 과제로 꼽았다. 국가건축정책위원회 김진애 위원장은 규제 유연화를, 정창수 전 국토부 차관은 현장 경험을 반영한 단계적 로드맵을 주문했다. 이번 안은 학계·협회 제안 단계이며 입법안으로 확정된 것은 아니다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21289"
+        }
+      ]
+    },
+    "src_date": "2026-10-26",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "주거 · 칠레",
+      "title": "콘크리트 격자에 얹은 사회주택 — FAR frohn&rojas의 산티아고 산타 로사",
+      "image": "https://images.adsttc.com/media/images/6adf/0555/20d6/d801/8852/1031/newsletter/santa-rosa-social-housing-far-frohn-and-rojas_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "칠레 산티아고에 FAR frohn&rojas가 설계한 **산타 로사 사회주택**이 준공됐다. 연면적은 **2,337㎡**, 지상 1층과 6개 상층으로 이뤄졌고 주재료는 콘크리트·강재·유리다.",
+        "구조는 Leiva & Asociados Ingeniería Estructural이 맡았고, 사진은 Cristóbal Palma가 촬영했다. 공공 주거에서 노출 콘크리트와 목재 마감, 발코니를 통해 세대의 개성을 확보한 사례다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187477/santa-rosa-social-housing-far-frohn-and-rojas"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "리모델링 · 이스탄불",
+      "title": "1955년 극장을 다시 열다 — 노보스 스튜디오의 무암메르 카라자 극장 개보수",
+      "image": "https://images.adsttc.com/media/images/6ad8/e595/3271/8400/01d0/d9e5/medium_jpg/EKAP6329_krcM_2026.jpg?1792599542",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "이스탄불 베이오울루, 이스티클랄 거리로 열린 막다른 골목에 있는 **무암메르 카라자 극장**이 노보스 스튜디오(Hande Ciğerli·Mert Üçer)의 설계로 개보수됐다. 극장은 **1955년** 무암메르 카라자가 세웠고 원래는 Perran Doğancı가 설계했다.",
+        "연면적은 약 **3,000㎡**, 준공은 2026년이다. 사진은 Egemen Karakaya가 촬영했고, 지하 평면과 종단면, 분해 액소노메트릭 도면이 함께 공개됐다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187304/muammer-karaca-theatre-refurbishment-novos-studio"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "도시재생 · 싱가포르",
+      "title": "'운하는 배수로가 아니다' — 싱가포르 ABC Waters의 홍수·공공공간 균형법",
+      "image": "https://images.adsttc.com/media/images/6acd/e5e8/c599/0e2b/7cbd/5581/newsletter/the-canal-is-not-a-drain_1.jpg?1791878638",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "PUB가 **2006년** 시작한 ABC Waters 프로그램은 빗물 관리를 공원·수변·공공공간과 묶는다. 비샨–앙모키오 공원은 칼랑 강 **2.7km** 콘크리트 수로를 자연형 하천으로 되살렸고, 탐피네스 강은 **1.4km** 구간을 최대 4.5m 넓혀 배수 용량을 약 **30%** 높였다.",
+        "다만 연구 결과 부유물 제거는 우수해도 영양염 제거는 일관되지 않았다. 녹색 운하만으로 수질·생물다양성·홍수 피해 저감이 입증되는 것은 아니며 장기 모니터링이 관건이라는 분석이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186715/planned-overflow-how-singapore-balances-floods-canals-and-public-space"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "수상 · 이탈리아",
+      "title": "유네스코 암각화 계곡의 옛 방직공장 — 폴리테크니카·파크 어소시에이티·AMDL, 문화거점 공모 당선",
+      "image": "https://images.adsttc.com/media/images/6adf/2206/db5c/2001/882d/03c6/medium_jpg/politecnica-park-associati-and-amdl-circle-to-transform-former-textile-mill-into-cultural-hub-near-unesco-world-heritage-site-in-italy_6.jpg?1793008239",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "Politecnica Building for Humans가 이끌고 Park Associati·AMDL CIRCLE가 건축을 맡은 팀이 이탈리아 브레시아주 카모니카 계곡 입구 체토의 옛 Niggeler & Kupfer 방직공장을 문화거점으로 바꾸는 공모에서 당선됐다.",
+        "전시 공간·연구 시설·강당·방문객 서비스가 들어간다. 계곡의 암각화는 **1979년** 이탈리아 최초의 유네스코 세계유산이 됐으며, 2029년 '문화수도' 후보 신청과도 맞물린다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187494/politecnica-park-associati-and-amdl-circle-win-competition-for-cultural-hub-in-italys-unesco-listed-valle-camonica"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "수상"
+    },
+    {
+      "kicker": "인프라 · 로스앤젤레스",
+      "title": "LA 메트로, 버몬트 애비뉴 12.4마일 BRT 착공 — 2028년 개통 목표",
+      "image": "https://imgproxy.divecdn.com/74FzkIuR5cXWaQUWut4VWE9ULgdnf8UrJfiVmo9vnU4/g:nowe:0:114/c:2500:1412/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8yRzNBMzA2OF9jb3B5LmpwZw==.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "LA 메트로가 버몬트 애비뉴 **12.4마일** 간선급행버스(BRT) 노선을 착공했다. 정류장 **26곳**을 정비해 종단 통행시간을 최대 **24%** 줄이고, 완공 시 하루 승객 **6만 6천 명** 이상을 예상한다.",
+        "연방교통청(FTA) 소규모사업 보조금 약 **1.5억 달러**와 주·지방 재원으로 전액 조달됐다. 2028년 개통이 목표로, 하계올림픽 시기에 맞출 수 있다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/la-metro-bus-rapid-transit-corridor/833856/"
+          }
+        ]
+      },
+      "src_date": "2026-10-23",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 베이징",
+      "title": "UIA 인증 융딩 창안 파빌리온 국제공모 — 1979년 이후 출생 젊은 건축가 대상, 총상금 6.5만 유로",
+      "image": "https://archinect.gumlet.io/uploads/is/is53za678zd57m30.png",
+      "image_label": "BUSTLER",
+      "body": [
+        "베이징시 규획자연자원위원회와 베이징건축사회가 UIA 후원으로 여는 공모로, 2029년 제30차 UIA 세계건축가대회의 사전 행사이자 시범 프로젝트다. 융딩 강변 창안 대로 서측 연장선 인근에 '도시 침술' 방식의 파빌리온을 제안한다.",
+        "참가 자격은 **1986년 11월 16일** 이후 출생한 면허 건축가이며, 제출 마감은 **11월 16일**이다. 상금은 1등 **3.5만 유로**를 포함해 총 **6.5만 유로**이고, 1등 팀이 후속 설계를 맡는다. 심사위원장은 가에탕 시우(모리셔스)다."
+      ],
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://bustler.net/competitions/latest/10623/international-architectural-design-competition-yong-ding-chang-an-pavilion"
+          }
+        ]
+      },
+      "src_date": "2026-10-22",
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "도시공원 · 서울",
+      "title": "서울시, 국회대로 공원화 본격화 — 11만㎡ 규모, 2032년 완공 목표",
+      "image": "https://cdn.ancnews.kr/news/photo/202610/21288_24092_03.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "서울시가 신월IC~국회의사당 교차로 **7.6km** 구간 가운데 **4.1km**를 지하차도로 돌리고, 지상 **3.5km**를 선형 공원으로 재편해 약 **11만㎡** 상부공원을 만든다. 광화문광장의 약 3배, 서울광장의 약 8배 규모다.",
+        "화곡 고가 아래를 통과하는 선큰 광장, 큰못과 이어지는 커뮤니티센터, 정원문화센터, 대형 잔디마당 '큰들'이 들어선다. 지하차도는 **2031년 6월**, 상부공원은 **2032년 6월** 완공이 목표다. 10월 31일 오전 7시부터 목동 홍익병원 사거리 지하차도가 공사로 폐쇄된다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21288"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "건설업계 · 간담회",
+      "title": "대한건설협회, 일간지 출입기자 간담회 — 적정 공사기간·공사비 확보와 건설안전특별법 대응",
+      "image": "",
+      "body": [
+        "대한건설협회가 **10월 21일** 일간지 출입기자 약 30명과 간담회를 열었다. 한승구 회장은 정부의 올해 SOC **29조 원** 배정과 주택 착공 확대 노력을 환영하면서, 지역 건설경기 활성화 정책을 요청했다.",
+        "논의된 현안은 적정 공사기간·공사비 확보 여건, 건설안전특별법 대응, 현장 안전 노조법 보완 입법, 민간공사 물가변동 계약금액 조정 규정, 장기 공사 추가 비용의 법적 근거, 도시철도 부가세 영세율 종료 대응 등이다."
+      ],
+      "source": {
+        "outlet": "대한건설협회",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.cak.or.kr/lay1/bbs/S1T9C12/A/2/view.do?article_seq=161994"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "건축행정 · 경기",
+      "title": "구리남양주지역건축사회, 구리시장·남양주시장 간담회 — 업무협약·민원 조정·특정건축물 지원센터 참여",
+      "image": "",
+      "body": [
+        "구리남양주지역건축사회가 **10월 20~21일** 이틀간 구리시장과 남양주시장을 각각 만나 지역 건축 현안과 협력 방안을 논의했다.",
+        "남양주시와는 ①업무협약을 통한 적극행정 추진 ②시민 편의를 위한 민원 조정 협력 ③특정건축물 관련 지원센터 참여에 뜻을 모았다. 건축사회는 이를 계기로 지자체와의 협력 기반을 강화할 계획이다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=13997"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 일본",
+      "title": "주히로시마총영사관 청사 신축 설계공모 — 연면적 3,069㎡, 공사비 14.7억",
+      "image": "",
+      "body": [
+        "일본 히로시마 나카구 미카와초에 짓는 업무시설 **연면적 3,069㎡** 규모의 총영사관 청사 신축 일반 설계공모다. 예정 설계비는 **5,700만 원**, 예정 공사비는 **14.7억 원**이다.",
+        "공고일은 **10월 26일**, 참가등록 마감은 **11월 2일**, 결과 발표는 **12월 24일** 이내다. 심사위원은 5인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://jootek.com/folio/contests/19025"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "멕시코 산루이스포토시 사막의 165㎡ 주택 — 센사시오날 디나미카 멕시카나의 카사 카르도나",
+      "body": "일반적인 165㎡ 분양 개발 계획을 공간·문화적 가치를 지닌 주택으로 끌어올려 사막과의 친밀한 대화를 만들었다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187539/casa-cardona-sensacional-dinamica-mexicana"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "세도나 오크 크릭 변의 705ft² 리트리트 — 더 랜치 마인의 아이언우드",
+      "body": "물가의 나무 아래에서 낮과 밤을 보내게 한다는 '하나의 단순한 바람'에서 출발한 소규모 숙박 주거.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187398/ironwood-the-ranch-mine"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "오스트레일리아 모닝턴, 165㎡ 휴가용 주택 — 푸만 아키텍츠",
+      "body": "자녀 가족이 쓰는 기존 별장과 대지·수영장·진입로를 공유하며, 조망과 손님 접대에 초점을 맞췄다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187389/mornington-house-foomann-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "브라질 319㎡ 주택 — 다비 이토 아르키테투라의 MMR 하우스",
+      "body": "나선 계단, 실내에 자라는 나무, 이중 높이 공간을 요구한 젊은 부부를 위해 설계했다. 게이티드 단지 안에서 자연과 프라이버시를 함께 확보했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187456/project-mmr-david-ito-arquitetura"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "포르투갈 카스타녜이라 140㎡ 주택 — 티아구 소사의 코케이라 하우스",
+      "body": "기하학적 면과 떠 있는 볼륨이 특징이다. 위쪽 도로에서 상층으로 진입하고, 화강암 옹벽 사이 굴착한 하부 플랫폼에 앉혔다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187520/coqueira-house-tiago-sousa-arquitecto"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "알마티 쇼핑몰 안 92㎡ 카페 — movs 스튜디오의 SIP",
+      "body": "붐비는 몰의 소음과 시각적 자극에서 벗어나 천천히 머물게 하는 인테리어로 설계했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187273/sip-coffee-and-bakery-movs-studio"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "loco-park-tbilisi",
+      "tag": "MASTERPLAN",
+      "title": "소련 기관차 공장이 녹지 주거지로 — 티빌리시 로코 파크",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "tbilisi georgia",
+      "slides": [
+        {
+          "heading": "기관차 공장이\n녹지 주거지로",
+          "body": "스테파노 보에리의 티빌리시 '로코 파크'"
+        },
+        {
+          "heading": "SITE",
+          "body": "옛 소련 전기기관차 제조 공장 브라운필드 73,600㎡. 9개 동, 연면적 120,000㎡ 규모다."
+        },
+        {
+          "heading": "PROGRAM",
+          "body": "상층엔 다양한 주거, 저층엔 상점·카페·작업장과 커뮤니티 시설. 스포츠 숲과 선형 보행 대로가 이웃과 잇는다."
+        },
+        {
+          "heading": "HERITAGE",
+          "body": "벽돌로 재료의 연속성을 잇고, 지붕은 옛 공장 실루엣을 닮게 했다. 입면 색은 도시 사진 색상 매핑에서 뽑았다."
+        },
+        {
+          "heading": "ROOF",
+          "body": "온실·테라스·태양광 패널·로프트 주거로 지붕을 적극 활용한다."
+        }
+      ]
+    },
+    {
+      "slug": "building-act-overhaul",
+      "tag": "REGULATION",
+      "title": "62년 된 건축법, 전부개정 논의 본격화",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "seoul apartment",
+      "slides": [
+        {
+          "heading": "누더기 건축법\n62년 만의 대수술",
+          "body": "국회 토론회에서 10장 179개 조문 재구성안 공개"
+        },
+        {
+          "heading": "WHY",
+          "body": "2000년 이후 50회 개정, 가지조문만 49개. 해석이 불명확해지고 행정 혼선과 절차 지연이 커졌다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "총 10개 장·179개 조문으로 재배치. 목차만 봐도 허가절차·설계기준·책임주체가 보이도록 한다."
+        },
+        {
+          "heading": "PROCESS",
+          "body": "사전결정을 사전검토제로 바꾸고, 심의는 법령 밖 조건을 달 수 없게 한다. AI는 검토 누락을 막는 보조 수단이다."
+        },
+        {
+          "heading": "RESPONSIBILITY",
+          "body": "설계자는 법령 적합성, 시공자는 설계도서 준수, 감리는 상주·수시로 나눠 책임을 명확히 한다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "설계대가 체계와 안전 최소기준, 법령 간 정합성이 남은 과제다. 아직 협회·학계 제안 단계다."
+        }
+      ]
+    },
+    {
+      "slug": "gukhoe-daero-park",
+      "tag": "URBAN",
+      "title": "서울 국회대로 11만㎡ 공원으로",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "seoul park",
+      "slides": [
+        {
+          "heading": "차 길이\n11만㎡ 공원으로",
+          "body": "서울 국회대로 상부공원화 2032년 완공 목표"
+        },
+        {
+          "heading": "ROUTE",
+          "body": "신월IC~국회의사당 교차로 7.6km. 지하차도 4.1km, 지상 선형공원 3.5km."
+        },
+        {
+          "heading": "SCALE",
+          "body": "광화문광장의 약 3배, 서울광장의 약 8배. 서서울호수공원·안양천·한강을 잇는 녹지 축이 된다."
+        },
+        {
+          "heading": "PROGRAM",
+          "body": "선큰 광장, 커뮤니티센터, 정원문화센터, 대형 잔디마당 '큰들'."
+        },
+        {
+          "heading": "SCHEDULE",
+          "body": "지하차도 2031년 6월, 상부공원 2032년 6월. 10월 31일부터 홍익병원 사거리 지하차도가 폐쇄된다."
+        }
+      ]
+    }
+  ]
+}
