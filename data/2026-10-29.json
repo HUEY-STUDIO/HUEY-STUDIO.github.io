@@ -1,0 +1,540 @@
+{
+  "vol": "VOL.01  NO.074",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "ArchDaily",
+    "건축사신문",
+    "건축사뉴스",
+    "건축공간연구원",
+    "주택폴리오",
+    "Ontario e-Laws"
+  ],
+  "teasers": [
+    {
+      "title": "코펜하겐 '워터 컬처 하우스'",
+      "desc": "쿠마의 벽돌 타워 수영시설, 12월 5일 개장",
+      "label": "CULTURE"
+    },
+    {
+      "title": "서울시, 정비사업 인허가 기준 통일",
+      "desc": "25개 자치구 공통 처리기한·보완 횟수 제한",
+      "label": "REGULATION"
+    },
+    {
+      "title": "2026 한국건축산업대전 개막",
+      "desc": "코엑스 D홀, 10월 28~30일",
+      "label": "EVENT"
+    },
+    {
+      "title": "데이터랙 화재, 1분 안에 격리",
+      "desc": "건설연 이동형 화재 확산 방지 구획 기술",
+      "label": "TECH"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "30만 장의 수제 벽돌로 쌓은 다섯 개의 탑 — 켄고 쿠마의 코펜하겐 워터 컬처 하우스, 12월 5일 개장",
+    "lede_em": "12월 5일 개장",
+    "image": "https://images.adsttc.com/media/images/6ae1/af5f/20d6/d801/8852/19b6/medium_jpg/kengo-kuma-and-associates-water-culture-house-to-open-in-copenhagen-on-december-5-2026_1.jpg?1793175443",
+    "image_label": "ARCHDAILY",
+    "caption": "코펜하겐 파피르외엔(페이퍼 아일랜드)의 워터 컬처 하우스 ⓒ Rasmus Hjortshøj",
+    "body": [
+      "켄고 쿠마 앤드 어소시에이츠가 설계한 **워터 컬처 하우스**가 **2026년 12월 5일** 코펜하겐 항구의 파피르외엔(페이퍼 아일랜드)에서 문을 연다. 연면적 **5,800㎡**의 공공시설로, 실내외 수영장 **10개**와 웰니스·문화 공간, 항구 접근로를 한곳에 모았다.",
+      "외관의 핵심은 유리로 된 저층부 위에 얹은 **벽돌 탑 5개**다. 약 **30만 장**의 수제 벽돌이 쓰였다. 실내에는 25m 피트니스 풀과 교습용 풀, 재활 치료용 풀이 있고, 실외에는 '밸리 풀'과 온천(온센) 풀이 들어선다.",
+      "프로젝트는 **2015년** 아이디어 공모로 시작해 **2017년 봄** 건축 설계공모를 거쳤다. 쿠마가 설계를, 코르넬리우스 푀게 아틀리에가 콘셉트 디자인을, 빌헬름 라우리첸 아키텍츠가 실시설계를 맡았다. 사업 주체는 페이퍼 아일랜드 워터 컬처 하우스 재단과 코펜하겐시이며 노르디아 재단이 후원했다.",
+      "항구 수영 구역은 **2027년 초** 열릴 예정이다. 공모에서 개장까지 약 9년이 걸린 도심 수변 공공 프로젝트라는 점에서, 공공 수영시설을 도시 재생의 거점으로 쓰는 북유럽 사례로 읽힌다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1187649/kengo-kuma-and-associates-water-culture-house-to-open-in-copenhagen-on-december-5-2026"
+        }
+      ]
+    },
+    "src_date": "2026-10-28",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "서울시, 25개 자치구 '정비사업 인허가' 처리기준 통일 — 협의 10일·보완 최대 2회",
+    "body": [
+      "서울시가 '정비사업 업무 처리기준 표준화 추진계획'을 수립해 25개 자치구에 전파하고 즉시 적용한다. 자치구마다 달랐던 인허가 기준을 맞추고, 법정 처리기한이 없어 지연되던 절차에 명확한 기한을 두는 것이 목적이다. 사업시행자 지정이 수개월 늦어진 '창신 9구역' 사례가 계기가 됐다."
+    ],
+    "facts": [
+      "공공시행자·지정개발자(신탁업자 등) 지정: 조합설립인가와 같은 **30일 이내** 처리 — 서울시는 10월 26일 국토교통부에 법령 명문화 건의",
+      "관계기관 협의: **10일 이내**, 1회 **5일 연장** 가능. 회신이 없으면 '의견 없음'으로 보는 간주협의제 적극 적용",
+      "접수 거부 금지: 사전검토·대면보고 미이행을 이유로 접수를 지연하거나 거부하는 것은 원칙적으로 금지",
+      "보완 요구: 접수 후 **10일 이내**, 최대 **2회**. 1차 보완 때 관계기관 의견을 일괄 통보하고 검토 누락에 따른 추가 보완은 원칙적 금지",
+      "이견 조정: 협의가 10일 이상 길어지면 '공정촉진책임관' 주재 조정회의 즉시 소집"
+    ],
+    "body_after": [
+      "기준은 방침 수립 직후 시행되며, 시행 전 접수된 사업도 자치구가 필요하다고 인정하면 적용할 수 있다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.ancnews.kr/news/articleView.html?idxno=21300"
+        }
+      ]
+    },
+    "src_date": "2026-10-28",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "CULTURE · 개보수",
+      "title": "카네기 미술관 하인즈 건축센터, AD—WO가 새로 쓴다 — 파이어브릭과 알루미늄의 연구 전시",
+      "image": "https://images.adsttc.com/media/images/6ae1/57bb/db5c/2001/882d/0d18/medium_jpg/heinz-architectural-center_3.jpg?1793152992",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "피츠버그 카네기 미술관이 하인즈 건축센터 개보수를 에마누엘 아드마수와 젠 우드가 이끄는 **AD—WO**에 맡겼다. 센터는 1907년 본관과 1974년 스케이프 갤러리 사이에 있으며 **1993년** 문을 열었다. 건축 관련 소장품 약 **6,000점**과 석고 캐스트 **140점** 이상의 '건축 홀'을 갖고 있다.",
+        "계획은 자연광을 늘리고 유연한 전시 공간과 새 수장·연구 공간을 만드는 것으로, 파이어브릭과 알루미늄 마감을 쓰고 큐레이터 연구 작업이 드러나도록 설비를 개선한다. R3A가 기록 건축사, 버로 해폴드가 엔지니어링을 맡는다. 일정과 예산은 공개되지 않았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187645/ad-wo-to-renovate-the-heinz-architectural-center-at-pittsburghs-carnegie-museum-of-art"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "URBAN · 수변 공공공간",
+      "title": "뉴올리언스 강변의 산업 가장자리를 공원으로 — 골드링 월든버그 리버프런트 파크",
+      "image": "https://images.adsttc.com/media/images/6ad7/9927/aadf/a000/01e3/b903/medium_jpg/_Tim_Hursley_TH060226_EDR_GWP_DR003.jpg?1792514452",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "에스큐 두메즈 리플이 설계하고 하그리브스 존스가 조경을 맡은 공원이 **2026년** 완공됐다. 면적 **287,973ft²**(약 2.7만㎡) 규모로, 창고·트럭·보안 펜스가 늘어섰던 미시시피강변의 '단단한 산업 가장자리'를 공공공간으로 바꿨다.",
+        "허리케인 카트리나 이후 회복과 복원력을 위한 '크레센트 재창조' 계획의 일부로, 6마일 넘는 연속 강변 공공공간을 목표로 한다. 발주처는 오듀본 자연연구소다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187234/goldring-woldenberg-riverfront-park-eskew-plus-dumez-plus-ripple"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "도시재생"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "MUSEUM · 포르투갈",
+      "title": "요새 도시의 박물관 — 카릴류 다 그라사의 아브란테스 이베리아 고고학·미술관",
+      "image": "https://images.adsttc.com/media/images/6ae0/fcee/3271/8400/01d0/f38e/large_jpg/RitaBurmester_CG_MIAA_0220_2208.jpg?1793129753",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "포르투갈 아브란테스에 **2021년** 지어진 연면적 **10,792㎡**의 박물관이다. 건축가는 이 도시를 '요새화된 전초기지이자 반드시 지나야 하는 길목'으로 보고, 건물을 대지의 지형과 역사에 뿌리내리게 했다. 콘크리트 구조가 중심이며 발주는 아브란테스시청이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187725/miaa-iberian-museum-of-archaeology-and-art-carrilho-da-graca-arquitectos"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "ADAPTIVE REUSE · 덴마크",
+      "title": "옛 정신과 병동이 박물관으로 — C.F. 묄러의 미들파트 MIND 박물관",
+      "image": "https://images.adsttc.com/media/images/6adf/8cc2/3271/8400/01d0/ec79/medium_jpg/04_MIND_Photo_by_Kirstine_Mengel.jpg?1793035560",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "덴마크 미들파트의 옛 정신과 환자 건물을 **1,500㎡** 규모 박물관으로 바꿨다(2026년). 부지의 역사를 보존하면서 덴마크 정신의학의 발전을 보여줄 유연한 전시 공간을 만들었다. 내부 디자인은 쿠물루스 에이전시, 구조는 쇠렌 외르겐센 엔지니어스가 맡았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187560/mind-museum-cf-moller"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "PUBLIC · 벨기에",
+      "title": "쓰레기 처리장을 공원처럼 — 보벤보우의 안트베르펜 키엘스브룩 재활용 파크",
+      "image": "https://images.adsttc.com/media/images/6ad9/dab7/3271/8400/01d0/dd4e/medium_jpg/BB_COKI_05_FilipDujardin.jpg?1792662218",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "2009년 안트베르펜시 공모에서 당선된 계획으로, 2024년 **51,032㎡** 규모로 완성됐다. 폐기물 시설을 산업 부지가 아닌 자주 찾는 공공공간으로 다루어 폐기물 처리에 대한 낙인을 줄이려 했다. 룩트발·보르헤르하우트 재활용센터에 이은 시리즈의 마지막이며 목재·강재·벽돌을 쓴다. 딕 소머스가 수석을 맡았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187333/recycling-park-bovenbouw"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "RESIDENTIAL · 아르헨티나",
+      "title": "패티오가 평면을 만든다 — 00L의 빌라 라 볼사 '기하학적 폐허'",
+      "image": "https://images.adsttc.com/media/images/6ae1/c375/db5c/2001/882d/0dd7/medium_jpg/a-geometric-ruin_15.jpg?1793180611",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "코르도바 내륙 빌라 라 볼사에 **2023년** 지은 **140㎡** 저예산 주택이다. 'L'자 평면이 열린 중정을 감싸며, 패티오를 평면의 생성 원리로 삼았다. 위르엔 웃손의 킹고 하우스와 알바 알토의 무라트살로 실험주택에서 영향을 받았다고 밝힌다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187661/a-geometric-ruin"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "산업 · 대한건축사협회",
+      "title": "건축의 전환을 모색하다 — '2026 한국건축산업대전(KAFF)' 코엑스서 개막",
+      "body": [
+        "제21회 한국건축산업대전이 **10월 28~30일** 서울 코엑스 D홀에서 열린다. 주제는 'TRANSFORM, 건축 전환의 중심에 서다'. 대한건축사협회가 주최하고 약 **100개** 업체가 **200여 개** 부스로 친환경 자재, 건축 신기술·IT, 신재생에너지, 공공기관 정책을 소개한다.",
+        "건축자재설명회 8개 회차 중 1회차를 들으면 건축사 실무교육 1시간이 인정되며, 한옥건축설계교육 수강생 작품전과 서초건축문화제 전시도 함께 열린다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21301"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "기술 · 한국건설기술연구원",
+      "title": "지하 데이터센터 화재, 불난 데이터랙만 1분 내 격리 — 건설연 '이동형 화재 확산 방지 구획' 시작품",
+      "body": [
+        "한국건설기술연구원 화재안전연구본부(팀장 유용호)가 천장 이동레일을 따라 화재 지점으로 가 접힌 벨로즈형 방화덮개를 중력으로 펼쳐 데이터랙을 감싸는 기술을 개발했다. 과기정통부 전략연구사업 성과다.",
+        "화성 시험에서 화재 감지 후 **1분 이내** 해당 랙을 격리했고, 덮개 표면온도는 **100℃ 이하**로 유지됐으며 외부 연기 누출은 관찰되지 않았다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=14004"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "도시재생 · 건축공간연구원",
+      "title": "지방도시 노후주거지, 지역 맞춤형 정비 해법을 찾는다 — AURI 주거지재생 정책포럼",
+      "body": [
+        "건축공간연구원(AURI)이 **10월 27일** '2026 AURI 주거지재생 정책포럼'을 열었다. 인구감소·고령화가 겹친 지방중소도시 노후주거지의 특성을 진단하고, 노후주거지정비 지원사업이 실제 주택정비로 이어질 실행과제를 살폈다.",
+        "영국과 창원의 주거 사례를 참고해 다양한 공급방식을 제안했고, 인천·영주·아산의 현장 경험을 공유했다."
+      ],
+      "source": {
+        "outlet": "건축공간연구원",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7615"
+          }
+        ]
+      },
+      "src_date": "2026-10-27",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "설계공모 · 강원 철원",
+      "title": "한국국방과학고 공간재구조화 개축공사 설계공모 — 연면적 5,659㎡, 공사비 180억",
+      "body": [
+        "강원 철원군 서면 한국국방과학고의 개축공사 제안공모다. 연면적 **5,659㎡**, 예정 설계비 **8.4억 원**, 예정 공사비 **180억 원**. 심사위원은 9인이다.",
+        "공고일은 10월 28일, 참가등록 마감은 **11월 2일**, 결과 발표는 12월 8일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19031"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경기 고양",
+      "title": "능곡고 공간재구조화 개축 및 증축 설계공모 — 연면적 12,986㎡, 공사비 118억",
+      "body": [
+        "경기 고양시 덕양구 능곡고등학교의 개축·증축 제안공모. 연면적 **12,986㎡**, 예정 설계비 **5.7억 원**, 예정 공사비 **118억 원**이다.",
+        "참가등록 마감은 **11월 9일**, 심사위원 11인, 결과 발표는 12월 16일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19032"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경기 용인",
+      "title": "덕영고 공간재구조화 리모델링 설계공모 — 연면적 13,782㎡, 공사비 119억",
+      "body": [
+        "경기 용인시 처인구 덕영고등학교 리모델링 제안공모. 연면적 **13,782㎡**, 예정 설계비 **4.5억 원**, 예정 공사비 **119억 원**.",
+        "참가등록 마감은 **11월 9일**(등록 11월 2일 시작), 심사위원 11인, 결과 발표는 12월 17일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19033"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경기 구리",
+      "title": "[긴급] 인창동 복합커뮤니티센터 건립사업 건축 설계공모 — 연면적 8,286㎡, 공사비 310억",
+      "body": [
+        "경기 구리시 인창동 573-1 일원의 일반설계공모. 연면적 **8,286㎡**, 예정 설계비 **15.4억 원**, 예정 공사비 **310억 원**이며 심사위원은 9인이다.",
+        "참가등록 마감은 **11월 6일**, 결과 발표는 2027년 1월 25일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19030"
+          }
+        ]
+      },
+      "src_date": "2026-10-27",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "광주건축사회·서울건축사회 업무협약 — 설계 표준계약서·표준견적서 연구성과 공유",
+      "body": "10월 19일 체결. 설계의도 구현 민간 적용기준, 설계 표준계약서 개선안·해설서, 설계업무 표준견적서 연구성과를 공유·활용한다.",
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ancnews.kr/news/articleView.html?idxno=21297"
+          }
+        ]
+      },
+      "src_date": "2026-10-27",
+      "topic": "제도규제"
+    },
+    {
+      "title": "온타리오, 건축법규 시행일을 7월 17일에서 10월 1일로 변경",
+      "body": "O. Reg. 325/26이 10월 1일자로 제정돼 10월 17일 관보에 실렸다. 기존 규정(O. Reg. 163/24)의 날짜 문구를 수정했다.",
+      "source": {
+        "outlet": "Ontario e-Laws",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ontario.ca/laws/regulation/r26325"
+          }
+        ]
+      },
+      "src_date": "2026-10-17",
+      "topic": "제도규제"
+    },
+    {
+      "title": "상파울루 989㎡ 주택 전면 개조 — SUITE의 MAS 하우스",
+      "body": "공간의 통합을 출발점, 재료성을 구조 원리로 삼은 2025년 완공 개조. 가족 동선과 실내외 연계를 개선했다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187546/mas-house-suite"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "우크라이나 640㎡ 게스트하우스 — 민츠 디자인, 황야 경관을 건축의 토대로",
+      "body": "넓은 자연 부지 안 대형 복합단지의 일부로 2026년 완공. 목재와 석재를 썼다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187561/guest-house-mints-design"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "도미니카공화국 야키스기 하우스 — 에스투디오 마사라",
+      "body": "긴 수평 볼륨과 가벼운 경사지붕으로 열대 경관과 이어지는 주택. 석재·목재·어두운 구조재의 절제된 팔레트.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187678/yakisugi-house-estudio-mazara"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "물의 정치학 — 싼샤댐부터 케이프타운 '데이 제로'까지",
+      "body": "댐·수로 같은 물 인프라가 권력과 위치에 따라 이익과 부담을 나눈다는 에세이. 2018년 케이프타운에서 정규 가구는 공급량의 66%, 비공식 정착지(14% 가구)는 4%를 썼다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187314/unearthing-the-ground-architecture-and-the-politics-of-water"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "kuma-water-culture-house",
+      "tag": "CULTURE",
+      "title": "벽돌 탑 5개로 쌓은 코펜하겐 수영 문화관",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "kengo kuma",
+      "slides": [
+        {
+          "heading": "벽돌 탑 5개로\n쌓은 수영 문화관",
+          "body": "켄고 쿠마의 코펜하겐 워터 컬처 하우스, 12월 5일 개장"
+        },
+        {
+          "heading": "SCALE",
+          "body": "파피르외엔 항구에 들어서는 5,800㎡ 공공시설. 실내외 수영장 10개와 웰니스·문화 공간, 항구 접근로를 모았다."
+        },
+        {
+          "heading": "BRICK",
+          "body": "유리 저층부 위에 벽돌 탑 5개가 얹힌다. 쓰인 수제 벽돌은 약 30만 장."
+        },
+        {
+          "heading": "POOLS",
+          "body": "실내에는 25m 피트니스 풀·교습 풀·재활 풀, 실외에는 밸리 풀과 온센 풀이 있다."
+        },
+        {
+          "heading": "9 YEARS",
+          "body": "2015년 아이디어 공모, 2017년 설계공모를 거쳐 2026년 개장. 항구 수영 구역은 2027년 초 열린다."
+        }
+      ]
+    },
+    {
+      "slug": "seoul-redevelopment-permit-standard",
+      "tag": "REGULATION",
+      "title": "서울 정비사업 인허가, 25개 구 기준이 같아진다",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "seoul apartment construction",
+      "slides": [
+        {
+          "heading": "정비사업 인허가\n25개 구 기준 통일",
+          "body": "서울시 '업무 처리기준 표준화 추진계획'"
+        },
+        {
+          "heading": "WHY",
+          "body": "자치구마다 처리기준이 달라, 법정 기한이 없는 절차가 지연됐다. 사업시행자 지정이 수개월 늦어진 창신 9구역이 계기다."
+        },
+        {
+          "heading": "DEADLINES",
+          "body": "공공시행자·지정개발자 지정은 30일 이내. 관계기관 협의는 10일 이내, 1회 5일 연장 가능하며 무회신은 '의견 없음'으로 본다."
+        },
+        {
+          "heading": "LIMITS",
+          "body": "보완 요구는 10일 이내·최대 2회. 사전검토나 대면보고를 이유로 접수를 거부하는 것은 원칙적으로 금지된다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "협의가 10일 넘게 길어지면 공정촉진책임관이 조정회의를 연다. 서울시는 30일 기한의 법령 명문화를 국토부에 건의했다."
+        }
+      ]
+    },
+    {
+      "slug": "heinz-architectural-center",
+      "tag": "CULTURE",
+      "title": "카네기 미술관 하인즈 건축센터, AD—WO가 다시 쓴다",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "carnegie museum of art pittsburgh",
+      "slides": [
+        {
+          "heading": "건축을 전시하는\n건축센터의 재탄생",
+          "body": "AD—WO의 카네기 미술관 하인즈 건축센터 개보수"
+        },
+        {
+          "heading": "WHERE",
+          "body": "1907년 본관과 1974년 스케이프 갤러리 사이, 1993년 문을 연 센터. 소장품 약 6,000점과 140점 넘는 석고 캐스트가 있다."
+        },
+        {
+          "heading": "HOW",
+          "body": "자연광을 늘리고 유연한 전시 공간과 새 수장·연구 공간을 만든다. 마감은 파이어브릭과 알루미늄."
+        },
+        {
+          "heading": "TEAM",
+          "body": "에마누엘 아드마수·젠 우드의 AD—WO가 설계하고 R3A가 기록 건축사, 버로 해폴드가 엔지니어링을 맡는다."
+        }
+      ]
+    }
+  ]
+}
