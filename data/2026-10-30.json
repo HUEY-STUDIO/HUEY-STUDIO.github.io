@@ -1,0 +1,519 @@
+{
+  "vol": "VOL.01  NO.075",
+  "editor": "HUEY",
+  "counts": {
+    "total": 20,
+    "intl": 14,
+    "kr": 6
+  },
+  "outlets": [
+    "ArchDaily",
+    "Il Foglio",
+    "Construction Dive",
+    "건축사신문",
+    "건축사뉴스",
+    "대한건설협회",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "마크시미르 경기장 당선작 보류",
+      "desc": "88개 출품작 중 VG13 만장일치 당선",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "캐나다산 합판 관세 제외",
+      "desc": "10월 30일부터, 카펫·에어컨은 추가",
+      "label": "POLICY"
+    },
+    {
+      "title": "경기 공간재구조화 우수학교",
+      "desc": "개축·리모델링 6교 선정",
+      "label": "AWARDS"
+    },
+    {
+      "title": "홍만식 '심우재'",
+      "desc": "경기도건축문화상 회장상",
+      "label": "AWARDS"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 설계공모",
+    "lede": "88개 출품작 중 만장일치 당선, 그런데 보류 — 자그레브 마크시미르 경기장 설계공모 논란",
+    "lede_em": "그런데 보류",
+    "image": "https://ilfoglio-produzione.fra1.cdn.digitaloceanspaces.com/ilfoglio/stories/2026/10/12/1200x675/a7f55ea4-56a3-45be-8087-31133ac806da.jpeg",
+    "image_label": "IL FOGLIO",
+    "caption": "자그레브 마크시미르 경기장 당선안 (VG13)",
+    "body": [
+      "크로아티아 자그레브 마크시미르 경기장 설계공모에서 밀라노의 소규모 사무소 **VG13**(토마소 판티니·알베르토 로시, 둘 다 34세)이 심사위원 만장일치로 당선됐다. **20여 개국 88개** 출품작이 겨뤘고, 약 **3만 5천 석** 규모에 UEFA 카테고리 4 기준을 충족하는 안이다.",
+      "그러나 지역 건축가들의 풍자 렌더링과 팬들의 반발이 번졌고, 경제부가 공식 이의를 제기했다. 총리가 설계가 마음에 들지 않는다고 밝히면서 방향이 바뀌어 사업은 보류됐다.",
+      "쟁점은 열린 모서리를 강철로 짠 구조다. 구 유고 시절 콘크리트 브루탈리즘을 연상시킨다는 지적이 나오고, 팬들은 건설·유지 비용이 훨씬 높은 폐쇄형 그릇 모양 구장을 선호한다.",
+      "크로아티아 건축가협회장은 유럽 공모의 결과가 흔들려서는 안 된다고 맞섰다. 공공 설계공모의 당선안이 여론과 정치에 의해 뒤집힐 수 있는지를 묻는 사례로, 스플리트의 하이두크 폴류드 경기장(1979년) 철거 위기 논의와도 맞닿아 있다."
+    ],
+    "source": {
+      "outlet": "Il Foglio",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ilfoglio.it/en/terrazzo/2026/10/17/news/the-italian-design-for-the-stadium-in-zagreb-wins-but-is-put-on-hold--410351"
+        }
+      ]
+    },
+    "src_date": "2026-10-17",
+    "topic": "수상"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "캐나다산 합판, 10월 30일부터 미국 관세 대상서 제외 — 카펫·에어컨은 추가",
+    "body": [
+      "트럼프 대통령이 캐나다산 수입품에 부과하는 최대 **50%** 관세의 대상 품목을 조정했다. 1930년 무역법 제338조에 근거한 관세로, 7월 발표 당시 약 **200억 달러** 규모가 대상이었다."
+    ],
+    "facts": [
+      "시행: **10월 30일**",
+      "제외: 합판, 일부 산업용 기계, 특정 포장·종이 소재",
+      "추가: 코코아 파우더, 카펫, 에어컨",
+      "소송: 국제무역법원에 관세 철회·환급을 요구하는 소송 계류 중(미판결)"
+    ],
+    "body_after": [
+      "합판 제외는 목재 기반 시공 자재 비용에, 카펫·에어컨 추가는 마감재와 HVAC 조달 비용에 영향을 줄 수 있다. 기사는 건설 분야 영향을 직접 분석하지 않았으며, 위 영향은 품목 변화에 따른 일반적 추정이다."
+    ],
+    "source": {
+      "outlet": "Construction Dive",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.constructiondive.com/news/trump-tweaks-canada-tariffs-removing-certain-goods-adding-others/872858/"
+        }
+      ]
+    },
+    "src_date": "2026-10-27",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "공공공간 · 튀르키예",
+      "title": "도시와 해안, 자연을 잇는 2.4만㎡ 공공공간 — 외저르/위르게르의 코카엘리 박람회 공원",
+      "image": "https://images.adsttc.com/media/images/6ada/272e/3271/8400/01d0/e043/large_jpg/EKAPd0736_kmbM___2026.jpg?1792681794",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "튀르키예 이즈미트의 **코카엘리 박람회 공원**은 외저르/위르게르 아키텍츠(Özer/Ürger Architects)가 설계한 **24,000㎡** 규모의 공공공간·조경 프로젝트로 2026년 완공됐다.",
+        "유리·강철·콘크리트를 주재료로 도시와 해안선, 자연 경관을 하나의 통합된 접근으로 묶었다. 발주처는 코카엘리 광역시청 측량·사업부다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187383/kocaeli-fair-park-ozer-urger-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "인프라 · 미국",
+      "title": "4.8억 달러 미니애폴리스 공항 터미널 1 현대화 — JE 던, 에너지센터 신축부터 2032년 준공",
+      "image": "",
+      "image_label": "",
+      "body": [
+        "미니애폴리스-세인트폴 공항위원회가 터미널 1 현대화·확장 공사의 시공사로 **JE 던 컨스트럭션**을 CMAR 방식으로 선정했다. 총 사업비는 **4억 8,000만 달러**다.",
+        "1962년경부터 터미널에 냉난방을 공급해 온 에너지관리센터를 철거·신축하고, 냉수 플랜트 전면 교체와 폐열회수 냉동기, 온수 배관을 새로 깐다. 콘코스 약 18만 3,400제곱피트를 철거하고 약 30만 9,990제곱피트를 신축한다.",
+        "2027년 준비공사, 2028년 본공사를 거쳐 **2032년** 최종 준공이 목표다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/je-dunn-minneapolis-airport-upgrade/872957/"
+          }
+        ]
+      },
+      "src_date": "2026-10-27",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "광장 · 포르투갈",
+      "title": "산골 마을 피오당의 광장과 관광안내소 — 브랑코-델리우 아르키텍투스",
+      "image": "https://images.adsttc.com/media/images/6ad2/57f5/aadf/a000/01e3/ab17/large_jpg/Pi_d_o_Fotografia06_FredericoMartinho.jpg?1792170121",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "포르투갈 피오당에 들어선 **1,767㎡** 규모의 광장·관광안내소로, 2022년 완공작이다. 갤러리 캡션에는 벽돌과 콘크리트가 주요 재료로 표기돼 있다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187554/piodao-plaza-and-tourist-office-branco-delrio-arquitectos"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "교육 · 호주",
+      "title": "제작·시제품·창작예술을 담은 학교 — 아키텍터스의 메리덴 시니어 스쿨 DaCA 동",
+      "image": "https://images.adsttc.com/media/images/6adb/70a9/3271/8400/01d0/e519/newsletter/sa_edu_Meridan_Senior_School_DaCA_Building_03.jpg?1792766150",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "시드니 스트라스필드의 메리덴 시니어 스쿨 디자인·창작예술(DaCA) 건물은 **2,850㎡** 규모로 2025년 완공됐다. 제작과 프로토타이핑, 창작예술 과정을 반영해 학생의 창의성을 자극하는 공간을 목표로 했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187431/meriden-senior-school-design-and-creative-arts-building-architectus"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "리모델링 · 포르투갈",
+      "title": "1층은 벽돌, 2층은 목재 — 코르포 아틀리에의 올량 모서리 건물 개조",
+      "image": "https://images.adsttc.com/media/images/6ae0/fba4/3271/8400/01d0/f37b/newsletter/4.jpg?1793129450",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "포르투갈 올량의 **360㎡** 모서리 건물 개조 프로젝트다. 1층과 2층의 두 입면이 서로 다른 구조 체계와 재료, 공간적 성격을 가진 콜라주처럼 구성됐다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187639/wood-structure-on-top-of-brick-structure-corpo-atelier"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "커뮤니티 · 잠비아",
+      "title": "주민이 직접 벽돌을 빚어 올린 4,500㎡ — 카무나 디자인 스튜디오의 우모지 에피센터",
+      "image": "https://images.adsttc.com/media/images/6ae0/b363/20d6/d82a/88e0/5b5e/medium_jpg/umodzi-epicentre-community-center-kamuna-design-studio_7.jpg?1793110913",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "잠비아 부브위 지구의 **우모지 에피센터**는 주민들이 직접 벽돌을 빚고 벽을 세우고 지붕을 올린 **4,500㎡** 커뮤니티 센터다. 교육과 직업훈련, 돌봄을 제공하며 **126개 마을, 2만 6천 명** 이상이 이용한다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187600/umodzi-epicentre-community-center-kamuna-design-studio"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "교육시설 · 경기도",
+      "title": "경기도교육청, 공간재구조화 우수시설 학교 6교 선정 — 개축 성남 중원초, 리모델링 금곡고 최우수",
+      "body": [
+        "최근 1년 내 준공한 **38교**를 대상으로 서류심사와 현장 점검을 거쳐 최우수 2교(성남 중원초, 구리남양주 금곡고)와 우수 4교(평택성동초·원덕초, 군자디지털과학고, 이천초)를 골랐다.",
+        "40년 이상 노후한 학교를 친환경·디지털 교육공간으로 바꾸는 사업이다. 금곡고는 도서관과 다목적홀을 연결하고 옥외공간을 야외 공연장으로 활용했다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=14006"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "수상"
+    },
+    {
+      "kicker": "수상 · 경기도건축사회",
+      "title": "홍만식(리슈 건축사사무소)의 화성 단독주택 '심우재' — 제30회 경기도건축문화상 회장상",
+      "body": [
+        "경기도 화성시 택지지구에 지은 지상 2층 철근콘크리트 단독주택이다. 대지면적 **374.10㎡**, 건축면적 **161.37㎡**, 연면적 **296.63㎡**, 주차 2대. 제30회 경기도건축문화상 사용승인부문 경기도건축사회 회장상을 받았다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=14007"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "수상"
+    },
+    {
+      "kicker": "설계공모 · 대구",
+      "title": "대구북부지사(가칭) 대수선 공사 설계공모 — 연면적 2,552㎡, 공사비 47.7억",
+      "body": [
+        "대구 북구 구암로 51(관음동 1372-1)에 있는 업무시설 대수선 일반설계공모다. 연면적 **2,552㎡**, 예정 설계비 **3.1억 원**, 예정 공사비 **47.7억 원**. 참가등록 마감 **11월 5일**, 결과 발표는 2027년 1월 12일 이내다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/19036"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 충북",
+      "title": "보은 시니어친화형 국민체육센터 건립 건축설계공모 — 연면적 2,910㎡, 공사비 127억",
+      "body": [
+        "충북 보은군 보은읍 죽전리 일원에 짓는 체육센터 일반설계공모(재공고)다. 연면적 **2,910㎡**, 예정 설계비 **6.6억 원**, 예정 공사비 **127억 원**. 심사위원은 7인, 결과 발표는 **12월 31일** 예정이다. 참가등록은 11월 6일 전후다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/19038"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 충남",
+      "title": "홍성군 노인종합복지관 건립사업 제안공모 — 연면적 2,600㎡, 공사비 137억",
+      "body": [
+        "충남 홍성읍 오관리 470-1 일원에 짓는 노유자시설 제안공모다. 연면적 **2,600㎡**, 예정 설계비 **8.3억 원**, 예정 공사비 **137억 원**. 참가등록 마감 **11월 3일**, 결과 발표 12월 18일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/19039"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경남",
+      "title": "김해시 노인복지회관 신축사업 건축설계공모 — 연면적 900㎡, 공사비 41.5억",
+      "body": [
+        "김해시 봉황동 17-13 일원의 노유자시설 일반설계공모다. 연면적 **900㎡**, 예정 설계비 **2.1억 원**, 예정 공사비 **41.5억 원**. 참가등록은 **11월 4일** 시작, 결과 발표는 2027년 2월 5일이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모",
+            "url": "https://jootek.com/folio/contests/19034"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "데이터센터 건설, 주 규제 속에서도 대형 프로젝트 지속 — 버지니아·캘리포니아·텍사스",
+      "body": "버지니아 행정명령, 캘리포니아 7개 법안 등 규제가 이어지지만 하이퍼스케일러의 수십억 달러 투자는 계속된다. 소음 차단엔 최소 1,500피트 이격이 필요하다는 연구도 소개됐다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/data-center-construction-spending-backlash-pile-up/872768/"
+          }
+        ]
+      },
+      "src_date": "2026-10-26",
+      "topic": "제도규제"
+    },
+    {
+      "title": "안탈리아 COP31, 옛 EXPO 2016 부지에서 11월 9~20일 개최",
+      "body": "SP Architects가 박람회장을 개조해 UN 협상용 블루존과 공공행사용 그린존으로 나눴다. 행사 후에도 박람회·공연 등에 재활용한다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187684/antalya-prepares-to-host-cop31-and-foster-plus-partners-unveils-world-trade-center-yerevan-this-weeks-review"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "저렴한 주택에 시민 인프라를 얹다 — 미국 복합용도 개발 사례",
+      "body": "저렴한 주택을 도서관 등 도시 공공 인프라와 통합하는 복합용도 개발의 흐름을 로즈 아파트(브룩스+스카르파) 등과 함께 짚었다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187571/beyond-affordable-housing-integrating-civic-infrastructure-in-us-mixed-use-developments"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "웨스턴켄터키대 3.5억 달러 기숙사 착공 — 1,000베드, 2028년 가을 개관",
+      "body": "Gilbane Development가 P3 방식으로 추진하는 '서던 게이트웨이'. 시공은 Broeren Russo Builders가 맡고, 노후 기숙사 두 동을 같은 부지에서 대체한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/gilbane-development-breaks-ground-wku-student-housing/872841/"
+          }
+        ]
+      },
+      "src_date": "2026-10-27",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "PCL, 시애틀 암트랙 정비시설 공기 내·예산 절감 완공 — 3억 달러 계약 대비 5천만 달러 적은 2.5억 달러",
+      "body": "연면적 10만 제곱피트·선로 3개로 열차 한 편성 전체를 점검·정비하는 암트랙 최초의 시설. 콘크리트 1만 6,000입방야드, 구조용 강재 1,200만 파운드가 쓰였다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/pcl-amtrak-facility-under-budget-seattle/872907/"
+          }
+        ]
+      },
+      "src_date": "2026-10-27",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "터너 JV, 클리블랜드 케이스웨스턴대 3억 달러 연구동 준공 — 4층 아트리움이 두 실험동 연결",
+      "body": "HGA 설계, 연면적 18만 9,000제곱피트 5층. 가동 중인 캠퍼스라 3D 모델링과 공장 제작으로 현장 작업을 줄였고 LEED Gold 기준으로 설계됐다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/turner-led-jv-completes-cleveland-facility-case-western/872954/"
+          }
+        ]
+      },
+      "src_date": "2026-10-27",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "zagreb-maksimir-hold",
+      "tag": "COMPETITION",
+      "title": "당선됐지만 멈춘 자그레브 경기장",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "zagreb croatia stadium",
+      "slides": [
+        {
+          "heading": "당선됐지만\n멈춘 경기장",
+          "body": "자그레브 마크시미르 설계공모, VG13안 보류"
+        },
+        {
+          "heading": "THE WIN",
+          "body": "20여 개국 88개 출품작 중 밀라노의 VG13이 심사위원 만장일치로 당선됐다. 약 3만 5천 석, UEFA 카테고리 4 기준."
+        },
+        {
+          "heading": "BACKLASH",
+          "body": "지역 건축가들의 풍자 렌더링과 팬들의 반발이 번졌고, 총리가 설계가 마음에 들지 않는다고 밝히며 사업이 보류됐다."
+        },
+        {
+          "heading": "THE ISSUE",
+          "body": "강철로 짠 열린 모서리가 구 유고 시절 브루탈리즘을 연상시킨다는 지적. 팬들은 폐쇄형 그릇 모양 구장을 선호한다."
+        },
+        {
+          "heading": "STAKES",
+          "body": "크로아티아 건축가협회장은 유럽 공모의 결과가 흔들려서는 안 된다고 맞섰다."
+        }
+      ]
+    },
+    {
+      "slug": "canada-tariff-plywood",
+      "tag": "POLICY",
+      "title": "캐나다산 합판, 관세 대상서 빠진다",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "plywood lumber construction",
+      "slides": [
+        {
+          "heading": "합판은 빠지고\n에어컨은 추가",
+          "body": "미국의 캐나다산 관세 품목 조정, 10월 30일 시행"
+        },
+        {
+          "heading": "BASIS",
+          "body": "1930년 무역법 제338조에 근거한 최대 50% 관세. 7월 발표 당시 약 200억 달러 규모가 대상이었다."
+        },
+        {
+          "heading": "OUT",
+          "body": "합판, 일부 산업용 기계, 특정 포장·종이 소재가 관세 대상에서 제외된다."
+        },
+        {
+          "heading": "IN",
+          "body": "코코아 파우더, 카펫, 에어컨이 새로 포함돼 마감재와 HVAC 조달 비용에 영향을 줄 수 있다."
+        },
+        {
+          "heading": "LAWSUIT",
+          "body": "국제무역법원에는 관세 철회와 환급을 요구하는 소송이 계류 중이며 아직 판결이 나지 않았다."
+        }
+      ]
+    },
+    {
+      "slug": "kocaeli-fair-park",
+      "tag": "PUBLIC SPACE",
+      "title": "도시와 해안을 잇는 코카엘리 박람회 공원",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "turkey waterfront promenade",
+      "slides": [
+        {
+          "heading": "도시와 해안을\n잇는 공원",
+          "body": "외저르/위르게르의 코카엘리 박람회 공원"
+        },
+        {
+          "heading": "SCALE",
+          "body": "튀르키예 이즈미트에 2026년 완공된 2만 4,000㎡ 규모의 공공공간·조경 프로젝트."
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "유리·강철·콘크리트를 주재료로 썼다."
+        },
+        {
+          "heading": "APPROACH",
+          "body": "도시, 해안선, 자연 경관을 하나의 통합된 접근으로 묶었다."
+        }
+      ]
+    }
+  ]
+}
