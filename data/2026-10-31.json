@@ -1,0 +1,564 @@
+{
+  "vol": "VOL.01  NO.076",
+  "editor": "HUEY",
+  "counts": {
+    "total": 22,
+    "intl": 14,
+    "kr": 8
+  },
+  "outlets": [
+    "ArchDaily",
+    "Construction Dive",
+    "건축사신문",
+    "건축사뉴스",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "옥스퍼드 스트리트 1km 보행화",
+      "desc": "10월 26일 1단계 개통",
+      "label": "URBAN"
+    },
+    {
+      "title": "건축법 전부개정 국회토론회",
+      "desc": "179개 조문·10개 장 재편안",
+      "label": "POLICY"
+    },
+    {
+      "title": "경남 중·고교 건축동아리 공모전",
+      "desc": "스미요시 나가야 재해석 대상",
+      "label": "AWARDS"
+    },
+    {
+      "title": "경복궁 문화상품관 설계공모",
+      "desc": "연면적 1,650㎡, 공사비 102억",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 도시재생",
+    "lede": "10년 만에 열린 차 없는 옥스퍼드 스트리트 — 런던 1km 보행화 1단계 개통",
+    "lede_em": "차 없는 옥스퍼드 스트리트",
+    "image": "https://images.adsttc.com/media/images/6ae3/9d63/a8ed/4101/8962/3227/large_jpg/londons-oxford-street-opens-its-first-traffic-free-phase_4.jpg?1793301900",
+    "image_label": "ARCHDAILY",
+    "caption": "런던 옥스퍼드 스트리트 1단계 보행 구간 ⓒ Greater London Authority / Caroline Teo",
+    "body": [
+      "런던 웨스트민스터 구의 옥스퍼드 스트리트 **오처드 스트리트~그레이트 포틀랜드 스트리트 약 1km** 구간이 **10월 26일** 차량 없는 거리로 문을 열었다. 개인 차량은 물론 버스·택시·자전거·킥보드·페디캡까지 모두 진입이 제한된다.",
+      "사업은 2016년 사디크 칸 시장이 처음 제안했고 2020년 완료를 목표로 했으나, 두 차례 공공협의 끝에 2018년 무산됐다. 2024년 재개돼 두 번의 협의에서 다수 지지를 얻었고 **2026년 2월** 최종 승인을 받았다.",
+      "설계는 조경·도시설계 사무소 **East**가 이끌고 Gehl, Publica, J&L Gibbons, Etude, NRP가 참여한다. 이번 개통은 1단계이며, 오처드 스트리트~그레이트 포틀랜드 스트리트 영구 정비 공사는 **2027년 후반** 착공해 **2028년** 완료될 전망이다.",
+      "사업은 메이어 개발공사 성격의 옥스퍼드 스트리트 개발공사(OSDC)가 관장한다. 호킨스\\브라운은 마블 아치에서 토트넘 코트 로드까지 이어지는 장기 비전을 별도로 수립 중이다. 사업비는 기사에 언급되지 않았다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1187796/londons-oxford-street-opens-its-first-traffic-free-phase"
+        }
+      ]
+    },
+    "src_date": "2026-10-30",
+    "topic": "도시재생"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "건축법 전부개정, 179개 조문·10개 장으로 재편 제안 — 대한건축사협회·건축공간연구원 국회토론회",
+    "body": [
+      "대한건축사협회와 건축공간연구원이 **10월 26일** 국회도서관 대강당에서 '국민편의와 신속행정을 위한 건축법 전부개정 국회토론회'를 열었다. 1962년 제정 이후 부분 개정이 쌓여 규제 중심의 경직된 체계가 됐다는 문제의식에서다."
+    ],
+    "facts": [
+      "개정안 구조: **179개 조문**을 제1장 총칙~제10장 벌칙 **10개 장**으로 재편",
+      "방향: 사양 중심 → **성능 기반** 건축기준, 용도분류 단순화",
+      "행정: 건축허가 사전검토·**AI 보조심사**, 건축신고·용도변경 제도 개선",
+      "책임: 설계·시공·감리의 역할과 책임 명확화"
+    ],
+    "body_after": [
+      "건축공간연구원 유광흠 선임연구위원은 전문가 그룹 구성과 사회적 합의 절차가 필요하다고 강조했고, 한창섭 건축연구원장은 조문 혼재·절차 중복·책임 불균형을 짚었다. 같은 날 건축사신문에는 건축관계자 업무범위·책임 명확화와 건축법의 중심성 확립을 주장하는 기고가 잇따라 실렸다."
+    ],
+    "source": {
+      "outlet": "건축사뉴스",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.a-news.kr/news/articleView.html?idxno=14005"
+        }
+      ]
+    },
+    "src_date": "2026-10-28",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "호텔 · 포르투갈",
+      "title": "수도원을 5성급 호텔로 — MiMool의 MS 컬렉션 아루카",
+      "image": "https://images.adsttc.com/media/images/6ae3/22be/20d6/d801/8852/1f28/large_jpg/ms-collection-arouca-mimool-arquitectura-and-design-de-interiores_5.jpg?1793270502",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "포르투갈 아루카의 옛 산타 마리아 수도원 일부를 **6,698㎡** 규모 5성급 호텔로 바꾼 프로젝트다. 수도원은 1910년부터 국가기념물이다.",
+        "국가 유산 활용 프로그램 REVIVE의 일환으로, 설계팀은 건축·기억·경관이 새로운 용도의 서사를 이루는 '역사적 연속성의 실천'이라고 설명한다. 2025년 완공작이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187879/hotel-ms-collection-arouca-mimool-arquitectura-and-design-de-interiores"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "주거 리모델링 · 벨기에",
+      "title": "1960년대 사회주택에 새 얼굴을 — 브뤼셀 로티에 46세대 개보수",
+      "image": "https://images.adsttc.com/media/images/6adf/8efb/3271/8400/01d0/ecee/large_jpg/Rotiers_08_Bruno_Dias_Ventura.jpg?1793036122",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "MULTIPLE Architecture & Urbanism이 소니안 숲 가장자리에 선 1960년대 사회주택을 **46세대 3,916㎡**로 개보수했다. 목재·강재·벽돌을 주재료로 썼다.",
+        "설계팀은 건물이 동네와 맺는 관계, 주민의 일상, 주호와 공용 외부공간, 출입구를 함께 손봐 '새로운 건축적 정체성'을 주려 했다고 밝혔다. 2025년 완공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187565/rotiers-renovation-of-46-housing-units-in-brussels-multiple-architecture-and-urbanism"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "도시 · UN",
+      "title": "세계 도시의 날 2026, '도시를 재생하다: 모두를 위한 적정 주거'",
+      "image": "https://images.adsttc.com/media/images/6ae4/575a/a8ed/4101/8962/330f/large_jpg/world-cities-day-2026-explores-regenerating-the-city-adequate-housing-for-all_1.jpg?1793349474",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "10월 31일 세계 도시의 날 2026 행사는 중국 푸저우에서 열린다. 유엔에 따르면 전 세계 최대 **34억 명**이 적정 주거·점유 안정·기본 서비스·감당 가능한 주거비 중 하나 이상을 누리지 못한다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187811/world-cities-day-2026-explores-regenerating-the-city-adequate-housing-for-all"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "주거 · 프랑스",
+      "title": "보르도 바생 아 플로 4개 동 117세대 — 타이양디에의 노베오",
+      "image": "https://images.adsttc.com/media/images/6adf/8e64/3271/8400/01d0/ecc6/large_jpg/RH3333-0002.jpg?1793035917",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "보르도 바생 아 플로 복합개발지구에 **13,688㎡**로 들어선 4개 동 단지다. 서비스드 레지던스와 117세대(공공 분양 21·사회 임대 37 포함), 주차 128면으로 구성된다. 강재 구조, 2026년 완공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187563/noveo-taillandier-architectes-associes"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "주택 · 캐나다",
+      "title": "좁은 필지에 집·스튜디오·임대주택 — SUPRBLK의 터키석 집",
+      "image": "https://images.adsttc.com/media/images/6ae0/b3f7/3271/8400/01d0/f115/large_jpg/SUPRBLK_-_TURQUOISE_-_21_Doublespace.jpg?1793111165",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "캐나다 핼리팩스의 **3,530ft²** 주택이다. 가족 주거와 건축 스튜디오, 독립 아파트를 맞배지붕 두 볼륨과 여러 중정으로 엮어 좁은 대지에서 밀도와 채광, 사생활을 함께 확보했다. 2024년 완공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187611/the-turquoise-house-suprblk-studio"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "주택 · 브라질",
+      "title": "도시를 벗어난 은신처 — 히카르두 구스망의 하라스 라리사 주택",
+      "image": "https://images.adsttc.com/media/images/6adf/6660/3271/8400/01d0/eaaa/large_jpg/_08A3765_copyright_manuel_sa.jpg?1793025724",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "상파울루 인근 몬치모르의 하라스 라리사 단지에 들어선 **440㎡** 주택이다. 도시 생활에서 벗어난 은신처를 목표로 집을 주변 농촌 경관과 긴밀하게 이었다. 2026년 완공."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187541/haras-larissa-residence-ricardo-gusmao-arquitetos"
+          }
+        ]
+      },
+      "src_date": "2026-10-27",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "건축법 개정 · 기고",
+      "title": "건축물 안전·품질 확보는 업무범위와 책임 명확화부터 — 한창섭 건축연구원장",
+      "body": [
+        "설계·시공·감리의 업무범위와 책임 한계가 불분명해 결함·사고 때마다 분쟁이 반복된다고 지적하고 5가지 개선을 제안했다. 상주·비상주 감리의 법적 구분, 감리자의 시정·중지 실효 수단, **책임의 비례성** 확보가 골자다.",
+        "상주감리와 달리 비상주감리는 기초·주요구조·철근배근·타설 전 점검 등 핵심 단계에 책임을 모아야 한다는 설명이다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21305"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "건축법 개정 · 특별칼럼",
+      "title": "건축법 전부개정, 조문 정비를 넘어 중심성을 확립해야 — 홍사원 법제위원장",
+      "body": [
+        "대한건축사협회 법제위원장은 건축사법·건설산업기본법·건설기술 진흥법 등과 중첩된 기준과 책임 문제를 짚었다. 기본 원칙은 안정적으로, 기술기준은 유연하게 두되 동등성능 대안 인정과 **빌딩코드 체계**를 검토하자는 제안이다.",
+        "성능기반 설계는 검증방법·승인절차·심사 일관성이 신뢰를 얻은 뒤 확대해야 한다고 밝혔다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21307"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "건축교육 · 경남",
+      "title": "경남 중·고교 건축동아리 공모전 대상 — 남지중 '세 개의 벽, 하나의 거리'",
+      "image": "https://cdn.ancnews.kr/news/photo/202610/21315_24147_911.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "경상남도건축사회가 '제2회 중·고등학생 건축 동아리(개인) 공모전' 수상작을 발표했다. 대상(경남교육감상)은 남지중 김동후·김환하 학생이 안도 다다오의 **스미요시 나가야 주택(1976)**을 재해석한 작품이다.",
+        "A2 패널 1차 심사 후 특선 이상을 대상으로 모형 2차 심사를 했다. 수상작은 **11월 1일**까지 열리는 2026 경남건축문화제에서 전시된다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21315"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "수상"
+    },
+    {
+      "kicker": "건축문화제 · 경북",
+      "title": "포항건축문화제 10월 30일~11월 1일 — 경북·포항 건축문화상 수상작 전시",
+      "body": [
+        "포항시 주최, 포항지역건축사회 주관으로 **포항중앙상가**에서 열린다. 2026 경상북도 건축문화상과 포항시 건축문화상 수상작을 전시하고 체험행사를 운영한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21317"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "인터뷰 · 양산",
+      "title": "진태유 건축사 “사무소 규모·경력 관계없이 역량 발휘할 수 있어야”",
+      "body": [
+        "양산에서 매시건축사사무소를 운영하는 진 건축사는 공공건축이 주민 일상과 직결된 만큼 지역 수요와 대지 특성이 설계를 이끌어야 한다고 말했다. 설계 전문성이 저평가되는 현실에서 **적정 설계비**와 안정적 업무환경, 소규모·신진 사무소에도 열린 제도를 요구했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21310"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 서울",
+      "title": "경복궁 국가유산 문화상품관 조성 설계공모 — 연면적 1,650㎡, 공사비 102억",
+      "body": [
+        "서울 종로구 세종로 1-57 일대에 제2종근린생활시설 **1,650㎡**를 짓는 제안설계공모다. 예정 설계비 **7억원**, 공사비 **102억원**, 심사위원 7인이다.",
+        "참가등록 마감 **11월 5일**, 결과 발표 **12월 15일**."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19041"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경주",
+      "title": "원스톱 문화복합센터 조성 건축설계 일반공모 — 연면적 2,379㎡, 공사비 123억",
+      "body": [
+        "경주시 현곡면 금장리 일대에 **2,379㎡** 규모로 짓는 일반설계공모다. 예정 설계비 **4.1억원**, 공사비 **123억원**이며 결과 발표는 **2027년 1월 4일**이다. 참가등록 일정은 목록과 상세가 달라 공고문 확인이 필요하다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19040"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 의성",
+      "title": "의성읍 농촌중심지활성화사업 설계 제안공모 — 연면적 1,479㎡, 공사비 86.6억",
+      "body": [
+        "의성읍 중리리 일대에 제1종근린생활시설 **1,479㎡**를 짓는 제안설계공모다. 예정 설계비 **4.1억원**, 공사비 **86.6억원**, 심사위원 9인이며 참가등록 마감 **11월 6일**, 결과 발표 **12월 22일**이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19062"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "제이콥스·PCL JV, 샌프란시스코 10억 달러 하수처리 고도화 수주",
+      "body": "남동 처리장 영양염류 저감 사업을 점진적 설계시공(progressive design-build)으로 맡는다. 시 하수의 약 80%를 처리하는 시설이라 가동을 멈추지 않고 공사한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/jacobs-pcl-jv-award-san-francisco-wastewater-upgrade/873095/"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "캐터필러 3분기 매출 207억 달러, 데이터센터가 견인",
+      "body": "매출 17%·이익 43% 증가, 수주잔고 780억 달러. 발전 부문 매출은 데이터센터 수요로 30% 늘었다. 관세 비용은 3분기 6억 달러, 연간 약 22억 달러로 예상.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/caterpillar-posts-highest-sales-quarter-ever-data-centers-q3-2026/873294/"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "굴착기 자율화 베드록 로보틱스, 6억 달러 시리즈 C",
+      "body": "기업가치 41억 달러, 누적 투자 약 10억 달러. 2025년 이후 고객 규모가 2배 넘게 늘었고, 굴착기에서 혼합 장비 군으로 확장할 계획이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/bedrock-robotics-digs-up-new-funding/873065/"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "그래나이트 건설 수주잔고 75억 달러 사상 최고",
+      "body": "3분기 매출 17.7억 달러(+23%). 데이터센터·배터리 등 미션크리티컬 수주잔고는 3.31억 달러다. 연방 지상교통 재승인은 아직 안 돼 IIJA 수준 자금이 이어지는 중이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/granite-earnings-infrastructure-spending-record-backlog/873282/"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "김천건축문화제 10월 30~31일 김천문화예술회관",
+      "body": "김천시 주최, 김천지역건축사회 주관으로 건축사 작품전·특별전·학생공모전 전시를 연다.",
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21316"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "영광중학교 공간 재구조화 설계공모 — 연면적 2,873㎡, 공사비 51억",
+      "body": "경북 소재 학교 공간 재구조화 사업. 예정 설계비 2.5억원이며 참가등록은 11월 5일 예정이다.",
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19061"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "설계공모"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "oxford-street-pedestrian",
+      "tag": "URBAN",
+      "title": "차 없는 옥스퍼드 스트리트, 1km 개통",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:Pedestrian day on Oxford Street.jpg"
+      ],
+      "photo_query": "oxford street london",
+      "slides": [
+        {
+          "heading": "차 없는\n옥스퍼드 스트리트",
+          "body": "런던 1km 보행화 1단계, 10월 26일 개통"
+        },
+        {
+          "heading": "WHAT",
+          "body": "오처드 스트리트~그레이트 포틀랜드 스트리트 약 1km. 개인 차량, 버스, 택시, 자전거, 킥보드, 페디캡 모두 진입이 제한된다."
+        },
+        {
+          "heading": "TIMELINE",
+          "body": "2016년 제안, 2018년 협의 후 무산, 2024년 재개, 2026년 2월 최종 승인. 영구 정비는 2027년 후반 착공, 2028년 완료 전망."
+        },
+        {
+          "heading": "TEAM",
+          "body": "조경·도시설계 사무소 East가 이끌고 Gehl, Publica, J&L Gibbons, Etude, NRP가 참여한다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "호킨스\\브라운이 마블 아치에서 토트넘 코트 로드까지 이어지는 장기 비전을 수립 중이다."
+        }
+      ]
+    },
+    {
+      "slug": "building-act-overhaul",
+      "tag": "POLICY",
+      "title": "건축법, 179개 조문 10개 장으로 새로 짠다",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "seoul city buildings",
+      "slides": [
+        {
+          "heading": "건축법\n전부개정 논의",
+          "body": "1962년 제정 이후 처음 그리는 전면 재편안"
+        },
+        {
+          "heading": "WHY",
+          "body": "부분 개정이 쌓여 규제 중심의 경직된 체계가 됐다는 문제의식. 10월 26일 국회토론회가 열렸다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "179개 조문을 제1장 총칙부터 제10장 벌칙까지 10개 장으로 재편하는 안이 제시됐다."
+        },
+        {
+          "heading": "SHIFT",
+          "body": "사양 중심에서 성능 기반 기준으로, 용도분류는 단순화, 허가 사전검토에는 AI 보조심사를 도입하자는 방향."
+        },
+        {
+          "heading": "RESPONSIBILITY",
+          "body": "설계·시공·감리의 역할과 책임을 명확히 하자는 요구가 건축계 기고에서 잇따랐다."
+        }
+      ]
+    },
+    {
+      "slug": "arouca-monastery-hotel",
+      "tag": "PROJECT",
+      "title": "수도원이 5성급 호텔로, 아루카",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "portugal monastery cloister",
+      "slides": [
+        {
+          "heading": "수도원이\n호텔이 되다",
+          "body": "MiMool의 MS 컬렉션 아루카, 포르투갈"
+        },
+        {
+          "heading": "SITE",
+          "body": "옛 산타 마리아 수도원 일부. 1910년부터 국가기념물로 지정된 건물이다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "6,698㎡ 규모의 5성급 호텔로 2025년 완공됐다."
+        },
+        {
+          "heading": "PROGRAM",
+          "body": "국가 유산 활용 프로그램 REVIVE의 일환으로 추진됐다."
+        },
+        {
+          "heading": "IDEA",
+          "body": "건축·기억·경관이 새로운 용도의 서사를 이루는 '역사적 연속성의 실천'이라고 설계팀은 설명한다."
+        }
+      ]
+    }
+  ]
+}
