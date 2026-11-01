@@ -1,0 +1,351 @@
+{
+  "vol": "VOL.01  NO.077",
+  "editor": "HUEY",
+  "outlets": [
+    "ArchDaily",
+    "Construction Dive",
+    "Competitions.archi",
+    "건축사신문",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "로마 유구 위에 얹은 연구센터",
+      "desc": "카무크 쿠오, 40cm 매트기초",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "건축법 전부개정, 해석의 일관성",
+      "desc": "판단 근거를 세움터에 이력으로",
+      "label": "POLICY"
+    },
+    {
+      "title": "Oak Moon Pavilion 공모",
+      "desc": "총상금 8,000유로, 2027.3.1 제출",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "연준 10월 금리 동결",
+      "desc": "3.75~4.00%, 다세대 거래 위축",
+      "label": "MARKET"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 유산 위의 건축",
+    "lede": "로마 유적을 파지 않고 그 위에 올린 연구센터 — 카무크 쿠오의 아우구스타 라우리카 고고학 센터",
+    "lede_em": "유적을 파지 않고 그 위에 올린",
+    "image": "",
+    "image_label": "건축사신문",
+    "caption": "",
+    "body": [
+      "스위스 아우구스타 라우리카에 **카무크 쿠오 건축사무소(Karamuk Kuo Architects)**가 설계한 고고학 연구·수장 센터는 흩어져 있던 발굴·복원·연구·보관 기능을 **하나의 철골 구조 건물**에 모았다.",
+      "핵심은 지반을 건드리지 않는 방식이다. 아래에 묻힌 로마 유구를 발굴하지 않고 보존하기로 하면서, 건물은 **40cm 두께의 철근콘크리트 매트기초**를 성토층 위에 얹는 방식으로 지반 개입을 최소화했다. 수평력은 기초판과 지반 사이의 **마찰**로 전달된다.",
+      "기사는 이를 완전히 가역적인 구조가 아니라 피해를 줄인 절충안으로 평가한다. 그럼에도 이 사례는 이 일대 '유적 위 건축' 지침의 주요 참고 사례가 되었다고 전한다.",
+      "[도시와 건축이야기] 연재의 한 편으로, 정선아 건축디자이너가 기고했다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21311"
+        }
+      ]
+    },
+    "src_date": "2026-10-30",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "건축법 전부개정, '레시피'만 고쳐서는 같은 맛이 안 난다 — 같은 도면, 지자체마다 다른 판단",
+    "body": [
+      "충남건축사회 조흥태 건축사(바움 건축사사무소)는 같은 조문과 도면이라도 지자체나 담당자에 따라 판단이 달라져 건축주의 사업 일정과 금융비용에 부담이 생긴다고 짚었다."
+    ],
+    "facts": [
+      "원인: 담당 공무원 개인이 아니라 **모호한 조문**, 판단 근거의 **인계 부재**, 감사 부담에 따른 보수적 해석",
+      "제안 1: 사전검토 의견과 근거를 **세움터에 이력으로 기록**",
+      "제안 2: 반복되는 해석 질의는 **사례집으로 공개**",
+      "설계자: 도서(도면) 품질을 스스로 높여야 한다는 점도 강조"
+    ],
+    "body_after": [
+      "필자는 건축법 전부개정 논의에 공감하면서도, 조문 정리만으로는 일관성을 보장할 수 없고 판단 근거가 기록되고 이어지는 행정이 함께 가야 한다고 말한다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21308"
+        }
+      ]
+    },
+    "src_date": "2026-10-30",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "학교 · 복원",
+      "title": "바르셀로나 예수회 학교의 복원 — 아키도스의 에스콜라 산트 이그나시",
+      "image": "https://images.adsttc.com/media/images/6ae3/7638/495d/0300/01a7/652a/newsletter/archdaily_SantIgnasi_1.jpg?1793291853",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스페인 바르셀로나 사리아 지구의 **에스콜라 산트 이그나시-예수이테스 데 사리아**를 **아키도스(aquidos)**가 설계했다. 연면적 **3,505㎡**, 2024년 준공이며 교육시설 복원 프로젝트로 분류된다.",
+        "설계는 오리올 마린 이 고르디, 카를레스 바르세나 로익, 알레익스 자네 카날스, 누리아 가르시아 이 소토가 맡았고 사진은 폴 빌라도무스가 촬영했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187783/escola-sant-ignasi-jesuites-de-sarria-aquidos"
+          }
+        ]
+      },
+      "src_date": "2026-11-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "산업유산 · 재활용",
+      "title": "옛 무기공장 위의 가상 스튜디오 — 라코루냐 시다드 다스 TIC",
+      "image": "https://images.adsttc.com/media/images/6ace/96cc/b2c4/c300/0178/ee97/newsletter/JR_CEI_05.jpg?1791923960",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "스페인 라코루냐의 옛 무기공장 부지에 **디아스 이 디아스 아르키텍토스**가 **2,560㎡** 규모의 가상 스튜디오를 지어 2025년 완공했다.",
+        "한쪽은 디지털 콘텐츠 제작을 위한 **폐쇄된 상자**, 다른 한쪽은 대지의 풍경과 산업유산의 기억을 잇는 **열린 볼륨**으로 상반된 두 성격을 한 건물에 담았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187911/virtual-studio-at-the-cidade-das-tic-a-coruna-arms-factory-diaz-y-diaz-architects"
+          }
+        ]
+      },
+      "src_date": "2026-10-31",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "호텔 · 증축",
+      "title": "콘데사의 10실 부티크 호텔 — 멕시코시티 카사 쿠엔카",
+      "image": "https://images.adsttc.com/media/images/6aa2/e0fa/05b6/9900/01b5/3aab/medium_jpg/20CASA_CUENCA-_DIEGO_PADILLA_MAGALLANES.jpg?1789059409",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "멕시코시티 콘데사 지구의 **10실 부티크 호텔**. 타예르 이반 에스케다, 갈라 산체스-레네로 에스투디오, 마라 산체스-레네로가 **712㎡** 규모로 개조·증축해 2024년 완공했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187900/hotel-casa-cuenca-taller-ivan-esqueda-plus-gala-sanchez-renero-estudio-plus-mara-sanchez-renero"
+          }
+        ]
+      },
+      "src_date": "2026-11-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "복합 · 박물관",
+      "title": "13동 콘크리트 단지에 자전거 박물관을 — 코니아 광장 주택",
+      "image": "https://images.adsttc.com/media/images/6ae0/af72/db5c/2001/882d/0aa3/newsletter/konya-square-houses-and-bicycle-museum-extension-yalin-architectural-design_25.jpg?1793109879",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "튀르키예 코니아의 **2005년 준공 철근콘크리트 13개 동** 단지에 얄린 건축디자인이 자전거 박물관 증축을 더했다(**7,500㎡**, 2026년). 설계는 1955년까지 이 땅에 있던 전통 코니아 주택과 마을 조직을 참고했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187508/konya-square-houses-and-bicycle-museum-extension-yalin-architectural-design"
+          }
+        ]
+      },
+      "src_date": "2026-11-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "주택 · 일본",
+      "title": "풍경을 보는 대신 몸으로 반응하는 집 — 시마네 야카미의 집",
+      "image": "https://images.adsttc.com/media/images/6ac6/49e3/07c3/d100/017f/dd09/newsletter/01_House-in-YAKAMI_Main_Yoshikatsu-Iriguchi.jpg?1791379963",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "일본 시마네현 오난초, 주고쿠 산지에 둘러싸인 **113㎡** 주택. 엔터아키(이리구치 요시카쓰)는 건축이 풍경을 조망으로 소비하지 않고 **신체 경험**으로 응답할 수 있는지를 탐구했다. 주재료는 목재·유리·콘크리트다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1186481/house-in-yakami-enter-archi"
+          }
+        ]
+      },
+      "src_date": "2026-11-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "리테일 · 콜롬비아",
+      "title": "가운데를 비운 U자 어린이 매장 — 메데인 마네라",
+      "image": "https://images.adsttc.com/media/images/6adb/8d91/3271/8400/01d0/e5b6/newsletter/04_U-shaped_store_Medellin_Colombia_MANERA__Juan_Camilo_Roa.jpg?1792773553",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "콜롬비아 메데인의 **170㎡** 어린이 매장. 마네라(마리아 페르난다 세르나, 빅토르 마레샬)가 소매 공간과 무대 연출, 건축의 관계를 탐구했다. 중앙을 비워 유연하게 쓰는 U자 배치가 핵심이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187442/u-shaped-store-manera"
+          }
+        ]
+      },
+      "src_date": "2026-11-01",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 아이디어",
+      "title": "마이크로 공공건축으로 '공유'를 다시 묻는다 — Volume Zero 'Unbox 2026'",
+      "image": "",
+      "image_label": "COMPETITIONS.ARCHI",
+      "body": [
+        "Volume Zero의 30번째 국제 건축 공모. 고정 대지 없이 **마이크로 건축 공공공간**의 개념 설계를 받으며, 공간을 어떻게 나누고 지속하고 경험할지 묻는다. 한 공모 목록에는 상금이 **1만 달러**로 소개돼 있다.",
+        "등록 마감 **11월 6일**, 작품 제출 **12월 3일**, 결과 발표 2027년 2월 5일."
+      ],
+      "source": {
+        "outlet": "Competitions.archi",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://competitions.archi/competition/call-for-ideas-unbox-2026-architecture-competition/"
+          }
+        ]
+      },
+      "src_date": "2026-10-31",
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 제안",
+      "title": "HIP 1층 치과 외래 재배치 공사 설계공모 — 연면적 723㎡, 공사비 35.1억",
+      "body": [
+        "경기 성남시 분당구 정자동 제2종근린생활시설 **723㎡**의 치과 외래 재배치 건축·기계설비 설계. 방식은 제안설계공모, 예정 설계비 **2.1억원**, 예정 공사비 **35.1억원**이다.",
+        "공고일 10월 28일, 참가등록 시작 11월 5일."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공고",
+            "url": "https://jootek.com/folio/contests/19037"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "지역 건축사회",
+      "title": "경북건축사회·공인중개사협회 경북도회 MOU — 건축물대장·위반건축물 확인 지원",
+      "body": [
+        "경상북도건축사회는 10월 13일 한국공인중개사협회 경북도회와 업무협약을 맺었다. 안심 전세계약 지원과 건축 관련 분쟁 예방이 목표다.",
+        "건축·부동산 정보 교류, 공동 교육·세미나·캠페인을 열고, 거래 시 **건축물대장과 위반건축물 여부** 확인을 지원할 계획이다."
+      ],
+      "image": "https://cdn.ancnews.kr/news/photo/202610/21314_24146_71.jpg",
+      "image_label": "건축사신문",
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21314"
+          }
+        ]
+      },
+      "src_date": "2026-10-30",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "연준, 10월 금리 3.75~4.00% 동결 — 2명은 인상 주장",
+      "body": "워시 의장은 '물가가 여전히 너무 높다'고 밝혔다. 다세대 시장은 매도·매수 호가 차이로 연말까지 거래가 적을 전망이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/federal-reserve-interest-rate-hike-multifamily-valuations/873165/"
+          }
+        ]
+      },
+      "src_date": "2026-10-29",
+      "topic": "제도규제"
+    },
+    {
+      "title": "캐리어, 포트워스에 6억 달러 칠러 생산 캠퍼스",
+      "body": "연면적 100만 평방피트 이상, 2027년 개소 예정. 데이터센터·헬스케어 수요에 대응하며 신규 일자리 1,500개를 내세운다.",
+      "image": "",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/carrier-600m-ft-worth-manufacturing-campus-HVAC/873003/"
+          }
+        ]
+      },
+      "src_date": "2026-10-28",
+      "topic": "프로젝트"
+    }
+  ],
+  "counts": {
+    "total": 13,
+    "intl": 11,
+    "kr": 2
+  },
+  "cardnews": [
+    {
+      "slug": "augusta-raurica-karamuk-kuo",
+      "tag": "HERITAGE",
+      "title": "로마 유적을 파지 않고 그 위에 올린 연구센터",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:2014-Augst-Augusta-Raurica-Museum.jpg"
+      ],
+      "photo_query": "roman ruins archaeology switzerland",
+      "slides": [
+        {
+          "heading": "유적을 파지 않고\n그 위에 올렸다",
+          "body": "카무크 쿠오의 아우구스타 라우리카 고고학 센터"
+        },
+        {
+          "heading": "WHAT",
+          "body": "발굴·복원·연구·보관 기능이 흩어져 있던 것을 하나의 철골 구조 건물에 모았다."
+        },
+        {
+          "heading": "FOUNDATION",
+          "body": "아래의 로마 유구는 발굴하지 않고 보존한다. 40cm 두께의 철근콘크리트 매트기초를 성토층 위에 얹어 지반 개입을 줄였다."
+        },
+        {
+          "heading": "FORCE",
+          "body": "수평력은 기초판과 지반 사이의 마찰로 전달된다. 말뚝으로 유적을 뚫지 않는 구조다."
+        },
+        {
+          "heading": "VERDICT",
+          "body": "완전히 가역적이진 않은 절충안이지만, 이 일대 '유적 위 건축' 지침의 주요 참고 사례가 되었다."
+        }
+      ]
+    }
+  ]
+}
