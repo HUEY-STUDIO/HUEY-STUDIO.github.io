@@ -1,0 +1,538 @@
+{
+ "vol": "VOL.01  NO.079",
+ "editor": "HUEY",
+ "counts": {
+  "total": 20,
+  "intl": 14,
+  "kr": 6
+ },
+ "outlets": [
+  "ArchDaily",
+  "Construction Dive",
+  "건축사신문",
+  "주택폴리오"
+ ],
+ "teasers": [
+  {
+   "title": "샤르자 디자인 센터, 다짐흙으로 2029년 개관",
+   "desc": "마우리시오 로차 설계, 7개 전문 실험실",
+   "label": "PROJECT"
+  },
+  {
+   "title": "락아톤&바살, 2027 샬롯 페리앙상",
+   "desc": "쿠마 켄고는 앙드레 퓌트만 평생공로상",
+   "label": "AWARDS"
+  },
+  {
+   "title": "미 9월 비주거 건설지출 6개월 연속 증가",
+   "desc": "데이터센터 +8.6%, 사실상 유일한 동력",
+   "label": "MARKET"
+  },
+  {
+   "title": "대구시 건축·주택·정비 통합심의 확대",
+   "desc": "11월 1일 시행, 처리기한 명확화",
+   "label": "POLICY"
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 소재·공법",
+  "lede": "모래 도시에서 흙으로 짓는 디자인 연구소 — 샤르자 디자인 센터, 다짐흙 건물로 2029년 개관",
+  "lede_em": "흙으로 짓는 디자인 연구소",
+  "image": "https://images.adsttc.com/media/images/6ae9/ac63/62dc/0e01/8725/798b/medium_jpg/sharjah-design-centre-unveils-plans-for-rammed-earth-building-opening-in-2029_1.jpg?1793698997",
+  "image_label": "ARCHDAILY",
+  "caption": "샤르자 디자인 센터 조감 ⓒ Taller de Arquitectura – Mauricio Rocha (ArchDaily 제공)",
+  "body": [
+   "아랍에미리트 샤르자 크리에이티브 쿼터 안에 들어서는 **샤르자 디자인 센터(SDC)** 의 설계안이 공개됐다. 디자인·소재 연구·프로토타이핑·생산을 한 지붕 아래 묶는 기관으로, 설계는 멕시코의 **Taller de Arquitectura – Mauricio Rocha**가 맡고 건축가 Daniel Rosselló가 협업했다. 센터와 크리에이티브 쿼터 전체의 개관 목표는 **2029년**이다.",
+   "건물의 핵심은 **다짐흙(rammed earth)** 공법이다. 현지 재료와 전통 건축 원리, 현대 기술을 결합해 환경 영향을 줄이겠다는 구상이다. 센터가 연구 대상으로 삼는 재료도 소금·염수·석회암·모래·점토에서 야자·조개껍질·건설 폐기물·도자기 폐기물·양모·균사체까지 폭넓다.",
+   "프로그램은 작업 중심이다. 섬유·래피드 프로토타이핑·유리·도자·주얼리·금속·목공 분야의 **전문 실험실 7곳**을 두고, 재료 도서관과 디지털 아카이브, 전시 공간, 코워킹 공간, 개인 스튜디오, 소매 공간이 더해진다.",
+   "흙을 구조와 마감, 연구 주제로 동시에 쓰는 시도라는 점이 눈에 띈다. 다만 기사에는 연면적이 밝혀져 있지 않다. 사막 기후권에서 흙 벽체의 열성능과 시공 품질을 어떻게 확보할지가 준공 이후 관전 포인트다."
+  ],
+  "source": {
+   "outlet": "ArchDaily",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.archdaily.com/1187994/sharjah-design-centre-unveils-plans-for-rammed-earth-building-opening-in-2029"
+    }
+   ]
+  },
+  "src_date": "2026-11-03",
+  "topic": "프로젝트"
+ },
+ "side": {
+  "label": "실무 직결 · 제도/규제",
+  "image": "",
+  "image_label": "건축사신문",
+  "title": "'공장인허가 사전진단' 고도화 — 모바일로 규제·인허가 요건 확인",
+  "body": [
+   "국토교통부와 산업통상부가 공장 설립 후보지의 법령·규제를 분석해 인허가 가능 여부를 미리 진단하는 서비스를 고도화하고 스마트폰 기반 서비스를 새로 도입했다. 국토부 브이월드·K-GeoP와 산업부 공장설립온라인지원시스템(팩토리온)을 연계했다."
+  ],
+  "facts": [
+   "기능: 3차원 공간정보로 건물 배치·토공량·경사도, 건폐율·용적률에 따른 **허가 가능 면적** 시뮬레이션",
+   "입지 추천: 업종·희망 지역·부지 면적·지목·공시지가를 입력하면 후보지와 상세 주소 제시",
+   "모바일: 팩토리온 모바일 웹(factoryon.go.kr)에서 규제·인허가 정보 조회 — 상세 분석은 **PC 전용**",
+   "운영: 2025년 3월부터 국민·지자체 공무원 대상"
+  ],
+  "body_after": [
+   "국토부 이대섭 국토정보정책관은 향후 다른 건축·토지 인허가 분야로 확대할 계획이라고 밝혔다. 공장 부지 검토 단계에서 대지 분석 업무가 일부 대체될 수 있어 설계 실무에서도 지켜볼 서비스다."
+  ],
+  "source": {
+   "outlet": "건축사신문",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.ancnews.kr/news/articleView.html?idxno=21355"
+    }
+   ]
+  },
+  "src_date": "2026-11-03",
+  "topic": "제도규제"
+ },
+ "intl_feature": [
+  {
+   "kicker": "리뷰 · 도시와 해안",
+   "title": "지붕 위를 걷다 — 올림픽 요트경기를 위해 지은 탈린 린나할",
+   "image": "https://images.adsttc.com/media/images/6ae4/b738/a04f/d001/89cd/426e/medium_jpg/a-walk-on-the-roof-linnahall-and-tallinns-shifting-shoreline_17.jpg?1793374067",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "에스토니아 탈린의 **린나할**은 석회암과 콘크리트로 지은 낮고 긴 건물이다. 중세 도시의 스카이라인 아래에 머물도록 설계돼 바다에서도 교회 첨탑이 보인다. 지붕은 시민을 위한 광장이며 계단식 테라스가 작은 부두와 핀란드만으로 이어진다.",
+    "1980년 여름 **V. I. 레닌 문화체육궁전**이라는 이름으로 개관했다. 해안선이 없는 모스크바를 대신해 **모스크바 올림픽** 요트 경기를 치르기 위해서였고, 탈린의 올림픽 사업에는 120개 이상의 프로젝트가 포함됐다. 지하에는 4,200명 규모 원형극장과 6,000㎡ 로비, 아이스홀이 있다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187476/a-walk-on-the-roof-linnahall-and-tallinns-shifting-shoreline"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "도시재생"
+  },
+  {
+   "kicker": "AWARDS · 프랑스",
+   "title": "락아톤&바살, 2027 샬롯 페리앙상 수상 — 쿠마 켄고는 평생공로상",
+   "image": "https://images.adsttc.com/media/images/6ae9/5aaf/d5ab/1b01/886e/58d3/medium_jpg/lacaton-and-vassal-receives-the-2027-charlotte-perriand-award_4.jpg?1793678069",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "프랑스의 **락아톤&바살**(안 락아톤·장필리프 바살)이 제8회 **2027 샬롯 페리앙상**을 받는다. 크레아퇴르 디자인 어워즈(CDA) 주최의 동료 투표 방식이며, 기존 건물을 고쳐 주거 환경을 개선하면서 자원과 건축 유산을 지킨 점이 평가됐다.",
+    "시상식은 **2027년 1월 16일** 파리 샹그릴라 호텔에서 열리고, 쿠마 켄고는 앙드레 퓌트만 평생공로상을 받는다. 두 사람은 1989년 사무소를 설립했으며 팔레 드 도쿄 개조(2002·2012), 낭트 건축학교(2009), 보르도 그랑 파르크 주거 개조로 알려져 있다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187989/lacaton-and-vassal-receives-the-2027-charlotte-perriand-award"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "수상"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "교육 · 스위스",
+   "title": "투어 강변의 새 주립 고등학교 — 군츠&퀸츨레의 바트빌 캔톤 학교",
+   "image": "https://images.adsttc.com/media/images/6ae3/609a/3a16/4b00/01b5/df59/medium_jpg/178_G_K_WAT_034_FedericoFarinatti.jpg?1793286372",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "스위스 바트빌의 투어(Thur) 강변에 들어선 **연면적 14,730㎡**의 새 주립 고등학교다. 강 건너 직업·평생교육센터와 함께 교육 캠퍼스를 이룬다. 설계는 Gunz & Künzle Architekt*innen, 2026년 완공. 목재·유리·강재가 주재료로 표기됐다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187768/new-cantonal-school-wattwil-gunz-and-kunzle-architekt-star-innen"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "임시 건축 · 요르단",
+   "title": "입방체로 만든 가벼운 시장 — 암만 디자인 위크의 아르라흐바 마켓",
+   "image": "https://images.adsttc.com/media/images/6ae3/1ebf/3271/8400/01d0/faf7/medium_jpg/03_Ar-Rahbah_Market_Mohanad_Jihad.jpg?1793269506",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "Laith Matarweh Studio가 2026 암만 디자인 위크를 위해 설계한 **850㎡** 임시 시장 구조물. 암만 도시 조직의 입방체 기하를 추상화해 가볍고 투과성 있는 틀로 만들었고, 이동을 매개하며 사회·상업 활동을 담는 열린 공간으로 구상했다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187738/ar-rahbah-market-at-amman-design-week-2026-laith-matarweh-studio-for-architecture"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "주거 · 그리스",
+   "title": "2011년의 스케치를 2026년에 짓다 — MOLD 아키텍츠의 M 레지던스",
+   "image": "https://images.adsttc.com/media/images/6ae3/0cae/3271/8400/01d0/faa9/newsletter/2.jpg?1793264898",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "MOLD Architects가 2011년 초기 작업으로 구상한 안을 10여 년 뒤 그대로 실현한 **270㎡** 콘크리트 주택. 담당 건축가는 Iliana Kerestetzi, 2026년 완공이다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187735/mres-mold-architects"
+     }
+    ]
+   },
+   "src_date": "2026-11-02",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "설계공모 · 미국",
+   "title": "AIA 초청 '뉴욕 워터폴 마켓' 공모 — 로체스터 하이폴스 협곡의 시민 시장",
+   "image": "https://competitions.archi/wp-content/uploads/2026/10/bnaia-750x750.png",
+   "image_label": "COMPETITIONS.ARCHI",
+   "body": [
+    "로체스터 하이폴스 주립공원 안 제너시강 협곡 주변에 새로운 **시민 공간(시장 시설)** 을 제안하는 공모. 상금 **1만 달러**, 접수 마감 **12월 10일**."
+   ],
+   "source": {
+    "outlet": "Competitions.archi",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://competitions.archi/competition/aia-invites-new-york-waterfall-market-open-to-all/"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "설계공모"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "제도 · 대구",
+   "title": "대구시 건축·주택·정비 통합심의 11월 1일 확대 시행 — 대구시건축사회 환영 성명",
+   "image": "",
+   "image_label": "건축사신문",
+   "body": [
+    "대구시가 11월 1일부터 건축·주택·정비사업 **통합심의**를 확대 시행한다. 대구광역시건축사회는 여러 위원회가 같은 자리에서 도면을 보며 쟁점을 조율하면 위원회마다 의견이 엇갈려 도면을 고쳐 재상정하던 일이 크게 줄 것이라고 환영했다.",
+    "구조·설비·에너지 등 전문분야는 세부설계가 나오는 시기에 맞춰 심의하고, 안건 상정부터 심의 개최까지의 처리기한도 명확히 했다. 건축사회는 설계 일정의 예측 가능성을 높이는 조치로 평가했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21343"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "실무 · AI",
+   "title": "AI, 도구 넘어 업무 시스템으로 — 건축사사무소 활용 전략",
+   "image": "",
+   "image_label": "건축사신문",
+   "body": [
+    "10월 29일 코엑스 건축사 실무교육(약 300명)에서 허선미 건축사(아르키비아)는 AI를 모델·프로그램 사용법이 아니라 사무소의 업무 기준·검증 절차·판단 기록을 먼저 정리하는 문제로 봐야 한다고 강조했다. 업무 분석→기준 문서화→반복 절차 자동화→검증·개선의 **4단계**를 제시했다.",
+    "법규 검토처럼 해석이 중요한 분야는 AI가 근거를 남기게 하고 건축사가 직접 확인해야 한다. 2024년 실태조사상 **4명 이하 사무소가 78.7%** 라 비용과 구축 시간을 따져 기성 시스템을 구독하는 것도 합리적이라고 짚었다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21323"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "법률가이드",
+   "title": "하자가 생기면 감리자 책임? — '기대가능성'이 기준",
+   "image": "",
+   "image_label": "건축사신문",
+   "body": [
+    "감리자의 책임은 하자가 생기면 무조건 지는 무과실 책임이 아니다. 판례(대법원 2017. 12. 28. 선고 2014다229023 등)는 감리자의 기술 수준·경험, 하자의 위치·내용, 공사 규모에 비추어 **하자를 발견할 수 있었는지(기대가능성)** 로 판단한다.",
+    "연약지반을 고려하지 않고 인접 터파기를 강행해 건물이 기운 사안에서 인천지법(2003가합2693)은 갯벌층임을 알고도 적정한 감리를 하지 않은 감리자의 배상 책임을 시공사와 함께 인정했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21336"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "목조건축 포럼",
+   "title": "쿠마 켄고의 숲의 둥지 '모리노스' — 기후현 삼림문화 아카데미",
+   "image": "",
+   "image_label": "건축사신문",
+   "body": [
+    "기후현 삼림문화 아카데미의 삼림종합교육센터 '**모리노스(morinos)**'는 '숲의 둥지'라는 뜻의 목조 건물이다. 거대한 구조재는 부지 내 숲에서 벌채했고, 일부 내벽은 현지 장인이 기후현 각지의 흙을 배합해 마감했다.",
+    "전면 처마를 받치는 V자 기둥은 학생들이 연습림에서 벤 **100년 이상 된 편백**(지름 약 30~40cm)을 껍질만 벗겨 세웠고, 기둥 뒷면에 배할을 넣어 건조 균열이 한 방향으로만 나게 유도했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21333"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "국제교류",
+   "title": "아시아 신진건축사 포럼 — 대한건축사협회, 상하이서 국내 신진건축사 격려",
+   "image": "",
+   "image_label": "건축사신문",
+   "body": [
+    "김재록 회장은 10월 23일 상하이 퉁지대학교에서 열린 ARCASIA 주최 '아시아 신진건축사 포럼'에서 국제무대에 작품을 선보인 국내 신진건축사들을 격려했다. 협회는 올봄 'Architecture Asia' 한국 신진건축사 특별호를 발간했고 이번 포럼은 국제위원회가 1년여 추진한 교류의 결과물이다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21350"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "설계공모 · 부산",
+   "title": "부산사하경찰서 신축사업 건축·통신·소방 설계공모 — 연면적 13,189㎡, 공사비 339억",
+   "image": "",
+   "image_label": "주택폴리오",
+   "body": [
+    "부산 사하구 신평동 569-1 업무시설 신축 일반 설계공모. **연면적 13,189㎡**, 예정 공사비 **339억 원**, 설계비 15.4억 원이다. 참가등록 마감 **11월 6일**, 심사위원 9인, 결과 발표는 2027년 1월 26일 예정."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://jootek.com/folio/contests/19087"
+     }
+    ]
+   },
+   "src_date": "2026-10-30",
+   "topic": "설계공모"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "제이콥스, 370억 달러 AEP 송전 프로그램 관리 맡아",
+   "body": "7개 주에서 5년간 진행되는 AEP 송전 투자의 프로젝트 관리·설계·용지 확보를 통합 수행한다. 계약액은 비공개.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/jacobs-wins-project-management-role-transmission-program-american-electric-power/873647/"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "미 교통부, 철도 건널목 제거에 12.4억 달러",
+   "body": "37개 주 91건에 IIJA 재원을 배분한다. 텍사스 4,600만 달러 고가도로, 조지아 31개 건널목 신호 개선 등이 포함됐다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/usdot-funding-rail-work-iija-funds/873613/"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "9월 미 비주거 건설지출 6개월 연속 증가 — 데이터센터가 독주",
+   "body": "민간 비주거 지출이 전월 대비 1.1%, 데이터센터는 8.6% 늘었다. 전력 관련을 빼면 오히려 감소했다는 ABC 분석이다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/data-centers-kept-nonresidential-construction-spending-positive-in-septembe/873557/"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "FEMA, 재난 복구·회복력에 13억 달러 — 홍수 완화 공모 4억 달러",
+   "body": "홍수 완화 지원(FMA) 공모는 2027년 2월 26일까지 접수한다. BRIC 미처리 신청이 700건·22억 달러에 이른다는 GAO 지적도 있다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/fema-commits-13b-disaster-recovery-resilience/873575/"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "재난유산"
+  },
+  {
+   "title": "클라크, 워싱턴 메트로 역사 56일 집중 개보수 마쳐",
+   "body": "그로스브너-스트래스모어역에서 로봇으로 1,670㎡ 이상 플랫폼을 철거하고 선로 가장자리 1,200선형피트를 교체했다. 베데스다역은 2027년 완공 목표.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/clark-construction-dc-metro-upgrade-purple-line/873563/"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "번스&맥도넬, 미주리 최대 막 생물반응기 하수처리장 완공",
+   "body": "1억 4,500만 달러 사업 중 일부로 처리 용량을 일 500만 갤런으로 늘렸다. 시 최초의 프로그레시브 설계·시공 일괄 방식을 썼다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/burns-mcdonnell-missouri-water-project/873555/"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  }
+ ],
+ "cardnews": [
+  {
+   "slug": "sharjah-design-centre",
+   "tag": "MATERIAL",
+   "title": "흙으로 짓는 디자인 연구소 — 샤르자 디자인 센터",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "photo_query": "rammed earth wall",
+   "slides": [
+    {
+     "heading": "모래 도시에서\n흙으로 짓는다",
+     "body": "샤르자 디자인 센터, 다짐흙 건물로 2029년 개관"
+    },
+    {
+     "heading": "WHO",
+     "body": "멕시코의 Taller de Arquitectura – Mauricio Rocha가 Daniel Rosselló와 협업해 설계했다."
+    },
+    {
+     "heading": "HOW",
+     "body": "현지 재료와 전통 원리, 현대 기술을 결합한 다짐흙 공법으로 환경 영향을 줄인다."
+    },
+    {
+     "heading": "LAB",
+     "body": "섬유·유리·도자·주얼리·금속·목공 등 전문 실험실 7곳과 재료 도서관, 디지털 아카이브가 들어선다."
+    },
+    {
+     "heading": "MATERIALS",
+     "body": "소금·염수·석회암·모래부터 야자, 조개껍질, 건설 폐기물, 균사체까지 연구 대상이다."
+    },
+    {
+     "heading": "NEXT",
+     "body": "크리에이티브 쿼터 전체와 함께 2029년 개관. 사막 기후에서의 흙 벽체 성능이 관전 포인트다."
+    }
+   ]
+  },
+  {
+   "slug": "linnahall-tallinn",
+   "tag": "URBAN",
+   "title": "올림픽 요트경기를 위해 지은 탈린 린나할",
+   "ref": {
+    "section": "intl_feature",
+    "index": 0
+   },
+   "bg": 1,
+   "photo_query": "tallinn estonia harbor",
+   "slides": [
+    {
+     "heading": "지붕이 광장이\n되는 건물",
+     "body": "탈린 린나할, 올림픽이 남긴 해안의 유산"
+    },
+    {
+     "heading": "WHY",
+     "body": "1980년 모스크바 올림픽 요트 경기를 해안선 없는 모스크바 대신 치르기 위해 지었다."
+    },
+    {
+     "heading": "FORM",
+     "body": "석회암과 콘크리트로 낮고 길게 지어 중세 도시 스카이라인 아래에 머문다."
+    },
+    {
+     "heading": "ROOF",
+     "body": "계단식 테라스 지붕이 작은 부두와 핀란드만으로 이어지는 시민 광장이다."
+    },
+    {
+     "heading": "INSIDE",
+     "body": "지하에 4,200명 원형극장과 6,000㎡ 로비, 아이스홀이 있다."
+    }
+   ]
+  },
+  {
+   "slug": "factory-permit-precheck",
+   "tag": "POLICY",
+   "title": "공장인허가 사전진단 — 모바일로 규제 확인",
+   "ref": {
+    "section": "side"
+   },
+   "bg": 2,
+   "photo_query": "factory industrial site aerial",
+   "slides": [
+    {
+     "heading": "공장 부지,\n지을 수 있을까?",
+     "body": "공장인허가 사전진단 서비스 고도화"
+    },
+    {
+     "heading": "WHAT",
+     "body": "후보지의 법령·규제를 분석해 인허가 가능 여부를 미리 진단한다."
+    },
+    {
+     "heading": "3D",
+     "body": "건물 배치, 토공량, 경사도와 건폐율·용적률에 따른 허가 가능 면적을 시뮬레이션한다."
+    },
+    {
+     "heading": "MOBILE",
+     "body": "팩토리온 모바일 웹으로 현장에서 규제·인허가 정보를 조회한다. 상세 분석은 PC 전용."
+    },
+    {
+     "heading": "NEXT",
+     "body": "국토부는 다른 건축·토지 인허가 분야로 확대할 계획이다."
+    }
+   ]
+  }
+ ]
+}
