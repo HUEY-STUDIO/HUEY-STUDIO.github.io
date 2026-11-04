@@ -1,0 +1,565 @@
+{
+  "vol": "VOL.01  NO.080",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "ArchDaily",
+    "Construction Dive",
+    "건축사신문",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "칠레 산티아고, 9m 미만 대지에 7층 사회주택",
+      "desc": "FAR frohn&rojas, 북측 입면 광고 수익으로 유지관리",
+      "label": "PROJECT"
+    },
+    {
+      "title": "11월 12일부터 다세대·다가구 1,000㎡로 완화",
+      "desc": "4개 층·일조권 이격 5m 신설, 건축법 시행령 개정",
+      "label": "POLICY"
+    },
+    {
+      "title": "건축 드로잉 상, 2026 후보 11점 발표",
+      "desc": "168개 출품작 중 선정, 종합 수상은 2027년 초",
+      "label": "AWARDS"
+    },
+    {
+      "title": "9월 건설업 퇴사자 19만 명, 3년여 만에 최다",
+      "desc": "공석은 29.8만 건으로 전년 대비 44.7% 증가",
+      "label": "MARKET"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 사회주택",
+    "lede": "폭 9m도 안 되는 땅에 세운 7층 사회주택 — 산티아고의 푸른 금속 스크린 '산타 로사'",
+    "lede_em": "폭 9m도 안 되는 땅",
+    "image": "https://images.adsttc.com/media/images/6aeb/04be/c723/9a01/895a/2551/newsletter/latin-america-in-focus-this-month-in-architecture-social-housing-and-heritage-recovery_1.jpg",
+    "image_label": "ARCHDAILY",
+    "caption": "산타 로사 사회주택 외관. 푸른 천공 금속 스크린이 차양 역할을 한다. 사진 출처 ArchDaily",
+    "body": [
+      "칠레 산티아고 중심부 아베니다 산타 로사에 **FAR frohn&rojas**가 설계한 사회주택이 2026년 완공됐다. 연면적 **2,337㎡**, **7층** 규모로, ArchDaily가 정리한 10월 라틴아메리카 동향 기사에서 대표 사례로 꼽혔다.",
+      "대지는 폭이 **9m 미만**으로 좁다. 설계진은 가느다란 콘크리트 구조를 중심에 두고 그 둘레에 주택을 배치했다. 주택은 대부분 복층형이고, 공용 복도와 베란다가 이웃 간 교류를 유도한다. 외벽에는 파란색 천공 금속 스크린을 둘러 차양 역할을 맡겼다.",
+      "운영 방식도 눈에 띈다. 북측 입면을 광고 공간으로 내어주고 거기서 나오는 수익을 공용 시설의 장기 유지관리에 쓰는 구조다. 준공 이후 건물이 어떻게 유지되느냐는 사회주택에서 가장 약한 고리라는 점을 건축 계획 단계에서 풀어낸 셈이다.",
+      "프로젝트는 칠레의 **DS-49** 사회주택 프로그램을 통해 추진됐다. 같은 기사는 멕시코 과달라하라 외곽의 승마 시설 단지 '란초 델 아부엘로'(994㎡), 칠레 산 하비에르의 16㎡ 강변 설치물 '어반 맨틀' 등도 함께 소개했다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1188054/latin-america-in-focus-this-month-in-architecture-social-housing-and-heritage-recovery"
+        }
+      ]
+    },
+    "src_date": "2026-11-04",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "11월 12일부터 다세대·다가구 1,000㎡ 미만으로 면적제한 상향 — 일조권 규제도 완화",
+    "body": [
+      "건축법 시행령 일부개정안이 11월 3일 제47차 국무회의를 통과했다. 8월 13일 발표된 '주택 신속공급 방안'의 후속 조치로, **11월 12일**부터 시행된다. 다세대·다가구주택의 1개 동 바닥면적 합계 기준이 넓어지고, 정북방향 일조권 이격거리가 완화된다."
+    ],
+    "facts": [
+      "면적: 다세대·다가구 1개 동 바닥면적 합계 **660㎡ 이하 → 1,000㎡ 미만**",
+      "층수: 다가구주택 3개 층 이하 → **4개 층 이하** (같은 면적에서 가구 수 약 33% 확대)",
+      "일조권(정북방향): 높이 10m 이하 **1.5m 이상**, 10m 초과 17m 이하 **5m 이상**(기존 높이의 1/2), 17m 이상은 높이의 1/2 이상",
+      "용적률: 다세대주택에 주민공동시설을 설치하면 건축위원회 심의로 용적률 완화"
+    ],
+    "body_after": [
+      "소규모 주거 설계에서는 층수·면적 기준과 일조 이격이 배치 계획을 좌우해 왔다. 시행일 이후 접수하는 건에 어떤 기준이 적용되는지(경과규정)는 개정 시행령 부칙에서 확인해야 한다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21359"
+        }
+      ]
+    },
+    "src_date": "2026-11-04",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "도서관 · 스페인",
+      "title": "반복과 패턴으로 지은 공공의 모임 공간 — 수리아 도서관",
+      "image": "https://images.adsttc.com/media/images/6ae8/e29d/62dc/0e01/8725/7818/medium_jpg/suria-library-javier-de-las-heras-sole_31.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "카탈루냐 수리아 시의회가 발주한 도서관이 2026년 완공됐다. 설계는 **Javier de las Heras Solé**(협업 Salvador Bou Gracia), 시공은 Garcia Riera SL이 맡았다.",
+        "건축가는 반복과 패턴으로 과시적인 형태를 배제하고 시민이 쓰는 방식에 초점을 맞춘 공공 모임 공간을 제안했다. 기존의 물리적·문화유산적 요소를 드러내 주변 맥락에 녹이는 것이 목표다. 주요 재료는 **목재·유리·강재**다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187981/suria-library-javier-de-las-heras-sole"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "사회주택 · 벨기에",
+      "title": "나무 꼭대기 높이의 연두색 테라코타 — 루뱅 루스트오르드란",
+      "image": "https://images.adsttc.com/media/images/6ae3/6216/3a16/4b00/01b5/df81/medium_jpg/Rustoordlaan_MAP_JolienFagard_009.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "벨기에 루뱅 케셀로의 헤우벨호프 공원 안에 **Atelier M Architects + Planners**가 설계한 **30세대** 사회주택이 2026년 완공됐다. 연면적 **2,797㎡**, 사회주택 운영사 Dijledal의 대체 주택 사업이다.",
+        "기존 나무와 공원을 최대한 지키려고 건물 면적을 촘촘히 계획하고 건물을 **17도 회전**시켰다. 외벽은 연두빛 테라코타 패널과 같은 계열의 창호로 마감했고, 입주자가 나무 꼭대기 높이에서 사는 경험을 주는 것이 목표다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187769/rustoordlaan-atelier-m-architects-plus-planners-bv"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "주택 · 콜롬비아",
+      "title": "경사지에 낮게 엎드린 콘크리트 주말집 — 코코 하우스",
+      "image": "https://images.adsttc.com/media/images/6aeb/7199/1f37/4900/010d/120c/newsletter/07_Carlos_Velez.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "콜롬비아 레티로의 가파른 경사지에 **CVA Arquitectos**가 지은 **230㎡** 주택(2022년 준공)이다. 건축가와 반려견 '코코'를 위한 주말 휴식처로, 집과 자연을 분리할 수 없는 하나의 실체로 보았다. 볼륨을 기존 식생에 맞춰 놓고 지형에 직접 연결했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188096/coco-house-cva-arquitectos"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "증축 · 뉴질랜드",
+      "title": "카이쿠라의 415㎡ 증축 주택 — 블랙 밀러 하우스",
+      "image": "https://images.adsttc.com/media/images/6ae0/a572/20d6/d811/3b1a/5848/newsletter/black-miller-house-three-sixty-architecture_7.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "뉴질랜드 카이쿠라에서 **Three Sixty Architecture**가 기존 주택에 증축한 **415㎡** 규모 프로젝트(2024년 준공)다. 목재·유리·강재를 주재료로 썼고 사진은 David Straight가 촬영했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187590/black-miller-house-three-sixty-architecture"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "공공건축 · 남아공",
+      "title": "공공건물을 '공공'으로 유지하는 일 — 요하네스버그 드릴 홀",
+      "image": "https://images.adsttc.com/media/images/6ae6/28d4/a04f/d001/89cd/45b6/medium_jpg/the-work-of-keeping-a-public-building-public-keleketla-s-occupation-of-drill-hall-johannesburg_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "ArchDaily는 요하네스버그 도심의 드릴 홀을 통해 건물이 완공 뒤 어떻게 유지되는지를 묻는다. 공공성은 시공 상태가 아니라 그 안의 활동, 점유하는 사람, 유지관리를 맡는 제도에 달려 있고, 이는 전통적 건축 실무 밖의 지속적인 협상으로 이어진다는 논지다. Keleketla! Library의 점유 사례가 중심이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187924/the-work-of-keeping-a-public-building-public-the-drill-hall-in-johannesburg"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "연구시설 · 설계",
+      "title": "연구실의 '보이지 않는 설계 조건' — 진동·층고·환기",
+      "image": "https://images.adsttc.com/media/images/6ae8/0a64/d5ab/1b2a/7ba5/bf44/medium_jpg/the-invisible-brief-how-scientific-research-shapes-architecture_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "단단해 보이는 바닥도 움직일 수 있고, 나노 스케일 측정 장비는 수 마일 떨어진 교통의 진동까지 감지한다. 장비와 그 위 덕트·설비는 일반 층고보다 높이를 더 요구하고, 지속 환기와 발열 제거도 필요하다. 펜스테이트대 공학 연구동(Payette), 옥스퍼드대 비크로프트 빌딩(Hawkins\\Brown)이 사례다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1187930/the-invisible-brief-how-laboratory-needs-shape-research-buildings"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "건축사 교류",
+      "title": "제26차 한중일건축사협의회, 부여서 개막 — 3국 건축 교류의 장",
+      "image": "",
+      "image_label": "건축사신문",
+      "body": [
+        "대한건축사협회가 주최하고 충남건축사회가 주관하는 제26차 한중일건축사협의회가 **11월 3~6일** 충남 부여에서 열린다. 한국 김재록 회장, 중국 건축사등록관리위원회 추이 카이 회장, 일본 건축사회연합회 후루야 노부아키 회장이 참석했다.",
+        "1997년 3국 건축사단체 협력 협정에 따라 출범한 연례 협의회로 3국이 돌아가며 연다. 5일 오픈세션에서 차기 개최지를 발표하고 회의록에 서명하며, 6일 공주 건축답사로 마무리한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21358"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축문화제",
+      "title": "제18회 대전도시건축문화제 성료 — '백 개의 문: 익숙한 도시·낮선 건축'",
+      "image": "https://cdn.ancnews.kr/news/photo/202611/21363_24197_3240.png",
+      "image_label": "건축사신문",
+      "body": [
+        "대전광역시건축사회가 주최한 제18회 대전도시건축문화제가 **10월 29일~11월 1일** 대전엑스포 시민광장에서 열렸다. 주제는 '백 개의 문: 익숙한 도시·낮선 건축'이다.",
+        "대전광역시 건축상 수상작 전시와 초대작가전, 건축사 그림동호회 전시, 시민 참여 행사가 이어졌고, 지역 **5개 대학** 건축학과 공동전시가 도시 건축 자산을 조명했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21363"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "건축사 강연",
+      "title": "임동우 교수, \"'공동체가 함께하는 공간 만들기'에 건축사 역할 필요\"",
+      "image": "https://cdn.ancnews.kr/news/photo/202611/21364_24198_3635.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "홍익대 임동우 교수는 10월 29일 '2026 KAFF FORUM'에서 원도심 해체 같은 건축의 부정적 측면을 짚고, 이를 풀어가는 데 건축사의 역할이 커지고 있다고 강조했다. 원도심 성격을 유지한 사례로 순천시 신청사를 들었다.",
+        "도시 문화 플랫폼 '도만사'를 운영하며 성동구 협조로 주차장 등 교통시설 부지에 임시 어린이 놀이 공간, 이동식 책방, 음악회를 여는 실험을 해왔다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21364"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "건축교육",
+      "title": "건축교육 혁신 공청회 — \"실무현장 현실 담은 유연한 대안 담겨야\"",
+      "image": "",
+      "image_label": "건축사신문",
+      "body": [
+        "대한건축학회 건축센터에서 10월 29일 '건축교육 혁신을 위한 융합 프로그램 및 연계 교육경로 개발' 중간 연구결과 공청회가 열렸다. 5년제·4년제 건축학, 4년제 건축공학, 전문대학 등 학제별 특성을 유지하며 모듈형 교육체계와 연계 교육경로를 마련하는 안이 소개됐다.",
+        "대한건축사협회는 비인증대학 졸업자 경과조치를, 한국건축가협회는 5년제 재학생 역차별을 우려했다. 한국건축학교육인증원은 단일 기준의 통합 인증에 신중해야 한다며 영국식 단계별 인증을 참고하자고 제안했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21344"
+          }
+        ]
+      },
+      "src_date": "2026-11-03",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 경기 고양",
+      "title": "(가칭)창릉3중 신축 설계공모 — 연면적 16,640㎡, 공사비 284억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "경기도 고양시 덕양구 도내동 206일원에 들어서는 교육연구시설의 일반 설계공모다. 연면적 **16,640㎡**, 공사비 **284억 원**, 예정 설계비 **13.2억 원**이다.",
+        "참가등록은 **11월 6일** 시작해 **11월 13일** 마감하고, 결과 발표는 **2027년 1월 6일**이다. 심사위원은 11명이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19097"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 부산",
+      "title": "한국전력공사 동래지사 사옥 신축 설계공모 — 연면적 4,520㎡, 공사비 209억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "부산 동래구 안락동 451-10, 현 한국전력공사 동래지사 부지에 사옥을 새로 짓는 일반 설계공모다. 연면적 **4,520㎡**, 공사비 **209억 원**, 예정 설계비 **8억 원**이다.",
+        "참가등록 마감은 **11월 11일**, 결과 발표는 **2027년 1월 8일**이며 심사위원은 8명이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19094"
+          }
+        ]
+      },
+      "src_date": "2026-11-03",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 인천 강화",
+      "title": "화도면 다목적체육관 건립 실시설계 제안공모 — 연면적 999㎡, 공사비 29.9억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "인천 강화군 화도면 상방리 1123-1에 짓는 운동시설의 제안설계공모다. 연면적 **999㎡**, 공사비 **29.9억 원**, 예정 설계비 **1.6억 원**이다.",
+        "사이트에는 접수 마감이 11월 10일로 적혀 있으나 참가등록 시작일 표기와 겹쳐 원문 확인이 필요하다. 결과 발표는 **12월 14일**, 심사위원은 9명이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19096"
+          }
+        ]
+      },
+      "src_date": "2026-11-03",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "건축 드로잉 상, 2026 후보 11점 발표",
+      "body": "168개 출품작 중 11점 선정. 글래스고 예술학교 비계를 그린 Ross Cameron이 손그림 특별상, 종합 수상자는 2027년 초 런던 존 손 박물관에서 발표한다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188046/the-architecture-drawing-prize-2026-recognizes-11-distinct-drawings"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "수상"
+    },
+    {
+      "title": "HUD, LIHTC 공동주택 건설대출 '익스프레스 레인' 도입",
+      "body": "FHA 221(d)(4) 대출의 심사·클로징 30일 목표. 200세대 상한과 25% 이연 수수료 요건을 폐지하고 80% 대출비율을 복원했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/hud-express-lane-lihtc-multifamily-construction-loans/873694/"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "제도규제"
+    },
+    {
+      "title": "9월 미 건설업 퇴사자 19만 명, 2023년 이후 최다",
+      "body": "BLS 기준 건설업 공석은 29.8만 건으로 전월 대비 13.7%, 전년 대비 44.7% 늘었다. 이민 단속과 타 산업 이동 등이 거론된다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/construction-workforce-market-bls-september/873692/"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "미 군사건설 가속 — OTA 확대로 시공사 기회와 위험 동시에",
+      "body": "2026 NDAA가 국방부의 OTA 권한을 넓혀 설계-시공·모듈러가 부상했다. FAR 밖에서 운영돼 표준 보호 조항을 직접 협상해야 한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/dotted-line-faster-military-construction-opportunities-risks/873712/"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "제도규제"
+    },
+    {
+      "title": "산토도밍고 세계유산 도시, UNESCO 기후 행동 도구 시범 적용",
+      "body": "라틴아메리카·카리브 최초의 시범 도시. 10월 5~9일 워크숍에서 허리케인·집중호우·홍수가 역사 지구에 미칠 영향을 평가했다. 콜롬비아는 8월 지진 피해 유산 복구를 위해 보고타에 복원자재 수집센터를 세웠다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "라틴아메리카 10월 동향",
+            "url": "https://www.archdaily.com/1188054/latin-america-in-focus-this-month-in-architecture-social-housing-and-heritage-recovery"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "재난유산"
+    },
+    {
+      "title": "서폭, 보스턴에 혁신 캠퍼스 '100MAG' 개소",
+      "body": "프로젝트 계획·설계·자가시공·기술투자 팀이 한곳에 모인다. AI·로봇·데이터·양자 기술이 중점 분야이며 MIT와 AI 생산성 6개 영역 백서도 냈다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/suffolk-new-innovation-center-tech-ai-push/873767/"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "santa-rosa-social-housing",
+      "tag": "HOUSING",
+      "title": "9m 미만 대지의 7층 사회주택 — 산타 로사",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "santiago chile apartment building",
+      "slides": [
+        {
+          "heading": "9m도 안 되는 땅에\n세운 7층 주택",
+          "body": "산티아고 산타 로사 사회주택, FAR frohn&rojas"
+        },
+        {
+          "heading": "SITE",
+          "body": "산티아고 중심부 아베니다 산타 로사. 폭 9m 미만의 좁은 대지에 연면적 2,337㎡를 채웠다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "가느다란 콘크리트 구조를 중심에 두고 그 둘레에 주택을 배치했다. 대부분 복층형이다."
+        },
+        {
+          "heading": "SCREEN",
+          "body": "파란 천공 금속 스크린이 차양 역할을 하고, 공용 복도와 베란다가 이웃 교류를 이끈다."
+        },
+        {
+          "heading": "MAINTENANCE",
+          "body": "북측 입면의 광고 수익으로 공용 시설의 장기 유지관리를 지원하는 구조다."
+        },
+        {
+          "heading": "POLICY",
+          "body": "칠레 DS-49 사회주택 프로그램으로 추진됐다. 준공 이후의 운영까지 설계한 사례다."
+        }
+      ]
+    },
+    {
+      "slug": "multi-household-1000sqm",
+      "tag": "POLICY",
+      "title": "11월 12일부터 다세대·다가구 1,000㎡ 미만",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "apartment low rise residential housing",
+      "slides": [
+        {
+          "heading": "다세대·다가구\n1,000㎡까지",
+          "body": "11월 12일 시행, 건축법 시행령 개정"
+        },
+        {
+          "heading": "AREA",
+          "body": "1개 동 바닥면적 합계 기준이 660㎡ 이하에서 1,000㎡ 미만으로 넓어진다."
+        },
+        {
+          "heading": "FLOORS",
+          "body": "다가구주택은 3개 층 이하에서 4개 층 이하로. 같은 면적에서 가구 수가 약 33% 늘 수 있다."
+        },
+        {
+          "heading": "SUNLIGHT",
+          "body": "정북방향 이격: 10m 이하 1.5m, 10m 초과 17m 이하 5m, 17m 이상은 높이의 1/2."
+        },
+        {
+          "heading": "FAR",
+          "body": "다세대주택에 주민공동시설을 두면 건축위원회 심의로 용적률 완화를 받을 수 있다."
+        },
+        {
+          "heading": "BACKGROUND",
+          "body": "11월 3일 국무회의 의결. 8월 13일 '주택 신속공급 방안'의 후속 조치다."
+        }
+      ]
+    },
+    {
+      "slug": "korea-china-japan-architects",
+      "tag": "EXCHANGE",
+      "title": "제26차 한중일건축사협의회, 부여 개막",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "hanok traditional architecture",
+      "slides": [
+        {
+          "heading": "3국 건축사가\n부여에 모였다",
+          "body": "제26차 한중일건축사협의회, 11월 3~6일"
+        },
+        {
+          "heading": "WHO",
+          "body": "한국 김재록, 중국 추이 카이, 일본 후루야 노부아키 회장이 각국 건축사단체를 대표해 참석했다."
+        },
+        {
+          "heading": "WHERE",
+          "body": "충남 부여의 한국전통문화대학교와 부여국립박물관 등에서 워크숍과 교류의 밤이 열린다."
+        },
+        {
+          "heading": "ORIGIN",
+          "body": "1997년 3국 건축사단체 협력 협정에 따라 출범한 연례 협의회로, 3국이 순환 개최한다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "5일 오픈세션에서 차기 개최지를 발표하고 6일 공주 건축답사로 마무리한다."
+        }
+      ]
+    }
+  ]
+}
