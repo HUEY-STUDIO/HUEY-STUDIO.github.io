@@ -1,0 +1,593 @@
+{
+ "vol": "VOL.01  NO.081",
+ "editor": "HUEY",
+ "counts": {
+  "total": 22,
+  "intl": 14,
+  "kr": 8
+ },
+ "outlets": [
+  "Dezeen",
+  "ArchDaily",
+  "designboom",
+  "Construction Dive",
+  "건축사신문",
+  "건축사뉴스",
+  "주택폴리오"
+ ],
+ "teasers": [
+  {
+   "title": "BIG 국내 첫 기획전 '머터리얼리즘' 7일 개막",
+   "desc": "서울도시건축전시관, 2027년 2월 28일까지",
+   "label": "EXHIBITION"
+  },
+  {
+   "title": "층간 바닥충격음 기준 49dB 이하로 강화 추진",
+   "desc": "다세대·오피스텔 대상, 행정예고 11월 6~26일",
+   "label": "POLICY"
+  },
+  {
+   "title": "건축사 2회 시험 합격예정자 604명, 합격률 8.9%",
+   "desc": "응시 6,781명, 최종합격 발표는 12월 29일",
+   "label": "EXAM"
+  },
+  {
+   "title": "미 유권자 76%, 우리 동네 데이터센터 반대",
+   "desc": "지방 투표안 41건이 데이터센터 거부",
+   "label": "MARKET"
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 공공공간",
+  "lede": "도심 보도에 5°C 낮은 그늘을 깔다 — SWA의 휴스턴 '쿨 앤 커넥티드 코리도' 모듈 키트",
+  "lede_em": "5°C 낮은 그늘",
+  "image": "https://static-2026.dezeen.com/uploads/2026/11/cool-connected-swa-houston-texas_dezeen_2364_hero.jpg",
+  "image_label": "DEZEEN",
+  "caption": "휴스턴 텍사스 애비뉴의 꽃잎형 메시 쿨링 파빌리온. 사진 Bill Tatham / Dezeen",
+  "body": [
+   "조경설계사무소 **SWA**가 미국 휴스턴 거리를 걷기 편하게 바꾸는 모듈형 '툴킷'을 선보였다. 꽃잎 모양 그늘 구조물, 야외 조명, 식재 화분 상자로 이뤄진 이 시스템은 시의 공공공간 실행계획(Public Realm Action Plan) 1단계로 텍사스 애비뉴 **15개 블록**에 설치됐다. 2026 FIFA 월드컵 개막에 맞춰 준공됐다.",
+   "핵심은 **메시 쿨링 파빌리온**이다. 건축사무소 **회월러+윤**이 설계했으며 비드블라스트 처리한 스테인리스 구조에 파랑·초록·보라 그라데이션 메시 막을 씌웠다. 단독 또는 여러 개를 묶은 '부케' 형태로 배치해 길모퉁이에 낮 동안 그늘을 만들고 밤에는 조명이 된다.",
+   "조명은 가로수 수관에서 늘어뜨린 구형·선형 등기구로, 2023년 시 조명 연구가 제안한 야간 가로 마스터플랜을 따른다. 모듈형 식재 화분 상자에는 가뭄에 강하고 꽃가루 매개 곤충을 돕는 식물과 교체 수목을 심었다. 보도 폭과 조건이 제각각인 기존 가로에 맞춰 조정할 수 있게 설계했다.",
+   "SWA가 적외선 열화상으로 측정한 결과 그늘 구조물 아래 지표면 온도는 평균 **10°F(5°C)** 낮았고 일부 지점은 최대 **30°F(16°C)** 낮았다. 시는 이 시스템을 텍사스 애비뉴 나머지 구간과 맥키니·프레스턴 스트리트 등 도심 다른 가로로 넓힐 계획이다."
+  ],
+  "source": {
+   "outlet": "Dezeen",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.dezeen.com/2026/11/05/swa-cool-connected-corridors-houston/"
+    }
+   ]
+  },
+  "src_date": "2026-11-05",
+  "topic": "도시재생"
+ },
+ "side": {
+  "label": "실무 직결 · 제도/규제",
+  "image": "",
+  "image_label": "건축사신문",
+  "title": "다세대·오피스텔 층간 바닥충격음 기준 강화 — 중량·경량 모두 49dB 이하로",
+  "body": [
+   "국토교통부가 「소음방지를 위한 층간 바닥충격음 차단구조기준」 일부개정안을 **11월 6일부터 26일까지** 행정예고한다. 건축법 적용 대상인 다세대주택, 30세대 미만 공동주택, 오피스텔 등이 대상이다."
+  ],
+  "facts": [
+   "중량충격음: 현행 50dB 이하 → **49dB 이하**",
+   "경량충격음: 현행 58dB 이하 → **49dB 이하**",
+   "표준바닥구조의 완충재에 일정 수준 이상의 성능을 요구하는 품질기준 신설",
+   "선택제: 시험으로 인정받은 '인정바닥구조' 또는 시험 없이 고시 기준대로 적용하는 '표준바닥구조'"
+  ],
+  "body_after": [
+   "건축주 부담을 고려해 두 가지 바닥구조 중 고를 수 있게 했다. 의견은 우편이나 국토교통부 누리집으로 제출하며, 시행일은 기사에 명시되지 않았다. 소규모 주거 설계에서 바닥 구성과 완충재 사양을 다시 검토해야 한다."
+  ],
+  "source": {
+   "outlet": "건축사신문",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.ancnews.kr/news/articleView.html?idxno=21368"
+    }
+   ]
+  },
+  "src_date": "2026-11-05",
+  "topic": "제도규제"
+ },
+ "intl_feature": [
+  {
+   "kicker": "도시계획 · 벨리즈",
+   "title": "허리케인이 만든 수도 — 카리브해의 전원도시 벨모판",
+   "image": "https://images.adsttc.com/media/images/6aeb/6d4d/c723/9a01/895a/27f2/newsletter/belmopan-a-symbol-of-national-integration-and-urban-resilience-in-belize_11.jpg?1793813871",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "1961년 10월 31일 허리케인 해티가 옛 수도 벨리즈시티를 덮쳐 기반시설의 약 **80%**를 무너뜨리고 **300명 가까이** 숨지게 했다. 영국령 온두라스로 불리던 벨리즈는 1862년부터 영국 식민지였다.",
+    "1964년 각료회의는 폭풍해일에서 안전하고 국토 중앙에 가까운 내륙, 벨리즈시티 서쪽 50마일의 로어링 크릭 마을 인근을 새 수도 부지로 골랐다. 이렇게 재난 이후 도시 회복력을 목적으로 세운 계획도시가 벨모판이다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187926/a-garden-city-in-the-caribbean-planning-belizes-new-capital-belmopan"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "재난유산"
+  },
+  {
+   "kicker": "학교 · 포르투갈",
+   "title": "1947년 설계 초등학교를 오늘의 학교로 — BFJ 아르키테투스의 리스본 산투 안토니우",
+   "image": "",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "리스본 알발라드 지구의 산투 안토니우 초등학교가 BFJ 아르키테투스의 손으로 2025년 개보수를 마쳤다. 연면적 **12,469㎡**, 사진은 페르난두 게헤이라가 찍었다. 원설계는 **이나시우 페레스 페르난데스**가 1947년에 한 것으로, 1950년대 초 '센테나리우스 계획'에 따라 근린주구 모델로 지어졌다.",
+    "건물은 원래 모습 대부분을 지켜 대표적 근현대 유산으로 평가받는다. 개보수는 이후 달라진 사용 방식을 풀었다. 남녀 구역이 분리된 옛 평면은 지금의 혼합 운영에 맞지 않았고, 두 개 층에 중복된 구내식당은 주방 운영을 비효율적으로 만들었다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188048/santo-antonio-primary-school-requalification-and-modernization-project-bfj-arquitectos"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "프로젝트"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "정책 · 데이터센터",
+   "title": "유권자의 데이터센터 반발 — 지방정부가 최전선에 선다",
+   "image": "https://imgproxy.divecdn.com/dsHQaRCn2roOZ3nL1dc9rjmtt0xV1CrXKUk70fmEv-Y/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMzAyNTgzNTQ5LmpwZw==.webp",
+   "image_label": "CONSTRUCTION DIVE",
+   "body": [
+    "11월 3일 미국 선거에서 데이터센터를 막는 **지방 투표안 41건**이 통과했고, 10개 주 수십 곳이 금지·유예 조치를 승인했다. NBC 출구조사에서 유권자 **76%**가 자기 지역의 신규 데이터센터에 반대했다.",
+    "전문가들은 지방정부가 개발사와 협상하는 문지기 역할을 더 엄격히 요구받을 것으로 본다. 도시 차원의 금지는 영향이 작지만 주 단위 금지가 나오면 개발사에 큰 부담이 된다는 시각도 있다."
+   ],
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/voters-data-center-backlash-cities-2026-midterms/873938/"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "시공 · 산업",
+   "title": "스칸스카, 2분기 연속 사상 최대 수주 — 데이터센터가 3분의 1",
+   "image": "https://imgproxy.divecdn.com/vDr359xDUxFtoKzM5SSn4v4Ca8YIJf753mjn9J6lHvE/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMTEtMDVfMTUyMDM2LnBuZw==.webp",
+   "image_label": "CONSTRUCTION DIVE",
+   "body": [
+    "스웨덴 시공사 스칸스카의 3분기 수주액은 **680억 크로나(약 69.4억 달러)**로 2분기 기록과 같았다. 이 가운데 데이터센터·반도체 시설이 **227억 크로나**, 미국 물량이 **469억 크로나**(약 70%)다.",
+    "수주잔고는 사상 최대인 **3,283억 크로나**다. 영업이익은 21억 크로나로 52% 늘었고, 주거 개발 부문에서 3.69억 크로나의 손상차손을 반영했다."
+   ],
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/skanska-record-order-intake-earnings-q3-2026/873921/"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "공공건축 · 미국",
+   "title": "카테고리 5 허리케인에 견디는 24시간 무인 도서관 — 마이애미 '르 프티트 비블리오테크'",
+   "image": "https://www.designboom.com/twitterimages/uploads/2026/11/resilient-24-hour-public-library-miami-89th-studio-designboom-1200-1.jpg",
+   "image_label": "DESIGNBOOM",
+   "body": [
+    "89th 스튜디오가 북마이애미 클로드 페퍼 공원에 세운 **264평방피트(약 24㎡)** 규모 시민 쉼터다. 안에는 직원 없이 24시간 운영하는 자동 대출 키오스크가 있다.",
+    "구조는 철골이며, 외피는 무거운 내충격 유리 대신 고속 허리케인 기준을 충족하는 폴리카보네이트 패널이다. 플로리다 주택용 허리케인 셔터 트랙 부품을 써서 현지 인력과 비용을 아꼈고, 밤에는 빛이 외피를 통과해 공원에서 은은히 빛난다."
+   ],
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/hurricane-proof-polycarbonate-resilient-24-hour-public-library-miami-89th-studio/"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "조경 · 도시재생",
+   "title": "자연에게 자리를 내주다 — 위쿵젠의 도시 풍경 60곡",
+   "image": "https://www.designboom.com/twitterimages/uploads/2026/11/room-nature-urban-landscapes-kongjian-yu-turenscape-adaptation-evidence-china-charles-waldheim-designboom-1200.jpg",
+   "image_label": "DESIGNBOOM",
+   "body": [
+    "찰스 월드하임(하버드대)의 책 『적응을 위한 조경: 중국의 증거』는 위쿵젠과 터렌스케이프가 20년간 지은 **60개** 프로젝트를 환경 성능 면에서 분석한다. 수자원·식생·기존 생태계를 인프라로 쓰는 '스펀지 시티'가 핵심이다.",
+    "상하이 허우탄 공원(2010)은 14ha 옛 공업지에 조성한 습지로 하루 약 **2,400㎥**의 물을 처리한다. 이창 윈허 공원(2013)은 오염된 양어장 12개를 '녹색 스펀지'로 바꿨다."
+   ],
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/room-nature-urban-landscapes-kongjian-yu-turenscape-adaptation-evidence-china-charles-waldheim/"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "도시재생"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "전시 · 서울",
+   "title": "BIG 국내 첫 기획전 '머터리얼리즘' — 11월 7일 서울도시건축전시관",
+   "image": "https://cdn.ancnews.kr/news/thumbnail/202611/21370_24203_2034_v150.jpg",
+   "image_label": "건축사신문",
+   "body": [
+    "덴마크 건축설계그룹 BIG(대표 비야케 잉겔스)의 국내 첫 기획전이 **11월 7일** 개막해 **2027년 2월 28일**까지 서울도시건축전시관에서 열린다.",
+    "돌·흙·콘크리트·금속·유리·목재·직물·플라스틱·식물·재활용 재료 **10가지 소재**로 구성했다. 소재별 전시대와 의자, 주요 프로젝트 모형 **50여 점**, 스터디 모형 **60여 점**, 작업 방식을 소개하는 영상이 나온다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21370"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "정책 · 정비사업",
+   "title": "공공재개발 발전방향 세미나 — 기부채납 다양화, 임대비율 차등 제안",
+   "image": "https://cdn.ancnews.kr/news/thumbnail/202611/21367_24202_4230_v150.jpg",
+   "image_label": "건축사신문",
+   "body": [
+    "LH토지주택연구원과 대한국토·도시계획학회가 10월 28일 연 세미나에서 공공재개발의 역할을 짚었다. 현행은 법적 상한의 **120%**까지 용적률을 허용하고 분양가상한제를 적용하지 않으며, 추진 사업의 약 **85%**가 서울에 몰려 있다.",
+    "LH 김옥연 연구위원은 초과 용적률의 50%인 임대주택 공급 비율을 사업성에 따라 **30%→20%→10%**로 차등 적용하는 안을 냈다. SH도시연구원은 토지등소유자 고령화가 사업 속도의 변수라고 짚었다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21367"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "도시재생"
+  },
+  {
+   "kicker": "제도 · 표준",
+   "title": "건축내화재 KS 3종 개정 — 강판 패널 두께 지역별 차등, 석고보드 19mm 추가",
+   "image": "",
+   "image_label": "건축사뉴스",
+   "body": [
+    "국가기술표준원이 11월 4일 KS F 4724(강판 벽 패널)·4731(강판 지붕 패널)·3504(석고보드)를 개정했다. 단열재는 불연 또는 준불연이어야 하고 외부 강판은 **0.5mm** 이상이다.",
+    "석고보드는 유통 비중이 **42%**로 가장 높은 19mm를 추가하고, 난연·열저항·휨파괴하중 성능기준을 신설했다. 표시 위치는 뒷면에서 뒷면 또는 측면으로 바꿨다."
+   ],
+   "source": {
+    "outlet": "건축사뉴스",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.a-news.kr/news/articleView.html?idxno=14018"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "자격 · 시험",
+   "title": "2026년 제2회 건축사 자격시험 — 합격예정자 604명, 합격률 8.9%",
+   "image": "",
+   "image_label": "건축사뉴스",
+   "body": [
+    "응시자 **6,781명** 중 **604명**이 합격예정자로 결정됐다. 합격률은 8.9%로 1회(9.3%)보다 낮았다. 합격예정자 서류는 **11월 13일**까지 제출한다.",
+    "최종합격자는 경력 등 서류심사 뒤 **12월 29일** 국토교통부와 대한건축사협회 누리집에 발표한다."
+   ],
+   "source": {
+    "outlet": "건축사뉴스",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.a-news.kr/news/articleView.html?idxno=14023"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "사설 · 건축법",
+   "title": "규제를 넘어, 예측 가능하고 명확한 건축법으로 — 대한건축사협회 사설",
+   "image": "",
+   "image_label": "건축사신문",
+   "body": [
+    "1962년 제정된 건축법이 60여 년간 부분개정을 거듭하며 체계가 복잡해졌다는 지적이다. 사설은 개별 조항 수정이 아니라 **전부개정** 수준의 검토를 주장한다.",
+    "같은 법령도 허가권자에 따라 해석이 달라 **사전검토제도**와 심의기준 명확화가 필요하고, 설계자·시공자·감리자의 업무와 책임을 구분해 그에 맞는 권한을 보장해야 한다고 했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21349"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "설계공모 · 경기 화성",
+   "title": "시각장애인훈련센터 설립 증축공사 설계 — 연면적 6,694㎡, 공사비 197억",
+   "image": "",
+   "image_label": "주택폴리오",
+   "body": [
+    "경기 화성시 동탄구 영천동 821-1에 들어서는 교육연구시설의 제안설계공모다. 연면적 **6,694㎡**, 공사비 **197억 원**, 설계비 **9.2억 원**이다.",
+    "참가등록은 **11월 10일** 마감, 결과는 **12월 16일** 이내 발표한다. 심사위원은 9인이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://jootek.com/folio/contests/19099"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 충남 논산",
+   "title": "판소리고법 무형유산 전수관 건립 제안공모 — 연면적 427㎡, 공사비 26.4억",
+   "image": "",
+   "image_label": "주택폴리오",
+   "body": [
+    "충남 논산시 벌곡면 덕곡리 일대 제2종근린생활시설의 건축설계 제안공모다. 연면적 **427㎡**, 공사비 **26.4억 원**, 설계비 **1.3억 원**이다.",
+    "참가등록은 **11월 10일**이고 결과는 **12월 17일** 이내 발표한다. 심사위원은 7인이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://jootek.com/folio/contests/19095"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 부산",
+   "title": "건강두루센터 조성사업 설계공모 — 연면적 1,133㎡, 공사비 55.2억",
+   "image": "",
+   "image_label": "주택폴리오",
+   "body": [
+    "부산 사상구 주례동 156-11번지 외 5필지에 짓는 근린생활시설의 일반설계공모다. 연면적 **1,133㎡**, 공사비 **55.2억 원**, 설계비 **2.6억 원**이다.",
+    "참가등록은 **11월 10일** 시작하며 결과는 **2027년 3월 3일** 발표한다. 심사위원은 8인이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://jootek.com/folio/contests/19098"
+     }
+    ]
+   },
+   "src_date": "2026-11-02",
+   "topic": "설계공모"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "샤르자 건축 트리엔날레 2026 개막 프로그램 공개",
+   "body": "퍼포먼스·영화·콘퍼런스로 구성한 개막 프로그램을 발표. 2026년 11월부터 2027년 4월까지 열린다.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188119/sharjah-architecture-triennial-2026-announces-opening-programme-featuring-performances-films-and-conference"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "마테오 툰, 밀라노 토레 벨라스카에 72세대 주거 조성",
+   "body": "브루탈리즘 상징 건물 안 72세대를 재구성하는 인테리어 프로젝트.",
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/matteo-thun-72-apartments-milan-iconic-brutalist-torre-velasca-interior-residences/"
+     }
+    ]
+   },
+   "src_date": "2026-11-02",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "안젤로 렌나, 아르노강에 39그루 나무 두른 부유 섬 제안",
+   "body": "피렌체 아르노강 위 모듈형 부유 섬 '리틀 아일랜드'를 제안했다.",
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/angelo-renna-floating-modular-island-39-tree-ring-florence-river-firenze-little-island/"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "도시재생"
+  },
+  {
+   "title": "미 노동부, 견습생 지원 프로그램 신청 접수 시작",
+   "body": "건설 인력난 속 견습 프로그램에 대한 노동부 지원금 신청이 열렸다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/dol-announces-applications-open-for-apprentice-payment-program/873853/"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "제도규제"
+  },
+  {
+   "title": "중간선거가 데이터센터·교통법안 전망에 던진 변수",
+   "body": "선거 결과가 데이터센터 정책을 바꾸고 지상교통 재승인을 늦출 수 있다는 분석.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/midterms-data-center-construction-transportation-bill/873844/"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "제도규제"
+  },
+  {
+   "title": "용인특례시 건축 조례 개정 — 심의 대상 조정, 주거환경 기준 마련",
+   "body": "건축 조례를 개정해 심의 대상을 조정하고 주거환경 기준을 새로 마련했다.",
+   "source": {
+    "outlet": "건축사뉴스",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.a-news.kr/news/articleView.html?idxno=14021"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "제도규제"
+  }
+ ],
+ "cardnews": [
+  {
+   "slug": "houston-cool-corridors",
+   "tag": "PUBLIC REALM",
+   "title": "도심 보도에 5°C 낮은 그늘을 — 휴스턴 쿨 앤 커넥티드",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "photo_query": "houston texas downtown street",
+   "slides": [
+    {
+     "heading": "보도에 깔린\n5°C 낮은 그늘",
+     "body": "SWA의 휴스턴 쿨 앤 커넥티드 코리도"
+    },
+    {
+     "heading": "WHERE",
+     "body": "텍사스 애비뉴 15개 블록. 시 공공공간 실행계획 1단계로, 월드컵 개막에 맞춰 완공했다."
+    },
+    {
+     "heading": "KIT",
+     "body": "꽃잎형 그늘 구조물, 조명, 모듈형 식재 상자를 한 세트로 묶어 보도 조건에 맞춰 배치한다."
+    },
+    {
+     "heading": "PAVILION",
+     "body": "회월러+윤이 설계한 스테인리스 메시 파빌리온. 낮엔 그늘, 밤엔 조명이 된다."
+    },
+    {
+     "heading": "RESULT",
+     "body": "그늘 아래 지표면 온도가 평균 5°C, 최대 16°C 낮았다."
+    },
+    {
+     "heading": "NEXT",
+     "body": "텍사스 애비뉴 나머지 구간과 맥키니·프레스턴 스트리트로 확대할 계획이다."
+    }
+   ]
+  },
+  {
+   "slug": "floor-impact-noise-49db",
+   "tag": "POLICY",
+   "title": "층간소음 차단기준 49dB 이하로 강화 추진",
+   "ref": {
+    "section": "side"
+   },
+   "bg": 1,
+   "photo_query": "apartment building residential",
+   "slides": [
+    {
+     "heading": "층간소음\n49dB 이하로",
+     "body": "다세대·오피스텔 바닥충격음 기준 강화안"
+    },
+    {
+     "heading": "WHO",
+     "body": "다세대주택, 30세대 미만 공동주택, 오피스텔 등 건축법 적용 건축물이 대상이다."
+    },
+    {
+     "heading": "NUMBERS",
+     "body": "중량충격음 50→49dB, 경량충격음 58→49dB 이하로 낮춘다."
+    },
+    {
+     "heading": "MATERIAL",
+     "body": "표준바닥구조에 쓰는 완충재가 일정 성능을 갖추도록 품질기준을 신설한다."
+    },
+    {
+     "heading": "CHOICE",
+     "body": "시험으로 인정받은 인정바닥구조와 고시대로 적용하는 표준바닥구조 중 선택할 수 있다."
+    },
+    {
+     "heading": "SCHEDULE",
+     "body": "행정예고는 11월 6~26일. 의견은 우편이나 국토교통부 누리집으로 낸다."
+    }
+   ]
+  },
+  {
+   "slug": "big-materialism-seoul",
+   "tag": "EXHIBITION",
+   "title": "BIG 국내 첫 기획전 '머터리얼리즘'",
+   "ref": {
+    "section": "korea",
+    "index": 0
+   },
+   "bg": 2,
+   "photo_query": "bjarke ingels",
+   "slides": [
+    {
+     "heading": "BIG,\n소재로 말하다",
+     "body": "서울도시건축전시관 '머터리얼리즘'"
+    },
+    {
+     "heading": "WHEN",
+     "body": "11월 7일 개막, 2027년 2월 28일까지."
+    },
+    {
+     "heading": "10 MATERIALS",
+     "body": "돌·흙·콘크리트·금속·유리·목재·직물·플라스틱·식물·재활용 재료."
+    },
+    {
+     "heading": "MODELS",
+     "body": "프로젝트 모형 50여 점과 스터디 모형 60여 점을 선보인다."
+    },
+    {
+     "heading": "SIT",
+     "body": "관람객이 실제 소재로 만든 의자에 앉아 재료를 몸으로 느낀다."
+    }
+   ]
+  }
+ ]
+}
