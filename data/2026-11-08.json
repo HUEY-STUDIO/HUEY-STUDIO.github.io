@@ -1,0 +1,514 @@
+{
+ "vol": "VOL.01  NO.083",
+ "editor": "HUEY",
+ "outlets": [
+  "designboom",
+  "ArchDaily",
+  "Construction Dive",
+  "건축사신문",
+  "건축사뉴스",
+  "대한건축사협회",
+  "주택폴리오",
+  "competitions.archi"
+ ],
+ "teasers": [
+  {
+   "title": "런던 '구름 집' 완공",
+   "desc": "5년 인허가 끝에 세운 분홍 아치 주택",
+   "label": "HOME"
+  },
+  {
+   "title": "건축 관련 입법 줄줄이",
+   "desc": "건축법 시행령안 12월 11일까지 의견 접수",
+   "label": "POLICY"
+  },
+  {
+   "title": "바르셀로나 포켓파크 공모",
+   "desc": "10m×10m 빈 땅, 제출 11월 25일",
+   "label": "COMPETITION"
+  },
+  {
+   "title": "가평건축사회 일본 답사",
+   "desc": "나오시마·테시마 4박 5일",
+   "label": "STUDY TOUR"
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 주택",
+  "lede": "5년의 인허가 끝에 세운 분홍 아치 — 런던 가스펠 오크의 '클라우드 하우스'",
+  "lede_em": "5년의 인허가",
+  "image": "https://www.designboom.com/wp-content/uploads/2026/11/cloud-house-peter-morris-architects-designboom-1800.jpg",
+  "image_label": "DESIGNBOOM",
+  "caption": "클라우드 하우스, 런던 가스펠 오크 ⓒ Juliet Murphy",
+  "body": [
+   "피터 모리스 아키텍츠의 피터 모리스와 아내인 TV 프로듀서 에밀리 케네디가 직접 지은 **클라우드 하우스**가 런던 북부 가스펠 오크에 완성됐다. 기존 빅토리아풍 주택을 허물고 맞붙은 3층 주택 두 채를 세웠으며, 면적은 각각 **133㎡**와 **165㎡**다. 이 집은 2026년 8월 준공됐다.",
+   "외관은 신혼여행에서 본 마이애미 아르데코의 파스텔과 인근 1등급 지정 문화재 세인트 마틴 교회의 아치에서 출발했다. 과장된 아치와 물결무늬 지붕선, 청록색 창틀이 구름 같은 윤곽을 만든다. 아치는 재활용 가능한 고밀도 폴리스티렌에 방수 코팅과 분홍 질감 렌더를 입혔고, 구조는 강재와 블록조 골조다.",
+   "큰 집은 침실을 아래에, 거실을 맨 위 통형 볼트 천장 아래에 두는 역전 배치다. 옥상에는 야외 욕조와 청록색 천창이 있고, 이웃 주택의 실내는 입주자가 직접 꾸미도록 열어 두었다. 바닥은 옥색 에폭시, 수납장은 줄무늬 플라이키아 제품이다.",
+   "사업에는 거의 **10년**이 걸렸고 그중 **5년**은 캠던 구청과의 인허가 협의였다. 도심 주택가에서 개성 있는 외관을 허가받는 일이 설계만큼이나 긴 싸움이라는 사실을 보여주는 사례다."
+  ],
+  "source": {
+   "outlet": "Designboom",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.designboom.com/architecture/peter-morris-miami-art-deco-london-gothic-pink-cloud-house-london/"
+    }
+   ]
+  },
+  "src_date": "2026-11-07",
+  "topic": "프로젝트"
+ },
+ "side": {
+  "label": "실무 직결 · 제도/규제",
+  "image": "",
+  "image_label": "대한건축사협회",
+  "title": "건축법 시행령 개정안 의견 접수 12월 11일까지 — 건축법 개정안 2건·모듈러 특별법안도 국회 계류",
+  "body": [
+   "대한건축사협회 건축법제국 입법예고 목록에 따르면, 건축법 시행령 일부개정령안이 **10월 28일**부터 입법예고 중이다. 앞서 10월 16~26일 재입법예고를 거친 뒤 다시 의견을 받는다."
+  ],
+  "facts": [
+   "입법예고: 건축법 시행령 일부개정령안 **2026.10.28~12.11**",
+   "건축물관리법 시행규칙 개정안 **~11.25**, 국토계획법 시행령 개정안 **~11.24**",
+   "특정건축물 정리에 관한 특별조치법 시행령 제정안 **~11.9**",
+   "국회 발의: 건축법 개정안 2건(김정재·한정애 의원), 모듈러 건축 활성화 지원 특별법안(황운하 의원)"
+  ],
+  "body_after": [
+   "세부 조문은 목록에 공개돼 있지 않아 개별 입법예고문에서 확인해야 한다. 의견 제출 기간이 남은 안이 여럿이라 설계 실무에 영향을 줄 조항은 이번 달 안에 점검해 두는 편이 좋다."
+  ],
+  "source": {
+   "outlet": "대한건축사협회",
+   "links": [
+    {
+     "text": "입법예고 목록",
+     "url": "https://www.kira.or.kr/jsp/main/02/01.jsp"
+    }
+   ]
+  },
+  "src_date": "2026-11-02",
+  "topic": "제도규제"
+ },
+ "intl_feature": [
+  {
+   "kicker": "주택 · 멕시코",
+   "title": "독립된 볼륨의 구성 — 토도스 산토스 '아카르츠 하우스'",
+   "image": "https://images.adsttc.com/media/images/6ae8/40e1/bcbc/3500/01ae/acff/newsletter/_piron_Casa_Akatz_014.jpg?1793605993",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "멕시코 토도스 산토스에 **420㎡**로 들어선 주택이다. 설계한 아피론(Ápiron)은 이를 '독립된 볼륨의 구성'이라 설명한다.",
+    "각 볼륨은 일조 방향, 불규칙한 대지 형태, 지형 고저차에 맞춰 배치됐다. 재료는 강재와 석재이며 사진은 라파엘 팔라시오스 마시아스가 찍었다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187965/akartz-house-apiron"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "주택 · 마드리드",
+   "title": "콘크리트가 정체성이 되는 집 — 비에르나9·시랄의 마드리드 '콘크리트 하우스'",
+   "image": "https://images.adsttc.com/media/images/6a9e/da4a/de72/0d00/014c/cf88/newsletter/Casa_de_Hormig_n__7_.jpg?1788795559",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "마드리드 북서부에 **897㎡**로 지은 주택이다. 대지·프로그램·시공 방식이 곧 집의 성격을 정한다는 입장에서, 설계진은 '콘크리트의 사용이 건축적 정체성을 규정한다'고 설명한다.",
+    "콘크리트를 주재료로 삼고 목재, 유리, 석재 질감면을 곁들였다. 조경은 로쿠스 랜드스케이프, 구조는 호세 코네사 아델란타도가 맡았고 2025년 완공됐다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188203/concrete-house-vierna9-plus-ciral-arquitectos"
+     }
+    ]
+   },
+   "src_date": "2026-11-06",
+   "topic": "프로젝트"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "주택 · 스웨덴",
+   "title": "모래언덕 위에 떠 있는 110㎡ — 세바스티안 호너의 '비치 하우스'",
+   "image": "https://images.adsttc.com/media/images/6ae1/fddc/3271/8400/01d0/f633/newsletter/6259861-89.jpg?1793195516",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "스웨덴 해안에 지은 **110㎡** 주택으로, 미래의 기후 변화에 대한 응답으로 설계됐다. 건물을 기둥 위에 올려 폭풍 해일에도 대응하고 모래언덕 위에 떠 있는 듯 보이게 했다. 재료는 목재·유리·강재다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187683/beach-house"
+     }
+    ]
+   },
+   "src_date": "2026-11-07",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "재생 · 콜롬비아",
+   "title": "폐허를 기록으로 삼은 51㎡ — 예마일의 '그린하우스 23'",
+   "image": "https://images.adsttc.com/media/images/6aec/4131/1f37/4900/010d/14d3/newsletter/12.jpg?1793868167",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "콜롬비아 라 칼레라의 폐허를 개조한 **51㎡** 주택이다. 설계진은 폐허를 '물질과 시간의 목록'으로 읽고, 그 판독이 개입 방식을 이끌었다고 설명한다. 강재와 벽돌을 썼고 2025년 완공됐다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188199/greenhouse-house-23-yemail-arquitectura"
+     }
+    ]
+   },
+   "src_date": "2026-11-06",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "소규모 · 이탈리아",
+   "title": "계단길 옆 10㎡ 신문 가판 — 페루자 '에디콜라 518'",
+   "image": "https://images.adsttc.com/media/images/6ae0/cb8f/3271/8400/01d0/f23d/newsletter/01_The_Kiosk_Edicola_518_Design_Giuseppe_Arezzi_2026_Ph.Credit_Giovanni_Emilio_Galanello.jpg?1793117090",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "주세페 아레초가 이탈리아 페루자의 산트에르콜라노 역사 계단 옆에 만든 **10㎡** 가판이다. 독립 잡지와 책을 위한 키오스크를 '문화 전시의 도시 오아시스'이자 사회적 활성화 도구로 다시 해석했다. 2026년 완공."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187621/edicola-518-giuseppe-arezzi"
+     }
+    ]
+   },
+   "src_date": "2026-11-07",
+   "topic": "도시재생"
+  },
+  {
+   "kicker": "주택 · 일본",
+   "title": "주택가와 숲 사이의 99㎡ 목조 — 삿포로 '숲의 창이 있는 집'",
+   "image": "https://images.adsttc.com/media/images/6ac0/0585/90e2/9d01/89d2/dbf1/newsletter/house-with-forest-windows-yosuke-tomiya-architectural-design_1.jpg?1790969246",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "도미야 요스케 설계의 삿포로 목조 주택이다. 교외 주택지와 울창한 숲이 만나는 땅에서 도로 쪽은 이웃과 가깝고 뒤쪽은 숲으로 열린다. 가족의 일상이 숲과 닿으면서도 주변 집들로부터 사생활을 지키는 방식을 탐구했다. **99㎡**, 2023년 준공."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1186270/house-with-forest-windows-yosuke-tomiya-architectural-design"
+     }
+    ]
+   },
+   "src_date": "2026-11-07",
+   "topic": "프로젝트"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "설계공모 · 인천 계양",
+   "title": "계양1유치원, 12월 9일까지 설계 작품 접수 — 연면적 6,568㎡ 규모",
+   "image": "",
+   "image_label": "주택폴리오",
+   "body": [
+    "인천 계양 지역 유치원 신축을 위한 일반 설계공모다. 연면적 **6,568㎡**, 공사비 **129억 원**이며 공고일은 10월 15일이다.",
+    "작품 접수 마감은 **12월 9일**이다. 같은 규모의 계양2유치원 공모가 12월 24일 마감으로 별도 진행 중이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "공모",
+      "url": "https://jootek.com/folio/contests/19018"
+     }
+    ]
+   },
+   "src_date": "2026-10-15",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "협회 · 서울",
+   "title": "서울건축사회, 정회원 월정회비 1개월분 한시 감면 — 환급·기부 선택",
+   "image": "",
+   "image_label": "건축사신문",
+   "body": [
+    "서울특별시건축사회가 건설 경기 침체 장기화에 따른 회원 부담을 덜기 위해 정회원 월정회비 1개월분(서울회 몫)을 한시적으로 감면했다. 대상은 **3,693명**이다.",
+    "7~8월 신청 때 환급을 택한 회원은 약 **2,000명**, 기부는 약 **150명**이다. 신청하지 않은 약 **1,500명**은 2027년 1월 회비가 면제된다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21347"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "협회 · 울산",
+   "title": "울산건축사회 회원 32명, '2026 한국건축산업대전' 참관·실무교육 수강",
+   "image": "",
+   "image_label": "건축사신문",
+   "body": [
+    "울산광역시건축사회(회장 김경섭)가 10월 29일 서울 코엑스에서 열린 한국건축산업대전(KAFF 2026)을 찾았다. 회원 **32명**이 전시를 둘러보고 건축사 실무교육을 들었다.",
+    "건축 산업의 최신 기술과 동향을 파악하고 정보를 통해 지식을 넓히려는 취지다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.ancnews.kr/news/articleView.html?idxno=21356"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "답사 · 경기 가평",
+   "title": "가평지역건축사회, 4박 5일 일본 건축 답사 — 나오시마·테시마·가가와현청사",
+   "image": "",
+   "image_label": "건축사뉴스",
+   "body": [
+    "가평지역건축사회 회원 22명, 가족 7명, 간사 1명 등 **30명**이 10월 21~25일 일본 효고현·가가와현을 둘러봤다. 아와지시마의 안도 다다오 '물의 절'과 '유메부타이', 다카마츠의 단게 겐조 가가와현청사, 나오시마의 베네세 하우스와 SANAA 여객터미널, 테시마 미술관이 일정에 들었다.",
+    "2011년 설립된 이 단체는 2년마다 해외 답사를 이어 왔으며 이번에는 일본에서 활동하는 주재영 건축사가 해설을 맡았다."
+   ],
+   "source": {
+    "outlet": "건축사뉴스",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.a-news.kr/news/articleView.html?idxno=13999"
+     }
+    ]
+   },
+   "src_date": "2026-10-27",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "기고 · AI",
+   "title": "공상에서 실현으로, AI 시대 건축의 새로운 언어 — 박용남 건축사 기고",
+   "image": "",
+   "image_label": "건축사뉴스",
+   "body": [
+    "박용남 건축사(건축사사무소 경담)가 건축사 라운지 기고에서 브루노 제비의 『건축의 현대 언어』를 끌어와, 건축가가 직선의 기하와 전통 제도 도구에 묶여 있었다면 이제 생성형 AI와 알고리즘이 비유클리드 곡선과 파라메트릭 형태를 실현한다고 짚었다.",
+    "그러면서도 따뜻함과 의미, 인문적 사유를 더하는 일은 건축사의 몫이며 건축사는 기술의 방관자가 아닌 '공간의 안내자'가 되어야 한다고 주장한다."
+   ],
+   "source": {
+    "outlet": "건축사뉴스",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.a-news.kr/news/articleView.html?idxno=14019"
+     }
+    ]
+   },
+   "src_date": "2026-11-04",
+   "topic": "프로젝트"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "홍콩 완차이의 자동차 갤러리 카페 '마키나'",
+   "body": "스튜디오 루에이(Yuisze Wong) 설계, 약 2,150ft². 노출 콘크리트·브러시드 메탈·목재, 중심에는 애스턴마틴 발키리.",
+   "source": {
+    "outlet": "Designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/concrete-brushed-metal-hybrid-automotive-gallery-cafe-hong-kong-macchina-studio-ruei/"
+     }
+    ]
+   },
+   "src_date": "2026-11-06",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "빌바오 엔사체 79㎡ 아파트 개조 — 바벨스튜디오",
+   "body": "1970년대의 잘게 나뉜 평면을 가진 집. 목재 중심 마감, 2025년 완공.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188205/apartment-renovation-in-the-ensanche-of-bilbao-babelstudio"
+     }
+    ]
+   },
+   "src_date": "2026-11-07",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "상파울루 92㎡ 아마빌레 아파트 개조",
+   "body": "어두운 아파트의 채광을 되찾은 데니스 조엘손스의 리모델링. 2022년 완공.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188223/amabile-apartment-denis-joelsons"
+     }
+    ]
+   },
+   "src_date": "2026-11-07",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "브라질 파라이바 산간 622㎡ — 아사 아르키테투스의 '아파루 하우스'",
+   "body": "암석 노두와 거친 지형을 살려 여러 높이로 이어지는 배치.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188218/sertao-block-and-amparo-house-asa-arquitetos"
+     }
+    ]
+   },
+   "src_date": "2026-11-06",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "그래니트, 투손 공항 5,200만 달러 CMAR 수주",
+   "body": "4억 달러 규모 공항 안전개선사업의 마지막 공정. 퍼리니 자회사는 해안경비대 기지 6,000만 달러 계약도 따냈다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "펀치 리스트",
+      "url": "https://www.constructiondive.com/news/punch-list-granite-airport-contract-dpr-exec-smacna/873968/"
+     }
+    ]
+   },
+   "src_date": "2026-11-06",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "바르셀로나 10m×10m 포켓파크 공모 — 제출 11월 25일",
+   "body": "지중해 기후의 그늘·휴식·냉각을 다루는 아이디어 공모. 총상금 2,000달러, 전 세계 참가 가능.",
+   "source": {
+    "outlet": "competitions.archi",
+    "links": [
+     {
+      "text": "공모",
+      "url": "https://competitions.archi/?p=263517"
+     }
+    ]
+   },
+   "topic": "설계공모"
+  }
+ ],
+ "counts": {
+  "total": 19,
+  "intl": 14,
+  "kr": 5
+ },
+ "cardnews": [
+  {
+   "slug": "cloud-house-london",
+   "tag": "HOUSE",
+   "title": "5년 인허가 끝에 선 런던의 분홍 아치 주택",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "photo_query": "london terraced houses arches",
+   "slides": [
+    {
+     "heading": "분홍 아치로\n지은 구름 집",
+     "body": "런던 가스펠 오크의 클라우드 하우스"
+    },
+    {
+     "heading": "WHO",
+     "body": "피터 모리스 부부가 직접 설계하고 지은 맞붙은 3층 주택 두 채. 면적은 각각 133㎡와 165㎡다."
+    },
+    {
+     "heading": "LOOK",
+     "body": "마이애미 아르데코의 파스텔과 인근 세인트 마틴 교회의 아치에서 출발한 구름 같은 윤곽."
+    },
+    {
+     "heading": "BUILD",
+     "body": "강재·블록조 골조에 재활용 가능한 폴리스티렌 아치, 분홍 렌더와 옥색 에폭시 바닥."
+    },
+    {
+     "heading": "TIME",
+     "body": "사업 기간은 거의 10년. 그중 5년이 캠던 구청과의 인허가 협의였다."
+    }
+   ]
+  },
+  {
+   "slug": "korea-building-act-notice",
+   "tag": "POLICY",
+   "title": "건축법 시행령 개정안, 12월 11일까지 의견 접수",
+   "ref": {
+    "section": "side"
+   },
+   "bg": 1,
+   "photo_query": "architect blueprint drafting",
+   "slides": [
+    {
+     "heading": "건축법 시행령\n개정안 의견 접수",
+     "body": "12월 11일까지, 입법예고 중"
+    },
+    {
+     "heading": "NOW",
+     "body": "건축법 시행령 일부개정령안이 10월 28일부터 입법예고 중이다."
+    },
+    {
+     "heading": "ALSO",
+     "body": "건축물관리법 시행규칙(~11.25), 국토계획법 시행령(~11.24) 개정안도 의견을 받는다."
+    },
+    {
+     "heading": "NEW LAW",
+     "body": "특정건축물 정리 특별조치법 시행령 제정안은 11월 9일까지 의견을 받는다."
+    },
+    {
+     "heading": "ASSEMBLY",
+     "body": "건축법 개정안 2건과 모듈러 건축 활성화 특별법안이 국회에 발의돼 있다."
+    }
+   ]
+  },
+  {
+   "slug": "akartz-house-mexico",
+   "tag": "PROJECT",
+   "title": "독립된 볼륨의 구성 — 멕시코 아카르츠 하우스",
+   "ref": {
+    "section": "intl_feature",
+    "index": 0
+   },
+   "bg": 2,
+   "photo_query": "baja california architecture house",
+   "slides": [
+    {
+     "heading": "독립된 볼륨이\n모인 집",
+     "body": "토도스 산토스의 아카르츠 하우스"
+    },
+    {
+     "heading": "SITE",
+     "body": "멕시코 토도스 산토스, 420㎡. 불규칙한 대지와 고저차를 가진 땅이다."
+    },
+    {
+     "heading": "IDEA",
+     "body": "설계한 아피론은 '독립된 볼륨의 구성'이라 설명한다."
+    },
+    {
+     "heading": "RESPONSE",
+     "body": "볼륨마다 일조 방향과 지형에 맞춰 배치하고, 강재와 석재로 지었다."
+    }
+   ]
+  }
+ ]
+}
