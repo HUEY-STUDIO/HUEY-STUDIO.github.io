@@ -1,0 +1,502 @@
+{
+ "vol": "VOL.01  NO.084",
+ "editor": "HUEY",
+ "counts": {
+  "total": 18,
+  "intl": 14,
+  "kr": 4
+ },
+ "outlets": [
+  "Dezeen",
+  "ArchDaily",
+  "competitions.archi",
+  "서울시",
+  "건축사신문"
+ ],
+ "teasers": [
+  {
+   "title": "구마 겐고의 벽돌 목욕탕",
+   "desc": "코펜하겐 항구에 피라미드 탑 수영장 12월 개장",
+   "label": "OPENING"
+  },
+  {
+   "title": "서울 정비사업 속도 평가",
+   "desc": "자치구 5곳·조합 10곳 선정, 31만 호 착공 목표",
+   "label": "POLICY"
+  },
+  {
+   "title": "서울한옥위크 8만5천 명",
+   "desc": "프로그램 82개, 지난해보다 방문객 15% 증가",
+   "label": "EVENT"
+  },
+  {
+   "title": "xFigura '리워크' 공모",
+   "desc": "빈 건물에 두 번째 삶을, 11월 29일 마감",
+   "label": "COMPETITION"
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 문화시설",
+  "lede": "코펜하겐 항구에 피라미드 벽돌탑 — 구마 겐고의 '카이 물 문화의 집'",
+  "lede_em": "피라미드 벽돌탑",
+  "image": "https://static-2026.dezeen.com/uploads/2026/11/kengo-kuma-kai-water-cultural-house_dezeen_2364_col_0.jpg",
+  "image_label": "DEZEEN",
+  "caption": "카이 물 문화의 집, 코펜하겐 ⓒ Dezeen 게재 이미지",
+  "body": [
+   "일본 건축가 구마 겐고가 덴마크 코펜하겐 항구에 설계한 **카이 물 문화의 집(Kai Water Culture House)**이 12월 개장을 앞두고 있다. 연면적 **5,800㎡**의 수영·목욕 시설로, 실내외에 수영장 **10개**를 갖춘다.",
+   "외관은 벽돌로 쌓은 피라미드형 탑들이 이어진 모습이다. 설계는 구마 사무소가 덴마크의 코르넬리우스 뵈게, 쇠렌 옌센, 빌헬름 라우리첸 건축사사무소와 함께 맡았다.",
+   "항구 수변에 시민이 물과 만나는 공공 목욕·수영 공간을 두는 방식은 코펜하겐이 도시 재생 과정에서 반복해 온 접근이다. 지역 재료인 벽돌을 큰 규모의 지붕선에 적용한 점도 눈에 띈다.",
+   "이번 기사에서 발주처, 공사비 등은 확인되지 않았다. 개장 이후 실제 이용 방식과 운영 형태가 공개되면 건축이 도시 공공성에 어떤 역할을 하는지 더 구체적으로 평가할 수 있을 것이다."
+  ],
+  "source": {
+   "outlet": "Dezeen",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.dezeen.com/2026/11/07/kengo-kuma-pyramidal-brick-bathhouse-copenhagen/"
+    }
+   ]
+  },
+  "src_date": "2026-11-07",
+  "topic": "프로젝트"
+ },
+ "side": {
+  "label": "실무 직결 · 제도/규제",
+  "image": "",
+  "image_label": "",
+  "title": "서울시, 정비사업 속도 낸 자치구 5곳·조합 10곳 선정 — 31만 호 착공 실행력 높인다",
+  "body": [
+   "서울시가 25개 자치구를 대상으로 처음 실시한 정비사업 종합평가 결과, 인허가 속도를 높인 자치구 5곳을 선정했다. 사업 공정을 앞당긴 조합 10곳은 '신통 2.0 공정촉진 모범조합'으로 뽑아 올해 처음 시장 표창을 수여한다."
+  ],
+  "facts": [
+   "평가 대상: 서울 **25개 자치구** 첫 종합평가",
+   "선정: 우수 자치구 **5곳**, 모범조합 **10곳**",
+   "인센티브: 우수 자치구 직원 표창·인사 인센티브 연계",
+   "목표: **31만 호** 착공 실행력 제고, 12월 표창·우수사례 공유"
+  ],
+  "body_after": [
+   "조합 추천은 관할 구청을 통해 11월 9일부터 접수한다. 인허가 속도가 평가 대상이 되면서 설계·심의 일정 관리도 정비사업 설계 실무의 변수가 될 전망이다. 세부 평가 기준은 첨부 자료에서 확인할 수 있다."
+  ],
+  "source": {
+   "outlet": "서울시 보도자료",
+   "links": [
+    {
+     "text": "보도자료",
+     "url": "http://www.seoul.go.kr/news/news_report.do?nttNo=469826&srchCtgry=465"
+    }
+   ]
+  },
+  "src_date": "2026-11-08",
+  "topic": "제도규제"
+ },
+ "intl_feature": [
+  {
+   "kicker": "도시계획 · 이집트",
+   "title": "7.2km 해안선을 따라 석호가 흐르는 신도시 — SOM의 '알람 알 루움'",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/alam-al-roum-city-egypt-som_dezeen_2364_col_3.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "SOM이 카타르디아르의 의뢰로 이집트 지중해 연안 마르사마트루 인근에 신도시 **알람 알 루움**을 계획했다. 면적은 **20.6㎢**, 해안선 길이는 **7.2km**다.",
+    "바닷물과 이어지는 **22km** 길이의 석호가 도시를 관통해 우수 관리 역할을 하고, 대로가 국제 마리나와 내륙 교통 거점을 잇는다. 1단계(4㎢)는 2030년 착공 예정이다.",
+    "건물과 공공공간은 해풍과 일조를 활용하도록 배치하고, 해수면 변화에 맞춰 지반을 높이며 사구와 생태 호안으로 해안을 보호한다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/05/alam-al-roum-city-egypt-som/"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "공공건축 · 미국",
+   "title": "홍수터 가장 높은 곳의 알루미늄 캐노피 — ARO의 프로비던스 공원 파빌리온",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/195-district-park-pavilion-architecture-research-office-hero_dezeen_2364_col_0.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "아키텍처 리서치 오피스(ARO)가 로드아일랜드 프로비던스강변 '195 디스트릭트 공원'에 연면적 약 **325㎡**(3,500ft²)의 파빌리온을 완성했다. 상점 2곳, 실내외 식당, 공중화장실이 들어간다.",
+    "강변 범람원을 고려해 공원에서 가장 높은 지점에 놓았고, 금속 골조에 삼나무를 입혔다. 강철 기둥이 받치는 넓은 알루미늄 캐노피가 광장의 야외 좌석에 그늘을 드리운다.",
+    "경사진 녹화 지붕은 빗물 유출을 줄이고 옥상 설비를 가린다. 양 벽의 상점 문을 열면 자연 환기가 되고 겨울에는 실내가 쉼터가 된다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/06/195-district-park-pavilion-architecture-research-office/"
+     }
+    ]
+   },
+   "src_date": "2026-11-06",
+   "topic": "프로젝트"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "리노베이션 · 스코틀랜드",
+   "title": "황폐한 번화가 건물을 도서관으로 — 페이즐리 중앙도서관",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/paisley-central-library-collective-architecture-sq_dezeen_2364_col_0.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "콜렉티브 아키텍처가 스코틀랜드 페이즐리의 낡은 상가 건물을 열람실, 행사 공간, 스터디룸을 갖춘 도서관으로 바꿨다.",
+    "이 프로젝트는 RIAS 앤드루 둘런 '스코틀랜드 최고의 건물상' 최종 후보 3곳에 올랐다. 후보는 모두 재사용 프로젝트이며 수상작은 **11월 26일** 발표된다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/06/collective-architecture-paisley-central-library-rias-doolan-award/"
+     }
+    ]
+   },
+   "src_date": "2026-11-06",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "오피스 · 선전",
+   "title": "유니타이즈드 파사드의 업무 시설 — gmp의 '원 오리엔트 본사'",
+   "image": "https://images.adsttc.com/media/images/6ae3/7392/1c13/4b01/a2d9/b95f/newsletter/one-orient-headquarters-von-gerkan-marg-and-partners-architects_1.jpg?1793291175",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "gmp가 중국 선전에 완성한 기술기업 텔링(Telling)의 본사다. 모듈 시스템과 유니타이즈드 파사드로 유리와 프로파일이 거의 끊김 없는 표면을 이룬다.",
+    "이 파사드는 CTBUH 중국 어워드 '파사드 혁신 우수상'을 받았다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1187779/one-orient-headquarters-von-gerkan-marg-and-partners-architects"
+     }
+    ]
+   },
+   "src_date": "2026-11-08",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "주거 · 포르투갈",
+   "title": "같은 반원 셋, 크기만 다르게 — 팔라 아틀리에의 '쿠키 커터 리트릿'",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/fala-atelier-cookie-cutter-retreat-portugal-hero_dezeen_2364_col_0.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "팔라 아틀리에가 포르투갈 소브랄 드 몬테 아그라수의 언덕에 반원형 콘크리트 볼륨 셋을 묻었다. 개인 주택, 공유 주택, 가변형 홀로 쓰이는 디지털 노마드 리트릿이다.",
+    "잔디 지붕과 파란 굴뚝이 풍경에 녹아들며, 프랭크 게리·이토 도요·알바루 시자의 주택 평면 조각을 거의 그대로 빌려 썼다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/08/fala-atelier-cookie-cutter-retreat/"
+     }
+    ]
+   },
+   "src_date": "2026-11-08",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "설계공모 · 국제",
+   "title": "빈 건물에 두 번째 삶을 — xFigura 첫 공모 '리워크', 총상금 1.5만 달러",
+   "image": "https://competitions.archi/wp-content/uploads/2026/11/RW_01-·-Cover.jpg",
+   "image_label": "COMPETITIONS.ARCHI",
+   "body": [
+    "전 세계 어디든 비어 있거나 철거 예정인 기존 건물을 골라 새 용도를 제안하는 공모다. 실제 프로젝트와 비실현 구상 모두 가능하다. 1등 **8,000달러**, 2등 3,000달러, 3등 2,000달러다.",
+    "등록은 무료이며 18세 이상 건축가·디자이너·학생이 최대 5인 팀까지 참가한다. 제출 마감은 **11월 29일**(미 동부시간), 발표는 12월 11일이다."
+   ],
+   "source": {
+    "outlet": "competitions.archi",
+    "links": [
+     {
+      "text": "공모",
+      "url": "https://competitions.archi/competition/rework-by-xfigura/"
+     }
+    ]
+   },
+   "src_date": "2026-11-09",
+   "topic": "설계공모"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "행사 · 서울",
+   "title": "'서울한옥위크' 8만5천 명 발길 — 프로그램 82개로 역대 최대",
+   "image": "",
+   "image_label": "서울시",
+   "body": [
+    "서울시에 따르면 올해 서울한옥위크 방문객은 약 **8만 5천 명**으로 지난해(약 7만 4천 명)보다 약 15% 늘었다. 운영 프로그램은 **82개**로 역대 최대다.",
+    "한옥·리빙 전시에만 약 **1만 7천 명**이 다녀갔다. 시는 서울한옥선언 이후 이어 온 한옥 보전·활용 정책의 성과로 보고 한옥체험을 확대한다."
+   ],
+   "source": {
+    "outlet": "서울시 보도자료",
+    "links": [
+     {
+      "text": "보도자료",
+      "url": "http://www.seoul.go.kr/news/news_report.do?nttNo=469614&srchCtgry=465"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "국제교류 · 서울",
+   "title": "서울-바젤, 건축가 교류로 도시건축 협력 넓힌다 — 신진건축가 3인 참여",
+   "image": "",
+   "image_label": "서울시",
+   "body": [
+    "김성보 행정2부시장이 스위스 바젤슈타트주 주지사를 만나 도시건축 협력 방안을 논의했다. 한국 신진건축가 **3인**이 스위스 건축가와 교류하고 공개포럼에서 도시 과제를 공유했다.",
+    "서리풀 '보이는 수장고'의 참고 사례로 스위스 샤울라거와 네덜란드 디포 보이만스 판 뵈닝언도 방문했다."
+   ],
+   "source": {
+    "outlet": "서울시 보도자료",
+    "links": [
+     {
+      "text": "보도자료",
+      "url": "http://www.seoul.go.kr/news/news_report.do?nttNo=469506&srchCtgry=465"
+     }
+    ]
+   },
+   "src_date": "2026-11-04",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "도시공간 · 서울",
+   "title": "서울시민 10명 중 8명 '노들 글로벌 예술섬' 추진에 공감",
+   "image": "",
+   "image_label": "서울시",
+   "body": [
+    "시민 **1,000명** 조사에서 **80.2%**가 사업 추진에 공감했고 82.2%는 방문 의향을 밝혔다. 이미 개방한 수변문화공간은 89.2%가 긍정적으로 평가했다.",
+    "물위정원은 2027년, 하늘예술정원은 2030년 조성 예정이다. 시는 한강대교 보행환경과 도로체계 등 접근성 개선도 추진한다."
+   ],
+   "source": {
+    "outlet": "서울시 보도자료",
+    "links": [
+     {
+      "text": "보도자료",
+      "url": "http://www.seoul.go.kr/news/news_report.do?nttNo=469422&srchCtgry=465"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "도시재생"
+  },
+  {
+   "kicker": "안전 · 서울",
+   "title": "2026 해체공사 감리·공무원 순회교육 교육자료 배포",
+   "image": "",
+   "image_label": "서울시",
+   "body": [
+    "서울시 지역건축안전센터가 해체공사 감리 업무 이해와 현장 안전관리 실무를 다룬 순회교육 자료(PDF)를 공개했다.",
+    "건축물 해체공사 안전관리 매뉴얼(2023), 서울시 해체공사장 총괄 운영 지침 등 관련 자료도 함께 안내된다."
+   ],
+   "source": {
+    "outlet": "서울시 도시공간포털",
+    "links": [
+     {
+      "text": "공지",
+      "url": "https://news.seoul.go.kr/citybuild/archives/543808"
+     }
+    ]
+   },
+   "src_date": "2026-11-03",
+   "topic": "제도규제"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "클린턴 도서관 — 스튜디오 쇼의 '커뮤니티 거실'",
+   "body": "사우스캐롤라이나 인구 8천 미만 소도시, 1,021㎡. 부지의 참나무로 공동 벤치를 제작.",
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/05/studio-shea-south-carolina-library/"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "스페인 몰리나 데 세구라 보행교 — FVAI",
+   "body": "4,525㎡ 규모 강재 보행교 및 공공공간, 2025년 준공.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188208/molina-de-segura-pedestrian-bridge-fvai"
+     }
+    ]
+   },
+   "src_date": "2026-11-08",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "건축가는 왜 돈을 못 버나 — 데진 위클리",
+   "body": "올해 Pay 100 설문 결과를 바탕으로 건축계 낮은 보수의 원인을 짚는 팟캐스트.",
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/06/architects-pay/"
+     }
+    ]
+   },
+   "src_date": "2026-11-06",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "서울시 \"민간재개발 죄악시 이분법으론 주택공급 확대 어렵다\"",
+   "body": "서울시 주택실이 보도참고자료로 민간재개발에 대한 입장을 밝혔다. 세부 내용은 첨부 자료 참조.",
+   "source": {
+    "outlet": "서울시 보도자료",
+    "links": [
+     {
+      "text": "보도자료",
+      "url": "http://www.seoul.go.kr/news/news_report.do?nttNo=469691&srchCtgry=465"
+     }
+    ]
+   },
+   "src_date": "2026-11-05",
+   "topic": "제도규제"
+  },
+  {
+   "title": "마이크로홈 2027 — 25㎡ 이하 오프그리드 주택, 총상금 5만 유로",
+   "body": "빌드너 주최. 1등 2.5만 유로, 제출 마감 2027년 7월 21일, 누구나 참가 가능.",
+   "source": {
+    "outlet": "competitions.archi",
+    "links": [
+     {
+      "text": "공모",
+      "url": "https://competitions.archi/competition/microhome-2027/"
+     }
+    ]
+   },
+   "src_date": "2026-11-09",
+   "topic": "설계공모"
+  },
+  {
+   "title": "빌드너 '언빌트 어워드 2027' — 미실현 건축 총상금 5만 유로",
+   "body": "소·중·대형 3개 부문 각 1만 유로. 제출 마감 2027년 10월 18일.",
+   "source": {
+    "outlet": "competitions.archi",
+    "links": [
+     {
+      "text": "공모",
+      "url": "https://competitions.archi/competition/buildners-unbuilt-award-2027-e50000-prize/"
+     }
+    ]
+   },
+   "src_date": "2026-10-20",
+   "topic": "설계공모"
+  }
+ ],
+ "cardnews": [
+  {
+   "slug": "kuma-kai-copenhagen",
+   "tag": "PROJECT",
+   "title": "코펜하겐 항구에 서는 벽돌 피라미드 목욕탕",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "photo_query": "copenhagen harbour",
+   "slides": [
+    {
+     "heading": "항구에 선\n벽돌 피라미드",
+     "body": "구마 겐고의 카이 물 문화의 집, 12월 개장"
+    },
+    {
+     "heading": "WHAT",
+     "body": "실내외 수영장 10개를 갖춘 연면적 5,800㎡의 수영·목욕 시설이다."
+    },
+    {
+     "heading": "LOOK",
+     "body": "벽돌로 쌓은 피라미드형 탑들이 항구 수변에 이어진다."
+    },
+    {
+     "heading": "TEAM",
+     "body": "구마 겐고 사무소가 덴마크 건축사사무소 세 곳과 함께 설계했다."
+    },
+    {
+     "heading": "WHY",
+     "body": "시민이 물과 만나는 공공 공간을 항구 재생의 중심에 둔다."
+    }
+   ]
+  },
+  {
+   "slug": "alam-al-roum-som",
+   "tag": "URBAN",
+   "title": "석호가 흐르는 지중해 신도시",
+   "ref": {
+    "section": "intl_feature",
+    "index": 0
+   },
+   "bg": 1,
+   "photo_query": "mediterranean sea coast",
+   "slides": [
+    {
+     "heading": "석호가 흐르는\n지중해 신도시",
+     "body": "SOM의 이집트 알람 알 루움 마스터플랜"
+    },
+    {
+     "heading": "SCALE",
+     "body": "20.6㎢ 부지, 해안선 7.2km를 따라 도시가 펼쳐진다."
+    },
+    {
+     "heading": "WATER",
+     "body": "바닷물과 이어진 22km 석호가 우수 관리를 맡는다."
+    },
+    {
+     "heading": "CLIMATE",
+     "body": "해풍과 일조를 활용해 배치하고 지반을 높여 해수면 변화에 대비한다."
+    },
+    {
+     "heading": "NEXT",
+     "body": "1단계 4㎢는 2030년 착공 예정이다."
+    }
+   ]
+  },
+  {
+   "slug": "seoul-hanok-week",
+   "tag": "EVENT",
+   "title": "서울한옥위크 8만5천 명 — 한옥이 일상의 문화공간으로",
+   "ref": {
+    "section": "korea",
+    "index": 0
+   },
+   "bg": 2,
+   "photo_query": "hanok seoul traditional house",
+   "slides": [
+    {
+     "heading": "한옥이\n일상의 문화공간으로",
+     "body": "서울한옥위크에 8만5천 명이 다녀갔다"
+    },
+    {
+     "heading": "VISITORS",
+     "body": "방문객 약 8만 5천 명, 지난해 약 7만 4천 명보다 15% 늘었다."
+    },
+    {
+     "heading": "PROGRAM",
+     "body": "운영 프로그램은 82개로 역대 최대 규모다."
+    },
+    {
+     "heading": "EXHIBIT",
+     "body": "한옥·리빙 전시에만 약 1만 7천 명이 관람했다."
+    },
+    {
+     "heading": "POLICY",
+     "body": "서울한옥선언 이후 이어 온 보전·활용 정책의 성과로, 한옥체험을 확대한다."
+    }
+   ]
+  }
+ ]
+}
