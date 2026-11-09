@@ -1,0 +1,563 @@
+{
+  "vol": "VOL.01  NO.085",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "Construction Dive",
+    "건축사신문",
+    "주택폴리오",
+    "서울시"
+  ],
+  "teasers": [
+    {
+      "title": "감리비 예치제 입법 추진",
+      "desc": "건축사협회 \"지급 시기는 계약 기준으로\"",
+      "label": "REGULATION"
+    },
+    {
+      "title": "설계공모 건축HUB 일원화",
+      "desc": "2027년 1월부터 공고·결과 등록 통합",
+      "label": "POLICY"
+    },
+    {
+      "title": "프리타운 운반부대 기념비",
+      "desc": "러티언스 기념비 위 유리 피라미드",
+      "label": "MEMORIAL"
+    },
+    {
+      "title": "국립해양수산박물관 공모",
+      "desc": "완도, 공사비 516억 · 등록 11/13 마감",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 기념건축",
+    "lede": "러티언스가 세운 전쟁기념비 위에 유리 피라미드 — 시에라리온 운반부대 946명의 이름을 올리다",
+    "lede_em": "유리 피라미드",
+    "image": "https://static-2026.dezeen.com/uploads/2026/11/freetown-memorial-sierra-leone-carrier-corps-tosin-oshinowo_dezeen_2364_hero_9-1024x576.jpg",
+    "image_label": "DEZEEN",
+    "caption": "프리타운 전쟁기념비 위에 얹은 구조용 유리 피라미드 ⓒ Tolu Sanusi / Oshinówò Studio",
+    "body": [
+      "영연방전쟁묘지위원회(CWGC)가 시에라리온 프리타운에 **시에라리온 운반부대(Carrier Corps)** 기념비를 공개했다. 설계는 토신 오시노워가 이끄는 **오시노워 스튜디오**가 맡았다. 새 구조물은 영국 건축가 에드윈 러티언스가 **1931년**에 설계한 석조 전쟁기념비 꼭대기에 올라선다.",
+      "러티언스의 기존 기념비는 1차대전에서 숨진 병사들을 기렸지만, 보급품과 물자를 나르도록 징집됐다가 사망한 운반부대원 **946명**의 이름은 새기지 않았다. 설계팀은 가늘게 좁아지는 석탑의 기하를 그대로 이어받아 더 높이 솟는 **구조용 유리 피라미드**를 얹고, 여기에 946명의 이름을 에칭했다.",
+      "이름의 위치도 의도적이다. 운반부대원의 이름을 병사들의 이름 위에 배치해 \"동료들에게 상징적으로 떠받쳐지는\" 모습을 만들었다. 오시노워는 이를 근대 세계를 만든 희생에 대한 \"마땅한 감사의 표현\"이라고 설명했다.",
+      "프로젝트에는 추모일마다 켜지는 **레이저 비콘**도 포함된다. 빛기둥은 최대 **5km** 밖에서도 보인다. CWGC의 석공과 청동 전문가는 1930년대 기념비 자체도 전면 복원했다. 식민지 시대 기념물에 빠졌던 이름을 증축으로 보태는, 유산 보존의 새로운 접근이다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/11/09/freetown-memorial-sierra-leone-carrier-corps-tosin-oshinowo/"
+        }
+      ]
+    },
+    "src_date": "2026-11-09",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "감리 독립성 높일 '감리비 예치제' 입법 추진 — 건축사협회 \"지급은 계약 기준으로\"",
+    "body": [
+      "김종양 의원 등 10인이 7월 16일 발의한 「건축법」 개정안은 건축주가 착공신고 때 감리비가 명시된 계약서를 허가권자에게 내고 **감리비를 예치**하도록 한다. 건축주가 사용승인을 신청하면 허가권자가 계약에 따라 감리비를 지급한 뒤 사용승인을 한다. 건축주가 감리비를 직접 쥐는 구조에서 오는 영향력을 줄여 감리자가 독립적으로 판단하게 하려는 취지다."
+    ],
+    "facts": [
+      "발의: 2026년 7월 16일, 「건축법」 일부개정법률안(의안번호 제2220008호)",
+      "현행: 사용승인 신청 시 건축주가 감리비 지급 → 개정안: **착공신고 시 예치**",
+      "국토부: 일률 적용 시 민간 계약 행정개입·허가권자 부담 우려",
+      "협회 요구: 사용승인 신청과 지급을 연결한 문구 **삭제**, 계약상 지급일 기준"
+    ],
+    "body_after": [
+      "대한건축사협회는 취지에 공감하면서도, 지급을 사용승인에 묶으면 자금난으로 공사가 중단될 때 감리자가 **대가를 받지 못할 수 있다**고 지적했다. 감리는 공사 기간 내내 인력이 투입되는 업무라는 점에서다. 보완안으로 서울시 감리비 공공예치·지급제도처럼 지급 14일 전 예치, 7일 전 요청, 업무 수행 확인 후 지급 방식을 제시했다. 올해 5월 서울 서소문 고가 철거현장 붕괴와 GTX-A 삼성역 철근 누락 등이 감리 독립성 논의의 배경이다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21373"
+        }
+      ]
+    },
+    "src_date": "2026-11-09",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "전시·문화 · 마이애미",
+      "title": "ICA 마이애미, 두 번째 미술관 건물 설계에 겐슬러 선정",
+      "image": "https://images.adsttc.com/media/images/6af1/98bf/e43f/5e01/8839/8938/medium_jpg/ica-miami-appoints-gensler-to-design-second-museum-building-in-miami-design-district_2.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "마이애미 현대미술관(ICA Miami)이 디자인 디스트릭트에 있는 두 번째 건물의 리노베이션·증축 설계자로 **겐슬러**를 선정했다. 2024년 매입한 건물로, 기존 미술관과 같은 블록에 있다. **3만 제곱피트**를 더해 시설 규모가 두 배가 되며 개관은 **2027년 말**이다.",
+        "1·2층에 상설·기획 전시용 갤러리 **8개**, 신기술 작가를 위한 '나이트 재단 뉴미디어 갤러리', 3층에는 강연과 공연을 위한 가변형 공간이 들어간다. 입구와 파사드는 더 투명한 진입 경험을 주도록 다시 짜고, 그늘 마당과 조각적 조경으로 공공 영역과의 관계를 넓힌다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188272/ica-miami-appoints-gensler-to-design-second-museum-building-in-miami-design-district"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "전시 · 베니스비엔날레",
+      "title": "2027 베니스 건축비엔날레 미국관 '어스 크래프트' — 아이콘 대신 만드는 사람들",
+      "image": "https://images.adsttc.com/media/images/6af0/d5be/e43f/5e01/8839/863d/newsletter/the-us-pavilion-examines-the-work-of-builders-through-earth-craft-at-the-2027-venice-architecture-biennale_6.jpg?1794168266",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "2027 베니스 건축비엔날레 미국관 전시 **'어스 크래프트(Earth Craft)'**가 공개됐다. 마이애미대 건축대학이 기획·큐레이팅하며, 총괄 큐레이터는 **저메인 반스**, 공동 큐레이터는 비타 피보다. 전시는 **2027년 5월 8일부터 11월 21일**까지 자르디니 미국관에서 열린다.",
+        "벽돌·다짐흙·어도비·콘크리트 블록 등 흙을 다루는 재료가 땅에서 완성된 건물이 되기까지를 따라가며, 미국 건축을 '아이콘이 아니라 만드는 사람들'로 보여 준다. 흙 재료 라이브러리와 제작 워크숍, 도록도 계획돼 있다. 2027년 비엔날레 총감독은 왕슈·루원위가 맡는다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188231/earth-craft-at-the-us-pavilion-will-trace-the-work-of-builders-at-the-2027-venice-architecture-biennale"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "주거 · 영국 콘월",
+      "title": "낡은 농가 헛간을 '고요한 안식처'로 — EBBA의 더치 반",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/dutch-barn-ebba-architecture-residential-uk-houses-england-extensions_dezeen_2364_hero.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "런던의 EBBA 아키텍츠가 콘월의 박공지붕 헛간 주택에서 후대에 덧붙은 개조를 걷어내고 원래의 열린 성격을 되살렸다. 바닥면적은 **약 3분의 1** 늘었다.",
+        "기존 삼나무 지붕널은 재사용하고, 증축부는 **흰 석재 기둥**과 회반죽 벽, 콘크리트 바닥, 격자 목재 천장으로 마감했다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/09/ebba-architects-dutch-barn/"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "복합시설 · 멕시코",
+      "title": "물이 고인 안뜰을 감싼 여덟 동 — 클라세 아술 방문자센터",
+      "image": "https://images.adsttc.com/media/images/6aed/dc29/1f37/4900/010d/1cae/newsletter/CentroVisitantes_El_asRizoArquitectos_FotoC_sarB_jar__16_.jpg?1793973485",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "엘리아스 리소 아르키텍토스가 할리스코주 카필라 데 과달루페에 지은 **6,625㎡** 방문자센터다. 전통 멕시코 주택의 중정에서 출발했다.",
+        "여덟 개 볼륨을 포르티코로 잇고 **물을 채운 중앙 안뜰**을 U자형으로 둘러싸게 배치해 풍경을 향해 열었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188331/visitor-center-at-la-hacienda-clase-azul-elias-rizo-arquitectos"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "공공 · 미국 오리건",
+      "title": "인구 10만 이상을 위한 배움·놀이의 거점 — 홀스트의 이스트카운티 도서관",
+      "image": "https://images.adsttc.com/media/images/6aeb/ec58/1f37/4900/010d/138f/newsletter/1___Christian_Columbres.jpg?1793846376",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "홀스트 아키텍처가 오리건주 그레셤에 완공한 **9만 5천 제곱피트** 규모의 공공도서관이다. 건축가는 \"배움과 놀이, 교류가 있는 지역 중심\"이라고 설명한다.",
+        "도서관이 없던 지역의 공백을 메워 **10만 명 이상**의 주민을 지원한다. 콘크리트 기둥과 목재 마감이 실내를 이룬다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188105/east-county-library-holst-architecture"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "주거 · 멕시코 오악사카",
+      "title": "나무가 선 틈이 집을 가른다 — 알베르토 칼레하의 해안 별장 '카사 노바'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/taller-alberto-calleja-casa-nova-concrete-home-mexico-sq_dezeen_2364_col_0.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "타예르 알베르토 칼레하가 오악사카 마준테의 좁고 긴 바다 쪽 대지에 지은 별장이다. 나무가 선 중앙의 **'틈'**이 집을 두 개의 사다리꼴 볼륨으로 나눠 바다 전망을 끌어들인다.",
+        "동쪽 동은 거실·식당·주방, 서쪽 동은 침실이며 뒤편에는 독립해 쓸 수 있는 입방체 별채 둘이 있다. 노출콘크리트와 **목재 슬라이딩 루버**로 마감했다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/07/taller-alberto-calleja-casa-nova/"
+          }
+        ]
+      },
+      "src_date": "2026-11-07",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "제도 · 설계공모",
+      "title": "2027년 1월부터 공공건축 설계공모 공고·결과 '건축HUB'로 일원화",
+      "image": "",
+      "image_label": "건축사신문",
+      "body": [
+        "한국부동산원은 11월 6일 서울 건설회관에서 발주기관 실무자 대상 설명회를 열고, **2027년 1월**부터 공공건축 설계공모의 공고와 결과 등록이 건축HUB로 일원화된다고 안내했다.",
+        "설명회는 개정 제도, 심사위원 선정 방법과 후보군 활용, **심사이력 관리 강화** 방안, 시스템 등록 시연을 다뤘다. 건축HUB는 공고부터 결과 등록까지 온라인으로 지원하고 통합 심사위원 풀을 제공한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21374"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 강원",
+      "title": "삼척 유아친화형 국민체육센터 설계공모 — 연면적 1,800㎡, 공사비 85.7억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "삼척 복합체육공원(교동 798) 안에 짓는 운동시설이다. 연면적 **1,800㎡**, 설계비 **4.7억 원**, 공사비 **85.7억 원**의 일반 설계공모다.",
+        "11월 6일 공고했으며 참가등록 마감은 **11월 13일**, 결과 발표는 2027년 1월 18일이다. 심사위원은 7인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19104"
+          }
+        ]
+      },
+      "src_date": "2026-11-06",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 전남",
+      "title": "국립해양수산박물관 건립 설계공모 — 연면적 1만 4,413㎡, 공사비 516억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "완도읍 장좌리 일대에 짓는 문화및집회시설로, 연면적 **14,413㎡**, 설계비 **30.7억 원**, 공사비 **516억 원** 규모의 일반 설계공모다. 건축·통신·소방 설계를 함께 맡는다.",
+        "11월 5일 공고, 참가등록 마감은 **11월 13일**이며 결과는 2027년 1월 27일 이내 발표된다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19108"
+          }
+        ]
+      },
+      "src_date": "2026-11-05",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경북",
+      "title": "영주 무섬마을 저잣거리 조성 제안공모 — 연면적 1,170㎡, 공사비 106억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "영주시 문수면 수도리 일원에 들어서는 근린생활시설로, 연면적 **1,170㎡**, 설계비 **7.5억 원**, 공사비 **106억 원** 규모의 제안공모다.",
+        "11월 6일 공고, 참가등록 마감은 **11월 16일**, 결과 발표는 12월 17일 예정이다. 심사위원은 7인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19102"
+          }
+        ]
+      },
+      "src_date": "2026-11-06",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경기",
+      "title": "제2경기학교예술창작소 리모델링 제안공모 — 연면적 5,584㎡, 공사비 116억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "양주시 옥정동에 있는 교육연구시설 리모델링 사업이다. 연면적 **5,584㎡**, 설계비 **4억 원**, 공사비 **116억 원** 규모의 제안공모다.",
+        "11월 9일 공고했으며 참가등록 마감은 **11월 16일**, 결과 발표는 12월 24일이다. 심사위원은 11인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19106"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 서울",
+      "title": "서울구로초 그린스마트 미래학교 개축 설계공모 — 연면적 9,524㎡, 공사비 285억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "구로구 구로중앙로27나길의 서울구로초 내 개축 사업이다. 연면적 **9,524㎡**, 설계비 **12.5억 원**, 공사비 **285억 원** 규모의 일반 설계공모다.",
+        "11월 9일 공고, 참가등록 마감은 **11월 16일**, 결과는 2027년 3월 3일 발표된다. 심사위원은 10인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19107"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "도시계획 · 서울",
+      "title": "제2차 서울시 지역균형발전계획 시민공청회 — 11월 12일 시립미술관 세마홀",
+      "image": "",
+      "image_label": "서울시",
+      "body": [
+        "서울시가 지역 격차를 줄이고 지역 잠재력을 성장동력으로 전환하기 위한 제2차 지역균형발전계획(안)을 놓고 **11월 12일(목) 14~16시** 서울시립미술관 세마홀에서 시민공청회를 연다.",
+        "서울연구원 윤서연 연구위원이 계획안을 발표하고, 이희정 서울시립대 교수가 좌장을 맡은 전문가 토론(45분)과 질의응답이 이어진다."
+      ],
+      "source": {
+        "outlet": "서울시",
+        "links": [
+          {
+            "text": "공청회 공지",
+            "url": "https://news.seoul.go.kr/citybuild/archives/543820"
+          }
+        ]
+      },
+      "src_date": "2026-11-03",
+      "topic": "도시재생"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "미 비주거 계획 지표 10월 9% 급감",
+      "body": "다지 모멘텀 지수가 전월 대비 **9%** 하락. 데이터센터·창고 계획이 줄며 상업 부문이 **13.4%** 빠졌고 기관 부문은 1.5% 감소했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/commercial-pullback-lower-construction-planning-october/874146/"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "플루어, 켄터키 40억 달러 데이터센터 EPC 수주",
+      "body": "테라울프의 호즈빌 캠퍼스 3개 동. 단계별 준공은 2027년 말~2028년 2분기.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/fluor-epc-contract-kentucky-data-center-terawulf/874097/"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "HITT, NASA 존슨우주센터 제작시설 착공",
+      "body": "약 **37,625제곱피트** 정밀가공 시설(Building 70). 3억 달러 계약의 일부이며 2028년 8월 완공 예정.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/hitt-breaks-ground-nasa-fabrication-center-texas/874134/"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "미 노동부, 견습 프로그램 차별금지 의무 대폭 완화 — 1월 5일 시행",
+      "body": "연방 등록 견습제 스폰서의 기회균등 담당자 지정·괴롭힘 방지 교육·인종·성별 데이터 분석 의무를 없앤다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/dol-proposes-revamp-of-discrimination-practices-in-apprenticeships/874091/"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "제도규제"
+    },
+    {
+      "title": "SOM, 호주 질롱 커닝햄 부두에 34층 트레포일 타워",
+      "body": "1855년 부두 위 **10,000㎡** 복합개발: 아파트 약 280호, 200실 호텔, 요트 선석 빌라 12동. 설계공모 당선작.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/04/cunningham-pier-development-som-australia/"
+          }
+        ]
+      },
+      "src_date": "2026-11-04",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "RISCO, 포르투갈 피게이라다푸즈 병원 클리닉",
+      "body": "도심 기성 시가지에 들어선 **2,100㎡** 의료시설. 포르투갈 건축사무소 RISCO 설계.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188321/hospital-da-luz-clinica-da-figueira-da-foz-risco"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "freetown-carrier-corps-memorial",
+      "tag": "MEMORIAL",
+      "title": "러티언스 기념비 위에 오른 유리 피라미드",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "freetown sierra leone",
+      "slides": [
+        {
+          "heading": "기념비 위에\n얹은 유리 피라미드",
+          "body": "시에라리온 운반부대 946명의 이름을 올리다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "프리타운의 1931년 러티언스 전쟁기념비 위에 구조용 유리 피라미드를 증축했다. 설계는 오시노워 스튜디오."
+        },
+        {
+          "heading": "WHO",
+          "body": "병사들과 달리 이름이 새겨지지 못했던 운반부대원 946명이 이번에 명단에 올랐다."
+        },
+        {
+          "heading": "DETAIL",
+          "body": "운반부대원의 이름을 병사들의 이름 위에 놓아 '동료들에게 떠받쳐지는' 모습을 만들었다."
+        },
+        {
+          "heading": "LIGHT",
+          "body": "추모일마다 레이저 비콘이 켜진다. 빛기둥은 최대 5km 밖에서도 보인다."
+        }
+      ]
+    },
+    {
+      "slug": "gamri-escrow-bill",
+      "tag": "POLICY",
+      "title": "감리비 예치제, 감리 독립성을 지킬까",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "construction site inspection",
+      "slides": [
+        {
+          "heading": "감리비\n예치제",
+          "body": "건축주 영향력을 줄여 감리 독립성을 높인다"
+        },
+        {
+          "heading": "WHAT",
+          "body": "착공신고 때 감리비를 허가권자에게 예치하고, 허가권자가 감리자에게 지급하는 「건축법」 개정안이 7월 발의됐다."
+        },
+        {
+          "heading": "WHY",
+          "body": "철근 누락, 철거현장 붕괴 등이 이어지며 감리자가 건축주 눈치를 보지 않는 구조가 쟁점이 됐다."
+        },
+        {
+          "heading": "ISSUE",
+          "body": "지급이 사용승인 신청에 묶이면 공사가 멈출 때 감리자가 대가를 못 받을 수 있다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "건축사협회는 계약상 지급일 기준과 서울시식 14일 전 예치·7일 전 요청 절차를 대안으로 제시했다."
+        }
+      ]
+    },
+    {
+      "slug": "gongmo-archihub-2027",
+      "tag": "COMPETITION",
+      "title": "공공건축 설계공모, 건축HUB로 모인다",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "architects reviewing drawings",
+      "slides": [
+        {
+          "heading": "공공건축 설계공모\n건축HUB로 일원화",
+          "body": "2027년 1월부터 공고와 결과 등록 창구가 하나로"
+        },
+        {
+          "heading": "WHAT",
+          "body": "공공건축 설계공모의 공고와 결과 등록이 건축HUB 한 곳으로 통합된다."
+        },
+        {
+          "heading": "WHO",
+          "body": "한국부동산원이 운영하며, 11월 6일 발주기관 실무자 대상 설명회를 열었다."
+        },
+        {
+          "heading": "JURY",
+          "body": "통합 심사위원 풀을 제공하고 심사이력 관리를 강화한다."
+        },
+        {
+          "heading": "WHY",
+          "body": "제도 개정에 따른 혼선을 줄이고 설계공모 운영의 효율성과 투명성을 높이는 것이 목표다."
+        }
+      ]
+    }
+  ]
+}
