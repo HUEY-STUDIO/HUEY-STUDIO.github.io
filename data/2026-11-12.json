@@ -1,0 +1,668 @@
+{
+  "vol": "VOL.01  NO.087",
+  "editor": "HUEY",
+  "counts": {
+    "total": 25,
+    "intl": 17,
+    "kr": 8
+  },
+  "outlets": [
+    "designboom",
+    "Dezeen",
+    "ArchDaily",
+    "Competitions.archi",
+    "Archinect",
+    "Construction Dive",
+    "ENR",
+    "건축사신문",
+    "국토일보",
+    "대한전문건설신문",
+    "서울시",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "선전 오페라하우스, 형체 드러내다",
+      "desc": "장 누벨 '바다의 빛' · 2028년 12월 완공 목표",
+      "label": "PROJECT"
+    },
+    {
+      "title": "서울시 설계공모에 AI 기술검토",
+      "desc": "'프로젝트 서울' 개편 · 11월 20일 정식 서비스",
+      "label": "POLICY"
+    },
+    {
+      "title": "남원 함파우 한옥 리모델링 공모",
+      "desc": "연면적 272㎡ · 참가등록 11월 17일까지",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "마리나 타바숨, 리처드 노이트라상",
+      "desc": "칼폴리 포모나 31회 · 기후 대응 설계",
+      "label": "AWARDS"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 공연장",
+    "lede": "바다를 향해 물결치는 지붕 — 장 누벨의 선전 오페라하우스, 2028년 완공 향해 형체 드러내",
+    "lede_em": "물결치는 지붕",
+    "image": "https://www.designboom.com/wp-content/uploads/2026/11/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028-designboom-1800.jpg",
+    "image_label": "DESIGNBOOM",
+    "caption": "선전만을 마주한 선전 오페라하우스 조감 ⓒ Ateliers Jean Nouvel",
+    "body": [
+      "**아틀리에 장 누벨**이 설계한 중국 **선전 오페라하우스**가 공사 현장에서 형체를 드러내고 있다. 대지는 선전 난산구 서커우의 둥자오터우로, 삼면이 물에 둘러싸여 **선전만**을 정면으로 마주한다. 설계안은 **2021년** 국제 설계공모 당선작이며 제목은 **'바다의 빛(Light of the Sea)'**이다.",
+      "총 연면적은 약 **22만㎡**다. **2,100석** 오페라극장, **1,800석** 콘서트홀, **1,000석** 소오페라극장, **500석** 다목적극장 등 네 개 공연장이 한 지붕 아래 모인다. 건물을 덮는 거대한 곡면 지붕은 \"파도의 움직임을 떠올리게 하도록\" 설계됐다.",
+      "실내 마감의 핵심은 **자개(진주층)**다. 주 공연장의 발코니 곡면과 음향 벽에 자개를 입혀 물 위로 일렁이는 반사광을 실내로 끌어들인다. 음향 목표는 배경소음 **NR 15 이하**로, 세계 최상급 공연장 수준이다.",
+      "시공에는 디지털 설계·시공 도구와 함께 **용접 로봇·측량 로봇**이 투입됐다. 주 지붕 구조는 **2027년**, 전체 준공은 **2028년 12월**이 목표다. 공사비와 높이는 공개되지 않았다."
+    ],
+    "source": {
+      "outlet": "designboom",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.designboom.com/architecture/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028/"
+        }
+      ]
+    },
+    "src_date": "2026-11-11",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 해체 제도",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "여러 동 해체 땐 '동별 해체 순서'까지 계획서에 — 국토부, 해체계획서 작성 기준 개정 행정예고",
+    "body": [
+      "국토교통부가 「건축물 해체계획서의 작성 및 감리업무 등에 관한 기준」 일부개정고시안을 행정예고했다. 「건축물관리법 시행규칙」 규제 개선의 후속조치로, 한 사업에서 여러 동을 해체할 때의 작업 순서를 계획 단계에서 명확히 하려는 것이다."
+    ],
+    "facts": [
+      "대상: 해체하려는 건축물이 **여러 동**인 경우",
+      "신설: 제11조(작업 순서 등) **제2항** — 작업순서에 **동별 해체 순서** 포함 의무",
+      "목적: 인접 건축물 간 위험·장비 이동 간섭 예방, 필지별 **중복 작성** 해소",
+      "비용: 추가 시험·계측 없어 추가 부담 없음(국토부)",
+      "의견 제출: **11월 20일**까지 국민참여입법센터"
+    ],
+    "body_after": [
+      "지금까지는 개별 필지 중심의 인허가 구조 탓에 한 사업 안에서도 필지마다 해체계획서를 따로 써야 했다. 해체계획서를 작성·검토하는 건축사와 해체감리자는 다동 현장에서 동 간 순서와 장비 동선을 계획서 단계에서 미리 정리해 둘 필요가 있다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21382"
+        }
+      ]
+    },
+    "src_date": "2026-11-11",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "헤리티지 · 영국 요크",
+      "title": "대성당을 고치는 장인들의 집 — 톤킨 리우, 요크 민스터 '유산 공예기술 센터'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/york-minster-centre-excellence-tonkin-liu-hero_dezeen_2364_col_0-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "영국 **톤킨 리우**가 1등급 등록문화재 **요크 민스터** 양옆에 대성당 보수 장인들을 위한 목조 건물 두 동, **'유산 공예기술 센터(Centre of Excellence for Heritage Craft Skills)'**를 완공했다.",
+        "중세 성벽 곁의 **헤리티지 쿼드**는 기존 구조물을 남기고 재사용·증축해 만든 사각형 건물이다. 집성목·합판 지붕이 중정 일부를 덮고 빗물을 탱크로 모으며, 석공 작업장·교육 공간·견습생 숙소가 들어갔다. 삼각형 평면의 **테크놀로지 허브**는 철골·집성목 구조로, 태양광 지붕 아래 디지털 석재 가공 장비를 두고 포물선 팬 볼트와 트러스가 대성당 익랑 쪽으로 퍼진다. 마이크 톤킨은 이 시설이 \"다음 세기 안에 보존 작업을 **40년** 앞당길 것\"이라고 말했다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/11/york-minster-centre-excellence-tonkin-liu/"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "미술관 · 두바이",
+      "title": "'집의 기억'을 품은 미술관 — 수마야 발리, 두바이 엘리 쿠리 아트 파운데이션",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/sumayya-vally-dubai-elie-khouri-art-foundation_dezeen_2364_col_0-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "남아공 **카운터스페이스**의 **수마야 발리**가 두바이 주메이라1의 옛 빌라를 대대적으로 고쳐 **엘리 쿠리 아트 파운데이션**의 상설 거점으로 만든다. 개관은 **2028년**, 발리의 아랍에미리트 첫 상설 프로젝트다.",
+        "렌더링 속 건물은 연분홍 질감의 3층 매스다. 파사드에 새긴 선이 옛 집의 문틀 윤곽을 따라가고, 기하학적 개구부로 내부 활동이 드러난다. 소장품 상설관과 기획전시실이 들어간다. 발리는 \"건물에는 여러 개의 삶이 있다\"며 \"이미 하나의 세계를 품었던 집\"을 이야기했다. 그는 2021년 서펜타인 파빌리온을 설계했다."
+      ],
+      "source": [
+        {
+          "outlet": "Dezeen",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://www.dezeen.com/2026/11/11/sumayya-vally-dubai-elie-khouri-art-foundation/"
+            }
+          ]
+        },
+        {
+          "outlet": "ArchDaily",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://www.archdaily.com/1188481/sumayya-vally-unveils-first-permanent-uae-project-with-dubais-elie-khouri-art-foundation"
+            }
+          ]
+        }
+      ],
+      "src_date": "2026-11-11",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "공공시설 · 파리",
+      "title": "1937년 엑스포 터널 속 공중화장실 — 샤르티에-코르바송, 트로카데로 정원",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/public-toilets-chartier-corbasson-paris-hero_dezeen_2364_col_1-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "에펠탑 앞 트로카데로 정원 지하, 1937년 엑스포 때 로제 라르다가 만든 뒤 청소 창고로 쓰이던 터널이 공중화장실로 바뀌었다. 2차대전 말 미군 병사들이 남긴 낙서가 있는 **부싯돌 벽** 사이에 **스테인리스 칸막이**를 넣어 양방향 동선을 만들고, 분홍 잔다듬 콘크리트 입구엔 **코르텐** 문을 달았다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/11/public-toilets-chartier-corbasson-paris/"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "공연장 · 에콰도르",
+      "title": "대나무 다발이 받치는 지름 30m 북 — 안데스 계곡의 '봄보드로모'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/caa-poro-herferd-bombadora-ecuador_dezeen_2364_hero-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "**카아 포라 아르키텍투라**와 **제롬 해퍼드 스튜디오**가 에콰도르 카르치주 초타강 계곡에 공연 캠퍼스를 설계했다. 주 공간은 **1만 명** 이상을 수용하며 **지름 30m** 지붕을 집성 대나무 다발이 받친다. 주변에는 흙다짐 벽의 부속동 최대 8동이 놓이고, 착공은 **2027년** 예정이다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/11/caa-pora-arquitectura-jerome-haferd-studio-bombodromo-ecuador/"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "숙박 · 일본 지바",
+      "title": "거대한 원형 개구부의 목조 게스트하우스 — 니코 디자인 스튜디오 '우미노 마루미'",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/niko-arch-studio-sauna-hut-marumi-house-japan-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "태평양이 내려다보이는 지바의 2층 목조 게스트하우스다. 지름 약 **400mm** 삼나무 통나무를 전통 맞춤으로 짜고, 덮인 면적의 약 3분의 1을 반외부 툇마루로 열었다. 옆의 **5㎡** 사우나는 이웃집 야자수를 피해 자연스럽게 휜 목재로 지붕을 굽혔다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/giant-circle-niko-timber-guesthouse-tiny-curved-sauna-japan-marumi/"
+          }
+        ]
+      },
+      "src_date": "2026-11-10",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 로마",
+      "title": "보르게세 미술관 증축 공모 — 1단계 접수 11월 13일 마감",
+      "image": "https://competitions.archi/wp-content/uploads/2026/10/GalleriaBorgheseAmpliamento_cover_ENG-e1792408709731.jpg",
+      "image_label": "COMPETITIONS.ARCHI",
+      "body": [
+        "엔지니어링사 **프로제르(Proger)**가 주최하는 로마 **갤러리아 보르게세** 증축 공모다. 최대 **3,000㎡** 신축 볼륨 또는 비보호 부속건물 개선이 과제다. 1단계는 **11월 13일** 경력 서류로 5팀을 뽑고, 2단계 설계안은 내년 3월 18일 마감이다. 당선팀에는 타당성 조사 용역 **50만 유로**가 주어진다. 연 방문객 약 63만 명으로 2022년 대비 86% 늘었다."
+      ],
+      "source": [
+        {
+          "outlet": "Competitions.archi",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://competitions.archi/competition/expansion-of-the-galleria-borghese-museum-in-rome/"
+            }
+          ]
+        },
+        {
+          "outlet": "Il Foglio",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://ilfoglio.it/roma-capoccia/2026/10/15/news/lampliamento-della-galleria-borghese-va-avanti--410639"
+            }
+          ]
+        }
+      ],
+      "src_date": "2026-10-15",
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "제도 · 서울시",
+      "title": "서울시 '프로젝트 서울' 개편 — 공공건축 설계공모에 전국 첫 AI 기술검토 시범 도입",
+      "image": "https://cdn.ancnews.kr/news/photo/202611/21381_24232_4918.png",
+      "image_label": "건축사신문",
+      "body": [
+        "서울시가 공공건축 플랫폼 '프로젝트 서울'을 설계공모 중심에서 공모·설계·시공·준공까지 사업 **전 단계**로 넓힌다. 제출작의 법규·지침 준수 여부는 **AI 사전검토**와 전문위원 검토의 이중 구조로 확인한다.",
+        "'참가자격 사전검토'와 '기본서류 자동 첨부'도 신설한다. 정식 서비스는 **11월 20일**, 설명회는 11월 19일 서울시청에서 열린다(사전신청 11월 13~17일)."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21381"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "공급 · 도심복합사업",
+      "title": "약수역 도심복합사업, 저층주거지 첫 '설계·시공 통합공모' — 사업기간 5개월 단축",
+      "image": "",
+      "image_label": "국토일보",
+      "body": [
+        "국토부가 서울 중구 신당동 약수역 도심 공공주택 복합사업지구(**6만4,000㎡**, 1,616호)에 저층주거지 유형으로는 처음 **설계·시공자 통합공모**를 적용한다. 사업기간을 **5개월 이상** 줄이는 것이 목표다.",
+        "이달 중 공모에 착수해 내년 상반기 설계·시공자를 선정하고, **2030년**까지 착공한다."
+      ],
+      "source": {
+        "outlet": "국토일보",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ikld.kr/news/articleView.html?idxno=343996"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "재개발 · 성북구",
+      "title": "한양도성 낙산 아래 870세대 — 삼선동1가 재개발 신속통합기획 확정",
+      "image": "https://news.seoul.go.kr/citybuild/files/2025/06/6af3d5236d71b1.18983363-scaled.jpg",
+      "image_label": "서울시",
+      "body": [
+        "서울시가 성북구 삼선동1가 277 일대(**5만6,377㎡**) 재개발 신속통합기획을 확정했다. 용적률 192% 내외, 최고 **18층**, 약 **870세대**다.",
+        "성곽 양쪽 20m 문화유산보호구역은 **선형공원**으로 바꾸고, 서측 2~3층에서 동측으로 높이를 올리되 낙산(해발 125m)보다 낮게 둔다. 30m 넘는 고저차 구간엔 테라스하우스를 넣는다."
+      ],
+      "source": {
+        "outlet": "서울시 도시공간",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://news.seoul.go.kr/citybuild/archives/542573"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "세미나 · 특별건축구역",
+      "title": "'특별건축구역을 말하다' — 설계 자율성 넘어 준공 후 공공성 유지가 과제",
+      "image": "https://cdn.ancnews.kr/news/photo/202611/21383_24234_4531.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "에이엔유디자인그룹 주최, 한국도시설계학회 주관 세미나가 **11월 5일** 열려 2007년 도입된 특별건축구역 제도의 성과를 짚었다.",
+        "김지엽 성균관대 교수는 LH 공모지침의 **'100% 남향배치'** 요구가 사선배치를 낳아 가로경관을 해친다고 비판했고, 송하엽 중앙대 교수는 지역별 가이드라인을 제안했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21383"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "해외수주 · 탄자니아",
+      "title": "희림, 탄자니아 수도 도도마 '홈볼로 스마트시티' 총괄 마스터플래너 선정",
+      "image": "",
+      "image_label": "대한전문건설신문",
+      "body": [
+        "희림종합건축사사무소가 9일(현지시간) 도도마시와 '홈볼로 스마트시티 개발 타당성 조사 및 종합 마스터플랜' 계약을 맺었다. 약 **1만㏊** 홈볼로 호수 일대에 친환경·ICT 위성도시를 계획한다.",
+        "EDCF 등 공공 차관 없이 민간 건축회사가 현지 지방정부와 직접 협상해 따낸 사업이다."
+      ],
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327426"
+          }
+        ]
+      },
+      "src_date": "2026-11-10",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "시장 · 건설동향",
+      "title": "9월 건설수주 24.6조 49%↑ — 그러나 주거용 건축기성 8.8%↓, 체감경기 70.6",
+      "image": "",
+      "image_label": "대한전문건설신문",
+      "body": [
+        "건산연 '월간 건설시장동향'에 따르면 9월 건설수주는 **24.6조원**으로 49.3% 늘었다. 반도체 공장 등 비주택이 139.7% 급증했다. 반면 건축기성은 2.8%, 주거용은 **8.8%** 줄었다.",
+        "건설업 취업자는 192.6만 명으로 **29개월째** 감소했고, 10월 건설기업경기실사지수(CBSI)는 **70.6**으로 2.6p 떨어졌다."
+      ],
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327429"
+          }
+        ]
+      },
+      "src_date": "2026-11-10",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 남원",
+      "title": "함파우 예술체험촌 한옥(동헌) 리모델링 설계공모 — 연면적 272㎡, 공사비 26억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "전북 남원시 어현동 함파우 예술체험촌 안 동헌 한옥을 제1종 근린생활시설로 고치는 제안공모다. 연면적 **272㎡**, 예정 설계비 2.2억 원, 공사비 **26억 원**.",
+        "참가등록은 **11월 12~17일**, 결과 발표는 12월 14일이다. 심사위원은 7인."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19117"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 서천",
+      "title": "장항놀숲 힐링공간 조성 제안공모 — 연면적 2,400㎡, 공사비 140억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "충남 서천군 장항읍 창선1리에 문화 및 집회시설을 신축하는 기본·실시설계 제안공모다. 연면적 **2,400㎡**, 설계비 8.5억 원, 공사비 **140억 원**.",
+        "참가등록은 **11월 18일**부터, 결과 발표는 12월 23일이다. 심사위원은 10인."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19114"
+          }
+        ]
+      },
+      "src_date": "2026-11-10",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "마리나 타바숨, 2026 리처드 노이트라상",
+      "body": "칼폴리 포모나 건축학과가 31년째 주는 상이다. 2025 서펜타인 파빌리온의 다카 건축가로, **재료·공동체 회복력·기후 대응 설계**가 높이 평가됐다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150573789/marina-tabassum-named-2026-richard-neutra-award-honoree"
+          }
+        ]
+      },
+      "src_date": "2026-11-10",
+      "topic": "수상"
+    },
+    {
+      "title": "피어스 패시브 프로젝트 공모 2026 수상작",
+      "body": "종합 대상은 워싱턴 D.C. 저렴주택 **더 페어클리프**(에릭 콜버트). 레이크 플라토의 라이어슨 우즈 교육센터 등 **12개 부문** 시상.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11190/best-sustainable-projects-of-2026-honored-at-phius-passive-projects-design-competition"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "수상"
+    },
+    {
+      "title": "양곡고 공간재구조화 설계공모",
+      "body": "경기 김포 양곡고 증축·리모델링, 연면적 **7,796㎡**, 공사비 54.3억 원. 참가등록 **11월 12~19일**, 결과 12월 28일.",
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19116"
+          }
+        ]
+      },
+      "src_date": "2026-11-10",
+      "topic": "설계공모"
+    },
+    {
+      "title": "동일업종 다단계 하도급 원칙 금지 법안",
+      "body": "윤준병 의원이 건산법 개정안을 발의했다. 종합건설 간 하도급도 발주자 **서면 승낙** 필요, 상호시장 진출 제한 일몰은 **2031년**까지 연장.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327434"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "제도규제"
+    },
+    {
+      "title": "현대건설 13.3조·삼성물산 12.8조, 정비사업 수주 역대 최대",
+      "body": "현대건설은 압구정3구역(**5.56조**) 등 10곳, 삼성물산은 여의도 시범 등 12곳. GS건설도 5.5조로 뒤를 이었다.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327420"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "설계VE 제안 1만1,122건 DB 구축",
+      "body": "상아매니지먼트컨설팅이 2018~2025년 VE 242건을 DB화했다. 초기공사비 절감 약 **2,489억 원**, 2025년 채택률 70.2%.",
+      "source": {
+        "outlet": "국토일보",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ikld.kr/news/articleView.html?idxno=343992"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "AI 기업들, 건축사무소에 \"CAD 파일 사면 수억\"",
+      "body": "Nyne.ai 등이 3년치 도면·수정본에 **여섯 자릿수 달러**를 제시했다. 파일을 가졌다고 팔 권리가 있는 건 아니라는 저작권 경고가 나온다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/article/150573603/ai-companies-are-offering-architects-six-figures-for-cad-files-have-you-been-approached"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "제도규제"
+    },
+    {
+      "title": "플루어, 평균 45억 달러 메가프로젝트 25건 겨냥",
+      "body": "3분기 순이익 1.58억 달러로 흑자 전환, 수주잔고 **343억 달러**(+21%). LNG 캐나다 2단계 75억 달러 포함.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/fluor-eyes-25-potential-megaprojects/874180/"
+          }
+        ]
+      },
+      "src_date": "2026-11-10",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "시카고 유니언역 1.12억 달러 승강장 개량 착공",
+      "body": "옛 우편 승강장 30~38번을 ADA 수평승차 승강장으로 바꾼다. 시공 클라크, 설계 WSP, **30개월** 공기.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64263-construction-starts-on-112m-chicago-union-station-platform-upgrade"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "shenzhen-opera-house-nouvel",
+      "tag": "PROJECT",
+      "title": "바다를 향해 물결치는 장 누벨의 선전 오페라하우스",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "shenzhen",
+      "slides": [
+        {
+          "heading": "파도를 닮은\n지붕 아래 네 극장",
+          "body": "장 누벨의 선전 오페라하우스, 2028년 완공 향해"
+        },
+        {
+          "heading": "WHERE",
+          "body": "선전 난산구 서커우 둥자오터우. 삼면이 물로 둘러싸여 선전만을 정면으로 마주한다."
+        },
+        {
+          "heading": "SCALE",
+          "body": "연면적 약 22만㎡. 2,100석 오페라극장, 1,800석 콘서트홀, 1,000석 소극장, 500석 다목적극장."
+        },
+        {
+          "heading": "FORM",
+          "body": "2021년 국제공모 당선안 '바다의 빛'. 거대한 곡면 지붕이 파도의 움직임을 떠올리게 한다."
+        },
+        {
+          "heading": "INTERIOR",
+          "body": "발코니 곡면과 음향 벽을 자개로 덮어 물 위의 반사광을 실내로. 배경소음 목표는 NR 15 이하."
+        },
+        {
+          "heading": "SCHEDULE",
+          "body": "용접·측량 로봇이 투입된 현장. 주 지붕 구조는 2027년, 전체 준공은 2028년 12월 목표."
+        }
+      ]
+    },
+    {
+      "slug": "york-minster-craft-centre",
+      "tag": "HERITAGE",
+      "title": "대성당을 고치는 장인들의 집, 요크 민스터",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "commons_photos": [
+        "File:Front face of York Minster.jpg",
+        "File:York Minster, exterior.jpg",
+        "File:York Minster Chapter House Ceiling.jpg",
+        "File:York Minster (2024).jpg"
+      ],
+      "photo_query": "york minster stone",
+      "slides": [
+        {
+          "heading": "대성당을 고치는\n장인들의 집",
+          "body": "톤킨 리우, 요크 민스터 '유산 공예기술 센터'"
+        },
+        {
+          "heading": "WHAT",
+          "body": "1등급 문화재 요크 민스터 양옆에 놓인 목조 건물 두 동. 석공과 견습생을 위한 작업·교육·주거 시설이다."
+        },
+        {
+          "heading": "HERITAGE QUAD",
+          "body": "중세 성벽 곁 기존 구조물을 남겨 고쳐 쓴 사각형 건물. 집성목 지붕이 중정을 덮고 빗물을 모은다."
+        },
+        {
+          "heading": "TECHNOLOGY HUB",
+          "body": "삼각형 평면의 철골·집성목 건물. 태양광 지붕 아래 디지털 석재 가공 장비, 팬 볼트가 대성당을 향해 퍼진다."
+        },
+        {
+          "heading": "WHY",
+          "body": "\"다음 세기 안에 보존 작업을 40년 앞당길 것.\" — 마이크 톤킨"
+        }
+      ]
+    },
+    {
+      "slug": "trocadero-public-toilets-paris",
+      "tag": "REUSE",
+      "title": "1937년 엑스포 터널 속 공중화장실",
+      "ref": {
+        "section": "intl_grid",
+        "index": 0
+      },
+      "bg": 2,
+      "commons_photos": [
+        "File:Jardins du Trocadéro 1986-152.jpg"
+      ],
+      "photo_query": "trocadero paris",
+      "slides": [
+        {
+          "heading": "엑스포 터널이\n화장실이 되다",
+          "body": "샤르티에-코르바송, 파리 트로카데로 정원 공중화장실"
+        },
+        {
+          "heading": "HISTORY",
+          "body": "1937년 파리 엑스포 때 로제 라르다가 만든 터널. 이후 닫혀 청소 창고로 쓰였다."
+        },
+        {
+          "heading": "TRACE",
+          "body": "부싯돌 벽에는 2차대전 말 미군 병사들이 남긴 낙서가 그대로 남아 있다."
+        },
+        {
+          "heading": "DESIGN",
+          "body": "벽 사이에 스테인리스 칸막이를 넣어 양방향 동선을 만들고, 입구엔 코르텐 문을 달았다."
+        },
+        {
+          "heading": "DETAIL",
+          "body": "돔 천창은 맞춤 유리블록으로 다시 끼우고, 자연환기와 스테인리스 홈통으로 누수를 다스렸다."
+        }
+      ]
+    }
+  ]
+}
