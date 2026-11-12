@@ -1,0 +1,571 @@
+{
+  "vol": "VOL.01  NO.088",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "Construction Dive",
+    "Dezeen",
+    "ArchDaily",
+    "Competitions.archi",
+    "건축사신문",
+    "대한전문건설신문",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "목조건축대상 '용방초'·'나무고래'",
+      "desc": "24회 대한민국목조건축대전 · 수상작 28건",
+      "label": "AWARDS"
+    },
+    {
+      "title": "쾰른 대성당, 구멍 없이 밝히다",
+      "desc": "LED 700여 개 · 에너지 80% 절감",
+      "label": "LIGHTING"
+    },
+    {
+      "title": "제1회 대한민국 조경박람회 개막",
+      "desc": "11월 13~14일 · 과천 시민광장",
+      "label": "EVENT"
+    },
+    {
+      "title": "바르셀로나 파빌리온에 유리 미로",
+      "desc": "치로 나흘레·조셉 페란도 · 11월 22일까지",
+      "label": "INSTALLATION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 건설안전",
+    "lede": "굴착 중이던 옆 현장으로 3층 건물이 무너졌다 — 뉴욕 브루클린 붕괴로 8명 사망",
+    "lede_em": "뉴욕 브루클린 붕괴로 8명 사망",
+    "image": "https://imgproxy.divecdn.com/6m9Ierj0emI7sszYTru1kEmWTlHFadNS-8-yAk9CvoQ/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMzA0NzcwMDM0LmpwZw==.webp",
+    "image_label": "CONSTRUCTION DIVE",
+    "caption": "브루클린 플랫부시 붕괴 현장의 구조대원들 ⓒ Getty Images / Construction Dive",
+    "body": [
+      "11일(현지시간) 오후 뉴욕 브루클린 플랫부시 지역에서 **3층 건물(1321 Flatbush Avenue)**이 바로 옆 공사 현장 쪽으로 무너져 내렸다. 조란 맘다니 뉴욕시장은 12일 기자회견에서 건설노동자 **2명**을 포함해 **8명이 숨지고 18명이 다쳤다**고 밝혔다. 건물 안에 있던 사람과 현장 노동자가 함께 잔해에 갇혔고, 뉴욕소방국(FDNY)은 여전히 수색·구조 단계에 있다.",
+      "뉴욕시 건축국(DOB)의 아흐메드 티가니 국장은 사고 당시 인접 현장(**2625 Bedford Ave.**)에서 \"굴착이 진행 중이었다\"고 확인했다. DOB는 즉시 '인접 건물 붕괴를 초래한 불안전한 공사'를 사유로 작업중지 명령을 내렸다. 이 현장은 **3층** 건물 계획만 승인받았고, **9층** 계획안은 승인 전이었다. 인허가 서류상 건축주는 W6 Facility X, 기록상 건축가는 Cheng-Yi Lin Architecture다.",
+      "현장의 이력도 문제다. DOB에 따르면 올해 **3월 20일** 철거 단계에서 주변 건물 보호시설 미비로 작업중지 명령과 위반 통지를 받았고, **4월 23일**에는 중지 상태에서 철거를 재개해 또 위반이 적발됐다. 명령은 **5월 8일** 시정 후 해제됐다. 맘다니 시장은 이 현장에 관여한 주요 주체 5곳이 시내 약 **100개** 현장과 연관돼 있다며 즉시 일제 점검에 착수했다.",
+      "구조 전문가들의 판단은 엇갈린다. 구조엔지니어 조 디폼페오는 흙막이 설치는 밀집 도시의 표준 관행이라며 굴착이 직접 원인이라는 추측을 경계하면서도, 비슷한 조건의 현장이 시내에 약 **500곳**이라며 지반 버팀의 중요성을 강조했다. 노후 건물에 바짝 붙은 굴착은 국내 도심 재개발·소규모 신축 현장에서도 흔하다. 인접 건물 조사와 흙막이 계측을 설계·감리 단계에서 어떻게 확인하느냐가 다시 질문으로 남는다."
+    ],
+    "source": [
+      {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "붕괴 1보",
+            "url": "https://www.constructiondive.com/news/brooklyn-building-collapses-adjacent-construction-site-fatalities/874484/"
+          },
+          {
+            "text": "작업중지 위반 이력",
+            "url": "https://www.constructiondive.com/news/project-fatal-brooklyn-collapse-stop-work-order/874545/"
+          }
+        ]
+      }
+    ],
+    "src_date": "2026-11-12",
+    "topic": "재난유산"
+  },
+  "side": {
+    "label": "실무 직결 · 국가유산 설계",
+    "image": "",
+    "image_label": "건축사신문",
+    "title": "국가유산 실측설계자도 손해배상보험 의무 — 11월 12일 이후 체결 계약부터",
+    "body": [
+      "국가유산청이 「국가유산수리 등에 관한 법률」 개정에 따라 국가유산 실측설계자·감리자·수리자 모두에게 손해배상보험(공제) 가입을 의무화했다. 지금까지는 **200억 원 이상** 국가유산 수리를 하는 수리자만 대상이었다."
+    ],
+    "facts": [
+      "대상: 국가유산**실측설계자**·**감리자**·수리자 전체",
+      "적용: **11월 12일 이후 체결**되는 계약부터",
+      "가입처: 국가유산수리공제조합 또는 개별 손해보험사",
+      "기준: 행정규칙으로 가입금액·보상한도·자기부담금·보험료 산정 방법 규정",
+      "비용: 대가기준에 근거 명시 — 보험료는 **발주처가 사업비에 반영**"
+    ],
+    "body_after": [
+      "수리 과정의 사고·훼손에 대한 책임 소재를 분명히 하고 피해 보상을 빠르게 하려는 취지다. 문화유산 실측설계를 수행하는 건축사사무소는 신규 계약 전에 가입 여부를 확인하고, 보험료가 설계 대가에 반영됐는지 계약서에서 챙겨야 한다."
+    ],
+    "source": {
+      "outlet": "건축사신문",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.ancnews.kr/news/articleView.html?idxno=21385"
+        }
+      ]
+    },
+    "src_date": "2026-11-12",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "PROJECT · 브라질 · 매스팀버",
+      "title": "4주 만에 다섯 명이 세운 브라질 최고층 목조 하이브리드 — 크로스램 '오로라 275'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/crosslam-aurora-275-timber-apartment-building-brazil_dezeen_2364_hero-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "상파울루 수자노에 들어선 높이 **22m**, **10세대** 아파트다. 철근콘크리트 코어에 글루램 보·기둥과 **CLT 바닥판**을 결합했고, 목재는 브라질산을 크로스램 자체 공장에서 가공했다. 시공은 **4주**, 투입 인원은 **5명**이었다.",
+        "보통 다른 설계사무소의 구조엔지니어로 일하는 크로스램이 직접 설계·시공한 시범 건물이다. 창업자 주제 알베르투 코헤아는 \"첫 목조 건물을 팔려면 먼저 우리 것을 지어야 했다\"고 말했다. 외장은 노란 디테일의 금속 마감이고, 목재는 발코니 하부와 실내에서만 드러난다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/12/brazil-tallest-timber-tower-crosslam-sao-paulo/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "PROJECT · 이탈리아 · 인프라",
+      "title": "단게 겐조의 업무지구에 '숲'을 들이다 — EMBT, 나폴리 지하철 중앙역 목조 볼트 지붕",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/naples-underground-central-station-embt-architecture-infrastructure-timber-glulam_dezeen_2364_hero-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "베네데타 탈리아부에의 EMBT가 1970년대 **단게 겐조**가 계획한 나폴리 첸트로 디레치오날레에 약 **1만㎡** 규모의 지하철 중앙역을 완성했다. 선로 형상을 따라 휘는 **글루램 아치** 지붕이 개찰구와 새 광장을 덮고, 가지처럼 갈라지는 기둥이 숲속을 걷는 느낌을 준다.",
+        "바닥은 에트나·트라니 석회암, 승강장은 **폼페이 벽화**에서 가져온 빨강·주황·노랑 줄무늬 패널로 마감했다. 탈리아부에는 \"유리와 콘크리트뿐인 동네에 나폴리 원래의 한 조각을 들이고 싶었다\"고 했다. 데진 어워즈 2026 인프라 부문 후보작이다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/12/embt-naples-underground-central-station/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "HERITAGE · 영국",
+      "title": "\"노트르담 같은 화재 위험\" — 영국 국회의사당 보수 지연 경고",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/houses-of-parliament-renovation-report_dezeen_2364_col_0-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "영국 하원 공공회계위원회(PAC)가 웨스트민스터궁의 화재 위험이 \"실재하고 커지고 있다\"고 보고했다. 유지비는 주당 **150만→200만 파운드**로 늘고, 보수가 1년 늦어질 때마다 총비용이 **4억 2천만 파운드**씩 불어난다. 전면 이전안은 **111억~156억 파운드·19~24년**, 부분 이전안은 최대 **61년**이 걸린다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/12/fire-risk-palace-westminster-renovation-delay/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "LIGHTING · 독일",
+      "title": "돌에 구멍 하나 없이 — 리히트 쿤스트 리히트의 쾰른 대성당 조명",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/hero-licht-kunst-licht-cologne-cathedral_dezeen_2364_col_0-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "주변 건물에 단 **1,000W** 메탈할라이드 투광등을 걷어내고, 맞춤 클램프로 고정한 **700여 개** LED를 석조에 천공 없이 설치했다. 에너지 사용은 **80%** 줄었고, 건물 밖 광원 비중은 80%에서 10%로 낮아졌다. 데진 어워즈 독자투표 조명 부문 1위다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/12/licht-kunst-licht-cologne-cathedral/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "PAVILION · 영국",
+      "title": "타일 결함으로 문 닫은 조아나 바스콘셀루스의 '웨딩 케이크' 철거 승인",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/joana-vasconcelos-wedding-cake-pavilion-waddesdon-manor-ceramic-tiles-pastel-sculpture_dezeen_2364_hero-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "2023년 워즈던 매너 정원에 영구 설치된 높이 **12m** 세라믹 파빌리온이다. 비우바 라메구의 유약 타일에 결함이 생겨 안전 문제로 폐쇄됐고, 버킹엄셔 의회는 수리 방안이 없다고 보고 등록건축물 동의 변경으로 철거를 허가했다. 시한은 **2036년 1월**이다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/12/wedding-cake-pavilion-dismantled/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "COMPETITION · 아이슬란드",
+      "title": "미바튼 호숫가 농장의 훈제실 — 빌드너 '아이슬란드 스모크하우스', 총상금 5만 유로",
+      "image": "https://competitions.archi/wp-content/uploads/2026/11/COMP.ARCH-4.jpg",
+      "image_label": "COMPETITIONS.ARCHI",
+      "body": [
+        "아이슬란드 북부 미바튼 호수 인근 가족 농장에 생선 손질부터 작은 시식실까지 담은 **65~100㎡** 훈제 공방을 설계한다. 등록 **2027년 7월 22일**, 제출 **9월 6일** 마감. 빌드너 메달 2만5천 유로 등 총상금 **5만 유로**."
+      ],
+      "source": {
+        "outlet": "Competitions.archi",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://competitions.archi/competition/iceland-smokehouse/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "수상 · 목조건축",
+      "title": "2026 대한민국목조건축대상 — 구례 '용방초등학교'·울산 장생포 '나무고래'",
+      "image": "https://cdn.ancnews.kr/news/photo/202611/21384_24251_4356.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "24회째 대한민국목조건축대전 시상식이 11일 서울에너지드림센터에서 열렸다. 준공 부문 대상은 오즈앤엔즈 최혜진 건축사의 **용방초등학교**(농식품부 장관상)와 쿨트라 허창열 건축사·울산대 김범관 교수의 **나무고래**(국토부 장관상).",
+        "나무고래는 높이 **15m**, 길이 **50m**의 입체 목구조를 표준 규격 글루램 반복 조립으로 구현했다. 준공 20점·계획 78점이 출품돼 28건이 수상했고, 수상작은 **12월 6일**까지 전시된다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21384"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "수상"
+    },
+    {
+      "kicker": "정책 · 공공재개발",
+      "title": "공공재개발 사업수수료 3%→1% 한시 인하 — 구역당 평균 130억 원 부담 감소",
+      "body": [
+        "국토교통부와 LH가 **2027년 12월 31일**까지 공공재개발 후보지 선정을 신청하는 구역의 사업수수료율을 총사업비의 **3%에서 1%**로 낮춘다. 2,200세대·총사업비 7,200억 원 사업장 기준 수수료는 **216억→72억 원**.",
+        "국비 지원(수수료의 최대 15%)을 더하면 주민 실부담은 총사업비의 약 **0.85%**. 시행자 지정 동의요건을 3분의 2에서 **60%**로 낮추는 방안도 추진한다."
+      ],
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327453"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "입법 · 건설안전",
+      "title": "국토안전관리원에 시공 중 현장점검 권한 — 황희 의원 「건설기술 진흥법」 개정안",
+      "body": [
+        "지금은 국토안전관리원이 설계·착공 전 안전관리계획만 검토하고, 시공 중 현장점검 권한은 법에 명시돼 있지 않다. 개정안은 관리원을 **현장점검 주체**로 명시하고, 중대 건설사고의 **원인 분석·재발방지 대책**을 직접 맡긴다.",
+        "점검과 사고조사 결과는 **건설공사 안전관리 종합정보망**에 등록해 공유하도록 했다."
+      ],
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327440"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "기술 · 건자재",
+      "title": "왕겨 재로 시멘트 10~15% 대체 — 압축강도는 오르고 탄소는 줄고",
+      "body": [
+        "사우디 프린스술탄대와 러시아 상트페테르부르크 공대 연구진이 머신러닝으로 **왕겨 재(RHA)** 혼입 콘크리트의 강도를 예측했다. 시멘트 **10~15%**를 대체하면 압축강도가 일반 콘크리트보다 약 **10~20%** 높아졌다.",
+        "실리카 함량이 높은 포졸란 재료라 공극을 채우고 시멘트 사용량을 줄여 CO₂도 감소한다. 다만 최적 비율을 벗어나면 오히려 강도가 떨어진다고 경고했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21379"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 인천",
+      "title": "인천공항 야생동물통제대·자원분류처리장 제안공모 — 연면적 5,013㎡, 공사비 130억",
+      "body": [
+        "인천 영종 운서동 공항 부지에 운수시설을 짓는 제안공모다. 설계비 **7.1억 원**, 심사위원 7인. 참가등록 **11월 16일** 마감, 결과는 12월 28일 이내 발표."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19119"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 나주",
+      "title": "(가칭)매성초 신축·학교복합시설 설계공모 — 연면적 1만 9,978㎡, 공사비 294억",
+      "body": [
+        "나주 빛가람동 혁신도시에 초등학교와 학교복합시설을 함께 짓는 일반설계공모다. 설계비 **13억 원**, 심사위원 9인. 참가등록 **11월 18일** 마감, 결과는 2027년 2월 2일 이내."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19118"
+          }
+        ]
+      },
+      "src_date": "2026-11-10",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 대구",
+      "title": "경명여고 공간재구조화 제안공모 — 연면적 7,793㎡, 공사비 99억",
+      "body": [
+        "대구 북구 칠성로의 경명여자고등학교 공간재구조화 사업이다. 설계비 **2.8억 원**, 심사위원 8인. 참가등록은 **11월 18일** 시작, 결과 발표는 12월 16일."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19131"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "클라크·AECOM JV, 30억 달러 캔자스시티 치프스 구장",
+      "body": "**7만 석** 규모로 마니카·HNTB가 설계한다. 2027년 부지공사, **2031년** 개장 목표.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/clark-aecom-jv-kansas-city-chiefs-stadium/874555/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "미 인허가 간소화 법안 BAAJA, 상원 절차표결 통과",
+      "body": "**73대 25**. HUD·USDA 지원 주택은 연방 역사보존 심사 면제 — 사업당 최대 **42.5만 달러** 절감 추산.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/baaja-permitting-bill-speed-apartment-construction-advances-in/874482/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "제도규제"
+    },
+    {
+      "title": "길베인, 알래스카 코디악 해안경비대 기지 상수도 1.14억 달러",
+      "body": "본관 **8마일** 이상 교체, 대형 저수조 4기와 격납고 소화설비 개량.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/gilbane-alaska-kodiak-coast-guard-water/874438/"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "바르셀로나 파빌리온에 유리 미로",
+      "body": "치로 나흘레·조셉 페란도의 '파빌리온-미로'. 트래버틴 기단 위 유리벽이 평면을 따라 관람객을 이끈다. **11월 22일**까지.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188518/a-glass-labyrinth-by-ciro-najle-and-josep-ferrando-opens-at-the-barcelona-pavilion"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "상생협약 이행점검 중견사 확대 — 하도급대금 184억 증액",
+      "body": "23개 종합건설사가 **152개** 수급사업자 대금을 올렸다. 14개사는 산업안전·폐기물 비용 원사업자 전액 부담을 명시.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327457"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "제도규제"
+    },
+    {
+      "title": "제1회 대한민국 조경박람회, 과천서 개막",
+      "body": "**11월 13~14일** 과천 시민광장 4,000㎡에 부스 45개 안팎. 첫날 제16회 조경대상 시상, 입장 무료.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327451"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "brooklyn-flatbush-collapse",
+      "tag": "SAFETY",
+      "title": "굴착 현장 옆 3층 건물 붕괴 — 브루클린 8명 사망",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "brooklyn brownstone street",
+      "slides": [
+        {
+          "heading": "굴착 중인 옆 현장으로\n건물이 무너졌다",
+          "body": "뉴욕 브루클린 플랫부시 붕괴, 8명 사망·18명 부상"
+        },
+        {
+          "heading": "WHAT",
+          "body": "11일 오후 3층 건물(1321 Flatbush Ave.)이 인접 공사 현장 쪽으로 붕괴했다. 건물 안 주민과 현장 노동자가 함께 잔해에 갇혔다."
+        },
+        {
+          "heading": "THE SITE",
+          "body": "옆 현장에선 사고 당시 굴착이 진행 중이었다. 승인된 건 3층 건물 계획뿐, 9층 계획안은 승인 전이었다."
+        },
+        {
+          "heading": "HISTORY",
+          "body": "올해 3월 주변 건물 보호시설 미비로 작업중지, 4월 중지 중 철거 재개로 또 위반. 5월에야 명령이 풀렸다."
+        },
+        {
+          "heading": "RESPONSE",
+          "body": "뉴욕시는 새 작업중지 명령을 내리고, 관련 주체 5곳이 얽힌 시내 약 100개 현장 일제 점검에 들어갔다."
+        },
+        {
+          "heading": "LESSON",
+          "body": "노후 건물에 바짝 붙은 도심 굴착은 어디에나 있다. 인접 건물 조사와 흙막이 계측을 설계·감리 단계에서 확인해야 한다."
+        }
+      ]
+    },
+    {
+      "slug": "cologne-cathedral-lighting",
+      "tag": "LIGHTING",
+      "title": "돌에 구멍 하나 없이 밝힌 쾰른 대성당",
+      "ref": {
+        "section": "intl_grid",
+        "index": 1
+      },
+      "bg": 1,
+      "commons_photos": [
+        "File:Köln-Night-GavinCato.jpg",
+        "File:Kölner Dom 2013-08-04-005.JPG",
+        "File:CatedralColonia.JPG",
+        "File:Kölner Dom 2013-08-04-001.JPG",
+        "File:Kölner Dom - Spitze des Nordtumes 1881.jpg"
+      ],
+      "photo_query": "cologne cathedral",
+      "slides": [
+        {
+          "heading": "돌에 구멍 하나 없이\n대성당을 밝히다",
+          "body": "리히트 쿤스트 리히트의 쾰른 대성당 새 조명"
+        },
+        {
+          "heading": "BEFORE",
+          "body": "주변 건물 옥상의 1,000W 메탈할라이드 투광등이 차가운 백색광을 한꺼번에 쏘던 방식이었다."
+        },
+        {
+          "heading": "AFTER",
+          "body": "따뜻한 색의 LED 700여 개가 고딕 디테일을 뒤에서, 그리고 수직으로 스치듯 비춘다. 원칙은 '빛은 건축을 따른다'."
+        },
+        {
+          "heading": "NO DRILLING",
+          "body": "석조를 보호하는 맞춤 클램프로 조명 기둥을 고정해 낮에는 거의 보이지 않고, 언제든 원형 훼손 없이 떼어낼 수 있다."
+        },
+        {
+          "heading": "SAVINGS",
+          "body": "에너지 사용 80% 감소. 건물 밖 광원 비중은 80%에서 10%로 줄어 빛 공해와 야행성 생물 교란도 덜하다."
+        }
+      ]
+    },
+    {
+      "slug": "westminster-fire-risk",
+      "tag": "HERITAGE",
+      "title": "\"노트르담 같은 화재 위험\" — 영국 국회의사당 보수 지연",
+      "ref": {
+        "section": "intl_grid",
+        "index": 0
+      },
+      "bg": 2,
+      "commons_photos": [
+        "File:Clock Tower - Palace of Westminster, London - September 2006.jpg",
+        "File:Palace of Westminster London 2023 01.jpg",
+        "File:Westminster Hall - London (53262133249).jpg",
+        "File:Clock Tower - Palace of Westminster, London - September 2006-2.jpg",
+        "File:Unicorn inside Westminster Hall 2007-08-01.jpg"
+      ],
+      "photo_query": "palace of westminster",
+      "slides": [
+        {
+          "heading": "국회의사당에\n커지는 화재 위험",
+          "body": "영국 하원 공공회계위 \"노트르담 같은 불길\" 경고"
+        },
+        {
+          "heading": "WARNING",
+          "body": "유네스코 세계유산 웨스트민스터궁에서 안전사고가 늘고 있다. 위원장은 보수에 대한 '정치적 알레르기'를 지적했다."
+        },
+        {
+          "heading": "COST",
+          "body": "유지비만 주당 150만에서 200만 파운드로 늘고, 보수가 1년 늦어질 때마다 총비용이 4억 2천만 파운드씩 불어난다."
+        },
+        {
+          "heading": "OPTIONS",
+          "body": "전면 이전 후 보수는 111억~156억 파운드·19~24년, 부분 이전은 195억~392억 파운드·최대 61년."
+        },
+        {
+          "heading": "DEADLINE",
+          "body": "2018년 이전 보수를 의결했지만 아직 착수 전. 의회는 2030년까지 네 가지 전략 중 하나를 골라야 한다."
+        }
+      ]
+    }
+  ]
+}
