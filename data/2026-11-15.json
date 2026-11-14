@@ -1,0 +1,672 @@
+{
+  "vol": "VOL.01  NO.090",
+  "editor": "HUEY",
+  "counts": {
+    "total": 25,
+    "intl": 17,
+    "kr": 8
+  },
+  "outlets": [
+    "The Architects' Journal",
+    "Oracle",
+    "Dezeen",
+    "ArchDaily",
+    "Architectural Record",
+    "Archinect",
+    "Bustler",
+    "Global Construction Review",
+    "ENR",
+    "Construction Dive",
+    "DBIA",
+    "건축사신문",
+    "대한전문건설신문",
+    "국토일보",
+    "서울시",
+    "정책브리핑",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "SFO 하비 밀크 T1, DBIA 올해의 프로젝트",
+      "desc": "헨젤 펠프스·겐슬러, 공항 운영 중 재건축",
+      "label": "AWARDS"
+    },
+    {
+      "title": "17세기 맞배지붕 불전 두 곳, 보물로",
+      "desc": "고성 운흥사·영천 거동사 대웅전",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "영국, 건축 디자인 '베끼기' 막는다",
+      "desc": "디자인권 제도 개편, RIBA 환영",
+      "label": "POLICY"
+    },
+    {
+      "title": "레미콘, 분양가의 0.8~2%에 불과",
+      "desc": "김진만 교수 '구조재료 가격 정상화' 제안",
+      "label": "COST"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 기업 캠퍼스",
+    "lede": "강변 28ha에 호수를 두른 기업 도시 — 포스터+파트너스, 내슈빌 '오라클 글로벌 본사' 첫 삽",
+    "lede_em": "내슈빌 '오라클 글로벌 본사'",
+    "image": "https://cdn.rt.emap.com/wp-content/uploads/sites/4/2026/11/12091702/3594_FP1029291-scaled.webp",
+    "image_label": "AJ",
+    "caption": "컴벌랜드강 동안에 들어설 오라클 본사 캠퍼스 조감 ⓒ Foster + Partners / The Architects' Journal",
+    "body": [
+      "포스터+파트너스가 설계한 미국 오라클의 새 글로벌 본사가 **11월 10일** 테네시주 내슈빌에서 착공했다. 컴벌랜드강 동쪽 강변 '이스트 뱅크'의 옛 공업지대 약 **28ha(70에이커)**, 강변만 **1.2km**에 이르는 부지다. The Architects' Journal은 사업비를 **45억 달러**로 전했다. 착공식에는 빌 리 주지사와 프레디 오코넬 시장이 참석했다.",
+      "마스터플랜은 인공 호수를 가운데 두고 **5개 업무동 클러스터**를 둘러 세우는 구성이다. 호수 위에 뜬 원형극장, 오디토리엄, 방문자센터, 물류 허브가 함께 들어서고, 내슈빌 첫 **노부(Nobu) 호텔(120실)**과 레스토랑도 캠퍼스 안에 자리 잡는다.",
+      "부지 전체가 홍수 위험구역이라는 점이 설계의 출발점이 됐다. 주요 설비는 지면에서 들어 올리고 주차장은 건물 아래로 넣었다. 공공 녹지는 **6.7ha**, 심는 나무는 **1,900그루** 이상이며 LEED 골드 인증을 목표로 한다.",
+      "오라클은 저먼타운으로 건너가는 새 보행교와 공원·그린웨이 등 공공 기반시설에 **1억 7,500만 달러**를 따로 낸다. 기업 본사가 담장 안 캠퍼스가 아니라 강변 공공공간을 함께 만드는 도시 프로젝트로 짜인 셈이다. 첫 건물은 **2030년** 문을 열 예정이다."
+    ],
+    "source": [
+      {
+        "outlet": "The Architects' Journal",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architectsjournal.co.uk/news/foster-partners-reveals-designs-for-us-tech-giants-4-5bn-hq"
+          }
+        ]
+      },
+      {
+        "outlet": "Oracle",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.oracle.com/news/announcement/oracle-celebrates-groundbreaking-on-future-global-headquarters-in-nashville-2026-11-10/"
+          }
+        ]
+      }
+    ],
+    "src_date": "2026-11-12",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 시공품질 규제",
+    "image": "https://www.globalconstructionreview.com/wp-content/uploads/2026/11/HK.jpg",
+    "image_label": "GCR",
+    "title": "철근 배근이 도면과 달랐다 — 홍콩, 콘크리트 타설 전 '철근 사진 제출' 의무화 등 품질 규제 강화",
+    "body": [
+      "홍콩 정부가 주거 프로젝트 두 곳에서 철근 배근이 승인 도면과 다르게 시공된 사실이 드러난 뒤 건설 품질 규제를 대폭 강화한다. 버나뎃 린 발전국장이 입법회에 보고했으며, 따로 공사 중인 MTR **퉁청역**에서도 기준 미달 기둥 약 **30개**가 발견됐다."
+    ],
+    "facts": [
+      "시공 기록: **2027년 1월**부터 매 타설 전 철근 사진을 건축국에 제출",
+      "현장 감독: 현장관리자가 점검 때 영상 카메라 착용",
+      "하도급: 공공공사 **전체 일괄 하도급 금지**, 일부 건물 유형은 **2단계**까지 제한",
+      "입찰: '비합리적 저가 입찰' 걸러내기",
+      "법령: 이달 중 「건축물조례」 개정안, 최대 벌금 대폭 상향"
+    ],
+    "body_after": [
+      "홍콩건설업의회(CIC)는 별도 태스크포스를 꾸린다. 도면대로 시공됐는지를 사진·영상 기록으로 남기게 하는 방식은 감리 책임 범위와 직결된다. 국내에서도 감리보고서·시공 기록의 진위 문제가 반복되는 만큼 눈여겨볼 대목이다."
+    ],
+    "source": {
+      "outlet": "Global Construction Review",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.globalconstructionreview.com/hong-kong-tightens-rules-on-quality-after-defects-discovered/"
+        }
+      ]
+    },
+    "src_date": "2026-11-13",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "LANDSCAPE · 멕시코 툴룸 · 생태공원",
+      "title": "모르타르 없이 쌓은 18km 돌담 — 콜렉티보 C733, 재규어 서식지 지키는 툴룸 '파르케 델 하과르'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/parque-del-jaguar-colectivo-c733-tulum-mexico-ecological-park-hero_dezeen_2364_col_2-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "멕시코 건축가 그룹 **콜렉티보 C733**이 툴룸의 생태공원 '파르케 델 하과르(재규어 공원)'를 완성했다. 마야의 돌 경계벽 '테코랄'을 본뜬 **18km** 길이의 건식 석회암 담이 **1,000ha** 넘는 재규어 서식지를 감싼다. 돌 사이 틈으로 야생동물이 드나들 수 있다.",
+        "부지는 열대림·맹그로브·지하 하천과 툴룸 마야 유적을 품고 있지만, 옛 활주로 주변 오염토와 칸쿤-툴룸 고속도로로 상처를 입은 땅이다. 새 시설은 이미 훼손된 구역에만 모았다. 목구조에 야자잎 초가지붕을 얹은 정문 건물에 박물관·카페·다목적실·훈연 주방이 들어가고, 전망탑과 공중 캐노피 산책로가 숲을 잇는다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/14/parque-del-jaguar-colectivo-c733-tulum-mexico-ecological-park/"
+          }
+        ]
+      },
+      "src_date": "2026-11-14",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "AWARDS · 방글라데시 · 첫 앰배즈-MoMA상",
+      "title": "에어컨 없는 벽돌 공동체센터 — 카셰프 초두리, 첫 '앰배즈-MoMA 자연화해 건축상' 수상",
+      "image": "https://www.architecturalrecord.com/ext/resources/news/2026/%2ANovember/Ambasz-Moma-Prize/Friendship-Centre-Primary.jpeg?height=635&t=1794599663&width=1200",
+      "image_label": "ARCHITECTURAL RECORD",
+      "body": [
+        "방글라데시 건축가 **카셰프 초두리(URBANA)**가 새로 제정된 **앰배즈-MoMA 자연화해 건축상**의 첫 수상자가 됐다. 수상작은 2011년 완공한 가이반다의 **프렌드십 센터**로, 140여 개 응모작 가운데 뽑혔다. 상금 총액 **20만 달러** 중 절반은 건축가에게, 절반은 아르헨티나 그란차코 숲 재조림을 맡는 단체에 돌아간다.",
+        "자무나강 삼각주의 홍수를 막는 다진 흙 제방 안쪽에 지역 점토 벽돌로 지었다. 옥상 녹화·중정·빗물 연못을 엮어 **에어컨 없이** 운영된다. 2016년 아가칸 건축상도 받은 작품으로, 초두리는 \"14년 된 건물이 아니라 2,300년 된 건물\"이라며 인근 고대 도시 마하스탄을 언급했다."
+      ],
+      "source": [
+        {
+          "outlet": "Architectural Record",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://www.architecturalrecord.com/articles/18552-kashef-chowdhury-of-urbana-wins-ambaszmoma-annual-prize-for-naturereconciled-architecture"
+            }
+          ]
+        },
+        {
+          "outlet": "Archinect",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://archinect.com/news/bustler/11192/kashef-chowdhury-urbana-wins-inaugural-moma-prize-for-bangladesh-sustainable-center"
+            }
+          ]
+        }
+      ],
+      "src_date": "2026-11-13",
+      "topic": "수상"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "COMPETITION · 국제 학생공모",
+      "title": "건자재 공급망에서 강제노동을 지워라 — 그레이스 팜스·ACSA '디자인 포 프리덤 2027' 공모",
+      "image": "https://archinect.gumlet.io/uploads/9r/9r2g83pyj21kpr4k.jpg?fit=crop&auto=compress%2Cformat&w=1200",
+      "image_label": "BUSTLER",
+      "body": [
+        "그레이스 팜스와 북미건축학교협의회(ACSA)가 '윤리적이고 공정한 물성: 강제노동을 끝내기 위해'를 주제로 국제 학생공모를 연다. 건축 자재 공급망의 강제·아동노동 문제를 설계로 다루는 공모로, 전 세계 ACSA 회원 학교 학생이 지도교수와 함께 무료로 참가한다. 상금 총액 **1만 4,000달러**(1등 5,000달러+지도교수 2,000달러), 등록 **2027년 4월 7일**, 제출 **6월 2일** 마감."
+      ],
+      "source": {
+        "outlet": "Bustler",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://bustler.net/competitions/10714/2027-design-for-freedom-competition"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "PROJECT · 런던 · 코리빙",
+      "title": "490실 35층 코리빙 타워 승인 — AHMM, 올드 스트리트 '핀스게이트 하우스'",
+      "image": "https://cdn.rt.emap.com/wp-content/uploads/sites/4/2026/11/12083649/251104-Finsgate-House-Visual-03-scaled-highlight-1024x683.webp",
+      "image_label": "AJ",
+      "body": [
+        "AHMM이 설계한 런던 올드 스트리트의 **35층** 코리빙 타워가 해크니 구의회 승인을 받았다. 층당 약 18실, 모두 **490실**에 공용 라운지·테라스를 두고, 별동 5층 건물에 **4,000㎡**의 저렴한 업무공간을 넣는다. 철거 자재의 **95~98%**를 마감·조경에 다시 쓴다."
+      ],
+      "source": {
+        "outlet": "The Architects' Journal",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architectsjournal.co.uk/news/ahmm-gets-go-ahead-for-35-storey-old-street-co-living-tower"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "PROJECT · 중국 충칭 · 리모델링",
+      "title": "공사장 콘크리트 코어를 쌓아 벽으로 — 루무, 진포산 '클라우드하우스 호텔'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/cloudhaus-hotel-chongqing-chinaroomoo-design-studio-hero_dezeen_2364_col_1-1024x576.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "해발 **1,200m** 진포산 북사면의 5층짜리 옛 분양사무소를 골조째 살려 **24실** 호텔로 바꿨다. 외벽의 흰 수직 프레임 8개를 대나무 패널과 석판으로 채웠다. 버려진 산장의 목재, 구조 공사 때 뚫어낸 **콘크리트 코어**, 철거한 붉은 벽돌을 다시 써서 벽을 쌓았다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/12/cloudhaus-hotel-bamboo-roomoo-chongqing-china/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "POLICY · 영국 · 디자인권",
+      "title": "\"건축가 디자인 베끼기 막는다\" — 영국 정부, 디자인권 제도 개편에 RIBA 환영",
+      "image": "",
+      "image_label": "AJ",
+      "body": [
+        "영국 지식재산청(IPO)이 2025년 의견수렴 결과를 바탕으로 디자인권 제도를 고친다. 등록 디자인은 더 싸고 간단하게 등록할 수 있게 하고, 소규모 사무소가 모방에 맞서 더 저렴하게 소송할 길을 연다. 정부는 비등록 디자인 보호의 차이가 **건축** 같은 분야에 중요하다고 명시했다. 다만 비등록 디자인 침해에 대한 형사처벌 도입은 근거 부족으로 빠졌다."
+      ],
+      "source": {
+        "outlet": "The Architects' Journal",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architectsjournal.co.uk/news/riba/riba-welcomes-government-moves-to-stop-architects-designs-being-copied"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "제도규제"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "제도 · 건축법 벌칙",
+      "title": "\"누가 무엇을 어겼는지 구분 안 되는 벌칙\" — 건축법 벌칙, 권한과 책임에 맞게 정비해야",
+      "image": "",
+      "image_label": "건축사신문",
+      "body": [
+        "한창섭 건축연구원장이 특별기고에서 건축법 일부 벌칙 조항이 여러 기준을 묶어 인용하면서 **설계자·시공자·감리자**를 한꺼번에 열거해 위반 주체가 불분명하다고 지적했다. 감리보고서 **미제출과 허위 작성**이 같은 처벌 조항에 묶여 있고, 부실건축 인명피해도 사망과 상해를 나누지 않는다는 것이다.",
+        "경미한 절차 위반은 시정명령·과태료로 돌리고 허위 확인·은폐에는 엄정한 형사책임을 묻도록 제재를 나누자고 제안했다. 적법하게 작성한 설계도서를 시공자가 임의로 바꾼 경우 설계자 책임을 따로 판단해야 한다는 점도 강조했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "특별기고",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21390"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "제도 · 건설안전",
+      "title": "건설사고 사망 2023년 234명→2025년 199명 — 국회서 '설계단계 안전관리' 혁신 토론회",
+      "image": "",
+      "image_label": "대한전문건설신문",
+      "body": [
+        "국토안전관리원과 황희 의원이 **11월 17일** 국회의원회관에서 '사망사고 감축의 현주소, 건설안전제도의 혁신방안' 토론회를 연다. 건설사고 사망자는 **2023년 234명, 2024년 207명, 2025년 199명**, 올해는 10월 28일 기준 **106명**이다.",
+        "김현수 단국대 교수가 '설계단계의 안전관리 현주소와 개선방안'을, 원정훈 충북대 교수가 '시공 중 안전강화 평가체계'를 발표한다. 국토교통부 김이탁 차관과 LH·건설연이 참석한다."
+      ],
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327459"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "제도 · 한파 안전",
+      "title": "한파로 공사 늦어지면 공기 연장 요청 가능 — 노동부, 취약사업장 3만 곳 겨울 집중관리",
+      "image": "",
+      "image_label": "대한전문건설신문",
+      "body": [
+        "고용노동부가 **11월 15일부터 내년 3월 15일**까지 한파 안전 대책기간을 운영하며 취약사업장 **3만여 곳**을 집중 관리한다. 12~2월 약 4,000곳의 '한파 안전 5대 기본수칙' 이행을 점검하고, 건설현장 **200곳**은 새벽 작업시간 조정 여부를 따로 본다.",
+        "10월 27일 시행된 개정 산업안전보건법에 따라 한파로 공사가 지연되면 **공사기간 연장**을 요청할 수 있다. 지금은 권고인 5대 수칙을 사업주 보건조치 의무로 바꾸는 규칙 개정도 추진 중이다."
+      ],
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327470"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "도시재생 · 신속통합기획",
+      "title": "서울시, 재개발 신통기획 후보지 6곳 추가 — 독산·대림·쌍문·천호·대조·용두",
+      "image": "",
+      "image_label": "서울시",
+      "body": [
+        "서울시가 10월 30일과 11월 12일 선정위원회를 거쳐 재개발 신속통합기획 후보지 **6곳**을 추가했다. 금천 독산동 992(**9만 3,756㎡**), 영등포 대림동 680, 도봉 쌍문동 710, 강동 천호동 137-1, 은평 대조동 212, 동대문 용두동 39다.",
+        "'신통기획 2.0'을 적용해 정비기간을 **18.5년에서 12년**으로 줄이고 2년 안에 구역지정을 마친다는 계획이다. 사업성 보정계수·현황용적률·입체공원을 활용하고, 토지거래허가구역 지정과 권리산정기준일 고시로 투기를 막는다."
+      ],
+      "source": {
+        "outlet": "서울시",
+        "links": [
+          {
+            "text": "보도자료",
+            "url": "https://www.seoul.go.kr/news/news_report.do?nttNo=470318&srchCtgry=465"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "유산 · 보물 지정",
+      "title": "1681년 벌채 목재로 지은 불전 — 고성 운흥사·영천 거동사 대웅전, 보물 지정",
+      "image": "",
+      "image_label": "국가유산청",
+      "body": [
+        "국가유산청이 「고성 운흥사 대웅전」과 「영천 거동사 대웅전」을 국가지정문화유산 보물로 지정했다. 운흥사 대웅전은 **1682년** 건립으로, 연륜연대 분석에서 기둥 3본과 보 1본이 1681~1682년 벌채목으로 확인됐다. 정면 5칸·측면 3칸 다포계 **맞배지붕**(135.78㎡)으로, 이 규모의 맞배지붕 불전은 경남에서 유일하다.",
+        "거동사 대웅전은 연륜연대·방사성탄소연대 분석으로 **17세기 후반** 건립으로 추정된다. 정면 3칸·측면 3칸 다포계 맞배지붕에 뜬창방·홍예초방 같은 옛 기법을 이어왔다."
+      ],
+      "source": {
+        "outlet": "정책브리핑",
+        "links": [
+          {
+            "text": "국가유산청 보도자료",
+            "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789080"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "건축가 · 아카이브",
+      "title": "류춘수 \"좋은 건축은 주변과 조화\" — 올림픽체조경기장 설계자, 리모델링으로 잃은 원형 짚어",
+      "image": "https://cdn.ancnews.kr/news/photo/202611/21398_24266_206.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "대한건축사협회 건축사교육원 '2026 건축 아카이브' 특별강연에서 류춘수 건축사가 140여 명 앞에 섰다. 대표작 올림픽체조경기장은 지름 **124m**를 기둥 없이 덮은 세계 최초의 **케이블 돔** 막구조다.",
+        "그는 이 경기장과 막구조 강촌휴게소가 리모델링으로 원형을 잃었다며 현대건축 보존 문제를 꺼냈고, 가장 아끼는 작품으로 **한계령휴게소**를 꼽았다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21398"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 고양 일산",
+      "title": "옛 예탁결제원 일산센터를 사옥으로 — 수도권본부 사옥 시설개선 제안공모, 연면적 2만 2,626㎡",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "고양시 일산동구 호수로 358-8의 업무시설(연면적 **2만 2,626㎡**)을 고치는 '수도권본부 사옥 시설개선 건축설계 제안공모'가 공고됐다. 설계비 **3.4억 원**, 공사비 **78.9억 원**이며 심사위원은 5인이다.",
+        "11월 11일 공고, 참가등록은 **11월 18일** 마감이고 결과는 12월 11일 발표한다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19242"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 성남 분당",
+      "title": "헬스케어혁신파크 6층 연구공간 재배치 설계 — 제안공모, 공사비 35.3억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "성남시 분당구 돌마로 172의 'HIP 6층 연구공간 재비치 설계용역(건축·기계설비)' 제안공모가 진행 중이다. 교육연구시설 연면적 **1,428㎡**, 설계비 **1.9억 원**, 공사비 **35.3억 원** 규모다.",
+        "참가등록은 **11월 18일**까지 받는다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19115"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "방수설계기준 '해설서' 3년 만에 발간",
+      "body": "전문건설협회 습식·방수 주력분야위와 한국건설방수학회가 부위·구조물·재료별 방수계획을 도면과 함께 풀었다. 누수 하자 소송 증가가 계기로, **국가기준화**를 추진한다.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327474"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "레미콘, 서울 아파트 분양가의 0.8%",
+      "body": "김진만 공주대 교수는 레미콘 실질가격이 1990년보다 **21%** 낮다며 시행사 직접구매와 '안전가격'을 제안했다. 시멘트협회는 개인 견해라고 선을 그었다.",
+      "source": {
+        "outlet": "국토일보",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ikld.kr/news/articleView.html?idxno=344097"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "건설 임금체불 4,166억, 전 산업의 20%",
+      "body": "국회 토론회에서 LH가 실제 출역기록과 핀테크를 연계해 임금을 더 자주 주는 지급체계를 제시했다. 근로자 **29.5%**가 1년 새 임금 지연을 겪었다.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327463"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "제도규제"
+    },
+    {
+      "title": "조달청, 한 주 73건 1조 7,614억 입찰",
+      "body": "11월 16~20일 집행분. 종합심사가 **1조 3,660억 원**으로 대부분이고 경기 지역이 8,463억 원으로 가장 많다.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327473"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "LH, 광명시흥·용인반도체에 2조 추가",
+      "body": "광명시흥 공공주택지구 협의보상에 **1조 3,000억**, 용인 반도체 국가산단에 7,000억 원을 앞당겨 넣는다. 올해 사업비는 41조 원으로 늘었다.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327461"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "SFO 하비 밀크 T1, DBIA 올해의 프로젝트",
+      "body": "헨젤 펠프스·겐슬러가 공항 운영 중에 진행형 디자인빌드로 재건축했다. LEED v4 플래티넘. 80여 개 출품작 중 최고상.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/punch-list-fortis-construction-texas-hensel-phelps-dbia-award/874597/"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "수상"
+    },
+    {
+      "title": "40~50ft 굴착에 설계 없었다 — 뉴욕 먼로",
+      "body": "지반기술자가 2024년 '공학적 설계 필요'를 경고했지만 날인된 흙막이 설계는 없었다. OSHA는 시공사 6곳에 **64만 8,094달러** 과징금을 제안했다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64270-engineer-warned-deep-excavation-required-design-before-ny-project-was-shut-down"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "제도규제"
+    },
+    {
+      "title": "미 하도급업체들 \"PQ 플랫폼 수수료 공개하라\"",
+      "body": "미국하도급협회(ASA)가 제3자 사전자격심사 플랫폼에 표준 양식·투명한 채점·사전 고지 수수료 등 **5개 요구**를 내놨다. 수수료가 3,000~4,000달러까지 오른다는 불만이다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64258-subcontractor-group-calls-for-fair-prequalification-platform-practices"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "제이컵스, 21억 달러 뉴질랜드 고속도로 설계",
+      "body": "아치오나가 맡은 워크워스-테하나 24km 구간(뉴질랜드 최대 교통 PPP)에서 교량 **15개** 설계와 설계관리를 맡는다. 돔 밸리 쌍굴 터널 포함.",
+      "source": {
+        "outlet": "Global Construction Review",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.globalconstructionreview.com/jacobs-to-manage-2-1bn-new-zealand-highway-corridor/"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "oracle-nashville-hq-foster",
+      "tag": "PROJECT",
+      "title": "강변 28ha 기업 도시 — 포스터+파트너스의 내슈빌 오라클 본사",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "nashville riverfront",
+      "slides": [
+        {
+          "heading": "강변 28ha에\n호수를 두른 본사",
+          "body": "포스터+파트너스, 내슈빌 '오라클 글로벌 본사' 착공"
+        },
+        {
+          "heading": "WHERE",
+          "body": "테네시주 내슈빌 컴벌랜드강 동쪽 '이스트 뱅크'의 옛 공업지대. 약 28ha, 강변만 1.2km에 이른다."
+        },
+        {
+          "heading": "PLAN",
+          "body": "인공 호수를 가운데 두고 업무동 클러스터 5개를 둘렀다. 호수 위 원형극장, 오디토리엄, 방문자센터가 함께 들어선다."
+        },
+        {
+          "heading": "FLOOD",
+          "body": "부지 전체가 홍수 위험구역. 주요 설비는 들어 올리고 주차장은 건물 아래로 넣었다."
+        },
+        {
+          "heading": "PUBLIC",
+          "body": "공공 녹지 6.7ha, 나무 1,900그루 이상. 저먼타운으로 건너는 보행교 등 공공 기반시설에 1억 7,500만 달러를 따로 낸다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "11월 10일 첫 삽. 내슈빌 첫 노부 호텔(120실)도 캠퍼스 안에 들어서며, 첫 건물은 2030년 문을 연다."
+        }
+      ]
+    },
+    {
+      "slug": "kashef-chowdhury-ambasz-moma-prize",
+      "tag": "AWARDS",
+      "title": "에어컨 없는 벽돌 공동체센터, 첫 앰배즈-MoMA상",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 1,
+      "photo_query": "red brick courtyard architecture",
+      "slides": [
+        {
+          "heading": "에어컨 없는\n벽돌 건축이 받은 상",
+          "body": "카셰프 초두리, 첫 '앰배즈-MoMA 자연화해 건축상'"
+        },
+        {
+          "heading": "PRIZE",
+          "body": "MoMA와 에밀리오 앰배즈 재단이 새로 만든 상. 최근 30년 안에 완공된 작품 140여 개가 겨뤘다."
+        },
+        {
+          "heading": "MONEY",
+          "body": "상금 20만 달러. 절반은 건축가에게, 절반은 아르헨티나 그란차코 숲을 되살리는 재조림 사업에 간다."
+        },
+        {
+          "heading": "SITE",
+          "body": "방글라데시 가이반다, 홍수가 잦은 자무나강 삼각주. 다진 흙 제방으로 건물을 감쌌다."
+        },
+        {
+          "heading": "BUILD",
+          "body": "지역 점토 벽돌에 옥상 녹화·중정·빗물 연못을 엮었다. 냉방기 없이 바람과 그늘로 식힌다."
+        },
+        {
+          "heading": "TIME",
+          "body": "\"14년 된 건물이 아니라 2,300년 된 건물.\" 초두리는 인근 고대 도시 마하스탄의 시간을 끌어왔다고 말한다."
+        }
+      ]
+    },
+    {
+      "slug": "unheungsa-geodongsa-treasure",
+      "tag": "HERITAGE",
+      "title": "1681년 벌채목으로 지은 불전 — 운흥사·거동사 대웅전 보물 지정",
+      "ref": {
+        "section": "korea",
+        "index": 4
+      },
+      "bg": 2,
+      "photo_query": "korean traditional temple roof",
+      "slides": [
+        {
+          "heading": "17세기 맞배지붕\n불전 두 곳, 보물로",
+          "body": "고성 운흥사 대웅전 · 영천 거동사 대웅전"
+        },
+        {
+          "heading": "DATING",
+          "body": "나이테로 건립 연대를 밝혔다. 운흥사 대웅전의 기둥 3본과 보 1본은 1681~1682년에 벤 나무였다."
+        },
+        {
+          "heading": "UNHEUNGSA",
+          "body": "1682년 건립. 정면 5칸·측면 3칸 다포계 맞배지붕. 이 규모의 맞배지붕 불전은 경남에서 유일하다."
+        },
+        {
+          "heading": "COLOR",
+          "body": "17~18세기 단청이 잘 남아 있어 당시 채색 기법을 확인할 수 있다."
+        },
+        {
+          "heading": "GEODONGSA",
+          "body": "연륜연대·방사성탄소연대 분석으로 17세기 후반 건립 추정. 정면 3칸·측면 3칸 다포계 맞배지붕이다."
+        },
+        {
+          "heading": "CRAFT",
+          "body": "뜬창방·홍예초방 같은 옛 기법이 그대로 이어진다. 조선 후기 불전 목구조를 읽는 기준 사례다."
+        }
+      ]
+    }
+  ]
+}
