@@ -1,0 +1,580 @@
+{
+  "vol": "VOL.01  NO.091",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "The Architects' Journal",
+    "Buildner",
+    "ENR",
+    "FOX Weather",
+    "정책브리핑",
+    "건축사신문",
+    "건축사뉴스",
+    "서울건축사신문",
+    "국제뉴스",
+    "대한전문건설신문",
+    "주택폴리오",
+    "e-flux"
+  ],
+  "teasers": [
+    {
+      "title": "990피트 여객선, 세계 최대 인공어초로",
+      "desc": "SS 유나이티드 스테이츠, 플로리다 데스틴 앞바다에 가라앉다",
+      "label": "HERITAGE"
+    },
+    {
+      "title": "25㎡ 오프그리드 집을 그려라",
+      "desc": "빌드너 'MICROHOME 2027' 등록 시작",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "광주 자율주행 실증도시, 30일 첫 운행",
+      "desc": "연말까지 실증차량 약 120대 도로 투입",
+      "label": "MOBILITY"
+    },
+    {
+      "title": "멕시코만 해상 플랫폼 22기 개보수",
+      "desc": "미 에너지부 4.8억 달러 융자, 일자리 2,400개",
+      "label": "ENERGY"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 리노베이션",
+    "lede": "금괴 금고가 시민의 거실로 — 메카노, 암스테르담 '네덜란드 중앙은행' 요새를 열다",
+    "lede_em": "암스테르담 '네덜란드 중앙은행'",
+    "image": "https://static-2026.dezeen.com/uploads/2026/11/mecanoo-de-nederlandsche-bank_dezeen_2364_hero_0.jpg",
+    "image_label": "DEZEEN",
+    "caption": "리노베이션을 마친 암스테르담 프레데릭스플레인의 네덜란드 중앙은행(DNB) ⓒ Ossip van Duivenbode, courtesy of De Nederlandsche Bank / Dezeen",
+    "body": [
+      "프랑신 하우번이 이끄는 네덜란드 건축사무소 **메카노(Mecanoo)**가 암스테르담 도심의 **네덜란드 중앙은행(De Nederlandsche Bank·DNB)** 본점 리노베이션을 마쳤다. 원래 건물은 **1968년** 마리우스 프란스 다위인트여르가 미스 반 데어 로에를 꿈꾸며 설계했지만, 보안 요구에 밀려 울타리·거대한 바위·무장 헌병이 지키는 '요새'가 됐다. 한때 \"나라에서 가장 못생긴 건물\"이라는 평까지 들었다.",
+      "전환점은 금 보유고와 지폐 업무를 위트레흐트주 **자이스트**로 옮긴 것이다. 지킬 것이 사라지자 건물을 열 수 있었다. 메카노는 옆에 붙어 있던 **14층** 원통형 타워를 조심스럽게 해체해 그 자리에 공공 정원을 냈고, 해체한 콘크리트로는 운하 쪽 새 안벽을 쌓았다. 남은 자재는 시내 사회주택 사업에 기증했다. 옛 갈색 외장 타일은 부숴 새 붉은 점토 벽돌의 안료로 다시 썼다.",
+      "가장 극적인 변화는 지하다. 바닥판 일부를 걷어내 길이 **61m**의 옛 금고를 드러내고, 금·화폐·경제를 다루는 전시 갤러리로 바꿨다. 금고와 중정을 잇는 실내 '거리'에는 양 끝에 오디토리엄 두 개를 두었고, **5층** 아트리움이 회의센터·레스토랑 같은 반공공 공간을 묶는다. 하우번은 화재로 사라진 옛 델프트공대 건축학부 중앙홀에서 영감을 얻었다고 했다. 메카노는 \"은행에서 가장 비밀스러웠던 곳이 이제 가장 공공적인 곳\"이라고 말한다.",
+      "실내는 지역에서 벤 포플러 루버 천장, 재생 플라스틱 펠트 벽, 마지막 길더 지폐에서 따온 빨강·파랑·주황 색채로 채웠다. 일체형 차양을 넣은 이중창(Kastenfenster)으로 일상 에너지 사용량은 **80%** 줄어들 것으로 추산된다. 정문도 프레데릭스플레인 쪽으로 옮겨 도시를 향해 열었다. 이 프로젝트는 **Dezeen Awards 2026** 후보에 올랐다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/11/15/netherlands-central-bank-renovation-mecanoo/"
+        }
+      ]
+    },
+    "src_date": "2026-11-15",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 동절기 시공 안전",
+    "image": "",
+    "image_label": "정책브리핑",
+    "title": "한중콘크리트 보온양생·흙막이 계측 집중 점검 — 국토부, 전국 건설현장 2,946곳 동절기 안전점검",
+    "body": [
+      "국토교통부가 **11월 16일**부터 **12월 24일**까지 전국 건설현장 **2,946곳**의 동절기 안전점검에 나선다. 국토부·5개 지방국토관리청·LH·도로공사·국가철도공단·인천공항공사·국토안전관리원 등 **12개 기관**이 참여한다. 대상은 50억 원 미만 현장이 61%, 용도별로는 SOC 42%·아파트 32%·건축물 26%다."
+    ],
+    "facts": [
+      "콘크리트: 일평균기온 **4℃ 이하** 한중콘크리트 보온양생 등 품질관리",
+      "가시설: 지반 동결로 변형이 우려되는 **흙막이 가시설·계측기** 관리",
+      "임시시설: 외부 가설비계·지지대·울타리·안전난간",
+      "고위험: 도심지 지하굴착·대규모 건축·교량·터널은 **외부 전문가** 동행",
+      "제재: 안전·품질관리 미흡, 부실시공 적발 시 **벌점·과태료** 예외 없이 부과"
+    ],
+    "body_after": [
+      "사망사고가 난 현장과 그 건설사가 시공 중인 다른 현장은 특별점검 대상이다. 최근 추락사고가 이어지면서 안전난간·추락방지망 설치 여부도 함께 본다. 국토부는 발주자가 승인한 **안전·품질관리계획**대로 현장을 운영하는지도 집중 확인하겠다고 밝혀, 겨울철 타설 일정과 양생 계획을 세우는 설계·감리 쪽도 계획서와 실제 시공의 일치 여부를 다시 챙겨야 한다."
+    ],
+    "source": {
+      "outlet": "정책브리핑",
+      "links": [
+        {
+          "text": "국토교통부 보도자료",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789275"
+        }
+      ]
+    },
+    "src_date": "2026-11-16",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "해외 · 일본 웰니스",
+      "title": "나무를 베지 않고 기둥으로 — 다이치, 가나가와 숲속 '트리 사우나'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/daichi-silent-river-tree-sauna-daichi-architecture-sauna-japan-public-leisure_dezeen_2364_hero.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "일본 스튜디오 **다이치(Daichi Inc)**가 도쿄 남서쪽 가나가와현 숲속 휴양지 '다이치 사일런트 리버'에 사우나를 지었다. 부지의 나무를 베어 자재로 쓰는 대신 **살아 있는 나무를 구조체**로 삼았다. 얇은 목재 데크가 나무가 받치는 격자 위에 얹히고, 나무줄기는 데크의 작은 원형 구멍을 그대로 관통한다.",
+        "두 겹의 목재 데크와 지붕으로 이뤄졌고, 가운데 데크는 경사지에 일부 기댄다. 위층 사우나실은 프레임 없는 유리로 감싸 목재 벤치와 가운데 장작난로만 두었으며, 작은 냉탕을 뺀 나머지 데크는 가는 금속 난간만 두른 열린 공간이다. 스튜디오는 \"사람들이 숲에 녹아드는 듯 느끼게 하고 싶었다\"며 나무가 \"건축의 일부\"라고 설명한다. **Dezeen Awards 2026** 레저·웰니스 부문 후보작이다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/14/daichi-inc-silent-river-tree-sauna/"
+          }
+        ]
+      },
+      "src_date": "2026-11-14",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 기반시설 건축",
+      "title": "정수장을 마을의 풍경으로 — POA, 원저우 '왕산 칭수이 정수장' 1만 3,080㎡",
+      "image": "https://images.adsttc.com/media/images/6af5/6fae/8074/f401/89de/e7f3/large_jpg/wangshan-qingshui-water-treatment-plant-poa-architects_17.jpg?1794469878",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "중국 **POA 아키텍츠**(대표 판청서우)가 저장성 원저우시 창난현 첸쿠에 연면적 **1만 3,080㎡** 규모의 '왕산 칭수이 정수장'을 완공했다. 주거지·농지·수로가 만나는 자리에 들어선 시설로, 발주처는 창난수무그룹이다.",
+        "건축가는 처리 수조·생산동·연결 공간을 땅 위에서 읽히는 하나의 앙상블로 묶었다. 노출된 처리 수조와 생산동 사이를 잇는 브리지가 경관의 중심이 되고, 관리·지원동은 길 쪽으로 얼굴을 낸다. 담장 뒤에 숨기던 기반시설을 동네 풍경의 일부로 끌어낸 사례다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188533/wangshan-qingshui-water-treatment-plant-poa-architects"
+          }
+        ]
+      },
+      "src_date": "2026-11-15",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "해외 · 멕시코 상업건축",
+      "title": "분홍 석회 미장으로 통일한 840㎡ — 레임스 502, 케레타로 '로사도세'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/rosadoce-reims-502-architecture-mexico-commercial-office_dezeen_2364_hero.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "멕시코 스튜디오 **레임스 502**가 케레타로 구도심 인근에 연면적 **840㎡** 상업건물을 지었다. 한 덩어리로도, 상가 **4개**나 모듈 **16개**로도 쪼개 쓸 수 있다. 외벽부터 철골·블록·그릴·설비까지 구도심 장밋빛 채석 석재를 닮은 분홍 석회 미장 색 하나로 맞췄고, 높이는 허용 최대치인 **7m**다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/15/reims-502-rosadoce/"
+          }
+        ]
+      },
+      "src_date": "2026-11-15",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 에콰도르 주거",
+      "title": "구도심의 빈 땅에 여섯 가구 — 메히아 나르바에스, 키토 '이침비아 주택'",
+      "image": "https://images.adsttc.com/media/images/6af7/008b/eabd/2a00/0192/e383/large_jpg/BICUBIK_0144.jpg?1794572460",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "**메히아 나르바에스 아르키텍토스**가 유네스코 세계유산인 키토 역사지구의 빈 필지를 연면적 **853㎡**, **6가구** 공동주택으로 채웠다. 단계적으로 열리는 동선을 따라 도시 풍경이 조금씩 드러나도록 했고, 재료와 빛으로 시간의 흐름을 느끼게 했다는 설명이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188630/itchimbia-housing-mejia-narvaez-arquitectos"
+          }
+        ]
+      },
+      "src_date": "2026-11-14",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "해외 · 영국 제도",
+      "title": "'건축안전부담금' 시행 한 달 — 영국 고위험 건축물 허가 신청 64건→6건 급감",
+      "image": "",
+      "image_label": "THE ARCHITECTS' JOURNAL",
+      "body": [
+        "영국 건축안전규제청(BSR)에 들어온 고위험 건축물(높이 **18m** 또는 **7층** 이상 주거 포함) 'Gateway 2' 허가 신청이 9월 **64건**에서 10월 **6건**으로 90% 넘게 줄었다. 10월 시행된 **건축안전부담금**(10가구 이상 분양·임대 주택, 10년간 **34억 파운드** 조성)을 피하려는 막판 신청이 몰린 뒤의 급락이다. 9월 21일 이후 강화 검증을 받은 41건 중 18건은 품질 미달로 보류됐다."
+      ],
+      "source": {
+        "outlet": "The Architects' Journal",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architectsjournal.co.uk/news/bsr-gateway-2-submissions-plummet-as-building-safety-levy-takes-effect"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 국제",
+      "title": "25㎡ 안에 전기·물·폐기물까지 — 빌드너 'MICROHOME 2027' 오프그리드 초소형 주택",
+      "image": "https://architecturecompetitions.com/assets/web/img/competitions/themes/microhome2027/home-01.webp",
+      "image_label": "BUILDNER",
+      "body": [
+        "빌드너가 젊은 전문직 부부를 위한 오프그리드 모듈러 초소형 주택 공모 **MICROHOME 2027**을 열었다. 모든 층을 합친 면적이 **25㎡**를 넘으면 안 되며, 대지는 전 세계 어디든 자유다. 전력·빗물 집수·폐기물 처리 개념을 A2 패널 한 장에 담아야 한다. 등록은 **2027년 6월 16일**, 제출은 **7월 21일** 마감이며 수상작은 총상금 **5만 유로** 규모의 빌드너 메달 결선에 오른다."
+      ],
+      "source": {
+        "outlet": "Buildner",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://architecturecompetitions.com/microhome2027/"
+          }
+        ]
+      },
+      "src_date": "",
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 충북 단양",
+      "title": "단양 가곡면 기초생활거점 제안공모 — 연면적 650㎡, 공사비 34.4억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "충북 단양군 가곡면 사평리 465-3 일원에 제1종근린생활시설(연면적 **650㎡**)을 짓는 '가곡면 기초생활거점조성사업 세부설계용역' 제안공모가 공고됐다. 설계비 **2억 원**, 공사비 **34.4억 원**이며 심사위원은 7인이다.",
+        "11월 13일 공고, 참가등록은 **11월 19일** 마감이고 결과는 12월 30일 발표 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19264"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 부산 을숙도",
+      "title": "낙동강 하구 섬에 대지·생태예술 한 점 — 부산시 '을숙도' 국제공모, 22일 마감",
+      "image": "https://images-eflux.b-cdn.net/assets/6ca72e62-e48f-4ee9-ac43-e8765a197607.jpg?&modified=2026-09-29T17:11:26.000Z",
+      "image_label": "E-FLUX",
+      "body": [
+        "부산시 푸른도시국이 낙동강 하구의 하구섬 **을숙도**(사하구 하단동 1142-8)에 설치할 대지·생태예술 작품을 국제공모로 찾는다. 주제는 'We Pass, the Earth Endures'. 미술뿐 아니라 **조경·건축·디자인** 분야 개인·팀도 지원할 수 있고, 과학자와의 협업팀도 환영한다.",
+        "**1점**을 선정하며 작품 지원비 **3억 8,000만 원**, 작가비 **2,000만 원**이다. 제안서는 **11월 22일** 자정(KST)까지 받고, 작품은 2027년 5~6월 공개 예정이다. 생태 교란을 최소화하는 생애주기 전체의 환경 책임을 요구한다."
+      ],
+      "source": {
+        "outlet": "e-flux",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://www.e-flux.com/announcements/6788243/open-call-for-land-ecological-art-on-eulsukdo-busan"
+          }
+        ]
+      },
+      "src_date": "2026-09-26",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "국내 · 건축사 업역",
+      "title": "\"실적 위주 발주가 진입 장벽\" — 서울시건축사회, 오늘 국회서 중소·청년 건축사 육성 토론회",
+      "image": "",
+      "image_label": "서울건축사신문",
+      "body": [
+        "서울특별시건축사회가 **11월 16일** 국회의원회관 대회의실에서 '중소·청년 건축사 육성, 건축 생태계 회복의 시작' 정책 토론회를 연다. 실적 중심 발주 구조, 높은 시장 진입 장벽, 적정 설계대가 확보의 어려움 등 중소·청년 건축사가 겪는 구조적 문제를 다룬다.",
+        "조장희 건축사(제이앤와이건축)가 청년 건축사의 시각에서 본 K-건축 비전을, 유광흠 **건축공간연구원** 선임연구위원이 중소·청년 건축사 성장 지원 정책을 발제한다. 10월 13일 김순하홀 사전 포럼의 논의를 이어받는 자리다."
+      ],
+      "source": {
+        "outlet": "서울건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.siranews.co.kr/news/articleView.html?idxno=2590"
+          }
+        ]
+      },
+      "src_date": "2026-11-06",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국내 · 교육시설",
+      "title": "별처럼 떠 있는 네 개의 매스 — 누아건축, 고양 '경기도교육청 학교미디어교육센터'",
+      "image": "https://cdn.a-news.kr/news/photo/202611/14030_20321_1156.jpg",
+      "image_label": "건축사뉴스",
+      "body": [
+        "성호진 건축사(누아 건축사사무소)가 설계한 고양시 '경기도교육청 학교미디어교육센터'는 지하 1층~지상 3층, 연면적 **4,058㎡** 규모다. 유리로 연 1층 위에 노출콘크리트·큐브블록·붉은 벽돌·내후성 강판을 입힌 **네 개의 매스**가 떠 있는 구성으로, 학생들의 창의를 품는 '둥지'를 표방했다.",
+        "제로에너지건축물 인증(5등급), 에너지효율 **1++** 등급, 녹색건축 우수 등급을 받았다. 제30회 경기도건축문화상 사용승인 부문 건축사회장상 수상작이다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.a-news.kr/news/articleView.html?idxno=14030"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 정원과 건축",
+      "title": "승효상의 '선곡서원'이 있는 인문정원 — 양평 '메덩골정원'",
+      "image": "https://cdn.a-news.kr/news/photo/202611/14035_20344_519.jpg",
+      "image_label": "건축사뉴스",
+      "body": [
+        "경기 양평군 양동면의 **메덩골정원**은 한국인의 삶을 담은 한국정원과 서양 철학을 바탕으로 한 현대정원으로 이뤄진 '인문정원'이다. 관람 동선은 '민초들의 삶–선비들의 풍류–한국인의 정신' 순으로 이어진다.",
+        "안동 병산서원을 현대적으로 재해석한 **승효상**의 선곡서원, 콘크리트로 다시 지은 누각 취병루, 남도돌담길과 용반연 연못이 핵심 공간이다. 건축과 조경이 만든 공간 자체가 감상의 대상이 되는 문화콘텐츠라는 점을 짚었다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.a-news.kr/news/articleView.html?idxno=14035"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 건축문화",
+      "title": "'우리 집 평면 클리닉'까지 — 광진건축+페스타, 오늘부터 사흘간 광진구청",
+      "image": "https://cdn.gukjenews.com/news/photo/202611/3750187_3931961_5253.jpg",
+      "image_label": "국제뉴스",
+      "body": [
+        "광진구건축사회가 **11월 16~18일** 광진구청 대강당에서 '2026 광진건축+페스타'를 연다. 첫날 이관용 건축사(오픈스케일건축사사무소)가 AI 시대 건축사의 활용·대응 전략을 강연하고, 지역 건축사 작품과 건국대·세종대 학생 작품을 함께 전시한다. 구민이 집 평면도를 들고 와 상담받는 '우리 집 평면 클리닉'도 운영한다."
+      ],
+      "source": {
+        "outlet": "국제뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.gukjenews.com/news/articleView.html?idxno=3750187"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "국내 · 건축 교육",
+      "title": "현장실습·인턴십·특강 — 경기도건축사회·명지대 건축대학 산학협력 협약",
+      "image": "https://cdn.ancnews.kr/news/photo/202611/21395_24263_4621.jpg",
+      "image_label": "건축사신문",
+      "body": [
+        "경기도건축사회와 명지대학교 건축대학이 '건축 전문 인재 양성과 지역 건축문화 발전을 위한 상호협력 협약'을 맺었다. 학생 **현장실습·인턴십**, 건축사 전문교육·특강, 우수학생 발굴, 지역 건축문화 활성화의 4개 분야에서 협력한다.",
+        "경기건축사회는 매년 열리는 경기건축문화제에 대학 부스를 마련해 우수 졸업작품을 전시하는 방안도 검토하기로 했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21395"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "SS 유나이티드 스테이츠, 인공어초로 가라앉다",
+      "body": "1952년 처녀항해한 길이 **990피트**의 대서양 횡단 여객선이 11월 11일 플로리다 데스틴 앞바다 수심 약 **180피트**로 침몰됐다. 오칼루사 카운티가 세계 최대 인공어초로 조성한다.",
+      "source": {
+        "outlet": "FOX Weather",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.foxweather.com/lifestyle/historic-ss-united-states-transatlantic-speed-record-sunk-create-world-largest-reef-florida"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "재난유산"
+    },
+    {
+      "title": "COP31 '전력화 35%' 목표, 송전망 공사 부를까",
+      "body": "의장국 튀르키예가 최종에너지 중 전력 비중을 2035년 **35%**로 높이자고 제안했다. 미국 송전선의 **70%**는 25년 이상 노후, 신뢰도 유지 비용은 최대 **2조 달러**로 추산된다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64282-cop31-electrification-goal-could-drive-grid-construction-if-countries-sign-on"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "제도규제"
+    },
+    {
+      "title": "미 에너지부 4.8억 달러 융자, 멕시코만 해상 플랫폼 22기 개보수",
+      "body": "아레나 에너지의 '엘크혼 프로젝트'로 루이지애나 앞바다 플랫폼을 고치고 확장한다. 2030년까지 5회 분할 융자, 건설 일자리 약 **2,400개**. 1984년 셰브런이 수심 296피트에 세운 플랫폼도 포함된다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64265-480m-energy-dept-loan-backs-overhaul-of-22-offshore-platforms"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "법원, 33억 달러 애리조나 광산 공사 계속 허용",
+      "body": "환경단체가 지하수·멸종위기종 검토 부실을 이유로 낸 공사중지 요청을 연방지법이 기각했다. 사우스32의 **허모사** 아연·납·은 광산. 본안 판단은 아니라고 재판부가 못 박았다.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64260-court-allows-construction-to-continue-at-south32s-33b-arizona-mine"
+          }
+        ]
+      },
+      "src_date": "2026-11-11",
+      "topic": "제도규제"
+    },
+    {
+      "title": "광주 자율주행 실증도시, 30일 첫 차량",
+      "body": "도시 단위 첫 실증 공간. 현대차가 SDV **200대** 중 67대를 인도했고 연말까지 약 **120대**가 도로에 나선다. 17일 통합운영사무소 개소, 차고지 **205면**도 이달 완공.",
+      "source": {
+        "outlet": "정책브리핑",
+        "links": [
+          {
+            "text": "국토교통부 보도자료",
+            "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789253"
+          }
+        ]
+      },
+      "src_date": "2026-11-15",
+      "topic": "도시재생"
+    },
+    {
+      "title": "'AI 시대 건설안전' 세미나 18일 건설회관",
+      "body": "건설산업비전포럼·한국건설안전학회 공동. 최수영 건산연 연구위원이 제도 개선을, 이슬비 인천대 교수가 첨단 안전기술 실용화를 발표한다. 참가 무료.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327471"
+          }
+        ]
+      },
+      "src_date": "2026-11-13",
+      "topic": "제도규제"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "mecanoo-dnb-amsterdam",
+      "tag": "PROJECT",
+      "title": "금괴 금고가 시민의 거실로 — 메카노의 네덜란드 중앙은행 리노베이션",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:De Nederlandsche Bank Westeinde Amsterdam 20130818.JPG",
+        "File:De Nederlandse Bank op Frederiksplein. Exterieur, Bestanddeelnr 921-2743.jpg",
+        "File:Amsterdam Nederlandsche Bank 001.JPG"
+      ],
+      "photo_query": "amsterdam canal red brick",
+      "slides": [
+        {
+          "heading": "금괴 금고가\n시민의 거실로",
+          "body": "메카노, 암스테르담 네덜란드 중앙은행(DNB) 리노베이션"
+        },
+        {
+          "heading": "FORTRESS",
+          "body": "1968년 미스를 꿈꾸며 설계됐지만 보안에 밀려 울타리·바위·무장 헌병이 지키는 '요새'가 됐다. \"나라에서 가장 못생긴 건물\"이라는 말까지 들었다."
+        },
+        {
+          "heading": "TURN",
+          "body": "금 보유고와 지폐 업무가 자이스트로 떠나자 지킬 것이 사라졌다. 건물을 열 수 있게 된 것이다."
+        },
+        {
+          "heading": "REUSE",
+          "body": "14층 원통형 타워를 해체해 공공 정원을 냈다. 그 콘크리트로 운하 안벽을 쌓고, 옛 타일은 부숴 새 벽돌의 안료로 썼다."
+        },
+        {
+          "heading": "VAULT",
+          "body": "바닥을 걷어내 길이 61m 금고를 드러냈다. \"가장 비밀스러웠던 곳이 이제 가장 공공적인 곳.\""
+        },
+        {
+          "heading": "ENERGY",
+          "body": "차양 일체형 이중창으로 일상 에너지 사용량을 80% 줄일 것으로 추산된다. 색은 마지막 길더 지폐에서 따왔다."
+        }
+      ]
+    },
+    {
+      "slug": "molit-winter-site-inspection",
+      "tag": "POLICY",
+      "title": "건설현장 2,946곳 동절기 점검 — 한중콘크리트·흙막이 집중",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "construction crane scaffolding winter",
+      "slides": [
+        {
+          "heading": "겨울 현장\n2,946곳을 본다",
+          "body": "국토부, 11월 16일~12월 24일 동절기 건설현장 안전점검"
+        },
+        {
+          "heading": "WHO",
+          "body": "국토부·5개 지방국토청·LH·도로공사·철도공단·국토안전관리원 등 12개 기관이 나선다."
+        },
+        {
+          "heading": "CONCRETE",
+          "body": "일평균기온 4℃ 이하 한중콘크리트의 보온양생. 얼면 강도가 나오지 않는다."
+        },
+        {
+          "heading": "GROUND",
+          "body": "지반이 얼고 녹으며 흙막이 가시설이 변형될 수 있다. 계측기 관리 상태까지 확인한다."
+        },
+        {
+          "heading": "HIGH RISK",
+          "body": "도심 지하굴착·대형 건축·교량·터널은 외부 전문가와 함께. 사망사고 현장의 시공사 다른 현장은 특별점검."
+        },
+        {
+          "heading": "PENALTY",
+          "body": "부실시공·품질관리 미흡이 적발되면 벌점·과태료를 예외 없이 물린다."
+        }
+      ]
+    },
+    {
+      "slug": "daichi-silent-river-tree-sauna",
+      "tag": "PROJECT",
+      "title": "나무를 베지 않고 기둥으로 — 다이치의 숲속 트리 사우나",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "forest sauna wooden",
+      "slides": [
+        {
+          "heading": "나무를 베지 않고\n기둥으로 썼다",
+          "body": "다이치, 가나가와 숲속 '사일런트 리버 트리 사우나'"
+        },
+        {
+          "heading": "IDEA",
+          "body": "부지의 나무를 베어 자재로 쓰는 대신, 살아 있는 나무를 그대로 구조체로 삼았다."
+        },
+        {
+          "heading": "STRUCTURE",
+          "body": "나무가 받치는 격자 위에 얇은 목재 데크를 얹었다. 줄기는 데크의 작은 원형 구멍을 관통한다."
+        },
+        {
+          "heading": "SAUNA",
+          "body": "위층 사우나실은 프레임 없는 유리로 감쌌다. 안에는 목재 벤치와 장작난로뿐."
+        },
+        {
+          "heading": "OPEN",
+          "body": "작은 냉탕을 빼면 데크는 가는 금속 난간만 두른 열린 공간. \"숲에 녹아드는 듯\" 머물게 한다."
+        }
+      ]
+    }
+  ]
+}
