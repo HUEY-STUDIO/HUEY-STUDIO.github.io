@@ -1,0 +1,675 @@
+{
+  "vol": "VOL.01  NO.093",
+  "editor": "HUEY",
+  "counts": {
+    "total": 25,
+    "intl": 17,
+    "kr": 8
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "designboom",
+    "Archinect",
+    "The Architects' Journal",
+    "ENR",
+    "Construction Dive",
+    "competitions.archi",
+    "정책브리핑",
+    "대한전문건설신문",
+    "국토일보",
+    "ZDNet Korea",
+    "서울신문",
+    "서울특별시",
+    "뉴스서울",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "첫 '시자상'은 멕시코 C733에",
+      "desc": "세랄베스 재단 신설, 상금 5만 유로 — 30~40대 건축가 대상",
+      "label": "AWARDS"
+    },
+    {
+      "title": "캐나다 첫 상업용 SMR, 예산 초과·일정 지연",
+      "desc": "달링턴 BWRX-300, 54억 달러 예산 넘고 2030년 가동 목표 못 지켜",
+      "label": "ENERGY"
+    },
+    {
+      "title": "이간수문을 겸재의 눈으로 다시 그리다",
+      "desc": "제3회 대한민국 전통조경대전 대상 '이간(異間)' — 부산대 팀",
+      "label": "LANDSCAPE"
+    },
+    {
+      "title": "뉴욕·뉴저지항만청, 2027년 103억 달러 예산",
+      "desc": "JFK 신터미널·뉴어크 에어트레인·미드타운 버스터미널",
+      "label": "INFRA"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 역사건축 리노베이션",
+    "lede": "1931년 석회암 대합실을 다시 승객에게 — SOM, 필라델피아 '30번가역' 복원 1단계 완료",
+    "lede_em": "다시 승객에게",
+    "image": "https://static-2026.dezeen.com/uploads/2026/11/30-street-station-som-philadelphia_dezeen_2364_hero.jpg",
+    "image_label": "DEZEEN",
+    "caption": "SOM이 복원한 필라델피아 윌리엄 H. 그레이 3세 30번가역 ⓒ Dezeen",
+    "body": [
+      "**SOM**이 미국 필라델피아 **윌리엄 H. 그레이 3세 30번가역**의 복원 1단계를 마쳤다. 2016년 SOM이 발표한 역 일대 마스터플랜의 첫 실행분으로, 암트랙이 상층부를 사무공간으로 쓰는 미 동북부 핵심 철도역의 실내를 정비했다.",
+      "역은 시카고 사무소 **그레이엄, 앤더슨, 프롭스트 앤드 화이트**가 설계해 **1931년** 완공됐다. 석회암 파사드와 코린트식 열주가 상징인 이 건물은 **미국 국가사적지(NRHP)**에 등재돼 있어 형태 변경에 엄격한 제약이 따른다.",
+      "핵심은 동선 재편이다. 메인 홀을 차지하던 매표·수하물 위탁 기능을 그동안 잘 쓰이지 않던 **북쪽 윙**으로 옮겨, 대합실을 좌석과 통과 동선을 위한 공간으로 되돌렸다. 시공은 **길베인**, 남측 콘코스 리테일은 **넬슨 월드와이드**가 맡았다.",
+      "SOM의 **콜린 쿱**과 **필 웨셀**은 원형을 해치지 않으면서 오늘날 이용 패턴에 맞추는 작업이라고 설명했다. 사업비·면적은 공개되지 않았다. 사적지 규제 안에서 '용도 재배치'만으로 공간의 공공성을 되살린 사례로, 노후 역사 리노베이션의 참고점이 될 만하다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "SOM 30번가역 복원",
+          "url": "https://www.dezeen.com/2026/11/17/som-30-street-station-philadelphia-restoration/"
+        }
+      ]
+    },
+    "src_date": "2026-11-17",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "정책브리핑",
+    "title": "공동주택 리모델링 주민 동의율 75%→70% 완화 — 수직증축 안전성 검토기관 3곳으로, 주택법 시행령 의결",
+    "body": [
+      "국토교통부의 **주택법 시행령** 개정안이 **11월 17일** 국무회의를 통과했다. 공동주택 리모델링 조합 설립·사업 추진에 필요한 주민 동의 요건을 낮추고, 수직증축 리모델링의 안전성 검토 기관을 늘리는 것이 골자다."
+    ],
+    "facts": [
+      "동의율: 단지 전체·동 단위 리모델링 소유자·의결권 **75% → 70%** (동별 50% 요건은 유지)",
+      "수직증축 안전성 검토: 건설기술연구원·국토안전관리원 + **한국부동산원** = **3곳**",
+      "시행: 위 두 가지는 **2027년 1월 1일** 이후 리모델링 허가 신청분부터 (주택법 제66조제1항)",
+      "기타(공포 즉시): 10년 이상 장기복무 군인 거주의무 예외, 같은 지역주택조합원 간 혼인 예외"
+    ],
+    "body_after": [
+      "동의 문턱이 낮아지면 사업 착수 단지가 늘고, 검토기관 확대로 수직증축 구조 검토 대기도 줄어들 전망이다. 리모델링 설계를 맡는 건축사무소로서는 조합 단계 초기 기획·구조 검토 수요가 함께 늘어날 수 있는 변화다."
+    ],
+    "source": {
+      "outlet": "정책브리핑",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975891"
+        }
+      ]
+    },
+    "src_date": "2026-11-17",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "도시재생 · 멜버른",
+      "title": "44개 공공주택 타워를 허물지 말라 — 건축가 사이먼 로빈슨, '고쳐 쓰기'가 3억 달러 싸다",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/simon-robinson-office-interview-melbourne-victoria-public-housing-australia-_dezeen_1704_col_hero.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "호주 빅토리아 주정부는 2023년 '고층 재개발 프로그램'을 발표해 **1962~75년** 지어진 공공주택 타워 **44개 동**을 모두 철거하고 **2051년**까지 대체 주택을 짓겠다고 했다. 비영리 설계사무소 **오피스(Office)**의 **사이먼 로빈슨**은 이에 맞서 보존·증축 대안을 내놓고 있다.",
+        "플레밍턴 단지에서는 기존 **720세대**를 남기고 **577세대**의 사회주택을 인필로 더하는 안을 제시했다. 철거 대비 약 **3억 달러** 적고 지구온난화지수는 **55%** 낮다는 계산이다. 빅토리아의 사회주택 대기자는 **6만 명**을 넘지만 비중은 전체 주택의 **3%**(호주 평균 4.2%, OECD 7%)에 그친다. 플레밍턴 집단소송은 고등법원 판단을 앞두고 있다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/17/office-simon-robinson-public-housing-melbourne-australia/"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "제도규제 · 뉴욕",
+      "title": "도면과 현장 사이의 공백 — 브루클린 붕괴, 흙막이 특별검사는 '지정만 되고 확인 안 돼'",
+      "image": "https://www.enr.com/ext/resources/2026/11/17/Brooklyn-Collapse-3.jpg?height=635&t=1794951401&width=1200",
+      "image_label": "ENR",
+      "body": [
+        "**11월 11일** 브루클린 1321 플랫부시 애비뉴 건물이 옆 대지(2625 베드퍼드)의 굴착 공사 중 무너져 **8명이 숨지고 18명**이 다쳤다. ENR이 확보한 기록에 따르면 흙막이 설계자(LMW 엔지니어링)의 3월 측량 문서에는 인접 건물 기초 정보가 '제공되지 않음'으로 적혀 있었고, 뉴욕시 건축국(DOB)에는 흙막이·버팀 특별검사가 '지정됐으나 인증되지 않음' 상태로 남아 있었다. 계측 기록은 공개되지 않았다.",
+        "붕괴 건물에는 미해결 주택 위반 **98건**과 미납 과태료 **17만 달러**가 있었지만 구조 관련 항목은 없었다. 시는 **17일** 부분 되메우기를 지시하고 독립 엔지니어링 회사를 투입했다. 인접 대지 기초 조사와 특별검사 확인 절차가 실제로 작동했는지가 규제 쟁점으로 떠올랐다."
+      ],
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64346-brooklyn-collapse-records-reveal-gap-between-plans-and-site-work"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "제도규제"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "프로젝트 · 버밍엄",
+      "title": "쇼핑센터 자리에 56층 — EPR, 버밍엄 최고층 포함 4개 타워 '마티노 플레이스' 허가 신청",
+      "image": "https://cdn.rt.emap.com/wp-content/uploads/sites/4/2026/11/17145436/martineauhero.jpg",
+      "image_label": "AJ",
+      "body": [
+        "**EPR 아키텍츠**가 1959~65년 지어진 버밍엄 쇼핑센터 '마티노 플레이스'를 헐고 **13·19·42·56층** 4개 타워를 세우는 계획을 제출했다. 56층 동은 원 이스트사이드(51층, 155.2m)를 넘어 도시 최고층이 된다. 주택 **1,303세대**와 업무·상업 **2만 5,200㎡**, 대지 절반은 공공공간으로 열고 유니언 스트리트를 선형 공원으로 넓힌다."
+      ],
+      "source": {
+        "outlet": "The Architects' Journal",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architectsjournal.co.uk/news/epr-architects-submits-skyscraper-plans-to-replace-birmingham-shopping-centre"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "프로젝트 · 마드리드",
+      "title": "바로크 정문 뒤 흰 리본 계단 — 존 포슨, 옛 전당포 은행을 '마드리드 에디션' 호텔로",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/john-pawson-madrid-edition-hotel-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "1702년 설립된 전당포 은행 **몬테 데 피에다드** 건물이 호텔로 바뀌었다. 건축은 OAB·루이스-라레아, 인테리어는 **존 포슨**과 프랑수아 샹소르가 맡았다. 1960년대 예배당 철거 때도 살아남은 **페드로 데 리베라**의 바로크 정문 뒤로 포슨의 흰 나선 계단이 이어지며, 객실 **200실**과 기존 지붕 위 마드리드 최대 인피니티 풀을 갖췄다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/john-pawson-white-ribbon-staircase-18th-century-baroque-portal-madrid-edition-hotel-spain/"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "전시 · 2027 베네치아",
+      "title": "나뭇결을 그려 넣는 기술 — 북유럽관, 2027 베네치아 비엔날레 '페인티드 매터'",
+      "image": "https://images.adsttc.com/media/images/6afc/27fa/c23f/1f52/896d/75fb/large_jpg/kastler-skjeseth-architects-to-present-painted-matter-at-the-2027-venice-architecture-biennale_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "오슬로 **카스틀레르 셰셰트**가 스베레 펜의 북유럽관에서 결 그리기·대리석 무늬·착색 같은 전통 도장 기술을 생애주기와 진정성의 관점에서 다룬다. 노르웨이 국립미술관 커미션으로, 공예학교 학생 5명이 직접 시공한다. 전시는 **2027년 5월 8일~11월 21일**, 총감독은 **왕수·루원위**다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188736/the-nordic-pavilion-explores-traditional-craft-through-painted-matter-at-the-2027-venice-architecture-biennale"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "설계공모 · 이탈리아 바실리카타",
+      "title": "사슴 서식지 위로 나는 '플라이 라인' — 테라비바 'Sky to Moon' 공모, 총상금 1만 2,000유로",
+      "image": "https://competitions.archi/wp-content/uploads/2026/11/1080-x-1080.jpg",
+      "image_label": "COMPETITIONS.ARCHI",
+      "body": [
+        "남부 이탈리아 루카니아 아펜니노 산지의 **사소 디 카스탈다**에서 사슴 생태구역과 '카미노 델레 에모치오니' 입구를 잇는 공중 이동선(플라이 라인)과 출발·도착 정거장, 주변 공공 환영공간을 설계하는 개방형 공모다. 지형·식생·야생동물 대응과 **접근성**이 핵심 조건이다.",
+        "1등 **7,000유로** 등 총상금 최대 1만 2,000유로. 조기 등록 12월 18일, 제출·최종 등록 **2027년 2월 5일**, 결과 2월 26일."
+      ],
+      "source": {
+        "outlet": "competitions.archi",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://competitions.archi/competition/sky-to-moon-competition/"
+          }
+        ]
+      },
+      "src_date": "2026-11-12",
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "제도규제 · 모듈러",
+      "title": "모듈러 공공주택 2030년까지 2만 호 — 국토부, 국내 최대 세종 L5블록 현장점검",
+      "image": "https://cdn.koscaj.com/news/photo/202611/327493_75730_2118.jpg",
+      "image_label": "대한전문건설신문",
+      "body": [
+        "국토교통부가 **2027~2030년** 모듈러 공공주택 발주를 **2만 호**로 늘리고, 공법 적용에 따른 추가 비용을 호당 최대 **3,500만 원**까지 지원한다. 별도의 '모듈러 특별법'도 추진한다.",
+        "점검한 세종 5-1생활권 **L5블록**은 전체 1,327호 중 **450호**가 모듈러로 국내 최대이며, 스마트건설 기술 기반 설계·시공 일괄입찰인 '스마트 턴키'로 추진되는 첫 아파트다."
+      ],
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327493"
+          }
+        ]
+      },
+      "src_date": "2026-11-16",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "제도규제 · 건축사",
+      "title": "건축사 2만 명 시대, 청년에겐 첫 일이 없다 — 국회 토론회 12개 방안에 국토부 \"방향 공감\"",
+      "image": "http://www.ikld.kr/news/photo/202611/344265_191585_5912.jpeg",
+      "image_label": "국토일보",
+      "body": [
+        "등록 건축사는 2016년 1만 4,000명에서 **2만 1,024명**(2026년 10월)으로 늘었지만 2021~2025년 건축허가 면적은 35%, 착공 면적은 **48%** 줄었다. 1~4인 사무소가 전체의 **78.7%**인데 공공 설계 수주는 **21.3%**, 상위 5개사가 공모 당선의 **50.2%**를 가져갔다(건축공간연구원 유광흠).",
+        "설계비 1~2억 원대 연 240건 공모 중 청년 몫을 **10→20%**로 늘리는 안, 개업 7년 이내·45세 이하 건축사의 수의계약 특례 등이 제시됐고, 이진철 국토부 건축정책관은 2단계 공모 등 \"방향에 공감한다\"고 답했다."
+      ],
+      "source": {
+        "outlet": "국토일보",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.ikld.kr/news/articleView.html?idxno=344265"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "공공주택 · LH",
+      "title": "LH, 하반기 민간참여 공공주택 10개 블록 9,000호 공모 — '사업기간 최적화' 20점 신설",
+      "image": "",
+      "image_label": "대한전문건설신문",
+      "body": [
+        "LH가 남양주왕숙 등 **10개 블록 6개 공구, 약 9,000호** 규모의 민간참여 공공주택사업을 공모한다. 올해 전체는 31개 블록 약 2만 4,000호다.",
+        "평가에 **'사업기간 최적화'(20점)** 항목을 새로 넣었고, 세대별 계절창고, 공용공간 냉난방·제습, 분절형 입면 창호·유리 난간 등 설계 조건도 추가했다."
+      ],
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327499"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "수상 · 국가유산청",
+      "title": "이간수문을 겸재의 시선으로 — 제3회 대한민국 전통조경대전 대상 '이간(異間)'",
+      "image": "https://image.zdnet.co.kr/2026/11/16/ff7989e70ed6e7310c05d5504f8c9242.jpg",
+      "image_label": "ZDNET KOREA",
+      "body": [
+        "국가유산청이 **16일** 정동1928아트센터에서 제3회 대한민국 전통조경대전 시상식을 열고 **26점**을 시상했다. 디지털 설계 대상은 한양도성 이간수문과 DDP 일대를 겸재 정선의 진경산수 시선으로 재해석한 부산대 조경학과 팀의 **'이간(異間); 다른 시간이 놓인 사이'**다.",
+        "최우수는 스튜디오테라의 '국립중앙박물관 풍류의 정원', 우수정비사례 대상은 덕수궁 선원전 권역 단계별 복원안을 낸 산수조경. 수상작은 **29일**까지 선원전 권역 옛 조선저축은행 중역사택에서 전시한다."
+      ],
+      "source": {
+        "outlet": "ZDNet Korea",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://zdnet.co.kr/view/?no=20261116141230"
+          }
+        ]
+      },
+      "src_date": "2026-11-16",
+      "topic": "수상"
+    },
+    {
+      "kicker": "재난유산 · 경주",
+      "title": "신라 왕궁 성벽 아래 사로국 마을 — 월성 남성벽 발굴, 3~4세기 취락 한꺼번에 덮었다",
+      "image": "https://image.zdnet.co.kr/2026/11/16/c0725031c0fd5452b1ac4c646e8960b9.jpg",
+      "image_label": "ZDNET KOREA",
+      "body": [
+        "국립경주문화유산연구소가 월성 남쪽 성벽 아래에서 야외 화덕·주거지·건물지를 확인했다. **3~4세기**까지 사람이 살던 마을을 한꺼번에 정지한 뒤 성벽을 쌓아 왕궁으로 만든 것으로 보인다. 집과 함께 불탄 개 2마리 뼈, 구슬 담은 나무그릇 등 폐기 의례 흔적과 탄화 쌀·밀·콩·밤도 나왔다.",
+        "현장설명회는 **19일**, 학술대회 '사로국의 생활문화'는 **20일** 경주에서 열린다."
+      ],
+      "source": [
+        {
+          "outlet": "ZDNet Korea",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://zdnet.co.kr/view/?no=20261116141049"
+            }
+          ]
+        },
+        {
+          "outlet": "서울신문",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://www.seoul.co.kr/news/life/cultural-heritage/2026/11/16/20261116500041"
+            }
+          ]
+        }
+      ],
+      "src_date": "2026-11-16",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "설계공모 · 전북 남원",
+      "title": "남원 경찰수련원 신축 설계공모(제안) — 연면적 9,225㎡, 공사비 350억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "전북특별자치도경찰청 수요, 조달청 발주로 남원시 어현동 37-99에 경찰수련원(교육연구시설, 연면적 **9,225㎡**)을 짓는 제안공모다. 설계비 **15.8억 원**, 공사비 **350억 원**, 심사위원 7인.",
+        "11월 16일 공고, 참가등록 **11월 24일** 마감, 결과는 2027년 1월 14일 이내 발표 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19275"
+          }
+        ]
+      },
+      "src_date": "2026-11-16",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경기 광명",
+      "title": "광명메모리얼파크 증축 설계공모 — 장례시설 연면적 2,857㎡, 공사비 168억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "광명시 자경로 153(일직동) 광명메모리얼파크를 증축하는 일반 설계공모다. 장례시설 연면적 **2,857㎡**, 설계비 **10.3억 원**, 공사비 **168억 원**, 심사위원 7인.",
+        "11월 16일 공고됐으며 결과는 **2027년 2월 5일** 발표 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19269"
+          }
+        ]
+      },
+      "src_date": "2026-11-16",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경북 영천",
+      "title": "영천성남여고 별관을 미래형 학교로 — 공간재구조화 설계 제안공모(재), 사업비 43.2억",
+      "image": "",
+      "image_label": "주택폴리오",
+      "body": [
+        "영천시 남촌길 17 영천성남여자고등학교의 기존 별관(B동, 지상 3층)을 3학년 일반교실 4실 등 미래형 학습공간으로 바꾸는 재공고 제안공모다. 연면적 상한 **1,600.5㎡**, 추정 설계비 **1.73억 원**, 추정 사업비 **43.2억 원**, 심사위원 8인.",
+        "11월 16일 공고, 결과는 **12월 17일** 발표 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 정보",
+            "url": "https://jootek.com/folio/contests/19273"
+          }
+        ]
+      },
+      "src_date": "2026-11-16",
+      "topic": "설계공모"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "캐나다 첫 상업 SMR, 예산 초과·지연",
+      "body": "온타리오 **달링턴 BWRX-300**(300MW)이 54억 달러 예산을 넘기고 2030년 10월 가동 목표도 못 지킨다. 수정 공정·사업비는 2027년 중반 발표.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64326-engineering-issues-push-ontarios-darlington-smr-over-budget-behind-schedule"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "제이컵스·TYLin, 워싱턴 공항 PM 1.5억 달러",
+      "body": "덜레스·레이건 공항 프로그램관리 계약(10년 최대 3억 달러). 덜레스 재개발은 **200억 달러** 이상, 레이건 T1은 게이트 단위로 교체.",
+      "source": {
+        "outlet": "ENR",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.enr.com/articles/64334-jacobs-ty-lin-win-150m-washington-airports-program-management-contracts"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "뉴욕·뉴저지항만청 2027 예산 103억 달러",
+      "body": "자본예산 **40억 달러** — JFK 신 1터미널, 뉴어크 에어트레인 교체, 100억 달러 미드타운 버스터미널. 12월 17일 의결.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/port-authority-proposes-budget-nyc-area-projects/874913/"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "영국 주택설계사무소 레빗 번스타인 구조조정",
+      "body": "직원 100여 명 규모 사무소가 감원과 채무조정(CVA)에 들어갔다. RIBA 차기 회장 제이 모턴 \"업계의 **탄광 속 카나리아**\".",
+      "source": {
+        "outlet": "The Architects' Journal",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.architectsjournal.co.uk/news/levitt-bernsteins-troubles-should-be-massive-alarm-bell-says-morton"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "유엔해비타트, 도시 엘니뇨 대비 지침",
+      "body": "아프리카의 뿔 **8개국** 대상. 3개 시나리오별 정량 발동 기준과 사전 재원·인프라 대비 등 6개 요소를 담았다.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188712/un-habitat-and-icpac-launch-a-practical-guide-to-help-cities-prepare-for-el-nino"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "재난유산"
+    },
+    {
+      "title": "첫 '시자 공공건축상'에 콜렉티보 C733",
+      "body": "포르투갈 세랄베스 재단 신설, 상금 **5만 유로**와 알바루 시자 디자인 트로피. 멕시코 SEDATU와의 사회 인프라 작업이 평가받았다.",
+      "source": {
+        "outlet": "Archinect",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://archinect.com/news/bustler/11194/colectivo-c733-receives-inaugural-siza-award-for-public-architecture"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "수상"
+    },
+    {
+      "title": "LH 레미콘 관리 '레미온', 3기 신도시 전면 도입",
+      "body": "생산·운반·타설까지 실시간 추적, GPS 운행기록·시험결과·불합격 반품을 남긴다. **2028년** 이후 LH 전 현장 확대.",
+      "source": {
+        "outlet": "대한전문건설신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.koscaj.com/news/articleView.html?idxno=327498"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "2025 주거실태조사, 1인당 면적 38.2㎡",
+      "body": "자가보유율 **62.0%**, 수도권 자가 PIR 8.2배, 임차가구 RIR 17.0%. 주거지원 필요 가구 45.9%로 7.7%p 증가.",
+      "source": [
+        {
+          "outlet": "정책브리핑",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789623"
+            }
+          ]
+        },
+        {
+          "outlet": "뉴스서울",
+          "links": [
+            {
+              "text": "기사",
+              "url": "https://newsseoul.co.kr/news/view/1065611418825672"
+            }
+          ]
+        }
+      ],
+      "src_date": "2026-11-17",
+      "topic": "제도규제"
+    },
+    {
+      "title": "인사도시유적전시관 개관기획전",
+      "body": "공평 15·16지구 재개발 중 발굴한 조선 초 건물지·배수로를 현지 보존한 전시관의 첫 기획전 《다시 모은 조각들》, **2027년 3월 28일**까지.",
+      "source": {
+        "outlet": "서울특별시",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.seoul.go.kr/news/news_report.do?bbsNo=158&nttNo=470495"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "재난유산"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "som-30th-street-station-restoration",
+      "tag": "HERITAGE",
+      "title": "1931년 대합실을 승객에게 — SOM, 필라델피아 30번가역 복원",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:William H. Gray III 30th Street Station (53585709922).jpg",
+        "File:30th Street Station - Philadelphia (2643039316).jpg",
+        "File:30th Street Station, Philadelphia (14946959392).jpg",
+        "File:Philadelphia 30th Street Station (6809221037).jpg",
+        "File:30th Street Station - Philadelphia (2642203647).jpg",
+        "File:30th Street Station - Philadelphia (2643032780).jpg"
+      ],
+      "photo_query": "30th street station philadelphia",
+      "slides": [
+        {
+          "heading": "1931년 대합실을\n다시 승객에게",
+          "body": "SOM, 필라델피아 30번가역 복원 1단계 완료"
+        },
+        {
+          "heading": "WHAT",
+          "body": "SOM이 2016년 발표한 역 일대 마스터플랜의 첫 실행분. 미 동북부 핵심 철도역의 실내를 정비했다."
+        },
+        {
+          "heading": "1931",
+          "body": "그레이엄, 앤더슨, 프롭스트 앤드 화이트 설계. 석회암 파사드와 코린트식 열주가 상징이다."
+        },
+        {
+          "heading": "CONSTRAINT",
+          "body": "미국 국가사적지 등재 건물이라 형태를 바꾸기 어렵다. 그래서 선택한 방법은 '용도의 재배치'."
+        },
+        {
+          "heading": "MOVE",
+          "body": "메인 홀의 매표·수하물 위탁을 쓰이지 않던 북쪽 윙으로 옮겼다. 대합실은 좌석과 통과 동선의 공간으로 돌아왔다."
+        },
+        {
+          "heading": "TEAM",
+          "body": "시공 길베인, 남측 콘코스 리테일 넬슨 월드와이드. 상층부는 암트랙 사무공간으로 쓰인다."
+        }
+      ]
+    },
+    {
+      "slug": "melbourne-public-housing-towers",
+      "tag": "URBAN",
+      "title": "44개 공공주택 타워를 허물지 말라 — 멜버른의 '고쳐 쓰기' 제안",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "concrete public housing tower block",
+      "slides": [
+        {
+          "heading": "허물 것인가,\n고쳐 쓸 것인가",
+          "body": "멜버른 공공주택 타워 44개 동을 둘러싼 논쟁"
+        },
+        {
+          "heading": "PLAN",
+          "body": "빅토리아 주정부는 1962~75년 지어진 타워 44개 동을 모두 철거하고 2051년까지 대체 주택을 짓겠다고 했다."
+        },
+        {
+          "heading": "COUNTER",
+          "body": "비영리 설계사무소 오피스의 사이먼 로빈슨은 플레밍턴 단지 720세대를 남기고 사회주택 577세대를 더하는 안을 냈다."
+        },
+        {
+          "heading": "NUMBERS",
+          "body": "철거보다 약 3억 달러 저렴하고, 지구온난화지수는 55% 낮다는 계산이다."
+        },
+        {
+          "heading": "CONTEXT",
+          "body": "사회주택 대기자 6만 명 이상. 비중은 전체 주택의 3%로 호주 평균 4.2%, OECD 7%에 못 미친다."
+        },
+        {
+          "heading": "NEXT",
+          "body": "플레밍턴 집단소송은 고등법원 판단을 앞두고 있다. 재건축 대신 '보존+인필'이 공공주택의 해법이 될 수 있을까."
+        }
+      ]
+    },
+    {
+      "slug": "modular-public-housing-20000",
+      "tag": "POLICY",
+      "title": "모듈러 공공주택 2030년까지 2만 호",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "modular construction apartment crane",
+      "slides": [
+        {
+          "heading": "모듈러 공공주택\n2030년까지 2만 호",
+          "body": "국토부, 국내 최대 세종 L5블록 현장점검"
+        },
+        {
+          "heading": "TARGET",
+          "body": "2027~2030년 모듈러 공공주택 발주를 2만 호로 늘린다. 별도 '모듈러 특별법'도 추진한다."
+        },
+        {
+          "heading": "SUBSIDY",
+          "body": "공법 적용으로 늘어나는 비용은 호당 최대 3,500만 원까지 지원한다."
+        },
+        {
+          "heading": "SEJONG L5",
+          "body": "세종 5-1생활권 L5블록 1,327호 중 450호가 모듈러. 국내 최대 규모다."
+        },
+        {
+          "heading": "SMART TURNKEY",
+          "body": "스마트건설 기술 기반 설계·시공 일괄입찰 '스마트 턴키'로 추진되는 첫 아파트이기도 하다."
+        }
+      ]
+    }
+  ]
+}
