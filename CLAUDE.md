@@ -41,6 +41,7 @@ issues.json              ← 발행 이력
 
 ```bash
 python3 render.py --check        # 검증만 (중복·topic·counts·카드뉴스 ref)
+python3 render.py --seen URL…    # 후보 URL/제목이 아카이브에 이미 있는지 (NEW/DUP) — 리서치용
 python3 cardnews.py 2026-08-17   # 카드뉴스 JPEG + 그날 공유카드 (render.py보다 먼저)
 python3 render.py 2026-08-17     # 특정 날짜 — 빌드 전에 검증이 자동으로 돈다
 python3 render.py --all          # 전체 재생성 (CSS·구조 수정 후)
@@ -93,6 +94,28 @@ python3 render.py --all          # 전체 재생성 (CSS·구조 수정 후)
   - 국제기구·유럽: UIA(국제건축가연맹) Competitions, TED(Tenders Electronic Daily, EU 조달
     시스템), Competitions.archi
   - 일본: 建築（Kenchiku）공모전 섹션, JETRO 정부조달 정보(영문/일문)
+- **리서치 에이전트에 위임할 때 (토큰 절약).**
+  - **중복 조회는 `render.py --seen`으로 한다.** 후보마다 `grep -r data/`를 돌리게 하지 말고,
+    후보 URL(또는 제목)을 모아 한 번에 묻는다. 한 줄씩 `NEW` / `DUP`(+어느 호의 어느 기사인지)로 답한다.
+    ```bash
+    python3 render.py --seen "https://…기사1" "https://…기사2"
+    printf '%s\n' URL1 URL2 | python3 render.py --seen -
+    ```
+    URL 일치가 가장 확실하다. 제목 비교는 한국어 제목끼리만 의미가 있으니(영문 원제목은 못 잡는다)
+    해외 기사는 반드시 URL로 물을 것. `render.py --check`가 최종 관문이라는 점은 그대로다.
+  - **에이전트 보고는 아래 압축 포맷(항목당 1블록)으로 받는다.** 서술형 보고는 메인이 다시 읽고
+    재작성해야 해서 입력 토큰이 두 번 든다. 호출 상한(예: 목록 페이지 4곳 + 기사 8~10건)도 프롬프트에 적는다.
+    ```
+    section: top|side|intl_feature|intl_grid|korea|briefs   # 추천 배치
+    topic: 제도규제|프로젝트|도시재생|재난유산|설계공모|수상
+    title: 원제목 (한국어 제목 초안 가능)
+    outlet: 매체명
+    url: 실제 확인한 기사 URL
+    src_date: YYYY-MM-DD
+    image: 200 확인된 URL (없으면 빈칸)
+    facts: 핵심 사실 3~5개, 수치·고유명사 그대로, 세미콜론으로 구분
+    ```
+    에이전트가 이미 검증한 `--seen` 결과와 이미지 200 확인은 메인에서 다시 하지 않는다.
 - 분량 목표
   - `top` 1건 (그날 가장 큰 뉴스)
   - `side` 1건 — **설계 실무에 영향을 주는 제도·규제·기술 이슈를 반드시 배치**

@@ -1728,15 +1728,8 @@ def site_size_mb():
     return total / 1024 / 1024
 
 
-def check(days, verbose=True):
-    """지면 데이터를 검증하고 (오류, 경고) 목록을 돌려준다."""
-    from difflib import SequenceMatcher
-
-    errors, warns = [], []
-    target = set(days)
-
-    # 전체 아카이브를 먼저 훑어 URL·제목 원장을 만든다. 중복 검사는 '최근 3일'이 아니라
-    # 반드시 전체를 상대로 해야 한다 — 같은 피드를 매일 훑기 때문에 3일로는 못 잡는다.
+def build_ledger():
+    """data/*.json 전체의 (URL·제목) 원장. check()와 --seen이 함께 쓴다."""
     ledger = []
     for fn in sorted(os.listdir(DATA)):
         if not fn.endswith(".json"):
@@ -1754,6 +1747,54 @@ def check(days, verbose=True):
             ledger.append({"day": day, "label": label, "title": title,
                            "norm": norm_title(title), "urls": urls,
                            "entity": extract_entity(title)})
+    return ledger
+
+
+def seen(queries):
+    """후보(URL 또는 제목) 목록이 이미 아카이브에 있는지 한 줄씩 답한다.
+    리서치 단계에서 에이전트가 후보마다 grep하지 않도록 만든 가벼운 중복 조회."""
+    from difflib import SequenceMatcher
+    ledger = build_ledger()
+    url_idx = {}
+    for r in ledger:
+        for u in r["urls"]:
+            url_idx.setdefault(u, r)
+    for q in queries:
+        q = q.strip()
+        if not q:
+            continue
+        hit = None
+        if q.lower().startswith("http"):
+            r = url_idx.get(norm_url(q))
+            if r:
+                hit = (r, "같은 URL")
+        else:
+            nq = norm_title(q)
+            best = (0.0, None)
+            for r in ledger:
+                if len(nq) >= 8 and len(r["norm"]) >= 8:
+                    ratio = SequenceMatcher(None, nq, r["norm"]).ratio()
+                    if ratio > best[0]:
+                        best = (ratio, r)
+            if best[1] and best[0] >= NEAR_TITLE_RATIO:
+                hit = (best[1], f"제목 {best[0] * 100:.0f}% 유사")
+        if hit:
+            r, why = hit
+            print(f"DUP\t{q}\t→ {r['day']} {r['label']} ({why}) “{clip(r['title'], 40)}”")
+        else:
+            print(f"NEW\t{q}")
+
+
+def check(days, verbose=True):
+    """지면 데이터를 검증하고 (오류, 경고) 목록을 돌려준다."""
+    from difflib import SequenceMatcher
+
+    errors, warns = [], []
+    target = set(days)
+
+    # 전체 아카이브를 먼저 훑어 URL·제목 원장을 만든다. 중복 검사는 '최근 3일'이 아니라
+    # 반드시 전체를 상대로 해야 한다 — 같은 피드를 매일 훑기 때문에 3일로는 못 잡는다.
+    ledger = build_ledger()
 
     # 한 호 안에서 여러 항목이 같이 인용한 URL = 종합기사. 날짜를 건너 겹쳐도 중복이 아니다.
     per_day_use = {}
@@ -1959,9 +2000,15 @@ def build(days):
 if __name__ == "__main__":
     args = sys.argv[1:]
     if not args:
-        sys.exit("사용법: python3 render.py <YYYY-MM-DD> | --all | --check [<날짜>...]")
+        sys.exit("사용법: python3 render.py <YYYY-MM-DD> | --all | --check [<날짜>...] | --seen <URL|제목>...")
 
     all_days = sorted(f[:-5] for f in os.listdir(DATA) if f.endswith(".json"))
+
+    if args[0] == "--seen":
+        # 사용: render.py --seen <URL|제목>...   또는   ... | render.py --seen -
+        qs = sys.stdin.read().splitlines() if args[1:] == ["-"] else args[1:]
+        seen(qs)
+        sys.exit(0)
 
     if args[0] == "--check":
         targets = args[1:] or all_days
