@@ -1,0 +1,565 @@
+{
+  "vol": "VOL.01  NO.094",
+  "editor": "HUEY",
+  "counts": {
+    "total": 21,
+    "intl": 14,
+    "kr": 7
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "Construction Dive",
+    "Bustler",
+    "국토교통부 입법예고",
+    "건축사신문",
+    "건축사뉴스",
+    "주택폴리오",
+    "competitions.archi"
+  ],
+  "teasers": [
+    {
+      "title": "올해의 모스크 건축상",
+      "desc": "알 포잔상 제5회, 방글라데시·영국·오만·니제르·인도네시아",
+      "label": "AWARDS"
+    },
+    {
+      "title": "빗물이 머무는 로마",
+      "desc": "빌드너 'Rome Rain Rooms' 1등 'Pluvia'",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "16억 달러 철도교 개통",
+      "desc": "116년 된 회전교를 대체한 뉴저지 '포털 노스 브리지'",
+      "label": "INFRA"
+    },
+    {
+      "title": "20×20 프로젝트",
+      "desc": "Dezeen, 향후 20년 주목할 건축가·디자이너 선정 착수",
+      "label": "DEZEEN"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 역사건축 리노베이션",
+    "lede": "야마자키의 1965년 보험사 본사, 165실 호텔로 — 켈리 웨어스틀러·ESG, '미니애폴리스 프로퍼' 변신 공개",
+    "lede_em": "165실 호텔로",
+    "image": "https://images.adsttc.com/media/images/6afd/7d00/8074/f464/a9f9/3bb5/medium_jpg/kelly-wearstler-studio-and-esg-architecture-lead-transformation-of-minoru-yamasakis-minneapolis-building_9.jpg?1794997513",
+    "image_label": "ARCHDAILY",
+    "caption": "미노루 야마자키의 옛 노스웨스턴 내셔널 라이프 본사를 개조한 호텔 'Minneapolis Proper' ⓒ ArchDaily",
+    "body": [
+      "**켈리 웨어스틀러 스튜디오**와 **ESG 아키텍처 & 디자인**이 미국 미니애폴리스의 옛 **노스웨스턴 내셔널 라이프 보험사 본사**를 **165실** 규모의 호텔 **'미니애폴리스 프로퍼(Minneapolis Proper)'**로 바꾸는 계획을 공개했다. 올해 4월 처음 발표된 사업으로, 크리에이티브 디렉션은 켈리 웨어스틀러 스튜디오가, 건축 설계는 ESG가 맡고 운영은 **프로퍼 호스피탈리티**가 한다.",
+      "건물은 뉴욕 월드트레이드센터를 설계한 **미노루 야마자키**가 **1965년** 완공한 **9층** 사무 건물로, 연면적은 **20만 제곱피트** 이상이다. 2023년부터 비어 있었고, 개발사 **CDT Realty**가 호텔 전환을 추진해 왔다.",
+      "프로그램은 옥상 레스토랑과 라운지, 야외 테라스가 딸린 연회장, 지하 **1만 5,000제곱피트** 규모의 스파와 실내 수영장, 1층 레스토랑과 피트니스로 짜였다. 미니애폴리스 스카이웨이와 연결되는 별도 입구의 지하 바, 미네소타 제품을 파는 리테일 공간도 들어간다.",
+      "공사는 역사 건축물 승인 절차를 거쳐 **2027년 가을** 착공, **2029년 여름** 완공이 목표다. 빈 도심 사무 건물을 부수지 않고 숙박 용도로 되살리는 전환 사례로, 20세기 중반 모더니즘 건축의 보존·재활용 논의에도 힘을 싣는다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1188836/kelly-wearstler-studio-and-esg-architecture-lead-transformation-of-minoru-yamasakis-minneapolis-building"
+        }
+      ]
+    },
+    "src_date": "2026-11-18",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "폭설에 무너진 가설건축물, 구조안전 확인 대상 넓힌다 — 건축법 시행령 개정안 입법예고",
+    "body": [
+      "국토교통부가 **10월 28일** 「건축법 시행령 일부개정령안」을 입법예고했다(국토교통부공고 제2026-1346호). 2024년 11월 말 중부지역에서 11월 기준 **117년 만의 최다 적설량**이 기록되며, 구조기준이 적용되지 않던 3층 미만 창고·축사·비가림막·차양시설 등이 대거 무너진 데 따른 후속 조치다."
+    ],
+    "facts": [
+      "가설건축물: 공공이 이용하는 **시장 아케이드·도로 차양시설**과 조례로 정한 가설건축물을 구조안전확인 대상에 추가",
+      "존치기간 연장: 구조안전을 확인받은 가설건축물을 **2회 이상** 연장할 때는 연장 전에 구조안전 재확인",
+      "폭설 취약 건축물: **200㎡ 이상** 축사·창고·작물 재배사를 구조안전확인 대상에 포함",
+      "의견 접수: **12월 11일**까지 통합입법예고센터(opinion.lawmaking.go.kr) 등"
+    ],
+    "body_after": [
+      "가설건축물 설계·구조검토를 맡는 건축사·구조기술사는 존치기간 연장 시점마다 재확인이 필요해지는 점을 미리 챙겨둘 필요가 있다. 구체적 적용 범위는 확정 전 법령안과 규제영향분석서에서 확인할 수 있다."
+    ],
+    "source": {
+      "outlet": "국토교통부 입법예고",
+      "links": [
+        {
+          "text": "입법예고 공고",
+          "url": "https://opinion.lawmaking.go.kr/gcom/ogLmPp/89242?opnOpYn=Y"
+        }
+      ]
+    },
+    "src_date": "2026-10-28",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "HOUSING · 와이오밍",
+      "title": "차고 위에 암벽 등반 벽 — CLB 아키텍츠, 와이오밍 '와일리 ADU'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/wiley-adu-wyoming-clb-architects_dezeen_2364_hero.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "잭슨 기반 **CLB 아키텍츠**가 와이오밍주 윌슨, 스네이크강 서안 약 **1에이커** 부지에 부속 주거 '와일리 ADU'를 지었다. 지역 규정상 주택은 **1,000제곱피트(약 92.9㎡)**를 넘을 수 없다.",
+        "박공지붕을 얹은 2층 직사각 볼륨으로, 1층은 차고, 2층은 거실과 욕실 딸린 침실 2개다. 어두운 골판 금속 외장 사이 움푹 들어간 면에 옹이가 촘촘한 삼나무를 썼고, **등반 벽**과 테라스·발코니·데크를 더했다. 시공사 파트너인 건축주가 직접 공사에 참여해 공사에 **약 9개월**이 걸렸다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/18/clb-architects-wiley-adu-wyoming-rock-climbing/"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "RENOVATION · 영국",
+      "title": "소 축사를 '새것과 헌것의 대화'로 — 컨폼, 코츠월드 '오픈 바이어'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/cotswolds-open-byre-barn-renovation-conform-hero_dezeen_2364_col_1.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "런던의 **컨폼 아키텍츠**가 영국 코츠월드의 현역 농장 안 옛 소 축사를 **124㎡** 규모의 다목적 공간 '오픈 바이어'로 고쳤다. 1층은 사무실과 예술 공간, 2층은 손님용 독립 아파트다.",
+        "붉은 벽돌과 목재 구조는 그대로 두고, 아연 판재·검게 마감한 목재·현지 석재를 채운 **개비온 벽**을 덧댔다. 뒷면의 돌출 볼륨과 **CLT 중앙 계단**이 입구에서 건물을 관통해 나무 쪽으로 시선을 이끈다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/18/open-byre-conform/"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "COMPETITION · 슬로바키아",
+      "title": "니트라 성 아래 5,558석 아레나 — 치빅+크리슈토프 설계자 선정",
+      "image": "https://images.adsttc.com/media/images/6afc/a42b/c23f/1f52/896d/78c7/medium_jpg/chybik-plus-kristof-wins-international-architecture-competition-for-arena-in-nitra-slovakia_9.jpg?1794942021",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "브르노의 **CHYBÍK + KRIŠTOF**가 슬로바키아 니트라 성 아래 체육장 부지의 **다목적 아레나와 공원** 설계자로 선정됐다. 6월 확정된 5개 최종팀 중 당선작이다.",
+        "경량 파빌리온 3동(아레나·훈련장·복합동)에 수용 인원 **5,558명**, 5단계 시공으로 공사 중에도 아이스하키 경기를 이어가도록 계획했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188798/chybik-plus-kristof-selected-to-design-a-new-arena-and-public-park-below-nitra-castle-in-slovakia"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "수상"
+    },
+    {
+      "kicker": "URBAN · 캐나다",
+      "title": "지하화한 고속도로 위의 여성 기억 광장 — 르메이, 몬트리올 '플라스 데 몽트레알레즈'",
+      "image": "https://images.adsttc.com/media/images/6afd/7a7f/eabd/2a00/0193/1c1e/medium_jpg/001-Place-des-Montrealaises_Lemay_AngelaSilver_AtkinsRealis_credit-Vincent-Brillant.jpg?1794996905",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "**르메이**가 아티스트 앤절라 실버, **AtkinsRéalis**와 함께 몬트리올 구도심과 다운타운 사이 지하화된 고속도로 위에 **1만 9,890㎡** 광장을 조성해 2025년 완공했다.",
+        "도시를 만든 여성들의 기억을 풍경에 새긴 에스플러네이드로, 올드 몬트리올과 도심을 잇는다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188837/place-des-montrealaises-lemay-plus-angela-silver-plus-atkinsrealis"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "AWARDS · 아이디어 공모",
+      "title": "빗물을 소리와 빛으로 — 빌드너 'Rome Rain Rooms' 1등 '플루비아'",
+      "image": "https://images.adsttc.com/media/images/6af6/4f08/c23f/1f01/895a/f96a/medium_jpg/_1.jpg?1794527022",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "빌드너가 연 국제 아이디어 공모 'Rome Rain Rooms'에서 이탈리아 **다니엘레 카를리니(일 프리스마)**의 **'Pluvia'**가 1등을 차지했다.",
+        "과제는 가볍고 가역적인 소형 도시 파빌리온으로, 폭풍 시 **최소 5㎥**의 빗물을 모아 그늘·냉각·모임 공간으로 쓰게 하는 것이다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188578/rainwater-and-public-space-winners-of-buildners-rome-rain-rooms-competition"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "수상"
+    },
+    {
+      "kicker": "COMPETITION · 파빌리온",
+      "title": "나라 하나를 골라 이야기를 세우다 — 빌드너 '파빌리온 아틀라스 2027', 총상금 5만 유로",
+      "image": "https://competitions.archi/wp-content/uploads/2026/11/COMP.ARCH-3.jpg",
+      "image_label": "COMPETITIONS.ARCHI",
+      "body": [
+        "빌드너의 두 번째 '파빌리온 아틀라스' 공모는 참가자가 **나라 하나를 골라 그 나라의 이야기를 담은 개념적 파빌리온**을 설계하는 과제다. 장소·예산·시공 가능성에 제약이 없다.",
+        "총상금 **5만 유로**(빌드너 메달 5만 유로, 1위 2만 5,000유로, 2위 1만 5,000, 3위 5,000, 학생상 5,000). 등록 **2027년 6월 17일**, 제출 **7월 19일** 마감, 결과는 10월 5일 발표된다."
+      ],
+      "source": {
+        "outlet": "competitions.archi",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://competitions.archi/competition/pavilion-atlas-2027/"
+          }
+        ]
+      },
+      "topic": "설계공모"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "정책 · 정비사업",
+      "title": "\"속도보다 품질\" — 서울시, 2031년까지 정비사업 30만 호 착공 예고",
+      "image": "",
+      "body": [
+        "주거·도시정비 박람회 컨퍼런스에서 서울시가 **2031년까지 정비사업 30만 호 착공** 계획을 밝혔다. 오세훈 시장은 정비 속도보다 주거 환경의 질이 중요하다고 강조했다.",
+        "**신속통합기획 2.0**으로 재개발·재건축 사업 기간을 **21년에서 12년**으로 줄이고, 연간 착공을 2026·2027년 각 3만 호에서 2031년 **10만 4,000호**로 늘린다. 공사비 검증은 한국부동산원 단독에서 서울시·SH 직접 수행으로 바꾼다. 연면적 1,000㎡ 이상 공공건축물은 ZEB 4등급, 30세대 이상 민간 공동주택은 5등급 기준을 적용하며 인증 시 용적률·높이를 **최대 15%** 완화한다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21432"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "사설 · 감리",
+      "title": "감리 독립성, '감리비 예치제'로 — 건축법 개정안 국회 발의, 건축사신문 \"시점 보완해야\"",
+      "body": [
+        "건축주가 감리비를 **허가권자에 예치**하고 허가권자가 감리자에게 지급하는 내용의 건축법 개정안이 국회에 발의됐다. 건축주의 부당한 요구·압력에서 감리자를 보호하려는 취지다.",
+        "건축사신문은 사설에서 지급 시점이 사용승인 신청에 묶인 점을 지적했다. 감리는 착공 전부터 시작하므로 계약에 맞춰야 하고, 공사 지연·중단·계약 종료 시에도 수행분은 지급돼야 한다고 주장했다. 설계비 지급보증 제도도 함께 요구했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "사설",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21439"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "제도규제",
+      "image": ""
+    },
+    {
+      "kicker": "협회",
+      "title": "'건축사 확인서'로 건축물 안심거래 — 대한건축사협회·한국공인중개사협회 업무협약",
+      "image": "",
+      "body": [
+        "대한건축사협회(김재록 회장)와 한국공인중개사협회(김종호 회장)가 **16일** 건축·부동산 법·제도 개선을 위한 업무협약을 맺었다.",
+        "핵심은 건축사가 건축물대장 등을 검토하고 현장을 확인해 의견을 내는 **'건축사 확인서'**와 시범사업 **'건축물 안심거래 건축사 확인서비스'**다. 인허가·부동산 정보 교류, 정책제도 개선 공동 대응, 공동 교육·캠페인에 협력한다. 공인중개사협회는 8월 28일 개정된 공인중개사법에 따라 법정 단체로 전환됐다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21446"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "지자체 · 도시계획",
+      "title": "시흥시, 사전협상·전면공지 유연화·건축물 양성화 3대 과제 — 12월 17일 특별조치법 시행",
+      "image": "",
+      "body": [
+        "시흥시가 17일 브리핑에서 **시흥형 사전협상제도**, **전면공지 유연화**, **특정건축물 양성화** 대응을 도시공간 혁신의 3대 과제로 제시했다.",
+        "사전협상제도는 도시계획 변경 전 개발 방향·공공기여·기반시설을 협의하는 틀로 올해 도입했고, 전면공지 유연화는 내년 시범사업을 거쳐 지구단위계획 변경에 반영한다. 「특정건축물 정리에 관한 특별조치법」 한시 시행은 **12월 17일** 시작된다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=14038"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "설계공모 · 소방",
+      "title": "파주 와동동에 경기도북부119특수대응단 신축 — 연면적 2,700㎡, 공사비 115억",
+      "body": [
+        "경기도 파주시 와동동 1304-2에 **경기도북부119특수대응단** 이전 신축 일반 설계공모가 공고됐다(공고 11월 17일).",
+        "연면적 **2,700㎡**, 공사비 **115억 원**, 예정 설계비 4.9억 원이다. 참가등록은 **11월 24~25일**, 심사위원 7인이며 결과는 2027년 3월 8일 발표 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://jootek.com/folio/contests/19276"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "설계공모",
+      "image": ""
+    },
+    {
+      "kicker": "토론회 · 신진건축사",
+      "title": "신진건축사의 공공건축 참여, 어떻게 넓힐까 — 서울시건축사회 '서울 신진건축사포럼' 토론회",
+      "image": "",
+      "body": [
+        "서울특별시건축사회 신진건축사위원회가 건축사회관에서 **「신진건축사의 성장과 공공건축 참여, 새로운 가능성을 모색하다」** 토론회를 열었다.",
+        "독일 등 해외의 신진건축사 지원 사례와 타 분야 청년 육성제도를 살피고, 참여 기회·공모 운영·당선 이후 3단계 현황을 분석했다. 개선안으로 **공모 심사의 공정성 강화, 당선 후 설계의도 구현 체계화, 진입장벽 완화**가 제시됐다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21437"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "국제교류",
+      "title": "서울의 재생·TOD 정책을 필리핀에 — 대한건축사협회, PARCS 대표단 24명과 교류",
+      "image": "",
+      "body": [
+        "필리핀 부동산 컨설턴트·전문가협회(PARCS) 대표단 **24명**(단장 마이클 앙 부회장)이 **16일** 대한건축사협회 건축사회관을 찾았다.",
+        "이건섭 국제위원장이 서울의 도시개발·재생 정책, 최유철 위원이 혁신 건축설계와 도시 경쟁력, 기현철 정림건축 본부장이 코엑스 복합환승센터 TOD 사례를 발표했다. 서울시 도시건축디자인 혁신사업의 용적률·높이·건폐율 완화도 소개됐다. 협약 체결은 없었고 향후 협력의 토대를 다진 교류 행사다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21425"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "도시재생"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "알 포잔 모스크 건축상 제5회 — 5개 수상작",
+      "body": "주제 'The Living Mosque'. 방글라데시 알파당가, 영국 케임브리지 중앙, 오만 밥 알 살람, 니제르 히크마, 인도네시아 누룰 야킨 모스크 선정.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188655/the-living-mosque-5-winning-projects-announced-by-the-abdullatif-al-fozan-award-for-mosque-architecture"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "수상"
+    },
+    {
+      "title": "스칸스카·트레일러 JV, 16억 달러 '포털 노스 브리지' 완공",
+      "body": "뉴저지 해컨색강을 건너는 2.4마일 철도교. 116년 된 회전교를 대체하며 강 수면 위 50피트 고정교로 지었다. 기존 교량 철거는 2027년.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/skanska-traylor-bros-new-jersey-rail-bridge/875098/"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "그래닛, 유타·테네시 건자재 업체 2곳 인수",
+      "body": "유타 CMC(골재 연 200만 톤)와 멤피스 인근 포드 건설(아스팔트 플랜트 4곳)을 인수. 2027년 매출 각 7,500만·1억 달러 이상 예상.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/granite-materials-businesses-utah-tennessee/874816/"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "플래트아이언드라가도스, 17억 달러 윈스턴세일럼 외곽순환로 동부구간 개통",
+      "body": "신설 교량 7개·인터체인지 1개, 신설 도로 1.5마일 이상. 구간 사업비 1억 3,300만 달러, 전체 노선은 34.5마일.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/flatirondragados-completes-north-carolina-highway/874867/"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "AECOM, 수주잔고 280억 달러로 사상 최고 — 'IIJA 자금 절반 이상 미집행'",
+      "body": "회계 4분기 매출 38억 8,000만 달러(-7%), 순이익 1억 2,626만 달러(+4.9%). 계약부터 착공까지 기간이 길어지는 점이 부담으로 꼽혔다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/aecom-strong-transportation-opportunities-ahead/874943/"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "Dezeen, '향후 20년 주목할 건축가·디자이너' 20×20 프로젝트 출범",
+      "body": "창간 20주년 기념으로 앞으로 20년간 주목할 건축가와 디자이너를 가려내는 기획을 시작했다.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/17/dezeen-20x20-birthday/"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "수상"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "yamasaki-minneapolis-proper",
+      "tag": "HERITAGE",
+      "title": "야마자키의 1965년 본사, 165실 호텔로 — 미니애폴리스 프로퍼",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:Looking toward Washington Avenue and the Northwestern National Life Building, Nicollet Mall, Minneapolis (May 1969).jpg",
+        "File:Northwestern National Life Insurance Company Building, Minneapolis, Minnesota postcard.jpg"
+      ],
+      "photo_query": "minneapolis downtown skyline",
+      "slides": [
+        {
+          "heading": "야마자키의 본사가\n호텔이 된다",
+          "body": "켈리 웨어스틀러·ESG, 미니애폴리스 프로퍼 165실"
+        },
+        {
+          "heading": "WHAT",
+          "body": "1965년 미노루 야마자키가 완공한 9층 보험사 본사를 호텔로 바꾼다. 2023년부터 비어 있던 건물이다."
+        },
+        {
+          "heading": "TEAM",
+          "body": "크리에이티브 디렉션은 켈리 웨어스틀러 스튜디오, 건축은 ESG, 운영은 프로퍼 호스피탈리티, 개발은 CDT Realty."
+        },
+        {
+          "heading": "PROGRAM",
+          "body": "옥상 레스토랑·라운지, 야외 테라스 연회장, 지하 1만 5,000제곱피트 스파와 실내 수영장, 스카이웨이로 이어지는 지하 바."
+        },
+        {
+          "heading": "SCHEDULE",
+          "body": "역사 승인 후 2027년 가을 착공, 2029년 여름 완공이 목표다. 연면적은 20만 제곱피트 이상."
+        }
+      ]
+    },
+    {
+      "slug": "place-des-montrealaises",
+      "tag": "URBAN",
+      "title": "지하화한 고속도로 위, 여성의 기억을 새긴 광장 — 몬트리올",
+      "ref": {
+        "section": "intl_grid",
+        "index": 1
+      },
+      "bg": 1,
+      "commons_photos": [
+        "File:Place des Montréalaises - Pré fleuri - 2025-10-17.jpg",
+        "File:Place des Montréalaises - Verrière de Marcelle Ferron - 2025-10-17.jpg"
+      ],
+      "photo_query": "montreal old port",
+      "slides": [
+        {
+          "heading": "고속도로를 덮고\n광장을 열다",
+          "body": "르메이, 몬트리올 '플라스 데 몽트레알레즈'"
+        },
+        {
+          "heading": "SCALE",
+          "body": "지하화된 고속도로 위 1만 9,890㎡. 2025년 완공했다."
+        },
+        {
+          "heading": "LINK",
+          "body": "올드 몬트리올과 다운타운을 잇는 에스플러네이드로, 끊어진 도시 조직을 다시 꿰맨다."
+        },
+        {
+          "heading": "MEMORY",
+          "body": "아티스트 앤절라 실버와 협업해 도시를 만든 뛰어난 여성들의 기억을 경관에 새겼다."
+        },
+        {
+          "heading": "TEAM",
+          "body": "건축·조경 르메이, 엔지니어링 AtkinsRéalis, 발주 몬트리올시."
+        }
+      ]
+    },
+    {
+      "slug": "seoul-redevelopment-300k",
+      "tag": "POLICY",
+      "title": "서울 정비사업 30만 호, 2031년까지 착공",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "apartment construction crane city",
+      "slides": [
+        {
+          "heading": "정비사업\n30만 호 착공",
+          "body": "서울시, 2031년까지 속도보다 품질"
+        },
+        {
+          "heading": "TARGET",
+          "body": "연간 착공은 2026·2027년 각 3만 호에서 2031년 10만 4,000호로 늘어난다."
+        },
+        {
+          "heading": "SPEED",
+          "body": "신속통합기획 2.0으로 재개발·재건축 사업 기간을 21년에서 12년으로 줄인다."
+        },
+        {
+          "heading": "COST",
+          "body": "공사비 검증을 한국부동산원 단독에서 서울시·SH가 직접 수행하는 방식으로 바꾼다."
+        },
+        {
+          "heading": "ZEB",
+          "body": "인증 등급에 따라 용적률·높이 기준이 최대 15%까지 완화된다."
+        }
+      ]
+    }
+  ]
+}
