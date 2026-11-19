@@ -1,0 +1,465 @@
+{
+  "vol": "VOL.01  NO.095",
+  "editor": "HUEY",
+  "counts": {
+    "total": 16,
+    "intl": 11,
+    "kr": 4
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "건축사뉴스",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "WAF 2026 첫날 수상작",
+      "desc": "포트로더데일 개막, 23개 부문 — 하셀트 베긴호프 등",
+      "label": "AWARDS"
+    },
+    {
+      "title": "샤르자 건축 트리엔날레",
+      "desc": "11월 14일 개막, 2027년 4월 14일까지",
+      "label": "EXHIBITION"
+    },
+    {
+      "title": "다세대 면적 한도 1,000㎡",
+      "desc": "11월 12일 시행, 다가구 4층까지 허용",
+      "label": "POLICY"
+    },
+    {
+      "title": "공공건축 설계공모 개정 설명회",
+      "desc": "2027년 1월부터 건축HUB로 공고·결과 등록 일원화",
+      "label": "POLICY"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 초고층",
+    "lede": "320m 리브드 타워, 마이애미 하늘로 — SHoP가 그린 조코비치 참여 '아트마' 레지던스",
+    "lede_em": "320m 리브드 타워",
+    "image": "https://static-2026.dezeen.com/uploads/2026/11/shop-architects-atma-residences-miami-djokovic_dezeen_2364_hero.jpg",
+    "image_label": "DEZEEN",
+    "caption": "SHoP 아키텍츠의 마이애미 ATMA 초고층 렌더링 ⓒ Aman Group",
+    "body": [
+      "뉴욕 기반 **SHoP 아키텍츠**가 마이애미 브리켈에 들어설 **ATMA** 초고층을 설계했다. 아만 그룹이 론칭한 럭셔리 브랜드를 위한 건물로, 높이는 **1,049피트(320m)**다. 마이애미 현존 최고층보다 높고, 건설 중인 월도프 아스토리아 호텔&레지던스 마이애미와 같은 높이다.",
+      "프로그램은 호텔·주거·멤버스 클럽이다. 콘도는 침실 1~5개 구성이고 최상부에는 침실 6개 펜트하우스가 놓인다. 노박 조코비치가 참여한 프로그램에는 **12만 sq ft** 규모의 스파·웰니스 센터가 포함된다.",
+      "형태는 리브(세로 골)가 드러나는 타워로, 상부에는 셋백이 있다. 발코니 테라스가 크라운에서 포디움까지 이어지는 중앙 보이드를 감싸는 구성이며, 아만 그룹은 이를 '퍼포먼스 중심 라이프스타일'이라 설명한다.",
+      "개발은 OKO Group과 Oak Row Equities, 인테리어는 토론토의 스튜디오 파올로 페라리가 맡았다. 층수·세대수·준공 시기는 공개되지 않았다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/11/19/shop-architects-novak-djokovic-atma-miami-supertall-skyscraper/"
+        }
+      ]
+    },
+    "src_date": "2026-11-19",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "다세대·다가구 면적 한도 660→1,000㎡ — 11월 12일 건축법 시행령 개정 시행, 다가구 4층까지",
+    "body": [
+      "**11월 3일** 국무회의를 통과한 건축법 시행령 일부개정안이 **11월 12일** 시행됐다. 8월 13일 발표된 '주택 신속공급 방안'의 후속으로, 30여 년간 유지된 다세대·다가구 규모 기준이 처음 손질됐다."
+    ],
+    "facts": [
+      "면적 한도: 다세대·다가구 연면적 **660㎡ → 1,000㎡**",
+      "층수: 다가구주택 **3층 이하 → 4층 이하**",
+      "용적률: 다세대주택 주민공동시설은 건축위원회 심의로 완화 가능",
+      "일조: 높이 **10~17m** 구간은 기존 사선 제한 대신 정북 방향 **5m 이격**"
+    ],
+    "body_after": [
+      "소규모 주거 설계에서는 필지당 가능한 세대수와 층 구성이 달라지고, 일조 이격 규정 변경으로 배치·매스 계획을 다시 검토해야 한다. 지자체 조례·심의 운영 방식도 함께 확인이 필요하다."
+    ],
+    "source": {
+      "outlet": "건축사뉴스",
+      "links": [
+        {
+          "text": "기사",
+          "url": "http://www.a-news.kr/news/articleView.html?idxno=14022"
+        }
+      ]
+    },
+    "src_date": "2026-11-05",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "재생 · 영국",
+      "title": "테이트·에민의 해변 목욕장, 워 시슬턴이 예술센터로 되살린다 — 마게이트 웨스트브룩 파빌리온",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/westbrook-pavilion-margate-tracey-emin-waugh-thistleton-2_dezeen_2364_hero_0.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "영국 스튜디오 **워 시슬턴 아키텍츠**가 잉글랜드 마게이트의 에드워드 시대 건물 **웨스트브룩 파빌리온**을 예술가 **트레이시 에민**을 위한 예술센터로 바꾸는 계획으로 건축 허가를 받았다.",
+        "건물은 **1914년** 해수욕 탈의실과 티룸으로 문을 열었고 **1953년** 북해 폭풍 피해 뒤 증개축으로 원형이 훼손됐다. 에민이 **2023년** 방치된 건물을 매입했다. 증축부를 철거해 원형을 되살리고, 중앙 탑의 전망대(벨베데레)를 복원하며 양 날개에 유리 파사드와 열주를 더한다.",
+        "작가 스튜디오·갤러리·클럽룸·카페·해수욕 탈의실·공공 사우나가 들어가며 운영은 트레이시 에민 재단이 맡는다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/19/westbrook-pavilion-tracey-emin-waugh-thistleton/"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "호스피탈리티 · 캐나다",
+      "title": "포도밭 줄무늬를 닮은 곡선 호텔 — 시드 리 아키텍처, 온타리오 클레이필드 호텔",
+      "image": "https://static-2026.dezeen.com/uploads/2026/10/clayfield-hotel-sid-lee-architecture-ontario_dezeen_2364_hero_1.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "몬트리올 기반 **시드 리 아키텍처**가 온타리오 나이아가라온더레이크의 포도밭과 주택단지 '클레이필드 커먼스' 사이에 **60실** 호텔을 완성했다. 연면적은 **94,000sq ft(약 8,732㎡)**다.",
+        "곡면 매스와 겹겹이 쌓인 윤곽, 포도 이랑의 리듬을 따른 목재 외장이 특징이며, 지역 점토를 떠올리게 하는 켜켜이 쌓은 콘크리트와 하늘·계절을 비추는 반사 유리를 함께 썼다.",
+        "로비의 봄부터 객실의 겨울까지 공간마다 계절을 대응시켰고, 월넛 패널·콘크리트·나이아가라 단층 석회암으로 깎은 리셉션 데스크가 쓰였다. 레스토랑·연회장·옥상 테라스를 갖췄다. 사진 ⓒ James Brittain"
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/19/clayfield-hotel-sid-lee-architecture-ontario/"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "수상 · WAF",
+      "title": "WAF 2026 첫날 — 하셀트 베긴호프·누벨 정부청사 등 23개 부문 수상작",
+      "image": "https://images.adsttc.com/media/images/6afe/a745/8074/f401/a193/bc90/newsletter/world-architecture-festival-2026-day-one-winners-announced_1.jpg?1795073875",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "미국 포트로더데일에서 열린 **세계건축페스티벌(WAF) 2026** 첫날, **400여 건**의 라이브 피칭을 **130여 명** 심사위원이 평가해 준공 11개·미래 프로젝트 8개·인테리어 4개 등 **23개 부문**을 시상했다.",
+        "준공 부문에서 문화 부문은 스튜디오 로터스의 메랑가르 요새 방문자센터, 리트로핏은 포스터 + 파트너스의 더 화이틀리, 창의적 재사용은 하셀트 베긴호프(보벤보우·데이비드 콘)가 받았다. 11월 20일 월드 빌딩 오브 더 이어 등 최종 시상이 이어진다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188890/world-architecture-festival-2026-day-one-winners-announced"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "수상"
+    },
+    {
+      "kicker": "연구시설 · 싱가포르",
+      "title": "18만㎡ 사이언스파크 '제네오' — 세리 아키텍츠, 일과 삶이 만나는 연구단지",
+      "image": "https://images.adsttc.com/media/images/6afa/6ccc/e7ea/b401/a117/0b53/newsletter/geneo-serie-architects-plus-multiply-architects-plus-surbana-jurong_3.jpg?1794796808",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "**세리 아키텍츠**가 설계하고 멀티플라이 아키텍츠·서바나 주롱이 참여한 싱가포르 **제네오**가 2025년 준공됐다. 연면적 **180,600㎡**의 생명과학·기술 연구 및 업무 단지다.",
+        "연구실·사무 공간에 사회·웰니스·커뮤니티 공간을 더한 '워크-리브-플레이' 환경을 지향한다. 목재와 유리가 주재료이며 조경은 그랜트 어소시에이츠, 발주는 캐피털랜드 개발과 캐피털랜드 아센다스 리츠다. 사진 ⓒ Finbarr Fallon"
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188665/geneo-serie-architects-plus-multiply-architects-plus-surbana-jurong"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "전시 · 아랍에미리트",
+      "title": "샤르자 건축 트리엔날레 2026 — '다른 방식의 건축', 하이라이트 8선",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/sharjah-architecture-triennial-2026-hero_dezeen_2364_col_0.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "인류학자 **비야얀티 라오**가 기획한 제3회 샤르자 건축 트리엔날레가 **11월 14일** 개막해 **2027년 4월 14일**까지 약 5개월간 이어진다. 주제는 '다른 방식의 건축: 공동의 미래를 위한 시민 인프라 짓기'다.",
+        "옛 알 주바일 채소시장에 천을 드리운 '학교를 열다'(커리 J. 해킷), 대피 여성들이 방수포로 뜬 크로셰 캐노피 '패치 타임', 41개의 태양 이름을 새긴 '해가 쉬는 동안' 등이 하이라이트로 꼽혔다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/16/sharjah-architecture-triennial-highlights/"
+          }
+        ]
+      },
+      "src_date": "2026-11-16",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "난민도시 · 우간다",
+      "title": "BIG의 우간다 난민도시 마스터플랜 — 비디비디 정착지 약 38.5만 명 수용안",
+      "image": "https://images.adsttc.com/media/images/6afe/3ccb/c23f/1f6a/4351/65bf/newsletter/a-new-urban-resilience-guide-for-el-nino-and-bigs-refugee-city-masterplan-this-weeks-review_5.jpg?1795046616",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "BIG의 '난민 미래도시' 마스터플랜이 우간다 **비디비디** 정착지를 대상으로 공개됐다. 기존 난민 약 **23만 명**과 신규 주민 **15만 5천 명** 등 **약 38.5만 명**을 수용하며 1·2구역을 잇는다.",
+        "**250㎡** 가족 필지에서 출발해 6개 필지가 한 구획(컴파운드), 구획이 모여 클러스터를 이루는 구조다. 흙벽돌·라테라이트 석재·대나무를 쓰고 생산 조경, 학교·의료·시장·작업장, 태양광 인프라를 포함한다.",
+        "1단계는 비디비디 공연예술센터의 단독주택 시제품부터 짓는다. '난민을 위한 도시' 개념과 BIG의 참여를 둘러싼 현지 비판도 이어지고 있다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188874/a-guide-to-urban-resilience-against-el-nino-and-bigs-refugee-city-masterplan-this-weeks-review"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "도시재생"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 제주",
+      "title": "UAM 성산포항 버티포트 건축 설계공모 — 연면적 3,600㎡, 공사비 236억",
+      "body": [
+        "제주 서귀포시 성산읍 성산리 347-9 일대에 **UAM 버티포트** 건축 설계(제안)공모가 공고됐다(11월 19일). 연면적 **3,600㎡**, 예정 공사비 **236억 원**, 예정 설계비 **11.8억 원**이다.",
+        "참가등록 마감은 **11월 23일**, 심사위원 7인, 결과는 12월 29일 발표 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://jootek.com/folio/contests/19284"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "설계공모",
+      "image": ""
+    },
+    {
+      "kicker": "설계공모 · 영암",
+      "title": "영암 '올영 활기찬 영타운' 조성 — 단독주택 연면적 3,880㎡, 공사비 122억",
+      "body": [
+        "영암읍 교동리 157 일원 **'올영 활기찬 영타운 조성사업'** 제안공모가 공고됐다(11월 19일). 연면적 **3,880㎡**, 예정 공사비 **122억 원**, 설계비 2.9억 원이다.",
+        "참가등록은 **11월 26일**, 심사위원 8인, 결과 발표는 12월 17일 예정이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://jootek.com/folio/contests/19283"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "설계공모",
+      "image": ""
+    },
+    {
+      "kicker": "설계공모 · 철도",
+      "title": "남부내륙철도 고성변전소 외 3동 신축설계 — 연면적 2,034㎡, 공사비 90.8억",
+      "body": [
+        "경남 고성군 고성읍 율대리 592-7 일원 **남부내륙철도 건설사업 고성변전소 외 3동** 신축 일반 설계공모가 공고됐다(11월 18일). 연면적 **2,034㎡**, 예정 공사비 **90.8억 원**, 설계비 6.7억 원이다.",
+        "참가등록은 **11월 30일~12월 1일**, 심사위원 6인, 결과는 2027년 3월 17일 발표 예정이다. 진주·감천·합천 변전소도 같은 일정으로 나왔다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 안내",
+            "url": "https://jootek.com/folio/contests/19279"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "설계공모",
+      "image": ""
+    },
+    {
+      "kicker": "제도 · 설계공모",
+      "title": "한국부동산원, 공공건축 설계공모 제도 개정 설명회 — 2027년 1월부터 건축HUB 일원화",
+      "body": [
+        "한국부동산원이 **11월 6일** 서울 건설회관에서 전국 공공기관 실무자 대상 **공공건축 설계공모 제도 주요 개정사항 설명회**를 열었다(7월 개정 시행).",
+        "**2027년 1월**부터 공공건축 설계공모 공고·결과 등록이 건축HUB로 통합되며, 심사위원 후보군(풀) 활용과 선정 이력 관리가 강화된다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=14029"
+          }
+        ]
+      },
+      "src_date": "2026-11-09",
+      "topic": "제도규제",
+      "image": ""
+    }
+  ],
+  "briefs": [
+    {
+      "title": "UN-Habitat, 엘니뇨 홍수 대응 지침 발표",
+      "body": "ICPAC와 함께 지자체가 기후 예보를 사전 합의된 조기 행동으로 옮기도록 돕는 실무 가이드.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188874/a-guide-to-urban-resilience-against-el-nino-and-bigs-refugee-city-masterplan-this-weeks-review"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "재난유산"
+    },
+    {
+      "title": "경사지 위 3개 층 초등학교 — 캐나다 라쿠이유",
+      "body": "CCM2 건축사·로이 자크 다리스, 연면적 6,815㎡. 야외교실·계단식 놀이터·접근 가능한 녹색 지붕.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188345/laccueil-primary-school-ccm2-architectes-plus-roy-jacques-darisse-architectes"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "상가 건물을 학교 급식소로 — 프랑스 길리에",
+      "body": "eeun architecure, 약 500㎡, 어린이 90명. 기존 구조의 특성을 드러내 시공 환경 부담을 줄인 용도변경.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188550/guilliers-school-restaurant-eeun-architecure"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "마요르카 전통 타운하우스 개조 — 칸 아모르 데 라 이슬라",
+      "body": "바냘부파르 110㎡, KOSMOS 아키텍츠·블랑카 가르델레기. 지중해를 내려다보는 마을의 주택 재생.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188731/can-amor-de-la-isla-kosmos-architects-plus-blanca-gardelegui"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "atma-miami-supertall",
+      "tag": "PROJECT",
+      "title": "320m 리브드 타워 — 마이애미 ATMA",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "miami skyline skyscraper",
+      "slides": [
+        {
+          "heading": "마이애미 하늘에\n320m 리브드 타워",
+          "body": "SHoP가 그린 아만 그룹 ATMA 레지던스"
+        },
+        {
+          "heading": "HEIGHT",
+          "body": "높이 1,049피트(320m). 마이애미 현존 최고층보다 높고, 건설 중인 월도프 아스토리아와 같은 높이다."
+        },
+        {
+          "heading": "PROGRAM",
+          "body": "호텔·주거·멤버스 클럽. 콘도는 침실 1~5개, 최상부에 6개 침실 펜트하우스가 놓인다."
+        },
+        {
+          "heading": "WELLNESS",
+          "body": "노박 조코비치가 참여한 12만 sq ft 규모의 스파·웰니스 센터가 포함된다."
+        },
+        {
+          "heading": "FORM",
+          "body": "발코니 테라스가 크라운에서 포디움까지 이어지는 중앙 보이드를 감싼다. 상부에는 셋백이 있다."
+        }
+      ]
+    },
+    {
+      "slug": "multi-unit-1000sqm",
+      "tag": "POLICY",
+      "title": "다세대·다가구 면적 한도 1,000㎡로",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "townhouse residential street",
+      "slides": [
+        {
+          "heading": "30년 만의\n면적 한도 완화",
+          "body": "다세대·다가구 660㎡ → 1,000㎡"
+        },
+        {
+          "heading": "AREA",
+          "body": "11월 12일부터 연면적 한도가 660㎡에서 1,000㎡로 올랐다. 30여 년 유지된 기준이다."
+        },
+        {
+          "heading": "FLOORS",
+          "body": "다가구주택은 3층 이하에서 4층 이하까지 지을 수 있다."
+        },
+        {
+          "heading": "RELIEF",
+          "body": "주민공동시설은 건축위원회 심의로 용적률 완화를 받을 수 있다. 높이 10~17m 구간은 5m 이격이 적용된다."
+        },
+        {
+          "heading": "WHY",
+          "body": "8월 13일 '주택 신속공급 방안'의 후속 조치로, 11월 3일 국무회의를 통과했다."
+        }
+      ]
+    },
+    {
+      "slug": "waf-2026-day-one",
+      "tag": "AWARDS",
+      "title": "WAF 2026 첫날 — 23개 부문 수상작",
+      "ref": {
+        "section": "intl_grid",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "fort lauderdale architecture",
+      "slides": [
+        {
+          "heading": "WAF 2026\n첫날 수상작",
+          "body": "23개 부문, 포트로더데일"
+        },
+        {
+          "heading": "SCALE",
+          "body": "400여 건의 라이브 피칭을 130여 명의 심사위원이 평가했다. 세계 최대 규모의 라이브 심사 건축 행사다."
+        },
+        {
+          "heading": "COMPLETED",
+          "body": "준공 11개 부문: 문화 — 메랑가르 요새 방문자센터(스튜디오 로터스), 리트로핏 — 더 화이틀리(포스터 + 파트너스)."
+        },
+        {
+          "heading": "FUTURE",
+          "body": "미래 프로젝트 8개 부문: 인프라 — 포트 폴스카(포스터 + 파트너스), 마스터플랜 — 타투시티(클라크홉킨스클라크)."
+        },
+        {
+          "heading": "NEXT",
+          "body": "11월 20일, 부문 우승작이 월드 빌딩·미래 프로젝트·인테리어 올해의 상을 두고 겨룬다."
+        }
+      ]
+    }
+  ]
+}
