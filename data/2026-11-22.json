@@ -1,0 +1,519 @@
+{
+  "vol": "VOL.01  NO.097",
+  "editor": "HUEY",
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "Construction Dive",
+    "S3DA Design",
+    "건축사뉴스",
+    "건축사신문",
+    "주택폴리오"
+  ],
+  "teasers": [
+    {
+      "title": "ZHA 라바트 왕립극장 준공",
+      "desc": "ZHA의 아프리카 첫 준공작, 1,821석 대극장",
+      "label": "PROJECT"
+    },
+    {
+      "title": "10월 미 착공액 22.8%↑",
+      "desc": "테슬라 168억 달러 반도체 공장이 견인, 연율 1.63조 달러",
+      "label": "INDUSTRY"
+    },
+    {
+      "title": "뉴욕시 에너지코드 규칙",
+      "desc": "12월 10일 시행, HVAC용 TSPR 경로 신설",
+      "label": "POLICY"
+    },
+    {
+      "title": "천문우주과학관 설계공모",
+      "desc": "서산, 공사비 77.5억 원, 11월 27일 참가등록 마감",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "ZHA의 아프리카 첫 준공작 — 모로코 '라바트 왕립극장', 2010년 계획안 16년 만에 문 열다",
+    "lede_em": "아프리카 첫 준공작",
+    "image": "https://static-2026.dezeen.com/uploads/2026/11/theatre-royal-de-rabat-zha-architecture-morocco-cultural_dezeen_2364_hero.jpg",
+    "image_label": "DEZEEN",
+    "caption": "라바트 부레그레그 강변의 왕립극장 ⓒ Hufton+Crow",
+    "body": [
+      "ZHA(옛 자하 하디드 아키텍츠)가 모로코 **라바트**와 살레 사이 **부레그레그 강변**에 '**테아트르 루아얄 드 라바트**'를 준공했다. 모로코 최고층 건물인 모하메드 6세 타워 인근이며, ZHA의 **아프리카 첫 준공 프로젝트**다. 2010년 공개된 설계안으로, 자하 하디드는 이 디자인을 '세속적(secular)'이라 불렀다.",
+      "핵심은 **1,821석 대극장**이다. 이슬람 전통의 입체 장식 **무카르나스**에서 따온 면 분할 벽체가 곧 음향 처리 요소이며, 음향은 **Arup**과 함께 개발했다. 가변식 이동 좌석을 갖춘 **250석 스튜디오 극장**은 실험 공연·리허설용이고, **7,000명**을 수용하는 야외 원형극장도 계획돼 있다(스튜디오 극장과 야외극장은 이번 사진에 포함되지 않았다).",
+      "로비는 3개 층 높이의 '협곡 같은' 공간으로, 천을 드리운 듯한 계단이 서로 얽혀 강 조망 레스토랑으로 이어진다.",
+      "환경 대응으로는 공기열원 히트펌프, 지열 냉방, 복사 난방, 자연환기를 쓰고, 화장실과 조경 관개에는 빗물을 모아 재활용한다. 사진은 **Hufton+Crow**가 촬영했다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/11/21/zha-theatre-royal-de-rabat-morroco/"
+        }
+      ]
+    },
+    "src_date": "2026-11-21",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "title": "뉴욕시 에너지코드 적합성 증빙 규칙 개정 — 12월 10일 시행, HVAC용 'TSPR' 경로 신설",
+    "body": [
+      "뉴욕시 건축국(DOB)이 에너지코드 준수를 입증하는 절차를 담은 규칙(**1 RCNY 5000-01**) 개정안을 채택했다. 2025년판 뉴욕시 에너지코드(NYCECC)에 맞춰 제출 서류를 정비하고, HVAC 적합성을 보이는 **새 TSPR 경로**를 더한 것이 골자다."
+    ],
+    "facts": [
+      "시행: **2026년 12월 10일**",
+      "대상: 시행일 이후 뉴욕시에 접수하는 프로젝트",
+      "영향: 설계팀(건축·MEP)의 에너지 해석·도면이 개정 규칙 형식을 따라야 함",
+      "출처 성격: 설계·엔지니어링 업체 블로그 보도 — 조문은 뉴욕시 규칙 사이트에서 확인 필요"
+    ],
+    "body_after": [
+      "해외 프로젝트에 참여하는 국내 설계사라면 제출 시점이 12월 10일 전후인지 점검해야 한다."
+    ],
+    "source": {
+      "outlet": "S3DA Design",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://s3da-design.com/nyc-energy-code-rule-dec-10-tspr/"
+        }
+      ]
+    },
+    "src_date": "2026-11-20",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "주택 · 런던",
+      "title": "드레인 튜브 타워가 빨간 캐노피를 뚫다 — CAN, 런던 캐트퍼드 '하우스 트로피칼리아'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/house-tropicalia-can-architecture-london-residential-houses-extensions-england-uk_dezeen_2364_hero.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "건축사무소 **CAN**(Critical Architecture Network, 2016년 맷 반스 설립)이 런던 캐트퍼드의 주택을 증축·개조했다. 새 부엌·식당은 정원과 이어지고 2층에 침실이 추가됐다.",
+        "**콘크리트 배수관**으로 만든 두 개의 탑이 붉은 강철 캐노피를 뚫고 올라오고, 뒷면에는 파랑·빨강 **섬유시멘트 패널**, 톱니 지붕과 노란 가림막을 썼다. 리나 보 바르디의 SESC 폼페이아, 호크니 회화, 모로코 리아드가 참고 대상이다.",
+        "식탁 위에는 **마름모꼴 보행형 천창**을 냈고, 벽은 건축주가 손으로 빚은 세라믹 타일로 마감했다. 이름은 1960년대 후반 브라질 문화운동 '**트로피칼리아**'에서 땄다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/20/can-house-tropicalia/"
+          }
+        ]
+      },
+      "src_date": "2026-11-20",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "주택 · 인도",
+      "title": "안뜰 두 개 사이에 놓인 침실 — 픽셔널 프로젝트, 케랄라 '인터스티셜 리빙'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/fictional-project-interstitial-living-home-kerala-hero_dezeen_2364_col_0.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "케랄라 아도르 마을의 4인 가족 주택으로, 현지 스튜디오 **픽셔널 프로젝트**가 설계했다. 건물을 뒤로 물려 양옆에 **식재 마당 2개**를 두고, 그 사이 중앙에 시멘트 미장 **입방체 침실**을 놓았다.",
+        "1층에는 거실과 부엌, 2층에는 침실·욕실·서재가 있다. 곡면 흰 천장, 목재 벤치, 철골 계단참, **테라코타 색 질감 블록** 외벽·담장을 썼고 내부 마감은 최소화했다. 스튜디오는 집이 '풍경과 하나'가 되도록 했다고 설명한다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/19/fictional-project-interstitial-living/"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "복합 · 벨기에",
+      "title": "옛 공업부지에 7만㎡ '스네이크 빌딩' — C+S 아키텍츠, 아르스호트",
+      "image": "https://images.adsttc.com/media/images/6afa/fce2/c23f/1f52/896d/7230/medium_jpg/snake-building-c-plus-s-architects_1.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "카를로 카파이와 마리아 알레산드라 세간티니의 **C+S 아키텍츠**가 벨기에 아르스호트에 **7만㎡** 규모 주거·상업 복합건물을 완공했다. 옛 산업부지 재생 계획 '**데 토렌**'의 일부다. 실시설계·감리는 a2o Architeckten, 발주는 Dyls가 맡았다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188693/snake-building-c-plus-s-architects"
+          }
+        ]
+      },
+      "src_date": "2026-11-20",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "공공 · 인도",
+      "title": "'위압감 없는 경찰서' — 스튜디오 모틀리, 벵갈루루 외곽 디바나할리",
+      "image": "https://images.adsttc.com/media/images/6af4/571a/eabd/2a00/0192/c552/medium_jpg/E_MKGs_HR-72.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "경찰청장의 요청은 \"사람들이 위압감을 느끼지 않는 경찰서\"였다. **스튜디오 모틀리**는 유리·강철·콘크리트로 **1만 3,250ft²**(약 1,230㎡) 규모 경찰서를 2026년 완공했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1188485/police-station-for-the-people-studio-motley"
+          }
+        ]
+      },
+      "src_date": "2026-11-21",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "리스트 · 파사드",
+      "title": "계단이 곧 파사드인 건물 5곳 — 상하이 오페라하우스에서 구마 겐고까지",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/d-staircase-buildings-roundup_dezeen_2364_col_0.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "Dezeen이 외부 계단을 입면으로 삼은 건물 5곳을 모았다. 인도 인도르 **프레스티지 대학**(산자이 푸리), 상하이 **그랜드 오페라하우스**(스뇌헤타), 알바니아 **티라나 피라미드**(MVRDV·IRI), 오노미치 **리본 채플**(나카무라 히로시), 도쿄공대 **타키 플라자**(구마 겐고)다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/21/exterior-staircases-facade/"
+          }
+        ]
+      },
+      "src_date": "2026-11-21",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "교통 · 미국",
+      "title": "필라델피아 30번가역 남측 콘코스 개장 — 5.5억 달러 개보수의 일부",
+      "image": "https://imgproxy.divecdn.com/fLg1bm8vbHgSVzWRmPPo4PIXEJZ3nk3_gFMNAo2JzCU/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8wMV8yMDI2MTEwNF9QaGlsYWRlbHBoaWFfMzB0aF9TdDAyMzItNjAweDQwMC5qcGc=.webp",
+      "image_label": "CONSTRUCTION DIVE",
+      "body": [
+        "암트랙이 **50만ft²** 규모 윌리엄 H. 그레이 3세 30번가역의 **남측 콘코스**를 열었다. **5.5억 달러** 개보수의 일부로, 화장실·복원한 역사 요소·식음 시설이 들어섰다. 설계시공은 **길베인**이 2024년 착공해 맡았고, 개발사는 플레너리 인프라스트럭처 필라델피아다."
+      ],
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/amtrak-opens-philadelphia-train-station-concourse/875385/"
+          }
+        ]
+      },
+      "src_date": "2026-11-20",
+      "topic": "도시재생"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 충남 서산",
+      "title": "밤하늘 산책원 천문우주과학관·야영장 건축설계 및 전시 설계 공모 — 공사비 77.5억",
+      "body": [
+        "충남 서산시 인지면 애정리 일원, 연면적 **1,190㎡**의 천문우주과학관·야영장 건립 사업이다. 예정 공사비 **77.5억 원**, 설계비 **4.2억 원**이며 제안공모로 진행한다.",
+        "참가등록은 **11월 23~27일**, 결과 발표는 **12월 28일** 예정이다. 심사위원은 7인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19288"
+          }
+        ]
+      },
+      "src_date": "2026-11-20",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 대전",
+      "title": "국립산림재난안전교육훈련센터 설계용역 재공고 — 연면적 5,549㎡, 공사비 306억",
+      "body": [
+        "대전 유성구 구암동 일원에 짓는 교육연구시설로, 연면적 **5,549㎡**, 예정 공사비 **306억 원**, 설계비 **16.9억 원**의 제안공모다.",
+        "참가등록은 **11월 25일** 마감, 결과 발표는 **12월 21일**이다. 재공고(11월 19일 공고)이며 심사위원은 9인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19286"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경북 포항",
+      "title": "포항 두호 근린생활형 소규모체육관 건립 설계공모 — 연면적 2,100㎡, 공사비 99.6억",
+      "body": [
+        "포항시 북구 두호동 일원 운동시설 신축 일반 설계공모다. 연면적 **2,100㎡**, 예정 공사비 **99.6억 원**, 설계비 **6.5억 원**.",
+        "참가등록 마감은 **11월 26일**, 결과 발표는 **2027년 3월 23일** 이내다. 심사위원은 9인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19285"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "해외 동향 · 공공건축",
+      "title": "방화로 사라진 메츠 도서관, 일괄발주로 재건 중 — 건축사신문 '사회적 갈등 이후 공공건축'",
+      "body": [
+        "프랑스에서 사는 김인범 건축사가 **2023년 소요사태**로 불탄 메츠 보르니 지구 **장 마세 미디어테크**의 재건 과정을 소개했다. 2024년 3월 **500㎡** 모듈러 임시 미디어테크 '페닉스'를 열었고, 설계·시공 일괄 발주로 파트리크 모제 건축사사무소 팀이 선정됐다.",
+        "지역 석재 '조몽'과 착색 콘크리트, 광장을 향한 유리 입면을 적용해 **2027년 가을** 개관할 예정이다. 필자는 서울시 마을건축가 제도 등 한국의 상주형 사례도 함께 짚었다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21423"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "재난유산"
+    },
+    {
+      "kicker": "수상 그 후 · 양평",
+      "title": "벽돌벽이 대지를 여섯 마당으로 나누다 — 2024 경기도건축문화상 은상 '옴니버스 하우스'",
+      "body": [
+        "경기 양평군 양서면 남한강변 경사지(대지 **712㎡**, 건축 **141㎡**, 건폐율 **16.76%**)의 단독주택으로, 설계는 손주휘 건축사(소나건축사사무소)다. 건물에서 뻗은 벽돌벽이 **10m** 고저차 대지를 메인·입구·운동·시크릿·놀이·뒷마당 **여섯 개 마당**으로 나눈다.",
+        "토목공사를 줄이고 높낮이를 그대로 살렸으며, 마당마다 벽돌의 색·각도·패턴을 달리했다. 건축사신문 '수상 그 후' 기획으로, 건축주는 마당이 많은 만큼 관리가 필요하다고 전했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21431"
+          }
+        ]
+      },
+      "src_date": "2026-11-17",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "협회 · 서울",
+      "title": "2026 서울특별시건축사회대회 성료 — '건축엔 건축사!' 한마음 걷기",
+      "body": [
+        "서울특별시건축사회가 **10월 20일** 서울과학기술대 종합운동장에서 기존 체육대회를 확대한 대회를 열었다. 건축사 자정·궐기대회, 신입회원 환영식, 사랑의 바자회를 함께 진행했다.",
+        "'건축엔 건축사!' 풍선을 든 한마음 걷기와 족구·여성풋살·줄다리기·400m 계주 등이 열렸다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21436"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "10월 미 건설 착공 22.8%↑ — 테슬라 168억 달러 공장이 견인",
+      "body": "연율 1.63조 달러. 제조업 제외 시 1.1% 감소, 올해 누계 14.6% 증가(닷지).",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/tesla-manufacturing-plant-october-construction-starts-rebound/875377/"
+          }
+        ]
+      },
+      "src_date": "2026-11-20",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "AECOM·헌트·클레이코·보와, 9.17억 달러 오헤어공항 사업 착수",
+      "body": "시카고 오헤어공항 프로젝트를 4개 사 합작으로 시작했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/aecom-hunt-clayco-bowa-ohare-airport-project/875362/"
+          }
+        ]
+      },
+      "src_date": "2026-11-20",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "160억 달러 허드슨 터널, 두 번째 TBM 가동",
+      "body": "허드슨 터널 사업이 두 번째 터널굴착기를 투입했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/hudson-tunnel-project-second-tunnel-boring-machine/875255/"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "메릴랜드, 40억 달러 키브리지 재건 철거 계약 발주",
+      "body": "붕괴 교량 재건 사업의 철거 공사 계약을 낙찰했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/punch-list-maryland-awards-demo-contract-key-bridge-rebuild/875300/"
+          }
+        ]
+      },
+      "src_date": "2026-11-19",
+      "topic": "재난유산"
+    },
+    {
+      "title": "데이터센터, 냉각·소음·물 혁신으로 지역과 가까워진다",
+      "body": "존슨컨트롤스 임원은 지역 반발을 줄일 기술이 나오고 있다고 말했다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/data-centers-poised-to-be-more-community-friendly-a-johnson-controls-execu/875164/"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "PCL, 신임 CFO에 21년 경력 대니 도즈",
+      "body": "고든 스티븐슨 CFO는 2월 퇴임한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/pcl-picks-new-cfo-chief-financial-officer/875193/"
+          }
+        ]
+      },
+      "src_date": "2026-11-18",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "zha-rabat-royal-theatre",
+      "tag": "PROJECT",
+      "title": "ZHA의 아프리카 첫 준공작 — 라바트 왕립극장",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "rabat morocco architecture",
+      "slides": [
+        {
+          "heading": "ZHA의 아프리카\n첫 준공작",
+          "body": "모로코 라바트 왕립극장, 16년 만의 개관"
+        },
+        {
+          "heading": "SITE",
+          "body": "라바트와 살레 사이 부레그레그 강변, 모하메드 6세 타워 인근에 선다."
+        },
+        {
+          "heading": "AUDITORIUM",
+          "body": "1,821석 대극장. 무카르나스에서 따온 면 분할 벽체가 곧 음향 처리다(Arup 협업)."
+        },
+        {
+          "heading": "FOYER",
+          "body": "3개 층 높이의 협곡 같은 로비, 천을 드리운 듯한 계단이 강 조망 레스토랑으로 이어진다."
+        },
+        {
+          "heading": "GREEN",
+          "body": "공기열원 히트펌프·지열 냉방·자연환기, 빗물은 화장실과 관개에 재활용한다."
+        }
+      ]
+    },
+    {
+      "slug": "can-house-tropicalia",
+      "tag": "PROJECT",
+      "title": "배수관 타워의 집 — CAN, 하우스 트로피칼리아",
+      "ref": {
+        "section": "intl_feature",
+        "index": 0
+      },
+      "bg": 1,
+      "photo_query": "colorful house london architecture",
+      "slides": [
+        {
+          "heading": "배수관 타워가\n캐노피를 뚫다",
+          "body": "CAN의 런던 캐트퍼드 주택 증축"
+        },
+        {
+          "heading": "MATERIAL",
+          "body": "콘크리트 배수관 타워 2개, 붉은 강철 캐노피, 파랑·빨강 섬유시멘트 패널."
+        },
+        {
+          "heading": "REFERENCE",
+          "body": "SESC 폼페이아, 호크니 회화, 모로코 리아드, 부를리 마르크스의 조경이 참고 대상이다."
+        },
+        {
+          "heading": "DETAIL",
+          "body": "식탁 위 마름모 보행형 천창, 건축주가 빚은 세라믹 타일 벽."
+        }
+      ]
+    },
+    {
+      "slug": "seosan-astro-competition",
+      "tag": "COMPETITION",
+      "title": "서산 밤하늘 산책원 천문우주과학관 설계공모",
+      "ref": {
+        "section": "korea",
+        "index": 0
+      },
+      "bg": 2,
+      "photo_query": "night sky observatory stars",
+      "slides": [
+        {
+          "heading": "밤하늘을\n짓는 공모",
+          "body": "서산 천문우주과학관·야영장 설계 제안공모"
+        },
+        {
+          "heading": "SCALE",
+          "body": "충남 서산시 인지면 애정리 일원, 연면적 1,190㎡."
+        },
+        {
+          "heading": "BUDGET",
+          "body": "예정 공사비 77.5억 원, 설계비 4.2억 원. 건축설계와 전시 설계(제작)를 함께 맡는다."
+        },
+        {
+          "heading": "SCHEDULE",
+          "body": "참가등록 11월 23~27일, 결과 발표 12월 28일. 심사위원은 7인이다."
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "total": 20,
+    "intl": 14,
+    "kr": 6
+  }
+}
