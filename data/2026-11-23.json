@@ -1,0 +1,587 @@
+{
+ "vol": "VOL.01  NO.098",
+ "editor": "HUEY",
+ "outlets": [
+  "Dezeen",
+  "ArchDaily",
+  "designboom",
+  "Construction Dive",
+  "Bustler",
+  "건축사신문",
+  "건축사뉴스",
+  "건축공간연구원",
+  "주택폴리오"
+ ],
+ "teasers": [
+  {
+   "title": "선전 오페라하우스 시공 현장",
+   "desc": "장 누벨 설계, 25만㎡·2028년 준공 예정",
+   "label": "PROJECT"
+  },
+  {
+   "title": "모듈러 특별법안 3건 계류",
+   "desc": "건축사 설계 배제 우려 — 병합심사 임박",
+   "label": "POLICY"
+  },
+  {
+   "title": "현충시설 2,355개소",
+   "desc": "82.6%가 조형물 — 건축공간연구원 분류체계 제안",
+   "label": "RESEARCH"
+  },
+  {
+   "title": "하이폴스 리버프런트 마켓 공모",
+   "desc": "총상금 1만 달러, 12월 10일 등록 마감",
+   "label": "COMPETITION"
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 문화시설",
+  "lede": "장 누벨의 선전 오페라하우스, 시공 현장 공개 — 25만㎡ 물결 지붕이 선전만 위로 오른다",
+  "lede_em": "25만㎡ 물결 지붕",
+  "image": "https://static-2026.dezeen.com/uploads/2026/11/shenzhen-opera-house-jean-nouvel-architecture-china-cultural_dezeen_2364_hero.jpg",
+  "image_label": "DEZEEN",
+  "caption": "선전 슈코우 반도에서 시공 중인 선전 오페라하우스 ⓒ Ateliers Jean Nouvel",
+  "body": [
+   "아틀리에 장 누벨(Ateliers Jean Nouvel)이 중국 **선전 오페라하우스**의 시공 사진을 공개했다. 선전만을 내려다보는 **슈코우 반도** 부지에 서며, **2028년** 준공 예정이다. 초청 국제 설계공모 당선작으로, **BIG·스뇌헤타·MVRDV·구마 겐고** 등이 경쟁했다.",
+   "건물은 바다와 부지의 관계를 반영해 길게 굽이치는 **물결 모양 지붕**을 얹는다. 연면적은 **25만㎡**에 이르고, 수변 부지 곳곳에 시설이 흩어져 배치된다.",
+   "공연장은 **2,300석 말굽형 콘서트홀**, **1,800석 극장**, **800석 공연장**, **400석 다목적 극장**으로 구성된다. 문화 공간과 백스테이지, 출연자 숙소, 사무 공간도 함께 들어간다.",
+   "내부는 **자개(나크레)** 같은 무지갯빛 재료를 쓸 예정이다. 누벨은 2021년 \"바다가 당신의 주위와 머리 위에 함께 있게 될 것\"이라고 설명했다."
+  ],
+  "source": {
+   "outlet": "Dezeen",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.dezeen.com/2026/11/17/jean-nouvels-shenzhen-opera-house/"
+    }
+   ]
+  },
+  "src_date": "2026-11-17",
+  "topic": "프로젝트"
+ },
+ "side": {
+  "label": "실무 직결 · 제도/규제",
+  "title": "모듈러 건축 특별법안 3건 국토위 계류 — '건축사' 용어도 없는 인증·특례 중심 설계",
+  "image": "",
+  "body": [
+   "건축사신문 법률가이드(윤성철 변호사)에 따르면 국회에는 모듈러 건축 특별법안이 **3건** 발의돼 국토교통위원회에 계류 중이며, 정부도 조속한 처리를 희망해 병합심사가 임박한 것으로 전망된다."
+  ],
+  "facts": [
+   "법안: 한준호·윤재옥 의원안(**2025.12.31**), 김종양 의원안(**2026.6.25**), 황운하 의원안(**2026.10.20**)",
+   "내용: 3건 모두 인증·지원·특례 중심 — '건축사'·'설계자'·'하자' 용어와 주체별 책임 조항 없음",
+   "특례: 소규모 모듈러 건축물은 설계도서 제출 갈음·생략, 구조·설비 검토 생략·간소화 가능",
+   "우려: 건축법 제23조 제4항(표준설계도서 건축 시 건축사 설계 의무 미적용)과 결합하면 건축사가 설계에서 배제될 수 있음"
+  ],
+  "body_after": [
+   "필자는 대지별 배치·피난방화·기초 접합·설비 연결은 건축사의 설계 영역으로 보장돼야 한다며, 법 정비 전에도 설계계약에 업무범위와 설계 확정 이후 변경에 따른 대가·기간을 명시할 것을 권고했다."
+  ],
+  "source": {
+   "outlet": "건축사신문",
+   "links": [
+    {
+     "text": "기사",
+     "url": "http://www.ancnews.kr/news/articleView.html?idxno=21418"
+    }
+   ]
+  },
+  "src_date": "2026-11-17",
+  "topic": "제도규제"
+ },
+ "intl_feature": [
+  {
+   "kicker": "전시 · 샤르자",
+   "title": "별자리가 된 미사일 — 샤르자 건축 트리엔날레의 '밤 이후엔 아무것도 없다'",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/after-night-there-is-nothing-sharjah-architecture-triennial-hero_dezeen_2364_col_1.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "건축가 **모하마드 나흘레**와 **오자이르 살루지**가 샤르자 건축 트리엔날레 2026에 선보인 설치 작업 '**After Night There Is Nothing**'이다. 나무·강철 골조에 짚을 입힌 **돔형 셸 3개**가 거대한 구체의 일부를 이룬다.",
+    "안쪽 곡면에는 비닐로 드론·위성·로켓·미사일이 만든 '별자리'를 그렸다. 나흘레는 이를 \"재앙을 통한 낙관\", 곧 '밤하늘 낙관주의'라 부른다. 셸마다 개구부가 셋 있어 알마담에서는 먼 모스크 첨탑이 프레임에 들어온다.",
+    "트리엔날레는 **2026년 11월 14일부터 2027년 4월 14일**까지 샤르자 곳곳에서 열린다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/22/after-night-there-is-nothing-sharjah-architecture-triennial/"
+     }
+    ]
+   },
+   "src_date": "2026-11-22",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "주거·전시 · 멜버른",
+   "title": "옛 창고를 거주·전시 공간으로 — SSdH, 멜버른 '터커'",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/SSdH-Tucker_dezeen_2364_hero_01.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "호주 스튜디오 **SSdH**가 멜버른의 **770㎡** 옛 창고를 주거 겸 전시 공간으로 바꿨다. 하역장에 갤반드 강판을 두른 출입구를 두고 옛 간판 글씨를 그대로 남겼다.",
+    "원래 평면과 비스듬히 틀어 앉힌 **이층 높이 유리·철제 아트리움**이 거실로 빛을 끌어들이며, 건축가는 이를 기존 골조 안에서 '빛을 재협상'하는 작업이라 설명한다. 외부 철망 계단은 옥상 테라스로 이어진다.",
+    "주방에는 **트래버틴 아일랜드**와 스포티드검 목재 수납을 칠한 벽돌벽에 맞췄고, 1층은 전시장으로도 쓰도록 가변적으로 설계했다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/17/ssdh-adaptation-warehouse-melbourne/"
+     }
+    ]
+   },
+   "src_date": "2026-11-17",
+   "topic": "프로젝트"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "주거 · 멕시코시티",
+   "title": "멕시코 최초의 근대 집합주택 — 마리오 파니의 CUPA",
+   "image": "https://images.adsttc.com/media/images/6aec/fcaf/c723/9a01/895a/2e02/newsletter/centro-urbano-presidente-aleman-cupa-the-story-behind-mexicos-first-modern-multifamily-housing-complex_7.jpg?1793916107",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "아카이브 기사로 보는 **센트로 우르바노 프레시덴테 알레만(CUPA)** 이야기다. 1947년 공무원연금총국이 마리오 파니에게 **공무원용 주택 200호**를 의뢰했지만, 파니는 델 바예 지구 새 부지에 **13층 규모·1천 세대 이상**의 단지를 제안해 **1949년** 문을 열었다.",
+    "농촌 이주로 도시 인구가 10년 안에 거의 두 배가 되던 때, 르 코르뷔지에식 기능주의 원칙과 넓은 녹지·공동 공간을 결합한 시도였다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188165/modern-and-mexican-mario-panis-cupa-housing-complex-in-mexico-city"
+     }
+    ]
+   },
+   "src_date": "2026-11-22",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "추모시설 · 일본",
+   "title": "지하수 수반 위에 뜬 콘크리트 원통 — ASSISTANT, 오다와라 후쿠덴지 영대공양묘",
+   "image": "https://www.designboom.com/wp-content/uploads/2026/11/fukuden-ji-buddhist-temple-odawara-japan-memorial-assistant-designboom-1800-1.jpg",
+   "image_label": "DESIGNBOOM",
+   "body": [
+    "일본 건축팀 **ASSISTANT**이 **1136년** 창건된 진언종 사찰 후쿠덴지(오다와라)의 영대공양묘를 설계했다. **225㎡** 정사각 부지를 삼각형이 대각선으로 가르고, 중앙에 오륜탑(고린토)을 참조한 **원통형 콘크리트 볼륨**을 세웠다.",
+    "재료는 현장 타설 콘크리트와 판축(版築) 흙벽이며, 지하수를 끌어 채운 얕은 수반 위에 원통이 떠 있는 듯 놓인다."
+   ],
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/floating-concrete-cylinder-water-basin-buddhist-memorial-japan-assistant/"
+     }
+    ]
+   },
+   "src_date": "2026-11-19",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "파빌리온 · 스위스",
+   "title": "삼각 모듈 976개로 짠 별무늬 목조 캐노피 — 슈타인 '스텔라 파빌리온'",
+   "image": "https://www.designboom.com/wp-content/uploads/2026/11/stein-switzerland-stellar-pavilion-timber-canopy-edyta-augustynowicz-summum-engineering-designboom-1800-1.jpg",
+   "image_label": "DESIGNBOOM",
+   "body": [
+    "건축가 **에디타 아우구스티노비치**가 스위스 아르가우주 슈타인 마을 광장에 **19.8×19.8m** 캐노피를 지었다. 가지 친 목조 기둥 4개 사이 **11.3m**를 잇는다.",
+    "CNC로 자른 직선 목재 약 **3,000개**가 **삼각 모듈 976개**(유형별 8~48회 반복)를 이루고, 위에 반투명 막을 얹었다. 구조는 Summum Engineering, 시공·목구조 제작은 ERNE AG Holzbau가 맡았다."
+   ],
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/976-triangular-modules-compose-star-patterned-timber-canopy-in-switzerland/"
+     }
+    ]
+   },
+   "src_date": "2026-11-21",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "공공시설 · 오스트리아",
+   "title": "하루 1만5천 끼 만드는 녹색 금속 파사드 — 슈퍼퓨처 그룹, 그라츠 중앙주방",
+   "image": "https://www.designboom.com/wp-content/uploads/2026/11/zigzag-green-metal-facade-austria-central-kitchen-graz-superfuture-group-designboom-1800-1.jpg",
+   "image_label": "DESIGNBOOM",
+   "body": [
+    "**슈퍼퓨처 그룹**이 그라츠 시 어린이집·복지시설에 하루 약 **1만5천 끼**를 공급하는 지상 3층 중앙주방을 완공했다. 철근콘크리트 기둥·슬래브 골조에 지그재그 녹색 금속 환기 파사드를 두르고 남북면에 식생벽을 올렸다.",
+    "지열 보어홀·열펌프·옥상 태양광에 옥상정원까지 갖춰, 급식 인프라를 도시 환경 설계 문제로 다뤘다."
+   ],
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/green-metal-facade-plant-walls-municipal-kitchen-austria-central-kitchen-graz-superfuture-group/"
+     }
+    ]
+   },
+   "src_date": "2026-11-22",
+   "topic": "프로젝트"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "건축자산 · 충남",
+   "title": "'제3차 건축자산 진흥 기본계획' 앞두고 — 건축공간연구원·충남 심포지엄",
+   "body": [
+    "건축공간연구원과 충청남도가 11월 19일 온양민속박물관에서 **건축자산 진흥 정책 심포지엄**을 열었다. 오전에는 국토부·광역지자체 담당자가 고시 예정인 **제3차 건축자산 진흥 기본계획**과 한옥등건축자산법 개정안에 대한 의견을 모았다.",
+    "오후에는 충남 **제2차 건축자산 진흥 시행계획(2026~2030)**과 근대 미곡창고 브랜드화 사례, 백제형 한옥 표준모델 성과를 발표했다."
+   ],
+   "source": {
+    "outlet": "건축공간연구원",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7678&tag=&nPage=1"
+     }
+    ]
+   },
+   "src_date": "2026-11-19",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "연구 · 보훈시설",
+   "title": "현충시설 2,355개소 중 82.6%가 조형물 — 건축공간연구원 '분류체계 도입' 제안",
+   "body": [
+    "건축공간연구원 **auri brief 315호**에 따르면 전국 현충시설은 **2,355개소**이며 **82.6%**가 비석·탑 등 조형물이어서 인지도와 접근성이 낮다.",
+    "지정이 의미·위상 중심이라 공공시설로서의 활용도·운영 검토가 부족하다고 진단하고, 위상 정립·분류체계 도입·주체별 역할 정립·통합관리체계 구축을 제안했다."
+   ],
+   "source": {
+    "outlet": "건축공간연구원",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7668&tag=&nPage=1"
+     }
+    ]
+   },
+   "src_date": "2026-11-17",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "주거 · 포럼",
+   "title": "청년 1인가구 주거 커뮤니티 공간 — 건축공간연구원 주거정책포럼 11월 23일",
+   "body": [
+    "건축공간연구원이 **11월 23일 오후 2시 30분** '청년 1인가구 주거의 커뮤니티 공간 조성과 운영 과제' 주거정책포럼을 연다. 주제발표 **3건**과 패널 **5명** 토론으로 구성된다.",
+    "박환용 원장은 청년에게 필요한 것은 부담스러운 공동체가 아니라 독립적 생활을 지키며 필요할 때 이웃과 교류할 수 있는 관계라고 강조했다."
+   ],
+   "source": {
+    "outlet": "건축공간연구원",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.auri.re.kr/board.es?mid=a10401030000&bid=0013&act=view&list_no=7683&tag=&nPage=1"
+     }
+    ]
+   },
+   "src_date": "2026-11-19",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "지역 협력 · 충북",
+   "title": "청주 4개 구청에서 격주 건축 상담 — 충북건축사회·청주시 업무협약",
+   "body": [
+    "충청북도건축사회·청주시·청주지역건축사회가 청주시청 제1임시청사에서 **건축 행정 서비스 업무협약**을 맺었다(10월 6일). 지역 건축사의 전문성으로 시민의 건축 관련 궁금증과 불편을 풀겠다는 취지다.",
+    "청주시 **4개 구청**에서 건축사들이 시민을 대상으로 **격주** 건축 상담을 진행한다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21440"
+     }
+    ]
+   },
+   "src_date": "2026-11-18",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "실무교육 · 충북",
+   "title": "해체계획서 검토·해체공사 감리 — 충북건축사회 '2026 건축사 실무교육' AI 활용",
+   "body": [
+    "충북건축사회가 청주시 도시재생허브센터에서 **2026 건축사 실무교육(전문)**을 진행했다(10월 22일). 과목은 **성희롱 예방, 해체공사감리업무 실무, 해체계획서의 검토와 사례** 3개다.",
+    "해체계획서 검토방법과 감리 실무 역량 강화 교육은 AI를 활용해 진행했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21441"
+     }
+    ]
+   },
+   "src_date": "2026-11-18",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "인터뷰 · 제주",
+   "title": "\"제주에 뿌리내리면서, 삶을 넓히는 건축을\" — 성진협 건축사(건축사사무소 사야)",
+   "body": [
+    "서울 고밀도 도심에서 10여 년 실무를 쌓은 뒤 고향 제주로 돌아온 **성진협** 건축사의 인터뷰다. 저밀도 자연환경을 다루며 땅의 풍토와 맥락을 먼저 읽고 건물을 앉히는 태도를 정립했다고 말한다.",
+    "대표작 '**스테이 여로**'는 제주의 기후 요소를 정교하게 통합해 머무는 사람에게 다채로운 공간감을 준다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21435"
+     }
+    ]
+   },
+   "src_date": "2026-11-18",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "건축문화 · 세종",
+   "title": "'세종, 과거와 현재 그리고 미래' — 제9회 세종건축문화제 성료",
+   "body": [
+    "세종특별자치시건축사회가 **10월 21~24일** 4일간 세종시교육청 평생교육원에서 **제9회 세종건축문화제**를 열었다. 주제는 '세종, 과거와 현재 그리고 미래'다.",
+    "현상훈 회장은 \"공간을 통해 시민들의 삶을 개선하고 미래를 열어가는 것이 건축의 본질이고 역할\"이라고 말했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21420"
+     }
+    ]
+   },
+   "src_date": "2026-11-17",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "건축문화 · 경남",
+   "title": "『경상남도건축물답사』 개정판 발간 — 2000~2024년 수록 건축물에 최근 답사 추가",
+   "body": [
+    "경상남도건축사회가 **2026년 경남건축문화제**의 일환으로 『경상남도건축물답사』 개정판을 냈다. 경남의 우수 건축물을 알려 지역 관광·경제 활성화에 쓰려는 책자다.",
+    "**2000~2024년** 수록 자료를 유지하고 지난해와 올해 답사 내용을 추가했으며 설명 자료를 최신으로 보완했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21421"
+     }
+    ]
+   },
+   "src_date": "2026-11-17",
+   "topic": "프로젝트"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "하이폴스 리버프런트 마켓 공모 — 로체스터, 총상금 1만 달러",
+   "body": "Buildner·AIA 로체스터가 스모크스택 포털 부지의 마켓·공공공간을 공모한다. 1등 **5,000달러**, 등록 **12월 10일**, 제출 **2027년 1월 18일**.",
+   "source": {
+    "outlet": "Bustler",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://bustler.net/competitions/10546/new-york-high-falls-riverfront-market"
+     }
+    ]
+   },
+   "src_date": "2026-11-20",
+   "topic": "설계공모"
+  },
+  {
+   "title": "The Next House: USA — 140㎡ 이하 복제 가능한 주택 공모",
+   "body": "Buildner 공모로 성인 2·아이 1 가구, 최대 1,500sf(약 140㎡) 주택 프로토타입을 요구한다. 제출 **2027년 7월 12일**, 우승자는 €5만 규모 Buildner Medal 후보.",
+   "source": {
+    "outlet": "Bustler",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://bustler.net/competitions/10726/the-next-house-usa-2027"
+     }
+    ]
+   },
+   "src_date": "2026-11-20",
+   "topic": "설계공모"
+  },
+  {
+   "title": "자코브스·TYLin, 덜레스·레이건공항 PM 계약 — 최대 3억 달러",
+   "body": "워싱턴공항청과 초기 5년 약 **1.5억 달러**(연장 시 10년 **3억 달러**) 규모. 덜레스 지하철 연장 'Package T' 등을 지원한다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/jacobs-tylin-win-contract-dulles-reagan-national-airport-upgrade/875129/"
+     }
+    ]
+   },
+   "src_date": "2026-11-18",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "마스텍, 건설장비 부착 로봇 AI 'Gritt' 도입",
+   "body": "MasTec이 태양광 현장에 Gritt의 AI 로봇 어태치먼트를 투입한다. Gritt는 7월 출범해 시드·시리즈A로 **3,240만 달러**를 조달했다.",
+   "source": {
+    "outlet": "Construction Dive",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.constructiondive.com/news/mastec-partners-gritt-physical-ai-renewables-projects/875015/"
+     }
+    ]
+   },
+   "src_date": "2026-11-18",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "비계로 지은 1,400㎡ 전시관 — AT-LARS, 롬복 MotoGP 갤러리",
+   "body": "모듈형 강재 비계를 구조이자 외관으로 쓰고 폴리카보네이트 패널을 둘렀다. 설계·시공 **4개월**, 해체·이전이 가능하다.",
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/at-lars-adaptable-museum-scaffolding-translucent-facade-indonesia/"
+     }
+    ]
+   },
+   "src_date": "2026-11-18",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "퍼킨스앤윌·에스투디우 캄파나, 과룰류스공항 1,400㎡ 라운지",
+   "body": "아마존 쥐루아강에서 영감받은 곡선 목재 설치물이 입구를 이룬다. 에스피리투산투 석재와 따뜻한 목재, 브라질 현대미술을 썼다.",
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/perkinswill-estudio-campana-sao-paulo-airport-lounge-amazon-river-inspired-timber-installation-pedra-preta/"
+     }
+    ]
+   },
+   "src_date": "2026-11-19",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "톱니 지붕 장애인 직업센터 — 살투 스튜디오, 포르투갈 CACI 5.3.8",
+   "body": "공장 작업장 유형을 '꿈의 공장'으로 풀어 4개 볼륨을 로비 둘레에 배치했다. 철골에 골 금속패널, 전기 열펌프·태양광을 쓴다.",
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/corrugated-metal-sawtooth-roofs-occupational-center-northern-portugal-salto-studio-caci-5-3-8/"
+     }
+    ]
+   },
+   "src_date": "2026-11-20",
+   "topic": "프로젝트"
+  }
+ ],
+ "cardnews": [
+  {
+   "slug": "nouvel-shenzhen-opera",
+   "tag": "PROJECT",
+   "title": "2028 준공 — 장 누벨의 선전 오페라하우스",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "photo_query": "shenzhen china",
+   "slides": [
+    {
+     "heading": "장 누벨의\n선전 오페라하우스",
+     "body": "선전만 위로 오르는 25만㎡ 물결 지붕"
+    },
+    {
+     "heading": "SITE",
+     "body": "선전만을 내려다보는 슈코우 반도. 초청 국제공모에서 BIG·스뇌헤타·MVRDV·구마 겐고를 제치고 당선됐다."
+    },
+    {
+     "heading": "SCALE",
+     "body": "연면적 25만㎡. 2,300석 콘서트홀, 1,800석 극장, 800석 공연장, 400석 다목적 극장이 들어간다."
+    },
+    {
+     "heading": "ROOF",
+     "body": "바다와의 관계를 반영한 길게 굽이치는 지붕. 누벨은 \"바다가 당신의 주위와 머리 위에 함께 있을 것\"이라 했다."
+    },
+    {
+     "heading": "INTERIOR",
+     "body": "내부에는 자개 같은 무지갯빛 재료를 쓸 예정. 준공은 2028년이다."
+    }
+   ]
+  },
+  {
+   "slug": "modular-law-architect",
+   "tag": "POLICY",
+   "title": "모듈러 특별법안 3건 — 건축사는 어디에?",
+   "ref": {
+    "section": "side"
+   },
+   "bg": 1,
+   "photo_query": "modular building construction crane",
+   "slides": [
+    {
+     "heading": "모듈러 특별법,\n건축사는 어디에?",
+     "body": "국토위에 계류 중인 법안 3건의 쟁점"
+    },
+    {
+     "heading": "BILLS",
+     "body": "한준호·윤재옥안(2025.12), 김종양안(2026.6), 황운하안(2026.10). 정부도 조속 처리를 희망해 병합심사가 임박했다."
+    },
+    {
+     "heading": "GAP",
+     "body": "3건 모두 인증·지원·특례 중심. '건축사'·'설계자'·'하자' 용어와 주체별 책임 조항이 없다."
+    },
+    {
+     "heading": "RISK",
+     "body": "소규모 특례로 설계도서 제출을 생략하고 건축법 제23조 제4항과 결합하면 건축사가 설계에서 배제될 수 있다."
+    },
+    {
+     "heading": "ASK",
+     "body": "대지 배치·피난방화·기초 접합·설비 연결은 건축사 영역으로. 법 정비 전에는 설계계약에 업무범위와 변경 대가를 명시하자."
+    }
+   ]
+  },
+  {
+   "slug": "cupa-mario-pani",
+   "tag": "HISTORY",
+   "title": "멕시코 최초의 근대 집합주택 — 마리오 파니의 CUPA",
+   "ref": {
+    "section": "intl_grid",
+    "index": 0
+   },
+   "bg": 2,
+   "photo_query": "mexico city",
+   "slides": [
+    {
+     "heading": "멕시코 최초의\n근대 집합주택",
+     "body": "마리오 파니의 CUPA, 1949"
+    },
+    {
+     "heading": "BRIEF",
+     "body": "1947년 공무원연금총국이 공무원용 주택 200호를 의뢰했다."
+    },
+    {
+     "heading": "PROPOSAL",
+     "body": "파니는 델 바예 지구 새 부지에 13층·1천 세대 이상의 단지를 제안했다."
+    },
+    {
+     "heading": "CONTEXT",
+     "body": "농촌 이주로 인구가 10년 만에 거의 두 배. 과밀한 공동주택으로는 감당이 안 됐다."
+    },
+    {
+     "heading": "IDEA",
+     "body": "르 코르뷔지에식 기능주의에 넓은 녹지와 공동 공간을 결합해 1949년 문을 열었다."
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "total": 23,
+  "intl": 15,
+  "kr": 8
+ }
+}
