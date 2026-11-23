@@ -1,0 +1,531 @@
+{
+ "vol": "VOL.01  NO.099",
+ "editor": "HUEY",
+ "outlets": [
+  "Dezeen",
+  "ArchDaily",
+  "designboom",
+  "Bustler",
+  "건축사신문",
+  "건축사뉴스",
+  "주택폴리오"
+ ],
+ "teasers": [
+  {
+   "title": "그리니치 452세대 사회주택",
+   "desc": "HTA Design, 런던 최대 규모 공공주택",
+   "label": "PROJECT"
+  },
+  {
+   "title": "건축사법 개정안 국토위 회부",
+   "desc": "사무소 개설 전 협회 가입, 공포 후 6개월 뒤 시행",
+   "label": "POLICY"
+  },
+  {
+   "title": "RIBA 회장, ARB 등록 복귀",
+   "desc": "'건축가' 칭호 규제 개혁 논쟁 새 국면",
+   "label": "POLICY"
+  },
+  {
+   "title": "부산해군과학기술고 교사개축",
+   "desc": "연면적 7,375㎡·공사비 179억 설계공모",
+   "label": "COMPETITION"
+  }
+ ],
+ "top": {
+  "kicker": "TOP STORY · 공공주택",
+  "lede": "HTA, 런던 그리니치에 '영국 최대 규모' 공공주택 단지 — 452세대 전량 사회주택",
+  "lede_em": "452세대 전량 사회주택",
+  "image": "https://static-2026.dezeen.com/uploads/2026/11/kidbrooke-park-road-hta-design-council-housing-hero_dezeen_2364_col_0-1024x576.jpg",
+  "image_label": "DEZEEN",
+  "caption": "런던 그리니치 키드브룩 파크 로드 공공주택 ⓒ Kilian O'Sullivan",
+  "body": [
+   "영국 스튜디오 **HTA Design**이 런던 그리니치 자치구에 **키드브룩 파크 로드(Kidbrooke Park Road)** 공공주택 단지를 완공했다. 총 **452세대** 전량이 사회주택(social housing)이며, 건축과 조경을 HTA가 함께 맡았다.",
+   "단지는 **6~15층** 규모의 동으로 이뤄진다. 1단계는 3개 동, 2단계는 **8개 동 330세대**다. 철근콘크리트 골조에 벽돌 마감을 입혔고, 공기열원 히트펌프·전기보일러·옥상 태양광(PV)으로 설비를 꾸렸다.",
+   "발주는 그리니치 자치구의 주택 공급 조직 **Greenwich Builds**가 맡았고 시공은 **Durkan**, 구조는 OCSC, 설비는 WSP가 담당했다. HTA는 이 프로젝트가 지방정부가 야심찬 주택 공급 전략을 택할 때 무엇을 이룰 수 있는지 보여준다고 밝혔다.",
+   "런던 부시장 톰 코플리는 사회주택 재원의 **60%**가 런던 자치구에 배정된다고 언급했다. 같은 달 Lion Green Road 주택이 스털링상을, Rowan Court가 니브 브라운상을 받으며 영국 공공주택에 대한 관심이 이어지는 가운데 나온 준공 소식이다."
+  ],
+  "source": {
+   "outlet": "Dezeen",
+   "links": [
+    {
+     "text": "기사",
+     "url": "https://www.dezeen.com/2026/11/23/kidbrooke-park-road-hta-design/"
+    }
+   ]
+  },
+  "src_date": "2026-11-23",
+  "topic": "프로젝트"
+ },
+ "side": {
+  "label": "실무 직결 · 제도/규제",
+  "title": "'건축사사무소 개설 전 협회 가입' — 건축사법 개정안 국토위 회부, 자격대여 사각지대 메운다",
+  "image": "",
+  "image_label": "건축사신문",
+  "body": [
+   "정동만 국회의원(국토교통위원회 간사)이 **11월 18일** 「건축사법」 개정안을 대표발의했고, 이튿날 국토교통위원회에 회부됐다. 건축사협회 가입 시점을 사무소 **개설신고 이전**으로 앞당기는 것이 골자다."
+  ],
+  "facts": [
+   "절차: 협회 가입 후 개설신고 (제23조, 제31조의3)",
+   "점검: 자격 갱신등록·개설자 변경 신고 때 가입 여부 확인 (신설 제31조의3제2항)",
+   "실태조사: 사무소 개설·운영 실태 확인을 조사 사유에 추가, 협회 협조 근거 마련 (제30조제3항)",
+   "시행: 공포 후 **6개월**, 미가입 건축사는 시행일부터 6개월 내 가입",
+   "배경: 세움터 분석(2022.8~2026.3) 미가입자 **289명**이 설계 **3,669건**·감리 **1,225건** 접수"
+  ],
+  "body_after": [
+   "2000년 가입이 자율화됐다가 2022년 8월 의무가입이 22년 만에 복원됐지만, 미가입 상태로 업무를 하는 사례가 확인되면서 윤리규정·자격대여 관리의 사각지대를 줄이려는 취지다. 2026년 9월 시행된 개정 건축사법(무자격자의 사무소 운영·명칭 사용 금지)과 맞물려 설계 실무의 자격 관리가 한층 엄격해진다."
+  ],
+  "source": {
+   "outlet": "건축사신문",
+   "links": [
+    {
+     "text": "기사",
+     "url": "http://www.ancnews.kr/news/articleView.html?idxno=21451"
+    }
+   ]
+  },
+  "src_date": "2026-11-23",
+  "topic": "제도규제"
+ },
+ "intl_feature": [
+  {
+   "kicker": "문화시설 · 네덜란드",
+   "title": "1891년 사교클럽을 '도시의 거실'로 — 메카노, 쥐트펜 한제호프 극장 문화센터 설계 선정",
+   "image": "https://images.adsttc.com/media/images/6b03/a866/2bc2/8501/8901/269d/medium_jpg/mecanoo-appointed-to-transform-zutphens-theatre-hanzehof-into-a-new-cultural-center-in-the-netherlands_1.jpg?1795401869",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "네덜란드 쥐트펜시가 유럽 입찰을 거쳐 **메카노(Mecanoo)**를 옛 한제호프 극장의 문화센터 전환 설계자로 선정했다. 건물은 **1891년** D. 라이선이 설계한 사교클럽 겸 콘서트홀로, 2020년까지 회의장·극장·영화관으로 쓰였다.",
+    "기존 **550석** 극장홀과 역사적인 '부이텐소시에테이트'를 보존하고 신축 **목조 볼륨**을 더한다. 공간을 잇는 내부 동선 '더 스트라트(거리)'를 두어 극장·예술센터·도서관을 한데 엮고, 도시의 거실이 되는 것이 목표다.",
+    "일정은 기본설계 **2027년 2월**, 실시설계 **7월**, 착공 **2028년 중반**, 개관 **2030년 1월 1일**이다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1189034/mecanoo-appointed-to-transform-zutphens-theatre-hanzehof-into-a-new-cultural-center-in-the-netherlands"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "문화·전시 · 카타르",
+   "title": "게르하르트 리히터의 육각 파빌리온, 도하에 개관 — 셀도르프 아키텍츠와 이슬람 기하 패턴",
+   "image": "https://www.designboom.com/wp-content/uploads/2026/11/gerhard-richter-pavilion-doha-patterns-islamic-geometry-selldorf-architects-designboom-1800-1.jpg",
+   "image_label": "DESIGNBOOM",
+   "body": [
+    "미술가 **게르하르트 리히터**가 **셀도르프 아키텍츠**와 함께 카타르 도하 MIA 파크에 육각형 파빌리온을 열었다. 발주는 카타르 박물관이며, 여섯 외벽에 리히터의 1990년작 <추상화(724-4)> 에서 따온 패턴을 입혔다.",
+    "패턴은 원작을 세로 스트립으로 나누고 최대 **8,192개** 구획으로 쪼개 대칭 반복하는 수학적 과정으로 만들었다. 내부에는 신작 3점과 3부 구성 조각 '스트립 타워(2026)', 바닥에서 천장까지 닿는 거울 벽 2점이 놓인다.",
+    "리히터는 2013년 도하 방문에서 착상했으며 도하가 이 파빌리온의 '유일한 장소'라고 말했다. 사진은 이완 바안."
+   ],
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/gerhard-richter-pavilion-doha-patterns-islamic-geometry-selldorf-architects/"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  }
+ ],
+ "intl_grid": [
+  {
+   "kicker": "규제 · 영국",
+   "title": "RIBA 회장, '건축가' 칭호 되찾으려 ARB 등록 복귀",
+   "image": "https://static-2026.dezeen.com/uploads/2025/12/chris-williamson-portrait-riba_dezeen_1704_hero-852x479.jpg",
+   "image_label": "DEZEEN",
+   "body": [
+    "크리스 윌리엄슨 RIBA 회장이 약 1년 전 탈퇴했던 건축사등록위원회(ARB) 등록을 다시 갱신했다. 미등록자가 '건축가'를 칭하면 ARB가 법적 절차와 벌금을 물릴 수 있어서다.",
+    "RIBA는 **건축사법 폐지**, 독점 업무를 정의하는 새 법, 역량을 감독할 **건설환경협의회** 신설의 3단계 개혁을 요구하고 있으며, 입장 변화는 없다고 밝혔다."
+   ],
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/23/riba-president-rejoins-arb/"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "제도규제"
+  },
+  {
+   "kicker": "전시 · 포르투갈",
+   "title": "2028 리스본 건축 트리엔날레 주제는 'CO-OP'",
+   "image": "https://images.adsttc.com/media/images/6b04/2324/dd54/ea01/8880/ecd9/newsletter/lisbon-architecture-triennale-announces-co-op-as-theme-for-its-2028-edition_3.jpg?1795433261",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "제8회 리스본 건축 트리엔날레가 2028년 주제를 **CO-OP**으로 발표했다. 총괄 큐레이터는 포르투대 건축대학 부교수 **호아킴 모레노**다.",
+    "**2028년 9월 28일** 개막하며 중심 전시 3개, 독립 프로젝트, 도서·콘퍼런스, 상 3개로 구성된다."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1189043/lisbon-architecture-triennale-announces-co-op-as-theme-for-its-2028-edition"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "주거 · 브라질",
+   "title": "중정 둘러싼 두 동의 아파트 — MMBB, 상파울루 '플로레스타'",
+   "image": "https://images.adsttc.com/media/images/6aff/3d7c/eabd/2a00/0193/25bd/medium_jpg/Nelson_Kon_61DJI_0593_-_Copia.jpg?1795112559",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "MMBB 아르키텍투스가 상파울루 언덕 경사지에 **1만8,500㎡** 규모 아파트를 2021년 완공했다. 진입로에 가로놓인 **두 개의 평행한 동**이 중앙 정원을 둘러싸고, 큰 창이 정원과 티에테 계곡 쪽 도시 전경을 함께 향한다. 조경은 호드리구 올리베이라."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1189052/floresta-building-mmbb-arquitetos-plus-rodrigo-oliveira-paisagismo"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "치유시설 · 미국",
+   "title": "와이오밍 청소년 치료시설 — untitled architecture '레드 탑 메도스'",
+   "image": "https://images.adsttc.com/media/images/6afe/e7ab/eabd/2a00/0193/2381/medium_jpg/krafty_photos_red_top_summer-15.jpg",
+   "image_label": "ARCHDAILY",
+   "body": [
+    "untitled architecture가 와이오밍 티턴 카운티에 **831㎡(8,945ft²)** 규모의 주거형 치료시설을 2025년 완공했다. 사법 시스템 등에서 보낸 **12~18세 남학생**을 위한 시설로, 기존 건물이 있는 부지에 지었고 목재 구조가 실내를 이룬다. 발주는 Teton Youth and Family Services."
+   ],
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188919/red-top-meadows-residential-treatment-facility-untitled-architecture"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  }
+ ],
+ "korea": [
+  {
+   "kicker": "설계공모 · 부산",
+   "title": "부산해군과학기술고 공간재구조화 교사개축 설계공모 — 연면적 7,375㎡, 공사비 179억",
+   "body": [
+    "부산 해운대구 부산해군과학기술고등학교 부지의 교사 개축 일반 설계공모가 **11월 23일** 공고됐다. 연면적 **7,375㎡**, 예정 공사비 **179억 원**, 설계비 **7.4억 원**이다.",
+    "참가등록은 **11월 24~30일**, 결과 발표는 **2027년 2월 19일**이며 심사위원은 7인이다."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.jootek.com/folio/contests/19289"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 충남",
+   "title": "충남형 공동생활홈 '실버홈 고도리' 설계공모(제안) — 예산 봉산면, 공사비 31.7억",
+   "body": [
+    "충남 예산군 봉산면 고도리 일원의 **충남형 공동생활홈(실버홈)** 조성 설계 제안공모다. 연면적 **660㎡**, 예정 공사비 **31.7억 원**, 설계비 **1.4억 원**, 용도는 단독주택이다.",
+    "참가등록 마감 **11월 25일**, 결과 발표 **12월 22일**."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.jootek.com/folio/contests/19292"
+     }
+    ]
+   },
+   "src_date": "2026-11-19",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "설계공모 · 경북",
+   "title": "영주 무섬마을 저잣거리 조성 설계공모(재공고) — 공사비 106억",
+   "body": [
+    "경북 영주시 문수면 수도리 무섬마을 일원 **저잣거리** 조성 제안공모가 재공고됐다. 연면적 **1,170㎡**, 공사비 **106억 원**, 설계비 **7.5억 원**, 용도는 제2종 근린생활시설이다. 결과 발표는 **12월 17일**."
+   ],
+   "source": {
+    "outlet": "주택폴리오",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.jootek.com/folio/contests/19272"
+     }
+    ]
+   },
+   "src_date": "2026-11-16",
+   "topic": "설계공모"
+  },
+  {
+   "kicker": "인터뷰 · 건축사",
+   "title": "류춘수 건축사 \"건축사가 전문가로 존중받고 세계 시장에서 인정받기를\"",
+   "image": "https://cdn.ancnews.kr/news/photo/202611/21453_24335_2513.jpg",
+   "image_label": "건축사신문",
+   "body": [
+    "올림픽체조경기장을 설계한 **류춘수** 건축사(이공)가 11월 12일 건축사교육원 건축아카이브 특별 초청강연 뒤 인터뷰에 응했다. 그는 한국에서 건축사가 행정 처리자가 아닌 존중받는 전문가로 인정받기를 바란다고 말했다.",
+    "CAD·BIM 시대에도 스케치 같은 아날로그 감각이 기본기라고 강조했고, 'K-건축'의 위상은 아직 충분하지 않다며 후배들에게 국제화를 주문했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21453"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "협회 · 강원",
+   "title": "전국 여성건축사 워크숍 '동행' 성료 — 원주에 400여 명",
+   "body": [
+    "대한건축사협회 여성위원회가 **11월 20일** 호텔인터불고 원주에서 '동행 – 같이 ON, 가치 UP'을 주제로 워크숍을 열었다. 여성건축사 **400여 명**이 참석했고 17개 시·도 여성위원회 현황 보고와 특별 강연이 이어졌다. 여성위원회는 2019년 상설위원회로 출범했다."
+   ],
+   "source": {
+    "outlet": "건축사신문",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.ancnews.kr/news/articleView.html?idxno=21454"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  },
+  {
+   "kicker": "건축문화 · 경기",
+   "title": "제5회 부천건축문화제 — 한국만화박물관에서 3일간 시민과 소통",
+   "body": [
+    "부천지역건축사회가 **11월 20~22일** 한국만화박물관 1층에서 '건축으로 잇는 도시, 문화로 여는 미래'를 주제로 제5회 건축문화제를 열었다. 지역 4개 학교 학생 작품과 시민 PICK 투표, 강화 돈대 강연, 무료 상담 '건축사에게 물어보세요', 다큐 <AALTO> 상영이 이어졌다."
+   ],
+   "source": {
+    "outlet": "건축사뉴스",
+    "links": [
+     {
+      "text": "기사",
+      "url": "http://www.a-news.kr/news/articleView.html?idxno=14043"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  }
+ ],
+ "briefs": [
+  {
+   "title": "AMAA, 네리앤후가 꼽은 '향후 20년 가장 영향력 있는 건축가'",
+   "body": "베네치아·아르치뇨 기반 이탈리아 스튜디오(직원 약 **30명**)로 산업시설 **적응형 재사용**에 집중. 최근 1년 **10개** 프로젝트를 완료했다.",
+   "source": {
+    "outlet": "Dezeen",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.dezeen.com/2026/11/23/amaa-interview-dezeen-20x20-nerihu/"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "곡선 콘크리트 증축으로 되살린 1970년대 주택 — 벨렌 일라리, 발렌시아 '카사 루세르나'",
+   "body": "십자형 동선과 천창으로 빛을 끌어들이고, 주방 뒤 **현장 타설 콘크리트** 곡선 볼륨에 와인셀러를 넣었다.",
+   "source": {
+    "outlet": "designboom",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.designboom.com/architecture/curved-concrete-extension-belen-ilarri-studio-1970s-house-near-valencia-casa-lucerna/"
+     }
+    ]
+   },
+   "src_date": "2026-11-21",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "'철거보다 낫다' — KOSMOS, 빈 노후 빌라를 450㎡ 주택으로",
+   "body": "오스트리아 빈의 낡은 빌라를 **450㎡** 규모로 개조·용도 전환한 2026년 준공작.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188730/stammhaus-kosmos-architects-plus-gordon-selbach"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "1980년대 사무소를 주거로 — 멕시코시티 'TS 빌딩'",
+   "body": "데 룽스 아르키텍토스가 톨스토이 거리의 사무 건물(**2,600㎡**)을 주거용으로 전환했다.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1189081/ts-building-de-rungs-arquitectos"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "방을 둥글게 나누는 뉴욕 아파트 — SABO project '소프트 디비전'",
+   "body": "로어이스트사이드 **728ft²(약 68㎡)** 소형 아파트에 부드러운 구획을 적용한 2026년 준공작.",
+   "source": {
+    "outlet": "ArchDaily",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://www.archdaily.com/1188937/soft-division-apartment-sabo-project"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "프로젝트"
+  },
+  {
+   "title": "건축가의 의자 공모 — 빌드너·스톡홀름가구박람회, 총상금 8,000유로",
+   "body": "1등 **3,500유로**. 등록 **12월 3일**, 제출 **2027년 1월 5일**, 발표 **2월 10일**. 당선작은 스톡홀름가구박람회에서 전시.",
+   "source": {
+    "outlet": "Bustler",
+    "links": [
+     {
+      "text": "기사",
+      "url": "https://bustler.net/competitions/10576/the-architect-s-chair-stockholm-furniture-fair-edition"
+     }
+    ]
+   },
+   "src_date": "2026-11-23",
+   "topic": "설계공모"
+  }
+ ],
+ "cardnews": [
+  {
+   "slug": "hta-kidbrooke-council-housing",
+   "tag": "HOUSING",
+   "title": "452세대 전량 사회주택 — HTA의 키드브룩 파크 로드",
+   "ref": {
+    "section": "top"
+   },
+   "bg": 0,
+   "photo_query": "london brick apartment building",
+   "slides": [
+    {
+     "heading": "런던 그리니치\n452세대 사회주택",
+     "body": "HTA Design이 완성한 영국 공공주택 단지"
+    },
+    {
+     "heading": "SCALE",
+     "body": "총 452세대 전량이 사회주택. 6~15층 동으로, 2단계만 8개 동 330세대다."
+    },
+    {
+     "heading": "BUILD",
+     "body": "철근콘크리트 골조에 벽돌 마감. 공기열원 히트펌프와 옥상 태양광으로 설비를 꾸렸다."
+    },
+    {
+     "heading": "TEAM",
+     "body": "발주 Greenwich Builds, 시공 Durkan, 구조 OCSC, 설비 WSP. 건축과 조경은 HTA가 함께 맡았다."
+    },
+    {
+     "heading": "CONTEXT",
+     "body": "런던 자치구에는 사회주택 재원의 60%가 배정된다. 지방정부 주도 공급의 사례로 주목받는다."
+    }
+   ]
+  },
+  {
+   "slug": "architects-act-amendment",
+   "tag": "POLICY",
+   "title": "건축사법 개정안 — 개설 전 협회 가입",
+   "ref": {
+    "section": "side"
+   },
+   "bg": 1,
+   "photo_query": "architect drafting table",
+   "slides": [
+    {
+     "heading": "개설 전에\n협회 가입부터",
+     "body": "건축사법 개정안, 국토위에 회부"
+    },
+    {
+     "heading": "WHAT",
+     "body": "정동만 의원이 11월 18일 대표발의. 협회 가입을 사무소 개설신고 이전으로 앞당긴다."
+    },
+    {
+     "heading": "CHECK",
+     "body": "자격 갱신등록·개설자 변경 신고 때 가입 여부를 확인하고, 실태조사 근거도 신설한다."
+    },
+    {
+     "heading": "DATA",
+     "body": "세움터 분석 결과 미가입자 289명이 설계 3,669건, 감리 1,225건을 접수했다."
+    },
+    {
+     "heading": "WHEN",
+     "body": "공포 후 6개월 시행. 미가입 건축사는 시행일부터 6개월 안에 가입해야 한다."
+    }
+   ]
+  },
+  {
+   "slug": "mecanoo-hanzehuis",
+   "tag": "CULTURE",
+   "title": "1891년 사교클럽이 '도시의 거실'로 — 메카노 한제호프",
+   "ref": {
+    "section": "intl_feature",
+    "index": 0
+   },
+   "bg": 2,
+   "photo_query": "historic theatre netherlands",
+   "slides": [
+    {
+     "heading": "130년 된 극장을\n도시의 거실로",
+     "body": "메카노, 쥐트펜 한제호프 문화센터 설계"
+    },
+    {
+     "heading": "HISTORY",
+     "body": "1891년 사교클럽 겸 콘서트홀로 지어졌고 2020년까지 극장·영화관으로 쓰였다."
+    },
+    {
+     "heading": "PLAN",
+     "body": "550석 극장홀과 역사적 부이텐소시에테이트를 보존하고 신축 목조 볼륨을 더한다."
+    },
+    {
+     "heading": "STREET",
+     "body": "내부 동선 '더 스트라트'가 극장·예술센터·도서관을 하나로 엮는다."
+    },
+    {
+     "heading": "SCHEDULE",
+     "body": "실시설계 2027년 7월, 착공 2028년 중반, 개관은 2030년 1월 1일."
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "total": 20,
+  "intl": 14,
+  "kr": 6
+ }
+}
