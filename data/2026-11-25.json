@@ -1,0 +1,533 @@
+{
+  "vol": "VOL.01  NO.100",
+  "editor": "HUEY",
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "designboom",
+    "Construction Dive",
+    "주택폴리오",
+    "건축사뉴스"
+  ],
+  "teasers": [
+    {
+      "title": "런던박물관, 스미스필드로 이전 개관",
+      "desc": "세계 최대 도시박물관, 10년 만의 1단계 오픈",
+      "label": "PROJECT"
+    },
+    {
+      "title": "COP31 '안탈리아 건물 컴팩트'",
+      "desc": "2035년까지 건물 운영 에너지 집약도 25% 감축 목표",
+      "label": "POLICY"
+    },
+    {
+      "title": "쿠마&엘사, 디진 신진건축가상",
+      "desc": "일본·프랑스 기반 스튜디오의 대표작 5선",
+      "label": "AWARDS"
+    },
+    {
+      "title": "안산 상호문화공유학교 설계공모",
+      "desc": "연면적 10,836㎡·공사비 336억, 11월 30일 마감",
+      "label": "COMPETITION"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 문화시설",
+    "lede": "런던박물관, 스미스필드 옛 시장 건물로 이전 개관 — '세계 최대 도시박물관'",
+    "lede_em": "세계 최대 도시박물관",
+    "image": "https://static-2026.dezeen.com/uploads/2026/11/london-museum-stanton-williams-asif-khan-julian-harrap-architects_dezeen_2364_col_22-977x1024.jpg",
+    "image_label": "DEZEEN",
+    "caption": "런던박물관, 스미스필드 제너럴 마켓 ⓒ Hufton + Crow",
+    "body": [
+      "**런던박물관(London Museum)**이 1880년대에 지어진 **스미스필드 제너럴 마켓** 건물에 새 터전을 열었다. 설계는 **스탠턴 윌리엄스(Stanton Williams)**, **아시프 칸(Asif Khan)**, **줄리언 해럽 아키텍츠(Julian Harrap Architects)**가 맡았고, 전시 디자인은 독일 **아틀리에 브뤼크너**가 담당했다. 박물관은 스스로를 '세계에서 가장 큰 전담 도시박물관'이라고 소개한다.",
+      "프로젝트에는 **10년**이 걸렸다. 옛 시장 점포 **42개**를 **12개의 복층 유닛**으로 묶었고, 이 중 6개에는 레스토랑·갤러리·교육 공간이, 나머지 6개에는 협력 기관이 들어간다. 지상층 '아워 타임(Our Time)' 갤러리는 천창(오큘러스)으로 빛을 받고, 지하 '패스트 타임(Past Time)' 갤러리에는 템스링크 열차가 지나는 모습을 보는 **6m 폭 창**이 있다.",
+      "빅토리아풍 타일을 복원한 **24시간 카페**와, 리얼 타임(Real Time) 갤러리를 겸하는 지붕 덮인 진입가로 '웨스트 폴트리 애비뉴'도 눈에 띈다. 공사 중 발견된 **지하 저장고**는 **2027년 봄** 일반에 공개된다.",
+      "이번 개관은 바비칸의 옛 런던박물관에서 옮겨오는 이전의 **1단계**다. 인접한 1960년대 폴트리 마켓 건물은 개조를 거쳐 **2028년** 개관할 예정이며, 바비칸 옛 건물은 철거될 계획이다. 프로젝트 디렉터 알렉 쇼(Alec Shaw)가 설명을 맡았다."
+    ],
+    "source": {
+      "outlet": "Dezeen",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.dezeen.com/2026/11/24/london-museum-stanton-williams-asif-khan-julian-harrap-architects/"
+        }
+      ]
+    },
+    "src_date": "2026-11-24",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "https://images.adsttc.com/media/images/6b05/6490/2bc2/8501/8901/2b94/newsletter/cop31-in-antalya-what-the-climate-summit-means-for-buildings-and-cities_3.jpg?1795515545",
+    "image_label": "ARCHDAILY",
+    "title": "COP31 폐막 — 포괄 합의 '안탈리아 팩트'는 무산, 건물 분야는 '에너지효율 컴팩트'로 전진",
+    "body": [
+      "튀르키예 안탈리아에서 열린 **COP31**이 **11월 22일** 협상 시한을 넘겨 폐막했다. 화석연료 언급과 재원, 감축 야심 수준을 둘러싼 이견으로 포괄 합의문 '안탈리아 팩트'는 합의에 이르지 못했다."
+    ],
+    "facts": [
+      "컴팩트: 건물 에너지효율 안탈리아 컴팩트(**10월 29일** 출범, 자발적 틀)",
+      "목표: 2035년까지 전 세계 건물 **운영 에너지 집약도 25% 감축**(2020년 대비)",
+      "전력화: '35 by 35'(2035년 최종에너지의 **35%** 전력화), 약 **80개국**이 전력화 서약 지지",
+      "지지: **24개국**·EU집행위·비당사자 **38곳**이 컴팩트 지지(제2차 ICBC 장관회의)"
+    ],
+    "body_after": [
+      "컴팩트는 국가별 구속력 있는 목표를 두지 않으며, 건물 에너지·탄소 성능, 기존 건물 개보수, 에너지 수요 저감, 금융·기술 역량 등 **6개 행동 분야**를 제시한다. 도시 복원력 분야에서는 이상기후 대응을 위한 **SURFF** 금융 기구가 출범했다. 차기 COP32는 2027년 에티오피아 아디스아바바에서 열린다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1189123/cop31-in-antalya-what-the-climate-summit-means-for-buildings-and-cities"
+        }
+      ]
+    },
+    "src_date": "2026-11-24",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "교육·숙박 · 미국 위스콘신",
+      "title": "오크 숲 속 원형 회의동 — 스튜디오 갱, 제네바호 '여성 리더십 센터'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/womens-leadership-center-williams-bay-wisconsin-studio-gang_dezeen_2364_col_8-840x1024.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "**스튜디오 갱(Studio Gang)**이 시카고 인근 위스콘신 제네바호가 내려다보이는 언덕에 여성 콘퍼런스 캠퍼스 **'여성 리더십 센터'**를 완공했다. 물류기업 DSC 로지스틱스 전 CEO **앤 드레이크**가 설립한 곳이다.",
+        "**카운슬(원형 회의동)**, **롯지**, **캐빈** 세 동을 모든 구간이 무단차 경사로로 잇고 호숫가 부두로 마무리한다. 매스티버·현장 수확 **화이트오크**와 지역산 석재, 저탄소 콘크리트를 쓰고, 정원은 빗물을 모으며 부지 생태 복원을 노린다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/24/studio-gang-wisconsin-womens-leadership-center/"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "박물관 · 네덜란드 로테르담",
+      "title": "세계 최대 환적창고가 이주 박물관으로 — MAD, 로테르담 '피닉스 미술관'",
+      "image": "https://images.adsttc.com/media/images/682c/9a38/82d8/2601/88bc/cacc/newsletter/fenix-art-museum-mad-architects_4.jpg?1747753551",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "**MAD 아키텍츠**가 로테르담 항구 카텐드레흐트 반도의 옛 환적창고 일부를 **피닉스(Fenix) 미술관**으로 바꿨다. 이주를 주제로 예술·건축·사진·음식·역사를 아우르며, 이주민의 여정이 시작되고 끝난 부두를 내려다본다.",
+        "발주는 **드룸 엔 다드 재단**(2016년 설립)이다. MAD의 유럽 첫 공공 문화시설이자 중국 사무소가 유럽에 지은 첫 미술관으로 소개되며, 철골·콘크리트 구조다. 사진 ⓒ 이완 바안."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1030328/fenix-art-museum-mad-architects"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "수상 · 디진 어워즈",
+      "title": "디진 어워즈 올해의 신진건축가 쿠마&엘사 — 대표작 5선",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/kuma-elsa-dezeen-awards-emerging-architect_dezeen_2364_col_40-748x1024.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "일본인 건축가 **쿠마 쇼헤이**와 프랑스·스페인계 도시설계가 **엘사 에스코베도**가 이끄는 **쿠마&엘사(Kuma&Elsa)**가 디진 어워즈 올해의 신진건축가에 뽑혔다.",
+        "대표작은 도쿄 **나카노 하우스**(2026, 경량 철골 Y자 모듈), 오사카 엑스포 **원 워터**(2025), 사이타마 **절 옆의 집**(2024), 후쿠오카 **야마다 하우스**(2020), 몽펠리에 **워터 플라워 코트야드**(2019)다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/24/kumaelsa-key-projects-dezeen-awards-emerging-architect/"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "수상"
+    },
+    {
+      "kicker": "전시 · 베니스 비엔날레 2027",
+      "title": "포르투갈관, 아프리카 4개국 초청 — '손을 땅에 (Mãos ao Chão)'",
+      "image": "https://images.adsttc.com/media/images/6b04/8b52/dd54/ea01/8880/ef9b/newsletter/portugal-pavilion_4.jpg?1795459926",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "2027 베니스 건축 비엔날레 포르투갈관 큐레이터로 **조아나 앨리스 헴**, **레미지우 판 에이스 시룰레**, **사무엘 지 브리투 곤살베스**의 **'Mãos ao Chão'** 안이 선정됐다. 3개 팀이 겨룬 제한 공모였다.",
+        "카보베르데·기니비사우·모잠비크·상투메프린시페 **4개국**을 초청해 극한 기후, 지역 재료, 패시브 대응 등 **6개 주제**로 아프리카를 '배움의 원천'으로 다룬다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1189091/the-portuguese-pavilion-to-invite-four-african-countries-through-hands-on-the-ground-at-the-2027-venice-architecture-biennale"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "공공공간 · 철도역",
+      "title": "기다림의 건축 — 역사를 도서관·주방·체육시설로 바꾸는 사례들",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/waiting-train-stations-places-public-life-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "워르샤바 **메트로테카**(GK-Atelier, 도서 약 **16,000권**, 150㎡), 상하이남역 **X-Lighthouse**(독서공간 400㎡), 빌뉴스역 **선 홀**(320㎡, 2026년 4월 개관) 등 역사를 시민 공간으로 바꾸는 사례를 모았다.",
+        "서울 지하철의 **펀 스테이션**(여의나루 러너 스테이션, 뚝섬 피트니스, 먹골 파크골프, 시청~을지로1가 K-컬처 스테이션 2026년 8월)도 포함됐다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/waiting-train-stations-places-public-life/"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "도시재생"
+    },
+    {
+      "kicker": "인프라 · 카타르",
+      "title": "도하 '그랜드 터미널' — 메가십 2척 접안, 월드컵 축제장에서 시작한 크루즈 터미널",
+      "image": "",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "**하셀(Hassell)**이 설계한 **그랜드 터미널 도하**는 연면적 **32,000㎡**, 메가크루즈선 **2척**이 접안하는 수변 복합 시설이다.",
+        "시장·전시·축제를 열도록 계획했고, 월드컵 당시 축제장으로 처음 문을 열었다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1189080/grand-terminal-doha-hassell"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 경기 안산",
+      "title": "안산 상호문화공유학교 건립 설계공모 — 연면적 10,836㎡, 공사비 336억",
+      "body": [
+        "안산원곡초 부지 내 일반 설계공모가 **11월 24일** 공고됐다. 연면적 **10,836㎡**(교육연구시설), 설계비 **14.4억 원**, 공사비 **336억 원**이다.",
+        "참가등록 마감은 **11월 30일**, 결과 발표는 **2027년 3월 10일**이며 심사위원은 9인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19318"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 대전",
+      "title": "대전 한화생명볼파크 증축 제안공모 — 공사비 86.7억",
+      "body": [
+        "대전 중구 한화생명볼파크 증축 제안공모가 **11월 23일** 공고됐다. 연면적 **2,200㎡**(문화·집회시설), 설계비 **4.7억 원**, 공사비 **86.7억 원**이다.",
+        "참가등록은 **12월 1일** 시작, 결과 발표는 **12월 24일**, 심사위원 7인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19320"
+          }
+        ]
+      },
+      "src_date": "2026-11-23",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 인천 강화",
+      "title": "강화 남부권역 생활문화센터 조성 설계공모 — 연면적 1,700㎡, 공사비 76.1억",
+      "body": [
+        "인천 강화군 길상면 온수리 일원 일반 설계공모가 **11월 23일** 공고됐다. 연면적 **1,700㎡**(1종 근린생활시설), 설계비 **4.6억 원**, 공사비 **76.1억 원**이다.",
+        "참가등록은 **12월 1일** 시작, 결과 발표는 **2027년 2월 3일**, 심사위원 9인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19319"
+          }
+        ]
+      },
+      "src_date": "2026-11-23",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 제주",
+      "title": "(가칭)제주특수교육연구원 신축 설계공모 — 연면적 4,850㎡, 공사비 139억",
+      "body": [
+        "제주시 오등동 부지의 일반 설계공모가 **11월 25일** 공고됐다. 연면적 **4,850㎡**(교육연구시설), 설계비 **7.3억 원**, 공사비 **139억 원**이다.",
+        "참가등록은 **11월 25일~12월 2일**, 결과 발표는 **2027년 2월 12일**, 심사위원 9인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19316"
+          }
+        ]
+      },
+      "src_date": "2026-11-25",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 경북 문경",
+      "title": "문창고 공간재구조화 설계 제안공모(재공고) — 연면적 3,929㎡, 공사비 35.4억",
+      "body": [
+        "문경시 흥덕동 문창고등학교 공간재구조화 제안공모가 **11월 24일** 공고됐다. 연면적 **3,929㎡**, 설계비 **2.1억 원**, 공사비 **35.4억 원**이다.",
+        "참가등록 마감은 **11월 30일**, 결과 발표는 **12월 28일**, 심사위원 6인이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://jootek.com/folio/contests/19317"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "건축사회 · 김포",
+      "title": "김포지역건축사회, 산타릴레이 '52호 산타' 동참 — 성금 300만 원",
+      "body": [
+        "김포지역건축사회가 **11월 20일** 김포아이사랑센터의 제13회 **'산타릴레이'**에 52번째 산타로 참여해 성금 **300만 원**을 전달했다.",
+        "캠페인은 13년째 이어지며 해마다 어린이 **400~500명**의 크리스마스 선물을 지원한다. 출정식은 **12월 19일** 열린다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.a-news.kr/news/articleView.html?idxno=14044"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "제이콥스, 생명과학·첨단제조 매출 54%↑ — 수주잔고 286.5억 달러",
+      "body": "4분기 순이익 **1.65억 달러**, 매출 **47.1억 달러**(약 49%↑). 수주잔고는 **28.65십억 달러**로 24% 늘었다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/jacobs-fiscal-q4-2026-life-sciences-advanced-manufacturing/875661/"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "길베인, 7,450만 달러 '엠파이어 AI' 버펄로 데이터센터 착공",
+      "body": "뉴욕주 데이터센터 모라토리엄 면제 대상인 연구용 시설. 초기 **5MW**, 2028년 가동 목표로 대학 냉수 플랜트와 열을 공유한다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/gilbane-empire-ai-new-york-data-center/875651/"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "미 연방, 건설사 1,500곳에 E-Verify 30일 내 소명 요구",
+      "body": "GSA·DHS가 **11월 16일** 통지서를 발송했다. 미등록·계약 불일치 등이 사유이며, 소명 기한은 30일이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/trump-administration-puts-more-than-15k-contractors-on-notice-over-e-verify-compliance/875599/"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "제도규제"
+    },
+    {
+      "title": "3분기 데이터센터 무산 16건, 전년의 2배 — 누적 70건",
+      "body": "Relae 집계로 지역 반대에 막힌 프로젝트가 **16건**(전년 7건), 투자액 약 **640억 달러**. 지방 주민투표는 47건 중 46건 통과.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/data-center-cancellations-in-q3-double-relae/875445/"
+          }
+        ]
+      },
+      "src_date": "2026-11-23",
+      "topic": "제도규제"
+    },
+    {
+      "title": "휘팅터너, 1.55억 달러 美 해안경비대사관학교 STEM동 수주",
+      "body": "뉴런던 **12만 ft²** 규모 설계시공 계약. 2030년 봄 준공 예정이다.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/whiting-turner-coast-guard-academy-stem-building/875525/"
+          }
+        ]
+      },
+      "src_date": "2026-11-23",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "ASCE, 펜실베이니아 인프라 'C-' — 대중교통은 D-",
+      "body": "교량 12.1%가 불량(전국 6.8%). 식수 인프라는 **243억 달러**의 정비 수요, 에너지는 B-.",
+      "source": {
+        "outlet": "Construction Dive",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.constructiondive.com/news/asce-grades-pennsylvania-infrastructure/875611/"
+          }
+        ]
+      },
+      "src_date": "2026-11-24",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "london-museum-smithfield",
+      "tag": "MUSEUM",
+      "title": "옛 시장 건물이 세계 최대 도시박물관으로 — 런던박물관 스미스필드",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "commons_photos": [
+        "File:Smithfield Meat Market abandoned 1.jpg",
+        "File:Smithfield Market. Wellcome L0000678.jpg"
+      ],
+      "photo_query": "london victorian market hall",
+      "slides": [
+        {
+          "heading": "옛 시장이\n도시박물관으로",
+          "body": "런던박물관, 스미스필드 제너럴 마켓에 새 문을 열다"
+        },
+        {
+          "heading": "WHERE",
+          "body": "1880년대 지어진 스미스필드 제너럴 마켓. 바비칸 옛 박물관에서 옮겨오는 이전의 1단계다."
+        },
+        {
+          "heading": "HOW",
+          "body": "점포 42개를 복층 유닛 12개로 묶었다. 6개는 박물관, 6개는 협력 기관이 쓴다."
+        },
+        {
+          "heading": "SPACES",
+          "body": "천창이 비추는 아워 타임 갤러리, 템스링크 열차가 보이는 6m 창의 지하 갤러리, 24시간 카페."
+        },
+        {
+          "heading": "NEXT",
+          "body": "지하 저장고는 2027년 봄, 인접한 폴트리 마켓은 2028년 개관 예정이다."
+        }
+      ]
+    },
+    {
+      "slug": "cop31-buildings-compact",
+      "tag": "POLICY",
+      "title": "COP31 폐막 — 건물은 '에너지효율 컴팩트'로",
+      "ref": {
+        "section": "side"
+      },
+      "bg": 1,
+      "photo_query": "antalya turkey",
+      "slides": [
+        {
+          "heading": "COP31 폐막,\n건물은 전진",
+          "body": "포괄 합의는 무산됐지만 건물 컴팩트는 남았다"
+        },
+        {
+          "heading": "RESULT",
+          "body": "11월 22일 폐막. 화석연료 문구와 재원 이견으로 '안탈리아 팩트'는 합의에 실패했다."
+        },
+        {
+          "heading": "TARGET",
+          "body": "2035년까지 건물 운영 에너지 집약도를 2020년 대비 25% 줄이는 자발적 컴팩트."
+        },
+        {
+          "heading": "SUPPORT",
+          "body": "24개국과 EU집행위, 비당사자 38곳이 지지. 전력화 서약에는 약 80개국이 동참했다."
+        },
+        {
+          "heading": "ACTION",
+          "body": "개보수, 에너지·탄소 성능, 수요 저감 등 6개 행동 분야. 구속력은 없다."
+        }
+      ]
+    },
+    {
+      "slug": "mad-fenix-rotterdam",
+      "tag": "CULTURE",
+      "title": "환적창고가 이주 박물관으로 — MAD의 로테르담 피닉스",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 2,
+      "commons_photos": [
+        "File:FENIX museum building, Katendrecht, Rotterdam.jpg"
+      ],
+      "photo_query": "rotterdam harbor warehouse",
+      "slides": [
+        {
+          "heading": "창고가\n이주의 박물관으로",
+          "body": "MAD, 로테르담 항구에 피닉스 미술관을 열다"
+        },
+        {
+          "heading": "SITE",
+          "body": "카텐드레흐트 반도, 세계 최대 환적창고의 일부를 개조했다."
+        },
+        {
+          "heading": "THEME",
+          "body": "이주민의 여정이 시작되고 끝난 부두를 내려다보며 이주를 예술·건축·음식으로 풀어낸다."
+        },
+        {
+          "heading": "FIRST",
+          "body": "MAD의 유럽 첫 공공 문화시설이자 중국 사무소가 유럽에 지은 첫 미술관."
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "total": 20,
+    "intl": 14,
+    "kr": 6
+  }
+}
