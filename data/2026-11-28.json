@@ -1,0 +1,521 @@
+{
+  "vol": "VOL.01  NO.103",
+  "editor": "HUEY",
+  "counts": {
+    "total": 19,
+    "intl": 12,
+    "kr": 7
+  },
+  "outlets": [
+    "Dezeen",
+    "ArchDaily",
+    "designboom",
+    "Ogletree",
+    "주택폴리오",
+    "건축사신문",
+    "건축사뉴스"
+  ],
+  "teasers": [
+    {
+      "title": "ZHA 라바트 왕립극장 완공",
+      "desc": "1,821석 오페라극장, 아프리카 첫 ZHA 준공작",
+      "label": "OPENING"
+    },
+    {
+      "title": "미 노동부 독립계약자 최종규칙",
+      "desc": "2024년 규칙 폐지, 2021년 방식 복귀",
+      "label": "POLICY"
+    },
+    {
+      "title": "한전 강릉 제어동 설계공모",
+      "desc": "공사비 118억, 참가등록 12/7 마감",
+      "label": "COMPETITION"
+    },
+    {
+      "title": "간삼건축 BIM AWARDS 비전상",
+      "desc": "BIM 105건 수행, 전사 AI 플랫폼 도입",
+      "label": "AWARDS"
+    }
+  ],
+  "top": {
+    "kicker": "TOP STORY · 공연장",
+    "lede": "16년 만에 완성된 ZHA의 아프리카 첫 작품 — 라바트 왕립극장",
+    "lede_em": "ZHA의 아프리카 첫 작품",
+    "image": "https://images.adsttc.com/media/images/6b08/583d/62b6/4801/886c/44dd/medium_jpg/zhas-recently-completed-theatre-royal-de-rabat-in-morocco-photographed-by-hufton-and-crow_6.jpg?1795709106",
+    "image_label": "ARCHDAILY",
+    "caption": "모로코 라바트 왕립극장 ⓒ Hufton+Crow",
+    "body": [
+      "자하 하디드 아키텍츠(ZHA)가 설계한 모로코 라바트의 **왕립극장(Théâtre Royal de Rabat)** 이 완공 사진과 함께 공개됐다. **2010년** 설계를 시작해 **2024년 10월** 부분 개관, **2026년 4월 22일** 일반에 문을 열었다. ZHA가 아프리카에서 완공한 첫 프로젝트다.",
+      "부지는 Bou Regreg 강 좌안, 무함마드 5세 영묘와 하산 탑 인근이다. 세계유산급 역사 경관 바로 곁에 대형 공연 시설을 앉히는 입지다.",
+      "시설은 **1,821석** 오페라 극장, **250명** 규모 실험 극장, **7,000명**을 수용하는 야외 원형극장으로 구성된다. 음향 설계는 Arup 뉴욕이 맡았다.",
+      "시공에는 **900명 이상**의 노동자와 장인이 참여했고 공사의 **90%** 를 모로코 기업이 수행했다. ZHA는 현재 리비아 벵가지, 아제르바이잔 바쿠, 중국 선전 OPPO 본사 캠퍼스도 진행 중이다."
+    ],
+    "source": {
+      "outlet": "ArchDaily",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://www.archdaily.com/1189309/zhas-recently-completed-theatre-royal-de-rabat-in-morocco-photographed-by-hufton-plus-crow"
+        }
+      ]
+    },
+    "src_date": "2026-11-27",
+    "topic": "프로젝트"
+  },
+  "side": {
+    "label": "실무 직결 · 제도/규제",
+    "image": "",
+    "image_label": "",
+    "title": "미 노동부, 독립계약자 판정 최종규칙 — 2024년 규칙 폐지하고 2021년 방식으로",
+    "body": [
+      "미국 노동부 임금시간국(WHD)이 **11월 19일** 독립계약자 분류에 관한 최종규칙을 발표했다. 바이든 행정부의 2024년 규칙을 폐지하고 2021년 규칙과 유사한 '경제적 실태' 테스트로 되돌린다. 하도급·협력 인력을 쓰는 설계·시공 업계에도 영향이 있다."
+    ],
+    "facts": [
+      "시행: 연방관보 게재 후 **60일**",
+      "핵심 요소: 업무 통제의 성격·정도, 이익·손실 기회",
+      "추가 요소: 필요 기술, 관계의 지속성, 생산 단위 통합 여부",
+      "의견 접수: 제안규칙(2026년 2월)에 약 **16,500건**"
+    ],
+    "body_after": [
+      "추가 요소는 노동자가 독립 사업자인지 경제적 의존 상태인지와 관련될 때만 고려된다. 주(州) 규정이 더 엄격할 수 있어 별도 확인이 필요하다."
+    ],
+    "source": {
+      "outlet": "Ogletree",
+      "links": [
+        {
+          "text": "기사",
+          "url": "https://ogletree.com/?p=94919"
+        }
+      ]
+    },
+    "src_date": "2026-11-19",
+    "topic": "제도규제"
+  },
+  "intl_feature": [
+    {
+      "kicker": "OFFICE · 리투아니아",
+      "title": "종이클립에서 따온 사무소 — RSHP, 빌뉴스 '사바르젤레'",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/rshp-Savarzele-vilnius_dezeen_2364_col_hero.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "RSHP가 리투아니아 빌뉴스 중심부, 유네스코 세계유산 구시가지와 상업지구 사이에 **7층·연면적 19,000㎡** 복합 오피스 '사바르젤레'(리투아니아어로 '클립')를 완성했다.",
+        "공장 제작 철골 부재를 현장에서 볼트로 조립했고 중앙에 유리 아트리움을 두었다. 이중 외피, 칠드빔 냉방, 자동 자연환기를 적용했으며 **2,897㎡** 녹색 옥상을 갖췄다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/26/rshp-savarzele-cantilevered-office/"
+          }
+        ]
+      },
+      "src_date": "2026-11-26",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "EXHIBITION · 독일",
+      "title": "'열대 모더니즘'이라는 라벨을 피하다 — 비트라 디자인 뮤지엄 제프리 바와전",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/geoffrey-bawa_2364_hero_0.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "독일 바일 암 라인 비트라 디자인 뮤지엄이 **20년 만의 첫 대규모 회고전** 〈Geoffrey Bawa: Architecture for the Senses〉를 **2027년 2월 28일**까지 연다. 이후 **2027년 6월**부터 홍콩 M+로 순회한다.",
+        "도면·모형·아카이브 사진·가구 등 **250점 이상**이 나오고, 전시 연출은 2026 디진 어워즈 올해의 건축가 리나 곧메(Lina Ghotmeh)가 맡았다. 이완 바안(Iwan Baan)이 바와의 건물 11곳을 새로 촬영했다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/27/geoffrey-bawa-exhibition-vitra-design-museum/"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "프로젝트"
+    }
+  ],
+  "intl_grid": [
+    {
+      "kicker": "PROPOSAL · 미국",
+      "title": "텍사스, 휴스턴에 '미국 우주사관학교' 제안 공개",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/us-space-academy-houston-texas_dezeen_2364_hero-col_11.jpg",
+      "image_label": "DEZEEN",
+      "body": [
+        "텍사스 우주위원회가 NASA 존슨우주센터 옆 빈 부지(과거 미션 컨트롤 자리)에 들어설 우주사관학교 제안서를 공개했다. 물에 둘러싸인 **꽃잎 형태** 건물군 배치다.",
+        "NASA 정보요청(RFI)에 대한 응답이며 착공은 **내년** 예상. 크루즈·탈라리코 상원의원이 초당적 지지를 밝혔다."
+      ],
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/27/us-space-academy-houston-texas/"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "HOUSING · 슬로베니아",
+      "title": "습지 위의 집합주거 — OFIS, 류블랴나 '하우징 온 더 마시스'",
+      "image": "https://images.adsttc.com/media/images/6b07/f74c/3a81/a801/8917/c6ee/medium_jpg/housing-on-the-marshes-ofis-architects_24.jpg",
+      "image_label": "ARCHDAILY",
+      "body": [
+        "OFIS Architects가 류블랴나 습지와 도시 조직이 만나는 '기억의 길' 인근에 연면적 **28,600㎡**, **170세대**와 상업 공간 2곳의 주거 단지를 2026년 완공했다.",
+        "식재 테라스와 공용 외부 공간을 결합했고, 물과 연약지반이 만든 지형을 설계에 반영했다."
+      ],
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1189136/housing-on-the-marshes-ofis-architects"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "VISITOR CENTER · 중국",
+      "title": "슬레이트 곡면 지붕 — 황궈수 풍경구 두 방문자센터",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/huangguoshu-waterfall-tianxingqiao-scenic-area-china-designboom-1800.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "중국 구이저우성 안순시 황궈수 풍경구에 CAUPD와 AEPA&TSC가 설계한 방문자센터 두 곳이 들어섰다. 톈싱차오 쪽은 **1,800㎡**로 고저차 **4m**를 활용한다.",
+        "구이저우 전통 석조 가옥을 참고해 수천 장의 슬레이트로 곡면 지붕을 만들었다. 성수기 **하루 최대 5만 명** 방문객 분산 동선이 설계의 출발점이었다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/sinuous-stone-roofed-visitor-center-mountains-china-huangguoshu-scenic-area/"
+          }
+        ]
+      },
+      "src_date": "2026-11-26",
+      "topic": "프로젝트"
+    },
+    {
+      "kicker": "TIMBER OFFICE · 네덜란드",
+      "title": "히스 지붕 얹은 목조 사무소 — 스튜디오 마시모 '오피스 바이 네이처'",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/11/tafelberg-heath-blaricum-office-nature-timber-studio-massimo-designboom-1800-1.jpg",
+      "image_label": "DESIGNBOOM",
+      "body": [
+        "Studio Massimo가 네덜란드 블라리쿰 타펠베르흐 히스 지대에 **1,120㎡** 목조 사무소를 지었다. 라미네이트 목재·CLT 골조에 목섬유 단열재를 쓰고 외장은 포플러 나무껍질 슁글이다.",
+        "지붕에는 히스를 심었고 내부는 레드 그란디스 목재로 마감했다."
+      ],
+      "source": {
+        "outlet": "designboom",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.designboom.com/architecture/living-heather-roof-poplar-bark-cladding-timber-office-dutch-heathland-studio-massimo/"
+          }
+        ]
+      },
+      "src_date": "2026-11-25",
+      "topic": "프로젝트"
+    }
+  ],
+  "korea": [
+    {
+      "kicker": "설계공모 · 강원 강릉",
+      "title": "한국전력공사 강릉지역 송변전설비 제어동 증축 설계공모 — 연면적 2,170㎡, 공사비 118억",
+      "body": [
+        "강릉시 홍제동 429-1에 **연면적 2,170㎡** 제어동을 증축하는 일반 설계공모다. 예정 설계비 **6.3억 원**, 공사비 **118억 원**.",
+        "참가등록 마감은 **12월 7일**(주택폴리오 표시 기준)이다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/19336"
+          }
+        ]
+      },
+      "src_date": "2026-11-26",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "설계공모 · 충남 공주",
+      "title": "유용미생물 배양실 스마트 기반 구축사업 제안공모(재공고) — 연면적 647㎡, 공사비 31.6억",
+      "body": [
+        "공주시농업기술센터가 충남 공주시 우성면 도천리 일원에 **647㎡** 배양실을 짓는 제안공모를 재공고했다. 예정 설계비 **2억 원**, 공사비 **31.6억 원**.",
+        "공고일은 12월 1일, 참가등록 시작은 12월 7일로 표시돼 있다."
+      ],
+      "source": {
+        "outlet": "주택폴리오",
+        "links": [
+          {
+            "text": "공모 공고",
+            "url": "https://jootek.com/folio/contests/19330"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "설계공모"
+    },
+    {
+      "kicker": "공간혁신 · 서울",
+      "title": "2026 공간혁신 우수사례 — 서울시교육청 신청사 최우수상",
+      "body": [
+        "행정안전부가 **11월 25일** 경진대회에서 공간혁신 5개 기관을 선정했다. 서울시교육청이 최우수, 충북도청이 우수, 기획예산처·신용보증기금이 장려, 계룡도서관이 유니버설디자인 부문 장려상이다.",
+        "서울시교육청 신청사는 **2018년** 설계공모(더블유아키텍츠·디자인랩스튜디오 공동)로 올해 완공됐다. 계룡도서관은 그린리모델링으로 에너지 절감률 **54.3%**를 기록했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21488"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "수상"
+    },
+    {
+      "kicker": "AWARDS · 설계사무소",
+      "title": "간삼건축, 'BIM AWARDS 2026' 비전상 — 2006년 도입 후 105건 수행",
+      "body": [
+        "간삼건축이 **11월 24일** BIM AWARDS 2026 비전상을 받았다. **2006년** BIM 도입 이후 **105건**을 수행했고 2021년 5개년 전사화 계획을 추진했다.",
+        "초기 설계 대지 정보 수집에 AI를 쓰고 Rhino와 생성형 AI를 연결해 모델링 자동화를 시도하며, **9월** 사내 AI 통합 플랫폼을 도입했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21492"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "수상"
+    },
+    {
+      "kicker": "공공건축 · 용인",
+      "title": "용인시, 공공건축물 설계부터 사후관리까지 장애인 당사자 참여 확대",
+      "body": [
+        "용인시가 **7월** 마련한 '공공건축물 건립 개선계획'에 따라 설계·시공·운영 전 단계에 장애인 당사자 참여를 넓힌다. **12월** 준공 예정 신봉도서관을 24일 합동 점검했다.",
+        "설계 단계에서 출입구·경사로·승강기 동선을, 시공 단계에서 장애 유형별 현장 점검을 하고, 개관 뒤 만족도 조사를 시설 운영에 반영한다."
+      ],
+      "source": {
+        "outlet": "건축사뉴스",
+        "links": [
+          {
+            "text": "기사",
+            "url": "http://www.a-news.kr/news/articleView.html?idxno=14050"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "INTERVIEW · 실무수련",
+      "title": "정찬호 건축사 \"실무수련 제도, 유연하고 실효성 있게 보완돼야\"",
+      "body": [
+        "건축사사무소 이프 정찬호 건축사는 분야별 이수기간을 두고, 소속 사무소에서 경험하기 어려운 업무는 실무교육·강의로 대체하자고 제안했다.",
+        "건축사 업무대가 기준을 민간사업에도 준용할 제도 기반이 마련됐다고 평가하면서, 한국부동산원 신축단가표처럼 업무별 평균 단가를 공표하자고 말했다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21485"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "제도규제"
+    },
+    {
+      "kicker": "건축문화제 · 제주",
+      "title": "'2026 제주국제건축문화제' 성료 — 주제 '공존의 미래, 열려있는 경계'",
+      "body": [
+        "제주특별자치도건축사회가 **10월 24~29일** 6일간 행사를 열었다. 일본 삼부이치 히로시, 중국 동공(Dong Gong) 건축가가 강연·토론에 참여했다.",
+        "고봉규 건축사(전 제주건축사회 23·24대 회장)가 '제주건축문화인상'을 받았다."
+      ],
+      "source": {
+        "outlet": "건축사신문",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.ancnews.kr/news/articleView.html?idxno=21481"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "프로젝트"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "포르투갈 루자다 59㎡ 복합환승 거점 — spaceworkers",
+      "body": "포르투갈 북부 루자다 북쪽에 연면적 59㎡로 2024년 완공. 설계 Rui Dinis·Henrique Marques.",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1035818/intermodal-hub-of-lousada-spaceworkers"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "프랑스 보베 '아르헨티나 미디어라이브러리' 650㎡",
+      "body": "보베 아르헨티나 지구에 2026년 완공. 설계 CONTINUO ARCHITECTURE(Francesco Girardi·Morgan Auffret).",
+      "source": {
+        "outlet": "ArchDaily",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.archdaily.com/1189058/argentine-media-library-continuo-architecture"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "브라질 과이라투바 해안 주택 — 프리캐스트 콘크리트와 브리즈솔레이유",
+      "body": "Estúdio 41 설계, 375㎡ 2층. 기둥 6·보 4·이중 티 슬래브 20개 프리패브 구조에 천공 멜라민 패널 차양.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/27/guaratuba-house-brazil-estudio-41/"
+          }
+        ]
+      },
+      "src_date": "2026-11-27",
+      "topic": "프로젝트"
+    },
+    {
+      "title": "건물 위 나무는 그린워싱인가 — 보스코 베르티칼레 내재탄소 +1%",
+      "body": "Arup 분석상 식재 없는 동일 발코니 건물보다 내재탄소 약 1% 높을 뿐. MVRDV는 파리 La Serre 상쇄에 수백 년 걸린다고 인정.",
+      "source": {
+        "outlet": "Dezeen",
+        "links": [
+          {
+            "text": "기사",
+            "url": "https://www.dezeen.com/2026/11/25/trees-on-buildings-greenwashing/"
+          }
+        ]
+      },
+      "src_date": "2026-11-25",
+      "topic": "프로젝트"
+    }
+  ],
+  "cardnews": [
+    {
+      "slug": "zha-rabat-royal-theatre",
+      "tag": "PROJECT",
+      "title": "ZHA의 아프리카 첫 작품, 라바트 왕립극장",
+      "ref": {
+        "section": "top"
+      },
+      "bg": 0,
+      "photo_query": "rabat morocco",
+      "slides": [
+        {
+          "heading": "아프리카에\n선 첫 ZHA",
+          "body": "모로코 라바트 왕립극장, 16년 만의 완성"
+        },
+        {
+          "heading": "WHEN",
+          "body": "2010년 설계 시작, 2024년 10월 부분 개관, 2026년 4월 22일 일반 공개됐다."
+        },
+        {
+          "heading": "SPACE",
+          "body": "1,821석 오페라 극장, 250명 실험 극장, 7,000명 야외 원형극장으로 구성된다."
+        },
+        {
+          "heading": "SITE",
+          "body": "Bou Regreg 강 좌안, 무함마드 5세 영묘와 하산 탑 인근에 자리한다."
+        },
+        {
+          "heading": "LOCAL",
+          "body": "900명 이상이 시공에 참여했고 공사의 90%를 모로코 기업이 수행했다."
+        }
+      ]
+    },
+    {
+      "slug": "space-innovation-award",
+      "tag": "AWARDS",
+      "title": "2026 공간혁신 우수사례 — 서울시교육청 최우수",
+      "ref": {
+        "section": "korea",
+        "index": 2
+      },
+      "bg": 1,
+      "photo_query": "modern office building interior",
+      "slides": [
+        {
+          "heading": "공간혁신\n최우수는 교육청",
+          "body": "행안부 2026 우수사례 5개 기관 선정"
+        },
+        {
+          "heading": "WHO",
+          "body": "서울시교육청 최우수, 충북도청 우수, 기획예산처·신용보증기금 장려상."
+        },
+        {
+          "heading": "DESIGN",
+          "body": "신청사는 2018년 설계공모로 선정돼 올해 완공, 열린 공공청사를 구현했다."
+        },
+        {
+          "heading": "GREEN",
+          "body": "계룡도서관은 그린리모델링으로 에너지 절감률 54.3%, 유니버설디자인 부문 수상."
+        },
+        {
+          "heading": "NEXT",
+          "body": "행안부는 우수사례집을 제작·배포할 예정이다."
+        }
+      ]
+    },
+    {
+      "slug": "bawa-vitra-retrospective",
+      "tag": "EXHIBITION",
+      "title": "제프리 바와 회고전 — 비트라 디자인 뮤지엄",
+      "ref": {
+        "section": "intl_feature",
+        "index": 1
+      },
+      "bg": 2,
+      "photo_query": "geoffrey bawa sri lanka",
+      "slides": [
+        {
+          "heading": "감각의 건축\n제프리 바와",
+          "body": "20년 만의 대규모 회고전이 독일에서 열렸다"
+        },
+        {
+          "heading": "WHEN",
+          "body": "2026년 9월 26일부터 2027년 2월 28일까지, 이후 2027년 6월 홍콩 M+로 순회한다."
+        },
+        {
+          "heading": "WHAT",
+          "body": "도면·모형·아카이브 사진·가구 등 250점 이상이 나온다."
+        },
+        {
+          "heading": "WHO",
+          "body": "전시 연출은 리나 곧메, 신작 사진은 이완 바안이 바와의 건물 11곳을 촬영했다."
+        },
+        {
+          "heading": "POINT",
+          "body": "큐레이터는 '열대 모더니즘'이라는 라벨을 피하고자 했다."
+        }
+      ]
+    }
+  ]
+}
